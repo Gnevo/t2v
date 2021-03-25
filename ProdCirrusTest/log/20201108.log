@@ -1,0 +1,28 @@
+11:17:07 moen001  UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (1) on conditions username = moen001 AND company_id = 6
+11:17:14 moen001 Roberth Test UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = moen001 AND company_id = 6
+11:17:14 moen001 Roberth Test INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( moen001, 85.89.66.107, Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36 ) => {inserted_id = 15134}
+11:17:14 moen001 Roberth Test DELETE data from tables `temp_session` on conditions username LIKE moen001
+11:17:14 moen001 Roberth Test UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-11-08 11:17:14) on conditions username = moen001
+11:17:14 moen001 Roberth Test UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-11-08 11:17:14) on conditions username = moen001 AND company_id = 6
+11:17:14 moen001 Roberth Test UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (moen001) on conditions session_id = rrufdgmai1u6u0i3f353o2rgr1
+11:17:23 moen001 Roberth Test DELETE data from tables `temp_session` on conditions username LIKE moen001
+11:17:23 moen001 Roberth Test UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2020-11-08 11:17:23) on conditions username = moen001
+11:17:23 moen001 Roberth Test UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-11-08 11:17:23) on conditions username = moen001 AND company_id = 6
+11:17:23   UPDATING data to tables `log_login` fields ( logout_time ) values (2020-11-08:10:17:23) on conditions id = 15134 AND username = moen001
+11:17:42 sikn001 Siw Knopp INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( sikn001, 85.89.66.107, Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36 ) => {inserted_id = 15135}
+11:17:42 sikn001 Siw Knopp DELETE data from tables `temp_session` on conditions username LIKE sikn001
+11:17:42 sikn001 Siw Knopp UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-11-08 11:17:42) on conditions username = sikn001
+11:17:42 sikn001 Siw Knopp UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-11-08 11:17:42) on conditions username = sikn001 AND company_id = 6
+11:17:42 sikn001 Siw Knopp UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (sikn001) on conditions session_id = 4d7jqh8rkldvbu7prod5k6uqv1
+11:21:08 sikn001 Siw Knopp INSERTING data into tables `employee_non_preferred_timings` fields ( group_id, employee, date_from, date_to, day, time_from, time_to, mode ) values ( 22, sikn001, 2020-11-30, 2020-12-06, 1, 6, 20, 1 ), ( 22, sikn001, 2020-11-30, 2020-12-06, 2, 6, 20, 1 ), ( 22, sikn001, 2020-11-30, 2020-12-06, 3, 6, 20, 1 ), ( 22, sikn001, 2020-11-30, 2020-12-06, 6, 16, 22, 1 ) => {inserted_id = 71}
+11:22:08 sikn001 Siw Knopp DELETE data from tables `employee_non_preferred_timings` on conditions id = 73
+11:23:03 sikn001 Siw Knopp DELETE data from tables `temp_session` on conditions username LIKE sikn001
+11:23:03 sikn001 Siw Knopp UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2020-11-08 11:23:03) on conditions username = sikn001
+11:23:03 sikn001 Siw Knopp UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-11-08 11:23:03) on conditions username = sikn001 AND company_id = 6
+11:23:03   UPDATING data to tables `log_login` fields ( logout_time ) values (2020-11-08:10:23:03) on conditions id = 15135 AND username = sikn001
+11:23:17 moen001 Roberth Test INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( moen001, 85.89.66.107, Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36 ) => {inserted_id = 15136}
+11:23:17 moen001 Roberth Test DELETE data from tables `temp_session` on conditions username LIKE moen001
+11:23:17 moen001 Roberth Test UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-11-08 11:23:17) on conditions username = moen001
+11:23:17 moen001 Roberth Test UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-11-08 11:23:17) on conditions username = moen001 AND company_id = 6
+11:23:17 moen001 Roberth Test UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (moen001) on conditions session_id = 1de9f68rhg6du748b09scd6qp5
+11:26:18 moen001 Roberth Test UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (moen001) on conditions session_id = 1de9f68rhg6du748b09scd6qp5

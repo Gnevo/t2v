@@ -1,0 +1,528 @@
+06:42:17 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 223.30.129.234, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36 ) => {inserted_id = 6438}
+06:42:17 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+06:42:18 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-04-10 06:42:17) on conditions username = dodo001
+06:42:18 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-04-10 06:42:17) on conditions username = dodo001 AND company_id = 6
+06:42:19 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = 9c705d2afcc3591f1d5925e01eca2217
+07:05:40 dodo001 Admin Cirrus INSERTING data into tables `customer_implimentation` fields ( customer, history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable, created_by ) values ( adan001, <p>testing on 10-04-2018</p>, <p>testing on 10-04-2018<br></p>, <p>testing on 10-04-2018<br></p>, <p><br></p>, , , <p><br></p>, , <p><br></p>, <p><br></p>, , dodo001 ) => {inserted_id = 5}
+07:07:03 dodo001 Admin Cirrus INSERTING data into tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable, created_by ) values ( adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, ja, <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, , dodo001 ) => {inserted_id = 3}
+07:07:52 dodo001 Admin Cirrus INSERTING data into tables `customer_implimentation` fields ( customer, history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable, created_by ) values ( adan001, <p>testing on 10-04-2018 2<br></p>, <p>testing on 10-04-2018 2<br></p>, <p>testing on 10-04-2018 2<br></p>, <p><br></p>, , , <p>testing on 10-04-2018 2<br></p>, , <p><br></p>, <p><br></p>, , dodo001 ) => {inserted_id = 6}
+07:08:44 dodo001 Admin Cirrus INSERTING data into tables `time2vie_cirruscommon`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, category_id, priority, ticket_type, status, hidden ) values ( 1435, dodo001, <p>what is this?</p>, 7, 3, 2, 2, 1 ) => {inserted_id = 2499}
+07:09:03 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:10:09 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:11:07 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:12:06 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:13:09 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:14:06 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:15:09 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:16:10 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:17:09 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:18:08 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:19:11 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:20:12 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:21:08 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:22:07 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:23:10 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:24:06 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:25:09 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:26:13 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:27:06 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:28:07 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:29:07 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:30:07 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:31:07 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:32:08 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:33:09 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:34:07 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:35:10 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:36:08 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:37:07 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:38:07 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:39:10 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:40:06 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:41:08 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:42:08 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:43:08 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:44:05 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:45:08 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:46:10 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:47:11 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:48:08 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:49:07 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:50:07 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:51:03 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:52:09 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:53:07 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:54:14 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:55:09 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:56:07 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:57:11 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:58:08 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+07:59:08 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+08:00:08 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+08:01:08 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+08:02:06 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+08:02:33 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+08:02:33 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 82.102.169.113, android ) => {inserted_id = 6439}
+08:02:33 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+08:02:33 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-04-10 08:02:33) on conditions username = gine001
+08:02:33 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-04-10 08:02:33) on conditions username = gine001 AND company_id = 6
+08:03:08 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+08:04:12 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+08:05:08 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+08:06:09 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+08:07:03 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+10:19:52 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 199.203.35.237, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0 ) => {inserted_id = 6440}
+10:19:52 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+10:19:52 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-04-10 10:19:52) on conditions username = gine001
+10:19:52 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-04-10 10:19:52) on conditions username = gine001 AND company_id = 6
+10:28:43 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 223.30.129.234, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36 ) => {inserted_id = 6441}
+10:28:43 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+10:28:43 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-04-10 10:28:43) on conditions username = dodo001
+10:28:43 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-04-10 10:28:43) on conditions username = dodo001 AND company_id = 6
+10:28:45 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = 9c705d2afcc3591f1d5925e01eca2217
+10:29:53 gine001 Gilad Nevo UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+10:30:04 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+10:30:53 gine001 Gilad Nevo UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+10:31:04 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+10:31:53 gine001 Gilad Nevo UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+10:32:04 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+10:32:53 gine001 Gilad Nevo UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+10:33:04 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+10:33:53 gine001 Gilad Nevo UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+10:34:04 dodo001 Admin Cirrus UPDATING data to tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable ) values (adan001, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, <p>testing on 10-04-2018 work description<br></p>, , <p>testing on 10-04-2018 work description<br></p>, <p><br></p>, 0) on conditions id = 3
+10:37:06 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p>testing on 10-04-2018 2<br></p>, <p>testing on 10-04-2018 2<br></p>, <p>testing on 10-04-2018 2<br></p>, <p><br></p>, , , <p>testing on 10-04-2018 2<br></p>, , , , 0) on conditions id = 6
+10:37:35 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirruscommon`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, category_id, priority, ticket_type, status, hidden ) values ( 1435, gine001, <p>Löst<br></p>, 7, 3, 2, 4, 0 ) => {inserted_id = 2500}
+10:38:06 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p>testing on 10-04-2018 2<br></p>, <p>testing on 10-04-2018 2<br></p>, <p>testing on 10-04-2018 2<br></p>, <p><br></p>, , , <p>testing on 10-04-2018 2<br></p>, , , , 0) on conditions id = 6
+10:39:06 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p>testing on 10-04-2018 2<br></p>, <p>testing on 10-04-2018 2<br></p>, <p>testing on 10-04-2018 2<br></p>, <p><br></p>, , , <p>testing on 10-04-2018 2<br></p>, , , , 0) on conditions id = 6
+10:40:06 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p>testing on 10-04-2018 2<br></p>, <p>testing on 10-04-2018 2<br></p>, <p>testing on 10-04-2018 2<br></p>, <p><br></p>, , , <p>testing on 10-04-2018 2<br></p>, , , , 0) on conditions id = 6
+10:41:06 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p>testing on 10-04-2018 2<br></p>, <p>testing on 10-04-2018 2<br></p>, <p>testing on 10-04-2018 2<br></p>, <p><br></p>, , , <p>testing on 10-04-2018 2<br></p>, , , , 0) on conditions id = 6
+10:42:06 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p>testing on 10-04-2018 2<br></p>, <p>testing on 10-04-2018 2<br></p>, <p>testing on 10-04-2018 2<br></p>, <p><br></p>, , , <p>testing on 10-04-2018 2<br></p>, , , , 0) on conditions id = 6
+10:43:06 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p>testing on 10-04-2018 2<br></p>, <p>testing on 10-04-2018 2<br></p>, <p>testing on 10-04-2018 2<br></p>, <p><br></p>, , , <p>testing on 10-04-2018 2<br></p>, , , , 0) on conditions id = 6
+10:43:43 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p><br></p>, <p><br></p>, <p><br></p>, <p><br></p>, , , <p><br></p>, , , , 0) on conditions id = 4
+10:44:06 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p>testing on 10-04-2018 2<br></p>, <p>testing on 10-04-2018 2<br></p>, <p>testing on 10-04-2018 2<br></p>, <p><br></p>, , , <p>testing on 10-04-2018 2<br></p>, , , , 0) on conditions id = 6
+10:44:43 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p><br></p>, <p><br></p>, <p><br></p>, <p><br></p>, , , <p><br></p>, , , , 0) on conditions id = 4
+10:45:06 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p>testing on 10-04-2018 2<br></p>, <p>testing on 10-04-2018 2<br></p>, <p>testing on 10-04-2018 2<br></p>, <p><br></p>, , , <p>testing on 10-04-2018 2<br></p>, , , , 0) on conditions id = 6
+10:45:16 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values (, , Nytt internt ärendenr  #{id}, Hej {admin_name},
+
+Ärendenr #{id}
+
+Skapat av: {created_name}, {created_user},  Mobilnr: {created_mobile}
+
+ Datum/tid: {date}, Prioritet: {priority}
+
+Pågående status: {status}
+Problemområdet: {category}
+
+Ämne: {title}
+
+Beskrivning av problemet: {description}
+
+Länk till ärendet: {url}.) on conditions id = 1
+10:45:16 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values (, , Nytt Cirrus ärende skickat till Support. Ärendenr #{id}, Ärende skapat av: {created_name}, Datum/tid: {date}
+
+Prioritet: {priority}
+Ärende typ: {type}, Pågående status: {status}, Problemområdet: {category}
+
+Ämne: {title}
+Beskrivning av problemet: {description}
+
+Länk till ärendet: {url}.) on conditions id = 2
+10:45:16 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values ({company_email}, {company_name}, Nytt internt ärendenr #{id}, Hej {created_name},
+
+Status: {status}, Prio: {priority}
+Datum/tid:  {date}
+Problemområdet: {category}, Prioritet: {priority}, Pågående status: {status}
+
+Ämne: {title}
+Beskrivning av problemet: {description}
+
+Länk till ärendet: {url}.) on conditions id = 3
+10:45:16 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values (support@time2view.se, IT support, Nytt Cirrus ärende #{id}, Hej {created_name},
+
+Status: {status}, Prio: {priority}
+Datum/tid:  {date}
+Problemområdet: {category}, Prioritet: {priority}, Pågående status: {status}
+
+Ämne: {title}
+Beskrivning av problemet: {description}
+
+Länk till ärendet: {url}.) on conditions id = 4
+10:45:16 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values (, , Svar i internt ärendenr #{id}, Hej {admin_name},
+
+Svar - ärendenr: #{id}, Datum/tid: {date}
+
+Skapat av: {created_name}, Användarnamn: {created_user}
+Mobilnr: {created_mobile}
+
+Status: {answer_status}, Prio: {priority}
+Problemområdet: {category}
+
+Ämne: {title}
+Problembeskrivning: {description}
+
+Länk till ärendet: {url}) on conditions id = 5
+10:45:16 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values (, , Svar från administratören i ärendenr #{id}, Hej {admin_name},
+
+Svar - ärendenr:  #{id}, Datum/tid: {date}
+
+Skapat av: {created_name},  Användarnamn: {created_user}
+{answer_status} 
+Problemområdet: {category}, Prioritet: {priority}
+
+Ämne: {title}
+Problembeskrivning: {description}
+
+Länk till ärendet: {url}) on conditions id = 6
+10:45:16 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values (, , Svar angånde Cirrus ärendenr #{id}, Hej {answer_name},
+
+Datum/tid: {date}
+Skapat av: {created_name}, Användarnamn: {created_user}, Mobilnr: {created_mobile}
+
+Ärendetyp: {type},  
+{answer_status}, Prioritet: {priority}
+
+Problemområdet: {category}
+
+
+
+Ämne: {title}
+Problembeskrivning: {description}
+{answer_user}
+{answer}
+
+Länk till ärendet: {url}) on conditions id = 7
+10:45:17 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values (, , Svar från Cirrus Support angående ärendenr #{id}, Hej {answer_name},
+
+Ärendenr: #{id}, Datum/tid: {date}
+
+
+Skapat av: {created_name}
+Ärendetyp: {type},   {answer_status}
+Prioritet: {priority}, Problemområdet: {category}
+
+Ämne: {title}
+Problembeskrivning: {description}
+
+Länk till ärendet: {url}) on conditions id = 8
+10:45:17 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values (, , Svar från administratör till samtliga berörda i ärendenr #{id}, Hej {admin_name},
+
+Nytt svar skickat i ärendenr: #{id}, Datum/tid: {date}
+
+Skapat av: {created_name}, Användarnamn: {created_user}, Mobilnr: {created_mobile}
+
+Ärendetyp: {type}, Pågående status: {status}
+Problemområdet: {category}, Prioritet: {priority}
+
+Ämne: {title}
+Problembeskrivning: {description}
+
+Länk till ärendet: {url}) on conditions id = 9
+10:45:17 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values ({company_email}, {company_name}, Automatiskt meddelande om internt ärendestängning #{id}, Status: {status}
+Ärendestänr: #{id}, Datum/tid: {date}
+
+Skapat av: {created_name}, Användarnamn: {created_user}
+
+Problemområdet: {category}, Prioritet: {priority}
+
+Ämne: {title}
+Problembeskrivning: {description}
+
+Länk till ärendet: {url}) on conditions id = 10
+10:45:17 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values ({admin_email}, {admin_name}, Automatiskt meddelande om Cirrus ärendestängning #{id}, Status: {status}
+Ärendenr: #{id}, Datum/tid: {date}
+
+Skapat av: {created_name}, Användarnamn: {created_user}
+
+Problemområdet: {category}, Prioritet: {priority}
+
+Ämne: {title}
+Problembeskrivning: {description}
+
+Länk till ärendet: {url}) on conditions id = 11
+10:45:43 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p><br></p>, <p><br></p>, <p><br></p>, <p><br></p>, , , <p><br></p>, , , , 0) on conditions id = 4
+10:46:05 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values (, , Nytt internt ärendenr  #{id}, Hej {created_user},
+
+Ärendenr #{id}
+
+Skapat av: {created_name}, {created_user},  Mobilnr: {created_mobile}
+
+ Datum/tid: {date}, Prioritet: {priority}
+
+Pågående status: {status}
+Problemområdet: {category}
+
+Ämne: {title}
+
+Beskrivning av problemet: {description}
+
+Länk till ärendet: {url}.) on conditions id = 1
+10:46:05 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values (, , Nytt Cirrus ärende skickat till Support. Ärendenr #{id}, Ärende skapat av: {created_name}, Datum/tid: {date}
+
+Prioritet: {priority}
+Ärende typ: {type}, Pågående status: {status}, Problemområdet: {category}
+
+Ämne: {title}
+Beskrivning av problemet: {description}
+
+Länk till ärendet: {url}.) on conditions id = 2
+10:46:05 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values ({company_email}, {company_name}, Nytt internt ärendenr #{id}, Hej {created_name},
+
+Status: {status}, Prio: {priority}
+Datum/tid:  {date}
+Problemområdet: {category}, Prioritet: {priority}, Pågående status: {status}
+
+Ämne: {title}
+Beskrivning av problemet: {description}
+
+Länk till ärendet: {url}.) on conditions id = 3
+10:46:05 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values (support@time2view.se, IT support, Nytt Cirrus ärende #{id}, Hej {created_name},
+
+Status: {status}, Prio: {priority}
+Datum/tid:  {date}
+Problemområdet: {category}, Prioritet: {priority}, Pågående status: {status}
+
+Ämne: {title}
+Beskrivning av problemet: {description}
+
+Länk till ärendet: {url}.) on conditions id = 4
+10:46:05 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values (, , Svar i internt ärendenr #{id}, Hej {admin_name},
+
+Svar - ärendenr: #{id}, Datum/tid: {date}
+
+Skapat av: {created_name}, Användarnamn: {created_user}
+Mobilnr: {created_mobile}
+
+Status: {answer_status}, Prio: {priority}
+Problemområdet: {category}
+
+Ämne: {title}
+Problembeskrivning: {description}
+
+Länk till ärendet: {url}) on conditions id = 5
+10:46:05 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values (, , Svar från administratören i ärendenr #{id}, Hej {admin_name},
+
+Svar - ärendenr:  #{id}, Datum/tid: {date}
+
+Skapat av: {created_name},  Användarnamn: {created_user}
+{answer_status} 
+Problemområdet: {category}, Prioritet: {priority}
+
+Ämne: {title}
+Problembeskrivning: {description}
+
+Länk till ärendet: {url}) on conditions id = 6
+10:46:05 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values (, , Svar angånde Cirrus ärendenr #{id}, Hej {answer_name},
+
+Datum/tid: {date}
+Skapat av: {created_name}, Användarnamn: {created_user}, Mobilnr: {created_mobile}
+
+Ärendetyp: {type},  
+{answer_status}, Prioritet: {priority}
+
+Problemområdet: {category}
+
+
+
+Ämne: {title}
+Problembeskrivning: {description}
+{answer_user}
+{answer}
+
+Länk till ärendet: {url}) on conditions id = 7
+10:46:05 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values (, , Svar från Cirrus Support angående ärendenr #{id}, Hej {answer_name},
+
+Ärendenr: #{id}, Datum/tid: {date}
+
+
+Skapat av: {created_name}
+Ärendetyp: {type},   {answer_status}
+Prioritet: {priority}, Problemområdet: {category}
+
+Ämne: {title}
+Problembeskrivning: {description}
+
+Länk till ärendet: {url}) on conditions id = 8
+10:46:05 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values (, , Svar från administratör till samtliga berörda i ärendenr #{id}, Hej {admin_name},
+
+Nytt svar skickat i ärendenr: #{id}, Datum/tid: {date}
+
+Skapat av: {created_name}, Användarnamn: {created_user}, Mobilnr: {created_mobile}
+
+Ärendetyp: {type}, Pågående status: {status}
+Problemområdet: {category}, Prioritet: {priority}
+
+Ämne: {title}
+Problembeskrivning: {description}
+
+Länk till ärendet: {url}) on conditions id = 9
+10:46:05 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values ({company_email}, {company_name}, Automatiskt meddelande om internt ärendestängning #{id}, Status: {status}
+Ärendestänr: #{id}, Datum/tid: {date}
+
+Skapat av: {created_name}, Användarnamn: {created_user}
+
+Problemområdet: {category}, Prioritet: {priority}
+
+Ämne: {title}
+Problembeskrivning: {description}
+
+Länk till ärendet: {url}) on conditions id = 10
+10:46:06 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values ({admin_email}, {admin_name}, Automatiskt meddelande om Cirrus ärendestängning #{id}, Status: {status}
+Ärendenr: #{id}, Datum/tid: {date}
+
+Skapat av: {created_name}, Användarnamn: {created_user}
+
+Problemområdet: {category}, Prioritet: {priority}
+
+Ämne: {title}
+Problembeskrivning: {description}
+
+Länk till ärendet: {url}) on conditions id = 11
+10:46:06 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p>testing on 10-04-2018 2<br></p>, <p>testing on 10-04-2018 2<br></p>, <p>testing on 10-04-2018 2<br></p>, <p><br></p>, , , <p>testing on 10-04-2018 2<br></p>, , , , 0) on conditions id = 6
+10:46:42 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p><br></p>, <p><br></p>, <p><br></p>, <p><br></p>, , , <p><br></p>, , , , 0) on conditions id = 4
+10:47:06 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p>testing on 10-04-2018 2<br></p>, <p>testing on 10-04-2018 2<br></p>, <p>testing on 10-04-2018 2<br></p>, <p><br></p>, , , <p>testing on 10-04-2018 2<br></p>, , , , 0) on conditions id = 6
+10:47:42 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p><br></p>, <p><br></p>, <p><br></p>, <p><br></p>, , , <p><br></p>, , , , 0) on conditions id = 4
+10:48:42 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p><br></p>, <p><br></p>, <p><br></p>, <p><br></p>, , , <p><br></p>, , , , 0) on conditions id = 4
+10:49:42 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p><br></p>, <p><br></p>, <p><br></p>, <p><br></p>, , , <p><br></p>, , , , 0) on conditions id = 4
+10:50:42 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p><br></p>, <p><br></p>, <p><br></p>, <p><br></p>, , , <p><br></p>, , , , 0) on conditions id = 4
+10:51:43 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p><br></p>, <p><br></p>, <p><br></p>, <p><br></p>, , , <p><br></p>, , , , 0) on conditions id = 4
+10:52:43 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p><br></p>, <p><br></p>, <p><br></p>, <p><br></p>, , , <p><br></p>, , , , 0) on conditions id = 4
+10:53:43 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p><br></p>, <p><br></p>, <p><br></p>, <p><br></p>, , , <p><br></p>, , , , 0) on conditions id = 4
+10:54:42 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p><br></p>, <p><br></p>, <p><br></p>, <p><br></p>, , , <p><br></p>, , , , 0) on conditions id = 4
+10:55:43 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p><br></p>, <p><br></p>, <p><br></p>, <p><br></p>, , , <p><br></p>, , , , 0) on conditions id = 4
+10:56:42 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p><br></p>, <p><br></p>, <p><br></p>, <p><br></p>, , , <p><br></p>, , , , 0) on conditions id = 4
+10:57:43 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p><br></p>, <p><br></p>, <p><br></p>, <p><br></p>, , , <p><br></p>, , , , 0) on conditions id = 4
+10:58:42 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p><br></p>, <p><br></p>, <p><br></p>, <p><br></p>, , , <p><br></p>, , , , 0) on conditions id = 4
+10:59:43 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p><br></p>, <p><br></p>, <p><br></p>, <p><br></p>, , , <p><br></p>, , , , 0) on conditions id = 4
+11:00:43 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p><br></p>, <p><br></p>, <p><br></p>, <p><br></p>, , , <p><br></p>, , , , 0) on conditions id = 4
+11:01:43 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p><br></p>, <p><br></p>, <p><br></p>, <p><br></p>, , , <p><br></p>, , , , 0) on conditions id = 4
+11:02:42 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p><br></p>, <p><br></p>, <p><br></p>, <p><br></p>, , , <p><br></p>, , , , 0) on conditions id = 4
+11:03:43 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p><br></p>, <p><br></p>, <p><br></p>, <p><br></p>, , , <p><br></p>, , , , 0) on conditions id = 4
+11:04:42 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p><br></p>, <p><br></p>, <p><br></p>, <p><br></p>, , , <p><br></p>, , , , 0) on conditions id = 4
+11:05:42 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p><br></p>, <p><br></p>, <p><br></p>, <p><br></p>, , , <p><br></p>, , , , 0) on conditions id = 4
+11:06:42 gine001 Gilad Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p><br></p>, <p><br></p>, <p><br></p>, <p><br></p>, , , <p><br></p>, , , , 0) on conditions id = 4
+11:08:10 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = f6c53a6d4018badbfe4dc0ea8e090f6a
+11:15:17 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = f6c53a6d4018badbfe4dc0ea8e090f6a
+11:38:58 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 199.203.35.237, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0 ) => {inserted_id = 6442}
+11:38:58 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+11:38:58 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-04-10 11:38:58) on conditions username = gine001
+11:38:58 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-04-10 11:38:58) on conditions username = gine001 AND company_id = 6
+11:38:59 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = f6c53a6d4018badbfe4dc0ea8e090f6a
+11:40:06 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( password, mobile, role, error, date ) values (e5c316b0dc80802d41b423fdd6ed50f4, 760616267, 3, 0, 2018-04-10) on conditions username = cehe001
+11:40:06 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( password, error, last_pw_update_date ) values (e5c316b0dc80802d41b423fdd6ed50f4, 0, 2018-04-10 09:40:06) on conditions username = cehe001 AND company_id = 6
+11:40:06 gine001 Gilad Nevo UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day, remaining_sem_leave, sem_leave_todate, leave_in_advance, care_of, office_personal, substitute, salary_type, sem_leave_days, vab_leave_days, fp_leave_days, nopay_leave_days, other_leave_days, ice, inconvenient_on ) values (2, 19, 9008214943, Cicki, Head, 2, , Bergshamra, 76010, , 760616267, support@time2view.se, 2013-05-23, #ff0000, 1, , , 0, 10.00, 0, , 0, , 0, 1, 1, 1, 0, 1, 0, 0, , 0) on conditions username = cehe001
+11:40:06 gine001 Gilad Nevo DELETE data from tables `team` on conditions employee = cehe001
+11:40:07 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, cehe001, 3 ) => {inserted_id = 0}
+11:40:50 cehe001 Cicki Head UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = cehe001 AND company_id = 6
+11:40:50 cehe001 Cicki Head INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( cehe001, 199.203.35.239, android ) => {inserted_id = 6443}
+11:40:50 cehe001 Cicki Head DELETE data from tables `temp_session` on conditions username LIKE cehe001
+11:40:50 cehe001 Cicki Head UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-04-10 11:40:50) on conditions username = cehe001
+11:40:50 cehe001 Cicki Head UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-04-10 11:40:50) on conditions username = cehe001 AND company_id = 6
+11:41:36 gine001 Gilad Nevo UPDATING data to tables `privileges` fields ( swap, process, add_slot, fkkn, slot_type, add_customer, add_employee, remove_customer, remove_employee, `leave`, copy_single_slot, copy_single_slot_option, copy_day_slot, copy_day_slot_option, split_slot, delete_slot, delete_day_slot, delete_multiple_slots, contract_override, atl_override, change_time, no_pay_leave, candg_approve, show_percentage_monthly, not_show_employees ) values (1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0) on conditions employee = cehe001 AND customer IS NULL
+11:43:25 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`company` fields ( name, logo, org_no, address, city, email, land_code, phone, mobile, website, upload_dir, status, salary_system, zipcode, billing_status, start_day, contact_person1, contact_person2, contact_person1_email, contact_person2_email, weekly_hour, max_daily_hour, monthly_oncall_hour, contract_exceed_check, atl_check, signing_mail, bank_account, fk_kr_per_time, kn_kr_per_time, leave_in_advance, sem_year_start_month, box, inconvenient_on, candg, candg_break, apply_max_karens, employee_contract_start_month, employee_contract_period_date, employee_contract_period_length, sort_name_by, vacation_percentage, vacation_percentage_slots, sem_leave_days, vab_leave_days, fp_leave_days, nopay_leave_days, other_leave_days, include_sick, contract_auto_renewal, contract_auto_renewal_mail, include_karense_salary, include_sem_2_14_oncall_salary, fkkn_split, day_light_saving, sick_15_90_oncall, sick_annex_calculation_mode, recovery_pw_by_mobile ) values (CirrusTest, , 5568752325, Storgatan 17, Kumla, support@time2view.se, 46, 070-4434964, , , ProdCirrusTest, 1, 4, 69232, 0, 12.00, Gilad, Admin Cirrus, gn.nevo@gmail.com, shajukt@entraze.com, 40, 13, 32, 1, 1, 1, 5895-65988, , , 1, 01, , 1, 0, 0, 1, 01, 1, 01, 1, 12.00, 0|1|2|3|4|5|6|14|7|8|9|10|11|12|13|15, 1, 0, 1, 0, 0, 1, 0, , 1, 1, 0, 1, 0, 2, 1) on conditions id = 6
+11:44:43 cehe001 Cicki Head DELETE data from tables `temp_session` on conditions username LIKE cehe001 #Mobile-App: Log-id=6443
+11:44:43 cehe001 Cicki Head UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2018-04-10 11:44:43) on conditions username = cehe001 #Mobile-App: Log-id=6443
+11:44:43 cehe001 Cicki Head UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-04-10 11:44:43) on conditions username = cehe001 AND company_id = 6 #Mobile-App: Log-id=6443
+11:45:12 cehe001 Cicki Head UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = cehe001 AND company_id = 6
+11:45:12 cehe001 Cicki Head INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( cehe001, 199.203.35.239, android ) => {inserted_id = 6444}
+11:45:12 cehe001 Cicki Head DELETE data from tables `temp_session` on conditions username LIKE cehe001
+11:45:12 cehe001 Cicki Head UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-04-10 11:45:12) on conditions username = cehe001
+11:45:12 cehe001 Cicki Head UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-04-10 11:45:12) on conditions username = cehe001 AND company_id = 6
+11:48:48 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 223.30.129.234, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36 ) => {inserted_id = 6445}
+11:48:48 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+11:48:49 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-04-10 11:48:48) on conditions username = dodo001
+11:48:49 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-04-10 11:48:48) on conditions username = dodo001 AND company_id = 6
+11:48:50 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = 9c705d2afcc3591f1d5925e01eca2217
+11:49:26 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`company` fields ( name, logo, org_no, address, city, email, land_code, phone, mobile, website, upload_dir, status, salary_system, zipcode, billing_status, start_day, contact_person1, contact_person2, contact_person1_email, contact_person2_email, weekly_hour, max_daily_hour, monthly_oncall_hour, contract_exceed_check, atl_check, signing_mail, bank_account, fk_kr_per_time, kn_kr_per_time, leave_in_advance, sem_year_start_month, box, inconvenient_on, candg, candg_break, apply_max_karens, employee_contract_start_month, employee_contract_period_date, employee_contract_period_length, sort_name_by, vacation_percentage, vacation_percentage_slots, sem_leave_days, vab_leave_days, fp_leave_days, nopay_leave_days, other_leave_days, include_sick, contract_auto_renewal, contract_auto_renewal_mail, include_karense_salary, include_sem_2_14_oncall_salary, fkkn_split, day_light_saving, sick_15_90_oncall, sick_annex_calculation_mode, recovery_pw_by_mobile ) values (CirrusTest, , 5568752325, Storgatan 17, Kumla, support@time2view.se, 46, 070-4434964, , , ProdCirrusTest, 1, 4, 69232, 0, 12.00, Gilad, Admin Cirrus, gn.nevo@gmail.com, shajukt@entraze.com, 40, 13, 32, 1, 1, 1, 5895-65988, , , 1, 01, , 1, 0, 0, 1, 01, 1, 01, 1, 12.00, 0|1|2|3|4|5|6|14|7|8|9|10|11|12|13|15, 1, 0, 1, 0, 0, 1, 0, , 1, 1, 0, 1, 0, 2, 1) on conditions id = 6
+11:51:05 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+11:51:05 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2018-04-10 11:51:05) on conditions username = dodo001
+11:51:05 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-04-10 11:51:05) on conditions username = dodo001 AND company_id = 6
+11:51:05   UPDATING data to tables `log_login` fields ( logout_time ) values (2018-04-10:09:51:05) on conditions id = 6445 AND username = dodo001
+11:51:17 cehe001  UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (1) on conditions username = cehe001 AND company_id = 6
+11:51:43 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 223.30.129.234, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36 ) => {inserted_id = 6446}
+11:51:43 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+11:51:43 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-04-10 11:51:43) on conditions username = dodo001
+11:51:43 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-04-10 11:51:43) on conditions username = dodo001 AND company_id = 6
+11:51:44 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = 53cb214a60c5c0c42747cfc63551793b
+11:52:08 cehe001 Cicki Head UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = cehe001 AND company_id = 6
+11:52:08 cehe001 Cicki Head INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( cehe001, 199.203.35.239, android ) => {inserted_id = 6447}
+11:52:08 cehe001 Cicki Head DELETE data from tables `temp_session` on conditions username LIKE cehe001
+11:52:08 cehe001 Cicki Head UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-04-10 11:52:08) on conditions username = cehe001
+11:52:08 cehe001 Cicki Head UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-04-10 11:52:08) on conditions username = cehe001 AND company_id = 6
+11:52:19 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( password, mobile, role, error, date ) values (e23ed3da13abc3b3da2b711d207c7208, 760616267, 3, 0, 2018-04-10) on conditions username = cehe001
+11:52:19 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( password, error, last_pw_update_date ) values (e23ed3da13abc3b3da2b711d207c7208, 0, 2018-04-10 09:52:19) on conditions username = cehe001 AND company_id = 6
+11:52:19 dodo001 Admin Cirrus UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day, remaining_sem_leave, sem_leave_todate, leave_in_advance, care_of, office_personal, substitute, salary_type, sem_leave_days, vab_leave_days, fp_leave_days, nopay_leave_days, other_leave_days, ice, inconvenient_on ) values (2, 19, 9008214943, Cicki, Head, 2, , Bergshamra, 76010, , 760616267, support@time2view.se, 2013-05-23, #ff0000, 1, , , 0, 10.00, 0, , 0, , 0, 1, 1, 1, 0, 1, 0, 0, , 0) on conditions username = cehe001
+11:52:19 dodo001 Admin Cirrus DELETE data from tables `team` on conditions employee = cehe001
+11:52:19 dodo001 Admin Cirrus INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, cehe001, 3 ) => {inserted_id = 0}
+11:52:29 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+11:52:29 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2018-04-10 11:52:29) on conditions username = dodo001
+11:52:29 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-04-10 11:52:29) on conditions username = dodo001 AND company_id = 6
+11:52:29   UPDATING data to tables `log_login` fields ( logout_time ) values (2018-04-10:09:52:29) on conditions id = 6446 AND username = dodo001
+11:52:41 cehe001 Cicki Head INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( cehe001, 223.30.129.234, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36 ) => {inserted_id = 6448}
+11:52:41 cehe001 Cicki Head DELETE data from tables `temp_session` on conditions username LIKE cehe001
+11:52:41 cehe001 Cicki Head UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-04-10 11:52:41) on conditions username = cehe001
+11:52:41 cehe001 Cicki Head UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-04-10 11:52:41) on conditions username = cehe001 AND company_id = 6
+11:52:42 cehe001 Cicki Head UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (cehe001) on conditions session_id = 5391154908bb1fc9e1e7dd1d4b45e50a
+11:52:51 cehe001 Cicki Head DELETE data from tables `temp_session` on conditions username LIKE cehe001
+11:52:51 cehe001 Cicki Head UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2018-04-10 11:52:51) on conditions username = cehe001
+11:52:51 cehe001 Cicki Head UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-04-10 11:52:51) on conditions username = cehe001 AND company_id = 6
+11:52:51   UPDATING data to tables `log_login` fields ( logout_time ) values (2018-04-10:09:52:51) on conditions id = 6448 AND username = cehe001
+11:53:56 cehe001 Cicki Head UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = cehe001 AND company_id = 6
+11:53:56 cehe001 Cicki Head INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( cehe001, 106.208.191.71, CirrusM/4 CFNetwork/897.15 Darwin/17.5.0 ) => {inserted_id = 6449}
+11:53:56 cehe001 Cicki Head DELETE data from tables `temp_session` on conditions username LIKE cehe001
+11:53:56 cehe001 Cicki Head UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-04-10 11:53:56) on conditions username = cehe001
+11:53:56 cehe001 Cicki Head UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-04-10 11:53:56) on conditions username = cehe001 AND company_id = 6
+11:54:45 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 223.30.129.234, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36 ) => {inserted_id = 6450}
+11:54:45 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+11:54:45 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-04-10 11:54:45) on conditions username = dodo001
+11:54:45 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-04-10 11:54:45) on conditions username = dodo001 AND company_id = 6
+11:54:47 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = 55e13460a4239b5c565f5df49aa9f573
+11:55:29 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = 55e13460a4239b5c565f5df49aa9f573
+11:55:58 dodo001 Admin Cirrus INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( cehe001, adan001, 2, 0, 2018-04-10, 12, 24, 1, , dodo001,  ) => {inserted_id = 13814}
+11:55:58 dodo001 Admin Cirrus INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( cehe001, adan001, 2, 0, 2018-04-11, 0, 1, 1, , dodo001,  ) => {inserted_id = 13815}
+11:56:13 cehe001 Cicki Head UPDATING data to tables `timetable` fields ( time_from, status, created_status, alloc_emp ) values (11.55, 4, 1, cehe001) on conditions id = 13814 #Mobile-App: Log-id=6449
+11:56:13 cehe001 Cicki Head INSERTING data into tables `user_task` fields ( userid, dag, start_time, customer ) values ( cehe001, 2018-04-10, 11:56:13, adan001 ) => {inserted_id = 131} #Mobile-App: Log-id=6449
+11:56:27 cehe001 Cicki Head UPDATING data to tables `user_task` fields ( slotids=?, end_time=?, dur=TIMEDIFF(`end_time`,`start_time`), status=? ) values (, 2018-04-10 11:56:27, 1) on conditions id = 131 #Mobile-App: Log-id=6449
+11:57:49 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( role, mobile ) values (3, 760616267) on conditions username = cehe001
+11:57:49 gine001 Gilad Nevo UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day, remaining_sem_leave, sem_leave_todate, leave_in_advance, care_of, office_personal, substitute, salary_type, sem_leave_days, vab_leave_days, fp_leave_days, nopay_leave_days, other_leave_days, ice, inconvenient_on ) values (2, 19, 9008214943, Cicki, Head, 2, , Bergshamra, 76010, , 760616267, support@time2view.se, 2013-05-23, #ff0000, 1, 2018-04-10, , 0, 10.00, 0, , 0, , 0, 1, 1, 1, 0, 1, 0, 0, , 0) on conditions username = cehe001
+11:57:49 gine001 Gilad Nevo DELETE data from tables `team` on conditions employee = cehe001
+11:57:49 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, cehe001, 3 ) => {inserted_id = 0}
+12:02:44 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirruscommon`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, category_id, priority, ticket_type, status, hidden ) values ( 1439, gine001, <p>I denna blankett har det ingen betydelse om det är hel eller deltid. De antal timmar som den anställde har jobbat det är dessa som har betydelse. Blanketten är en standardblankett från KFO och den tillgodo ser samtliga förbund.</p><p>Ingen förändring kommer att göras här.<br></p>, 40, 3, 2, 4, 0 ) => {inserted_id = 2501}
+12:05:01 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( role, mobile ) values (3, 760616267) on conditions username = cehe001
+12:05:01 gine001 Gilad Nevo UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day, remaining_sem_leave, sem_leave_todate, leave_in_advance, care_of, office_personal, substitute, salary_type, sem_leave_days, vab_leave_days, fp_leave_days, nopay_leave_days, other_leave_days, ice, inconvenient_on ) values (2, 19, 9008214943, Cicki, Head, 2, , Bergshamra, 76010, , 760616267, support@time2view.se, 2013-05-23, #ff0000, 1, 2018-04-29, , 0, 10.00, 0, , 0, , 0, 1, 1, 1, 0, 1, 0, 0, , 0) on conditions username = cehe001
+12:05:01 gine001 Gilad Nevo DELETE data from tables `team` on conditions employee = cehe001
+12:05:02 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, cehe001, 3 ) => {inserted_id = 0}
+12:08:25 gine001 Gilad Nevo INSERTING data into tables `history_certification_report` fields ( employee, file ) values ( anra004, Certificate_330835575.pdf ) => {inserted_id = 15}
+12:11:52 cehe001 Cicki Head DELETE data from tables `temp_session` on conditions username LIKE cehe001 #Mobile-App: Log-id=6449
+12:11:52 cehe001 Cicki Head UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2018-04-10 12:11:52) on conditions username = cehe001 #Mobile-App: Log-id=6449
+12:11:52 cehe001 Cicki Head UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-04-10 12:11:52) on conditions username = cehe001 AND company_id = 6 #Mobile-App: Log-id=6449
+12:31:48 cehe001 Cicki Head UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = cehe001 AND company_id = 6
+12:31:48 cehe001 Cicki Head INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( cehe001, 137.97.103.221, android ) => {inserted_id = 6451}
+12:31:48 cehe001 Cicki Head DELETE data from tables `temp_session` on conditions username LIKE cehe001
+12:31:49 cehe001 Cicki Head UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-04-10 12:31:48) on conditions username = cehe001
+12:31:49 cehe001 Cicki Head UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-04-10 12:31:48) on conditions username = cehe001 AND company_id = 6
+12:36:09 cehe001 Cicki Head DELETE data from tables `temp_session` on conditions username LIKE cehe001 #Mobile-App: Log-id=6447
+12:36:09 cehe001 Cicki Head UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2018-04-10 12:36:09) on conditions username = cehe001 #Mobile-App: Log-id=6447
+12:36:09 cehe001 Cicki Head UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-04-10 12:36:09) on conditions username = cehe001 AND company_id = 6 #Mobile-App: Log-id=6447
+12:36:44 cehe001 Cicki Head UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = cehe001 AND company_id = 6
+12:36:44 cehe001 Cicki Head INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( cehe001, 199.203.35.239, android ) => {inserted_id = 6452}
+12:36:44 cehe001 Cicki Head DELETE data from tables `temp_session` on conditions username LIKE cehe001
+12:36:44 cehe001 Cicki Head UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-04-10 12:36:44) on conditions username = cehe001
+12:36:44 cehe001 Cicki Head UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-04-10 12:36:44) on conditions username = cehe001 AND company_id = 6
+12:50:23 cehe001 Cicki Head DELETE data from tables `temp_session` on conditions username LIKE cehe001 #Mobile-App: Log-id=6452
+12:50:23 cehe001 Cicki Head UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2018-04-10 12:50:23) on conditions username = cehe001 #Mobile-App: Log-id=6452
+12:50:23 cehe001 Cicki Head UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-04-10 12:50:23) on conditions username = cehe001 AND company_id = 6 #Mobile-App: Log-id=6452
+15:07:10 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = dodo001 AND company_id = 6
+15:07:10 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 137.97.103.221, android ) => {inserted_id = 6453}
+15:07:10 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+15:07:10 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-04-10 15:07:10) on conditions username = dodo001
+15:07:11 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-04-10 15:07:10) on conditions username = dodo001 AND company_id = 6
+15:10:09 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = dodo001 AND company_id = 6
+15:10:09 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 137.97.103.221, android ) => {inserted_id = 6454}
+15:10:09 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+15:10:09 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-04-10 15:10:09) on conditions username = dodo001
+15:10:09 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-04-10 15:10:09) on conditions username = dodo001 AND company_id = 6
+15:13:01 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = dodo001 AND company_id = 6
+15:13:01 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 137.97.103.221, android ) => {inserted_id = 6455}
+15:13:01 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+15:13:01 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-04-10 15:13:01) on conditions username = dodo001
+15:13:01 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-04-10 15:13:01) on conditions username = dodo001 AND company_id = 6

@@ -1,0 +1,25 @@
+07:50:07 gine001 Gilad Nevo INSERTING data into tables `note`fields created_user, title, description, visibility, status, customer, attachment values ( gine001, test1, test1 text, 1, 0, hesv001,  )
+07:50:07 gine001 Gilad Nevo UPDATING data to tables `note`fields Array values 13654002070_db_process.txt on conditions id = 1
+07:50:36 gine001 Gilad Nevo INSERTING data into tables `mc_note`fields note_id, read_users values ( 1, gine001 )
+07:51:12   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = gine001
+07:51:12   UPDATING data to tables `log_login`fields Array values 2013-04-08:05:51:12 on conditions id = 7208 AND username = gine001
+08:14:00 gine001 Gilad Nevo UPDATING data to tables `team`fields Array values 3 on conditions customer =  AND role = 7
+08:14:00 gine001 Gilad Nevo UPDATING data to tables `team`fields Array values 7 on conditions customer =  AND employee = 
+08:14:00 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 3, 723222222 on conditions username = joef001
+08:14:00 gine001 Gilad Nevo UPDATING data to tables `employee`fields Array values 88, 19, 9507220458, Joel, Efraimsson, Islanda Gläntan 109, Hökerum, 52399, 0333409848, 723222222, , 2012-11-15, #FFFFFF, 1, , , 0 on conditions username = joef001
+08:14:00 gine001 Gilad Nevo UPDATING data to tables `emp_inconvinient_time`fields Array values 2013-04-08 on conditions time_id = 
+08:14:00 gine001 Gilad Nevo INSERTING data into tables `emp_inconvinient_time`fields emp_username, on_call, on_call_holiday, on_call_bigholiday, inconvinient_night, inconvinient_evening, inconvinient_holiday, inconvinient_week_holiday, date_from, added_by values ( joef001, , , , , , , , 2013-04-08, gine001 )
+08:14:22 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 98653247 on conditions username = hesv001
+08:14:22 gine001 Gilad Nevo UPDATING data to tables `customer`fields Array values 3, 19, 7204090117, Testina, Svan, storgatan 22, Kumla, 692 32, 019-12345678, 98653247, , 2012-08-01, 1, , 2 on conditions username = hesv001
+08:14:22 gine001 Gilad Nevo DELETE data from tables `team` on conditions customer = hesv001
+08:14:22 gine001 Gilad Nevo INSERTING data into tables `team`fields customer, employee, role values ( hesv001, joef001, 3 ), ( hesv001, wita001, 3 ), ( hesv001, jata001, 3 ), ( hesv001, moen001, 3 ), ( hesv001, gine001, 3 )
+08:14:37 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 2, 0, 2013-04-11, 7.15, 8.45, 0, gine001 )
+08:14:48 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1 on conditions id = 1473
+08:14:53   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = gine001
+08:14:53   UPDATING data to tables `log_login`fields Array values 2013-04-08:06:14:53 on conditions id = 5319 AND username = gine001
+08:16:04   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = gine001
+08:16:04   UPDATING data to tables `log_login`fields Array values 2013-04-08:06:16:04 on conditions id = 5320 AND username = gine001
+12:12:56 gine001 Gilad Nevo INSERTING data into tables `log_login`fields username, ip, browser values ( gine001, 182.72.154.234, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.22 (KHTML, like Gecko) Ubuntu Chromium/25.0.1364.160 Chrome/25.0.1364.160 Safari/537.22 )
+12:12:56 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = gine001
+12:33:25   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = gine001
+12:33:25   UPDATING data to tables `log_login`fields Array values 2013-04-08:10:33:25 on conditions id = 1185 AND username = gine001

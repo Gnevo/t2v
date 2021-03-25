@@ -1,0 +1,11 @@
+07:00:13 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 112.133.248.102, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36 ) => {inserted_id = 7820}
+07:00:13 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+07:00:13 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-03-28 07:00:13) on conditions username = dodo001
+07:00:14 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-03-28 07:00:13) on conditions username = dodo001 AND company_id = 6
+07:00:15 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = d8c200a36ac9c2fa701dda9823e780f0
+14:11:03 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = d8c200a36ac9c2fa701dda9823e780f0
+15:25:44 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 217.214.150.167, Mozilla/5.0 (Android 8.0.0; Mobile; rv:66.0) Gecko/66.0 Firefox/66.0 ) => {inserted_id = 7821}
+15:25:44 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+15:25:44 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-03-28 15:25:44) on conditions username = gine001
+15:25:45 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-03-28 15:25:44) on conditions username = gine001 AND company_id = 6
+15:26:34 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirruscommon`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, category_id, priority, ticket_type, status, hidden ) values ( 2060, gine001, <p>Pls check this problem. <br></p>, 7, 2, 1, 2, 1 ) => {inserted_id = 3821}

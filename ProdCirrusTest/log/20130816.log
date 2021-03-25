@@ -1,0 +1,49 @@
+06:20:14 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 2, undefined, 2013-07-24, 8.00, 16.35, 0, gine001 )
+06:20:14 gine001 Gilad Nevo INSERTING data into tables `memory_slots`fields customer, time_from, time_to, type values ( hesv001, 8.00, 16.35, undefined )
+06:20:31 gine001 Gilad Nevo DELETE data from tables `memory_slots` on conditions id = 85
+06:20:36 gine001 Gilad Nevo DELETE data from tables `memory_slots` on conditions id = 83
+06:20:39 gine001 Gilad Nevo DELETE data from tables `memory_slots` on conditions id = 70
+06:20:42 gine001 Gilad Nevo DELETE data from tables `memory_slots` on conditions id = 99
+06:20:44 gine001 Gilad Nevo DELETE data from tables `memory_slots` on conditions id = 67
+06:20:46 gine001 Gilad Nevo DELETE data from tables `memory_slots` on conditions id = 101
+06:20:49 gine001 Gilad Nevo DELETE data from tables `memory_slots` on conditions id = 69
+06:20:51 gine001 Gilad Nevo DELETE data from tables `memory_slots` on conditions id = 66
+06:20:54 gine001 Gilad Nevo DELETE data from tables `memory_slots` on conditions id = 104
+06:20:58 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions id = 2863
+06:21:02 gine001 Gilad Nevo DELETE data from tables `memory_slots` on conditions id = 87
+06:21:04 gine001 Gilad Nevo DELETE data from tables `memory_slots` on conditions id = 72
+06:21:07 gine001 Gilad Nevo DELETE data from tables `memory_slots` on conditions id = 120
+06:21:09 gine001 Gilad Nevo DELETE data from tables `memory_slots` on conditions id = 80
+06:21:12 gine001 Gilad Nevo DELETE data from tables `memory_slots` on conditions id = 65
+06:21:14 gine001 Gilad Nevo DELETE data from tables `memory_slots` on conditions id = 100
+06:21:16 gine001 Gilad Nevo DELETE data from tables `memory_slots` on conditions id = 103
+06:21:19 gine001 Gilad Nevo DELETE data from tables `memory_slots` on conditions id = 106
+06:21:21 gine001 Gilad Nevo DELETE data from tables `memory_slots` on conditions id = 107
+06:21:24 gine001 Gilad Nevo DELETE data from tables `memory_slots` on conditions id = 105
+06:21:39 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 2, undefined, 2013-07-24, 8.00, 16.35, 0, gine001 )
+06:21:39 gine001 Gilad Nevo INSERTING data into tables `memory_slots`fields customer, time_from, time_to, type values ( hesv001, 8.00, 16.35, undefined )
+08:52:14 gine001 Gilad Nevo INSERTING data into tables `log_login`fields username, ip, browser values ( gine001, 115.248.24.177, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/28.0.1500.71 Chrome/28.0.1500.71 Safari/537.36 )
+08:52:14 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = gine001
+11:14:58 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values , 0, gine001 on conditions id = 2854
+11:15:19 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 2 on conditions id = 2859
+11:15:19 gine001 Gilad Nevo INSERTING data into tables `timetable`fields customer, date, time_from, time_to, type, fkkn, status, comment, alloc_emp, relation_id values ( hesv001, 2013-07-29, 9.00, 10.30, 0, 1, 0, , gine001, 2859 )
+11:15:19 gine001 Gilad Nevo INSERTING data into tables `leave`fields group_id, employee, date, time_from, time_to, type, comment, appr_emp, status values ( 15, moen001, 2013-07-29, 9, 10.3, 1, , gine001, 0 )
+11:16:47 gine001 Gilad Nevo INSERTING data into tables `mc_leave`fields leave_id, leave_status, read_users values ( 15, 0, gine001 )
+11:16:47 gine001 Gilad Nevo INSERTING data into tables `mc_leave`fields leave_id, leave_status, read_users values ( 12, 0, gine001 )
+11:16:47 gine001 Gilad Nevo INSERTING data into tables `mc_leave`fields leave_id, leave_status, read_users values ( 13, 0, gine001 )
+11:16:47 gine001 Gilad Nevo INSERTING data into tables `mc_leave`fields leave_id, leave_status, read_users values ( 14, 0, gine001 )
+11:16:47 gine001 Gilad Nevo INSERTING data into tables `mc_leave`fields leave_id, leave_status, read_users values ( 11, 0, gine001 )
+11:16:52 gine001 Gilad Nevo UPDATING data to tables `leave`fields Array values 1, gine001, 2013-08-16 on conditions group_id = 15
+11:16:56 gine001 Gilad Nevo UPDATING data to tables `leave`fields Array values 1, gine001, 2013-08-16 on conditions group_id = 12
+11:17:37 gine001 Gilad Nevo INSERTING data into tables `leave_sms`fields slot, employee, status, alloc_employee values ( 2865, gine001, 6, gine001 )
+11:17:37 gine001 Gilad Nevo INSERTING data into tables `log_sms`fields from_user, to_user, to_no, message, status values ( gine001, gine001, 704434964, %0AKund : hesv001%0ADatum : 2013-07-29%0APass : 09.00-10.30(1.3h)%0ASvara Ja om du vill ha passet, 1 )
+11:47:15 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 2 on conditions id = 2861
+11:47:15 gine001 Gilad Nevo INSERTING data into tables `timetable`fields customer, date, time_from, time_to, type, fkkn, status, comment, alloc_emp, relation_id values ( hesv001, 2013-07-29, 9.30, 11.00, 0, 1, 0, , gine001, 2861 )
+11:47:15 gine001 Gilad Nevo INSERTING data into tables `leave`fields group_id, employee, date, time_from, time_to, type, comment, appr_emp, status values ( 16, joef001, 2013-07-29, 9.3, 11, 1, , gine001, 0 )
+11:47:30 gine001 Gilad Nevo UPDATING data to tables `leave`fields Array values 1, gine001, 2013-08-16 on conditions group_id = 16
+11:47:58 gine001 Gilad Nevo INSERTING data into tables `leave_sms`fields slot, employee, status, alloc_employee values ( 2866, gine001, 5, gine001 )
+11:47:58 gine001 Gilad Nevo INSERTING data into tables `log_sms`fields from_user, to_user, to_no, message, status values ( gine001, gine001, 704434964, %0AKund : hesv001%0ADatum : 2013-07-29%0APass : 09.30-11.00(1.7h)%0ASvara Ja om du vill ha passet, 1 )
+13:00:37 gine001 Gilad Nevo INSERTING data into tables `log_login`fields username, ip, browser values ( gine001, 115.248.24.177, Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0) )
+13:00:37 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = gine001
+13:02:50   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = gine001
+13:02:50   UPDATING data to tables `log_login`fields Array values 2013-08-16:11:02:50 on conditions id = 1257 AND username = gine001

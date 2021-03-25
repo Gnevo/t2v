@@ -1,0 +1,42 @@
+09:59:06 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.158.70, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36 ) => {inserted_id = 6180}
+09:59:06 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+09:59:06 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2017-12-16 09:59:06) on conditions username = gine001
+09:59:06 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-12-16 09:59:06) on conditions username = gine001 AND company_id = 6
+09:59:58 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+09:59:58 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.158.70, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36 ) => {inserted_id = 6181}
+09:59:58 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+09:59:58 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2017-12-16 09:59:58) on conditions username = gine001
+09:59:58 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-12-16 09:59:58) on conditions username = gine001 AND company_id = 6
+14:00:49 abni001 Abc Nielsen UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = abni001 AND company_id = 6
+14:00:49 abni001 Abc Nielsen INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( abni001, 85.228.120.233, android ) => {inserted_id = 6182}
+14:00:49 abni001 Abc Nielsen DELETE data from tables `temp_session` on conditions username LIKE abni001
+14:00:50 abni001 Abc Nielsen UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2017-12-16 14:00:49) on conditions username = abni001
+14:00:50 abni001 Abc Nielsen UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-12-16 14:00:49) on conditions username = abni001 AND company_id = 6
+14:01:03 abni001 Abc Nielsen UPDATING data to tables `mail` fields ( status ) values (1) on conditions id = 17 #Mobile-App: Log-id=6182
+14:01:09 abni001 Abc Nielsen UPDATING data to tables `mc_leave` fields ( read_users ) values (dodo001,adad001,abni001) on conditions leave_id = 145 #Mobile-App: Log-id=6182
+14:01:09 abni001 Abc Nielsen UPDATING data to tables `mc_leave` fields ( read_users ) values (dodo001,thne001,gine001,adad001,abni001) on conditions leave_id = 139 #Mobile-App: Log-id=6182
+14:01:09 abni001 Abc Nielsen UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,tato002,magu013,dodo001,adad001,thne001,abni001) on conditions leave_id = 130 #Mobile-App: Log-id=6182
+14:01:09 abni001 Abc Nielsen UPDATING data to tables `mc_leave` fields ( read_users ) values (thne001,gine001,jata001,dodo001,tato002,magu013,adad001,abni001) on conditions leave_id = 115 #Mobile-App: Log-id=6182
+14:01:09 abni001 Abc Nielsen UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,dodo001,saan004,thne001,jata001,tato002,magu013,adad001,abni001) on conditions leave_id = 101 #Mobile-App: Log-id=6182
+14:01:09 abni001 Abc Nielsen UPDATING data to tables `mc_leave` fields ( read_users ) values (dodo001,gine001,saan004,thne001,jata001,tato002,magu013,adad001,abni001) on conditions leave_id = 99 #Mobile-App: Log-id=6182
+14:01:10 abni001 Abc Nielsen UPDATING data to tables `mc_leave` fields ( read_users ) values (dodo001,gine001,saan004,thne001,jata001,tato002,magu013,adad001,abni001) on conditions leave_id = 98 #Mobile-App: Log-id=6182
+14:01:10 abni001 Abc Nielsen UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,kaek001,rokl001,igro001,thne001,dodo001,jata001,saan004,abni001) on conditions leave_id = 63 #Mobile-App: Log-id=6182
+14:01:10 abni001 Abc Nielsen UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,clke001,wita001,rokl001,than001,kaek001,dodo001,jata001,thne001,abni001) on conditions leave_id = 14 #Mobile-App: Log-id=6182
+14:01:10 abni001 Abc Nielsen UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,jata001,clke001,than001,rokl001,kaek001,dodo001,thne001,abni001) on conditions leave_id = 6 #Mobile-App: Log-id=6182
+14:04:06 abni001 Abc Nielsen UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,kaek001,rokl001,thne001,saan004,dodo001,jata001,adad001,abni001) on conditions leave_id = 75 #Mobile-App: Log-id=6182
+14:04:06 abni001 Abc Nielsen UPDATING data to tables `mc_leave` fields ( read_users ) values (igro001,gine001,kaek001,rokl001,thne001,saan004,dodo001,jata001,abni001) on conditions leave_id = 72 #Mobile-App: Log-id=6182
+14:04:06 abni001 Abc Nielsen UPDATING data to tables `mc_leave` fields ( read_users ) values (igro001,gine001,kaek001,rokl001,thne001,dodo001,saan004,jata001,abni001) on conditions leave_id = 73 #Mobile-App: Log-id=6182
+14:04:06 abni001 Abc Nielsen UPDATING data to tables `mc_leave` fields ( read_users ) values (igro001,gine001,kaek001,rokl001,thne001,dodo001,saan004,jata001,abni001) on conditions leave_id = 71 #Mobile-App: Log-id=6182
+14:04:06 abni001 Abc Nielsen UPDATING data to tables `mc_leave` fields ( read_users ) values (wita001,rokl001,gine001,than001,kaek001,dodo001,jata001,thne001,abni001) on conditions leave_id = 24 #Mobile-App: Log-id=6182
+14:04:07 abni001 Abc Nielsen UPDATING data to tables `mc_leave` fields ( read_users ) values (wita001,rokl001,gine001,than001,kaek001,dodo001,jata001,thne001,abni001) on conditions leave_id = 23 #Mobile-App: Log-id=6182
+14:04:12 abni001 Abc Nielsen UPDATING data to tables `leave` fields ( status, appr_emp, appr_date ) values (1, abni001, 2017-12-16) on conditions group_id = 72 #Mobile-App: Log-id=6182
+14:05:13 abni001 Abc Nielsen UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = abni001 AND company_id = 6 #Mobile-App: Log-id=6182
+14:05:13 abni001 Abc Nielsen INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( abni001, 85.228.120.233, android ) => {inserted_id = 6183} #Mobile-App: Log-id=6182
+14:05:13 abni001 Abc Nielsen DELETE data from tables `temp_session` on conditions username LIKE abni001 #Mobile-App: Log-id=6183
+14:05:13 abni001 Abc Nielsen UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2017-12-16 14:05:13) on conditions username = abni001 #Mobile-App: Log-id=6183
+14:05:13 abni001 Abc Nielsen UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-12-16 14:05:13) on conditions username = abni001 AND company_id = 6 #Mobile-App: Log-id=6183
+14:05:34 abni001 Abc Nielsen INSERTING data into tables `note` fields ( created_user, title, description, visibility, status, customer, ticket, attachment ) values ( abni001, jjs, nnsn, 2, 1, adan001, ,  ) => {inserted_id = 138} #Mobile-App: Log-id=6183
+14:05:34 abni001 Abc Nielsen UPDATING data to tables `note` fields ( attachment ) values () on conditions id = 138 #Mobile-App: Log-id=6183
+14:05:53 abni001 Abc Nielsen INSERTING data into tables `mc_note` fields ( note_id, read_users ) values ( 138, abni001 ) => {inserted_id = 131} #Mobile-App: Log-id=6183
+14:06:41 abni001 Abc Nielsen INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( abni001, adan001, 1, 0, 2017-12-16, 20.17, 20.18, 1, , abni001, kznn ) => {inserted_id = 12767} #Mobile-App: Log-id=6183
+14:07:25 abni001 Abc Nielsen UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (adan001, abni001, 2017-12-16, 20.17, 20.18, 1, 0, 1, kznn) on conditions id = 12767 #Mobile-App: Log-id=6183

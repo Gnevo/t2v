@@ -1,0 +1,88 @@
+06:37:38 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+06:37:38 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.154.135, Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0 ) => {inserted_id = 2017}
+06:37:38 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+06:37:38 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+06:43:37 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirrus14`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, priority, admin_user, status, hidden ) values ( 30, gine001, Problemet är nu åtgärdat., 4, , 4, 0 ) => {inserted_id = 1823}
+06:56:32 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( last002, anst007, 1, 0, 2014-09-01, 13.30, 23.30, 1, , gine001,  ) => {inserted_id = 5924}
+06:56:32 gine001 Gilad Nevo INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( anst007, 16, 8, 0 ) => {inserted_id = 272}
+06:56:32 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( anra004, anst007, 1, 0, 2014-09-01, 16, 24, 1, , gine001,  ) => {inserted_id = 5925}
+06:56:32 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( anra004, anst007, 1, 0, 2014-09-02, 0, 1.00, 1, , gine001,  ) => {inserted_id = 5926}
+06:56:32 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( anra004, anst007, 1, 3, 2014-09-02, 1.00, 8, 1, , gine001,  ) => {inserted_id = 5927}
+06:56:59 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, lima003, gine001) on conditions id = 5664
+06:57:15 gine001 Gilad Nevo INSERTING data into tables `temp_session` fields ( username, type, details ) values ( gine001, 1, 5567,5924,5925,5926,5927,5664 ) => {inserted_id = 0}
+06:57:29 gine001 Gilad Nevo UPDATING data to tables `temp_session` fields ( details ) values (5567,5924,5925) on conditions username LIKE gine001 AND type = 1
+06:57:52 gine001 Gilad Nevo UPDATING data to tables `temp_session` fields ( details ) values (5567,5924,5925,5926,5927,5664,5766,5659,5660,5661,5569) on conditions username LIKE gine001 AND type = 1
+06:58:11 gine001 Gilad Nevo UPDATING data to tables `temp_session` fields ( details ) values (5567,5924,5925) on conditions username LIKE gine001 AND type = 1
+06:58:15 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment, relation_id ) values ( mali008, anst007, 1, 0, 2014-09-08, 8.00, 20.00, 1, , gine001, ,  ), ( last002, anst007, 1, 0, 2014-09-08, 13.30, 23.30, 1, , gine001, ,  ), ( anra004, anst007, 1, 0, 2014-09-08, 16.00, 24.00, 1, , gine001, ,  ) => {inserted_id = 5928}
+06:58:21 gine001 Gilad Nevo UPDATING data to tables `temp_session` fields ( details ) values (5926,5927,5664) on conditions username LIKE gine001 AND type = 1
+06:58:26 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment, relation_id ) values ( anra004, anst007, 1, 0, 2014-09-09, 0.00, 1.00, 1, , gine001, ,  ), ( anra004, anst007, 1, 3, 2014-09-09, 1.00, 8.00, 1, , gine001, ,  ), ( lima003, anst007, 1, 3, 2014-09-09, 22.00, 24.00, 1, , gine001, ,  ) => {inserted_id = 5931}
+07:02:29 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirrus6`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, priority, admin_user, status, hidden ) values ( 5, gine001, test, 2, , 3, 1 ) => {inserted_id = 8}
+07:12:06 gine001 Gilad Nevo UPDATING data to tables `temp_session` fields ( details ) values (5567,5924,5925,5926,5927,5664,5766,5659,5660,5661,5569,5928,5570,5929,5930,5931,5932,5933,5571,5572,5573,5574,5575,5576,5577,5578,5579,5580,5581,5582,5583,5584,5585) on conditions username LIKE gine001 AND type = 1
+07:12:22 gine001 Gilad Nevo UPDATING data to tables `temp_session` fields ( details ) values (5567,5924,5925,5926,5927,5664,5766,5659,5660,5661,5569,5928,5570,5929,5930,5931,5932,5933,5571,5572,5573,5574,5575,5576,5577,5578,5579,5580,5581,5582,5583,5584,5585) on conditions username LIKE gine001 AND type = 1
+09:05:51 rokl001  DELETE data from tables `temp_session` on conditions username LIKE rokl001
+09:05:51 rokl001 rokl001 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rokl001, 95.199.142.176, Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.0 Mobile/11D167 Safari/9537.53 ) => {inserted_id = 2018}
+09:05:51 rokl001 rokl001 DELETE data from tables `temp_session` on conditions username LIKE rokl001
+09:05:51 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = rokl001
+10:32:16 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+10:32:16 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 37.46.164.131, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36 ) => {inserted_id = 2019}
+10:32:16 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+10:32:16 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+10:55:42 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+10:55:42 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 223.30.129.234, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/38.0.2125.111 Chrome/38.0.2125.111 Safari/537.36 ) => {inserted_id = 2021}
+10:55:42 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+10:55:42 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+13:29:52 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+13:29:52 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 223.30.129.234, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/38.0.2125.111 Chrome/38.0.2125.111 Safari/537.36 ) => {inserted_id = 2022}
+13:29:52 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+13:29:52 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+14:14:22 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+14:14:22 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 223.30.129.234, Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:31.0) Gecko/20100101 Firefox/31.0 FirePHP/0.7.4 ) => {inserted_id = 2023}
+14:14:22 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+14:14:22 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+15:54:58 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+15:54:58 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 223.30.129.234, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/38.0.2125.111 Chrome/38.0.2125.111 Safari/537.36 ) => {inserted_id = 2024}
+15:54:58 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+15:54:58 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+15:55:15 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+15:55:15 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+15:55:15   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-11-14:14:55:15) on conditions id = 2024 AND username = gine001
+20:04:28 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+20:04:28 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.154.135, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36 ) => {inserted_id = 2025}
+20:04:28 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+20:04:28 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+20:12:13 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirrus14`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, priority, admin_user, status, hidden ) values ( 36, gine001, De 3 olika signaturer är bara för att visa vem har signerat.
+Det har INGEN betydelse på vilken av signaturer/länkar du trycker på, du kommer alltid till månadsavslut.
+
+De olika signaturer är för att visa ATT de olika befattningshavare har signerat.
+
+Systemet vet att det är du som är inloggad och där med lägger in signaturen på rätt plats automatiskt.
+1. Assistent
+2. AL/GL eller Admin
+3. Admin, 2, , 3, 0 ) => {inserted_id = 1828}
+20:15:03 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirrus14`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, priority, admin_user, status, hidden ) values ( 24, gine001, Ärendet är nu löst., 2, , 4, 0 ) => {inserted_id = 1829}
+20:16:37 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirrus14`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, priority, admin_user, status, hidden ) values ( 23, gine001, Vi har inte sett Några svar i detta ärende. Ärendet stängs. Återkom ifall problem igen., 2, , 4, 0 ) => {inserted_id = 1830}
+20:23:38 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirrus14`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, priority, admin_user, status, hidden ) values ( 11, gine001, Inte fått några kommentarer i detta ärende senaste 96 timmarna.
+Ärendet stängs.
+Återkom gärna med nytt ärende om något fattas., 2, , 4, 0 ) => {inserted_id = 1831}
+20:24:54 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirrus14`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, priority, admin_user, status, hidden ) values ( 15, gine001, Detta är åtgärdat.
+
+Ärendet är löst, 2, , 4, 0 ) => {inserted_id = 1832}
+20:26:21 gine001 Gilad Nevo INSERTING data into tables `support_tickets` fields ( created_user, admin_user, ticket_type, category_id, priority, title, description, attachment, status ) values ( gine001, , , 2, 2, fdndfhnd, fgnfhndd, , 1 ) => {inserted_id = 6}
+20:26:21 gine001 Gilad Nevo UPDATING data to tables `support_tickets` fields ( attachment ) values () on conditions id = 6
+20:26:21 gine001 Gilad Nevo INSERTING data into tables `note` fields ( created_user, title, description, visibility, status, customer, ticket, attachment ) values ( gine001, fdndfhnd, fgnfhndd, 4, 1, , 6,  ) => {inserted_id = 43}
+20:26:21 gine001 Gilad Nevo UPDATING data to tables `note` fields ( attachment ) values () on conditions id = 43
+20:27:26 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirrus6`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, priority, admin_user, status, hidden ) values ( 6, gine001, löset, 2, , 4, 0 ) => {inserted_id = 9}
+20:28:17 gine001 Gilad Nevo UPDATING data to tables `note` fields ( status ) values (0) on conditions id = 43
+20:28:19 gine001 Gilad Nevo UPDATING data to tables `note` fields ( status ) values (1) on conditions id = 43
+20:28:21 gine001 Gilad Nevo INSERTING data into tables `mc_note` fields ( note_id, read_users ) values ( 43, gine001 ) => {inserted_id = 41}
+20:28:30 gine001 Gilad Nevo DELETE data from tables `note` on conditions id = 43
+20:29:23 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirrus14`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, priority, admin_user, status, hidden ) values ( 17, gine001, Detta är nu löst. Det kommer en varning.
+
+Ärendet löst., 2, , 4, 0 ) => {inserted_id = 1833}
+20:30:40 gine001 Gilad Nevo INSERTING data into tables `support_tickets` fields ( created_user, admin_user, ticket_type, category_id, priority, title, description, attachment, status ) values ( gine001, , , 1, 2, gbsfsdf, sdgbsfgbsdfd, , 1 ) => {inserted_id = 7}
+20:30:40 gine001 Gilad Nevo UPDATING data to tables `support_tickets` fields ( attachment ) values () on conditions id = 7
+20:35:54 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirrus6`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, priority, admin_user, status, hidden ) values ( 7, gine001, asvsdfvsdfs test, 2, , 4, 0 ) => {inserted_id = 10}
+20:36:45 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirrus14`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, priority, admin_user, status, hidden ) values ( 16, gine001, Detta är löst.
+
+Ärendet stängs, 2, , 4, 0 ) => {inserted_id = 1834}
+20:37:27 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirrus6`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, priority, admin_user, status, hidden ) values ( 5, gine001, Detta är löst., 2, , 4, 0 ) => {inserted_id = 11}

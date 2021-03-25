@@ -1,0 +1,23 @@
+13:48:05 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 223.30.129.234, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 ) => {inserted_id = 5395}
+13:48:05 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+13:48:05 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-12-20 13:48:05) on conditions username = dodo001
+13:48:05 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-12-20 13:48:05) on conditions username = dodo001 AND company_id = 6
+13:48:06 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = 22433b96a7730a4edc6e364c681c2d17
+13:48:10 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+13:48:10 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2016-12-20 13:48:10) on conditions username = dodo001
+13:48:10 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-12-20 13:48:10) on conditions username = dodo001 AND company_id = 6
+13:48:10   UPDATING data to tables `log_login` fields ( logout_time ) values (2016-12-20:12:48:10) on conditions id = 5395 AND username = dodo001
+14:20:32 magu013 Maria Gustafsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( magu013, 85.89.66.156, Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko ) => {inserted_id = 5396}
+14:20:32 magu013 Maria Gustafsson DELETE data from tables `temp_session` on conditions username LIKE magu013
+14:20:32 magu013 Maria Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-12-20 14:20:32) on conditions username = magu013
+14:20:32 magu013 Maria Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-12-20 14:20:32) on conditions username = magu013 AND company_id = 6
+14:20:33 magu013 Maria Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (magu013) on conditions session_id = f070d2d0dec9e72b83791e26c78fb102
+14:20:33 magu013 Maria Gustafsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( magu013, 85.89.66.156, Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko ) => {inserted_id = 5397}
+14:20:33 magu013 Maria Gustafsson DELETE data from tables `temp_session` on conditions username LIKE magu013
+14:20:34 magu013 Maria Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-12-20 14:20:33) on conditions username = magu013
+14:20:34 magu013 Maria Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-12-20 14:20:33) on conditions username = magu013 AND company_id = 6
+14:20:34 magu013 Maria Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (magu013) on conditions session_id = f070d2d0dec9e72b83791e26c78fb102
+14:21:09 magu013 Maria Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (magu013) on conditions session_id = f070d2d0dec9e72b83791e26c78fb102
+14:21:31 magu013 Maria Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (magu013) on conditions session_id = f070d2d0dec9e72b83791e26c78fb102
+15:32:57 magu013 Maria Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (magu013) on conditions session_id = f070d2d0dec9e72b83791e26c78fb102
+15:46:10 magu013 Maria Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (magu013) on conditions session_id = f070d2d0dec9e72b83791e26c78fb102

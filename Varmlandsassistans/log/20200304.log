@@ -1,0 +1,20 @@
+15:59:51 inbe006 Ingeborg Bergren INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( inbe006, 85.229.51.54, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36 ) => {inserted_id = 8111}
+15:59:51 inbe006 Ingeborg Bergren DELETE data from tables `temp_session` on conditions username LIKE inbe006
+15:59:51 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-03-04 15:59:51) on conditions username = inbe006
+15:59:51 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-03-04 15:59:51) on conditions username = inbe006 AND company_id = 21
+15:59:51 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = 98489710150aa6bfa86c68b0daec9860
+15:59:56 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = 98489710150aa6bfa86c68b0daec9860
+16:00:00 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = 98489710150aa6bfa86c68b0daec9860
+16:06:38 inbe006 Ingeborg Bergren UPDATING data to tables `fkkn_form_defaults` fields ( bargaining_new, company_cp_name, company_cp_phone, provider_of_pa_flag, agreement_types_new, agreement_type2_company, agreement_type2_orgNo ) values (2, Ingeborg Berggren, 0548201015, 2, 1, , ) on conditions customer = amom001 AND (employee =  OR employee IS NULL)
+16:07:36 inbe006 Ingeborg Bergren INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( inbe006, 85.229.51.54, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36 ) => {inserted_id = 8112}
+16:07:36 inbe006 Ingeborg Bergren DELETE data from tables `temp_session` on conditions username LIKE inbe006
+16:07:36 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-03-04 16:07:36) on conditions username = inbe006
+16:07:36 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-03-04 16:07:36) on conditions username = inbe006 AND company_id = 21
+16:07:36 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = 0f5ad000e1b6bd7bce549be2252c54d7
+16:08:47 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (amom001, fasa004, 2020-02-07, 19.30, 24, 1, 0, 1, ) on conditions id = 2970
+16:09:32 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (amom001, fasa004, 2020-02-07, 19.30, 24, 2, 0, 1, ) on conditions id = 2970
+16:46:50 inbe006 Ingeborg Bergren INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( inbe006, 85.229.51.54, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36 ) => {inserted_id = 8113}
+16:46:50 inbe006 Ingeborg Bergren DELETE data from tables `temp_session` on conditions username LIKE inbe006
+16:46:50 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-03-04 16:46:50) on conditions username = inbe006
+16:46:50 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-03-04 16:46:50) on conditions username = inbe006 AND company_id = 21
+16:46:50 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = 1253d35d2fcca54e16e2b1163fd8b345

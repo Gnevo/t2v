@@ -1,0 +1,3091 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+    <label>
+        <key>invalid_user</key>
+        <value>Ogiltig användare</value>
+    </label>
+    <label>
+        <key>contact_administrator</key>
+        <value>Kontakta administratören</value>
+    </label>
+    <label>
+        <key>invalid_username_or_password</key>
+        <value>Ogiltigt användarnamn/lösenord</value>
+    </label>
+    <label>
+        <key>mismatch_passwords</key>
+        <value>"Nytt lösenord" och "Upprepa nytt lösenord" stämmer inte överens</value>
+    </label>
+    <label>
+        <key>password_contain_number_or_capital_letter</key>
+        <value>Lösenord bör innehålla minst en siffra eller versal</value>
+    </label>
+    <label>
+        <key>incorrect_current_password</key>
+        <value>Felaktigt lösenord</value>
+    </label>
+    <label>
+        <key>cannot_use_previous_passwords</key>
+        <value>Kan inte använda samma lösenord</value>
+    </label>
+    <label>
+        <key>password_changing_failed</key>
+        <value>Byte av lösenord misslyckades</value>
+    </label>
+    <label>
+        <key>password_changing_success</key>
+        <value>Lösenordet har ändrats</value>
+    </label>
+    <label>
+        <key>customer_adding_success</key>
+        <value>Kunden har lagts till</value>
+    </label>
+    <label>
+        <key>customer_adding_failed</key>
+        <value>Kunde inte lägga in kund</value>
+    </label>
+    <label>
+        <key>customer_updating_success</key>
+        <value>Kunden har uppdaterats</value>
+    </label>
+    <label>
+        <key>customer_updating_failed</key>
+        <value>Uppdatering av kund misslyckades</value>
+    </label>
+    <label>
+        <key>employee_adding_success</key>
+        <value>Anställd har lagts till</value>
+    </label>
+    <label>
+        <key>employee_adding_failed</key>
+        <value>Misslyckades att lägga in anställd</value>
+    </label>
+    <label>
+        <key>employee_updating_success</key>
+        <value>Uppgifterna har uppdaterats</value>
+    </label>
+    <label>
+        <key>employee_updating_failed</key>
+        <value>Uppdatering av anställd misslyckades</value>
+    </label>
+    <label>
+        <key>works_adding_success</key>
+        <value>Jobb har lagts till</value>
+    </label>
+    <label>
+        <key>works_adding_failed</key>
+        <value>Misslyckades att lägga till jobb</value>
+    </label>
+    <label>
+        <key>team_adding_success</key>
+        <value>Kopplat till ett lag</value>
+    </label>
+    <label>
+        <key>team_adding_failed</key>
+        <value>Misslyckades lägga till lag</value>
+    </label>
+    <label>
+        <key>team_updating_success</key>
+        <value>lag uppdaterat</value>
+    </label>
+    <label>
+        <key>team_updating_failed</key>
+        <value>Misslyckad uppdatering av lag</value>
+    </label>
+    <label>
+        <key>please_enter_hours</key>
+        <value>Mata in timmar</value>
+    </label>
+    <label>
+        <key>please_enter_date_from</key>
+        <value>Datum från</value>
+    </label>
+    <label>
+        <key>please_enter_date_to</key>
+        <value>Datum till</value>
+    </label>
+    <label>
+        <key>the_hours_greater_than_days</key>
+        <value>Antal timmar är större än tillåtet</value>
+    </label>
+    <label>
+        <key>to_date_greaterthan_from_date</key>
+        <value>Till datum måste vara tidigare än från datum</value>
+    </label>
+    <label>
+        <key>overlapped_contract_period</key>
+        <value>Överlappande avtalsperioden</value>
+    </label>
+    <label>
+        <key>no_data_available</key>
+        <value>Inga poster funna</value>
+    </label>
+    <label>
+        <key>social_security_wrong</key>
+        <value>Felaktigt personnummer</value>
+    </label>
+    <label>
+        <key>saved_leave</key>
+        <value>Frånvaro sparad</value>
+    </label>
+    <label>
+        <key>cant_save_leave</key>
+        <value>Kan inte spara frånvaro, kontrollera om assistenten har frånvaro i intervallet</value>
+    </label>
+    <label>
+        <key>already_scheduled</key>
+        <value>Redan schemalagd</value>
+    </label>
+    <label>
+        <key>select_one_day</key>
+        <value>Välj dag</value>
+    </label>
+    <label>
+        <key>enter_correct_date</key>
+        <value>Felaktigt datum</value>
+    </label>
+    <label>
+        <key>select_year</key>
+        <value>Välj år</value>
+    </label>
+    <label>
+        <key>select_month</key>
+        <value>Välj månad</value>
+    </label>
+    <label>
+        <key>pending</key>
+        <value>Obehandlat</value>
+    </label>
+    <label>
+        <key>approved</key>
+        <value>Godkänt</value>
+    </label>
+    <label>
+        <key>rejected</key>
+        <value>Avslaget</value>
+    </label>
+    <label>
+        <key>check_the_from_and_to_date</key>
+        <value>Kontrollera från- och till datum</value>
+    </label>
+    <label>
+        <key>please_select_one_date</key>
+        <value>Välj ett datum</value>
+    </label>
+    <label>
+        <key>please_select_a_leave_type</key>
+        <value>Välj frånvarotyp</value>
+    </label>
+    <label>
+        <key>please_enter_time</key>
+        <value>Lägg in tid</value>
+    </label>
+    <label>
+        <key>slot_add_fail</key>
+        <value>Fel vid inmatning</value>
+    </label>
+    <label>
+        <key>time_coliides_for_user1</key>
+        <value>passbyte inte möjligt. Tid kolliderar med den första användaren</value>
+    </label>
+    <label>
+        <key>time_coliides_for_user2</key>
+        <value>Passbyte inte möjligt. Tid kolliderar med den andra användaren</value>
+    </label>
+    <label>
+        <key>swap_work_miss_match</key>
+        <value>Passbyte inte möjligt</value>
+    </label>
+    <label>
+        <key>swap_emp_should_be_different</key>
+        <value>Byte inte möjligt. Kontrollera anställd</value>
+    </label>
+    <label>
+        <key>swaping_failed</key>
+        <value>Byte misslyckades</value>
+    </label>
+    <label>
+        <key>swap_success</key>
+        <value>Passbytet genomfört</value>
+    </label>
+    <label>
+        <key>delete_not_possible</key>
+        <value>Radering inte möjlig</value>
+    </label>
+    <label>
+        <key>insertion_failed</key>
+        <value>Kopiering misslyckades</value>
+    </label>
+    <label>
+        <key>invalid_time</key>
+        <value>Felaktig tid</value>
+    </label>
+    <label>
+        <key>multiple_skills</key>
+        <value>Flera jobb finns. Välj kvalifikationer först</value>
+    </label>
+    <label>
+        <key>slot_collide</key>
+        <value>Passtiden koliderar med annan tid</value>
+    </label>
+    <label>
+        <key>no_common_works</key>
+        <value>Jobb saknas för kund/anställd</value>
+    </label>
+    <label>
+        <key>select_one</key>
+        <value>Välj en</value>
+    </label>
+    <label>
+        <key>no_employee_available</key>
+        <value>Ingen anställd tillgänglig</value>
+    </label>
+    <label>
+        <key>no_customer_available</key>
+        <value>Ingen kund tillgänglig</value>
+    </label>
+    <label>
+        <key>dialog_alert</key>
+        <value>Varning</value>
+    </label>
+    <label>
+        <key>dialog_message</key>
+        <value>Personnummer finns redan. Vill du kopiera det?</value>
+    </label>
+    <label>
+        <key>unread_leaves</key>
+        <value>Oläst frånvaro</value>
+    </label>
+    <label>
+        <key>unread_notes</key>
+        <value>Olästa noteringar</value>
+    </label>
+    <label>
+        <key>unread_mail</key>
+        <value>Olästa mail</value>
+    </label>
+    <label>
+        <key>message_center</key>
+        <value>Medd. Center</value>
+    </label>
+    <label>
+        <key>there_are_no_files</key>
+        <value>Inga filer</value>
+    </label>
+    <label>
+        <key>no_relatives</key>
+        <value>Inga anhöriga</value>
+    </label>
+    <label>
+        <key>customer_details_saved</key>
+        <value>Kund sparad</value>
+    </label>
+    <label>
+        <key>cant_complete_your_process</key>
+        <value>Kan inte slutföra din process</value>
+    </label>
+    <label>
+        <key>no_time_slot_exists</key>
+        <value>Finns inga tider</value>
+    </label>
+    <label>
+        <key>copy_success</key>
+        <value>Kopieringen av kundschema: </value>
+    </label>
+    <label>
+        <key>username_or_password_missing</key>
+        <value>Användarnamn eller löseonord saknas</value>
+    </label>
+    <label>
+        <key>signing_done_sucessfully</key>
+        <value>Signering lyckades</value>
+    </label>
+    <label>
+        <key>error_occured_in_signing_try_again</key>
+        <value>Fel vid signeringen - Försök igen</value>
+    </label>
+    <label>
+        <key>select_one_employee</key>
+        <value>Välj anställd rapport</value>
+    </label>
+    <label>
+        <key>this_employee_already_signin</key>
+        <value>Månadsavlut signerat</value>
+    </label>
+    <label>
+        <key>delete_success</key>
+        <value>Schemat raderat mellan datum:</value>
+    </label>
+    <label>
+        <key>replace_success</key>
+        <value>Ersatt</value>
+    </label>
+    <label>
+        <key>replace_failed</key>
+        <value>Ersättning misslyckades</value>
+    </label>
+    <label>
+        <key>enter_subject</key>
+        <value>Ämne saknas</value>
+    </label>
+    <label>
+        <key>enter_notes</key>
+        <value>Skriv kommentarer</value>
+    </label>
+    <label>
+        <key>select_employee</key>
+        <value>Välj anställd</value>
+    </label>
+    <label>
+        <key>enter_created_date</key>
+        <value>Skriv skapad datum</value>
+    </label>
+    <label>
+        <key>enter_last_date</key>
+        <value>Skriv sista datum</value>
+    </label>
+    <label>
+        <key>enter_priority</key>
+        <value>Välj prioritet</value>
+    </label>
+    <label>
+        <key>enter_documentation</key>
+        <value>Välj dokumentation</value>
+    </label>
+    <label>
+        <key>enter_works</key>
+        <value>Välj arbete</value>
+    </label>
+    <label>
+        <key>enter_background_history</key>
+        <value>Välj bakgrund/historik</value>
+    </label>
+    <label>
+        <key>enter_clinical_picture</key>
+        <value>Ange Klinisk bild</value>
+    </label>
+    <label>
+        <key>enter_medications</key>
+        <value>Ange läkemedel</value>
+    </label>
+    <label>
+        <key>enter_special_diet</key>
+        <value>Ange specialkost</value>
+    </label>
+    <label>
+        <key>failed_to_post_documents</key>
+        <value>Det gick inte att ladda upp dokument. Tillåtna filformat(doc,xls, pdf)</value>
+    </label>
+    <label>
+        <key>file_exists</key>
+        <value>Fil finns</value>
+    </label>
+    <label>
+        <key>file_selected_supported_extension</key>
+        <value>Tillåtna filformat(doc,xls, pdf)</value>
+    </label>
+    <label>
+        <key>exceeds_the_limit_file_size</key>
+        <value>Överskrider tillåten filstorlek</value>
+    </label>
+    <label>
+        <key>this_social_security_number_is_wrong</key>
+        <value>Felaktigt personnummer</value>
+    </label>
+    <label>
+        <key>are_you_sure</key>
+        <value>Är du säker ?</value>
+    </label>
+    <label>
+        <key>this_customer_have_no_employees</key>
+        <value>Kunden saknar anställda</value>
+    </label>
+    <label>
+        <key>this_employee_have_no_customers</key>
+        <value>Anställde saknar kunder</value>
+    </label>
+    <label>
+        <key>cant_delete_signin</key>
+        <value>Kan inte radera signering</value>
+    </label>
+    <label>
+        <key>entered_time_not_within_slot</key>
+        <value>Inlagd tid stämmer inte med pass</value>
+    </label>
+    <label>
+        <key>social_security_wrong</key>
+        <value>Fel personnummer</value>
+    </label>
+    <label>
+        <key>saved_inconvinent_timing</key>
+        <value>Sparad OB-Tid</value>
+    </label>
+    <label>
+        <key>cant_save_inconvinent_time</key>
+        <value>Kan inte spara OB-Tid</value>
+    </label>
+    <label>
+        <key>not_continuous_day_given</key>
+        <value>Fortsättningstid saknas</value>
+    </label>
+    <label>
+        <key>starred_data_not_blank</key>
+        <value>Obligatoriskt fält ej ifyllt</value>
+    </label>
+    <label>
+        <key>notification_add_success</key>
+        <value>Ändring sparad</value>
+    </label>
+    <label>
+        <key>notification_update_success</key>
+        <value>Meddelande uppdaterad</value>
+    </label>
+    <label>
+        <key>notification_add_fail</key>
+        <value>Det gick inte att lägga till noteringen</value>
+    </label>
+    <label>
+        <key>notification_update_fail</key>
+        <value>Uppdateringen misslyckades</value>
+    </label>
+    <label>
+        <key>previlege_add_success</key>
+        <value>Befogenhet tillagd</value>
+    </label>
+    <label>
+        <key>previlege_update_success</key>
+        <value>Befogenhet uppdaterad</value>
+    </label>
+    <label>
+        <key>previlege_add_fail</key>
+        <value>Inläggning av Befogenhet misslyckades</value>
+    </label>
+    <label>
+        <key>previlege_update_fail</key>
+        <value>Uppdatering av Befogenhet misslyckades</value>
+    </label>
+    <label>
+        <key>enter_username_password</key>
+        <value>Ange användarnamn och lösenord</value>
+    </label>
+    <label>
+        <key>not_within_slot</key>
+        <value>Inmatad tid ligger inte inom passet</value>
+    </label>
+    <label>
+        <key>mail_send_sucesfully</key>
+        <value>Mail skickat</value>
+    </label>
+    <label>
+        <key>mail_send_fail</key>
+        <value>Mail skickades inte</value>
+    </label>
+    <label>
+        <key>file_could_not_download</key>
+        <value>FEL: Fil kunde inte laddas ned.</value>
+    </label>
+    <label>
+        <key>document_add_success</key>
+        <value>Uppladning lyckades</value>
+    </label>
+    <label>
+        <key>slots_copied</key>
+        <value>Tider kopierade</value>
+    </label>
+    <label>
+        <key>slots_selected</key>
+        <value>Tider valda att kopiera</value>
+    </label>
+    <label>
+        <key>contract_update_sucess</key>
+        <value>Anställningsavtalet uppdaterat</value>
+    </label>
+    <label>
+        <key>contract_add_sucess</key>
+        <value>Anställningsavtalet sparat</value>
+    </label>
+    <label>
+        <key>mobile_number_present</key>
+        <value>Mobilnummer existerar redan</value>
+    </label>
+    <label>
+        <key>added_successfully</key>
+        <value>Posten har uppdaterats</value>
+    </label>
+    <label>
+        <key>applied_leaves</key>
+        <value>Frånvaro sparad</value>
+    </label>
+    <label>
+        <key>time_from</key>
+        <value>Tid från</value>
+    </label>
+    <label>
+        <key>time_to</key>
+        <value>Tid till</value>
+    </label>
+    <label>
+        <key>mobile_num_less</key>
+        <value>Mobilnummer ska vara 10 siffror</value>
+    </label>
+    <label>
+        <key>required_missing</key>
+        <value>Obligatoriskt fält ej ifylld</value>
+    </label>
+    <label>
+        <key>employee_signed_in</key>
+        <value>Månadsrapport signerad!</value>
+    </label>
+    <label>
+        <key>user_inactive</key>
+        <value>Anv. inaktiverad</value>
+    </label>
+    <label>
+        <key>please_enter_your_password</key>
+        <value>Mata in lösenord</value>
+    </label>
+    <label>
+        <key>sorry_wrong_password</key>
+        <value>Felaktigt lösenord</value>
+    </label>
+    <label>
+        <key>confirm_password</key>
+        <value>Bekräfta lösenord</value>
+    </label>
+    <label>
+        <key>want_delete</key>
+        <value>Är du säker filen ska tas bort?</value>
+    </label>
+    <label>
+        <key>permission_denied</key>
+        <value>Du har ingen Befogenhet till detta</value>
+    </label>
+    <label>
+        <key>password_minimum</key>
+        <value>Lösenord måste innehålla minst 8 tecken</value>
+    </label>
+    <label>
+        <key>deactive_date_less</key>
+        <value>Deactivation Date Must Be Greater Than Make Date</value>
+    </label>
+    <label>
+        <key>date_inactive</key>
+        <value>Kontot giltigt till</value>
+    </label>
+    <label>
+        <key>forgot_password</key>
+        <value>Glömt lösenord?</value>
+    </label>
+    <label>
+        <key>email</key>
+        <value>e-post</value>
+    </label>
+    <label>
+        <key>back_to_login</key>
+        <value>Tillbaka till inloggningen</value>
+    </label>
+    <label>
+        <key>get_password</key>
+        <value>Skicka nytt lösenord</value>
+    </label>
+    <label>
+        <key>reset_password</key>
+        <value>Återställ lösenord</value>
+    </label>
+    <label>
+        <key>go_to_login</key>
+        <value>Till inloggningssidan</value>
+    </label>
+    <label>
+        <key>confirm_password</key>
+        <value>Bekräfta-lösenord</value>
+    </label>
+    <label>
+        <key>provide_password</key>
+        <value>Ange ett lösenord</value>
+    </label>
+    <label>
+        <key>provide_min_length</key>
+        <value>Ditt lösenord måste vara minst 8 tecken långt</value>
+    </label>
+    <label>
+        <key>provide_same_above</key>
+        <value>Upprepa lösenordet</value>
+    </label>
+    <label>
+        <key>enter_username</key>
+        <value>Ange användarnamn</value>
+    </label>
+    <label>
+        <key>enter_email</key>
+        <value>Ange e-postadress</value>
+    </label>
+    <label>
+        <key>enter_valid_email</key>
+        <value>Ange giltig e-post</value>
+    </label>
+    <label>
+        <key>enter_username_email</key>
+        <value>Ange användarnamn och e-post</value>
+    </label>
+    <label>
+        <key>email_password_reset_link_sent</key>
+        <value>Inloggningsuppgifter skickades till din e-postadress</value>
+    </label>
+    <label>
+        <key>enter_username_not_exist</key>
+        <value>Användarnamn/e-post felaktiga</value>
+    </label>
+    <label>
+        <key>enter_saime_password_re-password</key>
+        <value>Ange lösenord och bekräfta-lösenord</value>
+    </label>
+    <label>
+        <key>reset_password_success</key>
+        <value>Ditt lösenord har återställts</value>
+    </label>
+    <label>
+        <key>password_reset_link_expired</key>
+        <value>Ditt lösenord återställning har gått ut.</value>
+    </label>
+    <label>
+        <key>new_password</key>
+        <value>Skriv in det nya lösenordet</value>
+    </label>
+    <label>
+        <key>auto_saved</key>
+        <value>Autosparar</value>
+    </label>
+    <label>
+        <key>no_internet_connection</key>
+        <value>Inget kontakt med Internet</value>
+    </label>
+    <label>
+        <key>timesheets_not_signed</key>
+        <value>Tidsrapporter har inte signerats av någon</value>
+    </label>
+    <label>
+        <key>data_save_success</key>
+        <value>Autoshema sparat</value>
+    </label>
+    <label>
+        <key>enter_customer_name_error</key>
+        <value>Ange kundens namn</value>
+    </label>
+    <label>
+        <key>label_auto_schedule</key>
+        <value>Klicka för att hämta schema förslaget</value>
+    </label>
+    <label>
+        <key>works_other</key>
+        <value>Arbetar på annat håll</value>
+    </label>
+    <label>
+        <key>on_leave</key>
+        <value>Frånvarande</value>
+    </label>
+    <label>
+        <key>on_leave_pending</key>
+        <value>Frånvro att godkänna</value>
+    </label>
+    <label>
+        <key>report_signed</key>
+        <value>Rapport signerad</value>
+    </label>
+    <label>
+        <key>are_you_sure</key>	
+        <value>Vill du spara?</value>
+    </label>
+    <label>
+        <key>label_cancel</key>	
+        <value>Avbryt</value>
+    </label>
+    <label>
+        <key>label_save</key>	
+        <value>Spara</value>
+    </label>
+    <label>
+        <key>label_reset</key>	
+        <value>Återställ</value>
+    </label>
+    <label>
+        <key>extra_string_message</key>	
+        <value>Tillägsmeddelande</value>
+    </label>
+    <label>
+        <key>note_adding_success</key>
+        <value>Anteckning har lagt till</value>
+    </label>
+    <label>
+        <key>note_adding_fail</key>
+        <value>Fel inträffat. Kunde inte spara.</value>
+    </label>
+    <label>
+        <key>ticket_adding_success</key>
+        <value>Ärendet sparat</value>
+    </label>
+    <label>
+        <key>ticket_adding_fail</key>
+        <value>Ett fel inträffade. Kan inte spara</value>
+    </label>
+    <label>
+        <key>free_to_allocate</key>
+        <value>Tillgänglig</value>
+    </label>
+    <label>
+        <key>working_in</key>
+        <value>Arbetar hos: </value>
+    </label>
+    <label>
+        <key>no_employee_availabel_to_taken_task</key>
+        <value>Ingen anställd tillgänglig</value>
+    </label>
+    <label>
+        <key>time_preference</key>
+        <value>Arbetstid</value>
+    </label>
+    <label>
+        <key>preview_report</key>
+        <value>Förhandsgranska rapport</value>
+    </label>
+    <label>
+        <key>no_slot</key>
+        <value>Inga pass</value>
+    </label>
+    <label>
+        <key>employee_already_signed_cant_cancel_leave</key>
+        <value>Anställd har redan signerat månadsavslut. Kan inte avslå frånvaro.</value>
+    </label>
+    <label>
+        <key>substitue_already_signed</key>
+        <value>Ersättaren har redan signerat månadsavslut.</value>
+    </label>
+    <label>
+        <key>date_is_passed_cant_cancel_leave</key>
+        <value>Arbetspasset har passerat med mer än tre månader och kan då inte återtas.</value>
+    </label>
+    
+    <label>
+        <key>confirm_edit</key>
+        <value>Ska ändras?</value>
+    </label>
+    <label>
+        <key>holiday_adding_success</key>
+        <value>Helgen lagts till</value>
+    </label>
+    <label>
+        <key>holiday_adding_failed</key>
+        <value>Kan inte lägga till, försök igen.</value>
+    </label>
+    <label>
+        <key>holiday_update_success</key>
+        <value>Uppdateringen lyckades</value>
+    </label>
+    <label>
+        <key>holiday_updating_failed</key>
+        <value>Uppdateringen misslyckades, försök igen.</value>
+    </label>
+    <label>
+        <key>holiday_collide</key>
+        <value>Helgen krockar med en annan</value>
+    </label>
+    <label>
+        <key>download_all</key>
+        <value>Hämta alla</value>
+    </label>
+    <label>
+        <key>no_attachment</key>
+        <value>Ingen bilaga</value>
+    </label>
+    <label>
+        <key>notes_detail</key>
+        <value>Obs detalj</value>
+    </label>
+    <label>
+        <key>attachments</key>
+        <value>Bilagor</value>
+    </label>
+    <label>
+        <key>all</key>
+        <value>** Samtliga</value>
+    </label>
+    <label>
+        <key>appoiments</key>
+        <value>Möten/bokningar</value>
+    </label>
+    <label>
+        <key>phone_number</key>
+        <value>Mobil</value>
+    </label>
+    <label>
+        <key>appoiment_date</key>
+        <value>Mötes datum</value>
+    </label>
+    <label>
+        <key>appoiment_address</key>
+        <value>Mötes adress</value>
+    </label>
+    <label>
+        <key>appoiment_reason</key>
+        <value>Ämne</value>
+    </label>
+    <label>
+        <key>contact_person_name</key>
+        <value>Kontaktperson</value>
+    </label>
+    <label>
+        <key>phone_number_cp</key>
+        <value>Mobil</value>
+    </label>
+    <label>
+        <key>appoiment_remarks</key>
+        <value>Anteckningar</value>
+    </label>
+    <label>
+        <key>email_cp</key>
+        <value>E-post</value>
+    </label>
+    <label>
+        <key>reminder_before</key>
+        <value>Påminnelse före</value>
+    </label>
+    <label>
+        <key>repeat_until_due_date</key>
+        <value>Upprepa tills förfallodagen?</value>
+    </label>
+    <label>
+        <key>label_hours</key>
+        <value>Timmar</value>
+    </label>
+    <label>
+        <key>label_days</key>
+        <value>Dagar</value>
+    </label>
+    <label>
+        <key>label_date</key>
+        <value>Datum</value>
+    </label>
+    <label>
+        <key>appoiment_detail</key>
+        <value>Anteckningar</value>
+    </label>
+    <label>
+        <key>remind_me_approintment_over_email</key>
+        <value>Påminn mig om detta möte via e-post.</value>
+    </label>
+    <label>
+        <key>remind_me_about_this_approintment_over_sms</key>
+        <value>Påminn mig om detta möte via SMS.</value>
+    </label>
+    <label>
+        <key>sms_alert_chage_tooltip</key>
+        <value>SMS skulle medföra extra kostnad.</value>
+    </label>
+    <label>
+        <key>sms_alert_chage_tooltip</key>
+        <value>SMS skulle medföra extra kostnad.</value>
+    </label>
+    <label>
+        <key>number_where_alert_should_sent</key>
+        <value>Mobilnr påminnelse ska skickas till.</value>
+    </label>
+    <label>
+        <key>appointment_alert</key>
+        <value>Mötespåminnelse till</value>
+    </label>
+    <label>
+        <key>label_with</key>
+        <value>ansvarig</value>
+    </label>
+    <label>
+        <key>label_on</key>
+        <value>datum/tid</value>
+    </label>
+    <label>
+        <key>please_login_cirrus_more_info</key>
+        <value>Logga in på Cirrus för mer information.</value>
+    </label>
+    <label>
+        <key>label_yes</key>
+        <value>Ja</value>
+    </label>
+    <label>
+        <key>label_no</key>
+        <value>Nej</value>
+    </label>
+    <label>
+        <key>notes_attchments</key>
+        <value>Bilagor</value>
+    </label>
+    <label>
+        <key>privilege</key>
+        <value>Befogenheter</value>
+    </label>
+    <label>
+        <key>global_setting_insurance_personal</key>
+        <value>Pension-försäkring(Kp osv.) i%</value>
+    </label>
+    <label>
+        <key>global_setting_insurance_subsitute</key>
+        <value>Pension försäkring</value>
+    </label>
+    <label>
+        <key>inconvinient_evening</key>
+        <value>OB kväll</value>
+    </label>
+    <label>
+        <key>inconvinient_night</key>
+        <value>OB natt</value>
+    </label>
+    <label>
+        <key>inconvinient_holiday</key>
+        <value>OB stor helg</value>
+    </label>
+    <label>
+        <key>inconvinient_week_holiday</key>
+        <value>OB helg</value>
+    </label>
+    <label>
+        <key>on_call</key>
+        <value>Väntetid vardag</value>
+    </label>
+    <label>
+        <key>oncall_holiday</key>
+        <value>Väntetid helg</value>
+    </label>
+    <label>
+        <key>oncall_bigholiday</key>
+        <value>Väntetid stor helg</value>
+    </label>
+    <label>
+        <key>salary_information</key>
+        <value>Löneinformation</value>
+    </label>
+    <label>
+        <key>salary_per_hour</key>
+        <value>lön / timme</value>
+    </label>
+    <label>
+        <key>salary_per_month</key>
+        <value>lön / månad</value>
+    </label>
+    <label>
+        <key>add_another_not</key>
+        <value>Lägg en annan anteckning</value>
+    </label>
+    <label>
+        <key>go_to_notes_list</key>
+        <value>Växla till listan över anteckningar</value>
+    </label>
+    <label>
+        <key>note_added_success</key>
+        <value>Anteckning har lagts till. Vad vill du göra?</value>
+    </label>
+    <label>
+        <key>ticket_added_success</key>
+        <value>Ärendet har lagts till. Vad vill du göra?</value>
+    </label>
+    <label>
+        <key>ticket_added_fail</key>
+        <value>Fel inträffat, kunde inte spara</value>
+    </label>
+    <label>
+        <key>ticket_category_added_success</key>
+        <value>Ärendet sparat</value>
+    </label>
+    <label>
+        <key>ticket_category_added_fail</key>
+        <value>Fel inträffat, kunde inte spara</value>
+    </label>
+    <label>
+        <key>ticket_category_update_success</key>
+        <value>Ärendet uppdaterat</value>
+    </label>
+    <label>
+        <key>ticket_category_update_fail</key>
+        <value>Fel inträffat, kunde inte uppdatera</value>
+    </label>
+    <label>
+        <key>ticket_category_delete_success</key>
+        <value>Ärendet raderades</value>
+    </label>
+    <label>
+        <key>ticket_category_delete_fail</key>
+        <value>Fel inträffat, kunde inte radera</value>
+    </label>
+    <label>
+        <key>to_all_employees</key>
+        <value>Välj kund</value>
+    </label>
+    <label>
+        <key>no_of_days_does_not_match_date_effected_days</key>
+        <value>Antal dagar är inte samma som påverkade dagar</value>
+    </label>
+    <label>
+        <key>no_of_days_should_atleast_1</key>
+        <value>Antal dagar ska vara större eller lika med 1</value>
+    </label>
+    <label>
+        <key>do_you_want_to_delete_holiday</key>
+        <value>Vill du radera dessa helger?</value>
+    </label>
+    <label>
+        <key>holiday_adding_success</key>
+        <value>Helgen har lagts till</value>
+    </label>
+    <label>
+        <key>holiday_adding_failed</key>
+        <value>Var vänlig och försök igen, det har blivit något fel</value>
+    </label>
+    <label>
+        <key>holiday_update_success</key>
+        <value>Uppdateringen lyckades</value>
+    </label>
+    <label>
+        <key>holiday_updating_failed</key>
+        <value>Uppdateringen misslyckades</value>
+    </label>
+    <label>
+        <key>holiday_collide</key>
+        <value>Helger kolliderar</value>
+    </label>
+    <label>
+        <key>employee_max_hours</key>
+        <value>Max antal arb.timmar</value>
+    </label>
+    <label>
+        <key>global_salary_information</key>
+        <value>Lönenformation</value>
+    </label>
+    <label>
+        <key>clone_parent_holiday_does_not_exist</key>
+        <value>Clone-parent holiday does not exist</value>
+    </label>
+    <label>
+        <key>cloned_holiday_must_have_same_name</key>
+        <value>Kloning måsta ha samma namn</value>
+    </label>
+    <label>
+        <key>holiday_cloning_success</key>
+        <value>Kloning lyckades</value>
+    </label>
+    <label>
+        <key>holiday_cloning_failed</key>
+        <value>Kloning misslyckades</value>
+    </label>
+    <label>
+        <key>add_more</key>
+        <value>Lägg till filer</value>
+    </label>
+    <label>
+        <key>remove</key>
+        <value>Ta bort</value>
+    </label>
+    <label>
+        <key>working_hours</key>
+        <value>Arbetstid</value>
+    </label>
+    <label>
+        <key>mail_sent_success</key>
+        <value>Post skickats</value>
+    </label>
+    <label>
+        <key>please_see_attachment</key>
+        <value>Vänligen se bifogad fil</value>
+    </label>
+    <label>
+        <key>send_mail_with_pdf_attachment</key>
+        <value>Skicka e-post med bifogade PDF-filen</value>
+    </label>
+    <label>
+        <key>not_signed_report</key>
+        <value>Anställda, ej signerat: </value>
+    </label>
+    <label>
+        <key>signed_report</key>
+        <value>Anställda, har signerat: </value>
+    </label>	
+    <label>
+        <key>save_and_print</key>
+        <value>Spara och skriv ut</value>
+    </label>
+    <label>
+        <key>provide_information_annex</key>
+        <value>Jag lämnar upplysningar i en bilaga</value>
+    </label>
+    <label>
+        <key>other_information</key>
+        <value>Övriga upplysningar</value>
+    </label>
+    <label>
+        <key>other_information</key>
+        <value>Övriga upplysningar</value>
+    </label>
+    <label>
+        <key>calculated_cost_no_hours_not_more_than_granted_hours</key>
+        <value>Beräkna kostnaden på de använda timmarna men inte på fler än det antal timmar som beviljats</value>
+    </label>	
+    <label>
+        <key>number_of_hpurs_period_cost_calculated</key>
+        <value>Antal utförda timmar under perioden som kostnaden är beräknad på</value>
+    </label>
+    <label>
+        <key>total_cost_of_assitance</key>
+        <value>Summa kostnad för assistansen</value>
+    </label>
+    <label>
+        <key>work_effort_and_staff_expence</key>
+        <value>Arbetsmiljöinsatser och personalomkostnader</value>
+    </label>
+    <label>
+        <key>training_cost</key>
+        <value>Utbildningskostnader</value>
+    </label>
+    <label>
+        <key>assitance_expence</key>
+        <value>Assistansomkostnader</value>
+    </label>
+    <label>
+        <key>ob_additions</key>
+        <value>OB-tillägg</value>
+    </label>
+    <label>
+        <key>payroll_and_related_cost_exclud_ob_suppements</key>
+        <value>Lön och lönebikostnader (utom OB-tillägg)</value>
+    </label>
+    <label>
+        <key>type_of_cost</key>
+        <value>Typ av kostnad</value>
+    </label>
+    <label>
+        <key>cost_per_hour</key>
+        <value>Kostnad per timme</value>
+    </label>
+    <label>
+        <key>cost_for_period</key>
+        <value>Kostnad för perioden</value>
+    </label>	
+    <label>
+        <key>insurance_deduct_amount_you_not_used_next_payment</key>
+        <value>Försäkringskassan kommer att dra av det belopp som
+            du inte använt från kommande utbetalning</value>
+    </label>
+    <label>
+        <key>from_month_year</key>
+        <value>Från och med (månad och år)</value>
+    </label>
+    <label>
+        <key>to_month_year</key>
+        <value>Till och med (månad och år)</value>
+    </label>	
+    <label>
+        <key>to_month_year</key>
+        <value>Till och med (månad och år)</value>
+    </label>		
+    <label>
+        <key>apply_you_self_employee_aasitance_those_who_have_highe_assitance</key>
+        <value>Gäller dig som själv anställer dina assistenter och dig som har högre timbelopp</value>
+    </label>
+    <label>
+        <key>accounting_cost</key>
+        <value>Redovisning av kostnader</value>
+    </label>
+    <label>
+        <key>payroll_expence_related_paragraph</key>
+        <value>Lön och lönebikostnader är t.ex. grundlön lagstadgade sociala avgifter, sjuklön och OB-tillägg.
+            Assistentomkostnader är t.ex. arbetskläder, inträdesavgifter och liknande för assistenten.
+            Utbildningskostnader är kostnader för utbildning, fortbildning och handledning av personal.
+            Arbetsmiljöinsatser är kostnader för att skapa god arbetsmiljö för assistenterna.
+            Personalomkostnader är t.ex. företagshälsovård, friskvård och personalengagemang.
+            Administration är t.ex. kostnader för inventarier och reseersättning.</value>
+    </label>
+    <label>
+        <key>create_schedule_template</key>
+        <value>Skapa grundschemamall</value>
+    </label>
+    <label>
+        <key>get_schedule</key>
+        <value>Hämta  </value>
+    </label>
+    <label>
+        <key>save_template</key>
+        <value>Spara mall</value>
+    </label>
+    <label>
+        <key>copy_to_another_customer</key>
+        <value>Kopiera mall till annan kund</value>
+    </label>
+    <label>
+        <key>copy_schedule</key>
+        <value>Kopiera schema</value>
+    </label>
+    <label>
+        <key>select_customers</key>
+        <value>Välj Till kund:</value>
+    </label>
+    <label>
+        <key>save_template</key>
+        <value>Spara mall</value>
+    </label>
+    <label>
+        <key>enter_template_name</key>
+        <value>Ange mallnamn</value>
+    </label>
+    <label>
+        <key>template_name</key>
+        <value>Spara mall som</value>
+    </label>
+    <label>
+        <key>select_template</key>
+        <value>Välj mall</value>
+    </label>
+    <label>
+        <key>exist_template</key>
+        <value>Befintlig mall</value>
+    </label>
+    <label>
+        <key>enter_name_here</key>
+        <value>Ange kund namn</value>
+    </label>
+    <label>
+        <key>no_result_found</key>
+        <value>Inga resultat hittades</value>
+    </label>
+    <label>
+        <key>no_more_selection_are_allowed</key>
+        <value>Inga fler alternativ får</value>
+    </label>
+    <label>
+        <key>no_schedule_available</key>
+        <value>Inget schema tillgänglig</value>
+    </label>
+    <label>
+        <key>copy_start_date</key>
+        <value>Startdatum</value>
+    </label>
+    <label>
+        <key>use_template_schedule</key>
+        <value>Implementera grundschemamallen</value>
+    </label>
+    <label>
+        <key>schedule_map_with</key>
+        <value>Schemalägg karta med</value>
+    </label>
+    <label>
+        <key>day_in_template_with_schedule</key>
+        <value>Schemat börjar samma veckodag</value>
+    </label>
+    <label>
+        <key>start_in_temp_start_schedule</key>
+        <value>Schemat börjar samma datum</value>
+    </label>
+    <label>
+        <key>show_schedule</key>
+        <value>Visa schema</value>
+    </label>
+    <label>
+        <key>save_schedule</key>
+        <value>Spara schema</value>
+    </label>
+    <label>
+        <key>reset_schedule</key>
+        <value>Återställ schema</value>
+    </label>
+    <label>
+        <key>todate_error</key>
+        <value>Till datum, felaktigt</value>
+    </label>
+    <label>
+        <key>label_or</key>
+        <value>ELLER</value>
+    </label>
+    <label>
+        <key>template_save_success</key>
+        <value>Mallen sparad</value>
+    </label>
+    <label>
+        <key>schedule_save_success</key>
+        <value>Schemat sparat</value>
+    </label>
+    <label>
+        <key>employee_already_signed_cant_edit_leave</key>
+        <value>Anställd har redan signerat månad, kan inte ändra frånvaro</value>
+    </label>
+    <label>
+        <key>time_from_must_greater_than_slot_time_from</key>
+        <value>Tid Från måste vara större än pass Från-tid</value>
+    </label>
+    <label>
+        <key>time_from_must_less_than_leave_time_from</key>
+        <value>Tid Från måste vara mindre än start av frånvaro</value>
+    </label>
+    <label>
+        <key>leave_editing_success</key>
+        <value>Frånvaro redigering lyckades.</value>
+    </label>
+    <label>
+        <key>leave_editing_fail</key>
+        <value>Fel vid redigering av frånvaro, försök igen.</value>
+    </label>
+    <label>
+        <key>leave_reject_success</key>
+        <value>Frånvaron har avslagit.</value>
+    </label>
+    <label>
+        <key>leave_reject_fail</key>
+        <value>Ett fel inträffat vi avslag. Försök igen.</value>
+    </label>
+    <label>
+        <key>leave_accept_success</key>
+        <value>Frånvaro godkänd.</value>
+    </label>
+    <label>
+        <key>leave_accept_fail</key>
+        <value>Frånvaro godkännadet har misslyckats, försök igen.</value>
+    </label>
+    <label>
+        <key>select_days</key>
+        <value>Välj dagar</value>
+    </label>
+    <label>
+        <key>select_replace_employee</key>
+        <value>Välj ersättningsassistent</value>
+    </label>
+    <label>
+        <key>sms_send_sucess</key>
+        <value>Meddelandet skickades</value>
+    </label>
+    <label>
+        <key>load_more</key>
+        <value>Fler poster...</value>
+    </label>
+    <label>
+        <key>no_more_data</key>
+        <value>Inga fler poster</value>
+    </label>
+    <label>
+        <key>delete_success_signin</key>
+        <value>Månadsavslut upplåst!</value>
+    </label>
+    <label>
+        <key>leave_not_approved</key>
+        <value>Frånvaro inte godkänd</value>
+    </label>
+    <label>
+        <key>slot_delete_success</key>
+        <value>Tiden raderades</value>
+    </label>
+    <label>
+        <key>no_slot_selected</key>
+        <value>Inga tider valada</value>
+    </label>
+    <label>
+        <key>day_shift_pasted_successfully</key>
+        <value>Schema/pass klistrades in</value>
+    </label>
+    <label>
+        <key>day_shift_will_be_copied</key>
+        <value>Schema/pass kommer att kopieras</value>
+    </label>
+    <label>
+        <key>ivalid_question_type</key>
+        <value>Felaktig frågetyp</value>
+    </label>
+    <label>
+        <key>question_should_not_be_empty</key>
+        <value>Frågan ska inte vara tom</value>
+    </label>
+    <label>
+        <key>select_an_answer_type</key>
+        <value>Välj ett svarsalternativ</value>
+    </label>
+    <label>
+        <key>question_has_been_successfully_saved</key>
+        <value>Frågan sparades!</value>
+    </label>
+    <label>
+        <key>question_save_failed</key>
+        <value>Kunde inte spara frågan</value>
+    </label>
+    <label>
+        <key>question_has_been_successfully_edited</key>
+        <value>Ändring av frågan lyckades</value>
+    </label>
+    <label>
+        <key>question_edit_failed</key>
+        <value>Ändring av frågan misslyckades</value>
+    </label>
+    <label>
+        <key>question_has_been_successfully_deleted</key>
+        <value>Frågan raderades</value>
+    </label>
+    <label>
+        <key>question_delete_failed</key>
+        <value>Radering av frågan misslyckades</value>
+    </label>
+    <label>
+        <key>question_not_exist</key>
+        <value>Finns ingen fråga</value>
+    </label>
+    <label>
+        <key>schedule_delete_success</key>
+        <value>Schema raderat</value>
+    </label>
+    <label>
+        <key>template_name_exists</key>
+        <value>Filnamn finns redan</value>
+    </label>
+    <label>
+        <key>group_has_been_successfully_saved</key>
+        <value>Grupp sparad</value>
+    </label>
+    <label>
+        <key>group_save_failed</key>
+        <value>Saving Group has been failed</value>
+    </label>
+    <label>
+        <key>group_has_been_successfully_edited</key>
+        <value>Ändringen av grupp sparad</value>
+    </label>
+    <label>
+        <key>group_edit_failed</key>
+        <value>Ändringen av grupp inte sparad</value>
+    </label>
+    <label>
+        <key>group_has_been_successfully_deleted</key>
+        <value>Grruppen har raderats</value>
+    </label>
+    <label>
+        <key>group_delete_failed</key>
+        <value>Gick inte att radera gruppen</value>
+    </label>
+    <label>
+        <key>group_name_should_not_be_empty</key>
+        <value>Gruppnamn ska inte vara tom</value>
+    </label>
+    <label>
+        <key>select_atleast_one_user</key>
+        <value>Måste välja minst en Assistent/Kund - Kontrollera antal gånger skickade tidrapporter! Max 2 gånger.</value>
+    </label>
+    <label>
+        <key>group_not_exist</key>
+        <value>Gruppen existerar inte</value>
+    </label>
+    <label>
+        <key>notification_message_1</key>
+        <value>Cirrus version 3.0.0</value>
+    </label>
+    <label>
+        <key>notification_message_2</key>
+        <value>Vid tekniska frågor kan du kontakta oss via mail: support@time2view.se</value>
+    </label>
+    <label>
+        <key>notification_message_link</key>
+        <value>Schema frågor? Kontakta din Kundansvarig!&#032;&#032;&#032;Ser sidan konstig ut, tryck på Ctrl + f5(windows), Cmd + f5(Mac)</value>
+    </label>
+    <label>
+        <key>invitation_subject_should_not_be_empty</key>
+        <value>Ämnesraden kan inte vara tom</value>
+    </label>
+    <label>
+        <key>select_atleast_one_user_or_group</key>
+        <value>Välj minst en användae/grupp</value>
+    </label>
+    <label>
+        <key>select_atleast_one_survey</key>
+        <value>Välj minst en enkät</value>
+    </label>
+    <label>
+        <key>invitation_has_been_successfully_created</key>
+        <value>Inbjudan har skapats</value>
+    </label>
+    <label>
+        <key>invitation_creation_failed</key>
+        <value>Get gick inte att skapa inbjudan</value>
+    </label>
+    <label>
+        <key>invitation_details_has_been_successfully_edited</key>
+        <value>Detaljerna har ändrats</value>
+    </label>
+    <label>
+        <key>invitation_details_edit_failed</key>
+        <value>Detaljerna har inte ändrats</value>
+    </label>
+    <label>
+        <key>back_to_work_success</key>
+        <value>Assistent åter till arbete</value>
+    </label>
+    <label>
+        <key>back_to_work_fail</key>
+        <value>Åter till arbete misslyckades</value>
+    </label>
+    <label>
+        <key>slot_not_exist</key>
+        <value>Finns inget pass</value>
+    </label>
+    <label>
+        <key>not_a_leave_slot</key>
+        <value>Ingen frånvaro pass</value>
+    </label>
+    <label>
+        <key>slot_duplication_success</key>
+        <value>Nytt pass har skapats för ersättningsassistenten.</value>
+    </label>
+    <label>
+        <key>slot_duplication_fail</key>
+        <value>Slot duplication has been Failed</value>
+    </label>
+    <label>
+        <key>already_have_related_slot</key>
+        <value>Already have a Related Slot</value>
+    </label>
+    <label>
+        <key>inconvenient_cloning_failed</key>
+        <value>Inconvenient Cloning Failed</value>
+    </label>
+    <label>
+        <key>date_to_must_greater_than_date_from</key>
+        <value>Date-To must greater than Date-From</value>
+    </label>
+    <label>
+        <key>salary_adding_failed_inconv</key>
+        <value>Inconvenient Salary Adding Failed</value>
+    </label>
+    <label>
+        <key>salary_adding_failed_normal</key>
+        <value>Kunde inte uppdaterats</value>
+    </label>
+    <label>
+        <key>salary_adding_success_normal</key>
+        <value>Beloppen har uppdaterats</value>
+    </label>
+    <label>
+        <key>time_outside_oncall</key>
+        <value>Väntetid du försöker lägga in ligger utanför väntetid tiden</value>
+    </label>
+    <label>
+        <key>overlap_with_previous</key>
+        <value>Överlappning med tidigare period</value>
+    </label>
+    <label>
+        <key>salary_editing_success_normal</key>
+        <value>Ändring av lön lyckades</value>
+    </label>
+    <label>
+        <key>edit_failed_global</key>
+        <value>Ändring av lön misslyckades</value>
+    </label>
+    <label>
+        <key>adding_failed_global</key>
+        <value>Ny lön lagts till</value>
+    </label>
+    <label>
+        <key>edit_sucess_global</key>
+        <value>Ändring av lön lyckades</value>
+    </label>
+    <label>
+        <key>effect_to_greater</key>
+        <value>Effect-To Must Be Greater Than Effect-From</value>
+    </label>
+    <label>
+        <key>inconv_effect_from_greater</key>
+        <value>Inconvenient Effect from must be greater</value>
+    </label>
+    <label>
+        <key>normal_effect_from_greater</key>
+        <value>Normal Effect from must be greater</value>
+    </label>
+    <label>
+        <key>monthly_effect_to_greaterthan</key>
+        <value>Monthly Effect To must be greater than effect from</value>
+    </label>
+    <label>
+        <key>inconv_effect_to_greaterthan</key>
+        <value>Inconvenient Effect To must be greater than effect from</value>
+    </label>
+    <label>
+        <key>normal_effect_to_greaterthan</key>
+        <value>Normal Effect To must be greater than effect from</value>
+    </label>
+    <label>
+        <key>enter_effect_from</key>
+        <value>Gäller från och med</value>
+    </label>
+    <label>
+        <key>inconv_effect_from_greater</key>
+        <value>Inconvenient Effect from must be greater</value>
+    </label>
+    <label>
+        <key>normal_effect_from_greater</key>
+        <value>Normal Effect from must be greater</value>
+    </label>
+    <label>
+        <key>monthly_effect_to_greaterthan</key>
+        <value>Monthly Effect To must be greater than effect from</value>
+    </label>
+    <label>
+        <key>inconv_effect_to_greaterthan</key>
+        <value>Inconvenient Effect To must be greater than effect from</value>
+    </label>
+    <label>
+        <key>normal_effect_to_greaterthan</key>
+        <value>Normal Effect To must be greater than effect from</value>
+    </label>
+    <label>
+        <key>do_you_want_delete</key>
+        <value>Ska posten raderas?</value>
+    </label>
+    <label>
+        <key>report_summery_has_been_successfully_saved</key>
+        <value>Blanketten har sparats</value>
+    </label>
+    <label>
+        <key>report_summery_save_failed</key>
+        <value>Adding Report summery has been failed</value>
+    </label>
+    <label>
+        <key>report_summery_has_been_successfully_edited</key>
+        <value>Report summery has been successfully edited</value>
+    </label>
+    <label>
+        <key>report_summery_edit_failed</key>
+        <value>Editing Report summery has been failed</value>
+    </label>
+    <label>
+        <key>do_you_want_to_continue</key>
+        <value>Vill du fortsätta?</value>
+    </label>
+    <label>
+        <key>employer_signing_removed_successfully</key>
+        <value>Avsignering lyckades</value>
+    </label>
+    <label>
+        <key>employer_signing_remove_failed</key>
+        <value>Avsignering misslyckades</value>
+    </label>
+    <label>
+        <key>survey_complete</key>
+        <value>Survey Attending Completed</value>
+    </label>
+    <label>
+        <key>slot_delete_failed</key>
+        <value>Radering av tid misslyckades</value>
+    </label>
+    <label>
+        <key>no_slot_selected_delete_all_slots</key>
+        <value>Du har inte valt några pass. Vill du radera samtliga pass..?</value>
+    </label>
+    <label>
+        <key>no_slot_available</key>
+        <value>Inga lediga arbetspass</value>
+    </label>
+    <label>
+        <key>slot_operation_success</key>
+        <value>Tilldelning av uppdrag genomfört</value>
+    </label>
+    <label>
+        <key>slot_operation_failed</key>
+        <value>Tilldelning av uppdrag misslyckades</value>
+    </label>
+    <label>
+        <key>duration_editted_sucessfully</key>
+        <value>Ändring av tiden lyckades</value>
+    </label>
+    <label>
+        <key>duration_editting_failed</key>
+        <value>Ändring av tiden misslyckades</value>
+    </label>
+    <label>
+        <key>select_bargaining_type</key>
+        <value>Välj: Uppgifter om kollektivavtal</value>
+    </label>
+    <label>
+        <key>enter_other_bargaining</key>
+        <value>Mata in annat</value>
+    </label>
+    <label>
+        <key>enter_employer_name</key>
+        <value>Mata in företagsnamn</value>
+    </label>
+    <label>
+        <key>enter_employer_organization_number</key>
+        <value>Mata in Org. nr</value>
+    </label>
+    <label>
+        <key>notification_message_3</key>
+        <value>OBS! Det är skillnad mellan Gemener och Versaler i användarnamn och lösenord.</value>
+    </label>
+    <label>
+        <key>company_detail_editted_successfully</key>
+        <value>Uppgifterna sparade</value>
+    </label>
+    <label>
+        <key>company_detail_editting_fail</key>
+        <value>Uppgifterna sparades inte</value>
+    </label>
+    <label>
+        <key>slot_added_success</key>
+        <value>Schema uppdaterat</value>
+    </label>
+    <label>
+        <key>do_seperate_oncall_hours</key>
+        <value>Ska passet delas mellan Ordinarie och Väntetid?</value>
+    </label>
+    <label>
+        <key>note_delete_success</key>
+        <value>Anteckningen raderades</value>
+    </label>
+    <label>
+        <key>note_delete_fail</key>
+        <value>Radering misslycades</value>
+    </label>
+    <label>
+        <key>note_updated_success</key>
+        <value>Anteckning uppdaterades</value>
+    </label>
+    <label>
+        <key>note_updated_fail</key>
+        <value>Uppdatering misslyckades</value>
+    </label>
+    <label>
+        <key>ticket_updated_success</key>
+        <value>Ärendet Uppdaterat</value>
+    </label>
+    <label>
+        <key>ticket_updated_fail</key>
+        <value>Uppdatering misslyckades</value>
+    </label>
+    <label>
+        <key>ticket_answer_success</key>
+        <value>Ärendet sparat! Svar skickades</value>
+    </label>
+    <label>
+        <key>ticket_answer_fail</key>
+        <value>Fel inträffat. Kan inte spara</value>
+    </label>
+    <label>
+        <key>codes_not_blank</key>
+        <value>Samtliga tidkoder/lönearter måste vara ifyllda</value>
+    </label>
+    <label>
+        <key>codes_saved</key>
+        <value>Tidkoder/lönearter sparade</value>
+    </label>
+    <label>
+        <key>contract_time_exceeded_continue</key>
+        <value>arbetar utöver de avtalade timmarna denna vecka.     </value>
+    </label>
+    <label>
+        <key>contract_time_exceed</key>
+        <value>40h/v övertrasserade. Du har inga befogenheter att övertrassera.</value>
+    </label>
+    <label>
+        <key>salary_code_incomplete</key>
+        <value>Tidkoder/lönearter, inte alla fält ifyllda</value>
+    </label>
+    <label>
+        <key>team_error</key>
+        <value>Grupp fel!</value>
+    </label>
+    <label>
+        <key>is_not_team_member_of</key>
+        <value>Är inte medlem i gruppen</value>
+    </label>
+    <label>
+        <key>employee_took_a_leave</key>
+        <value>Anställd frånvarande</value>
+    </label>
+    <label>
+        <key>employee_is_inactive</key>
+        <value>Anställd inaktiv</value>
+    </label>
+    <label>
+        <key>customer_is_inactive</key>
+        <value>Kund inaktiv</value>
+    </label>
+    <label>
+        <key>works_on_another_customer</key>
+        <value>Annan kund</value>
+    </label>
+    <label>
+        <key>copy_slots_first</key>
+        <value>Kopiera ett pass först...</value>
+    </label>
+    <label>
+        <key>contract_collides</key>
+        <value>Anställnigsavtal överlappar varandra</value>
+    </label>
+    <label>
+        <key>contract_add_fail</key>
+        <value>Det gick inte att spara anställningsavtalet. Försök igen.</value>
+    </label>
+    <label>
+        <key>contract_edit_fail</key>
+        <value>Det gick inte att ändra anställningsavtalet. Försök igen.</value>
+    </label>
+    <label>
+        <key>extra_hour</key>
+        <value>Överskrider ATL max arbetstid per dag med:</value>
+    </label>
+    <label>
+        <key>break_needed</key>
+        <value>Veckovilan måste ökas</value>
+    </label>
+    <label>
+        <key>no_atl_warnings</key>
+        <value>Inga ATL varningar</value>
+    </label>
+    <label>
+        <key>normal_work_hours</key>
+        <value>Ord. arb.tid</value>
+    </label>
+    <label>
+        <key>oncall_work_hours</key>
+        <value>Väntetid arb.tid</value>
+    </label>
+    <label>
+        <key>hours_gap</key>
+        <value>Tim. mellanskillnad</value>
+    </label>
+    <label>
+        <key>and</key>
+        <value>och</value>
+    </label>
+    <label>
+        <key>is_changed_from</key>
+        <value>har bytt pass från</value>
+    </label>
+    <label>
+        <key>to</key>
+        <value>till</value>
+    </label>
+    <label>
+        <key>slot_change</key>
+        <value>Passbyte</value>
+    </label>
+    <label>
+        <key>codes_not_blank_for monthly</key>
+        <value>Kan inte exportera. En eller flera anställda har månadslön, var vänlig kontrollera lönartslistan</value>
+    </label>
+    <label>
+        <key>leave_remove_success</key>
+        <value>Frånvaro borttaget</value>
+    </label>
+    <label>
+        <key>inconvenient_details_deleted_successfully</key>
+        <value>Komp. tiden raderades</value>
+    </label>
+    <label>
+        <key>inconvenient_details_deletion_failed</key>
+        <value>Radering av Komp.tiden mysslickades</value>
+    </label>
+    <label>
+        <key>inconvenient_cloning_can_possible_only_from_leaf_child</key>
+        <value>Ob kloning inte möjlig</value>
+    </label>
+    <label>
+        <key>inconvenient_details_editing_failed</key>
+        <value>Ob redigering mysslickades</value>
+    </label>
+    <label>
+        <key>inconvenient_details_not_exist</key>
+        <value>Ob detaljer finns inte</value>
+    </label>
+    <label>
+        <key>effect_from_must_2day_greater_than_of_parent_effect_to</key>
+        <value>Fältet från ska vara 2 dagar större än källan</value>
+    </label>
+    <label>
+        <key>fill_required_fields</key>
+        <value>Obligatoriska fält måste vara ifyllda</value>
+    </label>
+    <label>
+        <key>complementary_exists</key>
+        <value>Det finns Komp.tid, kan inte spara frånvaro</value>
+    </label>
+    <label>
+        <key>remove_signin</key>
+        <value>Avsignera samtliga</value>
+    </label>
+    <label>
+        <key>untreated_leaves</key>
+        <value>Obehandlad frånvaro för </value>
+    </label>
+    <label>
+        <key>employee_already_taken_leave</key>
+        <value>Anställd har redan en frånvaro.</value>
+    </label>
+    <label>
+        <key>do_u_want_reset_substitute_slots</key>
+        <value>Vill du återställa ersättningspass? Ersättningspass tas inte bort om passet påböjats.</value>
+    </label>
+    <label>
+        <key>completed_adding_google_calendar</key>
+        <value>Exporten till Google kalender klar.</value>
+    </label>
+    <label>
+        <key>login_mail_id_not_match</key>
+        <value>Google mail matchar inte mail i systemet</value>
+    </label>
+    <label>
+        <key>employee_took_a_leave_when_PM_applied</key>
+        <value>Assistent har en frånvaro</value>
+    </label>
+    <label>
+        <key>employee_already_have_a_slot_with_another_customer</key>
+        <value>Assistent har pass hos en annan kund: </value>
+    </label>
+    <label>
+        <key>click_to_see_schedule</key>
+        <value>Vänster klicka för att se schema. Höger klicka för att växla till assistent.</value>
+    </label>
+    <label>
+        <key>right_click_to_go</key>
+        <value>Höger klicka för att växla till kund.</value>
+    </label>
+    <label>
+        <key>go_to_slot_page_week</key>
+        <value>Växla till vecka/Uppdatera schema</value>
+    </label>
+    <label>
+        <key>enter_the_week_slots</key>
+        <value>Veckoschema för kunder och respektive assistenter/komplex vy. Vecka:</value>
+    </label>
+    <label>
+        <key>increase_week_position</key>
+        <value>En vecka framåt</value>
+    </label>
+    <label>
+        <key>reduce_week_position</key>
+        <value>En vecka backåt</value>
+    </label>
+    <label>
+        <key>enter_into_day_slots</key>
+        <value>Klicka på dagen för att jobba med dag/veckoschema.</value>
+    </label>
+    <label>
+        <key>slot_view</key>
+        <value>Möjlighet att ändra pass</value>
+    </label>
+    <label>
+        <key>show_actions</key>
+        <value>Visa åtgärder</value>
+    </label>
+    <label>
+        <key>go_to_week</key>
+        <value>Växla till vecka</value>
+    </label>
+    <label>
+        <key>enter_the_week</key>
+        <value>Lägg till denna vecka</value>
+    </label>
+    <label>
+        <key>go_to_employee</key>
+        <value>Växla till anställd</value>
+    </label>
+    <label>
+        <key>go_to_customer</key>
+        <value>Växla till kund</value>
+    </label>
+    <label>
+        <key>go_to_slots</key>
+        <value>Växla till arbetspass</value>
+    </label>
+    <label>
+        <key>boka_pass_edit_duration</key>
+        <value>Ändra passtid</value>
+    </label> 
+    <label>
+        <key>boka_pass_fkkn_change</key>
+        <value>Ändring av FK/KN</value>
+    </label>  
+    <label>
+        <key>boka_pass_customer_remove</key>
+        <value>Tag bort Kund</value>
+    </label> 
+    <label>
+        <key>boka_pass_employee_remove</key>
+        <value>Tag bort assistent</value>
+    </label>
+    <label>
+        <key>boka_pass_employee_add</key>
+        <value>Lägg till assistent</value>
+    </label> 
+    <label>
+        <key>boka_pass_customer_add</key>
+        <value>Lägg till Kund</value>
+    </label> 
+    <label>
+        <key>boka_pass_add_new_slot</key>
+        <value>Lägg till nytt arbetspass</value>
+    </label> 
+    <label>
+        <key>boka_pass_select_all</key>
+        <value>Välj samtliga pass</value>
+    </label> 
+    <label>
+        <key>boka_pass_multi_slot_add</key>
+        <value>Klicka för att lägga till markerade pass</value>
+    </label>
+    <label>
+        <key>boka_pass_slots_copy</key>
+        <value>Markera en/fler tider och kopiera</value>
+    </label> 
+    <label>
+        <key>boka_pass_slots_copy_weekly</key>
+        <value>Kopiera valda arbetspass</value>
+    </label> 
+    <label>
+        <key>boka_pass_slots_paste</key>
+        <value>Klistra in arbetspass</value>
+    </label> 
+    <label>
+        <key>boka_pass_slots_delete</key>
+        <value>Markera en/fler tider och radera</value>
+    </label> 
+    <label>
+        <key>boka_pass_slots_delete_weekly</key>
+        <value>Radera valda arbetspass</value>
+    </label>  
+    <label>
+        <key>boka_pass_swap_slots_copy</key>
+        <value>Välj Passbyte och klicka på Spara</value>
+    </label>    
+    <label>
+        <key>boka_pass_swap_slot</key>
+        <value>Välj den du vill byta med, Verkställ passbytet och klicka på Spara</value>
+    </label> 
+    <label>
+        <key>boka_pass_slots_split</key>
+        <value>Dela ett pass</value>
+    </label>  
+    <label>
+        <key>enter_the_week_page</key>
+        <value>Växla till veckovyn</value>
+    </label> 
+    <label>
+        <key>enter_the_day_page</key>
+        <value>Enter The Day Page1</value>
+    </label>  
+    <label>
+        <key>go_to_employee_slots_allocation</key>
+        <value>Gå till anställdes pass </value>
+    </label>  
+    <label>
+        <key>go_to_customer_slot_allocation</key>
+        <value>Gå till kundens pass</value>
+    </label> 
+    <label>
+        <key>enter_day</key>
+        <value>Välj dag</value>
+    </label>
+    <label>
+        <key>select_leave</key>
+        <value>Välj typ av frånvaro</value>
+    </label>  
+    <label>
+        <key>overlap_error_company_contract</key>
+        <value>Kontrakt överlappar varandra</value>
+    </label>
+    <label>
+        <key>sucess_company_contract_add</key>
+        <value>Kontrakt med företaget skapades</value>
+    </label>
+    <label>
+        <key>adding_error_company_contract_add</key>
+        <value>Ett fel uppstod när kontrakt lades till</value>
+    </label>
+    <label>
+        <key>editting_error_company_contract_add</key>
+        <value>Kunde inte ändra kontakt</value>
+    </label>
+    <label>
+        <key>deletting_error_company_contract_add</key>
+        <value>Kunde inte radera kontrakt</value>
+    </label>
+    <label>
+        <key>sucess_company_contract_edit</key>
+        <value>Kontraktet är uppdaterat</value>
+    </label>
+    <label>
+        <key>sucess_company_contract_delete</key>
+        <value>Kontraktet raderades</value>
+    </label>
+    <label>
+        <key>company_add_success</key>
+        <value>Nytt förertag lagts till</value>
+    </label>
+    <label>
+        <key>company_add_fail</key>
+        <value>Fel inträffade när nytt företag lagts till</value>
+    </label>
+    <label>
+        <key>social_security_exist</key>
+        <value>Personnummer finns redan</value>
+    </label>
+    <label>
+        <key>company_adding_success</key>
+        <value>Company Adding Success</value>
+    </label>
+    <label>
+        <key>company_editting_success</key>
+        <value>Företags redigering lyckades</value>
+    </label>
+    <label>
+        <key>give_numeric_value</key>
+        <value>Numeriskt värde saknas</value>
+    </label>
+    <label>
+        <key>give_five_numeric_characters</key>
+        <value>5 tecken ska det vara</value>
+    </label>
+    <label>
+        <key>slot_successfully_moved</key>
+        <value>Flytt av arbetspasset har lyckats</value>
+    </label>
+    <label>
+        <key>slot_moving_failed</key>
+        <value>Flytt av arbetspasset har misslyckats</value>
+    </label>
+    <label>
+        <key>confirm_approval_candg</key>
+        <value>Bekräfta/Godkänn C&#038;G arbetspass</value>
+    </label>
+    <label>
+        <key>type_comment</key>
+        <value>Kommentar/upplysning</value>
+    </label>
+    <label>
+        <key>survey_delete_success</key>
+        <value>Radering lyckades</value>
+    </label>
+    <label>
+        <key>survey_delete_fail</key>
+        <value>Radering misslyckades</value>
+    </label>
+    <label>
+        <key>survey_save_success</key>
+        <value>Enkät sparat</value> 
+    </label>
+    <label>
+        <key>survey_save_failed_repeat_questions</key>
+        <value>Enkät kunde inte sparas på grund av upprepade frågor</value>
+    </label>
+    <label>
+        <key>no_available_employees_for_replacement</key>
+        <value>Finns ingen ersättningsassistent</value>
+    </label>
+    <label>
+        <key>select_dates_before_employee</key>
+        <value>Välj datum innan du väljer en anställd</value>
+    </label>
+    <label>
+        <key>invalid_slot</key>
+        <value>Ogiltigt arbetspass</value>
+    </label>
+    <label>
+        <key>select_a_non_empty_employee_slot</key>
+        <value>Välj en icke-tom arbetspass</value>
+    </label>
+    <label>
+        <key>invalid_date</key>
+        <value>Ogilltigt datum</value>
+    </label>
+    <label>
+        <key>employee_slots_collided_within_entered_slots</key>
+        <value>Arbetspass krockade med inmatad arbetspass</value>
+    </label>
+    <label>
+        <key>invitation_has_been_successfully_deleted</key>
+        <value>Inbjudan har raderats</value>
+    </label>
+    <label>
+        <key>something_wrong</key>
+        <value>Det är något fel</value>
+    </label>
+    <label>
+        <key>interview_date_giving_sucess</key>
+        <value>Intervju datum bokat</value>
+    </label>
+    <label>
+        <key>interview_date_reschedule_sucess</key>
+        <value>Intervju datum ombokat</value>
+    </label>
+    <label>
+        <key>applicant_selected_employee</key>
+        <value>Vald sökande ska anställas</value>
+    </label>
+    <label>
+        <key>employee_not_available</key>
+        <value>Anställd inte tillgänglig</value>
+    </label>
+    <label>
+        <key>document_delete_success</key>
+        <value>Radering av dokument lyckades</value>
+    </label> 
+    <label>
+        <key>document_delete_fail</key>
+        <value>Radering av dokument misslyckades</value>
+    </label>
+    <label>
+        <key>skills_adding_success</key>
+        <value>Lagt till kvalifikationer</value>
+    </label>
+    <label>
+        <key>skills_adding_failed</key>
+        <value>Kunde inte lägga till kvalifikationer</value>
+    </label>
+    <label>
+        <key>skills_deleting_success</key>
+        <value>Radering av kvalifikationer lyckades</value>
+    </label>
+    <label>
+        <key>skills_deleting_failed</key>
+        <value>Kunde inte radera kvalifikationer</value>
+    </label>
+    <label>
+        <key>template_saved_successfully</key>
+        <value>Mall har sparats</value>
+    </label>
+    <label>
+        <key>template_saving_failed</key>
+        <value>Kunde inte spara mallen, försök igen</value>
+    </label>
+    <label>
+        <key>schedule_save_failed</key>
+        <value>Kunde inte spara shemat, försök igen</value>
+    </label>
+    <label>
+        <key>template_deleted_successfully</key>
+        <value>Mallen har raderats</value>
+    </label>
+    <label>
+        <key>select_a_valid_template_to_replace</key>
+        <value>Välj gilltig mall att ersätta</value>
+    </label>
+    <label>
+        <key>template_not_exist</key>
+        <value>Finns igen mall</value>
+    </label>
+    <label>
+        <key>select_template_preview_start_date</key>
+        <value>Välj mall</value>
+    </label>
+    <label>
+        <key>no_slot_available_in_this_period</key>
+        <value>Finns inga pass i denna period</value>
+    </label>
+    <label>
+        <key>you_have_no_privilege</key>
+        <value>Du har ingen Befogenhet</value>
+    </label>
+    <label>
+        <key>between</key>
+        <value>Emellan</value>
+    </label>
+    <label>
+        <key>mail_updated_success</key>
+        <value>Uppdrating lyckades</value>
+    </label>
+    <label>
+        <key>mail_updated_fail</key>
+        <value>Uppdateringar misslyckades</value>
+    </label> 
+    <label>
+        <key>unattended_surveys</key>
+        <value>Obevakade undersökningar</value>
+    </label>
+    <label>
+        <key>copy_colliding_slots_to_same_daay</key>
+        <value>Det finns redan samma arbetspass denna dag</value>
+    </label>
+    <label>
+        <key>data_saved</key>
+        <value>Uppgifterna sparades</value>
+    </label>
+    <label>
+        <key>error_saving</key>
+        <value>Uppgifterna sparades inte</value>
+    </label>
+    <label>
+        <key>dialog_employee_exist_message</key>
+        <value>Personnummer redan finns. Vill du lägga till en ny person?</value>
+    </label>
+    <label>
+        <key>dialog_employee_add_message</key>
+        <value>Ska denna person läggas upp i Cirrus?</value>
+    </label>
+    <label>
+        <key>dialog_employee_exist_notadd_message</key>
+        <value>Personnummer redan finns. Kan inte lägga till det igen.</value>
+    </label>
+    <label>
+        <key>select_a_customer</key>
+        <value>Välj en giltig kund</value>
+    </label>
+    <label>
+        <key>select_a_fkkn</key>
+        <value>Välj en giltig FKKN</value>
+    </label>
+    <label>
+        <key>select_a_slot_type</key>
+        <value>Välj en giltig passtyp</value>
+    </label>
+    <label>
+        <key>slot_editting_failed</key>
+        <value>Pass redigering misslyckades</value>
+    </label>
+    <label>
+        <key>slot_editting_success</key>
+        <value>Arbetspasset sparat</value>
+    </label>
+    <label>
+        <key>message_caption_success</key>
+        <value>Success</value>
+    </label>
+    <label>
+        <key>message_caption_error</key>
+        <value>Error</value>
+    </label>
+    <label>
+        <key>message_caption_information</key>
+        <value>Information</value>
+    </label>
+    <label>
+        <key>message_caption_warning</key>
+        <value>Varning</value>
+    </label>
+    <label>
+        <key>slot_splitted_successfully</key>
+        <value>Pass har delats</value>
+    </label>
+    <label>
+        <key>slot_split_fail</key>
+        <value>Delning av pass misslyckades</value>
+    </label>
+    <label>
+        <key>no_employee_and_customer_selected</key>
+        <value>Ingen anställd och kund vald</value>
+    </label>
+    <label>
+        <key>slot_created_success</key>
+        <value>Pass skapades</value>
+    </label>
+   <label>
+        <key>photo_invalid_file</key>
+        <value>Fotografi: Filen inte tillåten</value>
+    </label>
+    <label>
+        <key>photo_invalid_file_type</key>
+        <value>Fotografi: Filtyp inte tillåten</value>
+    </label>
+    <label>
+        <key>photo_invalid_file_size</key>
+        <value>Fotografi: Filen är för stor</value>
+    </label>
+    <label>
+        <key>photo_file_already_exist</key>
+        <value>Fotografi: Filen finns redan</value>
+    </label>
+    <label>
+        <key>resume_invalid_file</key>
+        <value>Fortsätt: Ogiltig fil</value>
+    </label>
+    <label>
+        <key>resume_invalid_file_type</key>
+        <value>Fortsätt: Ogiltig filtyp</value>
+    </label>
+    <label>
+        <key>resume_invalid_file_size</key>
+        <value>Fortsätt: Ogiltig filstorlek</value>
+    </label>
+    <label>
+        <key>resume_file_already_exist</key>
+        <value>Fortsätt: Fil finns redan</value>
+    </label>
+    
+    <label>
+        <key>slot_create_fail</key>
+        <value>Misslyckades med att skapa pass</value>
+    </label>
+    <label>
+        <key>memory_slot_delete_success</key>
+        <value>Minnespass har tagits bort</value>
+    </label>
+    <label>
+        <key>memory_slot_delete_fail</key>
+        <value>Misslyckades ta bort minnespass</value>
+    </label>
+    <label>
+        <key>no_user_selected</key>
+        <value>Ingen användare vald</value>
+    </label>
+    <label>
+        <key>sms_send_failed</key>
+        <value>Kunde inte skicka SMS</value>
+    </label>
+    <label>
+        <key>slot_customer_delete_success</key>
+        <value>Kund har blivit borttagen från pass</value>
+    </label>
+    <label>
+        <key>slot_customer_delete_fail</key>
+        <value>Misslyckades med att ta bort kund från pass</value>
+    </label>
+    <label>
+        <key>slot_employee_delete_success</key>
+        <value>Anställd har blivit borttagen från pass</value>
+    </label>
+    <label>
+        <key>slot_employee_delete_fail</key>
+        <value>Misslyckades med att ta bort anställd från pass</value>
+    </label>
+    <label>
+        <key>slot_fkkn_change_success</key>
+        <value>FKKN byte lyckades</value>
+    </label>
+    <label>
+        <key>slot_fkkn_change_fail</key>
+        <value>Byte av FKKN misslyckades</value>
+    </label>
+    <label>
+        <key>slot_employee_change_success</key>
+        <value>Byte av assistent lyckades</value>
+    </label>
+    <label>
+        <key>slot_employee_change_fail</key>
+        <value>Byte av assistent misslyckades</value>
+    </label>
+    <label>
+        <key>slot_type_change_success</key>
+        <value>Ändring av passtyp godkänt</value>
+    </label>
+    <label>
+        <key>slot_type_change_fail</key>
+        <value>Kunde inte ändra passtyp</value>
+    </label>
+    <label>
+        <key>slot_candg_approve_success</key>
+        <value>Come &#038; Go pass godkänt</value>
+    </label>
+    <label>
+        <key>slot_candg_approve_fail</key>
+        <value>Come &#038; Go pass kunde inte godkännas </value>
+    </label>
+    <label>
+        <key>invalid_note</key>
+        <value>Felaktig anteckning</value>
+    </label>
+    <label>
+        <key>incomplete_form_values</key>
+        <value>Det saknas värden att fylla i</value>
+    </label>
+    <label>
+        <key>privilege_saved</key>
+        <value>Befogenheterna sparades</value>
+    </label>
+    <label>
+        <key>privilege_failed</key>
+        <value>Kunde inte spara befogenheter</value>
+    </label>
+    <label>
+        <key>you_must_select_2_slots</key>
+        <value>Du måste välja 2 arbetspass</value>
+    </label>
+     <label>
+        <key>cannot_delete</key>
+        <value>Kan inte radera</value>
+    </label>
+    <label>
+        <key>survey_form_delete_success</key>
+        <value>Radera</value>
+    </label>
+    <label>
+        <key>survey_form_delete_fail</key>
+        <value>Kunde inte radera enkät</value>
+    </label>
+    <label>
+        <key>survey_form_save_success</key>
+        <value>Sparat</value> 
+    </label>
+    <label>
+        <key>select_an_employee</key>
+        <value>Välj en assistent</value>
+    </label>
+    <label>
+        <key>do_you_want_to_reset_previous_employee</key>
+        <value>Assistent kan inte bemanna passet. Orsak, assistent kan vara upptagen med annat pass. Kontrollera assistent schema.</value>
+    </label>
+    <label>
+        <key>time_from_must_less_than_time_to</key>
+        <value>Tid Från ska vara mindre än tid Till</value>
+    </label>
+    <label>
+        <key>equipment_added_successfully</key>
+        <value>Du har lagt till utrustning</value>
+    </label>
+    <label>
+        <key>equipment_edited_successfully</key>
+        <value>Ändring genomfördes korrekt</value>
+    </label>
+    <label>
+        <key>caution</key>
+        <value>Varning</value>
+    </label>
+    <label>
+        <key>it_affect_previous_added_timetable</key>
+        <value>Stopp! Denna ändrig kommer att påverka redan skapade arbetspass. Växla till Ob/tid-helg och klona det önskade Väntetid blocket. Eller ring Support: 076-421 00 03</value>
+    </label>
+    <label>
+        <key>slots_after_inactivation_date_will_be_delete</key>
+        <value>Pass efter inaktiveringsdatum kommer att tas bort</value>
+    </label>
+    <label>
+        <key>found_signed_slots_after_inactivation_date_cant_edit</key>
+        <value>Signerade tider efter inaktiveringsdatum, kan inte ändras</value>
+    </label>
+    <label>
+        <key>slot_delete_error_after_inactivation_date</key>
+        <value>Fel vid radering av tider efter inaktiveringsdatum, Försök igen</value>
+    </label>
+   <label>
+        <key>salary_codes_saved</key>
+        <value>Lönearter sparades</value>
+    </label>
+   <label>
+        <key>can_not_connect_to_bank_id</key>
+        <value>Kan inte få kontakt med BankId server! Kontrollera utrustningen eller kontakta support@time2view.se</value>
+    </label>
+    <label>
+        <key>user_missmatch_at_bank_id</key>
+        <value>Ett problem har uppstått vid signering. Vänligen kontrollera lösenordet/användarid</value>
+    </label>
+    <label>
+        <key>slot_customer_change_success</key>
+        <value>Arbetspasset ändrat</value>
+    </label>
+    <label>
+        <key>slot_customer_change_fail</key>
+        <value>Ändringen misslyckades</value>
+    </label>
+    <label>
+        <key>confirm_reject_candg</key>
+        <value>Bekräfta avslag C&#038;G</value>
+    </label>
+    <label>
+        <key>invalid_password</key>
+        <value>Felaktigt lösen eller användarnamn. Försök igen.</value>
+    </label>
+    <label>
+        <key>back_to_secondary_login</key>
+        <value>Tillbaka till det andra inlogg</value>
+    </label>
+    <label>
+        <key>get_secondary_password</key>
+        <value>Skapa lösen till nästa företag</value>
+    </label>
+    <label>
+        <key>reset_secondary_password</key>
+        <value>Byt lösen till det andra företaget</value>
+    </label>
+    <label>
+        <key>go_to_secondary_login</key>
+        <value>Växla till det andra företaget</value>
+    </label>
+    <label>
+        <key>invalid_company</key>
+        <value>Felaktigt företag</value>
+    </label>
+    <label>
+        <key>salary_codes_saved</key>
+        <value>Lönearter sparades</value>
+    </label>
+    <label>
+        <key>export_failed_with_following_reasons</key>
+        <value>Export misslyckades av nedan orsaker</value>
+    </label>
+    <label>
+            <key>verification_passed_without_errors</key>
+            <value>Exportfilen är felfri</value>
+    </label>
+   <label>
+            <key>password_new_minimum_length</key>
+            <value>Det nya lösenordet måste vara minst 8 tecken långt och innehålla minst 1 siffra</value>
+    </label>
+    <label>
+            <key>password_re_minimum_length</key>
+            <value>Bekräfta det nya lösenordet</value>
+    </label>
+    <label>
+            <key>fill_old_password</key>
+            <value>Skriv in det gamla lösenordet</value>
+    </label>
+    <label>
+            <key>password_must_match</key>
+            <value>Lösenorden måste vara lika</value>
+    </label>
+    <label>
+        <key>label_customer_for_appointment_email</key>
+        <value>Kund</value>
+    </label>
+    <label>
+        <key>not_allowed_charecter</key>
+        <value>Dessa tecken är inte tillåtna!</value>
+    </label>
+    <label>
+        <key>no_template_exists_for_the_employee</key>
+        <value>Det finns ingen grundschemamall för denna assistent</value>
+    </label>
+    <label>
+        <key>show_untreated_leaves_only</key>
+        <value>Visa endast obehandlad frånvaro</value>
+    </label>
+    <label>
+        <key>emp_to_cust_fkkn_export</key>
+        <value>Skicka tidrapporterna till FK</value>
+    </label>
+    <label>
+        <key>document_privilege_updation_success</key>
+        <value>Befogenheterna uppdaterades</value>
+    </label>
+    <label>
+        <key>fk_export_success</key>
+        <value>Tidrapporterna skickades korrekt till FK</value>
+    </label>
+    <label>
+        <key>fk_export_fail</key>
+        <value>Exporten till FK misslyckades, prova igen, i annat fall kontakta support@time2view.se</value>
+    </label>
+    <label>
+        <key>soap_server_connection_error</key>
+        <value>SOAP server error</value>
+    </label>
+    <label>
+        <key>error_while_processing_fk_export</key>
+        <value>Ett oväntat fel vid export till FK</value>
+    </label>
+    <label>
+        <key>employees_doesnt_sign_self</key>
+        <value>Assistent(er) har inte signaerat</value>
+    </label>
+    <label>
+        <key>employer_already_signed_cant_remove</key>
+        <value>Admin/Arbetsgivaren har redan signerat. Signeringen kan endast tas bort av dessa</value>
+    </label>
+    <label>
+        <key>do_you_want_to_change_normal_to_complementary</key>
+        <value>Vill du ändra Ordinarietid pass till Komp.Ord?</value>
+    </label>
+    <label>
+        <key>do_you_want_to_change_oncall_to_comp_oncall</key>
+        <value>Vill du ändra Väntetid pass till Komp.Väntetid?</value>
+    </label>
+    <label>
+        <key>employee_signing_removed_successfully</key>
+        <value>Avsignering lyckades</value>
+    </label>
+    <label>
+        <key>employee_signing_remove_failed</key>
+        <value>Avsignering misslyckades</value>
+    </label>
+    <label>
+        <key>old_and_new_passwords_should_not_be_same</key>
+        <value>Det nya lönsenordet kan inte vara som det gamla.</value>
+    </label>
+    <label>
+        <key>username_email_combination_mismatched</key>
+        <value>Användarnamn och/eller epostadress är felaktiga</value>
+    </label>
+    <label>
+        <key>select_signing_user_level</key>
+        <value>Select signing user level</value>
+    </label>
+    <label>
+        <key>select_atleast_one_signing_type</key>
+        <value>Välj signeringstyp som ska visas</value>
+    </label>
+    <label>
+        <key>dismissal_exists</key>
+        <value>Uppsägningslön, finns ingen frånvaro.</value>
+    </label>
+    <label>
+        <key>salary_editing_normal_fail</key>
+        <value>Problem med ändring av lönearter</value>
+    </label>
+    <label>
+        <key>form_1_adding_success</key>
+        <value>Sparat</value>
+    </label>
+    <label>
+        <key>form_1_adding_fail</key>
+        <value>Kan inte spara, komplettera saknad data.</value>
+    </label>
+    <label>
+        <key>form_2_adding_success</key>
+        <value>Sparat</value>
+    </label>
+    <label>
+        <key>form_2_adding_fail</key>
+        <value>Kan inte spara, komplettera saknad data.</value>
+    </label>
+     <label>
+        <key>form_2_question_adding_success</key>
+        <value>Ändring sparades</value>
+    </label>
+    <label>
+        <key>form_2_question_adding_fail</key>
+        <value>Review cant save, Please Complete you data.</value>
+    </label>
+    <label>
+        <key>form_2_question_delete_success</key>
+        <value>Ändring sparades</value>
+    </label>
+    <label>
+        <key>form_2_question_delete_fail</key>
+        <value>Review cant save, Please Complete you data.</value>
+    </label>
+    <label>
+        <key>form_3_adding_success</key>
+        <value>Sparat</value>
+    </label>
+    <label>
+        <key>form_3_adding_fail</key>
+        <value>Kan inte spara, komplettera saknad data.</value>
+    </label>
+    <label>
+        <key>form_3_question_adding_success</key>
+        <value>Ny fråga sparad</value>
+    </label>
+    <label>
+        <key>form_3_question_adding_fail</key>
+        <value>Kan inte spara ny fråga.</value>
+    </label>
+    <label>
+        <key>form_3_question_delete_success</key>
+        <value>Frågan raderad</value>
+    </label>
+    <label>
+        <key>form_3_question_delete_fail</key>
+        <value>Kan inte spara.</value>
+    </label>
+    <label>
+        <key>form_4_adding_success</key>
+        <value>Ändring sparades</value>
+    </label>
+    <label>
+        <key>form_4_adding_fail</key>
+        <value>Kan inte spara. Kontrollera saknad data.</value>
+    </label>
+    <label>
+        <key>select_a_customer</key>
+        <value>Välj Kund</value>
+    </label>
+    <label>
+        <key>form_5_adding_success</key>
+        <value>Formulär sparat</value>
+    </label>
+    <label>
+        <key>form_5_adding_fail</key>
+        <value>Kan inte spara, det saknas data, vänligen komplettera</value>
+    </label>
+    <label>
+        <key>candg_cancelled_successfully</key>
+        <value>CnG stoppad</value>
+    </label>
+    <label>
+        <key>candg_cancel_failed</key>
+        <value>Kunde inte stoppa CnG</value>
+    </label>
+    <label>
+        <key>form_6_adding_success</key>
+        <value>Sparat resultatet</value>
+    </label>
+    <label>
+        <key>form_6_adding_fail</key>
+        <value>Kan inte spara, se detaljer som saknas</value>
+    </label> 
+    <label>
+        <key>login_blocked_click_on_reset_password</key>
+        <value>Kontot är låst. Klicka på "Glömt lösenord?" för att återställa</value>
+    </label>
+    <label>
+        <key>invalid_Password_remainig_try</key>
+        <value>Felaktigt lösen eller användarnamn. Antal försök kvar</value>
+    </label>
+    <label>
+        <key>password_should_not_blank</key>
+        <value>Löseonrdet får inte vara blank</value>
+    </label>
+    <label>
+        <key>form_7_adding_success</key>
+        <value>Sparat resultatet</value>
+    </label>
+    <label>
+        <key>form_7_adding_fail</key>
+        <value>Kan inte spara, se detaljer som saknas</value>
+    </label>
+    <label>
+        <key>form_8_adding_success</key>
+        <value>Ändring sparades</value>
+    </label>
+    <label>
+        <key>form_8_adding_fail</key>
+        <value>Kan inte spara. Kontrollera saknad data.</value>
+    </label>
+    <label>
+        <key>search_content_should_not_be_empty</key>
+        <value>Sökfältet ska inte vara tomt.</value>
+    </label>
+    <label>
+        <key>data_not_found</key>
+        <value>Det finns inget data</value>
+    </label>
+    <label>
+        <key>company_inactive</key>
+        <value>Företaget inaktivt</value>
+    </label>
+    <label>
+        <key>inconvenient_entries_sort_success</key>
+        <value>OBtid sorterad</value>
+    </label>
+    <label>
+        <key>inconvenient_entries_sort_fail</key>
+        <value>OBtid sorteringsfel </value>
+    </label>
+    <label>
+        <key>enter_username_mobile</key>
+        <value>Enter username and mobile number</value>
+    </label>
+    <label>
+        <key>send_OTP</key>
+        <value>Skicka SMS </value>
+    </label>
+    <label>
+        <key>enter_valid_mobile</key>
+        <value>Ange giltigt Mobilnummer</value>
+    </label>
+    <label>
+        <key>username_mobile_combination_mismatched</key>
+        <value>Användarnamn och/eller Mobilnummer är felaktiga</value>
+    </label>
+    <label>
+        <key>otp_sent_successfully_check_mobile</key>
+        <value>Engångslösenord skickades till din mobil</value>
+    </label>
+    <label>
+        <key>otp_send_failed</key>
+        <value>Problem med engångslösenord, testa igen</value>
+    </label>
+    <label>
+        <key>enter_valid_otp</key>
+        <value>Mata in korrekt engångslösenord</value>
+    </label>
+    <label>
+        <key>invalid_otp</key>
+        <value>Ogiltigt engångslösenord, vänligen kontrollera</value>
+    </label>
+    <label>
+        <key>otp_expired</key>
+        <value>Engångslösenord har gått ut, generera en ny</value>
+    </label>
+    <label>
+        <key>otp_message_pre_text</key>
+        <value>Ditt engångslösenord är</value>
+    </label>
+    <label>
+        <key>otp_message_post_text</key>
+        <value>Tänk på att lösenordet är en personlig värdehandling. Hälsningar Time2view CIRRUS</value>
+    </label>
+    <label>
+        <key>contract_employee_has_no_privilege</key>
+        <value>Du har inga befogenheter för detta</value>
+    </label>
+    <label>
+        <key>contract_employee_has_no_exists</key>
+        <value>Anställningsavtal hittades inte</value>
+    </label>
+    <label>
+        <key>contract_hasbeen_signed</key>
+        <value>Anställningsavtal har signerats</value>
+    </label>
+     <label>
+        <key>company_status_check</key>
+        <value>Status: Kontakta Cirrus support</value>
+    </label>
+    <label>
+        <key>personal_number_already_exist</key>
+        <value>Personummer redan finns</value>
+    </label>
+    <label>
+        <key>company_no_longer_exists</key>
+        <value>Status: Kontakta Cirrus support</value>
+    </label>
+    <label>
+        <key>update_template</key>
+        <value>Redigera schemamall</value>
+    </label>
+     <label>
+        <key>file_selected_supported_extension_skill</key>
+        <value>Tillåtna filformat: (doc,docx, xls,xlsx, pdf,odt,txt) </value>
+    </label>
+    <label>
+        <key>document_category_move_success</key>
+        <value>Kategori flyttades</value>
+    </label>
+    <label>
+        <key>document_category_move_fail</key>
+        <value>Kategori flytt misslyckades</value>
+    </label>
+    <label>
+        <key>do_u_want_approve_leave</key>
+        <value>Vill du godkänna frånvaron?</value>
+    </label>
+    <label>
+        <key>no_data_available</key>
+        <value>Inget data tillgängligt/Ingen befogenhet</value>
+    </label>
+    <label>
+        <key>customer_location_saved</key>
+        <value>Kund adress/plats sparad</value>
+    </label>
+    <label>
+        <key>customer_location_saving_failed</key>
+        <value>Kund adress/plats kunde inte sparas</value>
+    </label>
+    <label>
+        <key>no_location_found</key>
+        <value>GPS kunde inte hitta adress/plats. Kontrollera status</value>
+    </label>
+    <label>
+        <key>do_u_want_approve_all_leave</key>
+        <value>Vill du verkligen godkänna frånvaron?</value>
+    </label>
+    <label>
+        <key>atl_rest_needed</key>
+        <value>Dygnsvila måste ökas</value>
+    </label>
+    <label>
+        <key>customers_involved</key>
+        <value>Kopplad till kund</value>
+    </label>
+    <label>
+        <key>sms_push_send_sucess</key>
+        <value>Push meddelandet skickades</value>
+    </label>
+    <label>
+        <key>sms_push_no_valid_devices</key>
+        <value>Det finns ingen mobiltelefon registrerad</value>
+    </label>
+    <label>
+        <key>otp_has_been_verified</key>
+        <value>OTP har blivit bekräftad</value>
+    </label>
+     <label>
+        <key>employee_non_prefered_time_overlap</key>
+        <value>Tidsperioder överlappar mellan {{fromDate}} och {{toDate}}</value>
+    </label>
+    <label>
+        <key>deleted_sucessfully</key>
+        <value>Raderat</value>
+    </label>
+    <label>
+        <key>something_went_wrong</key>
+        <value>Något gick fel</value>
+    </label>
+    <label>
+        <key>employee_non_prefered_time_saved_successfully</key>
+        <value>Ej tillgänglig tiden sparades</value>
+    </label>
+    <label>
+        <key>slot_collide_with_non_preferred_time</key>
+        <value>Det finns redan en ledighet upptagen hos den anställde</value>
+    </label>
+    <label>
+        <key>employee_not_available_in_change_time</key>
+        <value>{{employee}} inte tillgänglig den {{date}} tiden {{time_from}} - {{time_to}}</value>
+    </label>
+    <label>
+        <key>employee_present_multiple_time_date</key>
+        <value>{{employee}} finns under flera datum {{date}}</value>
+    </label>
+    <label>
+        <key>employee_time_changed_sucessfully</key>
+        <value>Tiden sparades</value>
+    </label>
+    <label>
+        <key>remainder_saved_sucessfully</key>
+        <value>Påninnelsen sparades</value>
+    </label>
+    <label>
+        <key>only_single_remainder_for_a_day</key>
+        <value>En påminnelse per dag</value>
+    </label>
+    <label>
+        <key>remainder_deleted_sucessfully</key>
+        <value>Påminnelse raderades</value>
+    </label>
+    <label>
+        <key>something_went_wrong</key>
+        <value>Något gick fel</value>
+    </label>
+    <label>
+        <key>employee_code_must_contain_atlest_one_number</key>
+        <value>Anställnigsnummer ska innehålla mins en siffra</value>
+    </label>
+    <label>
+        <key>employee_code_must_be_unique</key>
+        <value>Det verkar finnas minst ett likadant anställnigsnummer. Lägg till en siffra eller bokstav och spara.</value>
+    </label>
+    <label>
+        <key>you_have_new_document_to_sign_subject</key>
+        <value>Det finns dokument att signera. Klicka på Obligatoriska dokument, läs och signera med BankID</value>
+    </label>
+    <label>
+        <key>you_have_new_document_to_sign_message</key>
+        <value>Du har dokument att signera. Klicka på Obligatoriska dokument, läs och signera med BankID</value>
+    </label>
+    <label>
+        <key>several_slot_added</key>
+        <value>Flera arbetspass har uppdaterats</value>
+    </label>
+    <label>
+        <key>slot_interest_successfully</key>
+        <value>Din förfrågan om önskat pass skickades till de ansvariga</value>
+    </label>
+    <label>
+        <key>slot_interest_fail</key>
+        <value>Fel uppstod vid förfrågan om önskat pass. Prova igen.</value>
+    </label>
+    <label>
+        <key>interested_confirm_changes</key>
+        <value>Bekräfta ändringarna</value>
+    </label>
+    <label>
+        <key>no_data_available</key>
+        <value>--Inget data--</value>
+    </label>
+    <label>
+        <key>send_to_fk</key>
+        <value>Skicka till FK</value>
+    </label>
+    <label>
+        <key>all_send_to_fk</key>
+        <value>Redan skickat till FK</value>
+    </label>
+    <label>
+        <key>need_to_sign</key>
+        <value>Att godkänna</value>
+    </label>
+    <label>
+        <key>sent</key>
+        <value>Antal skickade: </value>
+    </label>
+    <label>
+        <key>signed_emp</key>
+        <value>Signerade: </value>
+    </label>
+    <label>
+        <key>unsign_all</key>
+        <value>Avmarkera alla</value>
+    </label>
+</content>

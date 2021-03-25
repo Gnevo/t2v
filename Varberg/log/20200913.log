@@ -1,0 +1,69 @@
+09:32:32 anka019 Anna Kawalya Westerberg INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( anka019, 217.211.180.223, Mozilla/5.0 (iPhone; CPU iPhone OS 13_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Mobile/15E148 Safari/604.1 ) => {inserted_id = 13697}
+09:32:32 anka019 Anna Kawalya Westerberg DELETE data from tables `temp_session` on conditions username LIKE anka019
+09:32:32 anka019 Anna Kawalya Westerberg UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-09-13 09:32:32) on conditions username = anka019
+09:32:32 anka019 Anna Kawalya Westerberg UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-09-13 09:32:32) on conditions username = anka019 AND company_id = 20
+09:32:33 anka019 Anna Kawalya Westerberg UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (anka019) on conditions session_id = rc6b9q8v0iepata0mq6hmmcdb4
+11:21:52 mowa002 Monica Walfridsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( mowa002, 81.170.178.25, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36 Edg/85.0.564.51 ) => {inserted_id = 13699}
+11:21:52 mowa002 Monica Walfridsson DELETE data from tables `temp_session` on conditions username LIKE mowa002
+11:21:52 mowa002 Monica Walfridsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-09-13 11:21:52) on conditions username = mowa002
+11:21:52 mowa002 Monica Walfridsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-09-13 11:21:52) on conditions username = mowa002 AND company_id = 20
+11:21:52 mowa002 Monica Walfridsson DELETE data from tables `temp_session` on conditions username LIKE mowa002
+11:21:52 mowa002 Monica Walfridsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2020-09-13 11:21:52) on conditions username = mowa002
+11:21:52 mowa002 Monica Walfridsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-09-13 11:21:52) on conditions username = mowa002 AND company_id = 20
+11:21:52   UPDATING data to tables `log_login` fields ( logout_time ) values (2020-09-13:09:21:52) on conditions id = 13699 AND username = mowa002
+11:22:53 mowa002 Monica Walfridsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( mowa002, 81.170.178.25, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36 Edg/85.0.564.51 ) => {inserted_id = 13700}
+11:22:53 mowa002 Monica Walfridsson DELETE data from tables `temp_session` on conditions username LIKE mowa002
+11:22:53 mowa002 Monica Walfridsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-09-13 11:22:53) on conditions username = mowa002
+11:22:53 mowa002 Monica Walfridsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-09-13 11:22:53) on conditions username = mowa002 AND company_id = 20
+11:22:53 mowa002 Monica Walfridsson DELETE data from tables `temp_session` on conditions username LIKE mowa002
+11:22:53 mowa002 Monica Walfridsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2020-09-13 11:22:53) on conditions username = mowa002
+11:22:53 mowa002 Monica Walfridsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-09-13 11:22:53) on conditions username = mowa002 AND company_id = 20
+11:22:53   UPDATING data to tables `log_login` fields ( logout_time ) values (2020-09-13:09:22:53) on conditions id = 13700 AND username = mowa002
+11:23:28 mowa002 Monica Walfridsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( mowa002, 81.170.178.25, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36 Edg/85.0.564.51 ) => {inserted_id = 13701}
+11:23:28 mowa002 Monica Walfridsson DELETE data from tables `temp_session` on conditions username LIKE mowa002
+11:23:28 mowa002 Monica Walfridsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-09-13 11:23:28) on conditions username = mowa002
+11:23:28 mowa002 Monica Walfridsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-09-13 11:23:28) on conditions username = mowa002 AND company_id = 20
+11:23:29 mowa002 Monica Walfridsson DELETE data from tables `temp_session` on conditions username LIKE mowa002
+11:23:29 mowa002 Monica Walfridsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2020-09-13 11:23:29) on conditions username = mowa002
+11:23:29 mowa002 Monica Walfridsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-09-13 11:23:29) on conditions username = mowa002 AND company_id = 20
+11:23:29   UPDATING data to tables `log_login` fields ( logout_time ) values (2020-09-13:09:23:29) on conditions id = 13701 AND username = mowa002
+11:24:16 mowa002  UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (1) on conditions username = mowa002 AND company_id = 20
+11:24:25 mowa002 Monica Walfridsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = mowa002 AND company_id = 20
+11:24:25 mowa002 Monica Walfridsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( mowa002, 81.170.178.25, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36 Edg/85.0.564.51 ) => {inserted_id = 13702}
+11:24:25 mowa002 Monica Walfridsson DELETE data from tables `temp_session` on conditions username LIKE mowa002
+11:24:25 mowa002 Monica Walfridsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-09-13 11:24:25) on conditions username = mowa002
+11:24:25 mowa002 Monica Walfridsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-09-13 11:24:25) on conditions username = mowa002 AND company_id = 20
+11:24:26 mowa002 Monica Walfridsson DELETE data from tables `temp_session` on conditions username LIKE mowa002
+11:24:26 mowa002 Monica Walfridsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2020-09-13 11:24:26) on conditions username = mowa002
+11:24:26 mowa002 Monica Walfridsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-09-13 11:24:26) on conditions username = mowa002 AND company_id = 20
+11:24:26   UPDATING data to tables `log_login` fields ( logout_time ) values (2020-09-13:09:24:26) on conditions id = 13702 AND username = mowa002
+11:26:03 mowa002 Monica Walfridsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( mowa002, 81.170.178.25, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36 Edg/85.0.564.51 ) => {inserted_id = 13703}
+11:26:03 mowa002 Monica Walfridsson DELETE data from tables `temp_session` on conditions username LIKE mowa002
+11:26:03 mowa002 Monica Walfridsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-09-13 11:26:03) on conditions username = mowa002
+11:26:03 mowa002 Monica Walfridsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-09-13 11:26:03) on conditions username = mowa002 AND company_id = 20
+11:26:04 mowa002 Monica Walfridsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (mowa002) on conditions session_id = l0npo7h7qqhvs16h68uujgf2c0
+11:30:37 mowa002 Monica Walfridsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (mowa002) on conditions session_id = l0npo7h7qqhvs16h68uujgf2c0
+11:35:31 mowa002 Monica Walfridsson DELETE data from tables `temp_session` on conditions username LIKE mowa002
+11:35:31 mowa002 Monica Walfridsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2020-09-13 11:35:31) on conditions username = mowa002
+11:35:31 mowa002 Monica Walfridsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-09-13 11:35:31) on conditions username = mowa002 AND company_id = 20
+11:35:31   UPDATING data to tables `log_login` fields ( logout_time ) values (2020-09-13:09:35:31) on conditions id = 13703 AND username = mowa002
+11:35:44 mowa002 Monica Walfridsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( mowa002, 81.170.178.25, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36 Edg/85.0.564.51 ) => {inserted_id = 13704}
+11:35:44 mowa002 Monica Walfridsson DELETE data from tables `temp_session` on conditions username LIKE mowa002
+11:35:44 mowa002 Monica Walfridsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-09-13 11:35:44) on conditions username = mowa002
+11:35:44 mowa002 Monica Walfridsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-09-13 11:35:44) on conditions username = mowa002 AND company_id = 20
+11:35:44 mowa002 Monica Walfridsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (mowa002) on conditions session_id = tgu05rbc3uje5uaoru6dpru7v3
+11:36:22 mowa002 Monica Walfridsson DELETE data from tables `temp_session` on conditions username LIKE mowa002
+11:36:22 mowa002 Monica Walfridsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2020-09-13 11:36:22) on conditions username = mowa002
+11:36:22 mowa002 Monica Walfridsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-09-13 11:36:22) on conditions username = mowa002 AND company_id = 20
+11:36:22   UPDATING data to tables `log_login` fields ( logout_time ) values (2020-09-13:09:36:22) on conditions id = 13704 AND username = mowa002
+20:31:28 anka019 Anna Kawalya Westerberg INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( anka019, 217.211.180.223, Mozilla/5.0 (iPhone; CPU iPhone OS 13_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Mobile/15E148 Safari/604.1 ) => {inserted_id = 13710}
+20:31:28 anka019 Anna Kawalya Westerberg DELETE data from tables `temp_session` on conditions username LIKE anka019
+20:31:28 anka019 Anna Kawalya Westerberg UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-09-13 20:31:28) on conditions username = anka019
+20:31:28 anka019 Anna Kawalya Westerberg UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-09-13 20:31:28) on conditions username = anka019 AND company_id = 20
+20:31:28 anka019 Anna Kawalya Westerberg UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (anka019) on conditions session_id = f6f0oera81ea36alev9el84uv4
+20:33:55 anka019 Anna Kawalya Westerberg INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( anka019, 217.211.180.223, Mozilla/5.0 (iPhone; CPU iPhone OS 13_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Mobile/15E148 Safari/604.1 ) => {inserted_id = 13711}
+20:33:55 anka019 Anna Kawalya Westerberg DELETE data from tables `temp_session` on conditions username LIKE anka019
+20:33:55 anka019 Anna Kawalya Westerberg UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-09-13 20:33:55) on conditions username = anka019
+20:33:55 anka019 Anna Kawalya Westerberg UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-09-13 20:33:55) on conditions username = anka019 AND company_id = 20
+20:33:55 anka019 Anna Kawalya Westerberg UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (anka019) on conditions session_id = f6f0oera81ea36alev9el84uv4
+20:33:59 anka019 Anna Kawalya Westerberg UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (anka019) on conditions session_id = f6f0oera81ea36alev9el84uv4

@@ -1,0 +1,25 @@
+12:41:02 gine001 Gilad Nevo INSERTING data into tables `log_login`fields username, ip, browser values ( gine001, 85.227.154.64, Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; NP06; Tablet PC 2.0) )
+12:41:02 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = gine001
+12:42:02 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( joef001, hesv001, 1, 0, 2013-01-09, 7.15, 8.45, 1, gine001 )
+12:42:35 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( moen001, hesv001, 1, 0, 2013-01-09, 7.15, 8.45, 1, gine001 )
+12:42:35 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( moen001, hesv001, 1, 0, 2013-01-09, 9, 12, 1, gine001 )
+12:42:35 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( moen001, hesv001, 1, 0, 2013-01-09, 17, 23, 1, gine001 )
+12:42:35 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( moen001, hesv001, 1, 0, 2013-01-10, 7.15, 8.45, 1, gine001 )
+12:42:35 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( moen001, hesv001, 1, 0, 2013-01-10, 9, 12, 1, gine001 )
+12:42:35 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( moen001, hesv001, 1, 0, 2013-01-10, 17, 23, 1, gine001 )
+12:42:35 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( moen001, hesv001, 1, 0, 2013-01-11, 7.15, 8.45, 1, gine001 )
+12:42:35 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( moen001, hesv001, 1, 0, 2013-01-11, 9, 12, 1, gine001 )
+12:42:35 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( moen001, hesv001, 1, 0, 2013-01-11, 17, 23, 1, gine001 )
+12:42:35 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1, moen001, gine001 on conditions id = 1386
+12:42:35 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1, moen001, gine001 on conditions id = 1387
+12:42:35 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1, moen001, gine001 on conditions id = 1390
+12:43:49 gine001 Gilad Nevo UPDATING data to tables `team`fields Array values 3 on conditions customer =  AND role = 7
+12:43:49 gine001 Gilad Nevo UPDATING data to tables `team`fields Array values 7 on conditions customer =  AND employee = 
+12:43:49 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1,  on conditions username = moen001
+12:43:49 gine001 Gilad Nevo UPDATING data to tables `employee`fields Array values 001-2003, 19, 6003122352, Möller, Englund, 1, Storgatan 10, Hallsbarg, 69532, , , gn.nevo@gmail.com, 2012-11-14, #FFFFFF, 1, , , 0, 10.00 on conditions username = moen001
+12:43:49 gine001 Gilad Nevo UPDATING data to tables `emp_inconvinient_time`fields Array values 2013-12-08 on conditions time_id = 2
+12:43:49 gine001 Gilad Nevo INSERTING data into tables `emp_inconvinient_time`fields emp_username, on_call, on_call_holiday, on_call_bigholiday, inconvinient_night, inconvinient_evening, inconvinient_holiday, inconvinient_week_holiday, date_from, added_by values ( moen001, , , , , , , , 2013-12-08, gine001 )
+12:43:49 gine001 Gilad Nevo UPDATING data to tables `emp_salary`fields Array values 2013-12-08 on conditions salaryId = 2
+12:43:49 gine001 Gilad Nevo INSERTING data into tables `emp_salary`fields emp_username, salary_per_month, salary_per_hour, date_from, added_by values ( moen001, , , 2013-12-08, gine001 )
+12:44:17 gine001 Gilad Nevo INSERTING data into tables `mc_note`fields note_id, read_users values ( 3, gine001 )
+12:47:50 gine001 Gilad Nevo INSERTING data into tables `fkkn_form_defaults`fields customer, bargaining, other_bargaining_text, agreement_types, agreement_type2_company, agreement_type2_orgNo values ( hesv001, undefined, , 0||0||0, ,  )

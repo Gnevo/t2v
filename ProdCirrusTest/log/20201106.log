@@ -1,0 +1,7 @@
+16:32:00 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 89.233.236.131, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:82.0) Gecko/20100101 Firefox/82.0 ) => {inserted_id = 15133}
+16:32:00 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+16:32:00 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-11-06 16:32:00) on conditions username = gine001
+16:32:00 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-11-06 16:32:00) on conditions username = gine001 AND company_id = 6
+16:32:01 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = h29h63pm4heq3c03udc7d4kkh0
+16:33:08 gine001 Gilad Nevo UPDATING data to tables `fkkn_form_defaults` fields ( bargaining_new, company_cp_name, company_cp_phone, provider_of_pa_flag, agreement_types_new, agreement_type2_company, agreement_type2_orgNo ) values (1, Gilad, 0704434964, 2, 1, , ) on conditions customer = stal001 AND (employee =  OR employee IS NULL)
+16:33:09 gine001 Gilad Nevo INSERTING data into tables `history_samsida_work_report` fields ( month, year, fkkn, customer, employee, file_name ) values ( 5, 2020, 1, stal001, , Samsida_1804466697.pdf ) => {inserted_id = 219}

@@ -1,0 +1,47 @@
+14:44:17 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = rute001 AND company_id = 21
+14:44:17 rute001 Ruta Teklehaimanot INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rute001, 78.68.12.244, okhttp/3.9.1 ) => {inserted_id = 8370}
+14:44:17 rute001 Ruta Teklehaimanot DELETE data from tables `temp_session` on conditions username LIKE rute001
+14:44:17 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-04-19 14:44:17) on conditions username = rute001
+14:44:17 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-04-19 14:44:17) on conditions username = rute001 AND company_id = 21
+19:09:48 zefe001 Zeid Feili INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( zefe001, 85.229.51.54, Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36 ) => {inserted_id = 8371}
+19:09:48 zefe001 Zeid Feili DELETE data from tables `temp_session` on conditions username LIKE zefe001
+19:09:48 zefe001 Zeid Feili UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-04-19 19:09:48) on conditions username = zefe001
+19:09:48 zefe001 Zeid Feili UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-04-19 19:09:48) on conditions username = zefe001 AND company_id = 21
+19:10:24 zefe001 Zeid Feili UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( password, mobile, role, error, date ) values (30e2714f24690790fb1a2d22297d431d, , 3, 0, 2020-04-19) on conditions username = zaid001
+19:10:24 zefe001 Zeid Feili UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( password, error, last_pw_update_date ) values (30e2714f24690790fb1a2d22297d431d, 0, 2020-04-19 17:10:24) on conditions username = zaid001 AND company_id = 21
+19:10:24 zefe001 Zeid Feili UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day, remaining_sem_leave, sem_leave_todate, leave_in_advance, care_of, office_personal, substitute, salary_type, sem_leave_days, vab_leave_days, fp_leave_days, nopay_leave_days, other_leave_days, ice, employee_contract_start_month, employee_contract_period_date, employee_contract_period_length, candg_follow, inconvenient_on ) values (108, 19, 7701015443, Zahra, Idris Mohamed, 2, , Grums, 664 47, , , , 2019-12-28, #c6c077, 1, , , 0, 10.00, 0, , 0, , 0, 0, 1, 0, 0, 0, 0, 0, Zahra Idris Mohamed 19770101-5443, , , , 0, 1) on conditions username = zaid001
+19:10:24 zefe001 Zeid Feili DELETE data from tables `team` on conditions employee = zaid001
+19:10:24 zefe001 Zeid Feili INSERTING data into tables `team` fields ( customer, employee, role ) values ( amom001, zaid001, 3 ), ( naom001, zaid001, 3 ) => {inserted_id = 0}
+19:11:30 zefe001 Zeid Feili UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( role, mobile ) values (3, ) on conditions username = zaid001
+19:11:30 zefe001 Zeid Feili UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day, remaining_sem_leave, sem_leave_todate, leave_in_advance, care_of, office_personal, substitute, salary_type, sem_leave_days, vab_leave_days, fp_leave_days, nopay_leave_days, other_leave_days, ice, employee_contract_start_month, employee_contract_period_date, employee_contract_period_length, candg_follow, inconvenient_on ) values (108, 19, 7701015443, Zahra, Idris Mohamed, 2, , Grums, 664 47, , , , 2019-12-28, #c6c077, 1, , , 0, 10.00, 0, , 0, , 0, 0, 1, 0, 0, 0, 0, 0, Zahra Idris Mohamed 19770101-5443, , , , 0, 1) on conditions username = zaid001
+19:11:30 zefe001 Zeid Feili DELETE data from tables `team` on conditions employee = zaid001
+19:11:30 zefe001 Zeid Feili INSERTING data into tables `team` fields ( customer, employee, role ) values ( naom001, zaid001, 3 ), ( amom001, zaid001, 3 ) => {inserted_id = 0}
+19:19:18 zefe001 Zeid Feili DELETE data from tables `temp_session` on conditions username LIKE zefe001
+19:19:18 zefe001 Zeid Feili UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2020-04-19 19:19:18) on conditions username = zefe001
+19:19:18 zefe001 Zeid Feili UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-04-19 19:19:18) on conditions username = zefe001 AND company_id = 21
+19:19:18   UPDATING data to tables `log_login` fields ( logout_time ) values (2020-04-19:17:19:18) on conditions id = 8371 AND username = zefe001
+19:48:41 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = rute001 AND company_id = 21
+19:48:41 rute001 Ruta Teklehaimanot INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rute001, 78.68.12.244, okhttp/3.9.1 ) => {inserted_id = 8372}
+19:48:41 rute001 Ruta Teklehaimanot DELETE data from tables `temp_session` on conditions username LIKE rute001
+19:48:41 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-04-19 19:48:41) on conditions username = rute001
+19:48:41 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-04-19 19:48:41) on conditions username = rute001 AND company_id = 21
+21:25:19 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = rute001 AND company_id = 21
+21:25:19 rute001 Ruta Teklehaimanot INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rute001, 78.68.12.244, okhttp/3.9.1 ) => {inserted_id = 8373}
+21:25:19 rute001 Ruta Teklehaimanot DELETE data from tables `temp_session` on conditions username LIKE rute001
+21:25:19 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-04-19 21:25:19) on conditions username = rute001
+21:25:19 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-04-19 21:25:19) on conditions username = rute001 AND company_id = 21
+21:50:46 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = rute001 AND company_id = 21
+21:50:46 rute001 Ruta Teklehaimanot INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rute001, 78.68.12.244, okhttp/3.9.1 ) => {inserted_id = 8374}
+21:50:46 rute001 Ruta Teklehaimanot DELETE data from tables `temp_session` on conditions username LIKE rute001
+21:50:46 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-04-19 21:50:46) on conditions username = rute001
+21:50:46 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-04-19 21:50:46) on conditions username = rute001 AND company_id = 21
+21:55:19 zefe001 Zeid Feili UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = zefe001 AND company_id = 21
+21:55:19 zefe001 Zeid Feili INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( zefe001, 37.3.85.64, Time2View/1 CFNetwork/1107.1 Darwin/19.0.0 ) => {inserted_id = 8375}
+21:55:19 zefe001 Zeid Feili DELETE data from tables `temp_session` on conditions username LIKE zefe001
+21:55:19 zefe001 Zeid Feili UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-04-19 21:55:19) on conditions username = zefe001
+21:55:19 zefe001 Zeid Feili UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-04-19 21:55:19) on conditions username = zefe001 AND company_id = 21
+21:58:25 zefe001 Zeid Feili UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = zefe001 AND company_id = 21
+21:58:25 zefe001 Zeid Feili INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( zefe001, 37.3.85.64, Time2View/1 CFNetwork/1107.1 Darwin/19.0.0 ) => {inserted_id = 8376}
+21:58:25 zefe001 Zeid Feili DELETE data from tables `temp_session` on conditions username LIKE zefe001
+21:58:25 zefe001 Zeid Feili UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-04-19 21:58:25) on conditions username = zefe001
+21:58:25 zefe001 Zeid Feili UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-04-19 21:58:25) on conditions username = zefe001 AND company_id = 21

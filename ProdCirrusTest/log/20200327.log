@@ -1,0 +1,63 @@
+08:21:57 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+08:21:57 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 192.36.80.8, okhttp/3.9.1 ) => {inserted_id = 11061}
+08:21:57 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+08:21:57 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-03-27 08:21:57) on conditions username = gine001
+08:21:57 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-03-27 08:21:57) on conditions username = gine001 AND company_id = 6
+08:23:37 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( majo022, stal001, 1, 0, 2020-03-27, 8.25, 9.00, 1, , gine001,  ) => {inserted_id = 17398} #Mobile-App: Log-id=11061
+08:23:58 gine001 Gilad Nevo DELETE data from tables `time2vie_cirruscommon`.`push_notify_tokens` on conditions user_id = gine001 AND fcm_token =  #Mobile-App: Log-id=11061
+08:23:58 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001 #Mobile-App: Log-id=11061
+08:23:58 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2020-03-27 08:23:58) on conditions username = gine001 #Mobile-App: Log-id=11061
+08:23:58 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-03-27 08:23:58) on conditions username = gine001 AND company_id = 6 #Mobile-App: Log-id=11061
+08:24:21 majo022 Mats Jonsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = majo022 AND company_id = 6
+08:24:21 majo022 Mats Jonsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( majo022, 192.36.80.8, okhttp/3.9.1 ) => {inserted_id = 11062}
+08:24:21 majo022 Mats Jonsson DELETE data from tables `temp_session` on conditions username LIKE majo022
+08:24:21 majo022 Mats Jonsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-03-27 08:24:21) on conditions username = majo022
+08:24:21 majo022 Mats Jonsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-03-27 08:24:21) on conditions username = majo022 AND company_id = 6
+08:24:40 majo022 Mats Jonsson INSERTING data into tables `user_task` fields ( userid, dag, start_time, customer ) values ( majo022, 2020-03-27, 8:24:40, stal001 ) => {inserted_id = 240} #Mobile-App: Log-id=11062
+08:25:07 majo022 Mats Jonsson DELETE data from tables `time2vie_cirruscommon`.`push_notify_tokens` on conditions user_id = majo022 AND fcm_token = dPCgfWR01oQ:APA91bF8wUnaGl-7sU3knCNfH2Kberbwzp8jZFFbRVfIvIg5fM3jkqTLvY_dxxCOufO8cVq8A0YemS5JbM5SPEpAUfzk1_KJ0LTTHvaCu4wb1-kZqMLqst67GhLlSALDPz85mkahGd9P #Mobile-App: Log-id=11062
+08:25:07 majo022 Mats Jonsson DELETE data from tables `temp_session` on conditions username LIKE majo022 #Mobile-App: Log-id=11062
+08:25:07 majo022 Mats Jonsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2020-03-27 08:25:07) on conditions username = majo022 #Mobile-App: Log-id=11062
+08:25:07 majo022 Mats Jonsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-03-27 08:25:07) on conditions username = majo022 AND company_id = 6 #Mobile-App: Log-id=11062
+08:25:32 majo022 Mats Jonsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = majo022 AND company_id = 6
+08:25:32 majo022 Mats Jonsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( majo022, 192.36.80.8, okhttp/3.9.1 ) => {inserted_id = 11063}
+08:25:32 majo022 Mats Jonsson DELETE data from tables `temp_session` on conditions username LIKE majo022
+08:25:32 majo022 Mats Jonsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-03-27 08:25:32) on conditions username = majo022
+08:25:32 majo022 Mats Jonsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-03-27 08:25:32) on conditions username = majo022 AND company_id = 6
+08:25:32 majo022 Mats Jonsson INSERTING data into tables `time2vie_cirruscommon`.`push_notify_tokens` fields ( user_id, fcm_token, device_id, device_details, created_date, error ) values ( majo022, dPCgfWR01oQ:APA91bF8wUnaGl-7sU3knCNfH2Kberbwzp8jZFFbRVfIvIg5fM3jkqTLvY_dxxCOufO8cVq8A0YemS5JbM5SPEpAUfzk1_KJ0LTTHvaCu4wb1-kZqMLqst67GhLlSALDPz85mkahGd9P, 11be410821a2e93f, okhttp/3.9.1, 2020-03-27 08:25:32, 0 ) => {inserted_id = 15349} #Mobile-App: Log-id=11063
+08:33:33 majo022 Mats Jonsson DELETE data from tables `time2vie_cirruscommon`.`push_notify_tokens` on conditions user_id = majo022 AND fcm_token = dPCgfWR01oQ:APA91bF8wUnaGl-7sU3knCNfH2Kberbwzp8jZFFbRVfIvIg5fM3jkqTLvY_dxxCOufO8cVq8A0YemS5JbM5SPEpAUfzk1_KJ0LTTHvaCu4wb1-kZqMLqst67GhLlSALDPz85mkahGd9P #Mobile-App: Log-id=11063
+08:33:33 majo022 Mats Jonsson DELETE data from tables `temp_session` on conditions username LIKE majo022 #Mobile-App: Log-id=11063
+08:33:33 majo022 Mats Jonsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2020-03-27 08:33:33) on conditions username = majo022 #Mobile-App: Log-id=11063
+08:33:33 majo022 Mats Jonsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-03-27 08:33:33) on conditions username = majo022 AND company_id = 6 #Mobile-App: Log-id=11063
+12:57:10 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+12:57:10 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 89.233.236.131, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0 ) => {inserted_id = 11064}
+12:57:10 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+12:57:10 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-03-27 12:57:10) on conditions username = gine001
+12:57:10 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-03-27 12:57:10) on conditions username = gine001 AND company_id = 6
+12:57:11 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = b9aa3a26e55599b5d961e213271a0086
+12:57:55 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( inch001, hela004, 1, 3, 2020-03-29, 1, 3, 1, , gine001,  ) => {inserted_id = 17399}
+12:57:55 gine001 Gilad Nevo INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( hela004, 1, 3, 3 ) => {inserted_id = 684}
+12:58:26 gine001 Gilad Nevo UPDATING data to tables `fkkn_form_defaults` fields ( bargaining_new, company_cp_name, company_cp_phone, provider_of_pa_flag, agreement_types_new, agreement_type2_company, agreement_type2_orgNo ) values (1, Gilad, 0704434964, 2, 1, , ) on conditions customer = hela004 AND (employee =  OR employee IS NULL)
+13:05:23 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 137.97.163.255, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36 ) => {inserted_id = 11065}
+13:05:23 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+13:05:23 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-03-27 13:05:23) on conditions username = dodo001
+13:05:23 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-03-27 13:05:23) on conditions username = dodo001 AND company_id = 6
+13:05:24 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = 68b2150a2718e3c9e631abc1c6f6d453
+13:07:54 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = 68b2150a2718e3c9e631abc1c6f6d453
+13:07:57 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+13:07:57 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2020-03-27 13:07:57) on conditions username = dodo001
+13:07:57 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-03-27 13:07:57) on conditions username = dodo001 AND company_id = 6
+13:07:57   UPDATING data to tables `log_login` fields ( logout_time ) values (2020-03-27:12:07:57) on conditions id = 11065 AND username = dodo001
+13:08:47 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 137.97.163.255, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36 ) => {inserted_id = 11066}
+13:08:47 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+13:08:47 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-03-27 13:08:47) on conditions username = dodo001
+13:08:47 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-03-27 13:08:47) on conditions username = dodo001 AND company_id = 6
+13:08:48 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = 0399ccdb6d31d59766d75ac5399cd106
+13:47:08 gine001 gine001 UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (1) on conditions username = gine001 AND company_id = 6
+13:47:21 gine001 gine001 UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (2) on conditions username = gine001 AND company_id = 6
+13:47:29 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+13:47:29 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 89.233.236.131, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0 ) => {inserted_id = 11067}
+13:47:29 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+13:47:29 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-03-27 13:47:29) on conditions username = gine001
+13:47:29 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-03-27 13:47:29) on conditions username = gine001 AND company_id = 6
+13:47:30 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = b9aa3a26e55599b5d961e213271a0086
+13:47:52 gine001 Gilad Nevo UPDATING data to tables `fkkn_form_defaults` fields ( bargaining_new, company_cp_name, company_cp_phone, provider_of_pa_flag, agreement_types_new, agreement_type2_company, agreement_type2_orgNo ) values (1, Gilad, 0704434964, 2, 1, , ) on conditions customer = hela004 AND (employee =  OR employee IS NULL)

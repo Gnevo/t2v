@@ -1,0 +1,5 @@
+13:22:08 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 122.161.155.63, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 ) => {inserted_id = 15455}
+13:22:08 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+13:22:08 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2021-01-29 13:22:08) on conditions username = gine001
+13:22:08 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2021-01-29 13:22:08) on conditions username = gine001 AND company_id = 6
+13:22:09 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = s2gasaq8a30hiii8uad9hlu2n7

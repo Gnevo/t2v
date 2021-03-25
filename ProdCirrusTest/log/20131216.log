@@ -1,0 +1,178 @@
+17:08:57 rokl001 rokl001 INSERTING data into tables `log_login`fields username, ip, browser values ( rokl001, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36 )
+17:08:57 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = rokl001
+17:13:24 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 98653247, 7204090117 on conditions username = hesv001
+17:13:24 rokl001 rokl001 UPDATING data to tables `customer`fields Array values 33, 19, 7204090117, Testina, Svan, storgatan 22, Kumla, 692 32, 1912345678, 98653247, , 2012-08-01, 1, , 1, 1 on conditions username = hesv001
+17:13:24 rokl001 rokl001 INSERTING data into tables `privileges_general`fields employee values ( lima003 )
+17:13:24 rokl001 rokl001 UPDATING data to tables `privileges_general`fields Array values 0, 0, 0, 1, 0, , ,  on conditions employee = lima003
+17:13:24 rokl001 rokl001 INSERTING data into tables `privileges_general`fields employee values ( anra004 )
+17:13:24 rokl001 rokl001 UPDATING data to tables `privileges_general`fields Array values 0, 0, 0, 1, 0, , ,  on conditions employee = anra004
+17:13:24 rokl001 rokl001 DELETE data from tables `team` on conditions customer = hesv001
+17:13:24 rokl001 rokl001 INSERTING data into tables `team`fields customer, employee, role values ( hesv001, joef001, 3 )
+17:13:24 rokl001 rokl001 INSERTING data into tables `team`fields customer, employee, role values ( hesv001, jata001, 3 )
+17:13:24 rokl001 rokl001 INSERTING data into tables `team`fields customer, employee, role values ( hesv001, moen001, 3 )
+17:13:24 rokl001 rokl001 INSERTING data into tables `team`fields customer, employee, role values ( hesv001, wita001, 2 )
+17:13:24 rokl001 rokl001 INSERTING data into tables `team`fields customer, employee, role values ( hesv001, lima003, 3 )
+17:13:24 rokl001 rokl001 INSERTING data into tables `team`fields customer, employee, role values ( hesv001, anra004, 3 )
+17:13:44 rokl001 rokl001 INSERTING data into tables `privileges`fields employee values ( wita001 )
+17:13:44 rokl001 rokl001 UPDATING data to tables `privileges`fields Array values 1, 1, 1, 1, , , 1, , 1, 1, 1, 1, 1, 1, 1, 1, 1, , , ,  on conditions employee = wita001
+17:13:49 rokl001 rokl001 INSERTING data into tables `privileges_reports`fields employee values ( wita001 )
+17:13:49 rokl001 rokl001 UPDATING data to tables `privileges_reports`fields Array values 1, 1, 1, , 1, 1, , 1, 1, 1, , , ,  on conditions employee = wita001
+17:13:54 rokl001 rokl001 UPDATING data to tables `privileges_forms`fields Array values 1, ,  on conditions employee = wita001
+17:14:00 rokl001 rokl001 UPDATING data to tables `privileges_general`fields Array values , , , , , , ,  on conditions employee = wita001
+17:14:04 rokl001 rokl001 INSERTING data into tables `privileges_mc`fields employee values ( wita001 )
+17:14:04 rokl001 rokl001 UPDATING data to tables `privileges_mc`fields Array values 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 on conditions employee = wita001
+17:14:36 rokl001 rokl001 UPDATING data to tables `team`fields Array values 3 on conditions customer =  AND role = 7
+17:14:36 rokl001 rokl001 UPDATING data to tables `team`fields Array values 7 on conditions customer =  AND employee = 
+17:14:36 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 4ce9129fe2bfa6929ef744fceee86667, , 2, 0 on conditions username = wita001
+17:14:36 rokl001 rokl001 UPDATING data to tables `employee`fields Array values 500, 19, 5008012428, Wilander, Sture, 2, Hantverkaregatan 34, Åsa, 589 55, , , , 1999-01-01, #FFC6FF, 1, , , 0, 10.00 on conditions username = wita001
+17:14:36 rokl001 rokl001 INSERTING data into tables `emp_inconvinient_time`fields emp_username, on_call, on_call_holiday, on_call_bigholiday, inconvinient_night, inconvinient_evening, inconvinient_holiday, inconvinient_week_holiday, date_from, added_by values ( wita001, , , , , , , , 2013-12-16, rokl001 )
+17:14:36 rokl001 rokl001 INSERTING data into tables `emp_salary`fields emp_username, salary_per_month, salary_per_hour, date_from, added_by values ( wita001, , , 2013-12-16, rokl001 )
+17:15:17 rokl001 rokl001 UPDATING data to tables `team`fields Array values 3 on conditions customer =  AND role = 7
+17:15:17 rokl001 rokl001 UPDATING data to tables `team`fields Array values 7 on conditions customer =  AND employee = 
+17:15:17 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 6bcbb803a25c751927f7c0bcbadc77e0, 723222222, 3, 0 on conditions username = joef001
+17:15:17 rokl001 rokl001 UPDATING data to tables `employee`fields Array values 88, 19, 9507220458, Joel, Efraimsson, 1, Islanda Gläntan 109, Hökerum, 52399, 333409848, 723222222, , 2012-11-15, #FFFFFF, 1, , , 0, 10.00 on conditions username = joef001
+17:15:17 rokl001 rokl001 UPDATING data to tables `emp_inconvinient_time`fields Array values 2013-12-16 on conditions time_id = 7
+17:15:17 rokl001 rokl001 INSERTING data into tables `emp_inconvinient_time`fields emp_username, on_call, on_call_holiday, on_call_bigholiday, inconvinient_night, inconvinient_evening, inconvinient_holiday, inconvinient_week_holiday, date_from, added_by values ( joef001, , , , , , , , 2013-12-16, rokl001 )
+17:15:17 rokl001 rokl001 UPDATING data to tables `emp_salary`fields Array values 2013-12-16 on conditions salaryId = 1
+17:15:17 rokl001 rokl001 INSERTING data into tables `emp_salary`fields emp_username, salary_per_month, salary_per_hour, date_from, added_by values ( joef001, , , 2013-12-16, rokl001 )
+17:15:24 rokl001 rokl001 UPDATING data to tables `privileges`fields Array values 1, , , , , , 1, , , 1, , , , , 1, , , , , ,  on conditions employee = joef001
+17:15:28 rokl001 rokl001 INSERTING data into tables `privileges_reports`fields employee values ( joef001 )
+17:15:28 rokl001 rokl001 UPDATING data to tables `privileges_reports`fields Array values 1, 1, 1, , , , , 1, 1, 1, , , ,  on conditions employee = joef001
+17:15:32 rokl001 rokl001 UPDATING data to tables `privileges_forms`fields Array values , ,  on conditions employee = joef001
+17:15:35 rokl001 rokl001 UPDATING data to tables `privileges_general`fields Array values , , , , , , ,  on conditions employee = joef001
+17:15:43 rokl001 rokl001 UPDATING data to tables `privileges_mc`fields Array values , , , , 1, 1, 1, , , ,  on conditions employee = joef001
+17:16:24 rokl001 rokl001 UPDATING data to tables `team`fields Array values 3 on conditions customer =  AND role = 7
+17:16:24 rokl001 rokl001 UPDATING data to tables `team`fields Array values 7 on conditions customer =  AND employee = 
+17:16:24 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 6bcbb803a25c751927f7c0bcbadc77e0, , 2, 0 on conditions username = wita001
+17:16:24 rokl001 rokl001 UPDATING data to tables `employee`fields Array values 500, 19, 5008012428, Wilander, Sture, 2, Hantverkaregatan 34, Åsa, 589 55, , , , 1999-01-01, #FFC6FF, 1, , , 0, 10.00 on conditions username = wita001
+17:16:26   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = rokl001
+17:16:26   UPDATING data to tables `log_login`fields Array values 2013-12-16:16:16:26 on conditions id = 1312 AND username = rokl001
+17:16:35 wita001 Wilander Sture INSERTING data into tables `log_login`fields username, ip, browser values ( wita001, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36 )
+17:16:45 wita001 Wilander Sture UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 7d156f6071322678da9676ac00e5ee4d, 2013-12-16, 0 on conditions username = wita001
+17:16:45 wita001 Wilander Sture INSERTING data into tables `log_password`fields username, passwords values ( wita001, 6bcbb803a25c751927f7c0bcbadc77e0 )
+17:16:45 wita001 Wilander Sture UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = wita001
+17:17:51   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = wita001
+17:17:51   UPDATING data to tables `log_login`fields Array values 2013-12-16:16:17:51 on conditions id = 1313 AND username = wita001
+17:18:00 joef001 Joel Efraimsson INSERTING data into tables `log_login`fields username, ip, browser values ( joef001, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36 )
+17:18:21 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 7d156f6071322678da9676ac00e5ee4d, 2013-12-16, 0 on conditions username = joef001
+17:18:21 joef001 Joel Efraimsson INSERTING data into tables `log_password`fields username, passwords values ( joef001, 6bcbb803a25c751927f7c0bcbadc77e0 )
+17:18:22 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = joef001
+17:20:27   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = joef001
+17:20:27   UPDATING data to tables `log_login`fields Array values 2013-12-16:16:20:27 on conditions id = 1314 AND username = joef001
+17:20:31 rokl001 rokl001 INSERTING data into tables `log_login`fields username, ip, browser values ( rokl001, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36 )
+17:20:31 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = rokl001
+17:21:18 rokl001 rokl001 UPDATING data to tables `privileges`fields Array values 1, , 1, , , , 1, , , 1, , , , , 1, 1, , , , ,  on conditions employee = joef001
+17:21:19   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = rokl001
+17:21:19   UPDATING data to tables `log_login`fields Array values 2013-12-16:16:21:19 on conditions id = 1315 AND username = rokl001
+17:21:30 joef001 Joel Efraimsson INSERTING data into tables `log_login`fields username, ip, browser values ( joef001, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36 )
+17:21:30 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = joef001
+17:22:07 joef001 Joel Efraimsson INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( joef001, hesv001, 1, 0, 2014-01-06, 8.00, 17.00, 1, joef001 )
+17:22:07 joef001 Joel Efraimsson INSERTING data into tables `memory_slots`fields customer, time_from, time_to, type values ( hesv001, 8.00, 17.00, 0 )
+17:22:27   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = joef001
+17:22:27   UPDATING data to tables `log_login`fields Array values 2013-12-16:16:22:27 on conditions id = 1316 AND username = joef001
+17:22:31 rokl001 rokl001 INSERTING data into tables `log_login`fields username, ip, browser values ( rokl001, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36 )
+17:22:31 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = rokl001
+17:23:38 rokl001 rokl001 UPDATING data to tables `privileges`fields Array values 1, , 1, 1, 1, , 1, , , 1, , , , , 1, 1, , , , , 1 on conditions employee = joef001
+17:23:44   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = rokl001
+17:23:44   UPDATING data to tables `log_login`fields Array values 2013-12-16:16:23:44 on conditions id = 1317 AND username = rokl001
+17:23:51 joef001 Joel Efraimsson INSERTING data into tables `log_login`fields username, ip, browser values ( joef001, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36 )
+17:23:51 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = joef001
+17:24:27 joef001 Joel Efraimsson DELETE data from tables `timetable` on conditions id = 3503
+17:24:46 joef001 Joel Efraimsson INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( joef001, hesv001, 1, 0, 2014-01-06, 8.00, 17.00, 1, joef001 )
+17:25:10 joef001 Joel Efraimsson UPDATING data to tables `timetable`fields Array values 2 on conditions id = 3504
+17:25:10 joef001 Joel Efraimsson INSERTING data into tables `timetable`fields customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status values ( hesv001, 2014-01-06, 8.00, 17.00, 0, 1, , joef001, 3504, 0 )
+17:25:10 joef001 Joel Efraimsson INSERTING data into tables `leave`fields group_id, employee, date, time_from, time_to, type, comment, appr_emp, status values ( 25, joef001, 2014-01-06, 8, 17, 1, , joef001, 0 )
+17:25:24   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = joef001
+17:25:24   UPDATING data to tables `log_login`fields Array values 2013-12-16:16:25:24 on conditions id = 1318 AND username = joef001
+17:25:28 rokl001 rokl001 INSERTING data into tables `log_login`fields username, ip, browser values ( rokl001, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36 )
+17:25:28 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = rokl001
+17:26:28 rokl001 rokl001 UPDATING data to tables `team`fields Array values 3 on conditions customer =  AND role = 7
+17:26:28 rokl001 rokl001 UPDATING data to tables `team`fields Array values 7 on conditions customer =  AND employee = 
+17:26:28 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 6bcbb803a25c751927f7c0bcbadc77e0, 765847048, 3, 0 on conditions username = lima003
+17:26:28 rokl001 rokl001 UPDATING data to tables `employee`fields Array values 10, 19, 9207083305, Lina, Magnusson, 2, Simpbylevägen 10C, Norrtälje, 76160, , 765847048, m-liina-m@hotmail.com, 2013-05-23, #FF7F7F, 1, , , 0, 10.00 on conditions username = lima003
+17:27:42 rokl001 rokl001 UPDATING data to tables `privileges`fields Array values 1, , 1, , , , 1, , , 1, , , , , 1, , , , , , 1 on conditions employee = lima003
+17:27:44   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = rokl001
+17:27:44   UPDATING data to tables `log_login`fields Array values 2013-12-16:16:27:44 on conditions id = 1319 AND username = rokl001
+17:28:02 lima003 Lina Magnusson INSERTING data into tables `log_login`fields username, ip, browser values ( lima003, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36 )
+17:28:11 lima003 Lina Magnusson UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 7d156f6071322678da9676ac00e5ee4d, 2013-12-16, 0 on conditions username = lima003
+17:28:11 lima003 Lina Magnusson INSERTING data into tables `log_password`fields username, passwords values ( lima003, 6bcbb803a25c751927f7c0bcbadc77e0 )
+17:28:11 lima003 Lina Magnusson UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = lima003
+17:28:22 lima003 Lina Magnusson UPDATING data to tables `timetable`fields Array values 1, lima003, lima003 on conditions id = 3505
+17:28:40 lima003 Lina Magnusson UPDATING data to tables `timetable`fields Array values 8.00, 18.05 on conditions id = 3505
+17:28:47   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = lima003
+17:28:47   UPDATING data to tables `log_login`fields Array values 2013-12-16:16:28:47 on conditions id = 1320 AND username = lima003
+17:28:57 wita001 Wilander Sture INSERTING data into tables `log_login`fields username, ip, browser values ( wita001, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36 )
+17:28:57 wita001 Wilander Sture UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = wita001
+17:29:03 wita001 Wilander Sture INSERTING data into tables `mc_leave`fields leave_id, leave_status, read_users values ( 25, 0, wita001 )
+17:29:03 wita001 Wilander Sture INSERTING data into tables `mc_leave`fields leave_id, leave_status, read_users values ( 24, 0, wita001 )
+17:29:03 wita001 Wilander Sture UPDATING data to tables `mc_leave`fields Array values gine001,wita001 on conditions leave_id = 22
+17:29:03 wita001 Wilander Sture INSERTING data into tables `mc_leave`fields leave_id, leave_status, read_users values ( 23, 0, wita001 )
+17:29:03 wita001 Wilander Sture UPDATING data to tables `mc_leave`fields Array values gine001,wita001 on conditions leave_id = 21
+17:29:03 wita001 Wilander Sture UPDATING data to tables `mc_leave`fields Array values clke001,gine001,wita001 on conditions leave_id = 19
+17:29:03 wita001 Wilander Sture UPDATING data to tables `mc_leave`fields Array values clke001,gine001,wita001 on conditions leave_id = 18
+17:29:03 wita001 Wilander Sture UPDATING data to tables `mc_leave`fields Array values clke001,gine001,wita001 on conditions leave_id = 20
+17:29:03 wita001 Wilander Sture UPDATING data to tables `mc_leave`fields Array values clke001,gine001,wita001 on conditions leave_id = 17
+17:29:03 wita001 Wilander Sture UPDATING data to tables `mc_leave`fields Array values gine001,clke001,wita001 on conditions leave_id = 15
+17:29:18 wita001 Wilander Sture INSERTING data into tables `mc_note`fields note_id, read_users values ( 2, wita001 )
+17:29:30 wita001 Wilander Sture UPDATING data to tables `mc_leave`fields Array values clke001,gine001,wita001 on conditions leave_id = 16
+17:29:30 wita001 Wilander Sture UPDATING data to tables `mc_leave`fields Array values gine001,clke001,wita001 on conditions leave_id = 12
+17:29:30 wita001 Wilander Sture UPDATING data to tables `mc_leave`fields Array values gine001,clke001,wita001 on conditions leave_id = 13
+17:29:30 wita001 Wilander Sture UPDATING data to tables `mc_leave`fields Array values gine001,clke001,wita001 on conditions leave_id = 14
+17:29:30 wita001 Wilander Sture UPDATING data to tables `mc_leave`fields Array values gine001,clke001,wita001 on conditions leave_id = 11
+17:29:30 wita001 Wilander Sture UPDATING data to tables `mc_leave`fields Array values gine001,jata001,clke001,wita001 on conditions leave_id = 5
+17:29:30 wita001 Wilander Sture UPDATING data to tables `mc_leave`fields Array values gine001,jata001,clke001,wita001 on conditions leave_id = 7
+17:29:30 wita001 Wilander Sture UPDATING data to tables `mc_leave`fields Array values gine001,jata001,clke001,wita001 on conditions leave_id = 9
+17:29:30 wita001 Wilander Sture UPDATING data to tables `mc_leave`fields Array values gine001,jata001,clke001,wita001 on conditions leave_id = 3
+17:29:30 wita001 Wilander Sture UPDATING data to tables `mc_leave`fields Array values gine001,jata001,clke001,wita001 on conditions leave_id = 2
+17:30:20 wita001 Wilander Sture DELETE data from tables `leave` on conditions id = 46
+17:30:20 wita001 Wilander Sture UPDATING data to tables `timetable`fields Array values 1 on conditions (id IN ( '3504' )) AND customer is NOT NULL AND customer != 
+17:30:20 wita001 Wilander Sture UPDATING data to tables `timetable`fields Array values 0 on conditions (id IN ( '3504' )) AND (customer is NULL OR customer = )
+17:30:20 wita001 Wilander Sture DELETE data from tables `timetable` on conditions relation_id = 3504
+17:32:48 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2014-01-20, 8.00, 17.00, 0, wita001 )
+17:32:56 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2014-01-21, 8.00, 17.00, 0, wita001 )
+17:32:59 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2014-01-22, 8.00, 17.00, 0, wita001 )
+17:33:12   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = wita001
+17:33:12   UPDATING data to tables `log_login`fields Array values 2013-12-16:16:33:12 on conditions id = 1321 AND username = wita001
+17:33:28 joef001 Joel Efraimsson INSERTING data into tables `log_login`fields username, ip, browser values ( joef001, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36 )
+17:33:28 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = joef001
+17:33:28 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = joef001
+17:34:11 joef001 Joel Efraimsson INSERTING data into tables `employee_skill`fields employee, skill, description values ( joef001, HLR, Gick vårens HLR utb den 13/4-13 )
+17:35:38 joef001 Joel Efraimsson INSERTING data into tables `mc_note`fields note_id, read_users values ( 4, joef001 )
+17:37:18   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = joef001
+17:37:18   UPDATING data to tables `log_login`fields Array values 2013-12-16:16:37:18 on conditions id = 1322 AND username = joef001
+17:37:22 rokl001 rokl001 INSERTING data into tables `log_login`fields username, ip, browser values ( rokl001, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36 )
+17:37:22 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = rokl001
+17:37:51   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = rokl001
+17:37:51   UPDATING data to tables `log_login`fields Array values 2013-12-16:16:37:51 on conditions id = 1323 AND username = rokl001
+17:38:02 joef001 Joel Efraimsson INSERTING data into tables `log_login`fields username, ip, browser values ( joef001, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36 )
+17:38:02 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = joef001
+17:38:27 joef001 Joel Efraimsson UPDATING data to tables `mc_note`fields Array values gine001,joef001 on conditions note_id = 3
+17:38:37   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = joef001
+17:38:37   UPDATING data to tables `log_login`fields Array values 2013-12-16:16:38:37 on conditions id = 1324 AND username = joef001
+17:38:41 rokl001 rokl001 INSERTING data into tables `log_login`fields username, ip, browser values ( rokl001, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36 )
+17:38:41 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = rokl001
+17:39:42 rokl001 rokl001 INSERTING data into tables `mail`fields root_id, `from`, `to`, subject, message, attachments, status values ( 0, rokl001, joef001, Visar kurs, Hej och välkommen till kursen , , 0 )
+17:39:42 rokl001 rokl001 INSERTING data into tables `mail`fields root_id, `from`, `to`, subject, message, attachments, status values ( 0, rokl001, wita001, Visar kurs, Hej och välkommen till kursen , , 0 )
+17:39:42 rokl001 rokl001 INSERTING data into tables `mail`fields root_id, `from`, `to`, subject, message, attachments, status values ( 0, rokl001, lima003, Visar kurs, Hej och välkommen till kursen , , 0 )
+17:41:50   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = rokl001
+17:41:50   UPDATING data to tables `log_login`fields Array values 2013-12-16:16:41:50 on conditions id = 1325 AND username = rokl001
+17:42:02 joef001 Joel Efraimsson INSERTING data into tables `log_login`fields username, ip, browser values ( joef001, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36 )
+17:42:02 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = joef001
+17:42:28 joef001 Joel Efraimsson INSERTING data into tables `note`fields created_user, title, description, visibility, status, customer, attachment values ( joef001, hej, asdf, 2, 1, hesv001,  )
+17:42:28 joef001 Joel Efraimsson UPDATING data to tables `note`fields Array values  on conditions id = 6
+17:42:59   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = joef001
+17:42:59   UPDATING data to tables `log_login`fields Array values 2013-12-16:16:42:59 on conditions id = 1326 AND username = joef001
+17:43:03 rokl001 rokl001 INSERTING data into tables `log_login`fields username, ip, browser values ( rokl001, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36 )
+17:43:03 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = rokl001
+17:43:20 rokl001 rokl001 UPDATING data to tables `mc_note`fields Array values gine001,jata001,rokl001 on conditions note_id = 1
+17:43:53   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = rokl001
+17:43:53   UPDATING data to tables `log_login`fields Array values 2013-12-16:16:43:53 on conditions id = 1327 AND username = rokl001
+17:44:04 joef001 Joel Efraimsson INSERTING data into tables `log_login`fields username, ip, browser values ( joef001, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36 )
+17:44:04 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = joef001
+17:44:26   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = joef001
+17:44:26   UPDATING data to tables `log_login`fields Array values 2013-12-16:16:44:26 on conditions id = 1328 AND username = joef001
+17:44:36 wita001 Wilander Sture INSERTING data into tables `log_login`fields username, ip, browser values ( wita001, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36 )
+17:44:36 wita001 Wilander Sture UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = wita001
+17:46:10 wita001 Wilander Sture INSERTING data into tables `note`fields created_user, title, description, visibility, status, customer, attachment values ( wita001, Ny rutin, Hejsan. 
+Det är av största vikt att från 27/1 ska alla ass se skillnad på dl och ml mått i köket då kunden visat på en stor mättnadskänsla när ass gör recept på gröt och använder 10dl isf för 10ml., 2, 1, hesv001,  )
+17:46:10 wita001 Wilander Sture UPDATING data to tables `note`fields Array values  on conditions id = 8

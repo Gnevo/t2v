@@ -1,0 +1,16 @@
+10:19:27 kaka003 kalle Kaarlsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( kaka003, 46.194.238.139, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.114 Safari/537.36 ) => {inserted_id = 1664}
+10:19:27 kaka003 kalle Kaarlsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = kaka003
+10:19:35   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = kaka003
+10:19:35   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-06-03:08:19:35) on conditions id = 1664 AND username = kaka003
+12:38:44 gine001 root001 UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, abni001, gine001) on conditions id = 4660
+12:40:50 gine001 root001 UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, joso004, gine001) on conditions id = 4513
+12:57:48 gine001 root001 UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, abni001, gine001) on conditions id = 4661
+13:02:29 gine001 root001 UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, wita001, gine001) on conditions id = 4662
+19:29:21 gine001 root001 UPDATING data to tables `timetable` fields ( employee, alloc_emp ) values (joso004, gine001)
+19:29:49 gine001 root001 UPDATING data to tables `timetable` fields ( status, employee, alloc_emp, comment ) values (1, abni001, gine001, kollar läget) on conditions id = 4663
+19:47:29 gine001 root001 UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, joso004, gine001) on conditions id = 4666
+19:47:42 gine001 root001 UPDATING data to tables `timetable` fields ( type ) values (3) on conditions id = 4666
+19:47:49 gine001 root001 UPDATING data to tables `timetable` fields ( comment ) values () on conditions id = 4666
+19:48:40 gine001 root001 UPDATING data to tables `timetable` fields ( status, customer, alloc_emp, fkkn ) values (0, stbj001, gine001, 2) on conditions id = 4668
+19:49:27 gine001 root001 UPDATING data to tables `timetable` fields ( status, customer, alloc_emp, fkkn ) values (0, stbj001, gine001, 2) on conditions id = 4562
+19:49:46 gine001 root001 UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, jata001, gine001) on conditions id = 4562

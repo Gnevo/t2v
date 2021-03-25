@@ -1,0 +1,33 @@
+14:05:40 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.102.191, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36 ) => {inserted_id = 1396}
+14:05:40 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+14:11:56 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirruscommon`.`login` fields ( username, mobile, social_security, password, role, login, date, company_ids ) values ( tato002, 737169374, 7001234587, 7d36498cb8b224619d8dbbf938de46c0, 1, 0, 2014-01-25, 6, ) => {inserted_id = 0}
+14:11:56 gine001 Gilad Nevo INSERTING data into tables `employee` fields ( username, century, code, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day ) values ( tato002, 19, 20004, 7001234587, Tamara, Tonojan, 2, Stora Västorp, Falkenberg, 64025, , 737169374, tamara_tonojan@hotmail.com, 2014-01-25, #D8FC85, 1, , , 0, 10.00 ) => {inserted_id = 0}
+14:11:56 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( company_ids=CONCAT(`company_ids`,?) ) values (6,) on conditions social_security = 7001234587 AND company_ids NOT LIKE %6,%
+14:13:37 tato002 Tamara Tonojan INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( tato002, 81.233.176.139, Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko ) => {inserted_id = 1397}
+14:14:14 tato002 Tamara Tonojan UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( password, date, error ) values (dbf6e2ae525db69c9bfd41171bcd2db0, 2014-01-25, 0) on conditions username = tato002
+14:14:14 tato002 Tamara Tonojan INSERTING data into tables `log_password` fields ( username, passwords ) values ( tato002, 7d36498cb8b224619d8dbbf938de46c0 ) => {inserted_id = 0}
+14:14:14 tato002 Tamara Tonojan UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = tato002
+14:18:02 tato002 Tamara Tonojan UPDATING data to tables `mc_leave` fields ( read_users ) values (than001,kaka003,tato002) on conditions leave_id = 46
+14:18:02 tato002 Tamara Tonojan UPDATING data to tables `mc_leave` fields ( read_users ) values (than001,tato002) on conditions leave_id = 49
+14:18:02 tato002 Tamara Tonojan UPDATING data to tables `mc_leave` fields ( read_users ) values (than001,tato002) on conditions leave_id = 51
+14:18:02 tato002 Tamara Tonojan UPDATING data to tables `mc_leave` fields ( read_users ) values (wita001,than001,gine001,kaka003,tato002) on conditions leave_id = 43
+14:18:02 tato002 Tamara Tonojan UPDATING data to tables `mc_leave` fields ( read_users ) values (wita001,than001,gine001,kaka003,tato002) on conditions leave_id = 44
+14:18:02 tato002 Tamara Tonojan UPDATING data to tables `mc_leave` fields ( read_users ) values (than001,tato002) on conditions leave_id = 50
+14:18:02 tato002 Tamara Tonojan UPDATING data to tables `mc_leave` fields ( read_users ) values (wita001,kaka003,than001,tato002) on conditions leave_id = 47
+14:18:02 tato002 Tamara Tonojan UPDATING data to tables `mc_leave` fields ( read_users ) values (kaka003,than001,tato002) on conditions leave_id = 48
+14:18:02 tato002 Tamara Tonojan UPDATING data to tables `mc_leave` fields ( read_users ) values (wita001,gine001,than001,kaka003,tato002) on conditions leave_id = 41
+14:18:02 tato002 Tamara Tonojan UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,wita001,than001,kaka003,tato002) on conditions leave_id = 42
+14:23:44 gine001 Gilad Nevo INSERTING data into tables `customer_contract` fields ( hour, date_from, date_to, fkkn, customer ) values ( 1000, 2014-01-01, 2014-04-30, 1, stbj001 ) => {inserted_id = 5}
+14:23:44 gine001 Gilad Nevo INSERTING data into tables `customer_contract_decision` fields ( contract_id, first_name, last_name, mobile, email, city, comments_time, comments_other, documents ) values ( 5, Kalle, Wall, , , , , ,  ) => {inserted_id = 0}
+14:32:44 tato002 Tamara Tonojan INSERTING data into tables `customer_appoiments` fields ( customer, appoiment_date, appoiment_address, phone_number, reason, remarks, contact_person_name, phone_number_cp, email_cp, reminder_before_date, reminder_time, repeat_until_due_date, cust_email, email_alert, sms_alert, cust_number ) values ( stbj001, 2014-01-27 14:48, Köpmangatan 12, 0704321768, samtal, inga, tt, , , 1, days, , tamara_tonojan, 1, ,  ) => {inserted_id = 1}
+14:32:45 gine001 Gilad Nevo INSERTING data into tables `customer_appoiments` fields ( customer, appoiment_date, appoiment_address, phone_number, reason, remarks, contact_person_name, phone_number_cp, email_cp, reminder_before_date, reminder_time, repeat_until_due_date, cust_email, email_alert, sms_alert, cust_number ) values ( stbj001, 2014-01-30 11:28, s:pettesborg, 75, Samtal, , BB, , , 1, days, , gilad.nevo@time2view.se, 1, ,  ) => {inserted_id = 2}
+14:35:12 gine001 Gilad Nevo UPDATING data to tables `mc_leave` fields ( read_users ) values (than001,kaka003,tato002,gine001) on conditions leave_id = 46
+14:35:12 gine001 Gilad Nevo UPDATING data to tables `mc_leave` fields ( read_users ) values (than001,tato002,gine001) on conditions leave_id = 49
+14:35:12 gine001 Gilad Nevo UPDATING data to tables `mc_leave` fields ( read_users ) values (than001,tato002,gine001) on conditions leave_id = 51
+14:35:12 gine001 Gilad Nevo UPDATING data to tables `mc_leave` fields ( read_users ) values (than001,tato002,gine001) on conditions leave_id = 50
+14:35:12 gine001 Gilad Nevo UPDATING data to tables `mc_leave` fields ( read_users ) values (wita001,kaka003,than001,tato002,gine001) on conditions leave_id = 47
+14:35:12 gine001 Gilad Nevo UPDATING data to tables `mc_leave` fields ( read_users ) values (kaka003,than001,tato002,gine001) on conditions leave_id = 48
+14:38:53 gine001 Gilad Nevo UPDATING data to tables `mc_note` fields ( read_users ) values (wita001,than001,joef001,gine001) on conditions note_id = 2
+14:39:14 gine001 Gilad Nevo UPDATING data to tables `mail` fields ( status ) values (1) on conditions id = 8
+14:39:55   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+14:39:55   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-01-25:13:39:55) on conditions id = 1396 AND username = gine001

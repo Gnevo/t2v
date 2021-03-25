@@ -1,0 +1,7 @@
+07:27:38 gine001 Gilad Nevo1 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 185.176.246.87, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 ) => {inserted_id = 9145}
+07:29:24 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( password, last_pw_update_date, error ) values (642e9750de880acf2f4a23ef1a0c00a4, 2020-12-29 06:29:24, 0) on conditions username = gine001 AND company_id = 21
+07:29:24 gine001 Gilad Nevo1 UPDATING data to tables `log_password` fields ( passwords ) values (a29137d43fba7fc95044d59746684b6f,a94933460b16d5bf1a7cc6d80f5bd029,009662babc1cd9f61170eaab0f8de43a) on conditions username = gine001
+07:29:24 gine001 Gilad Nevo1 DELETE data from tables `temp_session` on conditions username LIKE gine001
+07:29:24 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-12-29 07:29:24) on conditions username = gine001
+07:29:24 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-12-29 07:29:24) on conditions username = gine001 AND company_id = 21
+07:29:25 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = ulhfa5rgur1mpk49o84n74cqn6

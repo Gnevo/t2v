@@ -1,0 +1,14 @@
+05:36:53 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+05:36:53 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 223.30.129.234, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/41.0.2272.76 Chrome/41.0.2272.76 Safari/537.36 ) => {inserted_id = 4482}
+05:36:53 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+05:36:53 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-01-20 04:36:53) on conditions username = gine001
+05:36:54 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 10jmeiqbqr0vo4lj0ssmoeas13
+06:07:01 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 10jmeiqbqr0vo4lj0ssmoeas13
+06:39:39 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 10jmeiqbqr0vo4lj0ssmoeas13
+06:39:43 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+06:39:43 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2016-01-20 05:39:43) on conditions username = gine001
+06:39:43   UPDATING data to tables `log_login` fields ( logout_time ) values (2016-01-20:05:39:43) on conditions id = 4482 AND username = gine001
+11:51:20 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+11:51:20 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.202.169, Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:43.0) Gecko/20100101 Firefox/43.0 ) => {inserted_id = 4483}
+11:51:20 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+11:51:20 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-01-20 10:51:20) on conditions username = gine001

@@ -1,0 +1,50 @@
+14:39:35 emte001 Employee Test INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( emte001, 90.224.224.162, Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko ) => {inserted_id = 1607}
+14:39:35 emte001 Employee Test UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = emte001
+14:40:19 emte001 Employee Test UPDATING data to tables `mc_note` fields ( read_users ) values (gine001,emte001) on conditions note_id = 19
+14:40:23 emte001 Employee Test UPDATING data to tables `mc_leave` fields ( read_users ) values (than001,kaka003,tato002,gine001,rokl001,abni001,emte001) on conditions leave_id = 46
+14:40:23 emte001 Employee Test UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,emte001) on conditions leave_id = 57
+14:40:23 emte001 Employee Test UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,emte001) on conditions leave_id = 58
+14:40:23 emte001 Employee Test UPDATING data to tables `mc_leave` fields ( read_users ) values (joef001,gine001,emte001) on conditions leave_id = 59
+14:40:23 emte001 Employee Test UPDATING data to tables `mc_leave` fields ( read_users ) values (than001,tato002,gine001,lobr002,wita001,rokl001,abni001,emte001) on conditions leave_id = 49
+14:40:23 emte001 Employee Test UPDATING data to tables `mc_leave` fields ( read_users ) values (than001,tato002,gine001,lobr002,wita001,rokl001,abni001,emte001) on conditions leave_id = 51
+14:40:23 emte001 Employee Test UPDATING data to tables `mc_leave` fields ( read_users ) values (wita001,than001,gine001,kaka003,tato002,rokl001,abni001,joef001,emte001) on conditions leave_id = 43
+14:40:23 emte001 Employee Test UPDATING data to tables `mc_leave` fields ( read_users ) values (wita001,than001,gine001,kaka003,tato002,rokl001,abni001,emte001) on conditions leave_id = 44
+14:40:23 emte001 Employee Test UPDATING data to tables `mc_leave` fields ( read_users ) values (than001,tato002,gine001,lobr002,wita001,rokl001,abni001,emte001) on conditions leave_id = 50
+14:40:23 emte001 Employee Test UPDATING data to tables `mc_leave` fields ( read_users ) values (wita001,kaka003,than001,tato002,gine001,rokl001,abni001,joef001,emte001) on conditions leave_id = 47
+14:46:04 emte001 Employee Test INSERTING data into tables `customer_implimentation` fields ( customer, history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values ( stal001, 
+
+
+
+
+, , , , , , , , , ,  ) => {inserted_id = 2}
+14:51:44 emte001 Employee Test UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( mobile, social_security ) values (98653247, 7204090117) on conditions username = hesv001
+14:51:44 emte001 Employee Test UPDATING data to tables `customer` fields ( code, century, social_security, first_name, last_name, address, city, post, phone, mobile, email, date, status, date_inactive, fkkn, gender ) values (33, 19, 7204090117, Testina, Svan, storgatan 22, Kumla, 692 32, 1912345678, 98653247, , 2012-08-01, 1, , 2, 1) on conditions username = hesv001
+14:51:44 emte001 Employee Test INSERTING data into tables `privileges_general` fields ( employee ) values ( stfr001 ) => {inserted_id = 0}
+14:51:44 emte001 Employee Test UPDATING data to tables `privileges_general` fields ( add_employee, add_customer, inconvenient_timing, administration, chat, edit_employee, edit_customer, survey, create_template, use_template ) values (0, 0, 0, 0, 0, , , , , ) on conditions employee = stfr001
+14:51:44 emte001 Employee Test DELETE data from tables `team` on conditions customer = hesv001
+14:51:44 emte001 Employee Test INSERTING data into tables `team` fields ( customer, employee, role ) values ( hesv001, anra004, 3 ) => {inserted_id = 0}
+14:51:44 emte001 Employee Test INSERTING data into tables `team` fields ( customer, employee, role ) values ( hesv001, joef001, 3 ) => {inserted_id = 0}
+14:51:44 emte001 Employee Test INSERTING data into tables `team` fields ( customer, employee, role ) values ( hesv001, jata001, 3 ) => {inserted_id = 0}
+14:51:44 emte001 Employee Test INSERTING data into tables `team` fields ( customer, employee, role ) values ( hesv001, moen001, 3 ) => {inserted_id = 0}
+14:51:44 emte001 Employee Test INSERTING data into tables `team` fields ( customer, employee, role ) values ( hesv001, wita001, 2 ) => {inserted_id = 0}
+14:51:44 emte001 Employee Test INSERTING data into tables `team` fields ( customer, employee, role ) values ( hesv001, lima003, 3 ) => {inserted_id = 0}
+14:51:44 emte001 Employee Test INSERTING data into tables `team` fields ( customer, employee, role ) values ( hesv001, stfr001, 3 ) => {inserted_id = 0}
+14:53:51 emte001 Employee Test UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (, , , , , , , , , , ) on conditions id = 1
+14:54:28 emte001 Employee Test UPDATING data to tables `mc_note` fields ( read_users ) values (gine001,jata001,rokl001,than001,emte001) on conditions note_id = 1
+14:54:43 emte001 Employee Test UPDATING data to tables `mc_note` fields ( read_users ) values (gine001,jata001,rokl001,than001,emte001,emte001) on conditions note_id = 1
+14:54:43 emte001 Employee Test UPDATING data to tables `note` fields ( attachment ) values () on conditions id = 1
+14:54:49 emte001 Employee Test UPDATING data to tables `mc_note` fields ( read_users ) values (gine001,joef001,than001,emte001) on conditions note_id = 3
+14:55:17 emte001 Employee Test UPDATING data to tables `mc_note` fields ( read_users ) values (joef001,gine001,than001,emte001) on conditions note_id = 6
+14:55:31 emte001 Employee Test UPDATING data to tables `mc_leave` fields ( read_users ) values (kaka003,than001,tato002,gine001,wita001,rokl001,abni001,emte001) on conditions leave_id = 48
+14:55:31 emte001 Employee Test UPDATING data to tables `mc_leave` fields ( read_users ) values (than001,rokl001,abni001,gine001,emte001) on conditions leave_id = 53
+14:55:31 emte001 Employee Test UPDATING data to tables `mc_leave` fields ( read_users ) values (wita001,gine001,than001,kaka003,tato002,rokl001,abni001,joef001,emte001) on conditions leave_id = 41
+14:55:31 emte001 Employee Test UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,wita001,than001,kaka003,tato002,joef001,emte001) on conditions leave_id = 42
+14:55:31 emte001 Employee Test UPDATING data to tables `mc_leave` fields ( read_users ) values (than001,gine001,emte001) on conditions leave_id = 52
+14:55:31 emte001 Employee Test UPDATING data to tables `mc_leave` fields ( read_users ) values (than001,gine001,emte001) on conditions leave_id = 56
+14:55:31 emte001 Employee Test UPDATING data to tables `mc_leave` fields ( read_users ) values (wita001,rokl001,gine001,than001,kaka003,joef001,emte001) on conditions leave_id = 26
+14:55:31 emte001 Employee Test UPDATING data to tables `mc_leave` fields ( read_users ) values (wita001,rokl001,gine001,than001,kaka003,joef001,emte001) on conditions leave_id = 25
+14:55:31 emte001 Employee Test UPDATING data to tables `mc_leave` fields ( read_users ) values (than001,gine001,emte001) on conditions leave_id = 55
+14:55:31 emte001 Employee Test UPDATING data to tables `mc_leave` fields ( read_users ) values (rokl001,wita001,gine001,than001,kaka003,emte001) on conditions leave_id = 28
+14:55:35 emte001 Employee Test UPDATING data to tables `leave` fields ( status, appr_emp, appr_date ) values (1, emte001, 2014-04-08) on conditions group_id = 52
+14:56:21   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = emte001
+14:56:21   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-04-08:12:56:21) on conditions id = 1607 AND username = emte001

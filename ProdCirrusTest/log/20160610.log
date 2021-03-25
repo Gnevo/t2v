@@ -1,0 +1,37 @@
+07:42:53 gine001  UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (16) on conditions username = gine001 AND company_id = 6
+07:43:17 root001 root001 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( root001, 85.227.157.89, Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36 ) => {inserted_id = 4928}
+07:43:17 root001 root001 DELETE data from tables `temp_session` on conditions username LIKE root001
+07:43:17 root001 root001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-06-10 07:43:17) on conditions username = root001
+07:43:39 gine001  UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = sm9slb6acekk1ar2d548tsta01
+07:44:42 gine001  UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( password, mobile, role, error, date ) values (b1aeef4ab90f20497cb42347abf39b62, 704434964, 1, 0, 2016-06-10) on conditions username = gine001
+07:44:42 gine001  UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( password, error, last_pw_update_date ) values (b1aeef4ab90f20497cb42347abf39b62, 0, 2016-06-10 05:44:42) on conditions username = gine001 AND company_id = 6
+07:44:42 gine001  UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day, remaining_sem_leave, sem_leave_todate, leave_in_advance, care_of, office_personal, substitute, salary_type, sem_leave_days, vab_leave_days, fp_leave_days, nopay_leave_days, other_leave_days, ice, inconvenient_on ) values (20001, 19, 5807012058, Gilad, Nevo, 1, Eriksbergsv. 10, Kumla, 69232, 19332112, 704434964, gilad.nevo@time2view.se, 2012-02-01, #3c78d8, 0, 2016-05-19, , 0, 10.00, 0, 2015-05-01, 1, , , 0, 1, 1, 0, 1, 0, 0, , 1) on conditions username = gine001
+07:44:42 gine001  DELETE data from tables `timetable` on conditions date >= 2016-05-19 AND employee = gine001
+07:44:42 gine001  DELETE data from tables `leave` on conditions date >= 2016-05-19 AND employee = gine001
+07:44:42 gine001  DELETE data from tables `team` on conditions employee = gine001
+07:44:42 gine001  INSERTING data into tables `team` fields ( customer, employee, role ) values ( anst007, gine001, 3 ), ( stal001, gine001, 3 ), ( stbj001, gine001, 3 ) => {inserted_id = 0}
+07:45:01 gine001  UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = sm9slb6acekk1ar2d548tsta01
+08:12:27 gine001  UPDATING data to tables `holiday_block_master` fields ( name, group_id, effect_from, effect_to, date_from, date_to, start_time, end_time, type ) values (Alla helgons dag, 10, 2016, , 11-04, 11-07, 18.00, 7.00, 1) on conditions id = 34
+08:12:27 gine001  DELETE data from tables `holiday_block` on conditions block_master_id = 34
+08:12:27 gine001  INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 34, 1, 2 ) => {inserted_id = 530}
+08:12:27 gine001  INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 34, 2, 1 ) => {inserted_id = 531}
+08:12:27 gine001  INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 34, 3, 2 ) => {inserted_id = 532}
+08:12:27 gine001  INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 34, 4, 2 ) => {inserted_id = 533}
+08:37:09 dodo001  UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (1) on conditions username = dodo001 AND company_id = 6
+08:37:17 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = dodo001 AND company_id = 6
+08:37:17 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 223.30.129.234, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.82 Chrome/48.0.2564.82 Safari/537.36 ) => {inserted_id = 4929}
+08:37:17 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+08:37:17 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-06-10 08:37:17) on conditions username = dodo001
+08:37:17 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-06-10 08:37:17) on conditions username = dodo001 AND company_id = 6
+08:37:18 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = bof4l4jhl81kafacdjt2c4ri91
+10:21:38 gine001  DELETE data from tables `document_archive` on conditions id= 2
+10:40:18 thne001 Theodor Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( thne001, 85.227.157.89, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36 ) => {inserted_id = 4930}
+10:40:18 thne001 Theodor Nevo DELETE data from tables `temp_session` on conditions username LIKE thne001
+10:40:18 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-06-10 10:40:18) on conditions username = thne001
+10:40:18 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-06-10 10:40:18) on conditions username = thne001 AND company_id = 6
+10:40:18 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = kd9qfi9f0l458dnq8peghrnfd7
+10:40:33 thne001 Theodor Nevo UPDATING data to tables `holiday_block_master` fields ( name, group_id, effect_from, effect_to, date_from, date_to, start_time, end_time, type ) values (Kristi Himmelsfärdsdag, 8, 2016, , 05-04, 05-06, 18.00, 7.00, 1) on conditions id = 30
+10:40:33 thne001 Theodor Nevo DELETE data from tables `holiday_block` on conditions block_master_id = 30
+10:40:33 thne001 Theodor Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 30, 1, 2 ) => {inserted_id = 534}
+10:40:33 thne001 Theodor Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 30, 2, 1 ) => {inserted_id = 535}
+10:40:33 thne001 Theodor Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 30, 3, 2 ) => {inserted_id = 536}

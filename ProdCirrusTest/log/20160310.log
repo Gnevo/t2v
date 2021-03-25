@@ -1,0 +1,17 @@
+11:11:47 dodo001  UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (1) on conditions username = dodo001 AND company_id = 6
+11:12:00 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = dodo001 AND company_id = 6
+11:12:00 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 223.30.129.234, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.82 Chrome/48.0.2564.82 Safari/537.36 ) => {inserted_id = 4725}
+11:12:00 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+11:12:00 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-03-10 11:12:00) on conditions username = dodo001
+11:12:00 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-03-10 11:12:00) on conditions username = dodo001 AND company_id = 6
+11:12:01 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = 6tfe8gej9j0v9pps208o7t2o46
+11:12:42 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = 6tfe8gej9j0v9pps208o7t2o46
+11:13:03 dodo001 Admin Cirrus UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (anst007, gine001, 2016-02-27, 18.20, 18.55, 1, 0, 1, ) on conditions id = 8875
+11:14:01 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = 6tfe8gej9j0v9pps208o7t2o46
+11:14:05 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = 6tfe8gej9j0v9pps208o7t2o46
+11:27:57 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = 6tfe8gej9j0v9pps208o7t2o46
+11:33:43 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = 6tfe8gej9j0v9pps208o7t2o46
+13:01:26 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+13:01:26 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2016-03-10 13:01:26) on conditions username = dodo001
+13:01:26 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-03-10 13:01:26) on conditions username = dodo001 AND company_id = 6
+13:01:26   UPDATING data to tables `log_login` fields ( logout_time ) values (2016-03-10:12:01:26) on conditions id = 4725 AND username = dodo001

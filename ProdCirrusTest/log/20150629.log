@@ -1,0 +1,54 @@
+07:58:31 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 223.30.129.234, Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:31.0) Gecko/20100101 Firefox/31.0 FirePHP/0.7.4 ) => {inserted_id = 3433}
+07:58:31 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+07:58:31 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-06-29 05:58:31) on conditions username = dodo001
+07:58:32 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = i7r92oih1671auhsbepf7hjdm2
+07:58:39 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = i7r92oih1671auhsbepf7hjdm2
+08:07:09 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = se1dradl6g1m8apakm7ie0erk6
+10:09:26 rokl001 Roberth Klarquist UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (rokl001) on conditions session_id = 4nuj109j9533p4ofg6kbfv4b03
+10:10:24 rokl001 Roberth Klarquist UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (rokl001) on conditions session_id = 4nuj109j9533p4ofg6kbfv4b03
+10:14:41 rokl001 Roberth Klarquist UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( password, mobile, role, error, date ) values (5e9f1c6940ab299b11eb43bf06c389a5, +46704014460, 3, 0, 2015-06-29) on conditions username = joso004
+10:14:41 rokl001 Roberth Klarquist UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day, remaining_sem_leave, sem_leave_todate, leave_in_advance, care_of, office_personal, substitute, inconvenient_on ) values (20023, 19, 2105051300, Joel, Solén, 2, , Falun, , +46704014460, +46704014460, roberth.klarquist@gmail.com, 2014-01-27, , 1, , , 0, 10.00, 0, , , , , 0, 0) on conditions username = joso004
+10:14:43 rokl001 Roberth Klarquist DELETE data from tables `temp_session` on conditions username LIKE rokl001
+10:14:43 rokl001 Roberth Klarquist UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2015-06-29 08:14:43) on conditions username = rokl001
+10:14:43   UPDATING data to tables `log_login` fields ( logout_time ) values (2015-06-29:08:14:43) on conditions id = 39383 AND username = rokl001
+10:14:54 joso004 Joel Solén INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( joso004, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36 ) => {inserted_id = 3434}
+10:14:54 joso004 Joel Solén DELETE data from tables `temp_session` on conditions username LIKE joso004
+10:14:54 joso004 Joel Solén UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-06-29 08:14:54) on conditions username = joso004
+10:14:55 joso004 Joel Solén UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (joso004) on conditions session_id = ai6983ltas0k5n97r825c5cnm6
+10:17:15 joso004 Joel Solén DELETE data from tables `temp_session` on conditions username LIKE joso004
+10:17:15 joso004 Joel Solén UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2015-06-29 08:17:15) on conditions username = joso004
+10:17:15   UPDATING data to tables `log_login` fields ( logout_time ) values (2015-06-29:08:17:15) on conditions id = 3434 AND username = joso004
+10:20:26 joso004 Joel Solén INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( joso004, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36 ) => {inserted_id = 3435}
+10:20:27 joso004 Joel Solén DELETE data from tables `temp_session` on conditions username LIKE joso004
+10:20:27 joso004 Joel Solén UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-06-29 08:20:27) on conditions username = joso004
+10:20:27 joso004 Joel Solén UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (joso004) on conditions session_id = fjlbob65c5p8udqbplu91nn6i2
+10:22:40 joso004 Joel Solén DELETE data from tables `temp_session` on conditions username LIKE joso004
+10:22:40 joso004 Joel Solén UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2015-06-29 08:22:40) on conditions username = joso004
+10:22:40   UPDATING data to tables `log_login` fields ( logout_time ) values (2015-06-29:08:22:40) on conditions id = 3435 AND username = joso004
+10:24:23 joso004 Joel Solén INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( joso004, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36 ) => {inserted_id = 3436}
+10:24:23 joso004 Joel Solén DELETE data from tables `temp_session` on conditions username LIKE joso004
+10:24:23 joso004 Joel Solén UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-06-29 08:24:23) on conditions username = joso004
+10:24:23 joso004 Joel Solén UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (joso004) on conditions session_id = ttggg139fodofs6068eviq8j90
+10:24:55 joso004 Joel Solén UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( role, mobile ) values (3, 46704014460) on conditions username = joso004
+10:24:55 joso004 Joel Solén UPDATING data to tables `employee` fields ( code, social_security, address, city, post, phone, mobile, email, date ) values (20023, 2105051300, , Falun, , 46704014460, 46704014460, roberth.klarquist@gmail.com, 2014-01-27) on conditions username = joso004
+10:25:00 joso004 Joel Solén DELETE data from tables `temp_session` on conditions username LIKE joso004
+10:25:00 joso004 Joel Solén UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2015-06-29 08:25:00) on conditions username = joso004
+10:25:00   UPDATING data to tables `log_login` fields ( logout_time ) values (2015-06-29:08:25:00) on conditions id = 3436 AND username = joso004
+10:29:25 joso004 Joel Solén INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( joso004, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36 ) => {inserted_id = 3437}
+10:29:25 joso004 Joel Solén DELETE data from tables `temp_session` on conditions username LIKE joso004
+10:29:25 joso004 Joel Solén UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-06-29 08:29:25) on conditions username = joso004
+10:29:25 joso004 Joel Solén UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (joso004) on conditions session_id = i9iu24n4o3nf091qnur47if0p1
+10:29:58 joso004 Joel Solén UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( role, mobile ) values (3, 46704014460) on conditions username = joso004
+10:29:58 joso004 Joel Solén UPDATING data to tables `employee` fields ( code, social_security, address, city, post, phone, mobile, email, date ) values (20023, 2105051300, , Falun, , 46704014460, 46704014460, roberth.klarquist@gmail.com, 2014-01-27) on conditions username = joso004
+10:30:04 joso004 Joel Solén DELETE data from tables `temp_session` on conditions username LIKE joso004
+10:30:04 joso004 Joel Solén UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2015-06-29 08:30:04) on conditions username = joso004
+10:30:04   UPDATING data to tables `log_login` fields ( logout_time ) values (2015-06-29:08:30:04) on conditions id = 3437 AND username = joso004
+10:33:17 joso004 Joel Solén INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( joso004, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36 ) => {inserted_id = 3438}
+10:33:17 joso004 Joel Solén DELETE data from tables `temp_session` on conditions username LIKE joso004
+10:33:17 joso004 Joel Solén UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-06-29 08:33:17) on conditions username = joso004
+10:33:17 joso004 Joel Solén UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (joso004) on conditions session_id = v5stm2ds3lc9pb3q11kg5koo61
+10:33:47 joso004 Joel Solén UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( role, mobile ) values (3, 46704014460) on conditions username = joso004
+10:33:47 joso004 Joel Solén UPDATING data to tables `employee` fields ( code, social_security, address, city, post, phone, mobile, email, date ) values (20023, 2105051300, , Falun, , 46704014460, 46704014460, roberth.klarquist@gmail.com, 2014-01-27) on conditions username = joso004
+10:33:55 joso004 Joel Solén DELETE data from tables `temp_session` on conditions username LIKE joso004
+10:33:55 joso004 Joel Solén UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2015-06-29 08:33:55) on conditions username = joso004
+10:33:55   UPDATING data to tables `log_login` fields ( logout_time ) values (2015-06-29:08:33:55) on conditions id = 3438 AND username = joso004

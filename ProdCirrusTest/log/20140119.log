@@ -1,0 +1,5 @@
+10:00:13 gine001 root001 INSERTING data into tables `time2vie_cirruscommon`.`login` fields ( username, mobile, role, login, date, company_ids, social_security ) values ( stbj001, , 4, 0, 2014-01-19, 6,, 3503120051 ) => {inserted_id = 0}
+10:00:13 gine001 root001 INSERTING data into tables `customer` fields ( username, century, code, social_security, first_name, last_name, address, city, post, phone, mobile, email, date, status, date_inactive, fkkn, gender ) values ( stbj001, 19, 10200, 3503120051, Stig, Björk, Storgatan 12, Kumla, 692 32, , , , 2014-01-19, 1, , 1, 1 ) => {inserted_id = 0}
+10:00:13 gine001 root001 INSERTING data into tables `customer_guardian` fields ( customer, first_name, last_name, mobile, email, address, first_name2, last_name2, mobile2, email2, address2 ) values ( stbj001, Gilad, Nevo, 46704434964, , , , , , ,  ) => {inserted_id = 0}
+10:10:12 gine001 root001 UPDATING data to tables `mc_leave` fields ( read_users ) values (wita001,gine001) on conditions leave_id = 41
+10:10:12 gine001 root001 INSERTING data into tables `mc_leave` fields ( leave_id, leave_status, read_users ) values ( 42, 0, gine001 ) => {inserted_id = 48}

@@ -1,0 +1,108 @@
+08:04:01 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+08:04:01 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 223.30.129.234, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/41.0.2272.76 Chrome/41.0.2272.76 Safari/537.36 ) => {inserted_id = 2309}
+08:04:01 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+08:04:01 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+08:04:03 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 2a704fb87cf29331828f80e07f417129
+08:31:09 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+08:31:09 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+08:31:09   UPDATING data to tables `log_login` fields ( logout_time ) values (2015-04-01:06:31:09) on conditions id = 2309 AND username = gine001
+11:55:08 rokl001  DELETE data from tables `temp_session` on conditions username LIKE rokl001
+11:55:08 rokl001 rokl001 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rokl001, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36 ) => {inserted_id = 2310}
+11:55:08 rokl001 rokl001 DELETE data from tables `temp_session` on conditions username LIKE rokl001
+11:55:08 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = rokl001
+11:55:09 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (rokl001) on conditions session_id = c8561b006ecfe99c6109efd1cf634dc7
+11:58:06 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+11:58:06 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 223.30.129.234, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/41.0.2272.76 Chrome/41.0.2272.76 Safari/537.36 ) => {inserted_id = 2311}
+11:58:06 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+11:58:06 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+11:58:07 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = f5b8da69a23f958421029f492f4cb4e9
+11:59:10 rokl001 rokl001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , stbj001, 1, 0, 2015-04-06, 8, 17, 0, , rokl001,  ) => {inserted_id = 6639}
+11:59:10 rokl001 rokl001 INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( stbj001, 8, 17, 0 ) => {inserted_id = 281}
+11:59:10 rokl001 rokl001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , stbj001, 1, 0, 2015-04-07, 8, 17, 0, , rokl001,  ) => {inserted_id = 6640}
+11:59:10 rokl001 rokl001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , stbj001, 1, 0, 2015-04-08, 8, 17, 0, , rokl001,  ) => {inserted_id = 6641}
+11:59:10 rokl001 rokl001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , stbj001, 1, 0, 2015-04-09, 8, 17, 0, , rokl001,  ) => {inserted_id = 6642}
+11:59:10 rokl001 rokl001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , stbj001, 1, 0, 2015-04-10, 8, 17, 0, , rokl001,  ) => {inserted_id = 6643}
+11:59:10 rokl001 rokl001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , stbj001, 1, 0, 2015-04-11, 8, 17, 0, , rokl001,  ) => {inserted_id = 6644}
+11:59:10 rokl001 rokl001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , stbj001, 1, 0, 2015-04-12, 8, 17, 0, , rokl001,  ) => {inserted_id = 6645}
+11:59:10 rokl001 rokl001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , stbj001, 1, 0, 2015-04-20, 8, 17, 0, , rokl001,  ) => {inserted_id = 6646}
+11:59:10 rokl001 rokl001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , stbj001, 1, 0, 2015-04-21, 8, 17, 0, , rokl001,  ) => {inserted_id = 6647}
+11:59:10 rokl001 rokl001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , stbj001, 1, 0, 2015-04-22, 8, 17, 0, , rokl001,  ) => {inserted_id = 6648}
+11:59:10 rokl001 rokl001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , stbj001, 1, 0, 2015-04-23, 8, 17, 0, , rokl001,  ) => {inserted_id = 6649}
+11:59:10 rokl001 rokl001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , stbj001, 1, 0, 2015-04-24, 8, 17, 0, , rokl001,  ) => {inserted_id = 6650}
+11:59:10 rokl001 rokl001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , stbj001, 1, 0, 2015-04-25, 8, 17, 0, , rokl001,  ) => {inserted_id = 6651}
+11:59:10 rokl001 rokl001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , stbj001, 1, 0, 2015-04-26, 8, 17, 0, , rokl001,  ) => {inserted_id = 6652}
+12:00:16 rokl001 rokl001 UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, last002, rokl001) on conditions id = 6639
+12:00:16 rokl001 rokl001 UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, last002, rokl001) on conditions id = 6640
+12:00:16 rokl001 rokl001 UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, last002, rokl001) on conditions id = 6641
+12:00:16 rokl001 rokl001 UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, last002, rokl001) on conditions id = 6642
+12:00:36 rokl001 rokl001 UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, kaka003, rokl001) on conditions id = 6643
+12:00:36 rokl001 rokl001 UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, kaka003, rokl001) on conditions id = 6644
+12:00:36 rokl001 rokl001 UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, kaka003, rokl001) on conditions id = 6645
+12:03:18 rokl001 rokl001 UPDATING data to tables `timetable` fields ( employee, alloc_emp ) values (rawi001, rokl001)
+12:04:35 rokl001 rokl001 INSERTING data into tables `timetable` fields ( employee, customer, type, date, time_from, time_to, status, relation_id, alloc_emp ) values ( last002, stbj001, 0, 2015-04-08, 8.00, 11, 1, , rokl001 ) => {inserted_id = 6653}
+12:04:35 rokl001 rokl001 UPDATING data to tables `timetable` fields ( time_from ) values (11) on conditions id = 6641
+12:06:39 rokl001 rokl001 UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 6641
+12:06:39 rokl001 rokl001 INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, employee, status ) values ( stbj001, 2015-04-08, 11.00, 17.00, 0, 1, , rokl001, 6641, jata001, 1 ) => {inserted_id = 6654}
+12:07:10 rokl001 rokl001 UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 6641
+12:07:10 rokl001 rokl001 INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, employee, status ) values ( stbj001, 2015-04-08, 11.00, 17.00, 0, 1, , rokl001, 6641, rawi001, 1 ) => {inserted_id = 6655}
+12:07:31 rokl001 rokl001 UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 6641
+12:07:31 rokl001 rokl001 INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, employee, status ) values ( stbj001, 2015-04-08, 11.00, 17.00, 0, 1, , rokl001, 6641, gine001, 1 ) => {inserted_id = 6656}
+12:07:58 rokl001 rokl001 UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 6641
+12:07:58 rokl001 rokl001 INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, employee, status ) values ( stbj001, 2015-04-08, 11.00, 17.00, 0, 1, , rokl001, 6641, kaka003, 1 ) => {inserted_id = 6657}
+12:08:12 rokl001 rokl001 UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 6641
+12:08:12 rokl001 rokl001 INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, employee, status ) values ( stbj001, 2015-04-08, 11.00, 17.00, 0, 1, , rokl001, 6641, thne001, 1 ) => {inserted_id = 6658}
+12:08:28 rokl001 rokl001 UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 6642
+12:08:28 rokl001 rokl001 INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, employee, status ) values ( stbj001, 2015-04-09, 8.00, 17.00, 0, 1, , rokl001, 6642, jata001, 1 ) => {inserted_id = 6659}
+12:08:41 rokl001 rokl001 UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,kaek001,rokl001) on conditions leave_id = 79
+12:08:41 rokl001 rokl001 UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,kaek001,rokl001) on conditions leave_id = 78
+12:08:41 rokl001 rokl001 UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,kaek001,rokl001) on conditions leave_id = 80
+12:08:41 rokl001 rokl001 UPDATING data to tables `mc_leave` fields ( read_users ) values (igro001,gine001,kaek001,rokl001) on conditions leave_id = 69
+12:08:41 rokl001 rokl001 UPDATING data to tables `mc_leave` fields ( read_users ) values (igro001,gine001,kaek001,rokl001) on conditions leave_id = 68
+12:08:41 rokl001 rokl001 UPDATING data to tables `mc_leave` fields ( read_users ) values (igro001,gine001,kaek001,rokl001) on conditions leave_id = 66
+12:08:41 rokl001 rokl001 UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,kaek001,rokl001) on conditions leave_id = 75
+12:08:41 rokl001 rokl001 UPDATING data to tables `mc_leave` fields ( read_users ) values (igro001,gine001,kaek001,rokl001) on conditions leave_id = 72
+12:08:41 rokl001 rokl001 UPDATING data to tables `mc_leave` fields ( read_users ) values (igro001,gine001,kaek001,rokl001) on conditions leave_id = 71
+12:08:41 rokl001 rokl001 UPDATING data to tables `mc_leave` fields ( read_users ) values (igro001,gine001,kaek001,rokl001) on conditions leave_id = 73
+12:09:12 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (rokl001) on conditions session_id = c8561b006ecfe99c6109efd1cf634dc7
+12:09:32 rokl001 rokl001 UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 6641
+12:09:32 rokl001 rokl001 INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( stbj001, 2015-04-08, 11.00, 17.00, 0, 1, , rokl001, 6641, 0 ) => {inserted_id = 6660}
+12:09:51 rokl001 rokl001 UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 6643
+12:09:51 rokl001 rokl001 INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, employee, status ) values ( stbj001, 2015-04-10, 8.00, 17.00, 0, 1, , rokl001, 6643, jata001, 1 ) => {inserted_id = 6661}
+12:10:26 rokl001 rokl001 UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 6642
+12:10:26 rokl001 rokl001 INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, employee, status ) values ( stbj001, 2015-04-09, 8.00, 17.00, 0, 1, , rokl001, 6642, kaka003, 1 ) => {inserted_id = 6662}
+12:10:40 rokl001 rokl001 UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,kaek001,rokl001) on conditions leave_id = 74
+12:10:40 rokl001 rokl001 UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,kaek001,rokl001) on conditions leave_id = 76
+12:10:40 rokl001 rokl001 UPDATING data to tables `mc_leave` fields ( read_users ) values (igro001,gine001,kaek001,rokl001) on conditions leave_id = 70
+12:10:40 rokl001 rokl001 UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,kaek001,rokl001) on conditions leave_id = 77
+12:10:40 rokl001 rokl001 UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,jata001,clke001,wita001,than001,kaek001,rokl001) on conditions leave_id = 3
+12:10:40 rokl001 rokl001 UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,jata001,clke001,wita001,than001,kaek001,rokl001) on conditions leave_id = 2
+12:10:40 rokl001 rokl001 UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,jata001,clke001,wita001,than001,kaek001,rokl001) on conditions leave_id = 1
+12:11:12 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (rokl001) on conditions session_id = c8561b006ecfe99c6109efd1cf634dc7
+12:11:28 rokl001 rokl001 UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 6363
+12:11:28 rokl001 rokl001 INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, employee, status ) values ( adan001, 2015-03-23, 8.00, 10.00, 0, 1, , rokl001, 6363, abni001, 1 ) => {inserted_id = 6663}
+12:12:12 rokl001 rokl001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , adan001, 1, 0, 2015-03-24, 13.00, 15.00, 0, , rokl001,  ) => {inserted_id = 6664}
+12:12:17 rokl001 rokl001 UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, than001, rokl001) on conditions id = 6664
+12:12:40 rokl001 rokl001 UPDATING data to tables `timetable` fields ( type ) values (10) on conditions id = 6664
+12:12:40 rokl001 rokl001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , adan001, 1, 0, 2015-03-24, 13, 15, 0, , rokl001,  ) => {inserted_id = 6665}
+12:12:40 rokl001 rokl001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( joso004, adan001, 1, 10, 2015-03-24, 13, 15, 1, , rokl001,  ) => {inserted_id = 6666}
+12:12:40 rokl001 rokl001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( lobr002, adan001, 1, 10, 2015-03-24, 13, 15, 1, , rokl001,  ) => {inserted_id = 6667}
+12:12:40 rokl001 rokl001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( wita001, adan001, 1, 10, 2015-03-24, 13, 15, 1, , rokl001,  ) => {inserted_id = 6668}
+12:13:08 rokl001 rokl001 DELETE data from tables `timetable` on conditions id = 6668
+12:13:14 rokl001 rokl001 DELETE data from tables `timetable` on conditions id = 6664
+12:13:14 rokl001 rokl001 DELETE data from tables `timetable` on conditions id = 6665
+12:13:14 rokl001 rokl001 DELETE data from tables `timetable` on conditions id = 6666
+12:13:14 rokl001 rokl001 DELETE data from tables `timetable` on conditions id = 6667
+12:13:14 rokl001 rokl001 DELETE data from tables `timetable` on conditions id = 
+12:14:01 rokl001 rokl001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( joso004, adan001, 1, 10, 2015-03-24, 15, 17, 1, , rokl001,  ) => {inserted_id = 6669}
+12:14:01 rokl001 rokl001 INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( adan001, 15, 17, 10 ) => {inserted_id = 282}
+12:14:26 rokl001 rokl001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , adan001, 1, 0, 2015-03-24, 8.00, 10.00, 0, , rokl001,  ) => {inserted_id = 6670}
+12:14:38 rokl001 rokl001 UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, wita001, rokl001) on conditions id = 6670
+12:15:32 rokl001 rokl001 UPDATING data to tables `timetable` fields ( comment ) values (Ta med varma kläder) on conditions id = 6670
+12:16:22 rokl001 rokl001 UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 6670
+12:16:22 rokl001 rokl001 INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( adan001, 2015-03-24, 8.00, 10.00, 0, 1, Ta med varma kläder, rokl001, 6670, 0 ) => {inserted_id = 6671}
+14:53:02 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+14:53:02 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.109.250, Mozilla/5.0 (Windows NT 6.1; WOW64; rv:35.0) Gecko/20100101 Firefox/35.0 ) => {inserted_id = 2314}
+14:53:02 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+14:53:02 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+14:53:02 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 0ce0cd0c769ebad495b5a36b7340ec7e
+14:54:26 gine001 Gilad Nevo UPDATING data to tables `employee` fields ( language ) values (se) on conditions username = gine001

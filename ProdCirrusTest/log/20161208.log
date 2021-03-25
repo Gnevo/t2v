@@ -1,0 +1,37 @@
+08:15:28 tato002 Tami Tam UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = tato002 AND company_id = 6
+08:15:28 tato002 Tami Tam INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( tato002, 176.71.191.17, CirrusM/10 CFNetwork/808.1.4 Darwin/16.1.0 ) => {inserted_id = 5374}
+08:15:28 tato002 Tami Tam DELETE data from tables `temp_session` on conditions username LIKE tato002
+08:15:28 tato002 Tami Tam UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-12-08 08:15:28) on conditions username = tato002
+08:15:28 tato002 Tami Tam UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-12-08 08:15:28) on conditions username = tato002 AND company_id = 6
+09:12:09 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.159.221, Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0 ) => {inserted_id = 5375}
+09:12:09 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+09:12:09 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-12-08 09:12:09) on conditions username = gine001
+09:12:09 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-12-08 09:12:09) on conditions username = gine001 AND company_id = 6
+09:12:09 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 1b6a790793556ea4d03a24181716906e
+09:12:51 gine001 Gilad Nevo DELETE data from tables `report_signing` on conditions employee = gine001 AND customer = stal001 AND date = 2016-10-1
+09:12:51 gine001 Gilad Nevo INSERTING data into tables `report_signing_delete` fields ( employee, customer, report_date, deleted_by ) values ( gine001, stal001, 2016-10-1, gine001 ) => {inserted_id = 0}
+09:14:16 gine001 Gilad Nevo DELETE data from tables `report_signing` on conditions employee = thne001 AND customer = stbj001 AND date = 2016-7-1
+09:14:16 gine001 Gilad Nevo INSERTING data into tables `report_signing_delete` fields ( employee, customer, report_date, deleted_by ) values ( thne001, stbj001, 2016-7-1, gine001 ) => {inserted_id = 0}
+09:22:11 root001 root001 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( root001, 85.227.159.221, Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0 ) => {inserted_id = 5376}
+09:22:11 root001 root001 DELETE data from tables `temp_session` on conditions username LIKE root001
+09:22:11 root001 root001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-12-08 09:22:11) on conditions username = root001
+12:34:57 tato002 Tami Tam UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = tato002 AND company_id = 6
+12:34:57 tato002 Tami Tam INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( tato002, 95.199.144.148, CirrusM/10 CFNetwork/808.1.4 Darwin/16.1.0 ) => {inserted_id = 5377}
+12:34:57 tato002 Tami Tam DELETE data from tables `temp_session` on conditions username LIKE tato002
+12:34:57 tato002 Tami Tam UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-12-08 12:34:57) on conditions username = tato002
+12:34:57 tato002 Tami Tam UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-12-08 12:34:57) on conditions username = tato002 AND company_id = 6
+12:35:13 tato002 Tami Tam UPDATING data to tables `mc_note` fields ( read_users ) values (gine001,jata001,dodo001,tato002) on conditions note_id = 105 #Mobile-App: Log-id=5377
+12:35:13 tato002 Tami Tam UPDATING data to tables `mc_note` fields ( read_users ) values (gine001,jata001,dodo001,tato002) on conditions note_id = 104 #Mobile-App: Log-id=5377
+12:35:13 tato002 Tami Tam UPDATING data to tables `mc_note` fields ( read_users ) values (jata001,gine001,dodo001,tato002) on conditions note_id = 103 #Mobile-App: Log-id=5377
+12:35:13 tato002 Tami Tam UPDATING data to tables `mc_note` fields ( read_users ) values (jata001,gine001,dodo001,tato002) on conditions note_id = 102 #Mobile-App: Log-id=5377
+12:35:13 tato002 Tami Tam UPDATING data to tables `mc_note` fields ( read_users ) values (jata001,gine001,dodo001,tato002) on conditions note_id = 101 #Mobile-App: Log-id=5377
+12:36:51 tato002 Tami Tam UPDATING data to tables `mc_leave` fields ( read_users ) values (inch001,gine001,dodo001,boek001,saan004,thne001,jata001,tato002) on conditions leave_id = 91 #Mobile-App: Log-id=5377
+12:36:51 tato002 Tami Tam UPDATING data to tables `mc_leave` fields ( read_users ) values (inch001,gine001,dodo001,boek001,saan004,thne001,jata001,tato002) on conditions leave_id = 92 #Mobile-App: Log-id=5377
+12:36:51 tato002 Tami Tam UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,dodo001,saan004,thne001,jata001,tato002) on conditions leave_id = 101 #Mobile-App: Log-id=5377
+12:36:51 tato002 Tami Tam UPDATING data to tables `mc_leave` fields ( read_users ) values (dodo001,gine001,saan004,thne001,jata001,tato002) on conditions leave_id = 99 #Mobile-App: Log-id=5377
+12:36:51 tato002 Tami Tam UPDATING data to tables `mc_leave` fields ( read_users ) values (dodo001,gine001,saan004,thne001,jata001,tato002) on conditions leave_id = 98 #Mobile-App: Log-id=5377
+12:36:52 tato002 Tami Tam UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,dodo001,saan004,jata001,thne001,tato002) on conditions leave_id = 100 #Mobile-App: Log-id=5377
+12:36:52 tato002 Tami Tam UPDATING data to tables `mc_leave` fields ( read_users ) values (dodo001,gine001,abni001,rokl001,saan004,jata001,thne001,tato002) on conditions leave_id = 84 #Mobile-App: Log-id=5377
+12:36:52 tato002 Tami Tam UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,saan004,dodo001,abni001,rokl001,jata001,thne001,tato002) on conditions leave_id = 83 #Mobile-App: Log-id=5377
+12:36:52 tato002 Tami Tam UPDATING data to tables `mc_leave` fields ( read_users ) values (dodo001,gine001,abni001,rokl001,saan004,jata001,thne001,tato002) on conditions leave_id = 88 #Mobile-App: Log-id=5377
+12:36:52 tato002 Tami Tam UPDATING data to tables `mc_leave` fields ( read_users ) values (dodo001,gine001,abni001,rokl001,saan004,jata001,thne001,tato002) on conditions leave_id = 89 #Mobile-App: Log-id=5377

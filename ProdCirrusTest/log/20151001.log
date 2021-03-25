@@ -1,0 +1,95 @@
+08:39:47 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+08:39:47 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.155.192, Mozilla/5.0 (Windows NT 6.1; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0 ) => {inserted_id = 3799}
+08:39:47 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+08:39:47 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-10-01 06:39:47) on conditions username = gine001
+08:39:47 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 8s41mdfeqpslifqr85kcitq7d4
+10:22:47 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 8s41mdfeqpslifqr85kcitq7d4
+11:49:06 gine001 gine001 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = fmps272njpulbjvejoicc36l72
+12:40:08 saan004  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( saan004, 1.39.62.185, android ) => {inserted_id = 3801} #Mobile-App: Log-id=3800
+12:41:41 saan004  DELETE data from tables `temp_session` on conditions username LIKE saan004 #Mobile-App: Log-id=3801
+12:41:41 saan004  UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-10-01 10:41:41) on conditions username = saan004 #Mobile-App: Log-id=3801
+12:42:01 saan004  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( saan004, 1.39.62.185, android ) => {inserted_id = 3802} #Mobile-App: Log-id=3801
+12:52:27 gine001 gine001 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = fmps272njpulbjvejoicc36l72
+12:53:25 chfr001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( chfr001, 115.252.86.10, CirrusM/1 CFNetwork/758.0.2 Darwin/15.0.0 ) => {inserted_id = 3804} #Mobile-App: Log-id=3803
+12:53:42 chfr001  UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 8187 #Mobile-App: Log-id=3804
+12:53:42 chfr001  INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( anst007, 2015-10-01, 2.30, 12.30, 0, 1, , chfr001, 8187, 0 ) => {inserted_id = 8313} #Mobile-App: Log-id=3804
+12:53:42 chfr001  INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 102, chfr001, 2015-10-01, 2.3, 12.3, 1, (null), chfr001, 0, 1 ) => {inserted_id = 338} #Mobile-App: Log-id=3804
+12:54:21 chfr001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( chfr001, 115.252.86.10, CirrusM/1 CFNetwork/758.0.2 Darwin/15.0.0 ) => {inserted_id = 3805} #Mobile-App: Log-id=3804
+13:08:45 gine001 gine001 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = fmps272njpulbjvejoicc36l72
+13:09:38 gine001 gine001 UPDATING data to tables `leave` fields ( status, appr_emp, appr_date ) values (2, gine001, 2015-10-01) on conditions group_id = 102
+13:09:38 gine001 gine001 DELETE data from tables `leave` on conditions group_id = 102
+13:09:38 gine001 gine001 UPDATING data to tables `timetable` fields ( status ) values (1) on conditions (id IN ( '8187' )) AND customer is NOT NULL AND customer != 
+13:09:38 gine001 gine001 UPDATING data to tables `timetable` fields ( status ) values (0) on conditions (id IN ( '8187' )) AND (customer is NULL OR customer = )
+13:10:03 gine001 gine001 INSERTING data into tables `temp_session` fields ( username, type, details ) values ( gine001, 1, 8313 ) => {inserted_id = 0}
+13:10:53 gine001 gine001 UPDATING data to tables `temp_session` fields ( details ) values (8313) on conditions username LIKE gine001 AND type = 1
+13:10:56 gine001 gine001 UPDATING data to tables `temp_session` fields ( details ) values (8313) on conditions username LIKE gine001 AND type = 1
+13:10:58 gine001 gine001 UPDATING data to tables `temp_session` fields ( details ) values (8313) on conditions username LIKE gine001 AND type = 1
+13:11:01 gine001 gine001 UPDATING data to tables `temp_session` fields ( details ) values (8313) on conditions username LIKE gine001 AND type = 1
+13:11:04 gine001 gine001 UPDATING data to tables `temp_session` fields ( details ) values (8313) on conditions username LIKE gine001 AND type = 1
+13:11:14 gine001 gine001 UPDATING data to tables `temp_session` fields ( details ) values (8313) on conditions username LIKE gine001 AND type = 1
+13:11:21 gine001 gine001 UPDATING data to tables `temp_session` fields ( details ) values (8313) on conditions username LIKE gine001 AND type = 1
+13:11:22 gine001 gine001 UPDATING data to tables `temp_session` fields ( details ) values (8313) on conditions username LIKE gine001 AND type = 1
+13:11:40 gine001 gine001 DELETE data from tables `timetable` on conditions id = 8313
+13:13:18 gine001 gine001 UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 8187
+13:13:18 gine001 gine001 INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( anst007, 2015-10-01, 2.30, 12.30, 0, 1, , gine001, 8187, 0 ) => {inserted_id = 8314}
+13:13:18 gine001 gine001 INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 102, chfr001, 2015-10-01, 2.3, 12.3, 1, , gine001, 0, 1 ) => {inserted_id = 339}
+13:13:28 gine001 gine001 UPDATING data to tables `leave` fields ( status, appr_emp, appr_date ) values (1, gine001, 2015-10-01) on conditions group_id = 102
+13:14:58 chfr001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( chfr001, 115.252.86.10, android ) => {inserted_id = 3807} #Mobile-App: Log-id=3806
+13:16:54 chfr001  DELETE data from tables `temp_session` on conditions username LIKE chfr001 #Mobile-App: Log-id=3807
+13:16:54 chfr001  UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2015-10-01 11:16:54) on conditions username = chfr001 #Mobile-App: Log-id=3807
+13:22:26 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+13:22:26 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.97.206, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36 ) => {inserted_id = 3808}
+13:22:26 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+13:22:26 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-10-01 11:22:26) on conditions username = gine001
+13:22:26 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( error ) values (0) on conditions username = gine001
+13:22:27 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = gj17eem1rvc2sr70g7cjc6mq87
+13:24:23 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( password, mobile, role, error, date ) values (a29137d43fba7fc95044d59746684b6f, , 3, 0, 2015-10-01) on conditions username = boek001
+13:24:23 gine001 Gilad Nevo UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day, remaining_sem_leave, sem_leave_todate, leave_in_advance, care_of, office_personal, substitute, salary_type, sem_leave_days, vab_leave_days, fp_leave_days, nopay_leave_days, other_leave_days, inconvenient_on ) values (20029, 19, 7809128817, Bo, Ek, 1, , , , , , , 2015-08-13, #cc0000, 1, , , 0, 10.00, 0, , , , , 0, 1, 1, 0, 1, 0, 0, 1) on conditions username = boek001
+13:27:33 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = gj17eem1rvc2sr70g7cjc6mq87
+13:27:37 boek001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( boek001, 77.218.247.119, android ) => {inserted_id = 3810} #Mobile-App: Log-id=3809
+13:27:58 gine001 Gilad Nevo INSERTING data into tables `privileges` fields ( employee, customer ) values ( boek001,  ) => {inserted_id = 0}
+13:27:58 gine001 Gilad Nevo UPDATING data to tables `privileges` fields ( swap, process, add_slot, fkkn, slot_type, add_customer, add_employee, remove_customer, remove_employee, `leave`, copy_single_slot, copy_single_slot_option, copy_day_slot, copy_day_slot_option, split_slot, delete_slot, delete_day_slot, delete_multiple_slots, contract_override, atl_override, change_time, no_pay_leave, candg_approve, show_percentage_monthly, not_show_employees ) values (1, , , , , , 1, , , 1, , , , , 1, , , , , , , , , , ) on conditions employee = boek001 AND customer IS NULL
+13:28:17 gine001 Gilad Nevo INSERTING data into tables `privileges_mc` fields ( employee ) values ( boek001 ) => {inserted_id = 0}
+13:28:17 gine001 Gilad Nevo UPDATING data to tables `privileges_mc` fields ( leave_notification, leave_approval, leave_rejection, leave_edit, notes, cirrus_mail, external_mail, sms, notes_approval, notes_rejection, notes_attchment, document_archive, support ) values (, , , , 1, 1, 1, , , , , , 1) on conditions employee = boek001
+13:28:48 boek001  DELETE data from tables `temp_session` on conditions username LIKE boek001 #Mobile-App: Log-id=3810
+13:28:48 boek001  UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2015-10-01 11:28:48) on conditions username = boek001 #Mobile-App: Log-id=3810
+13:30:18 boek001  UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 8027 #Mobile-App: Log-id=3811
+13:30:18 boek001  INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( stli001, 2015-09-11, 8.00, 20.00, 0, 1, , boek001, 8027, 0 ) => {inserted_id = 8315} #Mobile-App: Log-id=3811
+13:30:18 boek001  INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 103, boek001, 2015-09-11, 8, 20, 2, , boek001, 0, 1 ) => {inserted_id = 340} #Mobile-App: Log-id=3811
+13:30:59 boek001  UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 8300 #Mobile-App: Log-id=3811
+13:30:59 boek001  INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( stli001, 2015-09-11, 1.00, 3.00, 0, 1, , boek001, 8300, 0 ) => {inserted_id = 8316} #Mobile-App: Log-id=3811
+13:30:59 boek001  INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 104, boek001, 2015-09-11, 1, 3, 2, , boek001, 0, 1 ) => {inserted_id = 341} #Mobile-App: Log-id=3811
+13:31:15 gine001 Gilad Nevo UPDATING data to tables `leave` fields ( status, appr_emp, appr_date ) values (1, gine001, 2015-10-01) on conditions group_id = 104
+13:31:23 gine001 Gilad Nevo UPDATING data to tables `leave` fields ( status, appr_emp, appr_date ) values (1, gine001, 2015-10-01) on conditions group_id = 103
+13:31:41 boek001  UPDATING data to tables `timetable` fields ( status ) values (1) on conditions (id IN ( '8300' )) AND customer is NOT NULL AND customer !=  #Mobile-App: Log-id=3811
+13:31:41 boek001  UPDATING data to tables `timetable` fields ( status ) values (0) on conditions (id IN ( '8300' )) AND (customer is NULL OR customer = ) #Mobile-App: Log-id=3811
+13:31:41 boek001  DELETE data from tables `timetable` on conditions relation_id = 8300 #Mobile-App: Log-id=3811
+13:31:41 boek001  DELETE data from tables `leave` on conditions id = 341 #Mobile-App: Log-id=3811
+13:31:52 boek001  UPDATING data to tables `timetable` fields ( status ) values (1) on conditions (id IN ( '8027' )) AND customer is NOT NULL AND customer !=  #Mobile-App: Log-id=3811
+13:31:52 boek001  UPDATING data to tables `timetable` fields ( status ) values (0) on conditions (id IN ( '8027' )) AND (customer is NULL OR customer = ) #Mobile-App: Log-id=3811
+13:31:52 boek001  DELETE data from tables `timetable` on conditions relation_id = 8027 #Mobile-App: Log-id=3811
+13:31:52 boek001  DELETE data from tables `leave` on conditions id = 340 #Mobile-App: Log-id=3811
+14:13:55 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+14:13:55 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.97.206, Mozilla/5.0 (Windows NT 6.1; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0 ) => {inserted_id = 3812}
+14:13:55 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+14:13:55 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-10-01 12:13:55) on conditions username = gine001
+14:17:42 gine001 Gilad Nevo UPDATING data to tables `team` fields ( role ) values (3) on conditions employee = boek001
+14:17:42 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( role, mobile ) values (2, ) on conditions username = boek001
+14:17:42 gine001 Gilad Nevo INSERTING data into tables `privileges_forms` fields ( employee, fkkn, `leave`, certificate ) values ( boek001, 1, 0, 0 ) => {inserted_id = 0}
+14:17:42 gine001 Gilad Nevo INSERTING data into tables `privileges_general` fields ( employee, chat, add_employee, add_customer, edit_employee, edit_customer, inconvenient_timing, administration ) values ( boek001, 1, 0, 0, 0, 0, 0, 0 ) => {inserted_id = 0}
+14:17:42 gine001 Gilad Nevo UPDATING data to tables `privileges_mc` fields ( `cirrus_mail`, `external_mail`, `leave_notification`, `notes`, `leave_rejection`, `leave_approval`, `leave_edit`, `notes_approval`, `notes_rejection`, `sms`, `notes_attchment` ) values (1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0) on conditions employee = boek001
+14:17:42 gine001 Gilad Nevo INSERTING data into tables `privileges_reports` fields ( employee, customer_schedule, customer_horizontal, customer_overview, customer_vacation_planning, employee_leave, employee_percentage, employee_schedule, employee_workreport, customer_data, customer_leave, customer_granded_vs_used, customer_employee_connection, employee_data ) values ( boek001, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0 ) => {inserted_id = 0}
+14:17:42 gine001 Gilad Nevo UPDATING data to tables `privileges` fields ( swap, process, add_slot, fkkn, slot_type, add_employee, remove_employee, `leave`, copy_single_slot, copy_single_slot_option, copy_day_slot, copy_day_slot_option, split_slot, delete_slot, delete_day_slot, add_customer, remove_customer ) values (1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0) on conditions employee = boek001
+14:17:42 gine001 Gilad Nevo UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day, remaining_sem_leave, sem_leave_todate, leave_in_advance, care_of, office_personal, substitute, salary_type, sem_leave_days, vab_leave_days, fp_leave_days, nopay_leave_days, other_leave_days, inconvenient_on ) values (20029, 19, 7809128817, Bo, Ek, 1, , , , , , , 2015-08-13, #cc0000, 1, , , 0, 10.00, 0, , , , , 0, 1, 1, 0, 1, 0, 0, 1) on conditions username = boek001
+14:18:10 boek001  DELETE data from tables `temp_session` on conditions username LIKE boek001 #Mobile-App: Log-id=3811
+14:18:10 boek001  UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-10-01 12:18:10) on conditions username = boek001 #Mobile-App: Log-id=3811
+14:18:12 boek001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( boek001, 77.218.247.119, android ) => {inserted_id = 3813} #Mobile-App: Log-id=3811
+14:19:35 boek001  INSERTING data into tables `report_signing` fields ( employee, customer, date, signin_employee, signin_date, signin_tl, signin_tl_date, signin_sutl, signin_sutl_date ) values ( boek001, stli001, 2015-9-01, boek001, 2015-10-01 14:19:35, , , ,  ) => {inserted_id = 58} #Mobile-App: Log-id=3813
+14:29:53 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirruscommon`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, category_id, priority, ticket_type, status, hidden ) values ( 446, gine001, Om det är bara hon som inte kan då känns det som det något lokalt.
+Vi har testat här och ser inga problem. Kan du skicka en bild?, 11, 4, 1, 3, 0 ) => {inserted_id = 1437}
+17:08:11 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+17:08:11 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2015-10-01 15:08:11) on conditions username = gine001
+17:08:11   UPDATING data to tables `log_login` fields ( logout_time ) values (2015-10-01:15:08:11) on conditions id = 3812 AND username = gine001
+21:44:33 boek001  UPDATING data to tables `mc_leave` fields ( read_users ) values (inch001,gine001,dodo001,boek001) on conditions leave_id = 92 #Mobile-App: Log-id=3814
+21:44:33 boek001  UPDATING data to tables `mc_leave` fields ( read_users ) values (inch001,gine001,dodo001,boek001) on conditions leave_id = 91 #Mobile-App: Log-id=3814
+21:44:43 boek001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( boek001, 85.227.155.192, android ) => {inserted_id = 3815} #Mobile-App: Log-id=3814

@@ -1,0 +1,9 @@
+13:16:19 gine001  UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+13:16:19 gine001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.220.212, Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36 ) => {inserted_id = 4911}
+13:16:19 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+13:16:19 gine001  UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-05-24 13:16:19) on conditions username = gine001
+13:16:19 gine001  UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-05-24 13:16:19) on conditions username = gine001 AND company_id = 6
+13:26:20 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+13:26:20 gine001  UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2016-05-24 13:26:20) on conditions username = gine001
+13:26:20 gine001  UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-05-24 13:26:20) on conditions username = gine001 AND company_id = 6
+13:26:20   UPDATING data to tables `log_login` fields ( logout_time ) values (2016-05-24:11:26:20) on conditions id = 4911 AND username = gine001

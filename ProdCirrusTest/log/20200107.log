@@ -1,0 +1,10 @@
+05:53:13 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 58.64.23.148, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0 ) => {inserted_id = 10862}
+05:53:13 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+05:53:13 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-01-07 05:53:13) on conditions username = gine001
+05:53:13 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-01-07 05:53:13) on conditions username = gine001 AND company_id = 6
+14:01:52 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 171.5.163.20, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0 ) => {inserted_id = 10863}
+14:01:52 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+14:01:52 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-01-07 14:01:52) on conditions username = gine001
+14:01:52 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-01-07 14:01:52) on conditions username = gine001 AND company_id = 6
+14:01:54 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 1cf5080e90ff384ec0ddd83165e21985
+14:02:36 gine001 Gilad Nevo INSERTING data into tables `email` fields ( `from`, `to`, subject, message ) values ( gine001, Gilad Nevo<gn.nevo@gmail.com>, , test från Cirrus extern mail, testmail external ) => {inserted_id = 24}

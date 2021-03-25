@@ -1,0 +1,15 @@
+13:00:45 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 223.30.129.234, Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0 ) => {inserted_id = 5236}
+13:00:45 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+13:00:45 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-09-17 13:00:45) on conditions username = dodo001
+13:00:45 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-09-17 13:00:45) on conditions username = dodo001 AND company_id = 6
+13:00:46 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = eifs3ungd3pcnr247stfb1pn81
+13:01:31 dodo001 Admin Cirrus INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( chyi001, stal001, 1, 0, 2016-09-12, 1, 5, 1, , dodo001,  ) => {inserted_id = 9819}
+13:01:31 dodo001 Admin Cirrus INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( stal001, 1, 5, 0 ) => {inserted_id = 413}
+13:01:45 dodo001 Admin Cirrus DELETE data from tables `timetable` on conditions id = 9819
+13:02:14 dodo001 Admin Cirrus INSERTING data into tables `temp_session` fields ( username, type, details ) values ( dodo001, 1, 9651,9652,9653,9654,9655 ) => {inserted_id = 0}
+13:02:22 dodo001 Admin Cirrus INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment, relation_id ) values ( thne001, stal001, 1, 12, 2016-09-12, 8.00, 11.10, 1, , dodo001, ,  ), ( thne001, stal001, 1, 13, 2016-09-12, 11.10, 11.15, 1, , dodo001, ,  ), ( thne001, stal001, 1, 12, 2016-09-12, 11.15, 24.00, 1, , dodo001, ,  ), ( thne001, stal001, 1, 13, 2016-09-13, 0.00, 5.45, 1, , dodo001, ,  ), ( thne001, stal001, 1, 12, 2016-09-13, 5.45, 8.00, 1, , dodo001, ,  ) => {inserted_id = 9820}
+13:02:48 dodo001 Admin Cirrus DELETE data from tables `timetable` on conditions id = 9823
+13:03:16 dodo001 Admin Cirrus DELETE data from tables `timetable` on conditions id = 9820
+13:03:30 dodo001 Admin Cirrus DELETE data from tables `timetable` on conditions id = 9821
+13:03:45 dodo001 Admin Cirrus DELETE data from tables `timetable` on conditions id = 9824
+13:04:00 dodo001 Admin Cirrus DELETE data from tables `timetable` on conditions id = 9822

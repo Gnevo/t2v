@@ -1,0 +1,12 @@
+07:18:10 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 77.125.24.16, Mozilla/5.0 (Windows NT 10.0; WOW64; rv:48.0) Gecko/20100101 Firefox/48.0 ) => {inserted_id = 5189}
+07:18:10 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+07:18:10 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-09-02 07:18:10) on conditions username = gine001
+07:18:10 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-09-02 07:18:10) on conditions username = gine001 AND company_id = 6
+07:18:11 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = fegbvrjf73phj4sed28be4sb64
+07:27:50 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+07:27:50 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 77.125.24.16, android ) => {inserted_id = 5190}
+07:27:50 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+07:27:51 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-09-02 07:27:50) on conditions username = gine001
+07:27:51 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-09-02 07:27:50) on conditions username = gine001 AND company_id = 6
+07:28:22 gine001 Gilad Nevo INSERTING data into tables `user_task` fields ( userid, dag, start_time, customer ) values ( gine001, 2016-09-02, 7:28:22, anst007 ) => {inserted_id = 116} #Mobile-App: Log-id=5190
+07:31:58 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = fegbvrjf73phj4sed28be4sb64

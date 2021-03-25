@@ -1,0 +1,12 @@
+16:30:12 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 89.233.236.131, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0 ) => {inserted_id = 11177}
+16:30:12 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+16:30:12 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-07-07 16:30:12) on conditions username = gine001
+16:30:12 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-07-07 16:30:12) on conditions username = gine001 AND company_id = 6
+16:30:14 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = f68183828e50b431321c2417e6b7d85f
+16:30:53 gine001 Gilad Nevo DELETE data from tables `user_task` on conditions id = 240
+16:31:21 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = f68183828e50b431321c2417e6b7d85f
+16:31:53 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( inch001, hela004, 1, 0, 2020-07-07, 9.44, 10.24, 1, , gine001,  ) => {inserted_id = 18230}
+16:31:53 gine001 Gilad Nevo INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( hela004, 9.44, 10.24, 0 ) => {inserted_id = 688}
+16:32:18 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , hela004, 1, 0, 2020-07-08, 9.24, 10, 0, , gine001,  ) => {inserted_id = 18231}
+16:32:18 gine001 Gilad Nevo INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( hela004, 9.24, 10, 0 ) => {inserted_id = 689}
+16:32:35 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (hela004, inch001, 2020-07-08, 9.24, 10.00, 1, 0, 1, ) on conditions id = 18231

@@ -1,0 +1,6 @@
+14:05:39 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+14:05:39 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 89.233.236.131, okhttp/3.9.1 ) => {inserted_id = 11070}
+14:05:39 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+14:05:39 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-04-01 14:05:39) on conditions username = gine001
+14:05:40 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-04-01 14:05:39) on conditions username = gine001 AND company_id = 6
+14:05:40 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirruscommon`.`push_notify_tokens` fields ( user_id, fcm_token, device_id, device_details, created_date, error ) values ( gine001, dPCgfWR01oQ:APA91bF8wUnaGl-7sU3knCNfH2Kberbwzp8jZFFbRVfIvIg5fM3jkqTLvY_dxxCOufO8cVq8A0YemS5JbM5SPEpAUfzk1_KJ0LTTHvaCu4wb1-kZqMLqst67GhLlSALDPz85mkahGd9P, 11be410821a2e93f, okhttp/3.9.1, 2020-04-01 14:05:40, 0 ) => {inserted_id = 15540} #Mobile-App: Log-id=11070

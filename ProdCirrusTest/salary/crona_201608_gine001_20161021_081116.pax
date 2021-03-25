@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<paxml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.paxml.se/2.0/paxml.xsd">
+  <header>
+    <format>LÖNIN</format>
+    <version>2.0</version>
+    <foretagnamn>CirrusTest</foretagnamn>
+  </header>
+  <dimensioner>
+    <dimension dim="1" namn="Brukare"/>
+  </dimensioner>
+  <resultatenheter>
+    <resultatenhet dim="1" id="1-10203" namn="Stina Librovich"/>
+    <resultatenhet dim="1" id="001" namn="Anne Stål"/>
+  </resultatenheter>
+  <lonetransaktioner>
+    <lonetrans persnr="191441122338">
+      <lonart>36</lonart>
+      <antal>6</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-10203"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="191441122338">
+      <lonart>36</lonart>
+      <antal>4</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-10203"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="191441122338">
+      <lonart>34</lonart>
+      <antal>2.75</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-10203"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="191441122338">
+      <lonart>9</lonart>
+      <antal>10.75</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-10203"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="191441122338">
+      <lonart>9</lonart>
+      <antal>6</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-10203"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="191441122338">
+      <lonart>9</lonart>
+      <antal>3</antal>
+      <resenheter>
+        <resenhet dim="1" id="001"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="191441122338">
+      <lonart>87</lonart>
+      <antal>2</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-10203"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="191441122338">
+      <lonart>87</lonart>
+      <antal>2</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-10203"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="191441122338">
+      <lonart>87</lonart>
+      <antal>4</antal>
+      <resenheter>
+        <resenhet dim="1" id="001"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="191441122338">
+      <lonart>1</lonart>
+      <antal>8</antal>
+      <datum>2016-08-08</datum>
+      <resenheter>
+        <resenhet dim="1" id="1-10203"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="191441122338">
+      <lonart>52</lonart>
+      <antal>5</antal>
+      <datum>2016-08-09</datum>
+      <resenheter>
+        <resenhet dim="1" id="1-10203"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="191441122338">
+      <lonart>450</lonart>
+      <antal>2</antal>
+      <datum>2016-08-09</datum>
+      <resenheter>
+        <resenhet dim="1" id="1-10203"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="191441122338">
+      <lonart>100</lonart>
+      <antal>9.75</antal>
+      <datum>2016-08-09</datum>
+      <resenheter>
+        <resenhet dim="1" id="1-10203"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="191441122338">
+      <lonart>50</lonart>
+      <antal>2.75</antal>
+      <datum>2016-08-09</datum>
+      <resenheter>
+        <resenhet dim="1" id="1-10203"/>
+      </resenheter>
+    </lonetrans>
+  </lonetransaktioner>
+</paxml>

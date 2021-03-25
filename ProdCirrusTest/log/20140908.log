@@ -1,0 +1,24 @@
+11:47:56 than001 Thomas Andersson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( than001, 85.227.156.14, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.103 Safari/537.36 ) => {inserted_id = 1750}
+11:51:12   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = than001
+11:51:12   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-09-08:09:51:12) on conditions id = 1750 AND username = than001
+12:54:05 gine001 root001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( gine001, stal001, 1, 0, 2014-09-08, 14, 15, 1, , gine001,  ) => {inserted_id = 5654}
+12:54:05 gine001 root001 INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( stal001, 13.00, 13.30, 0 ) => {inserted_id = 218}
+12:54:05 gine001 root001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( gine001, stal001, 1, 0, 2014-09-08, 13.00, 13.30, 1, , gine001,  ) => {inserted_id = 5655}
+12:55:17 gine001 root001 DELETE data from tables `inconvenient_timing_customer` on conditions root_id = 6
+12:55:17 gine001 root001 DELETE data from tables `inconvenient_timing_customer` on conditions id = 6
+12:55:17 gine001 root001 INSERTING data into tables `inconvenient_timing_customer` fields ( root_id, group_id, name, customer, effect_from, effect_to, time_from, time_to, days, amount, nature ) values ( 0, 4, Jour vardag, stal001, 2014-07-01, , 18.30, 24, 1,2,3,4,, 0.00, 0 ) => {inserted_id = 7}
+12:55:17 gine001 root001 INSERTING data into tables `inconvenient_timing_customer` fields ( root_id, group_id, name, customer, effect_from, effect_to, time_from, time_to, days, amount, nature ) values ( 7, 4, Jour vardag, stal001, 2014-07-01, , 0, 7.00, 2,3,4,5,, 0.00, 0 ) => {inserted_id = 8}
+13:37:35 gine001 root001 UPDATING data to tables `timetable` fields ( status, comment ) values (1, ) on conditions id = 5652
+13:37:40 gine001 root001 UPDATING data to tables `timetable` fields ( status, comment ) values (1, ) on conditions id = 5653
+13:41:22 gine001 root001 UPDATING data to tables `timetable` fields ( time_from, time_to ) values (14.15, 15.00) on conditions id = 5654
+13:47:28 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 223.30.129.234, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/37.0.2062.94 Chrome/37.0.2062.94 Safari/537.36 ) => {inserted_id = 1753}
+13:47:28 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+15:12:17 gine001 root001 UPDATING data to tables `timetable` fields ( status, comment ) values (1, ) on conditions id = 5655
+15:12:17 gine001 root001 UPDATING data to tables `timetable` fields ( status, comment ) values (1, ) on conditions id = 5654
+15:12:56 gine001 root001 UPDATING data to tables `timetable` fields ( comment ) values (skapat pass) on conditions id = 5655
+15:13:42 gine001 root001 UPDATING data to tables `timetable` fields ( comment ) values (skapat pass manuellt) on conditions id = 5655
+15:14:14 gine001 root001 UPDATING data to tables `timetable` fields ( comment ) values (Skapat manuellt) on conditions id = 5654
+15:14:45 gine001 root001 UPDATING data to tables `timetable` fields ( status, comment ) values (1, Skapat som fyllnadspass av appen) on conditions id = 5656
+15:14:47 gine001 root001 UPDATING data to tables `timetable` fields ( comment ) values (Skapat som fyllnadspass av appen) on conditions id = 5656
+15:27:37   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+15:27:37   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-09-08:13:27:37) on conditions id = 1753 AND username = gine001

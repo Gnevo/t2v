@@ -1,0 +1,16 @@
+08:39:44 kaek001 Katarina adena INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( kaek001, 89.253.75.50, Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36 ) => {inserted_id = 2308}
+08:39:44 kaek001 Katarina adena DELETE data from tables `temp_session` on conditions username LIKE kaek001
+08:39:44 kaek001 Katarina adena UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = kaek001
+08:39:45 kaek001 Katarina adena UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (kaek001) on conditions session_id = 39a43e1e5e054f26fbb95261334d2c2c
+08:39:58 kaek001 Katarina adena UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,jata001,clke001,wita001,than001,rokl001,kaek001) on conditions leave_id = 5
+08:39:58 kaek001 Katarina adena UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,jata001,clke001,than001,rokl001,kaek001) on conditions leave_id = 6
+08:39:58 kaek001 Katarina adena UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,jata001,clke001,wita001,than001,rokl001,kaek001) on conditions leave_id = 7
+08:39:58 kaek001 Katarina adena UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,jata001,clke001,wita001,than001,lobr002,rokl001,kaek001) on conditions leave_id = 9
+08:39:58 kaek001 Katarina adena UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,jata001,clke001,wita001,than001,kaek001) on conditions leave_id = 3
+08:39:58 kaek001 Katarina adena UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,jata001,clke001,wita001,than001,kaek001) on conditions leave_id = 2
+08:39:58 kaek001 Katarina adena UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,jata001,clke001,wita001,than001,kaek001) on conditions leave_id = 1
+08:42:16 kaek001 Katarina adena UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (kaek001) on conditions session_id = 39a43e1e5e054f26fbb95261334d2c2c
+08:46:08 kaek001 Katarina adena UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (kaek001) on conditions session_id = 39a43e1e5e054f26fbb95261334d2c2c
+08:47:03 kaek001 Katarina adena DELETE data from tables `temp_session` on conditions username LIKE kaek001
+08:47:03 kaek001 Katarina adena UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = kaek001
+08:47:03   UPDATING data to tables `log_login` fields ( logout_time ) values (2015-03-27:07:47:03) on conditions id = 2308 AND username = kaek001

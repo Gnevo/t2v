@@ -1,0 +1,56 @@
+12:47:29 inbe006 Ingeborg Bergren INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( inbe006, 85.229.51.54, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36 ) => {inserted_id = 8142}
+12:47:29 inbe006 Ingeborg Bergren DELETE data from tables `temp_session` on conditions username LIKE inbe006
+12:47:29 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-03-13 12:47:29) on conditions username = inbe006
+12:47:29 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-03-13 12:47:29) on conditions username = inbe006 AND company_id = 21
+12:47:29 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = 0c9d154049a044de480eea03c5a1cf87
+12:50:24 inbe006 Ingeborg Bergren INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( inbe006, 85.229.51.54, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36 ) => {inserted_id = 8143}
+12:50:24 inbe006 Ingeborg Bergren DELETE data from tables `temp_session` on conditions username LIKE inbe006
+12:50:24 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-03-13 12:50:24) on conditions username = inbe006
+12:50:24 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-03-13 12:50:24) on conditions username = inbe006 AND company_id = 21
+12:50:25 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = 1e2b6ebf50ec08921bf8b9232c6139d0
+12:54:23 inbe006 Ingeborg Bergren INSERTING data into tables `time2vie_cirruscommon`.`login` fields ( username, mobile, role, login, date, company_ids, social_security ) values ( miol005, , 4, 0, 2020-03-13, 21,, 0310029376 ) => {inserted_id = 0}
+12:54:23 inbe006 Ingeborg Bergren INSERTING data into tables `time2vie_cirruscommon`.`secondary_login` fields ( username, company_id, last_login_time, last_pw_update_date, error, password ) values ( miol005, 21, 0000-00-00 00:00:00, 2020-03-13, 0, e23ed3da13abc3b3da2b711d207c7208 ) => {inserted_id = 9251}
+12:54:23 inbe006 Ingeborg Bergren INSERTING data into tables `customer` fields ( username, century, code, social_security, first_name, last_name, address, city, post, phone, mobile, email, date, status, date_inactive, fkkn, gender, employee_contract_start_month, employee_contract_period_date, employee_contract_period_length, kn_name, kn_address, kn_postno, kn_reference_no, kn_box, kn_city ) values ( miol005, 19, 1-1-13, 0310029376, Mike, Olsson, Smårisvägen 24, Deje, 66931, , , , 2020-04-01, 1, , 1, 1, , , , , , , , ,  ) => {inserted_id = 0}
+12:54:23 inbe006 Ingeborg Bergren INSERTING data into tables `team` fields ( customer, employee, role ) values ( miol005, inbe006, 3 ) => {inserted_id = 0}
+13:04:22 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = 1e2b6ebf50ec08921bf8b9232c6139d0
+14:01:22 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = 1e2b6ebf50ec08921bf8b9232c6139d0
+15:16:35 inbe006 Ingeborg Bergren INSERTING data into tables `temp_session` fields ( username, type, details ) values ( inbe006, 1, 3260 ) => {inserted_id = 0}
+15:26:13 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( employee, status ) values (, 0) on conditions id = 3240
+15:26:26 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( employee, status ) values (, 0) on conditions id = 3327
+15:26:40 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( employee, status ) values (, 0) on conditions id = 3292
+15:26:53 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( employee, status ) values (, 0) on conditions id = 3329
+15:27:07 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( employee, status ) values (, 0) on conditions id = 3245
+15:27:18 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( employee, status ) values (, 0) on conditions id = 3332
+15:28:09 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( employee, status ) values (, 0) on conditions id = 3265
+15:28:09 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( employee, status ) values (, 0) on conditions id = 3210
+15:28:09 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( employee, status ) values (, 0) on conditions id = 3267
+15:28:09 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( employee, status ) values (, 0) on conditions id = 3212
+15:28:32 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 3265
+15:28:32 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 3210
+15:28:32 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 3267
+15:28:32 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 3212
+15:29:11 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 3240
+15:29:11 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 3327
+15:29:11 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 3292
+15:29:11 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 3329
+15:29:11 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 3245
+15:29:11 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 3332
+15:43:12 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = 1e2b6ebf50ec08921bf8b9232c6139d0
+15:43:16 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = 1e2b6ebf50ec08921bf8b9232c6139d0
+15:44:27 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = 1e2b6ebf50ec08921bf8b9232c6139d0
+15:44:33 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = 1e2b6ebf50ec08921bf8b9232c6139d0
+17:17:20 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = rute001 AND company_id = 21
+17:17:20 rute001 Ruta Teklehaimanot INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rute001, 85.224.30.125, okhttp/3.9.1 ) => {inserted_id = 8144}
+17:17:20 rute001 Ruta Teklehaimanot DELETE data from tables `temp_session` on conditions username LIKE rute001
+17:17:20 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-03-13 17:17:20) on conditions username = rute001
+17:17:20 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-03-13 17:17:20) on conditions username = rute001 AND company_id = 21
+18:12:03 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = rute001 AND company_id = 21
+18:12:03 rute001 Ruta Teklehaimanot INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rute001, 85.224.30.125, okhttp/3.9.1 ) => {inserted_id = 8145}
+18:12:03 rute001 Ruta Teklehaimanot DELETE data from tables `temp_session` on conditions username LIKE rute001
+18:12:03 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-03-13 18:12:03) on conditions username = rute001
+18:12:03 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-03-13 18:12:03) on conditions username = rute001 AND company_id = 21
+00:46:56 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = rute001 AND company_id = 21
+00:46:56 rute001 Ruta Teklehaimanot INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rute001, 78.68.12.244, okhttp/3.9.1 ) => {inserted_id = 8146}
+00:46:56 rute001 Ruta Teklehaimanot DELETE data from tables `temp_session` on conditions username LIKE rute001
+00:46:56 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-03-14 00:46:56) on conditions username = rute001
+00:46:56 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-03-14 00:46:56) on conditions username = rute001 AND company_id = 21

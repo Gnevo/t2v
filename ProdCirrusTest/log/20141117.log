@@ -1,0 +1,4 @@
+16:05:09 thne001 Theodor Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( thne001, 46.194.97.188, Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0 ) => {inserted_id = 2028}
+17:05:48 thne001 Theodor Nevo DELETE data from tables `temp_session` on conditions username LIKE thne001
+17:05:48 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = thne001
+17:05:48   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-11-17:16:05:48) on conditions id = 2028 AND username = thne001

@@ -1,0 +1,33 @@
+10:24:44 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 46.194.233.71, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36 ) => {inserted_id = 1473}
+10:24:44 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+11:15:53 than001 Thomas Andersson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( than001, 115.248.24.177, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/32.0.1700.102 Chrome/32.0.1700.102 Safari/537.36 ) => {inserted_id = 1474}
+11:15:53 than001 Thomas Andersson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = than001
+11:16:46 than001 Thomas Andersson DELETE data from tables `report_signing` on conditions employee = than001 AND customer = adan001 AND date = 2014-1-1
+11:17:01   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = than001
+11:17:01   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-02-17:10:17:01) on conditions id = 1474 AND username = than001
+11:17:24 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 115.248.24.177, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/32.0.1700.102 Chrome/32.0.1700.102 Safari/537.36 ) => {inserted_id = 1475}
+11:17:24 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+11:17:58 gine001 Gilad Nevo INSERTING data into tables `report_signing` fields ( employee, customer, date, signin_employee, signin_date, signin_tl, signin_tl_date, signin_sutl, signin_sutl_date ) values ( than001, adan001, 2014-1-1, gine001, 2014-02-17 10:17:58, gine001, 2014-02-17 10:17:58, gine001, 2014-02-17 10:17:58 ) => {inserted_id = 23}
+11:18:20 gine001 Gilad Nevo DELETE data from tables `report_signing` on conditions employee = than001 AND customer = adan001 AND date = 2014-1-1
+11:18:27 gine001 Gilad Nevo INSERTING data into tables `report_signing` fields ( employee, customer, date, signin_employee, signin_date, signin_tl, signin_tl_date, signin_sutl, signin_sutl_date ) values ( than001, adan001, 2014-1-1, gine001, 2014-02-17 10:18:27, gine001, 2014-02-17 10:18:27, gine001, 2014-02-17 10:18:27 ) => {inserted_id = 24}
+11:20:57 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 115.248.24.177, Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko ) => {inserted_id = 1476}
+11:20:57 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+11:21:25 gine001 Gilad Nevo DELETE data from tables `report_signing` on conditions employee = than001 AND customer = adan001 AND date = 2014-1-1
+11:21:34 gine001 Gilad Nevo INSERTING data into tables `report_signing` fields ( employee, customer, date, signin_employee, signin_date, signin_tl, signin_tl_date, signin_sutl, signin_sutl_date ) values ( than001, adan001, 2014-1-1, gine001, 2014-02-17 10:21:34, gine001, 2014-02-17 10:21:34, gine001, 2014-02-17 10:21:34 ) => {inserted_id = 25}
+11:21:37   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+11:21:37   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-02-17:10:21:37) on conditions id = 1476 AND username = gine001
+11:30:56 gine001 Gilad Nevo INSERTING data into tables `report_signing` fields ( employee, customer, date, signin_employee, signin_date, signin_tl, signin_tl_date, signin_sutl, signin_sutl_date ) values ( gine001, stal001, 2014-1-1, gine001, 2014-02-17 10:30:56, gine001, 2014-02-17 10:30:56, gine001, 2014-02-17 10:30:56 ) => {inserted_id = 26}
+11:32:05 gine001 Gilad Nevo DELETE data from tables `report_signing` on conditions employee = gine001 AND customer = stal001 AND date = 2014-1-1
+11:32:47 gine001 Gilad Nevo INSERTING data into tables `report_signing` fields ( employee, customer, date, signin_employee, signin_date, signin_tl, signin_tl_date, signin_sutl, signin_sutl_date ) values ( gine001, stal001, 2014-1-1, gine001, 2014-02-17 10:32:46, gine001, 2014-02-17 10:32:46, gine001, 2014-02-17 10:32:46 ) => {inserted_id = 27}
+11:33:54 gine001 Gilad Nevo DELETE data from tables `report_signing` on conditions employee = gine001 AND customer = stal001 AND date = 2014-1-1
+11:56:55   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+11:56:55   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-02-17:10:56:55) on conditions id = 1475 AND username = gine001
+13:17:56 than001 Thomas Andersson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( than001, 62.20.69.14, Mozilla/5.0 (Windows NT 6.1; WOW64; rv:26.0) Gecko/20100101 Firefox/26.0 ) => {inserted_id = 1477}
+13:17:56 than001 Thomas Andersson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = than001
+13:18:05 than001 Thomas Andersson INSERTING data into tables `mc_leave` fields ( leave_id, leave_status, read_users ) values ( 56, 1, than001 ) => {inserted_id = 60}
+13:18:05 than001 Thomas Andersson INSERTING data into tables `mc_leave` fields ( leave_id, leave_status, read_users ) values ( 55, 1, than001 ) => {inserted_id = 61}
+13:18:05 than001 Thomas Andersson INSERTING data into tables `mc_leave` fields ( leave_id, leave_status, read_users ) values ( 54, 1, than001 ) => {inserted_id = 62}
+17:11:19 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 46.194.209.226, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36 ) => {inserted_id = 1478}
+17:11:19 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+17:31:45   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+17:31:45   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-02-17:16:31:45) on conditions id = 1478 AND username = gine001

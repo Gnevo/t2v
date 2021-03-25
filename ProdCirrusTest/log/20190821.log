@@ -1,0 +1,28 @@
+07:23:39 joef001 Peter Freij INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( joef001, 85.228.198.188, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0 ) => {inserted_id = 9679}
+07:23:39 joef001 Peter Freij DELETE data from tables `temp_session` on conditions username LIKE joef001
+07:23:39 joef001 Peter Freij UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-08-21 07:23:39) on conditions username = joef001
+07:23:40 joef001 Peter Freij UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-08-21 07:23:39) on conditions username = joef001 AND company_id = 6
+07:23:41 joef001 Peter Freij UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (joef001) on conditions session_id = 8daed65098bd71e304c666db510236e4
+07:24:07 joef001 Peter Freij UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (joef001) on conditions session_id = 8daed65098bd71e304c666db510236e4
+07:30:45 joef001 Peter Freij INSERTING data into tables `time2vie_cirruscommon`.`support_ticket_master` fields ( company_id, category_type ) values ( 6, 2 ) => {inserted_id = 2363}
+07:30:45 joef001 Peter Freij INSERTING data into tables `time2vie_cirruscommon`.`support_tickets` fields ( id, created_user, category_id, ticket_type, priority, title, description, attachment, status ) values ( 2363, joef001, 1, 2, 2, Changing from Monthly view, Assistant, to any customer, <p>When changing from Monthly view, Customer, to Assistant view we only offer the option to change to the customer’s assistants. </p><p>When changing from Monthly view, Assistant, to Customer view we offer the option to change to any customer. </p><p>My suggestion: </p><p>When changing from Monthly view, Assistant, to Customer view we offer the option to change to any of the assistant's customer.<br></p>, , 1 ) => {inserted_id = 0}
+08:02:23 joef001 Peter Freij INSERTING data into tables `history_certification_report` fields ( employee, file ) values ( joef001, Certificate_907975490.pdf ) => {inserted_id = 26}
+08:06:43 joef001 Peter Freij INSERTING data into tables `history_certification_report` fields ( employee, file ) values ( joef001, Certificate_655726603.pdf ) => {inserted_id = 27}
+13:49:07 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+13:49:07 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 89.233.236.131, Time2View/1 CFNetwork/978.0.7 Darwin/18.7.0 ) => {inserted_id = 9680}
+13:49:07 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+13:49:08 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-08-21 13:49:07) on conditions username = gine001
+13:49:08 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-08-21 13:49:07) on conditions username = gine001 AND company_id = 6
+13:49:32 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6 #Mobile-App: Log-id=9680
+13:49:32 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 89.233.236.131, Time2View/1 CFNetwork/978.0.7 Darwin/18.7.0 ) => {inserted_id = 9681} #Mobile-App: Log-id=9680
+13:49:32 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001 #Mobile-App: Log-id=9681
+13:49:32 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-08-21 13:49:32) on conditions username = gine001 #Mobile-App: Log-id=9681
+13:49:32 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-08-21 13:49:32) on conditions username = gine001 AND company_id = 6 #Mobile-App: Log-id=9681
+17:41:08 gine001 gine001 UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (1) on conditions username = gine001 AND company_id = 6
+17:41:18 gine001 gine001 UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (2) on conditions username = gine001 AND company_id = 6
+17:41:27 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+17:41:27 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 89.233.236.131, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0 ) => {inserted_id = 9682}
+17:41:27 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+17:41:27 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-08-21 17:41:27) on conditions username = gine001
+17:41:27 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-08-21 17:41:27) on conditions username = gine001 AND company_id = 6
+17:41:29 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = f7e59a1fed4ce044ad3b01f10e734590

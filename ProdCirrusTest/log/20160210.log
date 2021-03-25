@@ -1,0 +1,16 @@
+10:45:05 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+10:45:06 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.114.242, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36 ) => {inserted_id = 4568}
+10:45:06 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+10:45:06 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-02-10 09:45:06) on conditions username = gine001
+10:47:49 gine001 Gilad Nevo UPDATING data to tables `customer_documentation` fields ( created_date, customer, employee, completed_date, subject, note_type, notes, priority, description, status, writable ) values (2015-04-27 11:17:49, anst007, , 1970-01-01 00:00:00, tets doc, dokumentation, <p class="note_block_head">Datum: 2016-02-10 09:47   Dokumenterat av: Gilad Nevo</p></br/><p>test</p><hr/>test doc
+vad ska hända på onsdag?, , <p><br></p>, paborjad, 0) on conditions id = 51
+12:36:24 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 223.30.129.234, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36 ) => {inserted_id = 4569}
+12:36:24 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+12:36:24 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-02-10 11:36:24) on conditions username = dodo001
+12:36:28 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = o8co0ujmqcsq9o5r9nodtnfgu0
+12:37:01 dodo001 Admin Cirrus UPDATING data to tables `employee` fields ( language ) values (en) on conditions username = dodo001
+14:39:43 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+14:39:43 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.114.242, Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:43.0) Gecko/20100101 Firefox/43.0 ) => {inserted_id = 4570}
+14:39:43 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+14:39:44 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-02-10 13:39:43) on conditions username = gine001
+14:39:52 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = e407u74rmlacihppoa0b325ed0

@@ -1,0 +1,72 @@
+07:32:06 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 223.30.129.234, Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0 ) => {inserted_id = 5809}
+07:32:06 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+07:32:06 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2017-05-12 07:32:06) on conditions username = dodo001
+07:32:06 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-05-12 07:32:06) on conditions username = dodo001 AND company_id = 6
+07:32:06 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = e98dab66dfca18476328dc125ccb5b1b
+07:35:45 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( password, mobile, role, error, date ) values (e23ed3da13abc3b3da2b711d207c7208, 7358989898, 3, 0, 2017-05-12) on conditions username = anfr005
+07:35:45 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( password, error, last_pw_update_date ) values (e23ed3da13abc3b3da2b711d207c7208, 0, 2017-05-12 05:35:45) on conditions username = anfr005 AND company_id = 6
+07:35:45 dodo001 Admin Cirrus UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day, remaining_sem_leave, sem_leave_todate, leave_in_advance, care_of, office_personal, substitute, salary_type, sem_leave_days, vab_leave_days, fp_leave_days, nopay_leave_days, other_leave_days, ice, inconvenient_on ) values (7, 19, 6902171989, Anne, Franchesca, 2, Skogsvägen 6, Vtr, 8552, , 7358989898, , 2013-05-23, #c90000, 1, , , 0, 10.00, 0, , 0, , 0, 0, 1, 1, 0, 1, 0, 0, , 0) on conditions username = anfr005
+07:35:46 dodo001 Admin Cirrus DELETE data from tables `team` on conditions employee = anfr005
+07:35:46 dodo001 Admin Cirrus INSERTING data into tables `team` fields ( customer, employee, role ) values ( stbj001, anfr005, 3 ) => {inserted_id = 0}
+07:36:03 anfr005 Anne Franchesca INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( anfr005, 223.30.129.234, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.75 Safari/537.36 ) => {inserted_id = 5810}
+07:36:03 anfr005 Anne Franchesca DELETE data from tables `temp_session` on conditions username LIKE anfr005
+07:36:03 anfr005 Anne Franchesca UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2017-05-12 07:36:03) on conditions username = anfr005
+07:36:03 anfr005 Anne Franchesca UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-05-12 07:36:03) on conditions username = anfr005 AND company_id = 6
+07:36:04 anfr005 Anne Franchesca UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (anfr005) on conditions session_id = a2041d0ad27d68cd676e35c6c71687de
+07:36:34 anfr005 Anne Franchesca UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (anfr005) on conditions session_id = a2041d0ad27d68cd676e35c6c71687de
+07:52:48 anfr005 Anne Franchesca UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (anfr005) on conditions session_id = a2041d0ad27d68cd676e35c6c71687de
+08:10:46 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 223.30.129.234, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 ) => {inserted_id = 5811}
+08:10:46 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+08:10:46 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2017-05-12 08:10:46) on conditions username = dodo001
+08:10:46 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-05-12 08:10:46) on conditions username = dodo001 AND company_id = 6
+08:10:46 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = d7834e2fa17ffdcc8d0bd50688661ba5
+08:11:25 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = d7834e2fa17ffdcc8d0bd50688661ba5
+08:11:33 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 223.30.129.234, Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0 ) => {inserted_id = 5812}
+08:11:33 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+08:11:33 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2017-05-12 08:11:33) on conditions username = dodo001
+08:11:33 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-05-12 08:11:33) on conditions username = dodo001 AND company_id = 6
+08:11:34 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = e98dab66dfca18476328dc125ccb5b1b
+08:12:02 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+08:12:02 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2017-05-12 08:12:02) on conditions username = dodo001
+08:12:02 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-05-12 08:12:02) on conditions username = dodo001 AND company_id = 6
+08:12:02   UPDATING data to tables `log_login` fields ( logout_time ) values (2017-05-12:06:12:02) on conditions id = 5812 AND username = dodo001
+08:12:10 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.154.186, Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko ) => {inserted_id = 5813}
+08:12:10 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+08:12:10 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2017-05-12 08:12:10) on conditions username = gine001
+08:12:10 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-05-12 08:12:10) on conditions username = gine001 AND company_id = 6
+08:12:10 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = caa500c0741ce82565543d7cf977137d
+08:12:13 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 223.30.129.234, Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0 ) => {inserted_id = 5814}
+08:12:13 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+08:12:13 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2017-05-12 08:12:13) on conditions username = dodo001
+08:12:13 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-05-12 08:12:13) on conditions username = dodo001 AND company_id = 6
+08:12:14 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = 73374cc8609e0f2237694dad535fa331
+08:12:21 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = caa500c0741ce82565543d7cf977137d
+08:12:26 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = d7834e2fa17ffdcc8d0bd50688661ba5
+08:12:29 anfr005 Anne Franchesca UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (anfr005) on conditions session_id = a2041d0ad27d68cd676e35c6c71687de
+08:13:48 anfr005 Anne Franchesca DELETE data from tables `temp_session` on conditions username LIKE anfr005
+08:13:48 anfr005 Anne Franchesca UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2017-05-12 08:13:48) on conditions username = anfr005
+08:13:49 anfr005 Anne Franchesca UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-05-12 08:13:48) on conditions username = anfr005 AND company_id = 6
+08:13:49 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = caa500c0741ce82565543d7cf977137d
+08:13:49   UPDATING data to tables `log_login` fields ( logout_time ) values (2017-05-12:06:13:49) on conditions id = 5810 AND username = anfr005
+11:07:01 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = caa500c0741ce82565543d7cf977137d
+11:07:07 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = caa500c0741ce82565543d7cf977137d
+11:07:14 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+11:07:14 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2017-05-12 11:07:14) on conditions username = gine001
+11:07:14 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-05-12 11:07:14) on conditions username = gine001 AND company_id = 6
+11:07:14   UPDATING data to tables `log_login` fields ( logout_time ) values (2017-05-12:09:07:14) on conditions id = 5813 AND username = gine001
+11:10:44 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+11:10:45 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.154.186, android ) => {inserted_id = 5815}
+11:10:45 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+11:10:45 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2017-05-12 11:10:45) on conditions username = gine001
+11:10:45 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-05-12 11:10:45) on conditions username = gine001 AND company_id = 6
+11:11:29 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (1) on conditions username = gine001 AND company_id = 6
+11:11:38 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+11:11:38 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.154.186, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0 ) => {inserted_id = 5816}
+11:11:38 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+11:11:38 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2017-05-12 11:11:38) on conditions username = gine001
+11:11:39 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-05-12 11:11:38) on conditions username = gine001 AND company_id = 6
+11:11:40 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = fadc0e6626473ab2d0e62078d8eff9d4
+11:14:21 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+11:14:22 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2017-05-12 11:14:21) on conditions username = gine001
+11:14:22 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-05-12 11:14:21) on conditions username = gine001 AND company_id = 6
+11:14:22   UPDATING data to tables `log_login` fields ( logout_time ) values (2017-05-12:09:14:22) on conditions id = 5816 AND username = gine001

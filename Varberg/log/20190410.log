@@ -1,0 +1,8 @@
+07:36:02 cagu001 Carina Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = cagu001 AND company_id = 20
+07:36:02 cagu001 Carina Gustafsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( cagu001, 83.209.27.1, okhttp/3.9.1 ) => {inserted_id = 34}
+07:36:02 cagu001 Carina Gustafsson DELETE data from tables `temp_session` on conditions username LIKE cagu001
+07:36:02 cagu001 Carina Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-04-10 07:36:02) on conditions username = cagu001
+07:36:02 cagu001 Carina Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-04-10 07:36:02) on conditions username = cagu001 AND company_id = 20
+07:40:58 cagu001 Carina Gustafsson UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (mygu001, loli005, 2019-04-10, 7.30, 24, 1, 0, 1, Linnea sjuk ) on conditions id = 6 #Mobile-App: Log-id=34
+07:41:24 cagu001 Carina Gustafsson UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (mygu001, loli005, 2019-04-11, 0.00, 6.00, 1, 3, 1, ) on conditions id = 7 #Mobile-App: Log-id=34
+07:41:43 cagu001 Carina Gustafsson UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (mygu001, loli005, 2019-04-11, 6.00, 8.30, 1, 0, 1, ) on conditions id = 8 #Mobile-App: Log-id=34

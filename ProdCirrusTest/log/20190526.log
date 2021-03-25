@@ -1,0 +1,47 @@
+16:05:03 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+16:05:03 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 91.221.67.85, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0 ) => {inserted_id = 8533}
+16:05:03 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+16:05:03 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-26 16:05:03) on conditions username = gine001
+16:05:03 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-26 16:05:03) on conditions username = gine001 AND company_id = 6
+16:06:32 joef001 Joel Efraimsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( joef001, 91.221.67.85, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36 ) => {inserted_id = 8534}
+16:06:32 joef001 Joel Efraimsson DELETE data from tables `temp_session` on conditions username LIKE joef001
+16:06:32 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-26 16:06:32) on conditions username = joef001
+16:06:32 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-26 16:06:32) on conditions username = joef001 AND company_id = 6
+16:06:49 joef001 Joel Efraimsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( joef001, 91.221.67.85, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36 ) => {inserted_id = 8535}
+16:06:49 joef001 Joel Efraimsson DELETE data from tables `temp_session` on conditions username LIKE joef001
+16:06:49 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-26 16:06:49) on conditions username = joef001
+16:06:49 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-26 16:06:49) on conditions username = joef001 AND company_id = 6
+16:23:22 joef001 Joel Efraimsson INSERTING data into tables `leave_notification` fields ( employee, email ) values ( joef001, 25,27, ) => {inserted_id = 0}
+16:23:22 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( role, mobile ) values (2, 723222222) on conditions username = joef001
+16:23:22 joef001 Joel Efraimsson UPDATING data to tables `employee` fields ( code, social_security, address, city, post, phone, mobile, email, date, ice ) values (88, 9507220458, Islanda Gläntan 109, Hökerum, 52399, 333409848, 723222222, peter.b.g.freij@gmail.com, 2012-11-15, ) on conditions username = joef001
+16:26:28 joef001 Joel Efraimsson UPDATING data to tables `leave_notification` fields ( employee, email ) values (joef001, 25,27,) on conditions employee = joef001
+16:26:28 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( role, mobile ) values (2, 723222222) on conditions username = joef001
+16:26:28 joef001 Joel Efraimsson UPDATING data to tables `employee` fields ( code, social_security, address, city, post, phone, mobile, email, date, ice ) values (88, 9507220458, Islanda Gläntan 109, Hökerum, 52399, 333409848, 723222222, peter.b.g.freij@gmail.com, 2012-11-15, ) on conditions username = joef001
+16:26:42 joef001 Joel Efraimsson DELETE data from tables `leave_notification` on conditions employee = joef001
+16:26:42 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( role, mobile ) values (2, 723222222) on conditions username = joef001
+16:26:42 joef001 Joel Efraimsson UPDATING data to tables `employee` fields ( code, social_security, address, city, post, phone, mobile, email, date, ice ) values (88, 9507220458, Islanda Gläntan 109, Hökerum, 52399, 333409848, 723222222, peter.b.g.freij@gmail.com, 2012-11-15, ) on conditions username = joef001
+16:28:35 joef001 Joel Efraimsson INSERTING data into tables `leave_notification` fields ( employee, email ) values ( joef001, 25, ) => {inserted_id = 0}
+16:28:35 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( role, mobile ) values (2, 723222222) on conditions username = joef001
+16:28:35 joef001 Joel Efraimsson UPDATING data to tables `employee` fields ( code, social_security, address, city, post, phone, mobile, email, date, ice ) values (88, 9507220458, Islanda Gläntan 109, Hökerum, 52399, 333409848, 723222222, peter.b.g.freij@gmail.com, 2012-11-15, ) on conditions username = joef001
+16:28:52 joef001 Joel Efraimsson DELETE data from tables `leave_notification` on conditions employee = joef001
+16:28:52 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( role, mobile ) values (2, 723222222) on conditions username = joef001
+16:28:52 joef001 Joel Efraimsson UPDATING data to tables `employee` fields ( code, social_security, address, city, post, phone, mobile, email, date, ice ) values (88, 9507220458, Islanda Gläntan 109, Hökerum, 52399, 333409848, 723222222, peter.b.g.freij@gmail.com, 2012-11-15, ) on conditions username = joef001
+16:37:34 gine001 Gilad Nevo INSERTING data into tables `leave_notification` fields ( employee, email, mobile ) values ( joef001, 1,2,3,4,5,6,7,8,9,10,11,12,25,26,27,,  ) => {inserted_id = 0}
+20:02:38 joef001 Joel Efraimsson UPDATING data to tables `leave_notification` fields ( employee, email ) values (joef001, 1,2,3,4,5,6,7,8,9,10,11,12,) on conditions employee = joef001
+20:02:38 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( role, mobile ) values (2, 723222222) on conditions username = joef001
+20:02:38 joef001 Joel Efraimsson UPDATING data to tables `employee` fields ( code, social_security, address, city, post, phone, mobile, email, date, ice ) values (88, 9507220458, Islanda Gläntan 109, Hökerum, 52399, 333409848, 723222222, peter.b.g.freij@gmail.com, 2012-11-15, ) on conditions username = joef001
+20:08:53 joef001 Joel Efraimsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( joef001, 91.221.67.227, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36 ) => {inserted_id = 8536}
+20:08:53 joef001 Joel Efraimsson DELETE data from tables `temp_session` on conditions username LIKE joef001
+20:08:53 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-26 20:08:53) on conditions username = joef001
+20:08:53 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-26 20:08:53) on conditions username = joef001 AND company_id = 6
+20:08:54 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (joef001) on conditions session_id = 2c97ccdf098132e13b6a9a5faafddf44
+20:15:25 joef001 Joel Efraimsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( joef001, 91.221.67.227, Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko ) => {inserted_id = 8537}
+20:15:25 joef001 Joel Efraimsson DELETE data from tables `temp_session` on conditions username LIKE joef001
+20:15:25 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-26 20:15:25) on conditions username = joef001
+20:15:25 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-26 20:15:25) on conditions username = joef001 AND company_id = 6
+20:15:26 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (joef001) on conditions session_id = 4f7fc03b6b55efbe8d4986c3d8146ec5
+20:15:52 joef001 Joel Efraimsson DELETE data from tables `temp_session` on conditions username LIKE joef001
+20:15:53 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2019-05-26 20:15:52) on conditions username = joef001
+20:15:53 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-26 20:15:52) on conditions username = joef001 AND company_id = 6
+20:15:53   UPDATING data to tables `log_login` fields ( logout_time ) values (2019-05-26:18:15:53) on conditions id = 8537 AND username = joef001
+20:58:15 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = aff7a1c89cb553738f6a38c31e824cef

@@ -1,0 +1,12 @@
+09:29:32 boek001 Bo Ek INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( boek001, 90.227.122.3, Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko ) => {inserted_id = 7520}
+09:29:32 boek001 Bo Ek DELETE data from tables `temp_session` on conditions username LIKE boek001
+09:29:32 boek001 Bo Ek UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-12-03 09:29:32) on conditions username = boek001
+09:29:32 boek001 Bo Ek UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-12-03 09:29:32) on conditions username = boek001 AND company_id = 6
+09:29:32 boek001 Bo Ek UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (boek001) on conditions session_id = e1af1e6463ab2f0a79498af62e0c23c5
+09:29:41 boek001 Bo Ek UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (boek001) on conditions session_id = e1af1e6463ab2f0a79498af62e0c23c5
+15:24:24 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 90.227.122.3, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0 ) => {inserted_id = 7521}
+15:24:24 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+15:24:24 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-12-03 15:24:24) on conditions username = gine001
+15:24:24 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-12-03 15:24:24) on conditions username = gine001 AND company_id = 6
+15:24:25 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = be89a100018e111f6ac2eaaa76d5b315
+21:14:46 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = be89a100018e111f6ac2eaaa76d5b315

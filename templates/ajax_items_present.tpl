@@ -1,0 +1,1 @@
+<input type="text" name="price" id="price" value="{$price}" />

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<paxml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.paxml.se/2.0/paxml.xsd">
+  <header>
+    <format>LÖNIN</format>
+    <version>2.0</version>
+    <foretagnamn>Libra - Test</foretagnamn>
+  </header>
+  <dimensioner>
+    <dimension dim="1" namn="Brukare"/>
+  </dimensioner>
+  <resultatenheter>
+    <resultatenhet dim="1" id="JB06" namn="Jonatan Björklund"/>
+  </resultatenheter>
+  <lonetransaktioner>
+    <lonetrans persnr="195701237116">
+      <lonart>30003</lonart>
+      <antal>3</antal>
+      <resenheter>
+        <resenhet dim="1" id="JB06"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="195701237116">
+      <lonart>30003</lonart>
+      <antal>3</antal>
+      <resenheter>
+        <resenhet dim="1" id="JB06"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="195701237116">
+      <lonart>30003</lonart>
+      <antal>3</antal>
+      <resenheter>
+        <resenhet dim="1" id="JB06"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="195701237116">
+      <lonart>30000</lonart>
+      <antal>3</antal>
+      <resenheter>
+        <resenhet dim="1" id="JB06"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="195701237116">
+      <lonart>30000</lonart>
+      <antal>3</antal>
+      <resenheter>
+        <resenhet dim="1" id="JB06"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="195701237116">
+      <lonart>30000</lonart>
+      <antal>3</antal>
+      <resenheter>
+        <resenhet dim="1" id="JB06"/>
+      </resenheter>
+    </lonetrans>
+  </lonetransaktioner>
+</paxml>

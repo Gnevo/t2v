@@ -1,0 +1,12 @@
+10:42:28 than001 Thomas Andersson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( than001, 85.227.154.135, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36 ) => {inserted_id = 2007}
+10:43:18   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = than001
+10:43:18   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-11-12:09:43:18) on conditions id = 2007 AND username = than001
+10:46:42 than001 Thomas Andersson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( than001, 85.227.154.135, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36 ) => {inserted_id = 2008}
+11:03:42 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 223.30.129.234, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/37.0.2062.120 Chrome/37.0.2062.120 Safari/537.36 ) => {inserted_id = 2009}
+11:03:42 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+13:54:12 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 46.194.214.220, Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0 ) => {inserted_id = 2010}
+13:54:12 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+15:31:30 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 46.194.116.26, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36 ) => {inserted_id = 2011}
+15:31:30 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+16:27:32   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+16:27:32   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-11-12:15:27:32) on conditions id = 2011 AND username = gine001

@@ -1,0 +1,13 @@
+17:03:45 gine001 gine001 UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (1) on conditions username = gine001 AND company_id = 6
+17:03:55 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+17:03:55 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 90.227.122.3, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0 ) => {inserted_id = 7522}
+17:03:55 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+17:03:55 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-12-04 17:03:55) on conditions username = gine001
+17:03:55 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-12-04 17:03:55) on conditions username = gine001 AND company_id = 6
+17:03:56 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = bf65c7ee5e7a3954e2a8458d8a873525
+17:08:43 boek001 Bo Ek INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( boek001, 90.227.122.3, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134 ) => {inserted_id = 7523}
+17:08:43 boek001 Bo Ek DELETE data from tables `temp_session` on conditions username LIKE boek001
+17:08:43 boek001 Bo Ek UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-12-04 17:08:43) on conditions username = boek001
+17:08:43 boek001 Bo Ek UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-12-04 17:08:43) on conditions username = boek001 AND company_id = 6
+17:08:44 boek001 Bo Ek UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (boek001) on conditions session_id = 4bd35e7adc4f019cb8b22ba0b2d46dab
+17:08:59 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = bf65c7ee5e7a3954e2a8458d8a873525

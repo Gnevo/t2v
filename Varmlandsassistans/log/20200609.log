@@ -1,0 +1,47 @@
+10:29:38 gine001 Gilad Nevo1 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 89.233.236.131, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36 ) => {inserted_id = 8869}
+10:29:38 gine001 Gilad Nevo1 DELETE data from tables `temp_session` on conditions username LIKE gine001
+10:29:38 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-06-09 10:29:38) on conditions username = gine001
+10:29:38 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-06-09 10:29:38) on conditions username = gine001 AND company_id = 21
+10:29:39 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 4405f6a0c5ba9f3276170ce9a110d09e
+10:29:48 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 4405f6a0c5ba9f3276170ce9a110d09e
+10:29:56 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 4405f6a0c5ba9f3276170ce9a110d09e
+10:56:55 gine001 Gilad Nevo1 INSERTING data into tables `time2vie_cirruscommon`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, category_id, priority, ticket_type, status, hidden ) values ( 2695, gine001, <p>Efter diskussion visade det sig att ni har aktiverat Semester beräkningen som ska importeras till Visma. Vi stängde av det tills ni kan konfigurera Visma att ta emot på rätt sätt.</p>, 22, 2, 1, 4, 0 ) => {inserted_id = 7185}
+11:25:51 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 4405f6a0c5ba9f3276170ce9a110d09e
+11:26:36 gine001 Gilad Nevo1 UPDATING data to tables `timetable` fields ( fkkn ) values (2) on conditions id = 5840
+11:26:36 gine001 Gilad Nevo1 UPDATING data to tables `timetable` fields ( fkkn ) values (2) on conditions id = 5846
+11:26:36 gine001 Gilad Nevo1 UPDATING data to tables `timetable` fields ( fkkn ) values (2) on conditions id = 5852
+11:26:36 gine001 Gilad Nevo1 UPDATING data to tables `timetable` fields ( fkkn ) values (2) on conditions id = 5858
+11:26:36 gine001 Gilad Nevo1 UPDATING data to tables `timetable` fields ( fkkn ) values (2) on conditions id = 5864
+11:26:36 gine001 Gilad Nevo1 UPDATING data to tables `timetable` fields ( fkkn ) values (2) on conditions id = 5870
+11:27:20 gine001 Gilad Nevo1 UPDATING data to tables `timetable` fields ( fkkn ) values (2) on conditions id = 6009
+11:27:20 gine001 Gilad Nevo1 UPDATING data to tables `timetable` fields ( fkkn ) values (2) on conditions id = 5834
+11:27:20 gine001 Gilad Nevo1 UPDATING data to tables `timetable` fields ( fkkn ) values (2) on conditions id = 6010
+11:27:20 gine001 Gilad Nevo1 UPDATING data to tables `timetable` fields ( fkkn ) values (2) on conditions id = 5840
+11:27:20 gine001 Gilad Nevo1 UPDATING data to tables `timetable` fields ( fkkn ) values (2) on conditions id = 6011
+11:27:20 gine001 Gilad Nevo1 UPDATING data to tables `timetable` fields ( fkkn ) values (2) on conditions id = 5846
+11:27:20 gine001 Gilad Nevo1 UPDATING data to tables `timetable` fields ( fkkn ) values (2) on conditions id = 6012
+11:27:20 gine001 Gilad Nevo1 UPDATING data to tables `timetable` fields ( fkkn ) values (2) on conditions id = 5852
+11:27:20 gine001 Gilad Nevo1 UPDATING data to tables `timetable` fields ( fkkn ) values (2) on conditions id = 6013
+11:27:20 gine001 Gilad Nevo1 UPDATING data to tables `timetable` fields ( fkkn ) values (2) on conditions id = 5858
+11:27:20 gine001 Gilad Nevo1 UPDATING data to tables `timetable` fields ( fkkn ) values (2) on conditions id = 6014
+11:27:20 gine001 Gilad Nevo1 UPDATING data to tables `timetable` fields ( fkkn ) values (2) on conditions id = 5864
+11:27:20 gine001 Gilad Nevo1 UPDATING data to tables `timetable` fields ( fkkn ) values (2) on conditions id = 6015
+11:27:20 gine001 Gilad Nevo1 UPDATING data to tables `timetable` fields ( fkkn ) values (2) on conditions id = 5870
+11:46:27 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = rute001 AND company_id = 21
+11:46:27 rute001 Ruta Teklehaimanot INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rute001, 78.68.12.244, okhttp/3.9.1 ) => {inserted_id = 8870}
+11:46:27 rute001 Ruta Teklehaimanot DELETE data from tables `temp_session` on conditions username LIKE rute001
+11:46:27 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-06-09 11:46:27) on conditions username = rute001
+11:46:27 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-06-09 11:46:27) on conditions username = rute001 AND company_id = 21
+16:04:17 gine001 Gilad Nevo1 INSERTING data into tables `time2vie_cirruscommon`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, category_id, priority, ticket_type, status, hidden ) values ( 2696, gine001, <p>Nu finns texten "EJ Karensavdrag". Hoppas det klargör att AL inte ska klicka på denna knapp.</p>, 22, 2, 3, 4, 0 ) => {inserted_id = 7186}
+16:04:38 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 4405f6a0c5ba9f3276170ce9a110d09e
+16:04:52 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 4405f6a0c5ba9f3276170ce9a110d09e
+16:52:34 fasa004 Fatima Saleh Abubaker UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = fasa004 AND company_id = 21
+16:52:34 fasa004 Fatima Saleh Abubaker INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( fasa004, 85.224.30.125, okhttp/3.9.1 ) => {inserted_id = 8871}
+16:52:34 fasa004 Fatima Saleh Abubaker DELETE data from tables `temp_session` on conditions username LIKE fasa004
+16:52:34 fasa004 Fatima Saleh Abubaker UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-06-09 16:52:34) on conditions username = fasa004
+16:52:34 fasa004 Fatima Saleh Abubaker UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-06-09 16:52:34) on conditions username = fasa004 AND company_id = 21
+22:17:04 fasa004 Fatima Saleh Abubaker UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = fasa004 AND company_id = 21
+22:17:04 fasa004 Fatima Saleh Abubaker INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( fasa004, 78.71.21.85, okhttp/3.9.1 ) => {inserted_id = 8872}
+22:17:04 fasa004 Fatima Saleh Abubaker DELETE data from tables `temp_session` on conditions username LIKE fasa004
+22:17:04 fasa004 Fatima Saleh Abubaker UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-06-09 22:17:04) on conditions username = fasa004
+22:17:04 fasa004 Fatima Saleh Abubaker UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-06-09 22:17:04) on conditions username = fasa004 AND company_id = 21

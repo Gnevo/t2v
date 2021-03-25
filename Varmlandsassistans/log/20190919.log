@@ -1,0 +1,32 @@
+13:53:20 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (1) on conditions username = gine001 AND company_id = 21
+13:53:36 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (2) on conditions username = gine001 AND company_id = 21
+16:10:58 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (3) on conditions username = gine001 AND company_id = 21
+16:11:06 gine001  UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 21
+16:11:07 gine001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 89.233.236.131, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0 ) => {inserted_id = 7909}
+16:11:07 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+16:11:07 gine001  UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-09-19 16:11:07) on conditions username = gine001
+16:11:07 gine001  UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-09-19 16:11:07) on conditions username = gine001 AND company_id = 21
+16:11:08 gine001  UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = f3f1fa50ea1dba0b06af2057ee2b56de
+16:12:27 gine001  UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = f3f1fa50ea1dba0b06af2057ee2b56de
+16:19:12 zefe001 Zeid Feili INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( zefe001, 213.103.138.93, Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36 ) => {inserted_id = 7910}
+16:19:12 zefe001 Zeid Feili DELETE data from tables `temp_session` on conditions username LIKE zefe001
+16:19:12 zefe001 Zeid Feili UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-09-19 16:19:12) on conditions username = zefe001
+16:19:13 zefe001 Zeid Feili UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-09-19 16:19:12) on conditions username = zefe001 AND company_id = 21
+16:19:13 zefe001 Zeid Feili UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (zefe001) on conditions session_id = a0c1e9737feabe4b378a60f6631f5b37
+16:36:06 gine001  UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = f3f1fa50ea1dba0b06af2057ee2b56de
+16:46:31 gine001  UPDATING data to tables `fkkn_form_defaults` fields ( bargaining_new, company_cp_name, company_cp_phone, provider_of_pa_flag, agreement_types_new, agreement_type2_company, agreement_type2_orgNo ) values (1, , , 2, 1, , ) on conditions customer = algr001 AND (employee =  OR employee IS NULL)
+16:46:31 gine001  INSERTING data into tables `history_samsida_work_report` fields ( month, year, fkkn, customer, employee, file_name ) values ( 8, 2019, 2, algr001, , Samsida_1960110602.pdf ) => {inserted_id = 8}
+16:50:41 gine001  UPDATING data to tables `fkkn_form_defaults` fields ( bargaining_new, company_cp_name, company_cp_phone, provider_of_pa_flag, agreement_types_new, agreement_type2_company, agreement_type2_orgNo ) values (1, , , 2, 1, , ) on conditions customer = algr001 AND (employee =  OR employee IS NULL)
+16:51:07 zefe001 Zeid Feili DELETE data from tables `temp_session` on conditions username LIKE zefe001
+16:51:07 zefe001 Zeid Feili UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2019-09-19 16:51:07) on conditions username = zefe001
+16:51:07 zefe001 Zeid Feili UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-09-19 16:51:07) on conditions username = zefe001 AND company_id = 21
+16:51:07   UPDATING data to tables `log_login` fields ( logout_time ) values (2019-09-19:14:51:07) on conditions id = 7910 AND username = zefe001
+16:55:53 gine001  INSERTING data into tables `customer_contract` fields ( hour, date_from, date_to, fkkn, customer ) values ( 200,52, 2019-09-28, 2019-10-15, 3, algr001 ) => {inserted_id = 6}
+16:55:53 gine001  INSERTING data into tables `customer_contract_billing` fields ( contract_id, kn_name, kn_address, kn_postno, mobile, city, oncall, oncall2, awake, something, iss, sol, kn_reference_no, kn_box ) values ( 6, Torsby, ., 685 3, , Torby, , , , , , , Julia Nilsson, . ) => {inserted_id = 0}
+16:55:53 gine001  INSERTING data into tables `customer_contract_decision` fields ( contract_id, first_name, last_name, mobile, email, city, comments_time, comments_other, documents ) values ( 6, Mona, Rahm, , , Torsby, , ,  ) => {inserted_id = 0}
+16:56:17 gine001  UPDATING data to tables `customer_contract` fields ( hour, date_from, date_to, fkkn ) values (200.00, 2019-09-28, 2019-10-15, 3) on conditions id = 6
+16:56:17 gine001  UPDATING data to tables `customer_contract_billing` fields ( kn_name, kn_address, kn_postno, mobile, email, city, oncall, oncall2, awake, something, iss, sol, kn_reference_no, kn_box ) values (Torsby, ., 68530, , , Torsby, , , , , , , Julia Nilsson, .) on conditions contract_id = 6
+16:56:17 gine001  UPDATING data to tables `customer_contract_decision` fields ( first_name, last_name, mobile, email, city, comments_time, comments_other, documents ) values (Mona, Rahm, , , Torsby, , , ) on conditions contract_id = 6
+16:56:42 gine001  UPDATING data to tables `customer_contract` fields ( hour, date_from, date_to, fkkn ) values (200.00, 2019-09-28, 2019-10-15, 3) on conditions id = 6
+16:56:42 gine001  UPDATING data to tables `customer_contract_billing` fields ( kn_name, kn_address, kn_postno, mobile, email, city, oncall, oncall2, awake, something, iss, sol, kn_reference_no, kn_box ) values (Torsby, Nya torget 8, 68530, , , Torby, , , , , , , Julia Nilsson, .) on conditions contract_id = 6
+16:56:42 gine001  UPDATING data to tables `customer_contract_decision` fields ( first_name, last_name, mobile, email, city, comments_time, comments_other, documents ) values (Mona, Rahm, , , Torsby, , , ) on conditions contract_id = 6

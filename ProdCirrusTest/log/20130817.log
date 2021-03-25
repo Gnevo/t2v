@@ -1,0 +1,72 @@
+10:07:37 gine001 Gilad Nevo INSERTING data into tables `log_login`fields username, ip, browser values ( gine001, 115.248.24.177, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/28.0.1500.71 Chrome/28.0.1500.71 Safari/537.36 )
+10:07:37 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = gine001
+11:39:29 gine001 Gilad Nevo INSERTING data into tables `log_login`fields username, ip, browser values ( gine001, 115.248.24.177, Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0 )
+11:39:29 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = gine001
+14:31:11   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = gine001
+14:31:11   UPDATING data to tables `log_login`fields Array values 2013-08-17:12:31:11 on conditions id = 1680 AND username = gine001
+20:58:15 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions id = 1378
+20:58:19 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions id = 1379
+20:58:27 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions id = 1377
+20:58:54 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 2, undefined, 2012-11-19, 6.00, 19.30, 0, gine001 )
+20:58:54 gine001 Gilad Nevo INSERTING data into tables `memory_slots`fields customer, time_from, time_to, type values ( hesv001, 6.00, 19.30, undefined )
+20:59:24 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 2, undefined, 2012-11-19, 19.30, 22.30, 0, gine001 )
+20:59:24 gine001 Gilad Nevo INSERTING data into tables `memory_slots`fields customer, time_from, time_to, type values ( hesv001, 19.30, 22.30, undefined )
+21:03:34 gine001 Gilad Nevo DELETE data from tables `inconvenient_timing` on conditions root_id = 16
+21:03:34 gine001 Gilad Nevo DELETE data from tables `inconvenient_timing` on conditions id = 16
+21:03:34 gine001 Gilad Nevo INSERTING data into tables `inconvenient_timing`fields root_id, group_id, name, type, effect_from, effect_to, time_from, time_to, days, amount, nature values ( 0, 4, Jour Vard, 3, 2013-01-01, , 22.30, 24, 1,2,3,4,5,7,, 0.00, 0 )
+21:03:34 gine001 Gilad Nevo INSERTING data into tables `inconvenient_timing`fields root_id, group_id, name, type, effect_from, effect_to, time_from, time_to, days, amount, nature values ( 17, 4, Jour Vard, 3, 2013-01-01, , 0, 6.00, 2,3,4,5,6,1,, 0.00, 0 )
+21:04:23 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 2, undefined, 2012-11-19, 22.30, 24, 0, gine001 )
+21:04:23 gine001 Gilad Nevo INSERTING data into tables `memory_slots`fields customer, time_from, time_to, type values ( hesv001, 22.30, 24, undefined )
+21:04:23 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 2, undefined, 2012-11-20, 0, 6.00, 0, gine001 )
+21:04:23 gine001 Gilad Nevo INSERTING data into tables `memory_slots`fields customer, time_from, time_to, type values ( hesv001, 0, 6.00, undefined )
+21:05:24 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( gine001, hesv001, 2, 0, 2012-11-20, 6, 19.3, 1, gine001 )
+21:05:24 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( gine001, hesv001, 2, 0, 2012-11-20, 19.3, 22.3, 1, gine001 )
+21:05:24 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( gine001, hesv001, 2, 0, 2012-11-20, 22.3, 24, 1, gine001 )
+21:06:10 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( wita001, hesv001, 2, 0, 2012-11-20, 6, 19.3, 1, gine001 )
+21:06:10 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( wita001, hesv001, 2, 0, 2012-11-20, 19.3, 22.3, 1, gine001 )
+21:06:10 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( wita001, hesv001, 2, 0, 2012-11-20, 22.3, 24, 1, gine001 )
+21:06:10 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( wita001, hesv001, 2, 0, 2012-11-21, 6, 19.3, 1, gine001 )
+21:06:10 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( wita001, hesv001, 2, 0, 2012-11-21, 19.3, 22.3, 1, gine001 )
+21:06:10 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( wita001, hesv001, 2, 0, 2012-11-21, 22.3, 24, 1, gine001 )
+21:06:10 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( wita001, hesv001, 2, 0, 2012-11-26, 6, 19.3, 1, gine001 )
+21:06:10 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( wita001, hesv001, 2, 0, 2012-11-26, 19.3, 22.3, 1, gine001 )
+21:06:10 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( wita001, hesv001, 2, 0, 2012-11-26, 22.3, 24, 1, gine001 )
+21:06:10 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( wita001, hesv001, 2, 0, 2012-11-27, 6, 19.3, 1, gine001 )
+21:06:10 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( wita001, hesv001, 2, 0, 2012-11-27, 19.3, 22.3, 1, gine001 )
+21:06:10 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( wita001, hesv001, 2, 0, 2012-11-27, 22.3, 24, 1, gine001 )
+21:06:10 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( wita001, hesv001, 2, 0, 2012-11-28, 6, 19.3, 1, gine001 )
+21:06:10 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( wita001, hesv001, 2, 0, 2012-11-28, 19.3, 22.3, 1, gine001 )
+21:06:10 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( wita001, hesv001, 2, 0, 2012-11-28, 22.3, 24, 1, gine001 )
+21:06:10 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1, wita001, gine001 on conditions id = 2867
+21:06:10 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1, wita001, gine001 on conditions id = 2868
+21:06:10 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1, wita001, gine001 on conditions id = 2869
+21:06:50 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( wita001, hesv001, 2, 0, 2012-11-21, 0, 6, 1, gine001 )
+21:06:50 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( wita001, hesv001, 2, 0, 2012-11-27, 0, 6, 1, gine001 )
+21:06:50 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( wita001, hesv001, 2, 0, 2012-11-28, 0, 6, 1, gine001 )
+21:06:50 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1, wita001, gine001 on conditions id = 2870
+21:07:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 2, 0, 2012-11-30, 0.00, 6.00, 0, gine001 )
+21:07:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 2, 0, 2012-11-30, 6.00, 19.30, 0, gine001 )
+21:07:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 2, 0, 2012-11-30, 19.30, 22.30, 0, gine001 )
+21:07:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 2, 0, 2012-11-30, 22.30, 24.00, 0, gine001 )
+21:08:09 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 2, 0, 2012-12-01, 0.00, 6.00, 0, gine001 )
+21:08:09 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 2, 0, 2012-12-01, 6.00, 19.30, 0, gine001 )
+21:08:09 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 2, 0, 2012-12-01, 19.30, 22.30, 0, gine001 )
+21:08:09 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 2, 0, 2012-12-01, 22.30, 24.00, 0, gine001 )
+21:08:19 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 2, 0, 2012-12-02, 0.00, 6.00, 0, gine001 )
+21:08:19 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 2, 0, 2012-12-02, 6.00, 19.30, 0, gine001 )
+21:08:19 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 2, 0, 2012-12-02, 19.30, 22.30, 0, gine001 )
+21:08:19 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 2, 0, 2012-12-02, 22.30, 24.00, 0, gine001 )
+21:08:50 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1, joef001, gine001 on conditions id = 2892
+21:08:50 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1, joef001, gine001 on conditions id = 2893
+21:08:50 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1, joef001, gine001 on conditions id = 2894
+21:08:50 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1, joef001, gine001 on conditions id = 2895
+21:08:50 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1, joef001, gine001 on conditions id = 2896
+21:08:50 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1, joef001, gine001 on conditions id = 2897
+21:08:50 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1, joef001, gine001 on conditions id = 2898
+21:08:50 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1, joef001, gine001 on conditions id = 2899
+21:08:50 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1, joef001, gine001 on conditions id = 2900
+21:08:50 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1, joef001, gine001 on conditions id = 2901
+21:08:50 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1, joef001, gine001 on conditions id = 2902
+21:08:50 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1, joef001, gine001 on conditions id = 2903
+21:10:36   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = gine001
+21:10:36   UPDATING data to tables `log_login`fields Array values 2013-08-17:19:10:36 on conditions id = 6935 AND username = gine001

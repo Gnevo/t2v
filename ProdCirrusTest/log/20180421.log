@@ -1,0 +1,8 @@
+07:53:02 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 223.30.129.235, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36 ) => {inserted_id = 6477}
+07:53:02 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+07:53:02 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-04-21 07:53:02) on conditions username = dodo001
+07:53:02 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-04-21 07:53:02) on conditions username = dodo001 AND company_id = 6
+07:53:03 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = 65e6039329bcd53d85fa0fb0e0e9643d
+07:53:44 dodo001 Admin Cirrus INSERTING data into tables `history_certification_report` fields ( employee, file ) values ( dodo001, Certificate_1703050317.pdf ) => {inserted_id = 16}
+07:56:31 dodo001 Admin Cirrus INSERTING data into tables `history_certification_report` fields ( employee, file ) values ( dodo001, Certificate_1633861625.pdf ) => {inserted_id = 17}
+08:55:46 dodo001 Admin Cirrus INSERTING data into tables `history_certification_report` fields ( employee, file ) values ( dodo001, Certificate_1824778843.pdf ) => {inserted_id = 18}

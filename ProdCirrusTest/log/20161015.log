@@ -1,0 +1,97 @@
+11:58:36 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.156.254, Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0 ) => {inserted_id = 5285}
+11:58:36 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+11:58:36 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-10-15 11:58:36) on conditions username = gine001
+11:58:37 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-10-15 11:58:36) on conditions username = gine001 AND company_id = 6
+11:59:10 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.156.254, Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0 ) => {inserted_id = 5286}
+11:59:10 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+11:59:10 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-10-15 11:59:10) on conditions username = gine001
+11:59:10 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-10-15 11:59:10) on conditions username = gine001 AND company_id = 6
+11:59:10 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = jprsigc0u2qn64q9e5ma6gbpo3
+12:01:18 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( mobile, social_security ) values (111111111, 4901102121) on conditions username = adan001
+12:01:18 gine001 Gilad Nevo UPDATING data to tables `customer` fields ( code, century, social_security, first_name, last_name, address, city, post, phone, mobile, email, date, status, date_inactive, fkkn, gender, employee_contract_start_month, employee_contract_period_date, employee_contract_period_length ) values (1-10201, 19, 4901102121, Adam, Andersson, Allmogev, GtB, 121221, 31111111, 111111111, shajukt@gmail.com, 2014-01-21, 1, , 1, 1, 01, 1, 06) on conditions username = adan001
+12:01:18 gine001 Gilad Nevo DELETE data from tables `team` on conditions customer = adan001
+12:01:18 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, abni001, 2 ) => {inserted_id = 0}
+12:01:18 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, dodo001, 3 ) => {inserted_id = 0}
+12:01:18 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, cehe001, 3 ) => {inserted_id = 0}
+12:01:18 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, emte001, 3 ) => {inserted_id = 0}
+12:01:18 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, joso004, 3 ) => {inserted_id = 0}
+12:01:18 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, lobr002, 3 ) => {inserted_id = 0}
+12:01:18 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, thne001, 3 ) => {inserted_id = 0}
+12:01:18 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, than001, 3 ) => {inserted_id = 0}
+12:01:18 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, wita001, 3 ) => {inserted_id = 0}
+12:01:18 gine001 Gilad Nevo UPDATING data to tables `customer_guardian` fields ( first_name, last_name, ssn, mobile, email, address, first_name2, last_name2, ssn2, mobile2, email2, address2 ) values (God, Man, 2323232324, +46701 23 45 67 , gm@gmail.com, , Förvaltare, One, 6598742356, +46706 98 76 54 , hg@gmail.com, ) on conditions customer = adan001
+12:01:35 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( mobile, social_security ) values (111111111, 4901102121) on conditions username = adan001
+12:01:35 gine001 Gilad Nevo UPDATING data to tables `customer` fields ( code, century, social_security, first_name, last_name, address, city, post, phone, mobile, email, date, status, date_inactive, fkkn, gender, employee_contract_start_month, employee_contract_period_date, employee_contract_period_length ) values (1-10201, 19, 4901102121, Adam, Andersson, Allmogev, GtB, 121221, 31111111, 111111111, shajukt@gmail.com, 2014-01-21, 1, , 1, 1, 01, 1, 06) on conditions username = adan001
+12:01:35 gine001 Gilad Nevo DELETE data from tables `team` on conditions customer = adan001
+12:01:35 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, abni001, 2 ) => {inserted_id = 0}
+12:01:35 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, dodo001, 3 ) => {inserted_id = 0}
+12:01:35 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, cehe001, 3 ) => {inserted_id = 0}
+12:01:35 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, emte001, 3 ) => {inserted_id = 0}
+12:01:35 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, joso004, 3 ) => {inserted_id = 0}
+12:01:35 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, lobr002, 3 ) => {inserted_id = 0}
+12:01:35 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, thne001, 3 ) => {inserted_id = 0}
+12:01:35 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, than001, 3 ) => {inserted_id = 0}
+12:01:35 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, wita001, 3 ) => {inserted_id = 0}
+12:01:35 gine001 Gilad Nevo UPDATING data to tables `customer_guardian` fields ( first_name, last_name, ssn, mobile, email, address, first_name2, last_name2, ssn2, mobile2, email2, address2 ) values (God, Man, 2323232324, +46701 23 45 67 , gm@gmail.com, , Förvaltare, One, 659874-2356, +46706 98 76 54 , hg@gmail.com, ) on conditions customer = adan001
+12:01:53 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = jprsigc0u2qn64q9e5ma6gbpo3
+12:02:45 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status ) values (2) on conditions (status IN ( 0,1 )) AND employee = emte001 AND (date BETWEEN 2016-09-02 AND 2016-09-04)
+12:02:45 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, status, alloc_emp, relation_id, employee ) values ( adan001, 2016-09-02, 6.00, 9.00, 0, 1, 0, gine001, 9617,  ), ( adan001, 2016-09-02, 0.00, 6.00, 3, 1, 0, gine001, 9707,  ), ( adan001, 2016-09-02, 9.00, 8.35, 0, 1, 0, gine001, 9708,  ), ( adan001, 2016-09-03, 0.00, 24.00, 3, 1, 0, gine001, 9709,  ), ( adan001, 2016-09-04, 0.00, 24.00, 3, 1, 0, gine001, 9710,  ) => {inserted_id = 9889}
+12:02:45 gine001 Gilad Nevo INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 127, emte001, 2016-09-02, 00.00, 24.00, 1, , gine001, 0, 1 ), ( 127, emte001, 2016-09-03, 00.00, 24.00, 1, , gine001, 0, 1 ), ( 127, emte001, 2016-09-04, 00.00, 24.00, 1, , gine001, 0, 1 ) => {inserted_id = 469}
+12:02:57 gine001 Gilad Nevo UPDATING data to tables `leave` fields ( status, appr_emp, appr_date ) values (1, gine001, 2016-10-15) on conditions group_id = 127
+12:04:52 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status ) values (1) on conditions (id IN ( '9617' )) AND customer is NOT NULL AND customer != 
+12:04:52 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status ) values (0) on conditions (id IN ( '9617' )) AND (customer is NULL OR customer = )
+12:04:52 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions relation_id = 9617
+12:04:52 gine001 Gilad Nevo UPDATING data to tables `leave` fields ( time_to ) values (6.00) on conditions id = 469
+12:04:52 gine001 Gilad Nevo INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, apply_date, appr_emp, appr_date, appr_comment, status ) values ( 127, emte001, 2016-09-02, 9.00, 24.00, 1, , 2016-10-15 12:02:45, gine001, 2016-10-15, , 1 ) => {inserted_id = 472}
+12:05:14 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (adan001, joso004, 2016-09-02, 9.00, 24, 1, 0, 1, ) on conditions id = 9891
+12:05:14 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( joso004, adan001, 1, 0, 2016-09-03, 0, 8.35, 1, , gine001,  ) => {inserted_id = 9894}
+12:05:34 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status ) values (1) on conditions (id IN ( '9707' )) AND customer is NOT NULL AND customer != 
+12:05:34 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status ) values (0) on conditions (id IN ( '9707' )) AND (customer is NULL OR customer = )
+12:05:34 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions relation_id = 9707
+12:05:34 gine001 Gilad Nevo DELETE data from tables `leave` on conditions id = 469
+12:06:04 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 9707
+12:06:04 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, employee, status ) values ( adan001, 2016-09-02, 0.00, 6.00, 3, 1, , gine001, 9707, cehe001, 1 ) => {inserted_id = 9895}
+12:06:04 gine001 Gilad Nevo INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 128, emte001, 2016-09-02, 0, 6, 1, , gine001, 0, 1 ) => {inserted_id = 473}
+12:07:16 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = jprsigc0u2qn64q9e5ma6gbpo3
+12:07:43 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = jprsigc0u2qn64q9e5ma6gbpo3
+12:07:47 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = jprsigc0u2qn64q9e5ma6gbpo3
+12:09:20 gine001 Gilad Nevo UPDATING data to tables `leave` fields ( status, appr_emp, appr_date ) values (2, gine001, 2016-10-15) on conditions group_id = 128
+12:09:20 gine001 Gilad Nevo DELETE data from tables `leave` on conditions group_id = 128
+12:09:20 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status ) values (1) on conditions (id IN ( '9707' )) AND customer is NOT NULL AND customer != 
+12:09:20 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status ) values (0) on conditions (id IN ( '9707' )) AND (customer is NULL OR customer = )
+12:09:40 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status ) values (1) on conditions (id IN ( '9708' )) AND customer is NOT NULL AND customer != 
+12:09:40 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status ) values (0) on conditions (id IN ( '9708' )) AND (customer is NULL OR customer = )
+12:09:40 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions relation_id = 9708
+12:09:40 gine001 Gilad Nevo UPDATING data to tables `leave` fields ( time_from ) values (8.35) on conditions id = 472
+12:11:03 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status, comment ) values (1, ) on conditions id = 9704
+12:12:52 gine001 Gilad Nevo UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (test123, 0||1, 1-10201 : 09-03, 1||1||1||1) on conditions customer = adan001
+12:12:52 gine001 Gilad Nevo INSERTING data into tables `history_sick_report` fields ( employee, customer, file ) values ( emte001, adan001, Sick_adan001_820545325.pdf ) => {inserted_id = 44}
+12:22:29 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( mobile, social_security ) values (111111111, 4901102121) on conditions username = adan001
+12:22:29 gine001 Gilad Nevo UPDATING data to tables `customer` fields ( code, century, social_security, first_name, last_name, address, city, post, phone, mobile, email, date, status, date_inactive, fkkn, gender, employee_contract_start_month, employee_contract_period_date, employee_contract_period_length ) values (1-10201, 19, 4901102121, Adam, Andersson, Allmogev, GtB, 121221, 31111111, 111111111, shajukt@gmail.com, 2014-01-21, 1, , 1, 1, 01, 1, 06) on conditions username = adan001
+12:22:29 gine001 Gilad Nevo DELETE data from tables `team` on conditions customer = adan001
+12:22:29 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, abni001, 2 ) => {inserted_id = 0}
+12:22:29 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, dodo001, 3 ) => {inserted_id = 0}
+12:22:29 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, cehe001, 3 ) => {inserted_id = 0}
+12:22:29 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, emte001, 3 ) => {inserted_id = 0}
+12:22:29 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, joso004, 3 ) => {inserted_id = 0}
+12:22:29 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, lobr002, 3 ) => {inserted_id = 0}
+12:22:29 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, thne001, 3 ) => {inserted_id = 0}
+12:22:29 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, than001, 3 ) => {inserted_id = 0}
+12:22:29 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, wita001, 3 ) => {inserted_id = 0}
+12:22:29 gine001 Gilad Nevo UPDATING data to tables `customer_guardian` fields ( first_name, last_name, ssn, mobile, email, address, first_name2, last_name2, ssn2, mobile2, email2, address2 ) values (God, Man, 2323232324, +46701 23 45 67 , gm@gmail.com, Godmangata 63, 69232 Kumla, Förvaltare, One, 659874-2356, +46706 98 76 54 , hg@gmail.com, Godmangata 63, 69232 Södertälje) on conditions customer = adan001
+12:22:59 gine001 Gilad Nevo UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (test123, 0||1, 1-10201 : 09-03, 1||1||1||1) on conditions customer = adan001
+12:22:59 gine001 Gilad Nevo INSERTING data into tables `history_sick_report` fields ( employee, customer, file ) values ( emte001, adan001, Sick_adan001_861986377.pdf ) => {inserted_id = 45}
+12:31:03 gine001 Gilad Nevo UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (test123, 0||1, 1-10201 : 09-03, 1||1||1||1) on conditions customer = adan001
+12:31:03 gine001 Gilad Nevo INSERTING data into tables `history_sick_report` fields ( employee, customer, file ) values ( emte001, adan001, Sick_adan001_808158764.pdf ) => {inserted_id = 46}
+12:42:35 gine001 Gilad Nevo UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (test123, 1||1, 1-10201 : 09-03, 1||1||1||1) on conditions customer = adan001
+12:42:35 gine001 Gilad Nevo INSERTING data into tables `history_sick_report` fields ( employee, customer, file ) values ( emte001, adan001, Sick_adan001_1672215813.pdf ) => {inserted_id = 47}
+18:48:55 gine001 Gilad Nevo UPDATING data to tables `employee` fields ( monthly_salary ) values (0) on conditions username = emte001
+18:49:12 gine001 Gilad Nevo DELETE data from tables `emp_salary` on conditions salaryId = 30
+18:51:07 gine001 Gilad Nevo UPDATING data to tables `employee_salary` fields ( effect_to ) values (2015-12-31) on conditions id = 
+18:51:07 gine001 Gilad Nevo INSERTING data into tables `employee_salary` fields ( employee, effect_from, effect_to, normal, travel, break, overtime, quality_overtime, oncall, more_time, some_other_time, training_time, call_training, personal_meeting, holiday_big, holiday_big_oncall, holiday_red, holiday_red_oncall, insurance, clone_from, increment_percentage, week_end_travel, voluntary, complementary, complementary_oncall, more_oncall, standby, w_dismissal ) values ( emte001, 2016-01-01, , 100, 50, , 130, 135, , 100, 100, 80, , 100, 145, 65, 85, , 6, , , 60, 0, , , , 35, 85 ) => {inserted_id = 8}
+18:52:33 gine001 Gilad Nevo UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (test123, 1||1, 1-10201 : 09-03, 1||1||1||1) on conditions customer = adan001
+18:52:33 gine001 Gilad Nevo INSERTING data into tables `history_sick_report` fields ( employee, customer, file ) values ( emte001, adan001, Sick_adan001_888387987.pdf ) => {inserted_id = 48}
+18:57:03 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (adan001, thne001, 2016-09-03, 0.00, 24, 1, 3, 1, ) on conditions id = 9892
+18:57:14 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (adan001, than001, 2016-09-04, 0.00, 24, 1, 3, 1, ) on conditions id = 9893
+18:57:48 gine001 Gilad Nevo UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (test123, 1||1, 1-10201 : 09-03, 1||1||1||1) on conditions customer = adan001
+18:57:49 gine001 Gilad Nevo INSERTING data into tables `history_sick_report` fields ( employee, customer, file ) values ( emte001, adan001, Sick_adan001_2106431928.pdf ) => {inserted_id = 49}

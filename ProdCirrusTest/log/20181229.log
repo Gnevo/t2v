@@ -1,0 +1,5 @@
+07:43:55 boek001 Bo Ek UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = boek001 AND company_id = 6
+07:43:55 boek001 Bo Ek INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( boek001, 92.186.18.94, android ) => {inserted_id = 7568}
+07:43:55 boek001 Bo Ek DELETE data from tables `temp_session` on conditions username LIKE boek001
+07:43:56 boek001 Bo Ek UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-12-29 07:43:55) on conditions username = boek001
+07:43:56 boek001 Bo Ek UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-12-29 07:43:55) on conditions username = boek001 AND company_id = 6

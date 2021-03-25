@@ -1,0 +1,23 @@
+21:14:41 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+21:14:41 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.154.202, android ) => {inserted_id = 4878}
+21:14:41 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+21:14:41 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-05-08 21:14:41) on conditions username = gine001
+21:14:41 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-05-08 21:14:41) on conditions username = gine001 AND company_id = 6
+21:14:46 gine001 Gilad Nevo UPDATING data to tables `mc_leave` fields ( read_users ) values (thne001,gine001) on conditions leave_id = 115 #Mobile-App: Log-id=4878
+21:14:46 gine001 Gilad Nevo UPDATING data to tables `mc_leave` fields ( read_users ) values (thne001,gine001) on conditions leave_id = 113 #Mobile-App: Log-id=4878
+21:14:46 gine001 Gilad Nevo UPDATING data to tables `mc_leave` fields ( read_users ) values (thne001,gine001) on conditions leave_id = 114 #Mobile-App: Log-id=4878
+21:14:46 gine001 Gilad Nevo UPDATING data to tables `mc_leave` fields ( read_users ) values (thne001,gine001) on conditions leave_id = 112 #Mobile-App: Log-id=4878
+21:14:46 gine001 Gilad Nevo UPDATING data to tables `mc_leave` fields ( read_users ) values (thne001,gine001) on conditions leave_id = 111 #Mobile-App: Log-id=4878
+21:14:46 gine001 Gilad Nevo INSERTING data into tables `mc_leave` fields ( leave_id, leave_status, read_users ) values ( 116, 1, gine001 ) => {inserted_id = 130} #Mobile-App: Log-id=4878
+21:15:47 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+21:15:47 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.154.202, android ) => {inserted_id = 4879}
+21:15:47 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+21:15:47 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-05-08 21:15:47) on conditions username = gine001
+21:15:47 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-05-08 21:15:47) on conditions username = gine001 AND company_id = 6
+21:15:52 gine001 Gilad Nevo UPDATING data to tables `mc_note` fields ( read_users ) values (dodo001,dodo001,dodo001,thne001,gine001) on conditions note_id = 118 #Mobile-App: Log-id=4879
+21:23:15 gine001 Gilad Nevo INSERTING data into tables `customer_documentation` fields ( customer, employee, completed_date, subject, note_type, notes, priority, description, status, writable, created_by, date ) values ( adan001, gine001, , only customer test, minnesanteckning, customer only, , , , 0, gine001, 2016-05-08 ) => {inserted_id = 99} #Mobile-App: Log-id=4879
+21:23:15 gine001 Gilad Nevo INSERTING data into tables `note` fields ( created_user, title, description, visibility, status, customer, ticket, attachment ) values ( gine001, only customer test, customer only, 2, 0, adan001, ,  ) => {inserted_id = 119} #Mobile-App: Log-id=4879
+21:23:15 gine001 Gilad Nevo UPDATING data to tables `note` fields ( attachment ) values () on conditions id = 119 #Mobile-App: Log-id=4879
+21:23:40 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001 #Mobile-App: Log-id=4879
+21:23:40 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2016-05-08 21:23:40) on conditions username = gine001 #Mobile-App: Log-id=4879
+21:23:40 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-05-08 21:23:40) on conditions username = gine001 AND company_id = 6 #Mobile-App: Log-id=4879

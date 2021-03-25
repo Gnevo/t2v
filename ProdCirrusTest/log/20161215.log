@@ -1,0 +1,40 @@
+09:39:53 magu013 Maria Gustafsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( magu013, 85.89.66.156, Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko ) => {inserted_id = 5384}
+09:39:53 magu013 Maria Gustafsson DELETE data from tables `temp_session` on conditions username LIKE magu013
+09:39:54 magu013 Maria Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-12-15 09:39:53) on conditions username = magu013
+09:39:54 magu013 Maria Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-12-15 09:39:53) on conditions username = magu013 AND company_id = 6
+09:46:37 magu013 Maria Gustafsson INSERTING data into tables `fkkn_form_defaults` fields ( customer, bargaining_new, company_cp_name, company_cp_phone, provider_of_pa_flag, agreement_types_new, agreement_type2_company, agreement_type2_orgNo ) values ( stli001, 1, Gilad, 0704434964, 2, 1, ,  ) => {inserted_id = 7}
+09:46:37 magu013 Maria Gustafsson INSERTING data into tables `history_samsida_work_report` fields ( month, year, fkkn, customer, employee, file_name ) values ( 12, 2016, 1, stli001, , Samsida_1141056581.pdf ) => {inserted_id = 112}
+09:53:55 magu013 Maria Gustafsson UPDATING data to tables `mc_leave` fields ( read_users ) values (tato002,magu013) on conditions leave_id = 133
+09:53:55 magu013 Maria Gustafsson UPDATING data to tables `mc_leave` fields ( read_users ) values (tato002,magu013) on conditions leave_id = 132
+09:53:55 magu013 Maria Gustafsson UPDATING data to tables `mc_leave` fields ( read_users ) values (tato002,magu013) on conditions leave_id = 134
+09:53:55 magu013 Maria Gustafsson UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,tato002,magu013) on conditions leave_id = 130
+09:53:55 magu013 Maria Gustafsson UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,tato002,magu013) on conditions leave_id = 128
+09:53:55 magu013 Maria Gustafsson UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,tato002,magu013) on conditions leave_id = 127
+09:53:55 magu013 Maria Gustafsson UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,tato002,magu013) on conditions leave_id = 126
+09:53:56 magu013 Maria Gustafsson UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,tato002,magu013) on conditions leave_id = 129
+09:53:56 magu013 Maria Gustafsson INSERTING data into tables `mc_leave` fields ( leave_id, leave_status, read_users ) values ( 135, 1, magu013 ), ( 136, 0, magu013 ) => {inserted_id = 154}
+11:03:57 magu013  UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (1) on conditions username = magu013 AND company_id = 6
+11:04:11 magu013 Maria Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = magu013 AND company_id = 6
+11:04:11 magu013 Maria Gustafsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( magu013, 85.89.66.156, Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko ) => {inserted_id = 5385}
+11:04:11 magu013 Maria Gustafsson DELETE data from tables `temp_session` on conditions username LIKE magu013
+11:04:11 magu013 Maria Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-12-15 11:04:11) on conditions username = magu013
+11:04:11 magu013 Maria Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-12-15 11:04:11) on conditions username = magu013 AND company_id = 6
+11:04:12 magu013 Maria Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (magu013) on conditions session_id = 005639d93b2558a1566c137bf4fdb77a
+11:04:20 magu013 Maria Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (magu013) on conditions session_id = 005639d93b2558a1566c137bf4fdb77a
+11:05:13 magu013 Maria Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (magu013) on conditions session_id = 005639d93b2558a1566c137bf4fdb77a
+11:06:04 magu013 Maria Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (magu013) on conditions session_id = 005639d93b2558a1566c137bf4fdb77a
+11:07:05 magu013 Maria Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (magu013) on conditions session_id = 005639d93b2558a1566c137bf4fdb77a
+11:21:30 magu013 Maria Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (magu013) on conditions session_id = 005639d93b2558a1566c137bf4fdb77a
+11:22:13 magu013 Maria Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (magu013) on conditions session_id = 005639d93b2558a1566c137bf4fdb77a
+11:22:23 magu013 Maria Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (magu013) on conditions session_id = 005639d93b2558a1566c137bf4fdb77a
+11:22:59 magu013 Maria Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (magu013) on conditions session_id = 005639d93b2558a1566c137bf4fdb77a
+12:41:13 magu013 Maria Gustafsson UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, lobr002, magu013) on conditions id = 10209
+12:41:13 magu013 Maria Gustafsson UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, lobr002, magu013) on conditions id = 10210
+12:46:23 magu013 Maria Gustafsson UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (stli001, boek001, 2017-01-30, 8.00, 24, 1, 0, 1, ) on conditions id = 10807
+16:25:42 rokl001 rokl001 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rokl001, 85.89.66.156, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 ) => {inserted_id = 5386}
+16:25:42 rokl001 rokl001 DELETE data from tables `temp_session` on conditions username LIKE rokl001
+16:25:42 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-12-15 16:25:42) on conditions username = rokl001
+16:25:42 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-12-15 16:25:42) on conditions username = rokl001 AND company_id = 6
+16:25:43 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (rokl001) on conditions session_id = 07ee44cd2f5d8d6811f3e85b9a895f15
+16:28:57 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (rokl001) on conditions session_id = 07ee44cd2f5d8d6811f3e85b9a895f15
+16:37:25 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (rokl001) on conditions session_id = 07ee44cd2f5d8d6811f3e85b9a895f15

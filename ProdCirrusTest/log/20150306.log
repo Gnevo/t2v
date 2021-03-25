@@ -1,0 +1,14 @@
+05:45:27 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+05:45:27 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 223.30.129.234, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36 ) => {inserted_id = 2278}
+05:45:27 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+05:45:27 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+05:45:28 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = b30a6f74eb57888a3eab274ba1d553ff
+09:46:01   UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values () on conditions session_id = 45fee7f07d0db6a650883ab7357dcbf3
+09:46:02   DELETE data from tables `temp_session` on conditions username LIKE 
+09:46:02   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = 
+09:46:02   UPDATING data to tables `log_login` fields ( logout_time ) values (2015-03-06:08:46:02) on conditions id =  AND username = 
+09:46:16 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+09:46:16 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 46.194.66.19, Mozilla/5.0 (Windows NT 6.1; WOW64; rv:35.0) Gecko/20100101 Firefox/35.0 ) => {inserted_id = 2279}
+09:46:16 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+09:46:16 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+09:46:16 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = c58d683000f7344ee5a040995c09ae11

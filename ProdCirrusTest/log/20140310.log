@@ -1,0 +1,45 @@
+10:47:02   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = 
+10:47:02   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-03-10:09:47:02) on conditions id =  AND username = 
+11:26:34 igro001 root001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( mobile, social_security ) values (98653247, 7204090117) on conditions username = hesv001
+11:26:34 igro001 root001 UPDATING data to tables `customer` fields ( code, century, social_security, first_name, last_name, address, city, post, phone, mobile, email, date, status, date_inactive, fkkn, gender ) values (33, 19, 7204090117, Testina, Svan, storgatan 22, Kumla, 692 32, 1912345678, 98653247, , 2012-08-01, 1, , 2, 1) on conditions username = hesv001
+11:26:34 igro001 root001 DELETE data from tables `team` on conditions customer = hesv001
+11:26:34 igro001 root001 INSERTING data into tables `team` fields ( customer, employee, role ) values ( hesv001, lima003, 3 ) => {inserted_id = 0}
+11:26:34 igro001 root001 INSERTING data into tables `team` fields ( customer, employee, role ) values ( hesv001, wita001, 2 ) => {inserted_id = 0}
+11:26:34 igro001 root001 INSERTING data into tables `team` fields ( customer, employee, role ) values ( hesv001, moen001, 3 ) => {inserted_id = 0}
+11:26:34 igro001 root001 INSERTING data into tables `team` fields ( customer, employee, role ) values ( hesv001, jata001, 3 ) => {inserted_id = 0}
+11:26:34 igro001 root001 INSERTING data into tables `team` fields ( customer, employee, role ) values ( hesv001, joef001, 3 ) => {inserted_id = 0}
+11:26:34 igro001 root001 INSERTING data into tables `team` fields ( customer, employee, role ) values ( hesv001, anra004, 3 ) => {inserted_id = 0}
+11:26:58 igro001 root001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , stbj001, 1, 3, 2014-02-25, 2.00, 8.00, 0, igro001 ) => {inserted_id = 4988}
+11:26:58 igro001 root001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , stbj001, 1, 0, 2014-02-25, 9.00, 17.00, 0, igro001 ) => {inserted_id = 4989}
+11:27:02 igro001 root001 UPDATING data to tables `timetable` fields ( fkkn ) values (2) on conditions id = 4988
+11:27:05 igro001 root001 UPDATING data to tables `timetable` fields ( fkkn ) values (2) on conditions id = 4989
+11:27:32 igro001 root001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , stbj001, 1, 0, 2014-02-25, 12, 16.30, 0, igro001 ) => {inserted_id = 4990}
+11:27:32 igro001 root001 INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( stbj001, 12, 16.30, 0 ) => {inserted_id = 188}
+11:27:32 igro001 root001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , stbj001, 1, 0, 2014-02-26, 12, 16.30, 0, igro001 ) => {inserted_id = 4991}
+11:27:32 igro001 root001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , stbj001, 1, 0, 2014-02-27, 12, 16.30, 0, igro001 ) => {inserted_id = 4992}
+11:46:18 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 115.248.24.177, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/32.0.1700.107 Chrome/32.0.1700.107 Safari/537.36 ) => {inserted_id = 1509}
+11:46:18 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+11:46:47 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , stal001, 1, 0, 2014-03-02, 6, 9, 0, gine001 ) => {inserted_id = 4993}
+11:46:51 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , stal001, 1, 0, 2014-03-02, 22.2, 24, 0, gine001 ) => {inserted_id = 4994}
+11:46:56 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, gine001, gine001) on conditions id = 4993
+11:46:56 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, gine001, gine001) on conditions id = 4994
+11:46:59 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( fkkn ) values (2) on conditions id = 4993
+11:47:23 gine001 Gilad Nevo UPDATING data to tables `fkkn_form_defaults` fields ( bargaining, other_bargaining_text, agreement_types, agreement_type2_company, agreement_type2_orgNo ) values (2, , 0||0||0, , ) on conditions customer = stal001
+11:47:34 gine001 Gilad Nevo UPDATING data to tables `fkkn_form_defaults` fields ( bargaining, other_bargaining_text, agreement_types, agreement_type2_company, agreement_type2_orgNo ) values (2, , 0||0||0, , ) on conditions customer = stal001
+11:47:35 gine001 Gilad Nevo INSERTING data into tables `history_samsida_work_report` fields ( month, year, fkkn, customer, employee, file_name ) values ( 3, 2014, 1, stal001, gine001, Samsida_626446662.pdf ) => {inserted_id = 37}
+12:08:18 igro001 root001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( mobile, social_security ) values (, 3503120051) on conditions username = stbj001
+12:08:18 igro001 root001 UPDATING data to tables `customer` fields ( code, century, social_security, first_name, last_name, address, city, post, phone, mobile, email, date, status, date_inactive, fkkn, gender ) values (10200, 19, 3503120051, Stig, Björk, Storgatan 12, Kumla, 692 32, , , , 2014-01-19, 1, , 2, 1) on conditions username = stbj001
+12:08:18 igro001 root001 DELETE data from tables `team` on conditions customer = stbj001
+12:08:18 igro001 root001 INSERTING data into tables `team` fields ( customer, employee, role ) values ( stbj001, last002, 3 ) => {inserted_id = 0}
+12:08:18 igro001 root001 INSERTING data into tables `team` fields ( customer, employee, role ) values ( stbj001, kaka003, 3 ) => {inserted_id = 0}
+12:08:18 igro001 root001 INSERTING data into tables `team` fields ( customer, employee, role ) values ( stbj001, rawi001, 3 ) => {inserted_id = 0}
+12:08:18 igro001 root001 INSERTING data into tables `team` fields ( customer, employee, role ) values ( stbj001, jata001, 3 ) => {inserted_id = 0}
+12:08:18 igro001 root001 UPDATING data to tables `customer_guardian` fields ( first_name, last_name, mobile, email, address, first_name2, last_name2, mobile2, email2, address2 ) values (Gilad, Nevo, 046-704 43 49 64, , , , , , , ) on conditions customer = stbj001
+12:08:38 igro001 root001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , stbj001, 1, 3, 2014-03-03, 2.00, 8.00, 0, igro001 ) => {inserted_id = 4995}
+12:08:38 igro001 root001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , stbj001, 1, 0, 2014-03-03, 9.00, 17.00, 0, igro001 ) => {inserted_id = 4996}
+12:08:42 igro001 root001 UPDATING data to tables `timetable` fields ( fkkn ) values (2) on conditions id = 4995
+12:08:45 igro001 root001 UPDATING data to tables `timetable` fields ( fkkn ) values (2) on conditions id = 4996
+12:08:54 igro001 root001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , stbj001, 1, 0, 2014-03-03, 19.00, 23.00, 0, igro001 ) => {inserted_id = 4997}
+12:09:08 igro001 root001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , stbj001, 1, 0, 2014-03-03, 16, 17, 0, igro001 ) => {inserted_id = 4998}
+12:09:08 igro001 root001 INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( stbj001, 16, 17, 0 ) => {inserted_id = 189}
+12:10:09 igro001 root001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , stbj001, 1, 0, 2014-03-10, 9.00, 17.00, 0, igro001 ) => {inserted_id = 4999}

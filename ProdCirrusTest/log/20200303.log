@@ -1,0 +1,21 @@
+12:21:24 adad001 Admin Admin INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( adad001, 112.133.237.11, Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:73.0) Gecko/20100101 Firefox/73.0 ) => {inserted_id = 10996}
+12:21:45 adad001 Admin Admin UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( password, last_pw_update_date, error ) values (3eec29dc8400375fab2ca3a8683e5021, 2020-03-03 11:21:45, 0) on conditions username = adad001 AND company_id = 6
+12:21:45 adad001 Admin Admin UPDATING data to tables `log_password` fields ( passwords ) values (b84964cf03e103ad03c8be3278579d0f,e23ed3da13abc3b3da2b711d207c7208,e23ed3da13abc3b3da2b711d207c7208) on conditions username = adad001
+12:21:45 adad001 Admin Admin DELETE data from tables `temp_session` on conditions username LIKE adad001
+12:21:45 adad001 Admin Admin UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-03-03 12:21:45) on conditions username = adad001
+12:21:45 adad001 Admin Admin UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-03-03 12:21:45) on conditions username = adad001 AND company_id = 6
+12:21:45 adad001 Admin Admin UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (adad001) on conditions session_id = d95cd91b3f69c4c5ede6399398342bd8
+12:21:58 adad001 Admin Admin DELETE data from tables `temp_session` on conditions username LIKE adad001
+12:21:58 adad001 Admin Admin UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2020-03-03 12:21:58) on conditions username = adad001
+12:21:58 adad001 Admin Admin UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-03-03 12:21:58) on conditions username = adad001 AND company_id = 6
+12:21:58   UPDATING data to tables `log_login` fields ( logout_time ) values (2020-03-03:11:21:58) on conditions id = 10996 AND username = adad001
+12:22:15 adad001 Admin Admin INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( adad001, 112.133.237.11, Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:73.0) Gecko/20100101 Firefox/73.0 ) => {inserted_id = 10997}
+12:22:15 adad001 Admin Admin DELETE data from tables `temp_session` on conditions username LIKE adad001
+12:22:15 adad001 Admin Admin UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-03-03 12:22:15) on conditions username = adad001
+12:22:15 adad001 Admin Admin UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-03-03 12:22:15) on conditions username = adad001 AND company_id = 6
+12:22:16 adad001 Admin Admin UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (adad001) on conditions session_id = d967d609d7bf92da38900aacbf62a408
+12:23:05 adad001 Admin Admin UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = adad001 AND company_id = 6
+12:23:05 adad001 Admin Admin INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( adad001, 112.133.237.11, Time2View/9 CFNetwork/1121.2.2 Darwin/19.3.0 ) => {inserted_id = 10998}
+12:23:05 adad001 Admin Admin DELETE data from tables `temp_session` on conditions username LIKE adad001
+12:23:05 adad001 Admin Admin UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-03-03 12:23:05) on conditions username = adad001
+12:23:05 adad001 Admin Admin UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-03-03 12:23:05) on conditions username = adad001 AND company_id = 6

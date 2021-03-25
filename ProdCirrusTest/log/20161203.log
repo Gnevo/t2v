@@ -1,0 +1,48 @@
+12:14:06 thne001 Theodor Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( thne001, 85.227.159.221, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36 ) => {inserted_id = 5359}
+12:14:06 thne001 Theodor Nevo DELETE data from tables `temp_session` on conditions username LIKE thne001
+12:14:06 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-12-03 12:14:06) on conditions username = thne001
+12:14:06 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-12-03 12:14:06) on conditions username = thne001 AND company_id = 6
+12:14:07 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = 422be261afffb90c16a5bb7f8c7d86af
+12:14:07 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = 422be261afffb90c16a5bb7f8c7d86af
+13:23:42 thne001 Theodor Nevo INSERTING data into tables `holiday_block_master` fields ( name, group_id, effect_from, effect_to, date_from, date_to, start_time, end_time, type ) values ( 1:a Maj, 7, 2017, , 05-01, 05-02, 0.00, 7.00, 1 ) => {inserted_id = 43}
+13:23:42 thne001 Theodor Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 43, 1, 2 ) => {inserted_id = 537}
+13:23:42 thne001 Theodor Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 43, 2, 2 ) => {inserted_id = 538}
+13:23:42 thne001 Theodor Nevo UPDATING data to tables `holiday_block_master` fields ( effect_to ) values (2016) on conditions id = 7
+13:23:51 thne001 Theodor Nevo UPDATING data to tables `holiday_block_master` fields ( name, group_id, effect_from, effect_to, date_from, date_to, start_time, end_time, type ) values (1:a Maj, 7, 2017, , 05-01, 05-02, 0.00, 7.00, 1) on conditions id = 43
+13:23:51 thne001 Theodor Nevo DELETE data from tables `holiday_block` on conditions block_master_id = 43
+13:23:51 thne001 Theodor Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 43, 1, 1 ) => {inserted_id = 539}
+13:23:51 thne001 Theodor Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 43, 2, 2 ) => {inserted_id = 540}
+13:44:42 thne001 Theodor Nevo UPDATING data to tables `holiday_block_master` fields ( name, group_id, effect_from, effect_to, date_from, date_to, start_time, end_time, type ) values (1:a Maj, 7, 2017, , 04-30, 05-02, 18, 7.00, 1) on conditions id = 43
+13:44:42 thne001 Theodor Nevo DELETE data from tables `holiday_block` on conditions block_master_id = 43
+13:44:42 thne001 Theodor Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 43, 1, 2 ) => {inserted_id = 541}
+13:44:42 thne001 Theodor Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 43, 2, 1 ) => {inserted_id = 542}
+13:44:42 thne001 Theodor Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 43, 3, 2 ) => {inserted_id = 543}
+14:19:57 thne001 Theodor Nevo INSERTING data into tables `holiday_block_master` fields ( name, group_id, effect_from, effect_to, date_from, date_to, start_time, end_time, type ) values ( Kristi Himmelsfärdsdag, 8, 2017, , 05-24, 05-26, 18.00, 7.00, 1 ) => {inserted_id = 44}
+14:19:57 thne001 Theodor Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 44, 1, 2 ) => {inserted_id = 544}
+14:19:57 thne001 Theodor Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 44, 2, 1 ) => {inserted_id = 545}
+14:19:57 thne001 Theodor Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 44, 3, 2 ) => {inserted_id = 546}
+14:19:57 thne001 Theodor Nevo UPDATING data to tables `holiday_block_master` fields ( effect_to ) values (2016) on conditions id = 30
+14:20:36 thne001 Theodor Nevo UPDATING data to tables `holiday_block_master` fields ( name, group_id, effect_from, effect_to, date_from, date_to, start_time, end_time, type ) values (Kristi Himmelsfärdsdag, 8, 2017, , 05-24, 05-26, 18.00, 7.00, 1) on conditions id = 44
+14:20:36 thne001 Theodor Nevo DELETE data from tables `holiday_block` on conditions block_master_id = 44
+14:20:36 thne001 Theodor Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 44, 1, 2 ) => {inserted_id = 547}
+14:20:36 thne001 Theodor Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 44, 2, 1 ) => {inserted_id = 548}
+14:20:36 thne001 Theodor Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 44, 3, 2 ) => {inserted_id = 549}
+14:23:03 thne001 Theodor Nevo INSERTING data into tables `holiday_block_master` fields ( name, group_id, effect_from, effect_to, date_from, date_to, start_time, end_time, type ) values ( Pingst, 2, 2017, , 06-02, 06-05, 18.00, 7.00, 2 ) => {inserted_id = 45}
+14:23:03 thne001 Theodor Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 45, 1, 2 ) => {inserted_id = 550}
+14:23:03 thne001 Theodor Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 45, 2, 1 ) => {inserted_id = 551}
+14:23:03 thne001 Theodor Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 45, 3, 1 ) => {inserted_id = 552}
+14:23:03 thne001 Theodor Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 45, 4, 2 ) => {inserted_id = 553}
+14:23:03 thne001 Theodor Nevo UPDATING data to tables `holiday_block_master` fields ( effect_to ) values (2016) on conditions id = 42
+14:44:30 thne001 Theodor Nevo INSERTING data into tables `holiday_block_master` fields ( name, group_id, effect_from, effect_to, date_from, date_to, start_time, end_time, type ) values ( Midsommardagen, 3, 2017, , 06-22, 06-26, 18.00, 7.00, 2 ) => {inserted_id = 46}
+14:44:30 thne001 Theodor Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 46, 1, 2 ) => {inserted_id = 554}
+14:44:30 thne001 Theodor Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 46, 2, 1 ) => {inserted_id = 555}
+14:44:30 thne001 Theodor Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 46, 3, 1 ) => {inserted_id = 556}
+14:44:30 thne001 Theodor Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 46, 4, 1 ) => {inserted_id = 557}
+14:44:30 thne001 Theodor Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 46, 5, 2 ) => {inserted_id = 558}
+14:44:30 thne001 Theodor Nevo UPDATING data to tables `holiday_block_master` fields ( effect_to ) values (2016) on conditions id = 39
+14:49:45 thne001 Theodor Nevo INSERTING data into tables `holiday_block_master` fields ( name, group_id, effect_from, effect_to, date_from, date_to, start_time, end_time, type ) values ( Alla helgons dag, 10, 2017, , 11-03, 11-06, 18.00, 7.00, 1 ) => {inserted_id = 47}
+14:49:46 thne001 Theodor Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 47, 1, 2 ) => {inserted_id = 559}
+14:49:46 thne001 Theodor Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 47, 2, 1 ) => {inserted_id = 560}
+14:49:46 thne001 Theodor Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 47, 3, 1 ) => {inserted_id = 561}
+14:49:46 thne001 Theodor Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 47, 4, 2 ) => {inserted_id = 562}
+14:49:46 thne001 Theodor Nevo UPDATING data to tables `holiday_block_master` fields ( effect_to ) values (2016) on conditions id = 34

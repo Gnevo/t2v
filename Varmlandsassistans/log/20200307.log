@@ -1,0 +1,26 @@
+09:22:52 rute001 Ruta Teklehaimanot INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rute001, 78.68.12.244, okhttp/3.9.1 ) => {inserted_id = 8118}
+09:24:16 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( password, last_pw_update_date, error ) values (319c6c9b6a19ace9c859a67a93ca466a, 2020-03-07 08:24:16, 0) on conditions username = rute001 AND company_id = 21
+09:24:16 rute001 Ruta Teklehaimanot INSERTING data into tables `log_password` fields ( username, passwords ) values ( rute001, c81df55af9ab46de1bcf2aa1c4a197ac ) => {inserted_id = 0}
+09:24:16 rute001 Ruta Teklehaimanot DELETE data from tables `temp_session` on conditions username LIKE rute001
+09:24:16 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-03-07 09:24:16) on conditions username = rute001
+09:24:16 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-03-07 09:24:16) on conditions username = rute001 AND company_id = 21
+09:24:20 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = rute001 AND company_id = 21
+09:24:20 rute001 Ruta Teklehaimanot INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rute001, 78.68.12.244, okhttp/3.9.1 ) => {inserted_id = 8119}
+09:24:20 rute001 Ruta Teklehaimanot DELETE data from tables `temp_session` on conditions username LIKE rute001
+09:24:20 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-03-07 09:24:20) on conditions username = rute001
+09:24:20 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-03-07 09:24:20) on conditions username = rute001 AND company_id = 21
+09:24:20 rute001 Ruta Teklehaimanot INSERTING data into tables `time2vie_cirruscommon`.`push_notify_tokens` fields ( user_id, fcm_token, device_id, device_details, created_date, error ) values ( rute001, fdmBQG6IAMI:APA91bEvcpfncml19LdTPHyEawClj5suMkS4r7diDCg2XZUTJSupU4IUkrlL8FB1zzyVkamgt1wWzO6dJm9uw2M9kaN5XjliWcqZ10OHpbVUjc5cfYalvliBqPmpKdzXB29WuntGSccU, 392322a7e9b80435, okhttp/3.9.1, 2020-03-07 09:24:20, 0 ) => {inserted_id = 15050} #Mobile-App: Log-id=8119
+09:29:38 rute001 Ruta Teklehaimanot DELETE data from tables `time2vie_cirruscommon`.`push_notify_tokens` on conditions user_id = rute001 AND fcm_token = fdmBQG6IAMI:APA91bEvcpfncml19LdTPHyEawClj5suMkS4r7diDCg2XZUTJSupU4IUkrlL8FB1zzyVkamgt1wWzO6dJm9uw2M9kaN5XjliWcqZ10OHpbVUjc5cfYalvliBqPmpKdzXB29WuntGSccU #Mobile-App: Log-id=8119
+09:29:38 rute001 Ruta Teklehaimanot DELETE data from tables `temp_session` on conditions username LIKE rute001 #Mobile-App: Log-id=8119
+09:29:38 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2020-03-07 09:29:38) on conditions username = rute001 #Mobile-App: Log-id=8119
+09:29:38 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-03-07 09:29:38) on conditions username = rute001 AND company_id = 21 #Mobile-App: Log-id=8119
+09:29:55 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = rute001 AND company_id = 21
+09:29:55 rute001 Ruta Teklehaimanot INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rute001, 78.68.12.244, okhttp/3.9.1 ) => {inserted_id = 8120}
+09:29:55 rute001 Ruta Teklehaimanot DELETE data from tables `temp_session` on conditions username LIKE rute001
+09:29:55 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-03-07 09:29:55) on conditions username = rute001
+09:29:55 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-03-07 09:29:55) on conditions username = rute001 AND company_id = 21
+15:40:49 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = rute001 AND company_id = 21
+15:40:49 rute001 Ruta Teklehaimanot INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rute001, 78.68.12.244, okhttp/3.9.1 ) => {inserted_id = 8121}
+15:40:49 rute001 Ruta Teklehaimanot DELETE data from tables `temp_session` on conditions username LIKE rute001
+15:40:49 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-03-07 15:40:49) on conditions username = rute001
+15:40:49 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-03-07 15:40:49) on conditions username = rute001 AND company_id = 21

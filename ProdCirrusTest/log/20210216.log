@@ -1,0 +1,23 @@
+16:46:34 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 182.68.238.52, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 ) => {inserted_id = 15491}
+16:46:34 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+16:46:34 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2021-02-16 16:46:34) on conditions username = gine001
+16:46:34 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2021-02-16 16:46:34) on conditions username = gine001 AND company_id = 6
+16:46:35 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = khvfkdlviia0906se45ir9qj96
+16:46:38 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = khvfkdlviia0906se45ir9qj96
+16:46:39 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = khvfkdlviia0906se45ir9qj96
+16:47:02 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 18561
+16:47:02 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( anst007, 2021-02-02, 9.00, 19.30, 0, 3, , gine001, 18561, 0 ) => {inserted_id = 18567}
+16:47:02 gine001 Gilad Nevo INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 247, gine001, 2021-02-02, 9, 19.3, 1, , gine001, 1, 0 ) => {inserted_id = 896}
+16:58:17 adad001 Admin Admin INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( adad001, 182.68.238.52, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 ) => {inserted_id = 15492}
+16:58:17 adad001 Admin Admin DELETE data from tables `temp_session` on conditions username LIKE adad001
+16:58:17 adad001 Admin Admin UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2021-02-16 16:58:17) on conditions username = adad001
+16:58:17 adad001 Admin Admin UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2021-02-16 16:58:17) on conditions username = adad001 AND company_id = 6
+16:58:18 adad001 Admin Admin UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (adad001) on conditions session_id = 3d95i1e8b5d139cu8ro7pvo0o6
+16:58:19 adad001 Admin Admin UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (adad001) on conditions session_id = 3d95i1e8b5d139cu8ro7pvo0o6
+16:58:38 adad001 Admin Admin UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 18566
+16:58:38 adad001 Admin Admin INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( anst007, 2021-02-04, 19.30, 21.00, 3, 1, , adad001, 18566, 0 ) => {inserted_id = 18568}
+16:58:38 adad001 Admin Admin INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 248, gine001, 2021-02-04, 19.3, 21, 1, , adad001, 1, 0 ) => {inserted_id = 897}
+17:03:29 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = khvfkdlviia0906se45ir9qj96
+17:04:16 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 18563
+17:04:16 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( anst007, 2021-02-03, 9.00, 19.30, 0, 2, , gine001, 18563, 0 ) => {inserted_id = 18569}
+17:04:16 gine001 Gilad Nevo INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 249, gine001, 2021-02-03, 9, 19.3, 1, , gine001, 1, 0 ) => {inserted_id = 898}

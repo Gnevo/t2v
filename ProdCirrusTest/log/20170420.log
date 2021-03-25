@@ -1,0 +1,23 @@
+13:12:33 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 223.30.129.234, Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0 ) => {inserted_id = 5765}
+13:12:33 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+13:12:33 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2017-04-20 13:12:33) on conditions username = dodo001
+13:12:33 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-04-20 13:12:33) on conditions username = dodo001 AND company_id = 6
+13:12:34 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = 5d3c9d050d277b0f8c9bc050e10aa964
+13:12:39 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = 5d3c9d050d277b0f8c9bc050e10aa964
+13:14:00 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+13:14:01 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2017-04-20 13:14:00) on conditions username = dodo001
+13:14:01 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-04-20 13:14:00) on conditions username = dodo001 AND company_id = 6
+13:14:01   UPDATING data to tables `log_login` fields ( logout_time ) values (2017-04-20:11:14:01) on conditions id = 5765 AND username = dodo001
+13:24:10 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 223.30.129.234, Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0 ) => {inserted_id = 5766}
+13:24:10 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+13:24:10 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2017-04-20 13:24:10) on conditions username = dodo001
+13:24:10 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-04-20 13:24:10) on conditions username = dodo001 AND company_id = 6
+13:24:11 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = 1efdb3593d201f14fb7515813f4bc990
+16:10:10 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 178.31.132.238, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36 ) => {inserted_id = 5767}
+16:10:10 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+16:10:10 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2017-04-20 16:10:10) on conditions username = gine001
+16:10:10 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-04-20 16:10:10) on conditions username = gine001 AND company_id = 6
+16:10:11 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 118303e6ae068ebd29208fc9c690c1a1
+16:11:14 gine001 Gilad Nevo UPDATING data to tables `fkkn_form_defaults` fields ( bargaining_new, company_cp_name, company_cp_phone, provider_of_pa_flag, agreement_types_new, agreement_type2_company, agreement_type2_orgNo ) values (1, Gilad, 0704434964, 2, , , ) on conditions customer = stbj001
+16:11:42 gine001 Gilad Nevo UPDATING data to tables `fkkn_form_defaults` fields ( bargaining_new, company_cp_name, company_cp_phone, provider_of_pa_flag, agreement_types_new, agreement_type2_company, agreement_type2_orgNo ) values (1, Gilad, 0704434964, 2, , , ) on conditions customer = stbj001
+16:11:42 gine001 Gilad Nevo INSERTING data into tables `history_samsida_work_report` fields ( month, year, fkkn, customer, employee, file_name ) values ( 2, 2017, 2, stbj001, , Samsida_1586665132.pdf ) => {inserted_id = 119}

@@ -1,0 +1,15 @@
+04:57:43 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+04:57:43 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.238.62, Mozilla/5.0 (Android 6.0.1; Mobile; rv:49.0) Gecko/49.0 Firefox/49.0 ) => {inserted_id = 5302}
+04:57:43 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+04:57:43 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-10-26 04:57:43) on conditions username = gine001
+04:57:43 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-10-26 04:57:43) on conditions username = gine001 AND company_id = 6
+08:30:58 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 178.31.178.226, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 ) => {inserted_id = 5303}
+08:30:58 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+08:30:58 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-10-26 08:30:58) on conditions username = gine001
+08:30:58 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-10-26 08:30:58) on conditions username = gine001 AND company_id = 6
+08:30:59 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 2n0qokq7lob0dobs5hi28dmc35
+08:33:10 gine001 Gilad Nevo INSERTING data into tables `customer_appoiments` fields ( customer, appoiment_date, appoiment_address, phone_number, reason, remarks, contact_person_name, phone_number_cp, email_cp, reminder_before_date, reminder_time, repeat_until_due_date, cust_email, email_alert, sms_alert, cust_number, created_by, created_date ) values ( anst007, 2016-10-26  11:00, hemma, 704434964, Möte123, 123 anteckningar, Mig, 704434964, giad.nevo@time2view.se, 2, hours, 1, giad.nevo@time2view.se, 1, 1, 704434964, gine001, 2016-10-26 ) => {inserted_id = 10}
+09:52:43 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+09:52:43 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2016-10-26 09:52:43) on conditions username = gine001
+09:52:43 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-10-26 09:52:43) on conditions username = gine001 AND company_id = 6
+09:52:43   UPDATING data to tables `log_login` fields ( logout_time ) values (2016-10-26:07:52:43) on conditions id = 5303 AND username = gine001

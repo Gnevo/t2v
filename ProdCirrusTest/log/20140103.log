@@ -1,0 +1,12 @@
+07:05:06 gine001 root001 INSERTING data into tables `holiday_block_master` fields ( name, group_id, effect_from, effect_to, date_from, date_to, start_time, end_time, type ) values ( test, 11, 2014, 2014, 01-10, 01-12, 16, 8, 1 ) => {inserted_id = 19}
+07:05:06 gine001 root001 INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 19, 1, 2 ) => {inserted_id = 118}
+07:05:06 gine001 root001 INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 19, 2, 1 ) => {inserted_id = 119}
+07:05:06 gine001 root001 INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 19, 3, 2 ) => {inserted_id = 120}
+07:05:15 gine001 root001 DELETE data from tables `holiday_block_master` on conditions id = 19
+07:05:15 gine001 root001 DELETE data from tables `holiday_block` on conditions block_master_id = 19
+07:05:48 gine001 root001 INSERTING data into tables `holiday_block_master` fields ( name, group_id, effect_from, effect_to, date_from, date_to, start_time, end_time, type ) values ( test, 11, 2014, 2014, 01-10, 01-12, 16, 8, 1 ) => {inserted_id = 20}
+07:05:48 gine001 root001 INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 20, 1, 2 ) => {inserted_id = 121}
+07:05:48 gine001 root001 INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 20, 2, 1 ) => {inserted_id = 122}
+07:05:48 gine001 root001 INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 20, 3, 2 ) => {inserted_id = 123}
+07:51:32   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+07:51:32   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-01-03:06:51:32) on conditions id = 121 AND username = gine001

@@ -1,0 +1,34 @@
+15:38:33 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6 #Mobile-App: Log-id=35
+15:38:33 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.228.65.197, android ) => {inserted_id = 7516} #Mobile-App: Log-id=35
+15:38:33 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001 #Mobile-App: Log-id=7516
+15:38:33 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-12-02 15:38:33) on conditions username = gine001 #Mobile-App: Log-id=7516
+15:38:33 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-12-02 15:38:33) on conditions username = gine001 AND company_id = 6 #Mobile-App: Log-id=7516
+15:38:39 gine001 Gilad Nevo UPDATING data to tables `mc_note` fields ( read_users ) values (dodo001,dodo001,dodo001,dodo001,gine001) on conditions note_id = 167 #Mobile-App: Log-id=7516
+15:44:14 gine001 Gilad Nevo INSERTING data into tables `customer_documentation` fields ( customer, employee, completed_date, subject, note_type, notes, priority, description, status, writable, created_by, date ) values ( adan001, gine001, , Only customer by default?, minnesanteckning, Only customer by default? 
+
+First 50 characters in text area goes as Subject headline..., , , , 0, gine001, 2018-12-02 ) => {inserted_id = 105} #Mobile-App: Log-id=7516
+15:44:14 gine001 Gilad Nevo INSERTING data into tables `note` fields ( created_user, title, description, visibility, status, customer, ticket, attachment, editable ) values ( gine001, Only customer by default?, Only customer by default? 
+
+First 50 characters in text area goes as Subject headline..., 2, 0, adan001, , ,  ) => {inserted_id = 168} #Mobile-App: Log-id=7516
+15:44:14 gine001 Gilad Nevo UPDATING data to tables `note` fields ( attachment ) values () on conditions id = 168 #Mobile-App: Log-id=7516
+18:58:19 boek001  UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (1) on conditions username = boek001 AND company_id = 6
+18:58:26 boek001  UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (2) on conditions username = boek001 AND company_id = 6
+18:58:31 boek001 Bo Ek UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = boek001 AND company_id = 6
+18:58:31 boek001 Bo Ek INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( boek001, 90.227.122.3, Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko ) => {inserted_id = 7517}
+18:58:31 boek001 Bo Ek DELETE data from tables `temp_session` on conditions username LIKE boek001
+18:58:31 boek001 Bo Ek UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-12-02 18:58:31) on conditions username = boek001
+18:58:32 boek001 Bo Ek UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-12-02 18:58:31) on conditions username = boek001 AND company_id = 6
+18:58:46 boek001 Bo Ek DELETE data from tables `temp_session` on conditions username LIKE boek001
+18:58:46 boek001 Bo Ek UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2018-12-02 18:58:46) on conditions username = boek001
+18:58:46 boek001 Bo Ek UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-12-02 18:58:46) on conditions username = boek001 AND company_id = 6
+18:58:47   UPDATING data to tables `log_login` fields ( logout_time ) values (2018-12-02:17:58:46) on conditions id = 7517 AND username = boek001
+18:59:01 boek001 Bo Ek INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( boek001, 90.227.122.3, Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko ) => {inserted_id = 7518}
+18:59:01 boek001 Bo Ek DELETE data from tables `temp_session` on conditions username LIKE boek001
+18:59:01 boek001 Bo Ek UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-12-02 18:59:01) on conditions username = boek001
+18:59:01 boek001 Bo Ek UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-12-02 18:59:01) on conditions username = boek001 AND company_id = 6
+18:59:02 boek001 Bo Ek UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (boek001) on conditions session_id = 76401aa0c044ec589e0adb912201db91
+22:03:26 boek001 Bo Ek INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( boek001, 90.227.122.3, Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko ) => {inserted_id = 7519}
+22:03:26 boek001 Bo Ek DELETE data from tables `temp_session` on conditions username LIKE boek001
+22:03:26 boek001 Bo Ek UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-12-02 22:03:26) on conditions username = boek001
+22:03:26 boek001 Bo Ek UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-12-02 22:03:26) on conditions username = boek001 AND company_id = 6
+22:03:27 boek001 Bo Ek UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (boek001) on conditions session_id = 91a3fed9710ac7d66dd3861e08d7e37b

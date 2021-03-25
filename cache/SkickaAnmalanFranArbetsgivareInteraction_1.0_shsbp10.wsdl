@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions
+    name="SkickaAnmalanFranArbetsgivareInteraction"
+    targetNamespace="urn:shs:emottagning:SkickaAnmalanFranArbetsgivare:1:shsbp10"
+    xmlns:tns="urn:shs:emottagning:SkickaAnmalanFranArbetsgivare:1:shsbp10"
+    xmlns:ioa="urn:shs:emottagning:SkickaAnmalanFranArbetsgivare:1"
+    xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+    xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <wsdl:documentation>
+    Tjänsteinteraktionens namn: SkickaAnmalanFranArbetsgivare
+    Beskrivning: E-tjänst för anmälan från arbetsgivare, FK3066
+    Revisioner:
+      2020-01-27: Utkast version 0.1
+    Tjänstedomän: emottagning
+    Tjänsteinteraktionstyp: Informationsspridning
+    SHS Version 2.0 SOAP-based Protocol Basic Profile 1.0
+    Förvaltas av: Försäkringskassan
+  </wsdl:documentation>
+
+  <wsdl:types>
+    <xs:schema
+        targetNamespace="urn:shs:emottagning:SkickaAnmalanFranArbetsgivare:1:shsbp10">
+      <xs:import namespace="urn:shs:emottagning:SkickaAnmalanFranArbetsgivare:1"
+                 schemaLocation="SkickaAnmalanFranArbetsgivareResponder_1.0.xsd"/>
+      <xs:import namespace="http://www.w3.org/2005/05/xmlmime"/>
+    </xs:schema>
+    <xs:schema targetNamespace="http://www.w3.org/2005/05/xmlmime">
+      <xs:include schemaLocation="xmlmime.xsd"/>
+    </xs:schema>
+  </wsdl:types>
+
+  <wsdl:message name="SkickaAnmalanFranArbetsgivareRequest">
+    <wsdl:part name="parameters"
+               element="ioa:SkickaAnmalanFranArbetsgivare"/>
+  </wsdl:message>
+  <wsdl:message name="SkickaAnmalanFranArbetsgivareResponse">
+    <wsdl:part name="parameters"
+               element="ioa:SkickaAnmalanFranArbetsgivareResponse"/>
+  </wsdl:message>
+  <wsdl:message name="XmlValidationError">
+    <wsdl:part name="error" element="ioa:XmlValidationError"/>
+  </wsdl:message>
+  <wsdl:message name="SignatureValidationError">
+    <wsdl:part name="error" element="ioa:SignatureValidationError"/>
+  </wsdl:message>
+
+  <wsdl:portType name="SkickaAnmalanFranArbetsgivareResponderInterface">
+    <wsdl:operation name="SkickaAnmalanFranArbetsgivare">
+      <wsdl:input message="tns:SkickaAnmalanFranArbetsgivareRequest"/>
+      <wsdl:output message="tns:SkickaAnmalanFranArbetsgivareResponse"/>
+      <wsdl:fault name="XmlValidationError" message="tns:XmlValidationError"/>
+      <wsdl:fault name="SignatureValidationError"
+                  message="tns:SignatureValidationError"/>
+    </wsdl:operation>
+  </wsdl:portType>
+
+  <wsdl:binding name="SkickaAnmalanFranArbetsgivareResponderBinding"
+                type="tns:SkickaAnmalanFranArbetsgivareResponderInterface">
+    <soap:binding style="document"
+                  transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="SkickaAnmalanFranArbetsgivare">
+      <soap:operation soapAction="urn:shs:emottagning:SkickaAnmalanFranArbetsgivareResponder:1:SkickaAnmalanFranArbetsgivare"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="XmlValidationError">
+        <soap:fault use="literal" name="XmlValidationError"/>
+      </wsdl:fault>
+      <wsdl:fault name="SignatureValidationError">
+        <soap:fault use="literal" name="SignatureValidationError"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+
+  <wsdl:service name="SkickaAnmalanFranArbetsgivareResponderService">
+    <wsdl:port name="SkickaAnmalanFranArbetsgivareResponderPort"
+               binding="tns:SkickaAnmalanFranArbetsgivareResponderBinding">
+      <soap:address location="https://shsext.forsakringskassan.se:8020/shs2/FK.EIOA.AnmalanArbetsgivare.ext"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

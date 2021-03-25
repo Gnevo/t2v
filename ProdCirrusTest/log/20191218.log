@@ -1,0 +1,49 @@
+08:53:56 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 183.88.110.203, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0 ) => {inserted_id = 10831}
+08:53:56 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+08:53:56 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-12-18 08:53:56) on conditions username = gine001
+08:53:56 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-12-18 08:53:56) on conditions username = gine001 AND company_id = 6
+08:54:18 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = a6c411032fee3758c980bab82195e91a
+09:00:39 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = a6c411032fee3758c980bab82195e91a
+13:56:42 gine001 Gilad Nevo UPDATING data to tables `customer_contract` fields ( hour, date_from, date_to, fkkn ) values (500.00, 2018-05-01, 2020-01-31, 3) on conditions id = 31
+13:56:42 gine001 Gilad Nevo UPDATING data to tables `customer_contract_billing` fields ( kn_name, kn_address, kn_postno, mobile, email, city, oncall, oncall2, awake, something, iss, sol, kn_reference_no, kn_box ) values (minkommun, Storgatan 65, 69232, , , Min Ort, , , , , , , 98-65ABC, 123) on conditions contract_id = 31
+13:56:42 gine001 Gilad Nevo UPDATING data to tables `customer_contract_decision` fields ( first_name, last_name, mobile, email, city, comments_time, comments_other, documents ) values (nil, guden, 2323, shamsu@arioninfotech.com, Kumla, , , ) on conditions contract_id = 31
+13:57:10 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = a6c411032fee3758c980bab82195e91a
+13:58:02 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( fkkn ) values (3) on conditions id = 16970
+13:58:02 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( fkkn ) values (3) on conditions id = 16971
+13:58:02 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( fkkn ) values (3) on conditions id = 16960
+13:58:44 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions id = 16964
+13:58:44 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions id = 16961
+13:58:44 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions id = 16965
+13:58:44 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions id = 16962
+13:58:44 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions id = 16968
+13:58:44 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions id = 16969
+13:58:44 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions id = 16966
+13:58:44 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions id = 16967
+14:01:46 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (anst007, gine001, 2020-01-02, 4.00, 16.30, 2, 0, 1, ) on conditions id = 16971
+14:02:07 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (anst007, gine001, 2020-01-02, 4.00, 16.30, 3, 0, 1, ) on conditions id = 16971
+14:02:21 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (anst007, gine001, 2020-01-02, 2.30, 4.00, 2, 3, 1, ) on conditions id = 16970
+14:03:26 gine001 Gilad Nevo UPDATING data to tables `customer_contract` fields ( hour, date_from, date_to, fkkn ) values (500.00, 2018-01-01, 2020-01-31, 2) on conditions id = 30
+14:03:26 gine001 Gilad Nevo UPDATING data to tables `customer_contract_billing` fields ( kn_name, kn_address, kn_postno, mobile, email, city, oncall, oncall2, awake, something, iss, sol, kn_reference_no, kn_box ) values (minkommun, Storgatan 65, 69232, , , Min Ort, , , , , , , 98-65ABC, 123) on conditions contract_id = 30
+14:03:26 gine001 Gilad Nevo UPDATING data to tables `customer_contract_decision` fields ( first_name, last_name, mobile, email, city, comments_time, comments_other, documents ) values (nils, nugden, 4657, shamsu@arioninfotech.com, Kumla, , , ) on conditions contract_id = 30
+14:03:44 gine001 Gilad Nevo UPDATING data to tables `customer_contract` fields ( hour, date_from, date_to, fkkn ) values (2000.00, 2018-04-01, 2020-01-31, 1) on conditions id = 24
+14:03:44 gine001 Gilad Nevo UPDATING data to tables `customer_contract_decision` fields ( first_name, last_name, mobile, email, city, comments_time, comments_other, documents ) values (olle, ek, , , , , , ) on conditions contract_id = 24
+14:45:38 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirruscommon`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, category_id, priority, ticket_type, status, hidden ) values ( 2623, gine001, <p>Vad jag kunde se så ligger TUT i KN beslutet.Men ska kolla om något är fel eller fattas.<br></p>, 9, 2, 3, 3, 0 ) => {inserted_id = 6939}
+14:46:19 gine001 Gilad Nevo UPDATING data to tables `employee` fields ( language ) values (en) on conditions username = gine001
+14:48:35 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( boek001, anst007, 1, 3, 2020-01-06, 2, 6.00, 1, , gine001,  ) => {inserted_id = 17353}
+14:48:35 gine001 Gilad Nevo INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( anst007, 2, 9, 3 ) => {inserted_id = 680}
+14:48:35 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( boek001, anst007, 1, 0, 2020-01-06, 6.00, 9, 1, , gine001,  ) => {inserted_id = 17354}
+14:48:35 gine001 Gilad Nevo INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( anst007, 2, 9, 0 ) => {inserted_id = 681}
+14:55:02 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = a6c411032fee3758c980bab82195e91a
+15:08:24 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirruscommon`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, category_id, priority, ticket_type, status, hidden ) values ( 2623, gine001, <p>Granted hours report seems to be wrong and not taking Oncall hours.</p><p>FK. KN, TU hours.<br></p><p>See attached pictures<br></p>, 9, 2, 3, 3, 1 ) => {inserted_id = 6940}
+15:08:24 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`support_ticket_answers` fields ( attachment ) values (1576678104_1_grnted_hours_report.PNG) on conditions id = 6940
+15:09:21 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirruscommon`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, category_id, priority, ticket_type, status, hidden ) values ( 2623, gine001, <p>See scheduled hours at that month<br></p>, 9, 2, 3, 3, 1 ) => {inserted_id = 6941}
+15:09:21 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`support_ticket_answers` fields ( attachment ) values (1576678161_grnted_hours_report.PNG) on conditions id = 6941
+16:18:19 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+16:18:20 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 183.88.110.203, okhttp/3.9.1 ) => {inserted_id = 10832}
+16:18:20 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+16:18:20 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-12-18 16:18:20) on conditions username = gine001
+16:18:20 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-12-18 16:18:20) on conditions username = gine001 AND company_id = 6
+16:18:26 gine001 Gilad Nevo DELETE data from tables `time2vie_cirruscommon`.`push_notify_tokens` on conditions user_id = gine001 AND fcm_token = cTnFw3TqYmc:APA91bEY0P1WaZ4rLfVR1TVTGuSGPZwWqrWes0YXzD4rxBtDliurs6uhSRT3rBVQxbkJ8icNx7I3WY3co4ca31utwlBCh06_UYiyz4j-VfNl_hbTv2P32DPKgLlodBMbPRWziT0YplsK #Mobile-App: Log-id=10832
+16:18:26 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001 #Mobile-App: Log-id=10832
+16:18:26 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2019-12-18 16:18:26) on conditions username = gine001 #Mobile-App: Log-id=10832
+16:18:26 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-12-18 16:18:26) on conditions username = gine001 AND company_id = 6 #Mobile-App: Log-id=10832

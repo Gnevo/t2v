@@ -1,0 +1,23 @@
+07:13:06 dodo001  UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (1) on conditions username = dodo001 AND company_id = 6
+07:13:13 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = dodo001 AND company_id = 6
+07:13:13 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 223.30.129.234, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.82 Chrome/48.0.2564.82 Safari/537.36 ) => {inserted_id = 4936}
+07:13:13 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+07:13:13 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-06-28 07:13:13) on conditions username = dodo001
+07:13:13 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-06-28 07:13:13) on conditions username = dodo001 AND company_id = 6
+07:13:14 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = 0fdpb611k5oo8r040nllmqs6r1
+07:13:26 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+07:13:26 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2016-06-28 07:13:26) on conditions username = dodo001
+07:13:26 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-06-28 07:13:26) on conditions username = dodo001 AND company_id = 6
+07:13:26   UPDATING data to tables `log_login` fields ( logout_time ) values (2016-06-28:05:13:26) on conditions id = 4936 AND username = dodo001
+07:13:43 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 223.30.129.234, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.82 Chrome/48.0.2564.82 Safari/537.36 ) => {inserted_id = 4937}
+07:13:43 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+07:13:43 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-06-28 07:13:43) on conditions username = dodo001
+07:13:43 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-06-28 07:13:43) on conditions username = dodo001 AND company_id = 6
+07:13:44 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = n2l17ch9oe6lqsbt7vchngejk2
+07:14:27 dodo001 Admin Cirrus INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , adan001, 1, 0, 2016-06-01, 6.50, 7, 0, , dodo001,  ) => {inserted_id = 9115}
+07:14:27 dodo001 Admin Cirrus INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( adan001, 6.50, 7, 0 ) => {inserted_id = 391}
+07:14:44 dodo001 Admin Cirrus UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, abni001, dodo001) on conditions id = 9115
+09:12:34 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+09:12:34 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2016-06-28 09:12:34) on conditions username = dodo001
+09:12:34 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-06-28 09:12:34) on conditions username = dodo001 AND company_id = 6
+09:12:34   UPDATING data to tables `log_login` fields ( logout_time ) values (2016-06-28:07:12:34) on conditions id = 4937 AND username = dodo001

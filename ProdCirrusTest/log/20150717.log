@@ -1,0 +1,6 @@
+10:47:49 thne001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( thne001, 85.227.159.29, CirrusM/1 CFNetwork/711.4.6 Darwin/14.0.0 ) => {inserted_id = 3481} #Mobile-App: Log-id=3480
+19:41:48 dodo001  INSERTING data into tables `mc_leave` fields ( leave_id, leave_status, read_users ) values ( 92, 0, dodo001 ) => {inserted_id = 97} #Mobile-App: Log-id=3482
+19:41:52 dodo001  UPDATING data to tables `leave` fields ( status, appr_emp, appr_date ) values (2, dodo001, 2015-07-17) on conditions group_id = 92 #Mobile-App: Log-id=3482
+19:41:52 dodo001  DELETE data from tables `leave` on conditions group_id = 92 #Mobile-App: Log-id=3482
+19:41:52 dodo001  UPDATING data to tables `timetable` fields ( status ) values (1) on conditions (id IN ( '7041' )) AND customer is NOT NULL AND customer !=  #Mobile-App: Log-id=3482
+19:41:52 dodo001  UPDATING data to tables `timetable` fields ( status ) values (0) on conditions (id IN ( '7041' )) AND (customer is NULL OR customer = ) #Mobile-App: Log-id=3482

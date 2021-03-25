@@ -1,0 +1,38 @@
+13:28:12 jata001 Janne Tandodal INSERTING data into tables `log_login`fields username, ip, browser values ( jata001, 90.141.2.232, Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.5; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729) )
+13:28:12 jata001 Janne Tandodal UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = jata001
+13:35:55 jata001 Janne Tandodal UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 5599915123, 4609110046 on conditions username = anst007
+13:35:55 jata001 Janne Tandodal UPDATING data to tables `customer`fields Array values 001, 19, 4609110046, Anne-Christine, Stenling, Stengatan 2, Tullängen, 98655, 851174546, 5599915123, , 2013-01-01, 1, , 1, 2 on conditions username = anst007
+13:35:55 jata001 Janne Tandodal DELETE data from tables `privileges` on conditions employee = anfr005
+13:35:55 jata001 Janne Tandodal DELETE data from tables `privileges_forms` on conditions employee = anfr005
+13:35:55 jata001 Janne Tandodal DELETE data from tables `privileges_general` on conditions employee = anfr005
+13:35:55 jata001 Janne Tandodal DELETE data from tables `privileges_mc` on conditions employee = anfr005
+13:35:55 jata001 Janne Tandodal DELETE data from tables `privileges_reports` on conditions employee = anfr005
+13:35:55 jata001 Janne Tandodal DELETE data from tables `privileges` on conditions employee = cher005
+13:35:55 jata001 Janne Tandodal DELETE data from tables `privileges_forms` on conditions employee = cher005
+13:35:55 jata001 Janne Tandodal DELETE data from tables `privileges_general` on conditions employee = cher005
+13:35:55 jata001 Janne Tandodal DELETE data from tables `privileges_mc` on conditions employee = cher005
+13:35:55 jata001 Janne Tandodal DELETE data from tables `privileges_reports` on conditions employee = cher005
+13:35:55 jata001 Janne Tandodal DELETE data from tables `privileges` on conditions employee = chfr001
+13:35:55 jata001 Janne Tandodal DELETE data from tables `privileges_forms` on conditions employee = chfr001
+13:35:55 jata001 Janne Tandodal DELETE data from tables `privileges_general` on conditions employee = chfr001
+13:35:55 jata001 Janne Tandodal DELETE data from tables `privileges_mc` on conditions employee = chfr001
+13:35:55 jata001 Janne Tandodal DELETE data from tables `privileges_reports` on conditions employee = chfr001
+13:35:55 jata001 Janne Tandodal DELETE data from tables `privileges` on conditions employee = cehe001
+13:35:55 jata001 Janne Tandodal DELETE data from tables `privileges_forms` on conditions employee = cehe001
+13:35:55 jata001 Janne Tandodal DELETE data from tables `privileges_general` on conditions employee = cehe001
+13:35:55 jata001 Janne Tandodal DELETE data from tables `privileges_mc` on conditions employee = cehe001
+13:35:55 jata001 Janne Tandodal DELETE data from tables `privileges_reports` on conditions employee = cehe001
+13:35:55 jata001 Janne Tandodal DELETE data from tables `team` on conditions customer = anst007
+13:35:55 jata001 Janne Tandodal INSERTING data into tables `team`fields customer, employee, role values ( anst007, anra004, 3 )
+13:35:55 jata001 Janne Tandodal INSERTING data into tables `team`fields customer, employee, role values ( anst007, mali008, 3 )
+13:35:55 jata001 Janne Tandodal INSERTING data into tables `team`fields customer, employee, role values ( anst007, chyi001, 3 )
+13:35:55 jata001 Janne Tandodal INSERTING data into tables `team`fields customer, employee, role values ( anst007, lima003, 3 )
+13:35:55 jata001 Janne Tandodal INSERTING data into tables `team`fields customer, employee, role values ( anst007, stfr001, 3 )
+13:35:55 jata001 Janne Tandodal INSERTING data into tables `team`fields customer, employee, role values ( anst007, last002, 3 )
+13:52:24 jata001 Janne Tandodal UPDATING data to tables `fkkn_form_defaults`fields Array values 1, , 1||0||0, ,  on conditions customer = anst007
+13:52:24 jata001 Janne Tandodal INSERTING data into tables `history_samsida_work_report`fields month, year, fkkn, customer, employee, file_name values ( 4, 2013, 1, anst007, lima003, Samsida_2147200606.pdf )
+13:55:08 jata001 Janne Tandodal UPDATING data to tables `fkkn_form_defaults`fields Array values 1, , 1||0||0, ,  on conditions customer = anst007
+13:55:08 jata001 Janne Tandodal INSERTING data into tables `history_samsida_work_report`fields month, year, fkkn, customer, employee, file_name values ( 4, 2013, 1, anst007, lima003, Samsida_1128460251.pdf )
+13:55:51 jata001 Janne Tandodal UPDATING data to tables `fkkn_form_defaults`fields Array values 1, , 1||0||0, ,  on conditions customer = anst007
+14:11:01   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = jata001
+14:11:01   UPDATING data to tables `log_login`fields Array values 2013-10-18:12:11:01 on conditions id = 1298 AND username = jata001

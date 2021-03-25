@@ -1,0 +1,148 @@
+06:48:48 kaka003 kalle Kaarlsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( kaka003, 115.248.24.177, Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:22.0) Gecko/20100101 Firefox/22.0 ) => {inserted_id = 1390}
+06:50:06 kaka003 kalle Kaarlsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( mobile, social_security ) values (111111111, 4901102121) on conditions username = adan001
+06:50:06 kaka003 kalle Kaarlsson UPDATING data to tables `customer` fields ( code, century, social_security, first_name, last_name, address, city, post, phone, mobile, email, date, status, date_inactive, fkkn, gender ) values (1-10201, 19, 4901102121, Adam, Andersson, Allmogev, GtB, 12122, 31111111, 111111111, adam@a.com, 2014-01-21, 1, , 1, 1) on conditions username = adan001
+06:50:06 kaka003 kalle Kaarlsson INSERTING data into tables `privileges_forms` fields ( employee ) values ( anfr005 ) => {inserted_id = 0}
+06:50:06 kaka003 kalle Kaarlsson UPDATING data to tables `privileges_forms` fields ( fkkn, `leave`, certificate ) values (0, 0, 0) on conditions employee = anfr005
+06:50:06 kaka003 kalle Kaarlsson INSERTING data into tables `privileges_general` fields ( employee ) values ( anfr005 ) => {inserted_id = 0}
+06:50:06 kaka003 kalle Kaarlsson UPDATING data to tables `privileges_general` fields ( add_employee, add_customer, inconvenient_timing, administration, chat, edit_employee, edit_customer, survey, create_template, use_template ) values (1, 1, 1, 1, 0, , , , , ) on conditions employee = anfr005
+06:50:06 kaka003 kalle Kaarlsson INSERTING data into tables `privileges_reports` fields ( employee ) values ( anfr005 ) => {inserted_id = 0}
+06:50:06 kaka003 kalle Kaarlsson UPDATING data to tables `privileges_reports` fields ( customer_schedule, employee_schedule, employee_workreport, customer_data, customer_leave, customer_granded_vs_used, customer_employee_connection, customer_horizontal, customer_overview, customer_vacation_planning, employee_data, employee_leave, employee_percentage, atl_warning ) values (0, 0, 0, , , , , , , , , , , ) on conditions employee = anfr005
+06:50:06 kaka003 kalle Kaarlsson DELETE data from tables `team` on conditions customer = adan001
+06:50:06 kaka003 kalle Kaarlsson INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, lobr002, 3 ) => {inserted_id = 0}
+06:50:06 kaka003 kalle Kaarlsson INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, than001, 3 ) => {inserted_id = 0}
+06:50:06 kaka003 kalle Kaarlsson INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, anfr005, 3 ) => {inserted_id = 0}
+06:50:06 kaka003 kalle Kaarlsson INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, wita001, 3 ) => {inserted_id = 0}
+06:50:06 kaka003 kalle Kaarlsson UPDATING data to tables `customer_guardian` fields ( first_name, last_name, mobile, email, address, first_name2, last_name2, mobile2, email2, address2 ) values (T1, E1, , , , T2, E2, , , ) on conditions customer = adan001
+06:50:53 kaka003 kalle Kaarlsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( mobile, social_security ) values (111111111, 4901102121) on conditions username = adan001
+06:50:53 kaka003 kalle Kaarlsson UPDATING data to tables `customer` fields ( code, century, social_security, first_name, last_name, address, city, post, phone, mobile, email, date, status, date_inactive, fkkn, gender ) values (1-10201, 19, 4901102121, Adam, Andersson, Allmogev, GtB, 121221, 31111111, 111111111, adam@a.com, 2014-01-21, 1, , 1, 1) on conditions username = adan001
+06:50:53 kaka003 kalle Kaarlsson DELETE data from tables `team` on conditions customer = adan001
+06:50:53 kaka003 kalle Kaarlsson INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, wita001, 3 ) => {inserted_id = 0}
+06:50:53 kaka003 kalle Kaarlsson INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, anfr005, 3 ) => {inserted_id = 0}
+06:50:53 kaka003 kalle Kaarlsson INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, than001, 3 ) => {inserted_id = 0}
+06:50:53 kaka003 kalle Kaarlsson INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, lobr002, 3 ) => {inserted_id = 0}
+06:50:53 kaka003 kalle Kaarlsson UPDATING data to tables `customer_guardian` fields ( first_name, last_name, mobile, email, address, first_name2, last_name2, mobile2, email2, address2 ) values (T1, E1, , , , T2, E2, , , ) on conditions customer = adan001
+07:09:38   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = kaka003
+07:09:38   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-01-24:06:09:38) on conditions id = 1390 AND username = kaka003
+07:31:15 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.156.14, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36 ) => {inserted_id = 1391}
+07:31:15 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+07:31:55 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( mobile, social_security ) values (111111111, 4901102121) on conditions username = adan001
+07:31:55 gine001 Gilad Nevo UPDATING data to tables `customer` fields ( code, century, social_security, first_name, last_name, address, city, post, phone, mobile, email, date, status, date_inactive, fkkn, gender ) values (1-10201, 19, 4901102121, Adam, Andersson, Allmogev, GtB, 121221, 31111111, 111111111, adam@a.com, 2014-01-21, 1, , 1, 1) on conditions username = adan001
+07:31:55 gine001 Gilad Nevo DELETE data from tables `team` on conditions customer = adan001
+07:31:55 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, lobr002, 3 ) => {inserted_id = 0}
+07:31:55 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, than001, 3 ) => {inserted_id = 0}
+07:31:55 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, anfr005, 3 ) => {inserted_id = 0}
+07:31:55 gine001 Gilad Nevo UPDATING data to tables `customer_guardian` fields ( first_name, last_name, mobile, email, address, first_name2, last_name2, mobile2, email2, address2 ) values (T1, E1, , , , T2, E2, , , ) on conditions customer = adan001
+07:32:17 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( mobile, social_security ) values (111111111, 4901102121) on conditions username = adan001
+07:32:17 gine001 Gilad Nevo UPDATING data to tables `customer` fields ( code, century, social_security, first_name, last_name, address, city, post, phone, mobile, email, date, status, date_inactive, fkkn, gender ) values (1-10201, 19, 4901102121, Adam, Andersson, Allmogev, GtB, 121221, 31111111, 111111111, adam@a.com, 2014-01-21, 1, , 1, 1) on conditions username = adan001
+07:32:17 gine001 Gilad Nevo DELETE data from tables `team` on conditions customer = adan001
+07:32:17 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, anfr005, 3 ) => {inserted_id = 0}
+07:32:17 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, than001, 3 ) => {inserted_id = 0}
+07:32:17 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, lobr002, 3 ) => {inserted_id = 0}
+07:32:17 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, wita001, 3 ) => {inserted_id = 0}
+07:32:17 gine001 Gilad Nevo UPDATING data to tables `customer_guardian` fields ( first_name, last_name, mobile, email, address, first_name2, last_name2, mobile2, email2, address2 ) values (T1, E1, , , , T2, E2, , , ) on conditions customer = adan001
+07:32:24   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+07:32:24   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-01-24:06:32:24) on conditions id = 1391 AND username = gine001
+10:33:09 kaka003 kalle Kaarlsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( kaka003, 80.216.77.95, Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko ) => {inserted_id = 1392}
+10:33:39 kaka003 kalle Kaarlsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( password, date, error ) values (0a43f57ec957d8d060bbeb493713581d, 2014-01-24, 0) on conditions username = kaka003
+10:33:39 kaka003 kalle Kaarlsson INSERTING data into tables `log_password` fields ( username, passwords ) values ( kaka003, 2581af9683eb94e465ac48cecf3f78de ) => {inserted_id = 0}
+10:33:39 kaka003 kalle Kaarlsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = kaka003
+10:35:52 kaka003 kalle Kaarlsson UPDATING data to tables `mc_leave` fields ( read_users ) values (than001,kaka003) on conditions leave_id = 46
+10:35:52 kaka003 kalle Kaarlsson UPDATING data to tables `mc_leave` fields ( read_users ) values (wita001,than001,gine001,kaka003) on conditions leave_id = 43
+10:35:52 kaka003 kalle Kaarlsson UPDATING data to tables `mc_leave` fields ( read_users ) values (wita001,than001,gine001,kaka003) on conditions leave_id = 44
+10:35:52 kaka003 kalle Kaarlsson UPDATING data to tables `mc_leave` fields ( read_users ) values (wita001,kaka003) on conditions leave_id = 47
+10:35:52 kaka003 kalle Kaarlsson INSERTING data into tables `mc_leave` fields ( leave_id, leave_status, read_users ) values ( 48, 0, kaka003 ) => {inserted_id = 54}
+10:35:52 kaka003 kalle Kaarlsson UPDATING data to tables `mc_leave` fields ( read_users ) values (wita001,gine001,than001,kaka003) on conditions leave_id = 41
+10:35:52 kaka003 kalle Kaarlsson UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,wita001,than001,kaka003) on conditions leave_id = 42
+10:35:52 kaka003 kalle Kaarlsson UPDATING data to tables `mc_leave` fields ( read_users ) values (wita001,rokl001,gine001,than001,kaka003) on conditions leave_id = 26
+10:35:52 kaka003 kalle Kaarlsson UPDATING data to tables `mc_leave` fields ( read_users ) values (wita001,rokl001,gine001,than001,kaka003) on conditions leave_id = 25
+10:35:52 kaka003 kalle Kaarlsson UPDATING data to tables `mc_leave` fields ( read_users ) values (rokl001,wita001,gine001,than001,kaka003) on conditions leave_id = 28
+10:46:36 than001 Thomas Andersson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( than001, 62.20.69.14, Mozilla/5.0 (Windows NT 6.1; WOW64; rv:26.0) Gecko/20100101 Firefox/26.0 ) => {inserted_id = 1393}
+10:46:36 than001 Thomas Andersson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = than001
+10:48:19 than001 Thomas Andersson UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, than001, than001) on conditions id = 4426
+10:58:01 than001 Thomas Andersson INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( than001, adan001, 1, 0, 2014-02-07, 6.00, 8.30, 1, than001 ) => {inserted_id = 4691}
+10:58:01 than001 Thomas Andersson INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , adan001, 1, 0, 2014-02-03, 6.00, 8.30, 0, than001 ) => {inserted_id = 4692}
+10:58:01 than001 Thomas Andersson INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , adan001, 1, 0, 2014-02-03, 8.30, 18.00, 0, than001 ) => {inserted_id = 4693}
+10:58:01 than001 Thomas Andersson INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , adan001, 1, 0, 2014-02-04, 6.00, 8.30, 0, than001 ) => {inserted_id = 4694}
+10:58:01 than001 Thomas Andersson INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , adan001, 1, 0, 2014-02-04, 8.30, 18.00, 0, than001 ) => {inserted_id = 4695}
+10:58:01 than001 Thomas Andersson INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , adan001, 1, 0, 2014-02-05, 6.00, 8.30, 0, than001 ) => {inserted_id = 4696}
+10:58:01 than001 Thomas Andersson INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , adan001, 1, 0, 2014-02-05, 8.30, 18.00, 0, than001 ) => {inserted_id = 4697}
+10:58:01 than001 Thomas Andersson INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , adan001, 1, 0, 2014-02-06, 6.00, 8.30, 0, than001 ) => {inserted_id = 4698}
+10:58:01 than001 Thomas Andersson INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , adan001, 1, 0, 2014-02-06, 8.30, 18.00, 0, than001 ) => {inserted_id = 4699}
+10:58:01 than001 Thomas Andersson INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , adan001, 1, 0, 2014-02-07, 8.30, 18.00, 0, than001 ) => {inserted_id = 4700}
+10:58:01 than001 Thomas Andersson INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , adan001, 1, 0, 2014-02-08, 8.00, 10.00, 0, than001 ) => {inserted_id = 4701}
+10:58:01 than001 Thomas Andersson INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , adan001, 1, 0, 2014-02-09, 8.00, 10.00, 0, than001 ) => {inserted_id = 4702}
+11:01:11 than001 Thomas Andersson UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, than001, than001) on conditions id = 4422
+11:01:56 than001 Thomas Andersson UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, than001, than001) on conditions id = 4424
+11:02:29 than001 Thomas Andersson UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, than001, than001) on conditions id = 4524
+11:08:30 than001 Thomas Andersson UPDATING data to tables `timetable` fields ( employee, status ) values (, 0) on conditions customer = adan001 AND (employee IN ( 'than001' )) AND (date BETWEEN '2014-02-03' AND '2014-02-09') AND (DATE_FORMAT(date,'per-w') IN ( '1','2','3','4','5','6','0' )) AND status = 1
+11:09:04 than001 Thomas Andersson DELETE data from tables `timetable` on conditions id = 4692
+11:09:04 than001 Thomas Andersson DELETE data from tables `timetable` on conditions id = 4694
+11:09:04 than001 Thomas Andersson DELETE data from tables `timetable` on conditions id = 4696
+11:09:04 than001 Thomas Andersson DELETE data from tables `timetable` on conditions id = 4698
+11:09:04 than001 Thomas Andersson DELETE data from tables `timetable` on conditions id = 4691
+11:09:16 than001 Thomas Andersson DELETE data from tables `timetable` on conditions id = 4693
+11:09:16 than001 Thomas Andersson DELETE data from tables `timetable` on conditions id = 4695
+11:09:16 than001 Thomas Andersson DELETE data from tables `timetable` on conditions id = 4697
+11:09:16 than001 Thomas Andersson DELETE data from tables `timetable` on conditions id = 4699
+11:09:16 than001 Thomas Andersson DELETE data from tables `timetable` on conditions id = 4700
+11:11:51 than001 Thomas Andersson DELETE data from tables `team` on conditions employee = anfr005 AND customer = adan001
+11:12:01 than001 Thomas Andersson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( role, mobile ) values (3, 7358989898) on conditions username = anfr005
+11:12:01 than001 Thomas Andersson UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day ) values (7, 19, 6902171989, Anne, Franchesca, 2, Skogsvägen 6, Vtr, 8552, , 7358989898, , 2013-05-23, #85AAE2, 1, , , 0, 10.00) on conditions username = anfr005
+11:13:56 than001 Thomas Andersson UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, than001, than001) on conditions id = 4423
+11:13:56 than001 Thomas Andersson UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, than001, than001) on conditions id = 4570
+11:16:30 than001 Thomas Andersson UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, lobr002, than001) on conditions id = 4571
+11:16:55 than001 Thomas Andersson UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, lobr002, than001) on conditions id = 4569
+11:19:03 than001 Thomas Andersson UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, than001, than001) on conditions id = 4425
+11:19:03 than001 Thomas Andersson UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, than001, than001) on conditions id = 4572
+11:19:03 than001 Thomas Andersson UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, than001, than001) on conditions id = 4430
+11:19:03 than001 Thomas Andersson UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, than001, than001) on conditions id = 4577
+11:19:03 than001 Thomas Andersson UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, than001, than001) on conditions id = 4435
+11:19:03 than001 Thomas Andersson UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, than001, than001) on conditions id = 4582
+11:19:03 than001 Thomas Andersson UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, than001, than001) on conditions id = 4440
+11:19:03 than001 Thomas Andersson UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, than001, than001) on conditions id = 4587
+11:19:03 than001 Thomas Andersson UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, than001, than001) on conditions id = 4445
+11:19:03 than001 Thomas Andersson UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, than001, than001) on conditions id = 4592
+11:19:03 than001 Thomas Andersson UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, than001, than001) on conditions id = 4450
+11:19:03 than001 Thomas Andersson UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, than001, than001) on conditions id = 4597
+11:21:10 than001 Thomas Andersson UPDATING data to tables `timetable` fields ( employee, alloc_emp ) values (lobr002, than001)
+11:21:43 than001 Thomas Andersson UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, lobr002, than001) on conditions id = 4573
+11:21:56 than001 Thomas Andersson UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, than001, than001) on conditions id = 4525
+11:22:41 than001 Thomas Andersson INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , adan001, 1, 0, 2014-02-01, 8.30, 18.00, 0, than001 ) => {inserted_id = 4703}
+11:22:45 than001 Thomas Andersson UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, lobr002, than001) on conditions id = 4703
+11:22:54 than001 Thomas Andersson INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , adan001, 1, 0, 2014-02-02, 8.30, 18.00, 0, than001 ) => {inserted_id = 4704}
+11:22:59 than001 Thomas Andersson UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, lobr002, than001) on conditions id = 4704
+11:23:53 than001 Thomas Andersson UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 4426
+11:23:53 than001 Thomas Andersson INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( adan001, 2014-01-31, 6.00, 8.30, 0, 1, , than001, 4426, 0 ) => {inserted_id = 4705}
+11:23:53 than001 Thomas Andersson INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 49, than001, 2014-01-31, 6, 8.3, 1, , than001, 0, 1 ) => {inserted_id = 76}
+11:24:39 than001 Thomas Andersson UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, lobr002, than001) on conditions id = 4705
+11:28:08 than001 Thomas Andersson UPDATING data to tables `leave` fields ( status, appr_emp, appr_date ) values (1, than001, 2014-01-24) on conditions group_id = 49
+11:29:03 than001 Thomas Andersson UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 4423
+11:29:03 than001 Thomas Andersson INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, employee, status ) values ( adan001, 2014-01-28, 6.00, 8.30, 0, 1, , than001, 4423, than001, 1 ) => {inserted_id = 4706}
+11:29:03 than001 Thomas Andersson INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 50, lobr002, 2014-01-28, 6, 8.3, 3, feber, than001, 0, 1 ) => {inserted_id = 77}
+11:29:23 than001 Thomas Andersson UPDATING data to tables `leave` fields ( status, appr_emp, appr_date ) values (1, than001, 2014-01-24) on conditions group_id = 50
+11:30:30 than001 Thomas Andersson UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 4571
+11:30:30 than001 Thomas Andersson INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( adan001, 2014-01-29, 8.30, 18.00, 0, 1, , than001, 4571, 0 ) => {inserted_id = 4707}
+11:30:30 than001 Thomas Andersson INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 51, lobr002, 2014-01-29, 8.3, 18, 1, , than001, 0, 1 ) => {inserted_id = 78}
+11:30:40 than001 Thomas Andersson UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, wita001, than001) on conditions id = 4707
+11:33:18 than001 Thomas Andersson INSERTING data into tables `mc_leave` fields ( leave_id, leave_status, read_users ) values ( 49, 1, than001 ) => {inserted_id = 55}
+11:33:18 than001 Thomas Andersson INSERTING data into tables `mc_leave` fields ( leave_id, leave_status, read_users ) values ( 51, 0, than001 ) => {inserted_id = 56}
+11:33:18 than001 Thomas Andersson INSERTING data into tables `mc_leave` fields ( leave_id, leave_status, read_users ) values ( 50, 1, than001 ) => {inserted_id = 57}
+11:33:18 than001 Thomas Andersson UPDATING data to tables `mc_leave` fields ( read_users ) values (wita001,kaka003,than001) on conditions leave_id = 47
+11:33:18 than001 Thomas Andersson UPDATING data to tables `mc_leave` fields ( read_users ) values (kaka003,than001) on conditions leave_id = 48
+11:34:04 than001 Thomas Andersson UPDATING data to tables `leave` fields ( status, appr_emp, appr_date ) values (1, than001, 2014-01-24) on conditions group_id = 51
+11:35:34 than001 Thomas Andersson INSERTING data into tables `fkkn_form_defaults` fields ( customer, bargaining, other_bargaining_text, agreement_types, agreement_type2_company, agreement_type2_orgNo ) values ( adan001, undefined, , 0||0||0, ,  ) => {inserted_id = 3}
+11:41:57 than001 Thomas Andersson INSERTING data into tables `report_signing` fields ( employee, customer, date, signin_employee, signin_date, signin_tl, signin_tl_date, signin_sutl, signin_sutl_date ) values ( than001, adan001, 2014-1-1, than001, 2014-01-24 10:41:57, than001, 2014-01-24 10:41:57, than001, 2014-01-24 10:41:57 ) => {inserted_id = 21}
+11:42:52 than001 Thomas Andersson INSERTING data into tables `report_signing` fields ( employee, customer, date, signin_employee, signin_date, signin_tl, signin_tl_date, signin_sutl, signin_sutl_date ) values ( lobr002, adan001, 2014-1-1, than001, 2014-01-24 10:42:52, than001, 2014-01-24 10:42:52, than001, 2014-01-24 10:42:52 ) => {inserted_id = 22}
+13:22:47 than001 Thomas Andersson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( than001, 62.20.69.14, Mozilla/5.0 (Windows NT 6.1; WOW64; rv:26.0) Gecko/20100101 Firefox/26.0 ) => {inserted_id = 1394}
+13:22:47 than001 Thomas Andersson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = than001
+13:46:07 than001 Thomas Andersson DELETE data from tables `team` on conditions employee = than001 AND customer = adan001
+13:46:20 than001 Thomas Andersson INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, than001, 3 ) => {inserted_id = 0}
+13:48:50 than001 Thomas Andersson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( role, mobile ) values (3, ) on conditions username = lobr002
+13:48:50 than001 Thomas Andersson UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day ) values (20002, 19, 4901102147, Lotta, Bråkmakare, 2, , , , , , , 2014-01-23, #FFBFFF, 1, , 15.00, 0, 10.00) on conditions username = lobr002
+13:50:21 than001 Thomas Andersson UPDATING data to tables `privileges` fields ( swap, process, add_slot, fkkn, slot_type, add_customer, add_employee, remove_customer, remove_employee, `leave`, copy_single_slot, copy_single_slot_option, copy_day_slot, copy_day_slot_option, split_slot, delete_slot, delete_day_slot, delete_multiple_slots, contract_override, atl_override, change_time, no_pay_leave ) values (1, , , , , , 1, , , 1, , , , , 1, , , , , , , ) on conditions employee = lobr002
+14:10:02 than001 Thomas Andersson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( password, mobile, role, error ) values (cafa0e766c8aa82fdd80fd0058557d11, , 3, 0) on conditions username = lobr002
+14:10:02 than001 Thomas Andersson UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day ) values (20002, 19, 4901102147, Lotta, Bråkmakare, 2, , , , , , , 2014-01-23, #FFBFFF, 1, , 15.00, 0, 10.00) on conditions username = lobr002
+14:11:48 than001 Thomas Andersson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( password, mobile, role, error ) values (89939163699cf2a90009f4890671ec51, , 3, 0) on conditions username = lobr002
+14:11:48 than001 Thomas Andersson UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day ) values (20002, 19, 4901102147, Lotta, Bråkmakare, 2, , , , , , , 2014-01-23, #FFBFFF, 1, , 15.00, 0, 10.00) on conditions username = lobr002
+14:26:09   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = than001
+14:26:09   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-01-24:13:26:09) on conditions id = 1394 AND username = than001

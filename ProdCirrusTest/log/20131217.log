@@ -1,0 +1,244 @@
+13:13:13 joef001 Joel Efraimsson INSERTING data into tables `log_login`fields username, ip, browser values ( joef001, 85.89.70.141, Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.71 (KHTML, like Gecko) Version/6.1 Safari/537.71 )
+13:13:13 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = joef001
+13:16:34 joef001 Joel Efraimsson UPDATING data to tables `timetable`fields Array values 1, joef001, joef001 on conditions id = 3461
+13:20:32 joef001 Joel Efraimsson INSERTING data into tables `employee_skill`fields employee, skill, description values ( joef001, Ny ass utb, gick med robban och steve
+120913 )
+13:24:18 joef001 Joel Efraimsson INSERTING data into tables `mc_note`fields note_id, read_users values ( 8, joef001 )
+13:31:59 joef001 Joel Efraimsson UPDATING data to tables `timetable`fields Array values 2 on conditions (status IN ( 0,1 )) AND employee = joef001 AND (date BETWEEN 2014-01-06 AND 2014-01-06)
+13:31:59 joef001 Joel Efraimsson INSERTING data into tables `timetable`fields customer, date, time_from, time_to, type, fkkn, status, alloc_emp, relation_id, employee values ( hesv001, 2014-01-06, 8.00, 17.00, 0, 1, 0, joef001, 3504,  )
+13:31:59 joef001 Joel Efraimsson INSERTING data into tables `leave`fields group_id, employee, date, time_from, time_to, type, comment, appr_emp, status values ( 25, joef001, 2014-01-06, 00.00, 24.00, 1, , joef001, 0 )
+13:33:54 joef001 Joel Efraimsson INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( joef001, hesv001, 1, 0, 2014-01-07, 8.00, 17.00, 1, joef001 )
+13:36:02 joef001 Joel Efraimsson INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( joef001, hesv001, 1, 0, 2014-01-08, 9.00, 10.30, 1, joef001 )
+13:36:02 joef001 Joel Efraimsson INSERTING data into tables `memory_slots`fields customer, time_from, time_to, type values ( hesv001, 9.00, 10.30, 0 )
+13:40:30 joef001 Joel Efraimsson UPDATING data to tables `timetable`fields Array values 10 on conditions id = 3511
+13:41:13 joef001 Joel Efraimsson UPDATING data to tables `timetable`fields Array values 9.00, 12.30 on conditions id = 3511
+13:41:39 joef001 Joel Efraimsson UPDATING data to tables `timetable`fields Array values 9.00, 11.30 on conditions id = 3511
+13:45:33 joef001 Joel Efraimsson UPDATING data to tables `timetable`fields Array values 2 on conditions id = 3510
+13:45:40 joef001 Joel Efraimsson UPDATING data to tables `timetable`fields Array values 1 on conditions id = 3510
+13:46:42 joef001 Joel Efraimsson UPDATING data to tables `timetable`fields Array values 2 on conditions id = 3510
+13:48:25 joef001 Joel Efraimsson INSERTING data into tables `timetable`fields employee, customer, type, date, time_from, time_to, status, relation_id, alloc_emp values ( joef001, hesv001, 0, 2014-01-07, 12.00, 17.00, 1, , joef001 )
+13:48:25 joef001 Joel Efraimsson UPDATING data to tables `timetable`fields Array values 12.00 on conditions id = 3510
+13:48:54 joef001 Joel Efraimsson UPDATING data to tables `timetable`fields Array values 2 on conditions id = 3512
+13:48:54 joef001 Joel Efraimsson INSERTING data into tables `timetable`fields customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status values ( hesv001, 2014-01-07, 12.00, 17.00, 0, 1, , joef001, 3512, 0 )
+13:48:54 joef001 Joel Efraimsson INSERTING data into tables `leave`fields group_id, employee, date, time_from, time_to, type, comment, appr_emp, status values ( 26, joef001, 2014-01-07, 12, 17, 1, , joef001, 0 )
+13:49:54   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = joef001
+13:49:54   UPDATING data to tables `log_login`fields Array values 2013-12-17:12:49:54 on conditions id = 1330 AND username = joef001
+13:59:47 wita001 Wilander Sture INSERTING data into tables `log_login`fields username, ip, browser values ( wita001, 85.89.70.141, Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.71 (KHTML, like Gecko) Version/6.1 Safari/537.71 )
+13:59:47 wita001 Wilander Sture UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = wita001
+14:03:53 wita001 Wilander Sture INSERTING data into tables `mc_leave`fields leave_id, leave_status, read_users values ( 26, 0, wita001 )
+14:03:53 wita001 Wilander Sture INSERTING data into tables `mc_leave`fields leave_id, leave_status, read_users values ( 25, 0, wita001 )
+14:03:53 wita001 Wilander Sture UPDATING data to tables `mc_leave`fields Array values gine001,jata001,clke001,wita001 on conditions leave_id = 1
+14:15:41 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2014-01-13, 8.00, 17.00, 0, wita001 )
+14:15:46 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2014-01-13, 22.00, 24.00, 0, wita001 )
+14:15:59 wita001 Wilander Sture UPDATING data to tables `timetable`fields Array values 1, anra004, wita001 on conditions id = 3515
+14:15:59 wita001 Wilander Sture INSERTING data into tables `general_customer_employee_settings`fields settings_owner, customer, employee, dont_show_slot_operation_flag values ( wita001, hesv001, anra004, 1 )
+14:16:14 wita001 Wilander Sture UPDATING data to tables `timetable`fields Array values 1, jata001, wita001 on conditions id = 3514
+14:16:14 wita001 Wilander Sture INSERTING data into tables `general_customer_employee_settings`fields settings_owner, customer, employee, dont_show_slot_operation_flag values ( wita001, hesv001, jata001, 1 )
+14:16:46 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( jata001, hesv001, 1, 0, 2014-01-14, 8.00, 17.00, 1, wita001 )
+14:16:46 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( anra004, hesv001, 1, 0, 2014-01-14, 22.00, 24.00, 1, wita001 )
+14:16:58 wita001 Wilander Sture UPDATING data to tables `timetable`fields Array values 2 on conditions id = 3517
+14:17:01 wita001 Wilander Sture UPDATING data to tables `timetable`fields Array values 1 on conditions id = 3517
+14:17:07 wita001 Wilander Sture UPDATING data to tables `timetable`fields Array values , 0, wita001 on conditions id = 3516
+14:17:12 wita001 Wilander Sture UPDATING data to tables `timetable`fields Array values 1, lima003, wita001 on conditions id = 3516
+14:18:51 wita001 Wilander Sture DELETE data from tables `timetable` on conditions id = 3517
+14:21:04 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2014-01-14, 22.00, 24, 0, wita001 )
+14:21:04 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2014-01-15, 0, 6.00, 0, wita001 )
+14:21:04 wita001 Wilander Sture INSERTING data into tables `memory_slots`fields customer, time_from, time_to, type values ( hesv001, 0, 6.00, 0 )
+14:22:55 wita001 Wilander Sture UPDATING data to tables `timetable`fields Array values wita001 on conditions id=3381
+14:22:55 wita001 Wilander Sture UPDATING data to tables `timetable`fields Array values joef001 on conditions id=3379
+14:24:32 wita001 Wilander Sture UPDATING data to tables `timetable`fields Array values , 0, wita001 on conditions id = 3452
+14:30:46 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, type, date, time_from, time_to, status, relation_id, alloc_emp values ( wita001, hesv001, 0, 2014-01-02, 6.00, 15.30, 1, , rokl001 )
+14:30:46 wita001 Wilander Sture UPDATING data to tables `timetable`fields Array values 15.30 on conditions id = 3377
+14:31:54 wita001 Wilander Sture UPDATING data to tables `timetable`fields Array values 2 on conditions (status IN ( 0,1 )) AND employee = wita001 AND (date BETWEEN 2014-01-02 AND 2014-01-04)
+14:31:54 wita001 Wilander Sture INSERTING data into tables `timetable`fields customer, date, time_from, time_to, type, fkkn, status, alloc_emp, relation_id, employee values ( hesv001, 2014-01-02, 15.30, 19.30, 0, 1, 1, wita001, 3377, moen001 ), ( hesv001, 2014-01-02, 6.00, 15.30, 0, 1, 1, wita001, 3520, moen001 ), ( hesv001, 2014-01-03, 6.00, 19.30, 0, 1, 1, wita001, 3378, moen001 )
+14:31:54 wita001 Wilander Sture INSERTING data into tables `leave`fields group_id, employee, date, time_from, time_to, type, comment, appr_emp, status values ( 27, wita001, 2014-01-02, 00.00, 24.00, 1, , wita001, 0 ), ( 27, wita001, 2014-01-03, 00.00, 24.00, 1, , wita001, 0 ), ( 27, wita001, 2014-01-04, 00.00, 24.00, 1, , wita001, 0 )
+14:32:13 wita001 Wilander Sture UPDATING data to tables `timetable`fields Array values , 0, wita001 on conditions id = 3522
+14:33:54 wita001 Wilander Sture UPDATING data to tables `timetable`fields Array values 2 on conditions id = 3383
+14:33:54 wita001 Wilander Sture INSERTING data into tables `timetable`fields customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, employee, status values ( hesv001, 2014-01-03, 19.30, 22.30, 0, 1, , wita001, 3383, anra004, 1 )
+14:33:54 wita001 Wilander Sture INSERTING data into tables `leave`fields group_id, employee, date, time_from, time_to, type, comment, appr_emp, status values ( 28, jata001, 2014-01-03, 19.3, 22.3, 1, , wita001, 0 )
+14:48:01 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2013-12-25, 8.00, 17.00, 0, wita001 )
+14:48:17 wita001 Wilander Sture DELETE data from tables `timetable` on conditions id = 3525
+14:50:19 wita001 Wilander Sture INSERTING data into tables `note`fields created_user, title, description, visibility, status, customer, attachment values ( wita001, testämne, lkajsdföl, 2, 1, hesv001,  )
+14:50:19 wita001 Wilander Sture UPDATING data to tables `note`fields Array values  on conditions id = 9
+15:59:54 lima003 Lina Magnusson INSERTING data into tables `log_login`fields username, ip, browser values ( lima003, 85.89.70.141, Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.71 (KHTML, like Gecko) Version/6.1 Safari/537.71 )
+15:59:54 lima003 Lina Magnusson UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = lima003
+16:01:32   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = lima003
+16:01:32   UPDATING data to tables `log_login`fields Array values 2013-12-17:15:01:32 on conditions id = 1332 AND username = lima003
+16:01:47 joef001 Joel Efraimsson INSERTING data into tables `log_login`fields username, ip, browser values ( joef001, 85.89.70.141, Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.71 (KHTML, like Gecko) Version/6.1 Safari/537.71 )
+16:01:47 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = joef001
+16:02:11 joef001 Joel Efraimsson UPDATING data to tables `timetable`fields Array values 1, joef001, joef001 on conditions id = 3455
+16:03:21 joef001 Joel Efraimsson UPDATING data to tables `timetable`fields Array values 2 on conditions id = 3455
+16:03:21 joef001 Joel Efraimsson INSERTING data into tables `timetable`fields customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status values ( hesv001, 2013-12-12, 9.00, 13.00, 0, 1, , joef001, 3455, 0 )
+16:03:21 joef001 Joel Efraimsson INSERTING data into tables `leave`fields group_id, employee, date, time_from, time_to, type, comment, appr_emp, status values ( 29, joef001, 2013-12-12, 9, 13, 1, , joef001, 0 )
+16:03:47 joef001 Joel Efraimsson INSERTING data into tables `timetable`fields employee, customer, type, date, time_from, time_to, status, relation_id, alloc_emp values ( joef001, hesv001, 0, 2013-12-13, 22.00, 23.00, 1, , gine001 )
+16:03:47 joef001 Joel Efraimsson UPDATING data to tables `timetable`fields Array values 23.00 on conditions id = 3418
+16:03:58 joef001 Joel Efraimsson UPDATING data to tables `timetable`fields Array values 2 on conditions id = 3418
+16:03:58 joef001 Joel Efraimsson INSERTING data into tables `timetable`fields customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status values ( hesv001, 2013-12-13, 23.00, 24.00, 0, 1, , joef001, 3418, 0 )
+16:03:58 joef001 Joel Efraimsson INSERTING data into tables `leave`fields group_id, employee, date, time_from, time_to, type, comment, appr_emp, status values ( 30, joef001, 2013-12-13, 23, 24, 1, , joef001, 0 )
+16:04:24 joef001 Joel Efraimsson UPDATING data to tables `timetable`fields Array values 21.00, 24 on conditions id = 3419
+16:04:41 joef001 Joel Efraimsson UPDATING data to tables `timetable`fields Array values 21.05, 24 on conditions id = 3419
+16:05:38 joef001 Joel Efraimsson INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( joef001, hesv001, 1, 0, 2013-12-18, 9.00, 10.00, 1, joef001 )
+16:05:38 joef001 Joel Efraimsson INSERTING data into tables `memory_slots`fields customer, time_from, time_to, type values ( hesv001, 9.00, 10.00, 0 )
+16:05:38 joef001 Joel Efraimsson INSERTING data into tables `general_customer_employee_settings`fields settings_owner, customer, employee, dont_show_slot_operation_flag values ( joef001, hesv001, , 1 )
+16:08:14 joef001 Joel Efraimsson UPDATING data to tables `timetable`fields Array values 7 on conditions id = 3529
+16:11:10 joef001 Joel Efraimsson INSERTING data into tables `mc_note`fields note_id, read_users values ( 6, joef001 )
+16:12:02   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = joef001
+16:12:02   UPDATING data to tables `log_login`fields Array values 2013-12-17:15:12:02 on conditions id = 1333 AND username = joef001
+16:27:28 wita001 Wilander Sture INSERTING data into tables `log_login`fields username, ip, browser values ( wita001, 85.89.70.141, Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.71 (KHTML, like Gecko) Version/6.1 Safari/537.71 )
+16:27:28 wita001 Wilander Sture UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = wita001
+16:28:59   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = wita001
+16:28:59   UPDATING data to tables `log_login`fields Array values 2013-12-17:15:28:59 on conditions id = 1334 AND username = wita001
+16:29:03 rokl001 rokl001 INSERTING data into tables `log_login`fields username, ip, browser values ( rokl001, 85.89.70.141, Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.71 (KHTML, like Gecko) Version/6.1 Safari/537.71 )
+16:29:03 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = rokl001
+16:31:30 rokl001 rokl001 DELETE data from tables `inconvenient_timing` on conditions root_id = 17
+16:31:30 rokl001 rokl001 DELETE data from tables `inconvenient_timing` on conditions id = 17
+16:31:30 rokl001 rokl001 INSERTING data into tables `inconvenient_timing`fields root_id, group_id, name, type, effect_from, effect_to, time_from, time_to, days, amount, nature values ( 0, 4, Jour Vard, 3, 2013-01-01, , 0.00, 24, 1,2,3,4,5,7,, 0.00, 0 )
+16:33:13 rokl001 rokl001 INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2013-10-28, 7.00, 15.30, 0, rokl001 )
+16:33:13 rokl001 rokl001 INSERTING data into tables `memory_slots`fields customer, time_from, time_to, type values ( hesv001, 7.00, 15.30, 0 )
+16:33:13 rokl001 rokl001 INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2013-10-29, 7.00, 15.30, 0, rokl001 )
+16:33:13 rokl001 rokl001 INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2013-10-30, 7.00, 15.30, 0, rokl001 )
+16:33:13 rokl001 rokl001 INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2013-10-31, 7.00, 15.30, 0, rokl001 )
+16:33:13 rokl001 rokl001 INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2013-11-01, 7.00, 15.30, 0, rokl001 )
+16:33:13 rokl001 rokl001 INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2013-11-02, 7.00, 15.30, 0, rokl001 )
+16:33:13 rokl001 rokl001 INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2013-11-03, 7.00, 15.30, 0, rokl001 )
+16:33:47 rokl001 rokl001 INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2013-10-28, 22.00, 24, 0, rokl001 )
+16:33:47 rokl001 rokl001 INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2013-10-29, 0, 7.00, 0, rokl001 )
+16:33:47 rokl001 rokl001 INSERTING data into tables `memory_slots`fields customer, time_from, time_to, type values ( hesv001, 0, 7.00, 0 )
+16:33:47 rokl001 rokl001 INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2013-10-29, 22.00, 24, 0, rokl001 )
+16:33:47 rokl001 rokl001 INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2013-10-30, 0, 7.00, 0, rokl001 )
+16:33:47 rokl001 rokl001 INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2013-10-30, 22.00, 24, 0, rokl001 )
+16:33:47 rokl001 rokl001 INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2013-10-31, 0, 7.00, 0, rokl001 )
+16:33:47 rokl001 rokl001 INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2013-10-31, 22.00, 24, 0, rokl001 )
+16:33:47 rokl001 rokl001 INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2013-11-01, 0, 7.00, 0, rokl001 )
+16:34:58 rokl001 rokl001 UPDATING data to tables `timetable`fields Array values 1, jata001, rokl001 on conditions id = 3537
+16:35:18 rokl001 rokl001 UPDATING data to tables `timetable`fields Array values 1, jata001, rokl001 on conditions id = 3538
+16:35:36 rokl001 rokl001 UPDATING data to tables `mc_leave`fields Array values wita001,rokl001 on conditions leave_id = 26
+16:35:36 rokl001 rokl001 UPDATING data to tables `mc_leave`fields Array values wita001,rokl001 on conditions leave_id = 25
+16:35:36 rokl001 rokl001 INSERTING data into tables `mc_leave`fields leave_id, leave_status, read_users values ( 28, 0, rokl001 )
+16:35:36 rokl001 rokl001 INSERTING data into tables `mc_leave`fields leave_id, leave_status, read_users values ( 27, 0, rokl001 )
+16:35:36 rokl001 rokl001 INSERTING data into tables `mc_leave`fields leave_id, leave_status, read_users values ( 30, 0, rokl001 )
+16:35:36 rokl001 rokl001 INSERTING data into tables `mc_leave`fields leave_id, leave_status, read_users values ( 29, 0, rokl001 )
+16:35:36 rokl001 rokl001 UPDATING data to tables `mc_leave`fields Array values wita001,rokl001 on conditions leave_id = 24
+16:35:36 rokl001 rokl001 UPDATING data to tables `mc_leave`fields Array values gine001,wita001,rokl001 on conditions leave_id = 22
+16:35:36 rokl001 rokl001 UPDATING data to tables `mc_leave`fields Array values wita001,rokl001 on conditions leave_id = 23
+16:35:36 rokl001 rokl001 UPDATING data to tables `mc_leave`fields Array values gine001,wita001,rokl001 on conditions leave_id = 21
+16:35:59 gine001 root001 INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 3, 2013-12-24, 9.00, 16.00, 0, gine001 )
+16:35:59 gine001 root001 INSERTING data into tables `memory_slots`fields customer, time_from, time_to, type values ( hesv001, 9.00, 16.00, 3 )
+16:36:42 rokl001 rokl001 UPDATING data to tables `timetable`fields Array values 2 on conditions id = 3427
+16:36:42 rokl001 rokl001 INSERTING data into tables `timetable`fields customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, employee, status values ( hesv001, 2013-12-16, 22.00, 24.00, 0, 1, , rokl001, 3427, anra004, 1 )
+16:38:10 rokl001 rokl001 UPDATING data to tables `mc_leave`fields Array values clke001,gine001,wita001,rokl001 on conditions leave_id = 19
+16:38:10 rokl001 rokl001 UPDATING data to tables `mc_leave`fields Array values clke001,gine001,wita001,rokl001 on conditions leave_id = 18
+16:38:10 rokl001 rokl001 UPDATING data to tables `mc_leave`fields Array values clke001,gine001,wita001,rokl001 on conditions leave_id = 20
+16:38:10 rokl001 rokl001 UPDATING data to tables `mc_leave`fields Array values clke001,gine001,wita001,rokl001 on conditions leave_id = 17
+16:38:10 rokl001 rokl001 UPDATING data to tables `mc_leave`fields Array values gine001,clke001,wita001,rokl001 on conditions leave_id = 15
+16:38:10 rokl001 rokl001 UPDATING data to tables `mc_leave`fields Array values clke001,gine001,wita001,rokl001 on conditions leave_id = 16
+16:38:10 rokl001 rokl001 UPDATING data to tables `mc_leave`fields Array values gine001,clke001,wita001,rokl001 on conditions leave_id = 13
+16:38:10 rokl001 rokl001 UPDATING data to tables `mc_leave`fields Array values gine001,clke001,wita001,rokl001 on conditions leave_id = 14
+16:38:10 rokl001 rokl001 UPDATING data to tables `mc_leave`fields Array values gine001,clke001,wita001,rokl001 on conditions leave_id = 12
+16:38:10 rokl001 rokl001 UPDATING data to tables `mc_leave`fields Array values gine001,clke001,wita001,rokl001 on conditions leave_id = 11
+16:40:52   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = rokl001
+16:40:52   UPDATING data to tables `log_login`fields Array values 2013-12-17:15:40:52 on conditions id = 1335 AND username = rokl001
+16:45:12 wita001 Wilander Sture INSERTING data into tables `log_login`fields username, ip, browser values ( wita001, 85.89.70.141, Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.71 (KHTML, like Gecko) Version/6.1 Safari/537.71 )
+16:45:12 wita001 Wilander Sture UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = wita001
+16:53:08   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = wita001
+16:53:08   UPDATING data to tables `log_login`fields Array values 2013-12-17:15:53:08 on conditions id = 1336 AND username = wita001
+17:14:45 joef001 Joel Efraimsson INSERTING data into tables `log_login`fields username, ip, browser values ( joef001, 85.89.70.141, Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.71 (KHTML, like Gecko) Version/6.1 Safari/537.71 )
+17:14:45 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = joef001
+17:22:25 joef001 Joel Efraimsson UPDATING data to tables `timetable`fields Array values 1, joef001, joef001 on conditions id = 3545
+17:26:35 joef001 Joel Efraimsson UPDATING data to tables `timetable`fields Array values 0 on conditions id = 3545
+17:26:51 joef001 Joel Efraimsson INSERTING data into tables `timetable`fields employee, customer, type, date, time_from, time_to, status, relation_id, alloc_emp values ( joef001, hesv001, 0, 2013-12-24, 15.00, 16.00, 1, , joef001 )
+17:26:51 joef001 Joel Efraimsson UPDATING data to tables `timetable`fields Array values 15.00 on conditions id = 3545
+17:27:10 joef001 Joel Efraimsson UPDATING data to tables `timetable`fields Array values 8 on conditions id = 3545
+17:27:47 joef001 Joel Efraimsson UPDATING data to tables `timetable`fields Array values 10 on conditions id = 3547
+17:29:50 joef001 Joel Efraimsson INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( joef001, hesv001, 1, 0, 2013-12-25, 9.00, 13.00, 1, joef001 )
+17:33:37 joef001 Joel Efraimsson UPDATING data to tables `timetable`fields Array values 9.00, 13.15 on conditions id = 3548
+17:34:55 joef001 Joel Efraimsson UPDATING data to tables `timetable`fields Array values 9.00, 13.00 on conditions id = 3548
+17:36:06   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = joef001
+17:36:06   UPDATING data to tables `log_login`fields Array values 2013-12-17:16:36:06 on conditions id = 1337 AND username = joef001
+17:36:29 wita001 Wilander Sture INSERTING data into tables `log_login`fields username, ip, browser values ( wita001, 85.89.70.141, Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.71 (KHTML, like Gecko) Version/6.1 Safari/537.71 )
+17:36:29 wita001 Wilander Sture UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = wita001
+17:37:03 wita001 Wilander Sture UPDATING data to tables `timetable`fields Array values joef001 on conditions id=3447
+17:37:03 wita001 Wilander Sture UPDATING data to tables `timetable`fields Array values jata001 on conditions id=3548
+17:37:44 wita001 Wilander Sture UPDATING data to tables `timetable`fields Array values 2 on conditions id = 3447
+17:37:44 wita001 Wilander Sture INSERTING data into tables `timetable`fields customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, employee, status values ( hesv001, 2013-12-26, 9.00, 13.00, 0, 1, , wita001, 3447, anra004, 1 )
+17:37:44 wita001 Wilander Sture INSERTING data into tables `leave`fields group_id, employee, date, time_from, time_to, type, comment, appr_emp, status values ( 31, joef001, 2013-12-26, 9, 13, 1, , wita001, 0 )
+17:38:06 wita001 Wilander Sture UPDATING data to tables `timetable`fields Array values 2 on conditions id = 3448
+17:38:06 wita001 Wilander Sture INSERTING data into tables `timetable`fields customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, employee, status values ( hesv001, 2013-12-27, 9.00, 13.00, 0, 1, , wita001, 3448, wita001, 1 )
+17:38:06 wita001 Wilander Sture INSERTING data into tables `leave`fields group_id, employee, date, time_from, time_to, type, comment, appr_emp, status values ( 32, jata001, 2013-12-27, 9, 13, 2, , wita001, 0 )
+17:40:49 wita001 Wilander Sture UPDATING data to tables `mc_leave`fields Array values rokl001,wita001 on conditions leave_id = 28
+17:40:49 wita001 Wilander Sture UPDATING data to tables `mc_leave`fields Array values rokl001,wita001 on conditions leave_id = 27
+17:40:49 wita001 Wilander Sture INSERTING data into tables `mc_leave`fields leave_id, leave_status, read_users values ( 32, 0, wita001 )
+17:40:49 wita001 Wilander Sture INSERTING data into tables `mc_leave`fields leave_id, leave_status, read_users values ( 31, 0, wita001 )
+17:40:49 wita001 Wilander Sture UPDATING data to tables `mc_leave`fields Array values rokl001,wita001 on conditions leave_id = 30
+17:40:49 wita001 Wilander Sture UPDATING data to tables `mc_leave`fields Array values rokl001,wita001 on conditions leave_id = 29
+17:41:54 wita001 Wilander Sture DELETE data from tables `leave` on conditions id = 57
+17:41:54 wita001 Wilander Sture UPDATING data to tables `timetable`fields Array values 1 on conditions (id IN ( '3448' )) AND customer is NOT NULL AND customer != 
+17:41:54 wita001 Wilander Sture UPDATING data to tables `timetable`fields Array values 0 on conditions (id IN ( '3448' )) AND (customer is NULL OR customer = )
+17:41:54 wita001 Wilander Sture DELETE data from tables `timetable` on conditions relation_id = 3448
+17:42:43 wita001 Wilander Sture UPDATING data to tables `leave`fields Array values 1, wita001, 2013-12-17 on conditions group_id = 26
+17:42:45 wita001 Wilander Sture UPDATING data to tables `leave`fields Array values 1, wita001, 2013-12-17 on conditions group_id = 25
+17:42:46 wita001 Wilander Sture UPDATING data to tables `leave`fields Array values 1, wita001, 2013-12-17 on conditions group_id = 28
+17:42:47 wita001 Wilander Sture UPDATING data to tables `leave`fields Array values 1, wita001, 2013-12-17 on conditions group_id = 27
+17:45:10 wita001 Wilander Sture UPDATING data to tables `mc_note`fields Array values joef001,wita001 on conditions note_id = 8
+17:53:11 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2013-12-25, 8.00, 17.00, 0, wita001 )
+17:53:16 wita001 Wilander Sture UPDATING data to tables `timetable`fields Array values 2 on conditions id = 3551
+18:01:13 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2013-11-18, 6.00, 19.30, 0, wita001 )
+18:01:31 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2013-11-18, 19.30, 22.30, 0, wita001 )
+18:01:53 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 3, 2013-11-18, 22.30, 24.00, 0, wita001 )
+18:02:10 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2013-11-19, 6.00, 19.30, 0, wita001 )
+18:02:10 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2013-11-19, 19.30, 22.30, 0, wita001 )
+18:02:10 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 3, 2013-11-19, 22.30, 24.00, 0, wita001 )
+18:02:21 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 3, 2013-11-19, 0.00, 6.00, 0, wita001 )
+18:02:31 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 3, 2013-11-20, 0.00, 6.00, 0, wita001 )
+18:02:31 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2013-11-20, 6.00, 19.30, 0, wita001 )
+18:02:31 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2013-11-20, 19.30, 22.30, 0, wita001 )
+18:02:31 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 3, 2013-11-20, 22.30, 24.00, 0, wita001 )
+18:04:05 wita001 Wilander Sture UPDATING data to tables `timetable`fields Array values 1, moen001, wita001 on conditions id = 3552
+18:04:10 wita001 Wilander Sture UPDATING data to tables `timetable`fields Array values 1, anra004, wita001 on conditions id = 3553
+18:04:24 wita001 Wilander Sture DELETE data from tables `timetable` on conditions id = 3554
+18:04:27 wita001 Wilander Sture DELETE data from tables `timetable` on conditions id = 3553
+18:04:31 wita001 Wilander Sture DELETE data from tables `timetable` on conditions id = 3552
+18:10:20 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2013-12-23, 9.00, 10.00, 0, wita001 )
+18:10:26 wita001 Wilander Sture UPDATING data to tables `timetable`fields Array values 1, jata001, wita001 on conditions id = 3563
+18:10:32 wita001 Wilander Sture UPDATING data to tables `timetable`fields Array values , 0, wita001 on conditions id = 3563
+18:10:48 wita001 Wilander Sture UPDATING data to tables `timetable`fields Array values 1, moen001, wita001 on conditions id = 3563
+18:11:17 wita001 Wilander Sture DELETE data from tables `timetable` on conditions id = 3563
+18:11:28 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2013-12-23, 9.00, 10.00, 0, wita001 )
+18:11:56 wita001 Wilander Sture UPDATING data to tables `timetable`fields Array values 1, joef001, wita001 on conditions id = 3564
+18:12:05   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = wita001
+18:12:05   UPDATING data to tables `log_login`fields Array values 2013-12-17:17:12:05 on conditions id = 1338 AND username = wita001
+18:12:09 rokl001 rokl001 INSERTING data into tables `log_login`fields username, ip, browser values ( rokl001, 85.89.70.141, Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.71 (KHTML, like Gecko) Version/6.1 Safari/537.71 )
+18:12:09 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = rokl001
+18:13:00 rokl001 rokl001 UPDATING data to tables `privileges`fields Array values 1, 1, 1, 1, 1, , 1, , 1, 1, 1, 1, 1, 1, 1, 1, 1, , , ,  on conditions employee = wita001
+18:13:04   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = rokl001
+18:13:04   UPDATING data to tables `log_login`fields Array values 2013-12-17:17:13:04 on conditions id = 1339 AND username = rokl001
+18:13:15 wita001 Wilander Sture INSERTING data into tables `log_login`fields username, ip, browser values ( wita001, 85.89.70.141, Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.71 (KHTML, like Gecko) Version/6.1 Safari/537.71 )
+18:13:15 wita001 Wilander Sture UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = wita001
+18:13:41 wita001 Wilander Sture UPDATING data to tables `timetable`fields Array values 10 on conditions id = 3564
+18:13:52 wita001 Wilander Sture DELETE data from tables `timetable` on conditions id = 3564
+18:14:00 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2013-12-23, 9.00, 10.00, 0, wita001 )
+18:14:26 wita001 Wilander Sture UPDATING data to tables `timetable`fields Array values 1, moen001, wita001 on conditions id = 3565
+18:14:59 wita001 Wilander Sture DELETE data from tables `timetable` on conditions id = 3565
+18:15:11 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2013-12-23, 9.00, 10.00, 0, wita001 )
+18:15:39 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( anra004, hesv001, 1, 10, 2013-12-23, 9, 10, 1, wita001 )
+18:15:39 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( lima003, hesv001, 1, 10, 2013-12-23, 9, 10, 1, wita001 )
+18:15:39 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( wita001, hesv001, 1, 10, 2013-12-23, 9, 10, 1, wita001 )
+18:16:26 wita001 Wilander Sture DELETE data from tables `timetable` on conditions id = 3551
+18:16:39 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 1, 0, 2013-12-25, 9.00, 10.00, 0, wita001 )
+18:16:49 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( anra004, hesv001, 1, 10, 2013-12-25, 9, 10, 1, wita001 )
+18:16:49 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( lima003, hesv001, 1, 10, 2013-12-25, 9, 10, 1, wita001 )
+18:16:49 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( wita001, hesv001, 1, 10, 2013-12-25, 9, 10, 1, wita001 )
+18:16:49 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( moen001, hesv001, 1, 10, 2013-12-25, 9, 10, 1, wita001 )
+18:16:49 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, type, date, time_from, time_to, status, alloc_emp, fkkn values ( jata001, hesv001, 10, 2013-12-25, 9.00, 10.00, 1, wita001, 1 )
+18:16:49 wita001 Wilander Sture UPDATING data to tables `timetable`fields Array values 10.00 on conditions id = 3548
+18:16:49 wita001 Wilander Sture UPDATING data to tables `timetable`fields Array values 1, jata001, wita001 on conditions id = 3548
+18:16:49 wita001 Wilander Sture INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( joef001, hesv001, 1, 10, 2013-12-25, 9, 10, 1, wita001 )
+18:17:39 wita001 Wilander Sture DELETE data from tables `timetable` on conditions id = 3570
+18:17:39 wita001 Wilander Sture DELETE data from tables `timetable` on conditions id = 3571
+18:17:39 wita001 Wilander Sture DELETE data from tables `timetable` on conditions id = 3572
+18:17:39 wita001 Wilander Sture DELETE data from tables `timetable` on conditions id = 3573
+18:17:39 wita001 Wilander Sture DELETE data from tables `timetable` on conditions id = 3574
+18:17:39 wita001 Wilander Sture DELETE data from tables `timetable` on conditions id = 3575
+18:17:39 wita001 Wilander Sture DELETE data from tables `timetable` on conditions id = 3576
+18:17:39 wita001 Wilander Sture DELETE data from tables `timetable` on conditions id = 3548
+18:17:39 wita001 Wilander Sture DELETE data from tables `timetable` on conditions id = 

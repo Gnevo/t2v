@@ -1,0 +1,7 @@
+12:48:11 rokl001 rokl001 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rokl001, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36 ) => {inserted_id = 1510}
+12:48:11 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = rokl001
+12:48:11 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( error ) values (0) on conditions username = rokl001
+18:02:30 gine001 root001 INSERTING data into tables `customer_contract` fields ( hour, date_from, date_to, fkkn, customer ) values ( 300, 2013-12-01, 2014-02-28, 2, hesv001 ) => {inserted_id = 6}
+18:02:30 gine001 root001 INSERTING data into tables `customer_contract_decision` fields ( contract_id, first_name, last_name, mobile, email, city, comments_time, comments_other, documents ) values ( 6, kalle, ek, , , , , ,  ) => {inserted_id = 0}
+18:04:35 gine001 root001 INSERTING data into tables `customer_contract` fields ( hour, date_from, date_to, fkkn, customer ) values ( 65, 2014-01-13, 2014-01-31, 2, hesv001 ) => {inserted_id = 7}
+18:04:35 gine001 root001 INSERTING data into tables `customer_contract_decision` fields ( contract_id, first_name, last_name, mobile, email, city, comments_time, comments_other, documents ) values ( 7, jonny, Wall, , , , , ,  ) => {inserted_id = 0}

@@ -1,0 +1,7 @@
+14:47:30 gine001 Gilad Nevo UPDATING data to tables `team`fields Array values 3 on conditions customer =  AND role = 7
+14:47:30 gine001 Gilad Nevo UPDATING data to tables `team`fields Array values 7 on conditions customer =  AND employee = 
+14:47:30 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirruscommon`.`login`fields username, mobile, social_security, role, login, date, company_ids values ( rawi001, 963352527, 6508141352, 3, 0, 2013-09-10, 6, )
+14:47:30 gine001 Gilad Nevo INSERTING data into tables `employee`fields username, century, code, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day values ( rawi001, 19, 001-0-20002, 6508141352, Ramser, Williams, , , , , , 963352527, , 2013-09-10, #8BA8A6, 1, , , 0, 10.00 )
+14:47:30 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 6, on conditions social_security = 6508141352 AND company_ids NOT LIKE %6,%
+14:58:55   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = gine001
+14:58:55   UPDATING data to tables `log_login`fields Array values 2013-09-10:12:58:55 on conditions id = 7317 AND username = gine001

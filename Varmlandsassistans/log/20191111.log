@@ -1,0 +1,15 @@
+10:50:42 evsc001 Evelyn Schulz INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( evsc001, 90.230.60.169, Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36 ) => {inserted_id = 7961}
+10:50:42 evsc001 Evelyn Schulz DELETE data from tables `temp_session` on conditions username LIKE evsc001
+10:50:42 evsc001 Evelyn Schulz UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-11-11 10:50:42) on conditions username = evsc001
+10:50:42 evsc001 Evelyn Schulz UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-11-11 10:50:42) on conditions username = evsc001 AND company_id = 21
+10:50:43 evsc001 Evelyn Schulz UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (evsc001) on conditions session_id = 06a4212988382d4d4ad633f44b8149a9
+10:52:27 svbu001 Svenja Bunge INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( svbu001, 2.247.245.135, Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Mobile/15E148 Safari/604.1 ) => {inserted_id = 7962}
+10:52:27 svbu001 Svenja Bunge DELETE data from tables `temp_session` on conditions username LIKE svbu001
+10:52:27 svbu001 Svenja Bunge UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-11-11 10:52:27) on conditions username = svbu001
+10:52:27 svbu001 Svenja Bunge UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-11-11 10:52:27) on conditions username = svbu001 AND company_id = 21
+10:52:27 svbu001 Svenja Bunge UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (svbu001) on conditions session_id = 6c46ccf5a02d69d2dd645cfbcccc0d84
+16:39:17 gine001 Gilad Nevo1 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 89.233.236.131, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0 ) => {inserted_id = 7963}
+16:39:17 gine001 Gilad Nevo1 DELETE data from tables `temp_session` on conditions username LIKE gine001
+16:39:17 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-11-11 16:39:17) on conditions username = gine001
+16:39:17 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-11-11 16:39:17) on conditions username = gine001 AND company_id = 21
+16:39:19 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = a6255d856d4accfa75edfbcdf8b84570

@@ -1,0 +1,6 @@
+08:34:37 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 178.31.176.159, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0 ) => {inserted_id = 6112}
+08:34:37 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+08:34:37 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2017-11-23 08:34:37) on conditions username = gine001
+08:34:38 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-11-23 08:34:37) on conditions username = gine001 AND company_id = 6
+08:36:04 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirruscommon`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, category_id, priority, ticket_type, status, hidden ) values ( 1276, gine001, <p>Den möjlighet finns i appen.<br>Om du ger behörighet för de anställda, då dyket det upp i deras app.<br></p>, 8, 2, 3, 4, 0 ) => {inserted_id = 2269}
+08:38:00 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = a60458b224eab626e2472881670445df

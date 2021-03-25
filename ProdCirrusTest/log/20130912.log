@@ -1,0 +1,9 @@
+10:10:28 gine001 Gilad Nevo INSERTING data into tables `log_login`fields username, ip, browser values ( gine001, 115.248.24.177, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/28.0.1500.71 Chrome/28.0.1500.71 Safari/537.36 )
+10:10:28 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = gine001
+10:10:43 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 2, 0, 2013-09-03, 0, 6, 0, gine001 )
+10:11:18 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions id = 2916
+10:12:16 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 2, undefined, 2013-09-03, 0.00, 1.00, 0, gine001 )
+10:12:16 gine001 Gilad Nevo INSERTING data into tables `memory_slots`fields customer, time_from, time_to, type values ( hesv001, 0.00, 1.00, undefined )
+10:12:28 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions id = 2917
+10:12:31   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = gine001
+10:12:31   UPDATING data to tables `log_login`fields Array values 2013-09-12:08:12:31 on conditions id = 1272 AND username = gine001

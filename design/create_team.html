@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="css/cleaning.css" rel="stylesheet" type="text/css" />
+<link href="css/scrollbars-black.css" type="text/css" rel="stylesheet">
+<link href="css/scrollbars.css" type="text/css" rel="stylesheet">
+		<script language="javascript" type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/scroll.js"></script>
+		<script src="js/mousehold.js"></script>
+		<script src="js/jquery.mousewheel.js"></script>
+		<script src="js/aplweb.scrollbars.js"></script>
+		<script src="js/jquery.ui.datepicker.js" type="text/javascript" ></script>
+		<script src="js/jquery.event.drag-2.0.min.js"></script>
+<script>
+$(document).ready(function(){
+	$("input[name=btn2]").click(function(){
+		switch($(this).attr("value")){
+			case 'Company':
+				$('.house_hold_dv').show();
+			 break;
+			 case 'House Hold':
+				$('.house_hold_dv').hide();
+			 break;
+			
+		}
+	});
+});
+</script>
+
+		<script>
+			$(document).ready(function() {
+				$("#team_wrks, #tm_mmbrs").scrollbars();
+			});
+		</script>
+
+</head>
+
+
+<body>
+<div id="wrapper_container" class="clearfix">
+  <div id="header" class="clearfix">
+  <div class="menu clearfix">
+  	<div class="logo"><img src="images/logo.jpg" width="304" height="23" /></div>
+    <div class="user_id"><div class="user">Shaju K T</div><a href="#" class="logout">Logout</a></div>
+    </div>
+    <ul class="main_menu">
+    <div style="float:left;">
+  	<li><a href="#" class="active"><span>Admin</span></a></li>
+  	<li><a href="#">Asistenter</a></li>
+  	<li><a href="#">Kunder</a></li>
+  	<li><a href="#">Blanketter</a></li>
+  	<li><a href="#">Rapporter</a></li>
+    </div>
+     <div class="date">12-01-2012</div>
+  </ul>
+    
+    
+  </div>
+  <div id="content_wrapper" class="clearfix">
+  	<div id="side_menu">
+    	<ul class="side_links">
+        	<li class="active"><img src="images/gundsc_icon.png" width="19" height="20" align="middle" /><a href="#">Grundschema</a></li>
+       	  <li><img src="images/assis_icon.png" width="21" height="17" align="middle" /><a href="#">Assistenter</a></li>
+        	<li><img src="images/kunder_icon.png" width="24" height="21" align="middle"/><a href="#">Kunder</a></li>
+        	<li><img src="images/lon_icon.png" width="19" height="19" /><a href="#">Lon export</a></li>
+        	<li><img src="images/medd_icon.png" width="22" height="14" /><a href="#">Medd. center</a></li>
+        </ul>
+    </div>
+    <div id="main_content">
+<!--create_team_starts-->
+<div class="create_t_pop">
+<div class="create_t_top">
+<div class="create_t_title">Create Team</div>
+<div class="tm_nme">
+<div class="t_nme">Team Name</div>
+<div class="t_frm_fld"><input name="" type="text" class="pop_frm" /></div>
+<div class="t_slct"><select>
+  <option value="">Team Leader</option>
+  <option value="">project Manager</option>
+  <option value="">Project Cordinator</option>
+</select> </div>
+</div>
+</div>
+<div class="t_mmbr_dv">
+
+<div id="tm_mmbrs">
+
+<div class="mbrs_title">Team Members</div>
+<div id="assigned_wrks"> <div id="assigned"><ul>
+     <li>item  <a href="#"><img src="images/remove_pink.png" border="0" alt="" align="right"/></a></li>
+     <div id="no_data" class="message" style="width:250px;" ></div></ul>
+</div>
+</div>
+
+</div>
+
+
+
+</div>
+<div class="t_wrks_dv">
+   <div class="mbrs_title">Available works</div> 
+   <div id="assigned_wrks"> <div id="team_wrks"><ul>
+     <li>item  <a href="#"><img src="images/add_green.png" border="0" alt="" align="right"/></a></li>
+     <li>item  <a href="#"><img src="images/add_green.png" border="0" alt="" align="right"/></a></li>
+     <li>item  <a href="#"><img src="images/add_green.png" border="0" alt="" align="right"/></a></li>
+     <div id="no_data" class="message" style="width:250px;" ></div></ul>
+</div>
+</div>
+
+</div>
+</div>
+<!--create_team_ends-->
+<!--create_skills_starts-->
+<div class="crt_skill">
+<div class="crt_skill_main">
+<div class="crt_skill_title">Create Skill</div>
+<div class="selct_top_level">
+<select>
+  <option value="">Team Leader</option>
+  <option value="">project Manager</option>
+  <option value="">Project Cordinator</option>
+</select>
+</div>
+<div class="selct_top_level">
+<div class="skill_name">Skill Name</div>
+<div class="skill_frm"><input name="" type="text" class="skill_name_fld" /></div>
+</div>
+<div class="dcrptn_div">
+<div class="dcrptn">Description</div>
+<div class="dcrptn_fld"><input name="" type="text" class="dcrptn_text" /></div>
+</div>
+<div class="skill_icon">
+<div class="skill_icon_name">Icon (64 x 64)</div>
+<div class="skill_icon_fld"><input name="" type="text" class="icon_fld" /></div>
+</div>
+<div class="avtar">
+<img src="images/avatr.png" border="0" alt="" />
+</div>
+</div>
+</div>
+
+<!--create_skills_starts-->
+
+
+   </div>    
+                        
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+08:06:19 joef001 Joel Efraimsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( joef001, 85.228.196.159, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0 ) => {inserted_id = 8681}
+08:06:19 joef001 Joel Efraimsson DELETE data from tables `temp_session` on conditions username LIKE joef001
+08:06:19 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-06-05 08:06:19) on conditions username = joef001
+08:06:19 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-06-05 08:06:19) on conditions username = joef001 AND company_id = 6
+11:38:23 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = joef001 AND company_id = 6
+11:38:23 joef001 Joel Efraimsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( joef001, 85.228.196.159, Time2View/16 CFNetwork/978.0.7 Darwin/18.6.0 ) => {inserted_id = 8682}
+11:38:23 joef001 Joel Efraimsson DELETE data from tables `temp_session` on conditions username LIKE joef001
+11:38:23 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-06-05 11:38:23) on conditions username = joef001
+11:38:23 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-06-05 11:38:23) on conditions username = joef001 AND company_id = 6
+12:28:14 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (joef001) on conditions session_id = d20ed3809c8ef00c385e9324c8e5b480
+12:52:15 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (joef001) on conditions session_id = d20ed3809c8ef00c385e9324c8e5b480
+12:53:33 joef001 Joel Efraimsson DELETE data from tables `timetable` on conditions id = 15305
+13:42:06 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (joef001) on conditions session_id = d20ed3809c8ef00c385e9324c8e5b480
+14:21:34 joef001 Joel Efraimsson INSERTING data into tables `temp_session` fields ( username, type, details ) values ( joef001, 1, 15306 ) => {inserted_id = 0}
+14:21:47 joef001 Joel Efraimsson INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment, relation_id ) values ( joef001, hela004, 1, 0, 2019-06-18, 21.00, 24.00, 1, , joef001, ,  ) => {inserted_id = 15319}
+14:22:10 joef001 Joel Efraimsson DELETE data from tables `timetable` on conditions id = 15319
+14:23:20 joef001 Joel Efraimsson INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( joef001, hela004, 1, 0, 2019-06-18, 16, 22.15, 1, , joef001,  ) => {inserted_id = 15320}
+14:23:20 joef001 Joel Efraimsson INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( hela004, 16, 24, 0 ) => {inserted_id = 570}
+14:23:20 joef001 Joel Efraimsson INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( joef001, hela004, 1, 3, 2019-06-18, 22.15, 24.00, 1, , joef001,  ) => {inserted_id = 15321}
+14:23:20 joef001 Joel Efraimsson INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( hela004, 16, 24, 3 ) => {inserted_id = 571}
+14:23:38 joef001 Joel Efraimsson DELETE data from tables `timetable` on conditions id = 15320
+14:23:38 joef001 Joel Efraimsson DELETE data from tables `timetable` on conditions id = 15321
+14:24:20 joef001 Joel Efraimsson INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( joef001, hela004, 1, 0, 2019-06-18, 17, 22.15, 1, , joef001,  ) => {inserted_id = 15322}
+14:24:20 joef001 Joel Efraimsson INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( joef001, hela004, 1, 3, 2019-06-18, 22.15, 24.00, 1, , joef001,  ) => {inserted_id = 15323}
+14:24:20 joef001 Joel Efraimsson INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( joef001, hela004, 1, 3, 2019-06-19, 0.00, 7.45, 1, , joef001,  ) => {inserted_id = 15324}
+14:24:20 joef001 Joel Efraimsson INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( joef001, hela004, 1, 0, 2019-06-19, 7.45, 14, 1, , joef001,  ) => {inserted_id = 15325}
+14:24:32 joef001 Joel Efraimsson DELETE data from tables `timetable` on conditions id = 15322
+14:24:32 joef001 Joel Efraimsson DELETE data from tables `timetable` on conditions id = 15323
+14:25:01 joef001 Joel Efraimsson INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( joef001, hela004, 1, 0, 2019-06-18, 21, 22.15, 1, , joef001,  ) => {inserted_id = 15326}
+14:25:01 joef001 Joel Efraimsson INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( joef001, hela004, 1, 3, 2019-06-18, 22.15, 24.00, 1, , joef001,  ) => {inserted_id = 15327}
+14:25:34 joef001 Joel Efraimsson DELETE data from tables `timetable` on conditions id = 15326
+14:25:34 joef001 Joel Efraimsson DELETE data from tables `timetable` on conditions id = 15327
+14:31:34 joef001 Joel Efraimsson INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( joef001, hela004, 1, 0, 2019-06-21, 19, 22.15, 1, , joef001,  ) => {inserted_id = 15328}
+14:31:34 joef001 Joel Efraimsson INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( hela004, 19, 24, 0 ) => {inserted_id = 572}
+14:31:34 joef001 Joel Efraimsson INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( joef001, hela004, 1, 3, 2019-06-21, 22.15, 24.00, 1, , joef001,  ) => {inserted_id = 15329}
+14:31:34 joef001 Joel Efraimsson INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( hela004, 19, 24, 3 ) => {inserted_id = 573}
+14:31:54 joef001 Joel Efraimsson DELETE data from tables `timetable` on conditions id = 15328
+14:31:54 joef001 Joel Efraimsson DELETE data from tables `timetable` on conditions id = 15329
+14:54:10 joef001 Joel Efraimsson INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( joef001, anst007, 1, 0, 2019-06-17, 19, 24, 1, , joef001,  ) => {inserted_id = 15330}
+14:54:10 joef001 Joel Efraimsson INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( anst007, 19, 24, 0 ) => {inserted_id = 574}
+14:54:29 joef001 Joel Efraimsson INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( joef001, anst007, 1, 0, 2019-06-21, 19, 24, 1, , joef001,  ) => {inserted_id = 15331}
+14:54:40 joef001 Joel Efraimsson UPDATING data to tables `temp_session` fields ( details ) values (15330) on conditions username LIKE joef001 AND type = 1
+14:54:48 joef001 Joel Efraimsson INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment, relation_id ) values ( joef001, anst007, 1, 0, 2019-06-18, 19.00, 24.00, 1, , joef001, ,  ) => {inserted_id = 15332}
+14:58:46 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (joef001) on conditions session_id = d20ed3809c8ef00c385e9324c8e5b480
+15:14:43 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (joef001) on conditions session_id = d20ed3809c8ef00c385e9324c8e5b480
+15:43:53 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 31.3.152.30, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0 ) => {inserted_id = 8683}
+15:43:53 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+15:43:53 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-06-05 15:43:53) on conditions username = gine001
+15:43:53 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-06-05 15:43:53) on conditions username = gine001 AND company_id = 6
+15:43:55 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 76810c24b072067dd6863367e5f52e1e
+15:46:15 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 76810c24b072067dd6863367e5f52e1e

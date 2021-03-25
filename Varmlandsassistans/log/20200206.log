@@ -1,0 +1,10 @@
+11:07:58 inbe006 Ingeborg Bergren INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( inbe006, 85.229.51.54, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36 ) => {inserted_id = 8075}
+11:07:58 inbe006 Ingeborg Bergren DELETE data from tables `temp_session` on conditions username LIKE inbe006
+11:07:58 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-02-06 11:07:58) on conditions username = inbe006
+11:07:58 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-02-06 11:07:58) on conditions username = inbe006 AND company_id = 21
+11:07:58 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = 43dd5f794426467e6b396736c36d449a
+11:30:13 inbe006 Ingeborg Bergren INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( inbe006, 85.229.51.54, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 ) => {inserted_id = 8076}
+11:30:13 inbe006 Ingeborg Bergren DELETE data from tables `temp_session` on conditions username LIKE inbe006
+11:30:13 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-02-06 11:30:13) on conditions username = inbe006
+11:30:13 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-02-06 11:30:13) on conditions username = inbe006 AND company_id = 21
+11:30:13 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = cd9654a9464d23deabc4cf55383d44c6

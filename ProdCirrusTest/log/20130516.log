@@ -1,0 +1,97 @@
+13:07:12 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 2 on conditions id = 1576
+13:07:12 gine001 Gilad Nevo INSERTING data into tables `timetable`fields customer, date, time_from, time_to, type, fkkn, status, comment, alloc_emp, relation_id values ( hesv001, 2013-05-25, 4.00, 8.00, 0, 2, 0, , gine001, 1576 )
+13:07:12 gine001 Gilad Nevo INSERTING data into tables `leave`fields group_id, employee, date, time_from, time_to, type, comment, appr_emp, status values ( 10, gine001, 2013-05-25, 4, 8, 2, , gine001, 0 )
+13:12:05 gine001 Gilad Nevo INSERTING data into tables `mc_leave`fields leave_id, leave_status, read_users values ( 10, 0, gine001 )
+13:12:19 gine001 Gilad Nevo UPDATING data to tables `leave`fields Array values 2, gine001, 2013-05-16 on conditions group_id = 10
+13:12:19 gine001 Gilad Nevo DELETE data from tables `leave` on conditions group_id = 10
+13:12:19 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1 on conditions (id IN ( '1576' )) AND customer is NOT NULL AND customer != 
+13:12:19 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 0 on conditions (id IN ( '1576' )) AND (customer is NULL OR customer = )
+13:12:19 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions relation_id = 1576
+13:13:17 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 2 on conditions id = 1576
+13:13:17 gine001 Gilad Nevo INSERTING data into tables `timetable`fields customer, date, time_from, time_to, type, fkkn, status, comment, alloc_emp, relation_id values ( hesv001, 2013-05-25, 4.00, 8.00, 0, 2, 0, , gine001, 1576 )
+13:13:17 gine001 Gilad Nevo INSERTING data into tables `leave`fields group_id, employee, date, time_from, time_to, type, comment, appr_emp, status values ( 10, gine001, 2013-05-25, 4, 8, 1, , gine001, 0 )
+13:13:33 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 2 on conditions id = 1579
+13:13:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields customer, date, time_from, time_to, type, fkkn, status, comment, alloc_emp, relation_id values ( hesv001, 2013-05-26, 4.00, 8.00, 0, 2, 0, , gine001, 1579 )
+13:13:33 gine001 Gilad Nevo INSERTING data into tables `leave`fields group_id, employee, date, time_from, time_to, type, comment, appr_emp, status values ( 11, gine001, 2013-05-26, 4, 8, 1, , gine001, 0 )
+13:13:47 gine001 Gilad Nevo INSERTING data into tables `mc_leave`fields leave_id, leave_status, read_users values ( 11, 0, gine001 )
+13:13:47 gine001 Gilad Nevo INSERTING data into tables `mc_leave`fields leave_id, leave_status, read_users values ( 10, 0, gine001 )
+13:14:10 gine001 Gilad Nevo DELETE data from tables `leave` on conditions id = 15
+13:14:10 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1 on conditions (id IN ( '1579' )) AND customer is NOT NULL AND customer != 
+13:14:10 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 0 on conditions (id IN ( '1579' )) AND (customer is NULL OR customer = )
+13:14:10 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions relation_id = 1579
+13:14:39 gine001 Gilad Nevo UPDATING data to tables `leave`fields Array values 2, gine001, 2013-05-16 on conditions group_id = 10
+13:14:39 gine001 Gilad Nevo DELETE data from tables `leave` on conditions group_id = 10
+13:14:39 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1 on conditions (id IN ( '1576' )) AND customer is NOT NULL AND customer != 
+13:14:39 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 0 on conditions (id IN ( '1576' )) AND (customer is NULL OR customer = )
+13:14:39 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions relation_id = 1576
+13:21:12   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = gine001
+13:21:12   UPDATING data to tables `log_login`fields Array values 2013-05-16:11:21:12 on conditions id = 5777 AND username = gine001
+13:33:47 gine001 Gilad Nevo INSERTING data into tables `log_login`fields username, ip, browser values ( gine001, 46.194.81.38, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31 )
+13:33:47 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = gine001
+13:34:51 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 2 on conditions id = 1569
+13:34:51 gine001 Gilad Nevo INSERTING data into tables `timetable`fields customer, date, time_from, time_to, type, fkkn, status, comment, alloc_emp, relation_id values ( hesv001, 2013-05-23, 0.00, 4.00, 3, 2, 0, , gine001, 1569 )
+13:34:51 gine001 Gilad Nevo INSERTING data into tables `leave`fields group_id, employee, date, time_from, time_to, type, comment, appr_emp, status values ( 10, gine001, 2013-05-23, 0, 4, 1, , gine001, 0 )
+13:35:43 gine001 Gilad Nevo UPDATING data to tables `leave`fields Array values 1, gine001, 2013-05-16 on conditions group_id = 10
+13:38:19 gine001 Gilad Nevo INSERTING data into tables `mc_leave`fields leave_id, leave_status, read_users values ( 10, 1, gine001 )
+13:38:34 gine001 Gilad Nevo DELETE data from tables `leave` on conditions id = 16
+13:38:34 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1 on conditions (id IN ( '1569' )) AND customer is NOT NULL AND customer != 
+13:38:34 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 0 on conditions (id IN ( '1569' )) AND (customer is NULL OR customer = )
+13:38:34 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions relation_id = 1569
+14:02:34 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 2 on conditions id = 1570
+14:02:34 gine001 Gilad Nevo INSERTING data into tables `timetable`fields customer, date, time_from, time_to, type, fkkn, status, comment, alloc_emp, relation_id values ( hesv001, 2013-05-23, 4.00, 8.00, 0, 2, 0, , gine001, 1570 )
+14:02:34 gine001 Gilad Nevo INSERTING data into tables `leave`fields group_id, employee, date, time_from, time_to, type, comment, appr_emp, status values ( 10, gine001, 2013-05-23, 4, 8, 1, , gine001, 0 )
+14:02:40 gine001 Gilad Nevo UPDATING data to tables `leave`fields Array values 1, gine001, 2013-05-16 on conditions group_id = 10
+14:24:12 gine001 Gilad Nevo INSERTING data into tables `log_login`fields username, ip, browser values ( gine001, 46.194.81.38, Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; NP06) )
+14:24:12 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = gine001
+14:24:27 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 2 on conditions id = 1578
+14:24:27 gine001 Gilad Nevo INSERTING data into tables `timetable`fields customer, date, time_from, time_to, type, fkkn, status, comment, alloc_emp, relation_id values ( hesv001, 2013-05-26, 0.00, 4.00, 3, 2, 0, , gine001, 1578 )
+14:24:27 gine001 Gilad Nevo INSERTING data into tables `leave`fields group_id, employee, date, time_from, time_to, type, comment, appr_emp, status values ( 11, gine001, 2013-05-26, 0, 4, 1, , gine001, 0 )
+14:24:30 gine001 Gilad Nevo UPDATING data to tables `leave`fields Array values 1, gine001, 2013-05-16 on conditions group_id = 11
+14:24:37 gine001 Gilad Nevo INSERTING data into tables `mc_leave`fields leave_id, leave_status, read_users values ( 11, 1, gine001 )
+14:24:37 gine001 Gilad Nevo INSERTING data into tables `mc_leave`fields leave_id, leave_status, read_users values ( 10, 1, gine001 )
+14:24:46 gine001 Gilad Nevo DELETE data from tables `leave` on conditions id = 18
+14:24:46 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1 on conditions (id IN ( '1578' )) AND customer is NOT NULL AND customer != 
+14:24:46 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 0 on conditions (id IN ( '1578' )) AND (customer is NULL OR customer = )
+14:24:46 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions relation_id = 1578
+15:27:08 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 98653247 on conditions username = hesv001
+15:27:08 gine001 Gilad Nevo UPDATING data to tables `customer`fields Array values 3, 19, 7204090117, Testina, Svan, storgatan 22, Kumla, 692 32, 019-12345678, 98653247, , 2012-08-01, 0, 2013-05-16, 2 on conditions username = hesv001
+15:27:08 gine001 Gilad Nevo DELETE data from tables `team` on conditions customer = hesv001
+15:27:08 gine001 Gilad Nevo INSERTING data into tables `team`fields customer, employee, role values ( hesv001, joef001, 3 )
+15:27:08 gine001 Gilad Nevo INSERTING data into tables `team`fields customer, employee, role values ( hesv001, wita001, 3 )
+15:27:08 gine001 Gilad Nevo INSERTING data into tables `team`fields customer, employee, role values ( hesv001, jata001, 3 )
+15:27:08 gine001 Gilad Nevo INSERTING data into tables `team`fields customer, employee, role values ( hesv001, moen001, 3 )
+15:27:08 gine001 Gilad Nevo INSERTING data into tables `team`fields customer, employee, role values ( hesv001, gine001, 3 )
+15:36:26 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 98653247 on conditions username = hesv001
+15:36:26 gine001 Gilad Nevo UPDATING data to tables `customer`fields Array values 3, 19, 7204090117, Testina, Svan, storgatan 22, Kumla, 692 32, 019-12345678, 98653247, , 2012-08-01, 1, , 2 on conditions username = hesv001
+15:36:26 gine001 Gilad Nevo DELETE data from tables `team` on conditions customer = hesv001
+15:36:26 gine001 Gilad Nevo INSERTING data into tables `team`fields customer, employee, role values ( hesv001, joef001, 3 )
+15:36:26 gine001 Gilad Nevo INSERTING data into tables `team`fields customer, employee, role values ( hesv001, wita001, 3 )
+15:36:26 gine001 Gilad Nevo INSERTING data into tables `team`fields customer, employee, role values ( hesv001, jata001, 3 )
+15:36:26 gine001 Gilad Nevo INSERTING data into tables `team`fields customer, employee, role values ( hesv001, moen001, 3 )
+15:36:26 gine001 Gilad Nevo INSERTING data into tables `team`fields customer, employee, role values ( hesv001, gine001, 3 )
+17:32:46 jata001 Janne Tandodal INSERTING data into tables `log_login`fields username, ip, browser values ( jata001, 79.136.116.121, Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.4) )
+17:34:21 jata001 Janne Tandodal UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 9a79923b154f4e939e029b2e2541619d, 2013-05-16, 0 on conditions username = jata001
+17:34:21 jata001 Janne Tandodal UPDATING data to tables `log_password`fields Array values 30981427d883c2cd96c5b194c82d393f,fcdc6eef89d59b792ef0dc68a735f564 on conditions username = jata001
+17:34:21 jata001 Janne Tandodal UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = jata001
+17:38:00 jata001 Janne Tandodal DELETE data from tables `inconvenient_timing` on conditions root_id = 11
+17:38:00 jata001 Janne Tandodal DELETE data from tables `inconvenient_timing` on conditions id = 11
+17:53:46 jata001 Janne Tandodal INSERTING data into tables `time2vie_cirruscommon`.`login`fields username, mobile, password, role, login, date, company_ids values ( anst007, , 040791f1ae6eca460f913d88fdd2092a, 4, 0, 2013-05-16, 6, )
+17:53:46 jata001 Janne Tandodal INSERTING data into tables `customer`fields username, century, code, social_security, first_name, last_name, address, city, post, phone, mobile, email, date, status, date_inactive, fkkn values ( anst007, 19, 1, 4609110046, Anne Christine, Stenling, Klingspors väg 5B, Vallentuna, 18642, 0851174546, , , 2013-05-16, 1, , 1 )
+17:57:54 jata001 Janne Tandodal INSERTING data into tables `customer_contract`fields hour, date_from, date_to, fkkn, customer values ( 7728, 2013-01-01, 2013-12-31, 1, anst007 )
+17:57:54 jata001 Janne Tandodal INSERTING data into tables `customer_contract_billing`fields contract_id, first_name, last_name, mobile, email, city, oncall, oncall2, awake, something values ( 1, , , , , , 1, , ,  )
+17:57:54 jata001 Janne Tandodal INSERTING data into tables `customer_contract_decision`fields contract_id, first_name, last_name, mobile, email, city, comments_time, comments_other, documents values ( 1, Christina, Persson, , , , , ,  )
+18:00:21 jata001 Janne Tandodal UPDATING data to tables `privileges`fields Array values , , , , , , , , , , , , , , , ,  on conditions employee = 
+18:00:29 jata001 Janne Tandodal UPDATING data to tables `privileges`fields Array values , , , , , , , , , , , , , , , ,  on conditions employee = 
+20:55:00 jata001 Janne Tandodal DELETE data from tables `memory_slots` on conditions id = 102
+20:55:56 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( joef001, hesv001, 2, 3, 2013-05-16, 1, 5, 1, jata001 )
+20:55:56 jata001 Janne Tandodal INSERTING data into tables `memory_slots`fields customer, time_from, time_to, type values ( hesv001, 1, 5, 3 )
+20:59:56 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( joef001, , 1, 0, 2013-05-16, 10.00, 19.30, 0, jata001 )
+21:00:21 jata001 Janne Tandodal DELETE data from tables `timetable` on conditions id = 1588
+21:22:49 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 2, 3, 2013-05-15, 19.30, 24.00, 0, jata001 )
+21:23:09 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, joef001, jata001 on conditions id = 1589
+21:26:16 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1 on conditions id = 1589
+21:26:22 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 2 on conditions id = 1589
+21:29:37 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values , 0, jata001 on conditions id = 1589
+21:29:48 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, joef001, jata001 on conditions id = 1589
+21:33:48   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = jata001
+21:33:48   UPDATING data to tables `log_login`fields Array values 2013-05-16:19:33:48 on conditions id = 1196 AND username = jata001

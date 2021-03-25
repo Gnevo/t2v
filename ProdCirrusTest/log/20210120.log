@@ -1,0 +1,8 @@
+11:37:41 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+11:37:41 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 89.233.236.131, Time2View/1 CFNetwork/1206 Darwin/20.1.0 ) => {inserted_id = 15402}
+11:37:41 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+11:37:41 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2021-01-20 11:37:41) on conditions username = gine001
+11:37:41 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2021-01-20 11:37:41) on conditions username = gine001 AND company_id = 6
+11:37:42 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirruscommon`.`push_notify_tokens` fields ( user_id, fcm_token, device_id, device_details, created_date, error ) values ( gine001, e7HqQexzuECrppTRJ_dmgE:APA91bHSNymxaiu0T9tvIWORGK8FDfahyqxoHLpdjfJzeL_pDcRns_A8m7vbUzvGhnd1s8do3CjscvvvPo-_teihNdO_OOBfvyjnv2RWRhPssMQWTL9l49Y_rASKk7wnRiEdDJKs7aph, E76030CA-18BF-4D78-80FA-2F3FD5829DA3, Time2View/1 CFNetwork/1206 Darwin/20.1.0, 2021-01-20 11:37:42, 0 ) => {inserted_id = 21307} #Mobile-App: Log-id=15402
+11:39:17 gine001 Gilad Nevo UPDATING data to tables `mail` fields ( status ) values (0) on conditions id = 710 #Mobile-App: Log-id=15402
+11:39:54 gine001 Gilad Nevo UPDATING data to tables `mail` fields ( status ) values (0) on conditions id = 549 #Mobile-App: Log-id=15402

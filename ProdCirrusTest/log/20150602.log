@@ -1,0 +1,80 @@
+07:37:12 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 223.30.129.234, Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:31.0) Gecko/20100101 Firefox/31.0 ) => {inserted_id = 2954}
+07:37:12 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+07:37:12 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-06-02 05:37:12) on conditions username = dodo001
+07:37:13 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = ihvq9j9bhemt4emik8k15fpdu3
+07:40:51 dodo001  UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (adan001, dodo001, 2015-04-03, 12.00, 14.00, 2, 0, 1, ) on conditions id = 6783 #Mobile-App: Log-id=2955
+07:46:21 dodo001  INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( dodo001, adan001, 1, 0, 2015-06-02, 10, 11, 1, , dodo001,  ) => {inserted_id = 6910} #Mobile-App: Log-id=2955
+07:46:40 dodo001  UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (adan001, dodo001, 2015-06-02, 10.00, 11.00, 2, 0, 1, ) on conditions id = 6910 #Mobile-App: Log-id=2959
+07:47:06 dodo001  INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( dodo001, , 1, 0, 2015-06-02, 1, 3, 0, , dodo001,  ) => {inserted_id = 6911} #Mobile-App: Log-id=2959
+07:47:14 dodo001  UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (adan001, dodo001, 2015-06-02, 1.00, 3.00, 1, 0, 1, ) on conditions id = 6911 #Mobile-App: Log-id=2959
+07:47:30 dodo001  DELETE data from tables `timetable` on conditions id = 6911 #Mobile-App: Log-id=2959
+07:47:44 dodo001  UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (adan001, dodo001, 2015-06-02, 10.00, 11.00, 2, 3, 1, ) on conditions id = 6910 #Mobile-App: Log-id=2959
+07:47:53 dodo001  UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (adan001, dodo001, 2015-06-02, 10.00, 11.00, 1, 3, 1, ) on conditions id = 6910 #Mobile-App: Log-id=2959
+07:51:03 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+07:51:03 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2015-06-02 05:51:03) on conditions username = dodo001
+07:51:03   UPDATING data to tables `log_login` fields ( logout_time ) values (2015-06-02:05:51:03) on conditions id = 2954 AND username = dodo001
+07:52:15 dodo001  INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( dodo001, adan001, 1, 1, 2015-06-02, 12, 15, 1, , dodo001, Test ) => {inserted_id = 6912} #Mobile-App: Log-id=2961
+07:52:43 dodo001  UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 6912 #Mobile-App: Log-id=2961
+07:52:43 dodo001  INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( adan001, 2015-06-02, 12.00, 15.00, 1, 1, Test, dodo001, 6912, 0 ) => {inserted_id = 6913} #Mobile-App: Log-id=2961
+07:52:43 dodo001  INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 84, dodo001, 2015-06-02, 12, 15, 1, (null), dodo001, 0, 1 ) => {inserted_id = 278} #Mobile-App: Log-id=2961
+07:52:43 dodo001  INSERTING data into tables `log_sms` fields ( from_user, to_user, to_no, message, status ) values ( dodo001, gine001, 704434964, %0ASjuk : Admin%20Cirrus%0ADatum: 2015-06-02%0APass: 12.00-15.00%0A, 1 ) => {inserted_id = 60} #Mobile-App: Log-id=2961
+07:52:56 dodo001  UPDATING data to tables `leave` fields ( status, appr_emp, appr_date ) values (2, dodo001, 2015-06-02) on conditions group_id = 84 #Mobile-App: Log-id=2961
+07:52:56 dodo001  DELETE data from tables `leave` on conditions group_id = 84 #Mobile-App: Log-id=2961
+07:52:56 dodo001  UPDATING data to tables `timetable` fields ( status ) values (1) on conditions (id IN ( '6912' )) AND customer is NOT NULL AND customer !=  #Mobile-App: Log-id=2961
+07:52:56 dodo001  UPDATING data to tables `timetable` fields ( status ) values (0) on conditions (id IN ( '6912' )) AND (customer is NULL OR customer = ) #Mobile-App: Log-id=2961
+07:53:11 dodo001  UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 6912 #Mobile-App: Log-id=2961
+07:53:11 dodo001  INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( adan001, 2015-06-02, 12.00, 15.00, 1, 1, Test, dodo001, 6912, 0 ) => {inserted_id = 6914} #Mobile-App: Log-id=2961
+07:53:11 dodo001  INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 84, dodo001, 2015-06-02, 12, 15, 2, (null), dodo001, 0, 1 ) => {inserted_id = 279} #Mobile-App: Log-id=2961
+07:53:19 dodo001  UPDATING data to tables `leave` fields ( status, appr_emp, appr_date ) values (1, dodo001, 2015-06-02) on conditions group_id = 84 #Mobile-App: Log-id=2961
+07:53:33 dodo001  UPDATING data to tables `timetable` fields ( time_to ) values (14.00) on conditions id  = 6912 AND status  = 2 #Mobile-App: Log-id=2961
+07:53:33 dodo001  INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( dodo001, adan001, 1, 1, 2015-06-02, 14.00, 15.00, 1, , dodo001, Test ) => {inserted_id = 6915} #Mobile-App: Log-id=2961
+07:53:33 dodo001  UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status ) values (adan001, , 2015-06-02, 12.00, 14.00, 1, 1, 0) on conditions id = 6913 #Mobile-App: Log-id=2961
+07:53:33 dodo001  DELETE data from tables `timetable` on conditions employee = dodo001 AND date = 2015-06-02 AND 	time_from >= 15 AND time_to <= 15 AND status = 2 #Mobile-App: Log-id=2961
+07:53:33 dodo001  UPDATING data to tables `leave` fields ( time_to ) values (14.00) on conditions id  = 279 #Mobile-App: Log-id=2961
+07:54:00 dodo001  UPDATING data to tables `timetable` fields ( status ) values (1) on conditions (id IN ( '6912' )) AND customer is NOT NULL AND customer !=  #Mobile-App: Log-id=2961
+07:54:00 dodo001  UPDATING data to tables `timetable` fields ( status ) values (0) on conditions (id IN ( '6912' )) AND (customer is NULL OR customer = ) #Mobile-App: Log-id=2961
+07:54:00 dodo001  DELETE data from tables `timetable` on conditions relation_id = 6912 #Mobile-App: Log-id=2961
+07:54:00 dodo001  DELETE data from tables `leave` on conditions id = 279 #Mobile-App: Log-id=2961
+07:54:07 dodo001  DELETE data from tables `timetable` on conditions id = 6912 #Mobile-App: Log-id=2961
+07:54:15 dodo001  DELETE data from tables `timetable` on conditions id = 6915 #Mobile-App: Log-id=2961
+07:55:20 dodo001  INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( dodo001, , 1, 0, 2015-06-02, 12, 15, 0, , dodo001,  ) => {inserted_id = 6916} #Mobile-App: Log-id=2963
+07:55:26 dodo001  DELETE data from tables `timetable` on conditions id = 6916 #Mobile-App: Log-id=2963
+07:55:31 dodo001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 223.30.129.234, CirrusM/4 CFNetwork/711.3.18 Darwin/14.3.0 ) => {inserted_id = 2965} #Mobile-App: Log-id=2963
+07:55:34 dodo001  DELETE data from tables `temp_session` on conditions username LIKE dodo001 #Mobile-App: Log-id=2965
+07:55:34 dodo001  UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2015-06-02 05:55:34) on conditions username = dodo001 #Mobile-App: Log-id=2965
+07:56:29 dodo001  UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 6910 #Mobile-App: Log-id=2964
+07:56:29 dodo001  INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( adan001, 2015-06-02, 10.00, 11.00, 3, 1, , dodo001, 6910, 0 ) => {inserted_id = 6917} #Mobile-App: Log-id=2964
+07:56:29 dodo001  INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 84, dodo001, 2015-06-02, 10, 11, 1, , dodo001, 0, 1 ) => {inserted_id = 280} #Mobile-App: Log-id=2964
+07:56:29 dodo001  INSERTING data into tables `log_sms` fields ( from_user, to_user, to_no, message, status ) values ( dodo001, gine001, 704434964, %0ASjuk : Admin%20Cirrus%0ADatum: 2015-06-02%0APass: 10.00-11.00%0A, 1 ) => {inserted_id = 61} #Mobile-App: Log-id=2964
+07:56:30 dodo001  INSERTING data into tables `leave_sms` fields ( slot, employee, status, alloc_employee ) values ( 6910, cehe001, 5, dodo001 ) => {inserted_id = 31} #Mobile-App: Log-id=2964
+07:56:30 dodo001  INSERTING data into tables `time2vie_cirruscommon`.`leave_sms_common` fields ( tag_id, sms_tbl_id, company_id, created_date, created_date_ms ) values ( 31, 31, 6, 2015-06-02 05:56:30, 2218 ) => {inserted_id = 0} #Mobile-App: Log-id=2964
+07:56:30 dodo001  INSERTING data into tables `log_sms` fields ( from_user, to_user, to_no, message, status ) values ( dodo001, cehe001, 760616267, %0AKund : adan001%0ADatum : 2015-06-02%0APass : 10.00-11.00(1.00h)%0ASvara Ja om du vill ha passet, 1 ) => {inserted_id = 62} #Mobile-App: Log-id=2964
+07:56:53 dodo001  UPDATING data to tables `leave` fields ( status, appr_emp, appr_date ) values (1, dodo001, 2015-06-02) on conditions group_id = 84 #Mobile-App: Log-id=2964
+07:57:35 dodo001  UPDATING data to tables `timetable` fields ( time_to ) values (10.30) on conditions id  = 6910 AND status  = 2 #Mobile-App: Log-id=2964
+07:57:35 dodo001  INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( dodo001, adan001, 1, 3, 2015-06-02, 10.30, 11.00, 1, , dodo001,  ) => {inserted_id = 6918} #Mobile-App: Log-id=2964
+07:57:35 dodo001  UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status ) values (adan001, , 2015-06-02, 10.00, 10.30, 1, 3, 0) on conditions id = 6917 #Mobile-App: Log-id=2964
+07:57:35 dodo001  DELETE data from tables `timetable` on conditions employee = dodo001 AND date = 2015-06-02 AND 	time_from >= 11 AND time_to <= 11 AND status = 2 #Mobile-App: Log-id=2964
+07:57:35 dodo001  UPDATING data to tables `leave` fields ( time_to ) values (10.30) on conditions id  = 280 #Mobile-App: Log-id=2964
+07:58:27 dodo001  DELETE data from tables `temp_session` on conditions username LIKE dodo001 #Mobile-App: Log-id=2964
+07:58:27 dodo001  UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2015-06-02 05:58:27) on conditions username = dodo001 #Mobile-App: Log-id=2964
+08:01:39 dodo001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 115.252.86.10, CirrusM/4 CFNetwork/711.3.18 Darwin/14.0.0 ) => {inserted_id = 2967} #Mobile-App: Log-id=2966
+08:01:42 dodo001  INSERTING data into tables `mc_leave` fields ( leave_id, leave_status, read_users ) values ( 84, 1, dodo001 ) => {inserted_id = 90} #Mobile-App: Log-id=2967
+08:01:46 dodo001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 115.252.86.10, CirrusM/4 CFNetwork/711.3.18 Darwin/14.0.0 ) => {inserted_id = 2968} #Mobile-App: Log-id=2967
+08:26:28 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+08:26:28 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.225.72, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36 OPR/29.0.1795.60 ) => {inserted_id = 2970}
+08:26:28 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+08:26:28 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-06-02 06:26:28) on conditions username = gine001
+08:26:28 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( error ) values (0) on conditions username = gine001
+08:26:29 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = bhf646e414dh4uq4qjo7f86v41
+08:37:58 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+08:37:58 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 223.30.129.234, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/41.0.2272.76 Chrome/41.0.2272.76 Safari/537.36 ) => {inserted_id = 2971}
+08:37:58 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+08:37:58 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-06-02 06:37:58) on conditions username = gine001
+08:37:58 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( error ) values (0) on conditions username = gine001
+08:37:59 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = p8gs7h2qi414h9e4fnmgrhv270
+09:23:52 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+09:23:52 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2015-06-02 07:23:52) on conditions username = gine001
+09:23:52   UPDATING data to tables `log_login` fields ( logout_time ) values (2015-06-02:07:23:52) on conditions id = 2971 AND username = gine001
+20:20:14 dodo001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 106.208.82.16, CirrusM/4 CFNetwork/711.3.18 Darwin/14.0.0 ) => {inserted_id = 2973} #Mobile-App: Log-id=2972
+20:20:15 dodo001  DELETE data from tables `temp_session` on conditions username LIKE dodo001 #Mobile-App: Log-id=2973
+20:20:15 dodo001  UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2015-06-02 18:20:15) on conditions username = dodo001 #Mobile-App: Log-id=2973

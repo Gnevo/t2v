@@ -1,0 +1,74 @@
+14:31:01 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 79.102.109.17, Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0 ) => {inserted_id = 3050}
+14:31:01 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+14:31:01 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-06-08 12:31:01) on conditions username = dodo001
+14:31:01 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( error ) values (0) on conditions username = dodo001
+14:31:01 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = 7cpela3jbslab2le0p641ljkt1
+14:31:36 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( password, mobile, role, error, date ) values (a29137d43fba7fc95044d59746684b6f, 704434964, 1, 0, 2015-06-08) on conditions username = gine001
+14:31:36 dodo001 Admin Cirrus UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day, remaining_sem_leave, sem_leave_todate, leave_in_advance, care_of, office_personal, substitute, inconvenient_on ) values (20001, 19, 4503053334, Gilad, Nevo, 1, Eriksbergsv. 10, Kumla, 69232, 19332112, 704434964, gilad.nevo@time2view.se, 2012-02-01, , 1, , , 0, 10.00, 0, , , , , 0, 1) on conditions username = gine001
+14:31:40 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+14:31:40 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2015-06-08 12:31:40) on conditions username = dodo001
+14:31:40   UPDATING data to tables `log_login` fields ( logout_time ) values (2015-06-08:12:31:40) on conditions id = 3050 AND username = dodo001
+14:31:56 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+14:31:56 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.109.17, Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0 ) => {inserted_id = 3051}
+14:31:56 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+14:31:56 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-06-08 12:31:56) on conditions username = gine001
+14:31:56 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = oa3rhli595satk5udsk9ebfsk0
+15:16:32 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = oa3rhli595satk5udsk9ebfsk0
+15:30:10 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+15:30:10 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.109.17, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36 ) => {inserted_id = 3052}
+15:30:10 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+15:30:10 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-06-08 13:30:10) on conditions username = gine001
+15:30:11 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = u8jnnfdfhgjlgf4fr3sr0u5ps2
+15:48:29 gine001 Gilad Nevo UPDATING data to tables `holiday_block_master` fields ( name, group_id, effect_from, effect_to, date_from, date_to, start_time, end_time, type ) values (1:a Maj, 7, 2012, , 04-30, 05-02, 18.00, 7.00, 1) on conditions id = 7
+15:48:29 gine001 Gilad Nevo DELETE data from tables `holiday_block` on conditions block_master_id = 7
+15:48:29 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 7, 1, 2 ) => {inserted_id = 469}
+15:48:29 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 7, 2, 1 ) => {inserted_id = 470}
+15:48:29 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 7, 3, 2 ) => {inserted_id = 471}
+15:48:40 gine001 Gilad Nevo UPDATING data to tables `holiday_block_master` fields ( name, group_id, effect_from, effect_to, date_from, date_to, start_time, end_time, type ) values (Kristi Himmelsfärdsdag, 8, 2015, , 05-13, 05-15, 18.00, 24, 1) on conditions id = 30
+15:48:40 gine001 Gilad Nevo DELETE data from tables `holiday_block` on conditions block_master_id = 30
+15:48:40 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 30, 1, 2 ) => {inserted_id = 472}
+15:48:40 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 30, 2, 1 ) => {inserted_id = 473}
+15:48:40 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 30, 3, 2 ) => {inserted_id = 474}
+15:48:51 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = u8jnnfdfhgjlgf4fr3sr0u5ps2
+15:50:18 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (adan001, joso004, 2015-05-01, 9.00, 16.00, 1, 0, 1, ) on conditions id = 6799
+15:50:54 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 6799
+15:50:54 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, employee, status ) values ( adan001, 2015-05-01, 9.00, 16.00, 0, 1, , gine001, 6799, thne001, 1 ) => {inserted_id = 6934}
+15:50:54 gine001 Gilad Nevo INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 85, joso004, 2015-05-01, 9, 16, 1, , gine001, 0, 1 ) => {inserted_id = 281}
+15:50:54 gine001 Gilad Nevo INSERTING data into tables `log_sms` fields ( from_user, to_user, to_no, message, status ) values ( gine001, gine001, 704434964, %0ASjuk : Joel%20Solén%0ADatum: 2015-05-01%0APass: 9.00-16.00%0A, 1 ) => {inserted_id = 63}
+15:56:09 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( joso004, adan001, 1, 0, 2015-05-01, 20, 24, 1, , gine001,  ) => {inserted_id = 6935}
+15:56:09 gine001 Gilad Nevo INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( adan001, 20, 24, 0 ) => {inserted_id = 327}
+15:56:33 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 6935
+15:56:33 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, employee, status ) values ( adan001, 2015-05-01, 20.00, 24.00, 0, 1, , gine001, 6935, than001, 1 ) => {inserted_id = 6936}
+15:56:33 gine001 Gilad Nevo INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 86, joso004, 2015-05-01, 20, 24, 1, , gine001, 0, 1 ) => {inserted_id = 282}
+15:56:33 gine001 Gilad Nevo INSERTING data into tables `log_sms` fields ( from_user, to_user, to_no, message, status ) values ( gine001, gine001, 704434964, %0ASjuk : Joel%20Solén%0ADatum: 2015-05-01%0APass: 20.00-24%0A, 1 ) => {inserted_id = 64}
+16:00:08 gine001 Gilad Nevo UPDATING data to tables `holiday_block_master` fields ( name, group_id, effect_from, effect_to, date_from, date_to, start_time, end_time, type ) values (1:a Maj, 7, 2012, , 04-30, 05-01, 18.00, 7.00, 1) on conditions id = 7
+16:00:08 gine001 Gilad Nevo DELETE data from tables `holiday_block` on conditions block_master_id = 7
+16:00:08 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 7, 1, 2 ) => {inserted_id = 475}
+16:00:08 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 7, 2, 1 ) => {inserted_id = 476}
+16:05:55 gine001 Gilad Nevo UPDATING data to tables `leave` fields ( status, appr_emp, appr_date ) values (1, gine001, 2015-06-08) on conditions group_id = 85
+16:06:46 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (adan001, joso004, 2015-04-30, 15.00, 17.00, 1, 3, 1, ) on conditions id = 6792
+16:07:13 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 6792
+16:07:13 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, employee, status ) values ( adan001, 2015-04-30, 15.00, 17.00, 3, 1, , gine001, 6792, than001, 1 ) => {inserted_id = 6937}
+16:07:13 gine001 Gilad Nevo INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 87, joso004, 2015-04-30, 15, 17, 1, , gine001, 0, 1 ) => {inserted_id = 283}
+16:07:14 gine001 Gilad Nevo INSERTING data into tables `log_sms` fields ( from_user, to_user, to_no, message, status ) values ( gine001, gine001, 704434964, %0ASjuk : Joel%20Solén%0ADatum: 2015-04-30%0APass: 15.00-17.00%0A, 1 ) => {inserted_id = 65}
+16:08:24 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status ) values (1) on conditions (id IN ( '6799' )) AND customer is NOT NULL AND customer != 
+16:08:24 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status ) values (0) on conditions (id IN ( '6799' )) AND (customer is NULL OR customer = )
+16:08:24 gine001 Gilad Nevo DELETE data from tables `leave` on conditions id = 281
+16:08:36 gine001 Gilad Nevo UPDATING data to tables `leave` fields ( status, appr_emp, appr_date ) values (2, gine001, 2015-06-08) on conditions group_id = 86
+16:08:36 gine001 Gilad Nevo DELETE data from tables `leave` on conditions group_id = 86
+16:08:36 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status ) values (1) on conditions (id IN ( '6935' )) AND customer is NOT NULL AND customer != 
+16:08:36 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status ) values (0) on conditions (id IN ( '6935' )) AND (customer is NULL OR customer = )
+16:09:02 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 6799
+16:09:02 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, employee, status ) values ( adan001, 2015-05-01, 9.00, 16.00, 0, 1, , gine001, 6799, than001, 1 ) => {inserted_id = 6938}
+16:09:02 gine001 Gilad Nevo INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 88, joso004, 2015-05-01, 9, 16, 1, , gine001, 0, 1 ) => {inserted_id = 284}
+16:09:02 gine001 Gilad Nevo INSERTING data into tables `log_sms` fields ( from_user, to_user, to_no, message, status ) values ( gine001, gine001, 704434964, %0ASjuk : Joel%20Solén%0ADatum: 2015-05-01%0APass: 9.00-16.00%0A, 1 ) => {inserted_id = 66}
+16:09:19 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 6935
+16:09:19 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, employee, status ) values ( adan001, 2015-05-01, 20.00, 24.00, 0, 1, , gine001, 6935, wita001, 1 ) => {inserted_id = 6939}
+16:09:19 gine001 Gilad Nevo INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 89, joso004, 2015-05-01, 20, 24, 1, , gine001, 0, 1 ) => {inserted_id = 285}
+16:09:19 gine001 Gilad Nevo INSERTING data into tables `log_sms` fields ( from_user, to_user, to_no, message, status ) values ( gine001, gine001, 704434964, %0ASjuk : Joel%20Solén%0ADatum: 2015-05-01%0APass: 20.00-24%0A, 1 ) => {inserted_id = 67}
+16:32:10 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+16:32:10 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.109.17, Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0 ) => {inserted_id = 3053}
+16:32:10 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+16:32:10 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-06-08 14:32:10) on conditions username = gine001
+16:32:10 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( error ) values (0) on conditions username = gine001
+16:32:11 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = uj9d8ga22nq527c63e9v1n7907

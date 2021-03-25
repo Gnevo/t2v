@@ -1,0 +1,8 @@
+13:50:54 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = thne001 AND company_id = 6
+13:50:54 thne001 Theodor Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( thne001, 85.227.157.248, android ) => {inserted_id = 4726}
+13:50:54 thne001 Theodor Nevo DELETE data from tables `temp_session` on conditions username LIKE thne001
+13:50:54 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-03-11 13:50:54) on conditions username = thne001
+13:50:54 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-03-11 13:50:54) on conditions username = thne001 AND company_id = 6
+13:51:00 thne001 Theodor Nevo DELETE data from tables `temp_session` on conditions username LIKE thne001 #Mobile-App: Log-id=4726
+13:51:00 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2016-03-11 13:51:00) on conditions username = thne001 #Mobile-App: Log-id=4726
+13:51:00 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-03-11 13:51:00) on conditions username = thne001 AND company_id = 6 #Mobile-App: Log-id=4726

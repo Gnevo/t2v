@@ -1,0 +1,195 @@
+09:33:26 inbe006 Ingeborg Bergren INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( inbe006, 85.229.51.54, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36 ) => {inserted_id = 8050}
+09:33:26 inbe006 Ingeborg Bergren DELETE data from tables `temp_session` on conditions username LIKE inbe006
+09:33:26 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-01-29 09:33:26) on conditions username = inbe006
+09:33:26 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-01-29 09:33:26) on conditions username = inbe006 AND company_id = 21
+09:33:26 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = 58d2de5dbac46a141c710a70f1d0b6ad
+09:51:51 inbe006 Ingeborg Bergren UPDATING data to tables `fkkn_form_defaults` fields ( bargaining_new, company_cp_name, company_cp_phone, provider_of_pa_flag, agreement_types_new, agreement_type2_company, agreement_type2_orgNo ) values (2, Ingeborg Berggren, 0548201015, 2, 1, , ) on conditions customer = naom001 AND (employee =  OR employee IS NULL)
+09:52:53 inbe006 Ingeborg Bergren INSERTING data into tables `fkkn_form_defaults` fields ( customer, employee, bargaining_new, company_cp_name, company_cp_phone, provider_of_pa_flag, agreement_types_new, agreement_type2_company, agreement_type2_orgNo ) values ( amom001, , 1, , , 2, 1, ,  ) => {inserted_id = 21}
+09:59:07 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = 58d2de5dbac46a141c710a70f1d0b6ad
+09:59:40 inbe006 Ingeborg Bergren UPDATING data to tables `fkkn_form_defaults` fields ( bargaining_new, company_cp_name, company_cp_phone, provider_of_pa_flag, agreement_types_new, agreement_type2_company, agreement_type2_orgNo ) values (2, Ingeborg Berggren, 0548201015, 2, 1, , ) on conditions customer = naom001 AND (employee =  OR employee IS NULL)
+10:00:10 inbe006 Ingeborg Bergren INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( inbe006, 85.229.51.54, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36 ) => {inserted_id = 8051}
+10:00:10 inbe006 Ingeborg Bergren DELETE data from tables `temp_session` on conditions username LIKE inbe006
+10:00:10 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-01-29 10:00:10) on conditions username = inbe006
+10:00:10 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-01-29 10:00:10) on conditions username = inbe006 AND company_id = 21
+10:00:12 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = f12f16cce37204d534c113bd63c029ca
+10:00:48 inbe006 Ingeborg Bergren UPDATING data to tables `fkkn_form_defaults` fields ( bargaining_new, company_cp_name, company_cp_phone, provider_of_pa_flag, agreement_types_new, agreement_type2_company, agreement_type2_orgNo ) values (1, , , 2, 1, , ) on conditions customer = amom001 AND (employee =  OR employee IS NULL)
+10:06:01 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = f12f16cce37204d534c113bd63c029ca
+10:07:41 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = f12f16cce37204d534c113bd63c029ca
+10:08:18 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2615
+10:08:18 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2617
+10:08:54 inbe006 Ingeborg Bergren INSERTING data into tables `temp_session` fields ( username, type, details ) values ( inbe006, 1, 2614 ) => {inserted_id = 0}
+10:09:03 inbe006 Ingeborg Bergren INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment, relation_id ) values ( zaid001, amom001, 1, 0, 2020-01-19, 9.00, 12.00, 1, , inbe006, ,  ) => {inserted_id = 2924}
+10:09:09 inbe006 Ingeborg Bergren INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment, relation_id ) values ( zaid001, amom001, 1, 0, 2020-01-26, 9.00, 12.00, 1, , inbe006, ,  ) => {inserted_id = 2925}
+10:14:06 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = f12f16cce37204d534c113bd63c029ca
+10:14:24 inbe006 Ingeborg Bergren UPDATING data to tables `fkkn_form_defaults` fields ( bargaining_new, company_cp_name, company_cp_phone, provider_of_pa_flag, agreement_types_new, agreement_type2_company, agreement_type2_orgNo ) values (2, Ingeborg Berggren, 0548201015, 2, 1, , ) on conditions customer = naom001 AND (employee =  OR employee IS NULL)
+10:15:18 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2923
+10:15:18 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2637
+10:15:18 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2715
+10:15:18 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2717
+10:15:18 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2718
+10:15:29 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = f12f16cce37204d534c113bd63c029ca
+10:16:01 inbe006 Ingeborg Bergren UPDATING data to tables `fkkn_form_defaults` fields ( bargaining_new, company_cp_name, company_cp_phone, provider_of_pa_flag, agreement_types_new, agreement_type2_company, agreement_type2_orgNo ) values (2, Ingeborg Berggren, 0548201015, 2, 1, , ) on conditions customer = naom001 AND (employee =  OR employee IS NULL)
+10:17:39 inbe006 Ingeborg Bergren UPDATING data to tables `fkkn_form_defaults` fields ( bargaining_new, company_cp_name, company_cp_phone, provider_of_pa_flag, agreement_types_new, agreement_type2_company, agreement_type2_orgNo ) values (1, , , 2, 1, , ) on conditions customer = amom001 AND (employee =  OR employee IS NULL)
+10:18:25 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = f12f16cce37204d534c113bd63c029ca
+10:18:59 inbe006 Ingeborg Bergren UPDATING data to tables `fkkn_form_defaults` fields ( bargaining_new, company_cp_name, company_cp_phone, provider_of_pa_flag, agreement_types_new, agreement_type2_company, agreement_type2_orgNo ) values (2, Ingeborg Berggren, 0548201015, 2, 1, , ) on conditions customer = naom001 AND (employee =  OR employee IS NULL)
+10:19:47 inbe006 Ingeborg Bergren UPDATING data to tables `fkkn_form_defaults` fields ( bargaining_new, company_cp_name, company_cp_phone, provider_of_pa_flag, agreement_types_new, agreement_type2_company, agreement_type2_orgNo ) values (1, , , 2, 1, , ) on conditions customer = amom001 AND (employee =  OR employee IS NULL)
+10:21:00 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2532
+10:21:00 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2534
+10:21:00 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2536
+10:21:00 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2614
+10:22:18 inbe006 Ingeborg Bergren UPDATING data to tables `fkkn_form_defaults` fields ( bargaining_new, company_cp_name, company_cp_phone, provider_of_pa_flag, agreement_types_new, agreement_type2_company, agreement_type2_orgNo ) values (1, , , 2, 1, , ) on conditions customer = amom001 AND (employee =  OR employee IS NULL)
+10:24:07 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2925
+10:24:19 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = f12f16cce37204d534c113bd63c029ca
+10:24:52 inbe006 Ingeborg Bergren UPDATING data to tables `temp_session` fields ( details ) values (2716) on conditions username LIKE inbe006 AND type = 1
+10:24:59 inbe006 Ingeborg Bergren INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment, relation_id ) values ( zaid001, naom001, 1, 0, 2020-01-18, 14.00, 16.00, 1, , inbe006, ,  ) => {inserted_id = 2926}
+10:25:10 inbe006 Ingeborg Bergren INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment, relation_id ) values ( zaid001, naom001, 1, 0, 2020-01-25, 14.00, 16.00, 1, , inbe006, ,  ) => {inserted_id = 2927}
+10:25:16 inbe006 Ingeborg Bergren INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment, relation_id ) values ( zaid001, naom001, 1, 0, 2020-01-26, 14.00, 16.00, 1, , inbe006, ,  ) => {inserted_id = 2928}
+10:25:23 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = f12f16cce37204d534c113bd63c029ca
+10:27:00 inbe006 Ingeborg Bergren UPDATING data to tables `fkkn_form_defaults` fields ( bargaining_new, company_cp_name, company_cp_phone, provider_of_pa_flag, agreement_types_new, agreement_type2_company, agreement_type2_orgNo ) values (2, Ingeborg Berggren, 0548201015, 2, 1, , ) on conditions customer = naom001 AND (employee =  OR employee IS NULL)
+10:27:54 inbe006 Ingeborg Bergren UPDATING data to tables `fkkn_form_defaults` fields ( bargaining_new, company_cp_name, company_cp_phone, provider_of_pa_flag, agreement_types_new, agreement_type2_company, agreement_type2_orgNo ) values (1, , , 2, 1, , ) on conditions customer = amom001 AND (employee =  OR employee IS NULL)
+10:28:59 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = f12f16cce37204d534c113bd63c029ca
+10:29:08 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = f12f16cce37204d534c113bd63c029ca
+10:32:01 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = f12f16cce37204d534c113bd63c029ca
+10:32:04 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = f12f16cce37204d534c113bd63c029ca
+10:32:26 inbe006 Ingeborg Bergren UPDATING data to tables `temp_session` fields ( details ) values (2920) on conditions username LIKE inbe006 AND type = 1
+10:32:32 inbe006 Ingeborg Bergren INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment, relation_id ) values ( fasa004, naom001, 1, 0, 2020-01-01, 8.00, 18.00, 1, , inbe006, ,  ) => {inserted_id = 2929}
+10:33:57 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = f12f16cce37204d534c113bd63c029ca
+10:34:04 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = f12f16cce37204d534c113bd63c029ca
+10:34:49 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2917
+10:36:30 inbe006 Ingeborg Bergren INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( fasa004, naom001, 1, 0, 2020-01-04, 15, 18, 1, , inbe006,  ) => {inserted_id = 2930}
+10:36:30 inbe006 Ingeborg Bergren INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( naom001, 15, 18, 0 ) => {inserted_id = 1718}
+10:37:24 inbe006 Ingeborg Bergren INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( fasa004, naom001, 1, 0, 2020-01-05, 15, 18, 1, , inbe006,  ) => {inserted_id = 2931}
+10:37:50 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = f12f16cce37204d534c113bd63c029ca
+10:37:54 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = f12f16cce37204d534c113bd63c029ca
+10:38:29 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = f12f16cce37204d534c113bd63c029ca
+12:05:51 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = f12f16cce37204d534c113bd63c029ca
+12:40:54 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2651
+12:40:54 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2695
+12:40:54 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2652
+12:40:54 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2675
+12:40:54 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2653
+12:40:54 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2696
+12:40:54 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2654
+12:40:54 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2697
+12:40:54 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2655
+12:40:54 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2698
+12:41:31 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2656
+12:41:31 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2699
+12:41:31 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2657
+12:41:31 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2676
+12:41:31 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2658
+12:41:31 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2700
+12:41:31 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2659
+12:41:31 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2701
+12:41:31 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2660
+12:41:31 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2702
+12:44:03 inbe006 Ingeborg Bergren INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , naom001, 1, 0, 2020-02-24, 6.30, 18, 0, , inbe006,  ) => {inserted_id = 2932}
+12:44:03 inbe006 Ingeborg Bergren INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , naom001, 1, 0, 2020-02-25, 6.30, 18, 0, , inbe006,  ) => {inserted_id = 2933}
+12:44:03 inbe006 Ingeborg Bergren INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , naom001, 1, 0, 2020-02-26, 6.30, 18, 0, , inbe006,  ) => {inserted_id = 2934}
+12:44:03 inbe006 Ingeborg Bergren INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , naom001, 1, 0, 2020-02-27, 6.30, 18, 0, , inbe006,  ) => {inserted_id = 2935}
+12:44:03 inbe006 Ingeborg Bergren INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , naom001, 1, 0, 2020-02-28, 6.30, 18, 0, , inbe006,  ) => {inserted_id = 2936}
+12:44:34 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2666
+12:44:34 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2707
+12:44:34 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2667
+12:44:34 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2678
+12:44:34 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2668
+12:44:34 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2708
+12:44:34 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2669
+12:44:34 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2709
+12:44:34 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2670
+12:44:34 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2710
+12:45:08 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2661
+12:45:08 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2703
+12:45:08 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2662
+12:45:08 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2677
+12:45:08 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2663
+12:45:08 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2704
+12:45:08 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2664
+12:45:08 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2705
+12:45:08 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2665
+12:45:08 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2706
+12:45:37 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2933
+12:45:37 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2935
+12:45:55 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2932
+12:45:55 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2934
+12:45:55 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2936
+12:49:22 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (naom001, fasa004, 2020-02-24, 6.30, 18.00, 1, 0, 1, SPORTLOV) on conditions id = 2932
+12:49:39 inbe006 Ingeborg Bergren UPDATING data to tables `temp_session` fields ( details ) values (2932) on conditions username LIKE inbe006 AND type = 1
+12:49:54 inbe006 Ingeborg Bergren INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment, relation_id ) values ( fasa004, naom001, 1, 0, 2020-02-25, 6.30, 18.00, 1, , inbe006, ,  ) => {inserted_id = 2937}
+12:50:03 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2934
+12:50:03 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2935
+12:50:04 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2936
+12:50:17 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2937
+12:50:46 inbe006 Ingeborg Bergren UPDATING data to tables `temp_session` fields ( details ) values (2932) on conditions username LIKE inbe006 AND type = 1
+12:50:50 inbe006 Ingeborg Bergren INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment, relation_id ) values ( fasa004, naom001, 1, 0, 2020-02-26, 6.30, 18.00, 1, , inbe006, ,  ) => {inserted_id = 2938}
+12:50:56 inbe006 Ingeborg Bergren INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment, relation_id ) values ( fasa004, naom001, 1, 0, 2020-02-28, 6.30, 18.00, 1, , inbe006, ,  ) => {inserted_id = 2939}
+12:51:01 inbe006 Ingeborg Bergren UPDATING data to tables `temp_session` fields ( details ) values (2932) on conditions username LIKE inbe006 AND type = 1
+12:52:08 inbe006 Ingeborg Bergren INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( rute001, naom001, 1, 0, 2020-02-27, 6.30, 18, 1, , inbe006,  ) => {inserted_id = 2940}
+12:53:40 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2590
+12:53:40 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2547
+12:53:40 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2591
+12:53:40 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2548
+12:53:40 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2592
+12:53:40 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2549
+12:53:40 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2593
+12:53:40 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2550
+12:53:40 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2594
+12:53:40 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2551
+12:53:41 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2600
+12:53:41 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2557
+12:53:41 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2601
+12:53:41 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2558
+12:53:41 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2602
+12:53:41 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2559
+12:53:41 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2603
+12:53:41 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2560
+12:53:41 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2604
+12:53:41 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2561
+12:54:11 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2595
+12:54:11 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2552
+12:54:11 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2596
+12:54:11 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2553
+12:54:11 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2597
+12:54:11 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2554
+12:54:11 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2598
+12:54:11 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2555
+12:54:11 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2599
+12:54:11 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2556
+13:01:30 inbe006 Ingeborg Bergren INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( inbe006, 85.229.51.54, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36 ) => {inserted_id = 8052}
+13:01:30 inbe006 Ingeborg Bergren DELETE data from tables `temp_session` on conditions username LIKE inbe006
+13:01:30 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-01-29 13:01:30) on conditions username = inbe006
+13:01:30 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-01-29 13:01:30) on conditions username = inbe006 AND company_id = 21
+13:01:30 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = c2e258d82510375f960c0987da606217
+13:03:29 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2606
+13:03:29 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2563
+13:03:29 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2608
+13:03:29 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2565
+13:03:55 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2605
+13:03:55 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2562
+13:03:55 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2607
+13:03:55 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2564
+13:03:55 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2609
+13:03:55 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2566
+13:05:57 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2932
+13:06:06 inbe006 Ingeborg Bergren INSERTING data into tables `temp_session` fields ( username, type, details ) values ( inbe006, 1, 2938 ) => {inserted_id = 0}
+13:06:10 inbe006 Ingeborg Bergren INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment, relation_id ) values ( fasa004, naom001, 1, 0, 2020-02-24, 6.30, 18.00, 1, , inbe006, ,  ) => {inserted_id = 2941}
+13:07:17 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2605
+13:07:17 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2562
+13:07:17 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2606
+13:07:17 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2563
+13:07:17 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2607
+13:07:17 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2564
+13:07:17 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2608
+13:07:17 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2565
+13:07:17 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2609
+13:07:18 inbe006 Ingeborg Bergren DELETE data from tables `timetable` on conditions id = 2566
+13:07:51 inbe006 Ingeborg Bergren INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , amom001, 1, 0, 2020-02-24, 6.30, 18, 0, , inbe006,  ) => {inserted_id = 2942}
+13:08:55 inbe006 Ingeborg Bergren INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , amom001, 1, 0, 2020-02-25, 6.30, 18, 0, , inbe006,  ) => {inserted_id = 2943}
+13:08:55 inbe006 Ingeborg Bergren INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , amom001, 1, 0, 2020-02-26, 6.30, 18, 0, , inbe006,  ) => {inserted_id = 2944}
+13:08:55 inbe006 Ingeborg Bergren INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , amom001, 1, 0, 2020-02-27, 6.30, 18, 0, , inbe006,  ) => {inserted_id = 2945}
+13:08:55 inbe006 Ingeborg Bergren INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , amom001, 1, 0, 2020-02-28, 6.30, 18, 0, , inbe006,  ) => {inserted_id = 2946}
+13:09:33 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2942
+13:09:33 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2944
+13:09:33 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, rute001, inbe006) on conditions id = 2946
+13:09:53 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2943
+13:09:53 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2945

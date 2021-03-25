@@ -1,0 +1,19 @@
+(function($){var special={'backspace':8,'tab':9,'enter':13,'pause':19,'capslock':20,'esc':27,'space':32,'pageup':33,'pagedown':34,'end':35,'home':36,'left':37,'up':38,'right':39,'down':40,'insert':45,'delete':46,'f1':112,'f2':113,'f3':114,'f4':115,'f5':116,'f6':117,'f7':118,'f8':119,'f9':120,'f10':121,'f11':122,'f12':123,'?':191,'minus':$.browser.opera?[109,45]:$.browser.mozilla?109:[189,109],'plus':$.browser.opera?[61,43]:$.browser.mozilla?[61,107]:[187,107]};var lists={};var active;var pressed={};var isStarted=false;var getKey=function(type,maskObj){var key=type;if(maskObj.ctrl){key+='_ctrl';}
+if(maskObj.alt){key+='_alt';}
+if(maskObj.shift){key+='_shift';}
+var keyMaker=function(key,which){if(which&&which!==16&&which!==17&&which!==18){key+='_'+which;}
+return key;};if($.isArray(maskObj.which)){var keys=[];$.each(maskObj.which,function(i,which){keys.push(keyMaker(key,which));});return keys;}else{return keyMaker(key,maskObj.which);}};var getMaskObject=function(mask){var obj={};var items=mask.split('+');$.each(items,function(i,item){if(item==='ctrl'||item==='alt'||item==='shift'){obj[item]=true;}else{obj.which=special[item]||item.toUpperCase().charCodeAt();}});return obj;};var checkIsInput=function(target){var name=target.tagName.toLowerCase();var type=target.type;return(name==='input'&&$.inArray(type,['text','password','file','search'])>-1)||name==='textarea';};var run=function(type,e){if(!active){return;}
+var maskObj={ctrl:e.ctrlKey,alt:e.altKey,shift:e.shiftKey,which:e.which};var key=getKey(type,maskObj);var shortcuts=active[key];if(!shortcuts){return;}
+var isInput=checkIsInput(e.target);var isPrevented=false;$.each(shortcuts,function(i,shortcut){if(!isInput||shortcut.enableInInput){if(!isPrevented){e.preventDefault();isPrevented=true;}
+shortcut.handler(e);}});};$.Shortcuts={};$.Shortcuts.start=function(list){list=list||'default';active=lists[list];if(isStarted){return;}
+$(document).bind(($.browser.opera?'keypress':'keydown')+'.shortcuts',function(e){if(e.type==='keypress'&&e.which>=97&&e.which<=122){e.which=e.which-32;}
+if(!pressed[e.which]){run('down',e);}
+pressed[e.which]=true;run('hold',e);});$(document).bind('keyup.shortcuts',function(e){pressed[e.which]=false;run('up',e);});isStarted=true;return this;};$.Shortcuts.stop=function(){$(document).unbind('keypress.shortcuts keydown.shortcuts keyup.shortcuts');isStarted=false;return this;};$.Shortcuts.add=function(params){if(!params.mask){throw new Error("$.Shortcuts.add: required parameter 'params.mask' is undefined.");}
+if(!params.handler){throw new Error("$.Shortcuts.add: required parameter 'params.handler' is undefined.");}
+var type=params.type||'down';var listNames=params.list?params.list.replace(/\s+/g,'').split(','):['default'];$.each(listNames,function(i,name){if(!lists[name]){lists[name]={};}
+var list=lists[name];var masks=params.mask.toLowerCase().replace(/\s+/g,'').split(',');$.each(masks,function(i,mask){var maskObj=getMaskObject(mask);var keys=getKey(type,maskObj);if(!$.isArray(keys)){keys=[keys];}
+$.each(keys,function(i,key){if(!list[key]){list[key]=[];}
+list[key].push(params);});});});return this;};$.Shortcuts.remove=function(params){if(!params.mask){throw new Error("$.Shortcuts.remove: required parameter 'params.mask' is undefined.");}
+var type=params.type||'down';var listNames=params.list?params.list.replace(/\s+/g,'').split(','):['default'];$.each(listNames,function(i,name){if(!lists[name]){return true;}
+var masks=params.mask.toLowerCase().replace(/\s+/g,'').split(',');$.each(masks,function(i,mask){var maskObj=getMaskObject(mask);var keys=getKey(type,maskObj);if(!$.isArray(keys)){keys=[keys];}
+$.each(keys,function(i,key){delete lists[name][key];});});});return this;};}(jQuery));

@@ -1,0 +1,5 @@
+14:25:27 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = thne001 AND company_id = 6
+14:25:28 thne001 Theodor Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( thne001, 94.234.37.69, CirrusM/5 CFNetwork/758.5.3 Darwin/15.6.0 ) => {inserted_id = 5957}
+14:25:28 thne001 Theodor Nevo DELETE data from tables `temp_session` on conditions username LIKE thne001
+14:25:28 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2017-08-01 14:25:28) on conditions username = thne001
+14:25:28 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-08-01 14:25:28) on conditions username = thne001 AND company_id = 6

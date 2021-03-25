@@ -1,0 +1,8 @@
+11:11:43 dodo001  INSERTING data into tables `mc_note` fields ( note_id, read_users ) values ( 94, dodo001 ) => {inserted_id = 87} #Mobile-App: Log-id=4339
+11:14:33 dodo001  DELETE data from tables `temp_session` on conditions username LIKE dodo001 #Mobile-App: Log-id=4339
+11:14:33 dodo001  UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-12-25 10:14:33) on conditions username = dodo001 #Mobile-App: Log-id=4339
+11:14:37 dodo001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 115.252.86.10, android ) => {inserted_id = 4340} #Mobile-App: Log-id=4339
+11:15:11 dodo001  INSERTING data into tables `customer_documentation` fields ( customer, employee, completed_date, subject, note_type, notes, priority, description, status, writable ) values ( anst007, dodo001, , ä å é ö €test, minnesanteckning, ä å é ö €test, , , , 0 ) => {inserted_id = 86} #Mobile-App: Log-id=4340
+11:15:11 dodo001  INSERTING data into tables `note` fields ( created_user, title, description, visibility, status, customer, ticket, attachment ) values ( dodo001, ä å é ö €test, ä å é ö €test, 2, 0, anst007, ,  ) => {inserted_id = 95} #Mobile-App: Log-id=4340
+11:15:11 dodo001  UPDATING data to tables `note` fields ( attachment ) values () on conditions id = 95 #Mobile-App: Log-id=4340
+11:15:31 dodo001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 115.252.86.10, android ) => {inserted_id = 4341} #Mobile-App: Log-id=4340

@@ -1,0 +1,15 @@
+08:33:55 lawa002 Lars Wåhlander INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( lawa002, 185.27.165.66, Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Mobile/15E148 Safari/604.1 ) => {inserted_id = 127}
+08:33:55 lawa002 Lars Wåhlander DELETE data from tables `temp_session` on conditions username LIKE lawa002
+08:33:55 lawa002 Lars Wåhlander UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-04-21 08:33:55) on conditions username = lawa002
+08:33:55 lawa002 Lars Wåhlander UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-04-21 08:33:55) on conditions username = lawa002 AND company_id = 20
+12:14:17 saan012 Sara Andersson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = saan012 AND company_id = 20
+12:14:17 saan012 Sara Andersson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( saan012, 94.191.154.1, CirrusM/3 CFNetwork/978.0.7 Darwin/18.5.0 ) => {inserted_id = 128}
+12:14:17 saan012 Sara Andersson DELETE data from tables `temp_session` on conditions username LIKE saan012
+12:14:17 saan012 Sara Andersson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-04-21 12:14:17) on conditions username = saan012
+12:14:17 saan012 Sara Andersson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-04-21 12:14:17) on conditions username = saan012 AND company_id = 20
+12:14:18 saan012 Sara Andersson INSERTING data into tables `time2vie_cirruscommon`.`push_notify_tokens` fields ( user_id, fcm_token, device_id, device_details, created_date, error ) values ( saan012, c638hw8bP0A:APA91bGXtc0eT7hRySjuWW3sBCyyZeDmEs3-vkMQTeleXb3TqJdkAZTuxNR9gW9So_P79godq1DH9zUWQgsipBixf6IxsNajjCHOLGFjfqvU5VEPxLNtu7aeTZHPoupIpAmNfhYhbXVt, 126AA663-FD1E-4DF5-99CB-ECB189CAD3C5, CirrusM/3 CFNetwork/978.0.7 Darwin/18.5.0, 2019-04-21 12:14:18, 0 ) => {inserted_id = 5624} #Mobile-App: Log-id=128
+19:39:09 cagu001 Carina Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = cagu001 AND company_id = 20
+19:39:09 cagu001 Carina Gustafsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( cagu001, 176.10.245.4, okhttp/3.9.1 ) => {inserted_id = 129}
+19:39:09 cagu001 Carina Gustafsson DELETE data from tables `temp_session` on conditions username LIKE cagu001
+19:39:09 cagu001 Carina Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-04-21 19:39:09) on conditions username = cagu001
+19:39:09 cagu001 Carina Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-04-21 19:39:09) on conditions username = cagu001 AND company_id = 20

@@ -1,0 +1,12 @@
+15:00:23 thne001  DELETE data from tables `temp_session` on conditions username LIKE thne001
+15:00:23 thne001 Theodor Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( thne001, 85.227.159.29, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36 ) => {inserted_id = 3441}
+15:00:23 thne001 Theodor Nevo DELETE data from tables `temp_session` on conditions username LIKE thne001
+15:00:23 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-07-01 13:00:23) on conditions username = thne001
+15:00:24 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = hoh3fhrqftu9aad0raug825gj7
+15:01:40 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = hoh3fhrqftu9aad0raug825gj7
+15:03:56 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = hoh3fhrqftu9aad0raug825gj7
+15:05:25 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = hoh3fhrqftu9aad0raug825gj7
+15:07:20 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = hoh3fhrqftu9aad0raug825gj7
+15:10:24 thne001 Theodor Nevo DELETE data from tables `temp_session` on conditions username LIKE thne001
+15:10:24 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2015-07-01 13:10:24) on conditions username = thne001
+15:10:24   UPDATING data to tables `log_login` fields ( logout_time ) values (2015-07-01:13:10:24) on conditions id = 3441 AND username = thne001

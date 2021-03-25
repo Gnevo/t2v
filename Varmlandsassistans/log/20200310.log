@@ -1,0 +1,89 @@
+08:25:26 inbe006 Ingeborg Bergren INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( inbe006, 217.76.80.50, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36 ) => {inserted_id = 8124}
+08:25:26 inbe006 Ingeborg Bergren DELETE data from tables `temp_session` on conditions username LIKE inbe006
+08:25:26 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-03-10 08:25:26) on conditions username = inbe006
+08:25:26 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-03-10 08:25:26) on conditions username = inbe006 AND company_id = 21
+08:25:27 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = b075f77bee0f63d86838ce24d41145f2
+12:55:31 inbe006 Ingeborg Bergren INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( inbe006, 85.229.51.54, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36 ) => {inserted_id = 8125}
+12:55:31 inbe006 Ingeborg Bergren DELETE data from tables `temp_session` on conditions username LIKE inbe006
+12:55:31 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-03-10 12:55:31) on conditions username = inbe006
+12:55:31 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-03-10 12:55:31) on conditions username = inbe006 AND company_id = 21
+12:55:32 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = ecad7774b19ae4edfd2a03cea30b0090
+14:55:12 inbe006 Ingeborg Bergren INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( inbe006, 85.229.51.54, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36 ) => {inserted_id = 8126}
+14:55:12 inbe006 Ingeborg Bergren DELETE data from tables `temp_session` on conditions username LIKE inbe006
+14:55:12 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-03-10 14:55:12) on conditions username = inbe006
+14:55:12 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-03-10 14:55:12) on conditions username = inbe006 AND company_id = 21
+14:55:13 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = 19ed7dd3ef7f4f97c48e8eb57a02354f
+14:57:24 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( mobile, social_security ) values (, 0201014800) on conditions username = amom001
+14:57:24 inbe006 Ingeborg Bergren UPDATING data to tables `customer` fields ( code, century, social_security, first_name, last_name, address, city, post, phone, mobile, email, date, status, date_inactive, fkkn, gender, employee_contract_start_month, employee_contract_period_date, employee_contract_period_length, kn_name, kn_address, kn_postno, kn_reference_no, kn_box, kn_city ) values (1-11, 20, 0201014800, Amna, Omar Adam, Järpegatan 1A, Grums, 664 31, , , , 2019-12-28, 1, , 1, 2, , , , , , 0, , , ) on conditions username = amom001
+14:57:24 inbe006 Ingeborg Bergren DELETE data from tables `team` on conditions customer = amom001
+14:57:24 inbe006 Ingeborg Bergren INSERTING data into tables `team` fields ( customer, employee, role ) values ( amom001, inbe006, 7 ) => {inserted_id = 0}
+14:57:24 inbe006 Ingeborg Bergren INSERTING data into tables `team` fields ( customer, employee, role ) values ( amom001, zaid001, 3 ) => {inserted_id = 0}
+14:57:24 inbe006 Ingeborg Bergren INSERTING data into tables `team` fields ( customer, employee, role ) values ( amom001, absa003, 3 ) => {inserted_id = 0}
+14:57:24 inbe006 Ingeborg Bergren INSERTING data into tables `team` fields ( customer, employee, role ) values ( amom001, fasa004, 3 ) => {inserted_id = 0}
+14:57:24 inbe006 Ingeborg Bergren INSERTING data into tables `team` fields ( customer, employee, role ) values ( amom001, rute001, 3 ) => {inserted_id = 0}
+14:57:24 inbe006 Ingeborg Bergren UPDATING data to tables `customer_health` fields ( health_care, occupational_therapists, physiotherapists, other ) values (Amna Omer Adam 20020101-4800
+Järpegatan 1A 664 31 Grums
+beviljade timmar APRIL-sep 1018 timmar. OKTOBER-mars 864 timmar, Arbetsterapeut Frida Henriksson 054-618559
+SKK  Eva Wiklund 054-618513
+, Ann Keerever 054-617589, Gode Man Ali   070-3020488
+Sundstad gymnasiet Mentor Ann-Kristin Andersson 054-5400000) on conditions customer = amom001
+14:57:24 inbe006 Ingeborg Bergren UPDATING data to tables `customer_guardian` fields ( first_name, last_name, ssn, mobile, email, address, first_name2, last_name2, ssn2, mobile2, email2, address2, first_name3, last_name3, ssn3, mobile3, email3, address3 ) values (Ali, , , +46703 02 04 88 , , , , , , , , , , , , , , ) on conditions customer = amom001
+14:57:24 inbe006 Ingeborg Bergren INSERTING data into tables `customer_attachment` fields ( customer, documents ) values ( amom001, Uträkning_2020-03-10.xlsx ) => {inserted_id = 0}
+15:14:09 evsc001 Evelyn Schulz INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( evsc001, 90.230.60.169, Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36 ) => {inserted_id = 8127}
+15:14:09 evsc001 Evelyn Schulz DELETE data from tables `temp_session` on conditions username LIKE evsc001
+15:14:09 evsc001 Evelyn Schulz UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-03-10 15:14:09) on conditions username = evsc001
+15:14:09 evsc001 Evelyn Schulz UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-03-10 15:14:09) on conditions username = evsc001 AND company_id = 21
+15:14:09 evsc001 Evelyn Schulz UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (evsc001) on conditions session_id = e4f00edc04ae3b15031291dacb45a082
+15:23:08 evsc001 Evelyn Schulz UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (evsc001) on conditions session_id = e4f00edc04ae3b15031291dacb45a082
+15:30:14 inbe006 Ingeborg Bergren INSERTING data into tables `customer_documentation` fields ( created_date, customer, employee, completed_date, subject, note_type, notes, priority, description, status, writable, created_by, date ) values ( 2020-03-10  15:25:34, amom001, inbe006, , Gode Man, dokumentation, <p class="note_block_head">Datum: 2020-03-10 15:30   Dokumenterat av: Ingeborg Bergren</p></br/><p>Varit i kontakt med överförmyndar nämden de ska stöta på ang de begärda uppgifterna som inte inkommit från Grums Kommun</p>, , <p><br></p>, paborjad, , inbe006, 2020-03-10 ) => {inserted_id = 9}
+15:35:48 inbe006 Ingeborg Bergren UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (<p class="MsoNormal">Amna Omar Adam 2002 01 01</p><p class="MsoNormal">Nummer två i en syskonskara av tre</p><p class="MsoNormal"><o:p>Ursprung Eritrea, bott i Sudan i flyktingläger.&nbsp;</o:p></p>, <p class="MsoNormal">Redan från början psykomotorisk utvecklingsförsening,
+språkstörning. Varit i kontakt med sjukvården i Sudan och där fått diagnosen
+Metakromatisk leukodystrofi, denna diagnos har ännu inte kunnat verifieras. Utredning
+pågår<o:p></o:p></p>, <p class="MsoNormal">Att genom personlig assistans ge A. assistans i alla moment.
+A har inte möjlighet att självständigt äta, klä sig, sköta sin personliga
+hygien, förflytta sig eller kommunicera med omgivningen.<o:p></o:p></p><p class="MsoNormal">A. Kan ta mat och dryck i mycket begränsad del. Hon tar det
+som finns på bordet, hon kan inte hantera redskap. När a. dricker finns det
+risk för att hon sätter i halsen eftersom hon häller för snabbt.<o:p></o:p></p><p class="MsoNormal">A. kan inte klä på- eller av sig på något sätt. <o:p></o:p></p><p class="MsoNormal">A. kan inte sköta sin hygien på något sätt självständigt,
+hon tycker dessutom inte om att duscha så detta moment är särskilt svårt för
+henne. A. använder inkontinensskydd hela dygnet.<o:p></o:p></p><p class="MsoNormal">A. kan gå självständigt viss sträcka, hon kan själv ta stöd
+när hon känner behov av detta. Assistenten skall ha tillsyn hela tiden för A.
+har inte helt balans utan ramlar ofta.<o:p></o:p></p><p>
+
+
+
+
+
+
+
+
+
+</p><p class="MsoNormal">A. kommunicerar med olika ljud och mamman kan utskilja några
+försök till ord. Assistenten får kommunicera med ingående kunskap om A. så att A
+är delaktig i det som pågår.<o:p></o:p></p>, <p class="note_block_head mt ml mr">Datum: 2020-02-19 14:58   Namn: Ingeborg Bergren</p></br><p class="ml">A. Har assistans mellan klockan 06,30–08,00 därefter har hon skola och assistans klockan 15,30-19,30Ledig dag har hon från Försäkringskassan 6 timmar assistans.All assistans sker i hemmet, all assistans skall ske med stor respekt för A.&nbsp;Assistenterna skall arbeta salutogent i alla lägen.</p><hr/>, 1,, School, <p class="note_block_head mt ml mr">Datum: 2020-02-19 14:49   Namn: Ingeborg Bergren</p></br><p class="ml">Att A ska ha;En begriplig dag.Få känna sig ren och fräsch.Ha kläder efter väder och sociala koder.Få god och näringsrik kost och dryck
+
+
+
+
+
+
+
+
+
+Att ge A. en möjlighet att delta i samhället i den mån hon
+kan och vill.</p><hr/>, , <p class="note_block_head mt ml mr">Datum: 2020-02-19 15:02   Namn: Ingeborg Bergren</p></br><p class="ml">Denna genomförandeplan är summarisk, kommer att revideras
+löpande.</p><hr/>, , 0) on conditions id = 2
+15:35:49 inbe006 Ingeborg Bergren UPDATING data to tables `customer_implimentation_attachment` fields ( documents ) values (A.O.A_genomförandeplan_2020-02-19.docx) on conditions implan_id = 2
+15:38:26 inbe006 Ingeborg Bergren INSERTING data into tables `customer_3066` fields ( customer, employee, is_assi_have_pa, is_assi_resi_outside_ees, assi_resi_outside_ees, changes_applies_from, i_own_employer, hire_assi_provider, company_cp_name, company_cp_phone, is_organizer_employers_assi, name_of_another_employer, another_employer_org_no, signing_date, signing_employee ) values ( amom001, zaid001, 2, 2, , , , 1, Sarina Nestani, 054-8201010, 1, , , 2020-03-10 15:38:25, inbe006 ) => {inserted_id = 6}
+15:38:26 inbe006 Ingeborg Bergren INSERTING data into tables `customer_3066` fields ( customer, employee, is_assi_have_pa, is_assi_resi_outside_ees, assi_resi_outside_ees, changes_applies_from, i_own_employer, hire_assi_provider, company_cp_name, company_cp_phone, is_organizer_employers_assi, name_of_another_employer, another_employer_org_no, signing_date, signing_employee ) values ( amom001, absa003, 1, 2, , , , 1, Ingeborg Bergren, 054-8201010, 1, , , 2020-03-10 15:38:25, inbe006 ) => {inserted_id = 7}
+15:38:26 inbe006 Ingeborg Bergren INSERTING data into tables `customer_3066` fields ( customer, employee, is_assi_have_pa, is_assi_resi_outside_ees, assi_resi_outside_ees, changes_applies_from, i_own_employer, hire_assi_provider, company_cp_name, company_cp_phone, is_organizer_employers_assi, name_of_another_employer, another_employer_org_no, signing_date, signing_employee ) values ( amom001, fasa004, 2, 2, , , , 1, Ingeborg Bergren, 054-8201010, 1, , , 2020-03-10 15:38:25, inbe006 ) => {inserted_id = 8}
+15:38:26 inbe006 Ingeborg Bergren INSERTING data into tables `customer_3066` fields ( customer, employee, is_assi_have_pa, is_assi_resi_outside_ees, assi_resi_outside_ees, changes_applies_from, i_own_employer, hire_assi_provider, company_cp_name, company_cp_phone, is_organizer_employers_assi, name_of_another_employer, another_employer_org_no, signing_date, signing_employee ) values ( amom001, rute001, 2, 2, , , , 1, Ingeborg Bergren, 054-8201010, 1, , , 2020-03-10 15:38:25, inbe006 ) => {inserted_id = 9}
+15:49:40 inbe006 Ingeborg Bergren INSERTING data into tables `customer_documentation` fields ( created_date, customer, employee, completed_date, subject, note_type, notes, priority, description, status, writable, created_by, date ) values ( 2020-03-10  15:48:12, naom001, inbe006, , Kommunicering av Hanna ang. yttrande om utökad tid, dokumentation, <p class="note_block_head">Datum: 2020-03-10 15:49   Dokumenterat av: Ingeborg Bergren</p></br/><p>Scannar in brev från Hanna Svedberg Försäkringskassan</p>, , <p><br></p>, paborjad, , inbe006, 2020-03-10 ) => {inserted_id = 10}
+15:49:40 inbe006 Ingeborg Bergren UPDATING data to tables `customer_documentation` fields ( document ) values (skanna0014.pdf,skanna0015.pdf) on conditions id = 10
+15:51:21 inbe006 Ingeborg Bergren INSERTING data into tables `customer_documentation` fields ( created_date, customer, employee, completed_date, subject, note_type, notes, priority, description, status, writable, created_by, date ) values ( 2020-03-10  15:50:13, naom001, inbe006, , Färdtjänst, dokumentation, <p class="note_block_head">Datum: 2020-03-10 15:51   Dokumenterat av: Ingeborg Bergren</p></br/><p>Ansökan om färdtjänst är inlämnad och är under utredning.</p><p>20200310 Zeid är på hembesök ang. trappklättrare.</p>, , <p><br></p>, paborjad, , inbe006, 2020-03-10 ) => {inserted_id = 11}
+16:32:17 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = 19ed7dd3ef7f4f97c48e8eb57a02354f
+16:32:35 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = 19ed7dd3ef7f4f97c48e8eb57a02354f
+18:14:56 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = rute001 AND company_id = 21
+18:14:56 rute001 Ruta Teklehaimanot INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rute001, 85.224.30.125, okhttp/3.9.1 ) => {inserted_id = 8128}
+18:14:56 rute001 Ruta Teklehaimanot DELETE data from tables `temp_session` on conditions username LIKE rute001
+18:14:56 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-03-10 18:14:56) on conditions username = rute001
+18:14:56 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-03-10 18:14:56) on conditions username = rute001 AND company_id = 21

@@ -1,0 +1,1 @@
+$(function(){$(".jquery-bootpag-pagination").bootpag({total:23,page:1,maxVisible:10}).on("page",function(o,t){$(".jquery-bootpag-content").html("Page "+t)})});

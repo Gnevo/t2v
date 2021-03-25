@@ -1,0 +1,33 @@
+09:38:29 thne001 Theodor Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( thne001, 85.227.157.89, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36 ) => {inserted_id = 4926}
+09:38:29 thne001 Theodor Nevo DELETE data from tables `temp_session` on conditions username LIKE thne001
+09:38:29 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-06-09 09:38:29) on conditions username = thne001
+09:38:29 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-06-09 09:38:29) on conditions username = thne001 AND company_id = 6
+09:38:30 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = t1tij85lsal6gevfpd4amepk04
+09:39:08 thne001 Theodor Nevo UPDATING data to tables `employee` fields ( language ) values (en) on conditions username = thne001
+09:39:19 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = t1tij85lsal6gevfpd4amepk04
+09:39:33 thne001 Theodor Nevo UPDATING data to tables `employee` fields ( language ) values (se) on conditions username = thne001
+09:39:34 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = t1tij85lsal6gevfpd4amepk04
+09:44:53 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = t1tij85lsal6gevfpd4amepk04
+10:15:46 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = t1tij85lsal6gevfpd4amepk04
+13:57:52 gine001  UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (8) on conditions username = gine001 AND company_id = 6
+13:58:01 gine001  UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (9) on conditions username = gine001 AND company_id = 6
+13:58:22 gine001  UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (10) on conditions username = gine001 AND company_id = 6
+13:58:30 gine001  UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (11) on conditions username = gine001 AND company_id = 6
+13:58:38 gine001  UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (12) on conditions username = gine001 AND company_id = 6
+15:11:15 thne001 Theodor Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( thne001, 85.227.157.89, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36 ) => {inserted_id = 4927}
+15:11:15 thne001 Theodor Nevo DELETE data from tables `temp_session` on conditions username LIKE thne001
+15:11:15 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-06-09 15:11:15) on conditions username = thne001
+15:11:15 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-06-09 15:11:15) on conditions username = thne001 AND company_id = 6
+15:11:16 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = u7qschvdl2vf64q4ufo6vvif85
+15:11:23 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = u7qschvdl2vf64q4ufo6vvif85
+15:11:42 thne001 Theodor Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , stbj001, 2, 16, 2016-06-08, 23.45, 24, 0, , thne001,  ) => {inserted_id = 9111}
+15:11:42 thne001 Theodor Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , stbj001, 2, 16, 2016-06-09, 0, 1, 0, , thne001,  ) => {inserted_id = 9112}
+15:12:22 thne001 Theodor Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( thne001, stbj001, 2, 16, 2016-05-05, 23.45, 24, 1, , thne001,  ) => {inserted_id = 9113}
+15:12:22 thne001 Theodor Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( thne001, stbj001, 2, 16, 2016-05-06, 0, 1, 1, , thne001,  ) => {inserted_id = 9114}
+15:12:55 thne001 Theodor Nevo INSERTING data into tables `report_signing` fields ( employee, customer, date, signin_employee, signin_date, employee_sign, signin_tl, signin_tl_date, tl_sign, signin_sutl, signin_sutl_date, sutl_sign ) values ( thne001, stbj001, 2016-5-1, thne001, 2016-06-09 15:12:55, , thne001, 2016-06-09 15:12:55, , thne001, 2016-06-09 15:12:55,  ) => {inserted_id = 157}
+15:17:17 thne001 Theodor Nevo DELETE data from tables `report_signing` on conditions employee = thne001 AND customer = stbj001 AND date = 2016-5-1
+15:17:17 thne001 Theodor Nevo INSERTING data into tables `report_signing_delete` fields ( employee, customer, report_date, deleted_by ) values ( thne001, stbj001, 2016-5-1, thne001 ) => {inserted_id = 0}
+15:17:41 thne001 Theodor Nevo DELETE data from tables `temp_session` on conditions username LIKE thne001
+15:17:41 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2016-06-09 15:17:41) on conditions username = thne001
+15:17:41 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-06-09 15:17:41) on conditions username = thne001 AND company_id = 6
+15:17:41   UPDATING data to tables `log_login` fields ( logout_time ) values (2016-06-09:13:17:41) on conditions id = 4927 AND username = thne001

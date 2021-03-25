@@ -1,0 +1,6 @@
+19:27:58 gine001 root001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp, comment ) values ( jata001, stbj001, 2, 3, 2014-06-02, 12.00, 16.35, 1, gine001,  ) => {inserted_id = 5424}
+19:27:58 gine001 root001 INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( stbj001, 12.00, 16.35, 3 ) => {inserted_id = 198}
+19:27:58 gine001 root001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp, comment ) values ( jata001, stbj001, 2, 3, 2014-06-02, 5.00, 7.00, 1, gine001,  ) => {inserted_id = 5425}
+19:27:58 gine001 root001 INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( stbj001, 5.00, 7.00, 3 ) => {inserted_id = 199}
+19:29:28   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+19:29:28   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-06-21:17:29:28) on conditions id = 543 AND username = gine001

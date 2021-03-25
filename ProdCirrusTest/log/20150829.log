@@ -1,0 +1,14 @@
+11:07:28 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+11:07:28 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.156.42, Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0 ) => {inserted_id = 3663}
+11:07:28 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+11:07:28 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-08-29 09:07:28) on conditions username = gine001
+11:07:29 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = thvv51u58hl6nlodac11bdu146
+11:07:44 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirrus14`.`support_ticket_answers` fields ( ticket_id, answer, category_id, priority, admin_user, status ) values ( 303, biljett stängs automatiskt, 2, 3, maar005, 5 ) => {inserted_id = 684}
+11:15:38 gine001 Gilad Nevo INSERTING data into tables `mc_leave` fields ( leave_id, leave_status, read_users ) values ( 101, 0, gine001 ) => {inserted_id = 113}
+11:15:38 gine001 Gilad Nevo UPDATING data to tables `mc_leave` fields ( read_users ) values (dodo001,gine001) on conditions leave_id = 99
+11:15:38 gine001 Gilad Nevo UPDATING data to tables `mc_leave` fields ( read_users ) values (dodo001,gine001) on conditions leave_id = 98
+11:15:38 gine001 Gilad Nevo INSERTING data into tables `mc_leave` fields ( leave_id, leave_status, read_users ) values ( 100, 0, gine001 ) => {inserted_id = 114}
+11:15:56 gine001 Gilad Nevo UPDATING data to tables `leave` fields ( status, appr_emp, appr_date ) values (1, gine001, 2015-08-29) on conditions group_id = 100
+11:30:16 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+11:30:16 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2015-08-29 09:30:16) on conditions username = gine001
+11:30:16   UPDATING data to tables `log_login` fields ( logout_time ) values (2015-08-29:09:30:16) on conditions id = 3663 AND username = gine001

@@ -1,0 +1,14 @@
+watch mysqladmin processlist
+02.
+ 
+03.
+or
+04.
+ 
+05.
+watch -n 10 -d "mysqladmin proc -uroot -pPassWd | grep -v Sleep"
+06.
+ 
+07.
+or
+watch --interval=1 --differences 'mysql -uroot -pPassWd -e "show slave status\G"'

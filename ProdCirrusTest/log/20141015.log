@@ -1,0 +1,23 @@
+08:08:04 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 223.30.129.234, Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:31.0) Gecko/20100101 Firefox/31.0 ) => {inserted_id = 1908}
+08:08:04 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+08:08:46 gine001 Gilad Nevo DELETE data from tables `emp_salary` on conditions salaryId = 19
+08:09:00 gine001 Gilad Nevo UPDATING data to tables `emp_salary` fields ( date_to ) values (2013-05-28) on conditions salaryId = 
+08:09:00 gine001 Gilad Nevo INSERTING data into tables `emp_salary` fields ( emp_username, date_from, date_to, salary_per_month, salary_per_hour, added_by ) values ( chyi001, 2013-05-29, , 150, 0, gine001 ) => {inserted_id = 38}
+08:09:00 gine001 Gilad Nevo UPDATING data to tables `employee` fields ( monthly_salary ) values (0) on conditions username = chyi001
+08:09:23   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+08:09:23   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-10-15:06:09:23) on conditions id = 1908 AND username = gine001
+08:30:09 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 46.194.225.111, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36 ) => {inserted_id = 1909}
+08:30:09 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+08:31:59 gine001 Gilad Nevo INSERTING data into tables `mail` fields ( root_id, `from`, `to`, subject, message, attachments, status ) values ( 0, gine001, gine001, test mail, kollar om mail kommer, , 0 ) => {inserted_id = 10}
+08:31:59 gine001 Gilad Nevo INSERTING data into tables `mail` fields ( root_id, `from`, `to`, subject, message, attachments, status ) values ( 0, gine001, moen001, test mail, kollar om mail kommer, , 0 ) => {inserted_id = 11}
+08:31:59 gine001 Gilad Nevo INSERTING data into tables `mail` fields ( root_id, `from`, `to`, subject, message, attachments, status ) values ( 0, gine001, thne001, test mail, kollar om mail kommer, , 0 ) => {inserted_id = 12}
+08:43:33 gine001 Gilad Nevo UPDATING data to tables `mail` fields ( status ) values (1) on conditions id = 10
+08:43:43 gine001 Gilad Nevo UPDATING data to tables `mail` fields ( status ) values (1) on conditions id = 10
+08:43:59 gine001 Gilad Nevo INSERTING data into tables `mc_note` fields ( note_id, read_users ) values ( 38, gine001 ) => {inserted_id = 35}
+08:44:06 gine001 Gilad Nevo INSERTING data into tables `mc_note` fields ( note_id, read_users ) values ( 37, gine001 ) => {inserted_id = 36}
+11:23:12 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 46.194.225.111, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36 ) => {inserted_id = 1910}
+11:23:12 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+13:09:56 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 46.194.225.111, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36 ) => {inserted_id = 1911}
+13:09:56 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+13:46:46 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 115.242.190.43, Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36 ) => {inserted_id = 1912}
+13:46:46 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001

@@ -1,0 +1,5 @@
+08:18:42 jata001 Janne Tandodall INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( jata001, 176.68.82.45, Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36 ) => {inserted_id = 4923}
+08:18:42 jata001 Janne Tandodall DELETE data from tables `temp_session` on conditions username LIKE jata001
+08:18:42 jata001 Janne Tandodall UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-06-02 08:18:42) on conditions username = jata001
+08:18:42 jata001 Janne Tandodall UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-06-02 08:18:42) on conditions username = jata001 AND company_id = 6
+08:18:42 jata001 Janne Tandodall UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (jata001) on conditions session_id = gjcgknotk1l744s71e3l717963

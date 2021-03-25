@@ -1,0 +1,11 @@
+07:39:07 gine001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.155.192, android ) => {inserted_id = 7566} #Mobile-App: Log-id=3953
+07:50:17 gine001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.155.192, android ) => {inserted_id = 48145} #Mobile-App: Log-id=3954
+14:53:01 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+14:53:01 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.155.192, Mozilla/5.0 (Windows NT 6.1; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0 ) => {inserted_id = 3955}
+14:53:01 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+14:53:01 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-10-25 13:53:01) on conditions username = gine001
+14:53:01 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( error ) values (0) on conditions username = gine001
+14:53:06 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = mnnh9rqapdnptuk5fuud11nvs5
+14:53:16 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+14:53:16 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2015-10-25 13:53:16) on conditions username = gine001
+14:53:16   UPDATING data to tables `log_login` fields ( logout_time ) values (2015-10-25:13:53:16) on conditions id = 3955 AND username = gine001

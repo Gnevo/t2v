@@ -1,0 +1,230 @@
+08:48:04 biwa003 Birgitta Wåhlander INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( biwa003, 185.27.165.66, Mozilla/5.0 (iPad; CPU OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/83.0.4103.88 Mobile/15E148 Safari/604.1 ) => {inserted_id = 11754}
+08:48:04 biwa003 Birgitta Wåhlander DELETE data from tables `temp_session` on conditions username LIKE biwa003
+08:48:04 biwa003 Birgitta Wåhlander UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-06-28 08:48:04) on conditions username = biwa003
+08:48:04 biwa003 Birgitta Wåhlander UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-06-28 08:48:04) on conditions username = biwa003 AND company_id = 20
+08:48:05 biwa003 Birgitta Wåhlander UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (biwa003) on conditions session_id = 756e757cb915afcbde05c11c8aaa5f35
+09:02:39 gaan001 Gabriel Andersson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gaan001 AND company_id = 20
+09:02:39 gaan001 Gabriel Andersson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gaan001, 94.191.137.155, CirrusM/3 CFNetwork/1126 Darwin/19.5.0 ) => {inserted_id = 11755}
+09:02:39 gaan001 Gabriel Andersson DELETE data from tables `temp_session` on conditions username LIKE gaan001
+09:02:39 gaan001 Gabriel Andersson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-06-28 09:02:39) on conditions username = gaan001
+09:02:39 gaan001 Gabriel Andersson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-06-28 09:02:39) on conditions username = gaan001 AND company_id = 20
+09:02:39 gaan001 Gabriel Andersson UPDATING data to tables `time2vie_cirruscommon`.`push_notify_tokens` fields ( user_id, updated_date, error ) values (gaan001, 2020-06-28 09:02:39, 0) on conditions fcm_token = e51KWK9giv8:APA91bGHMno1HPtH6vgtvvNaxonNc-Bkvswgm2aT4OLq90CDlFw9H2dIl7Li18JiNkP-7pUOuc6Xu8RcoS51Ilqi8H-pAIQ3wxAPozVZ-o4Xh8AcIjJdCzDdKjcmheiVAB_gYeBo2P0d AND device_id = 2639B8CA-61CF-4C5F-AF35-FA532A697892 #Mobile-App: Log-id=11755
+11:03:35 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = hejo003 AND company_id = 20
+11:03:35 hejo003 Helen Jörnås INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( hejo003, 90.224.82.244, okhttp/3.9.1 ) => {inserted_id = 11756}
+11:03:35 hejo003 Helen Jörnås DELETE data from tables `temp_session` on conditions username LIKE hejo003
+11:03:35 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-06-28 11:03:35) on conditions username = hejo003
+11:03:35 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-06-28 11:03:35) on conditions username = hejo003 AND company_id = 20
+11:17:52 jobe008 Joakim Bengtsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = jobe008 AND company_id = 20
+11:17:52 jobe008 Joakim Bengtsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( jobe008, 217.73.111.23, okhttp/3.9.1 ) => {inserted_id = 11757}
+11:17:52 jobe008 Joakim Bengtsson DELETE data from tables `temp_session` on conditions username LIKE jobe008
+11:17:52 jobe008 Joakim Bengtsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-06-28 11:17:52) on conditions username = jobe008
+11:17:52 jobe008 Joakim Bengtsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-06-28 11:17:52) on conditions username = jobe008 AND company_id = 20
+11:17:52 jobe008 Joakim Bengtsson INSERTING data into tables `time2vie_cirruscommon`.`push_notify_tokens` fields ( user_id, fcm_token, device_id, device_details, created_date, error ) values ( jobe008, fcaZd7tmDW8:APA91bHn62BEjfUYbQ62xN0y_8AbhVfzO3kjeFQEfI5A9B_Ck_Irm1jV9-UsJe-Ao4k1gy3_L5jkwbKhUfZ2zzs9BbTW5Dez1-lhfoZg1e8CGTr905uiA2B4U2It6EG2GaEtDt8Zl6if, 5965fd2f2642b318, okhttp/3.9.1, 2020-06-28 11:17:52, 0 ) => {inserted_id = 17550} #Mobile-App: Log-id=11757
+11:23:00 elbe006 Elin Berntsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = elbe006 AND company_id = 20
+11:23:00 elbe006 Elin Berntsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( elbe006, 193.234.110.211, okhttp/3.9.1 ) => {inserted_id = 11758}
+11:23:00 elbe006 Elin Berntsson DELETE data from tables `temp_session` on conditions username LIKE elbe006
+11:23:00 elbe006 Elin Berntsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-06-28 11:23:00) on conditions username = elbe006
+11:23:00 elbe006 Elin Berntsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-06-28 11:23:00) on conditions username = elbe006 AND company_id = 20
+12:46:44 anwa006 Andréas Wallin UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = anwa006 AND company_id = 20
+12:46:44 anwa006 Andréas Wallin INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( anwa006, 82.196.108.141, okhttp/3.9.1 ) => {inserted_id = 11759}
+12:46:44 anwa006 Andréas Wallin DELETE data from tables `temp_session` on conditions username LIKE anwa006
+12:46:44 anwa006 Andréas Wallin UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-06-28 12:46:44) on conditions username = anwa006
+12:46:44 anwa006 Andréas Wallin UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-06-28 12:46:44) on conditions username = anwa006 AND company_id = 20
+14:28:03 anja007 Annika Jakobsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = anja007 AND company_id = 20
+14:28:03 anja007 Annika Jakobsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( anja007, 94.191.138.7, Time2View/1 CFNetwork/1126 Darwin/19.5.0 ) => {inserted_id = 11760}
+14:28:03 anja007 Annika Jakobsson DELETE data from tables `temp_session` on conditions username LIKE anja007
+14:28:03 anja007 Annika Jakobsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-06-28 14:28:03) on conditions username = anja007
+14:28:03 anja007 Annika Jakobsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-06-28 14:28:03) on conditions username = anja007 AND company_id = 20
+15:33:52 peka002 Petronella Karlsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = peka002 AND company_id = 20
+15:33:52 peka002 Petronella Karlsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( peka002, 81.229.116.162, Time2View/1 CFNetwork/1126 Darwin/19.5.0 ) => {inserted_id = 11761}
+15:33:52 peka002 Petronella Karlsson DELETE data from tables `temp_session` on conditions username LIKE peka002
+15:33:52 peka002 Petronella Karlsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-06-28 15:33:52) on conditions username = peka002
+15:33:52 peka002 Petronella Karlsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-06-28 15:33:52) on conditions username = peka002 AND company_id = 20
+15:49:11 time002 Tina Mellgren UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = time002 AND company_id = 20
+15:49:11 time002 Tina Mellgren INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( time002, 94.234.45.217, Time2View/1 CFNetwork/1126 Darwin/19.5.0 ) => {inserted_id = 11762}
+15:49:11 time002 Tina Mellgren DELETE data from tables `temp_session` on conditions username LIKE time002
+15:49:11 time002 Tina Mellgren UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-06-28 15:49:11) on conditions username = time002
+15:49:11 time002 Tina Mellgren UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-06-28 15:49:11) on conditions username = time002 AND company_id = 20
+15:55:03 hebe001 Helen Bengtsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( hebe001, 217.73.108.78, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 ) => {inserted_id = 11763}
+15:55:03 hebe001 Helen Bengtsson DELETE data from tables `temp_session` on conditions username LIKE hebe001
+15:55:03 hebe001 Helen Bengtsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-06-28 15:55:03) on conditions username = hebe001
+15:55:03 hebe001 Helen Bengtsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-06-28 15:55:03) on conditions username = hebe001 AND company_id = 20
+15:55:03 hebe001 Helen Bengtsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (hebe001) on conditions session_id = a6e580cd6f6e22b92ae0183028e13ca7
+17:01:23 biwa003 Birgitta Wåhlander UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (chwa001, liha009, 2020-07-16, 7.00, 15.00, 1, 0, 1, ) on conditions id = 12803
+17:02:28 biwa003 Birgitta Wåhlander UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (chwa001, gaan001, 2020-06-29, 7.00, 15.00, 1, 0, 1, ) on conditions id = 12739
+17:04:05 biwa003 Birgitta Wåhlander INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( lawa002, chwa001, 1, 7, 2020-06-29, 7, 10.30, 1, , biwa003,  ) => {inserted_id = 16865}
+17:04:05 biwa003 Birgitta Wåhlander INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( chwa001, 7, 10.30, 7 ) => {inserted_id = 326}
+17:05:28 biwa003 Birgitta Wåhlander UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (chwa001, gaan001, 2020-07-01, 12.30, 22.00, 1, 0, 1, ) on conditions id = 15165
+17:07:32 biwa003 Birgitta Wåhlander UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (chwa001, lawa002, 2020-06-12, 10.00, 18.15, 1, 0, 1, ) on conditions id = 12679
+18:30:14 mato007 Mattias Torbiörnson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( mato007, 94.103.194.75, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 ) => {inserted_id = 11764}
+18:30:14 mato007 Mattias Torbiörnson DELETE data from tables `temp_session` on conditions username LIKE mato007
+18:30:14 mato007 Mattias Torbiörnson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-06-28 18:30:14) on conditions username = mato007
+18:30:14 mato007 Mattias Torbiörnson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-06-28 18:30:14) on conditions username = mato007 AND company_id = 20
+18:30:24 mato007 Mattias Torbiörnson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( mato007, 94.103.194.75, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 ) => {inserted_id = 11765}
+18:30:24 mato007 Mattias Torbiörnson DELETE data from tables `temp_session` on conditions username LIKE mato007
+18:30:24 mato007 Mattias Torbiörnson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-06-28 18:30:24) on conditions username = mato007
+18:30:24 mato007 Mattias Torbiörnson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-06-28 18:30:24) on conditions username = mato007 AND company_id = 20
+18:30:24 mato007 Mattias Torbiörnson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (mato007) on conditions session_id = cfe56c880ec543a85ab5275d05b9322e
+18:32:17 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (03dqd49usaj62a9sog9hr79is8) on conditions id = 12892
+18:32:17 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (2u9etbipcac1c3o08m908fuiq0) on conditions id = 12893
+18:32:17 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (br4pup0l585oo5va6rco69rpac) on conditions id = 12896
+18:32:18 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (omri71130ahd5hn4j0l4id10ng) on conditions id = 12897
+18:32:18 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (v4s6iu502evtsqiee49rro1t1o) on conditions id = 15838
+18:32:18 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (9bm021t2rrpj9kgvct8e35cjc8) on conditions id = 15839
+18:32:22 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (idu8915evqvv629m6kk2h0fhp8) on conditions id = 16163
+18:32:22 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (9f83n98injadt9dqcb7us08d38) on conditions id = 16171
+18:32:22 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (kccdhjn1haipt4q701oscsvig8) on conditions id = 16175
+18:32:22 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (u6hn17766eg6885d9hi4h409mg) on conditions id = 16184
+18:32:23 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (i968mmn7mmvgivvc8en9glpvig) on conditions id = 16186
+18:32:23 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (j3kadn1m93tk3vfcshjmtg2i74) on conditions id = 16189
+18:32:23 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (rq9iocfjjtqo2rhi2gk5lilauc) on conditions id = 16190
+18:32:24 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (ksl9to2roohr0ksp6k2h84i83k) on conditions id = 16204
+18:32:24 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (a05ra74mdmg7njp53kelor2204) on conditions id = 16205
+18:32:24 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (uduc64cjkk1ulmfknm2jgoahg4) on conditions id = 16212
+18:32:24 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (8sf8gguaef07kh7p1sgq9ci3m4) on conditions id = 16213
+18:32:25 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (33v49tf9jhoiaegdm5cnj9q7a4) on conditions id = 16216
+18:32:25 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (o4ubb32aa9unvlltea42qdln1g) on conditions id = 16217
+18:32:25 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (d142s0ic5raouohthl9824pfjk) on conditions id = 16226
+18:32:26 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (2m80njc5hnprdoio5rrf3n0ltk) on conditions id = 16238
+18:32:26 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (lo9mi15v92ld3ottdci7gn8fic) on conditions id = 16239
+18:32:26 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (uio12u2t81apols7ufp9tuklo0) on conditions id = 16242
+18:32:27 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (d6skolrqaqp8mfr3iihckfa1ag) on conditions id = 16243
+18:32:27 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (2q6s0en55ealh7vmvh2i9302bo) on conditions id = 16252
+18:32:27 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (j1mdchvfoeqrhr39orv92sfit8) on conditions id = 16258
+18:32:27 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (3js52liop916lo8pccj5gejq38) on conditions id = 16259
+18:32:28 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (6a36bkmkhb4r98g5aeb5e0rdeg) on conditions id = 16266
+18:32:28 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (u1pga1bgthp9bcl9s26nfj1u2g) on conditions id = 16267
+18:32:28 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (cokis8b5fijtntfm8p5i344lgg) on conditions id = 16270
+18:32:28 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (7lqqc68cpdsu4rt8s274hj85ms) on conditions id = 16271
+18:32:29 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (lbl6ie6e4hrhajd449939u0i4o) on conditions id = 16280
+18:32:29 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (i6bi8dg8clc3ddfikm0l2um2us) on conditions id = 16293
+18:32:29 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (sbjlrbt3mlu9uees5almmufef4) on conditions id = 16294
+18:32:30 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (s89d6jvj61sejhikar79fbtdd8) on conditions id = 16297
+18:32:30 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (lm82n5bafq20quaot7g7ithu78) on conditions id = 16298
+18:32:30 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (k43jjg7bjft1ae5pqd6vivj7d0) on conditions id = 16312
+18:32:31 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (q3atbufunvda7apg6nv0cvh84g) on conditions id = 16313
+18:32:31 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (rbcprtt23v0c70vgcliul7imd8) on conditions id = 16320
+18:32:31 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (b2su7eg6u90q07qtm8dhfkqon8) on conditions id = 16321
+18:32:31 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (daemgphic9auct67celv4jqd2g) on conditions id = 16324
+18:32:32 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (i9bti1h4revlnh3ls5t3kofc04) on conditions id = 16325
+18:32:32 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (mib5aubaoqp2ucdt05q93n14c0) on conditions id = 16334
+18:32:32 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (lo83e1idp0ro7e7melm39eftr4) on conditions id = 16346
+18:32:33 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (3minstutokn0g2ljn87ioqop9o) on conditions id = 16347
+18:32:33 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (gd6cute1firjmpu0lrd5keh5lo) on conditions id = 16350
+18:32:33 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (ckssidbd5r84u771b0l9c7e63c) on conditions id = 16351
+18:32:33 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (t31ihkj8rvrt91m5dfd1n5nhk0) on conditions id = 16360
+18:32:34 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (i02ftvebsnhjjv0us5j06955h8) on conditions id = 16366
+18:32:34 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (cq7htn8vo3q1m9au5tc2ej8ga0) on conditions id = 16367
+18:32:34 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (uikv9bc1bjuif744l259v0lb08) on conditions id = 16374
+18:32:35 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (k8orbk204cmnj5skoplate5hhc) on conditions id = 16375
+18:32:35 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (cftuoh623rbltfcqpht65fmv6c) on conditions id = 16378
+18:32:35 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (vhave2oin0e8m67vildm0v91ag) on conditions id = 16379
+18:32:35 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (ac6ghdtkihnnus33ko3rjji97o) on conditions id = 16388
+18:32:36 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (31aobst3j0rs3014e9vllgugv0) on conditions id = 16401
+18:32:36 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (bia8qd1jomvvu1vt6ecbfijp5k) on conditions id = 16402
+18:32:36 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (erm3f20r2il3so971pr1rvn54s) on conditions id = 16405
+18:32:37 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (hbk8hdsbkgn19f017g2d8jnfk8) on conditions id = 16406
+18:32:37 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (1nonnr7m97im6eqvb0is3vg26k) on conditions id = 16420
+18:32:37 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (i31mgoltrviis6brea1q7dt87s) on conditions id = 16421
+18:32:37 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (cg5trfvq1ph7ku9220mjocgnik) on conditions id = 16428
+18:32:38 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (rmfhf7bdlp5ve25k05ak7pp1b4) on conditions id = 16429
+18:32:38 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (i9csmjvecs64k4didrtqdbelkg) on conditions id = 16432
+18:32:38 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (t2258v3fbmembihvt28moo69pc) on conditions id = 16433
+18:32:39 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (r06giv5mvjd07mjmdpvs3fbh3k) on conditions id = 16442
+18:32:39 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (pvc29eoc4l9dutlbe85airt04c) on conditions id = 16454
+18:32:39 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (ftgi0an5vq0ee62u0fqda17h20) on conditions id = 16455
+18:32:39 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (8vf5rro0rt4lil2jhvlmi4i8t0) on conditions id = 16458
+18:32:40 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (b736n9tubilbn11g8tfasrgeso) on conditions id = 16459
+18:32:40 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (2g90gbrddem5mfeq3v7igavb4s) on conditions id = 16468
+18:32:40 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (5rc0qffoqjloivp7vbpoqh563g) on conditions id = 16474
+18:32:41 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (af559fraav1hi2g2uldlfe8hio) on conditions id = 16475
+18:32:41 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (tmue54nf78lectjd3gkiuiqg58) on conditions id = 16482
+18:32:41 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (kv3m49rtm7faapngg6f7gfed7k) on conditions id = 16483
+18:32:42 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (6dhfj0la85gvvn14r0vvd39ke0) on conditions id = 16486
+18:32:42 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (2adku95a11sov0qagqr1khmavo) on conditions id = 16487
+18:32:42 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (aqhtj65uasgn0qlir1mnhnmsrg) on conditions id = 16496
+18:32:43 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (kgkuesulvksjjrdrlqis94mpks) on conditions id = 16509
+18:32:43 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (im8m9d10315bc0alhrbjkqlrns) on conditions id = 16510
+18:32:43 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (4adck23li5mc9smb3csc21igs4) on conditions id = 16513
+18:32:43 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (mq3vaaggjtg7nsetv4gcu7ooto) on conditions id = 16514
+18:32:44 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (fn0rvlrvl6t3pdtle9cj13bbu4) on conditions id = 16528
+18:32:44 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (7u8at7otjkdqi1kkcdvq36da6s) on conditions id = 16529
+18:32:44 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (a0ji3r6lpqa7ur8dv00po7nk84) on conditions id = 16536
+18:32:45 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (e9327b90821v4ir9nsf0atcjmg) on conditions id = 16537
+18:32:45 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (2ev8qin9qcbdk57vjaim22r7gc) on conditions id = 16540
+18:32:45 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (03m406s3j5jia0d24jhscpnb2c) on conditions id = 16541
+18:32:46 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (m3088n947g1lf7ld55m4ifrrqg) on conditions id = 16550
+18:32:46 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (r90q3k5fvmg7kvt9gubl1dcroc) on conditions id = 16562
+18:32:46 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (uhgmi59p069tlukfsfhlkj020g) on conditions id = 16563
+18:32:46 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (1dp8jqi3ijr14bif9u0phur1k0) on conditions id = 16566
+18:32:47 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (d68dvaf5ilqov2r7oue4m05ot0) on conditions id = 16567
+18:32:47 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (1m9vupulo9sbshk6on3oh24l44) on conditions id = 16576
+18:32:47 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (bs3bvi8hg02sj2sejdql4j3cik) on conditions id = 16582
+18:32:48 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (t4kj75sr28a8f9e4rovh0ljugg) on conditions id = 16583
+18:32:48 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (9u37usf9pgch6nuhtb2e520lk4) on conditions id = 16590
+18:32:48 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (20i2u2ti8eopq6j9kk7l9t3umc) on conditions id = 16591
+18:32:48 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (4eq3v329p9h2ibl8eihnivuc10) on conditions id = 16594
+18:32:49 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (08f7op4hiiqd6k3m3me1hod60g) on conditions id = 16595
+18:32:49 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (75rqogbav5rn20jnm6fqnhs3f0) on conditions id = 16604
+18:32:49 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (ga6bfqk1fbadf28la7u817n1as) on conditions id = 16617
+18:32:49 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (62abrn9jcfh9qosfhqleua3sm0) on conditions id = 16618
+18:32:50 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (8h0hstbeccqjaiog650obdkn14) on conditions id = 16621
+18:32:50 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (fe9t9j0orv4sq7c6n3fc6s6ago) on conditions id = 16622
+18:32:50 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (himrm8jd9b029hp5l84m8vql00) on conditions id = 16636
+18:32:51 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (im8phqhie3eneavpip38gq3mh8) on conditions id = 16637
+18:32:51 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (9cq98i86bc1bml3p9jv7b4063c) on conditions id = 16644
+18:32:51 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (5006vl389tq1ffap9cvh45hmsk) on conditions id = 16645
+18:32:51 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (0sp3fvvd93lhahvvjeskd2g7e4) on conditions id = 16648
+18:32:52 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (crd1ov10r7mdt654e9pj117lhs) on conditions id = 16649
+18:32:52 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (4greh00ar8pu49b62ifi6qudes) on conditions id = 16658
+18:32:52 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (neh0upbg1bddl0uu2283pkipcg) on conditions id = 16670
+18:32:53 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (dlvuoqdshlnv3407k1g5mirt14) on conditions id = 16671
+18:32:53 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (to3thmetln76an567u78pbrst4) on conditions id = 16674
+18:32:53 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (p2a90g63ljfe8jn86oop13k7t4) on conditions id = 16675
+18:32:53 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (jh38opid577g4nc1rv3qp5femg) on conditions id = 16684
+18:32:54 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (436p256i5t0sdpmpvot824rl6c) on conditions id = 16690
+18:32:54 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (63b3cv9qnv3p6lsprqdjr0kt58) on conditions id = 16691
+18:32:54 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (bnidj2fho9lli3gsr3sje465og) on conditions id = 16698
+18:32:55 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (dnacr5lt4eo4rlr92gnpokb3hc) on conditions id = 16699
+18:32:55 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (4uf66dndsgkelm4r8heort3nes) on conditions id = 16702
+18:32:55 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (q415kua7aa8f57vpfcecoa3jsg) on conditions id = 16703
+18:32:56 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (62o44nkk1efgp7ohm4racm542s) on conditions id = 16712
+18:32:56 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (ch72f9q6065ck5emkfiean7cc4) on conditions id = 16725
+18:32:56 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (r49mkngq02phq4g049gs4u89j8) on conditions id = 16726
+18:32:56 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (nsrdpe41trn4h267j2im37fpfo) on conditions id = 16729
+18:32:57 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (fgap6gn1sssv5sro8s5cabcbck) on conditions id = 16730
+18:32:57 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (imtibr7vk73sl9910rsr4tfncc) on conditions id = 16744
+18:32:57 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (sft6c5qqjv23gusglroqggslb4) on conditions id = 16745
+18:32:58 mato007 Mattias Torbiörnson UPDATING data to tables `timetable` fields ( google_id ) values (goaim44jc2ksjk479nrc0v9vb0) on conditions id = 16752
+18:52:47 nias002 Ninnie Åström UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = nias002 AND company_id = 20
+18:52:47 nias002 Ninnie Åström INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( nias002, 79.136.108.107, Time2View/1 CFNetwork/1126 Darwin/19.5.0 ) => {inserted_id = 11766}
+18:52:47 nias002 Ninnie Åström DELETE data from tables `temp_session` on conditions username LIKE nias002
+18:52:47 nias002 Ninnie Åström UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-06-28 18:52:47) on conditions username = nias002
+18:52:47 nias002 Ninnie Åström UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-06-28 18:52:47) on conditions username = nias002 AND company_id = 20
+19:17:20 gaan001 Gabriel Andersson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gaan001 AND company_id = 20
+19:17:20 gaan001 Gabriel Andersson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gaan001, 217.73.108.115, CirrusM/3 CFNetwork/1126 Darwin/19.5.0 ) => {inserted_id = 11767}
+19:17:20 gaan001 Gabriel Andersson DELETE data from tables `temp_session` on conditions username LIKE gaan001
+19:17:20 gaan001 Gabriel Andersson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-06-28 19:17:20) on conditions username = gaan001
+19:17:20 gaan001 Gabriel Andersson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-06-28 19:17:20) on conditions username = gaan001 AND company_id = 20
+19:17:20 gaan001 Gabriel Andersson UPDATING data to tables `time2vie_cirruscommon`.`push_notify_tokens` fields ( user_id, updated_date, error ) values (gaan001, 2020-06-28 19:17:20, 0) on conditions fcm_token = e51KWK9giv8:APA91bGHMno1HPtH6vgtvvNaxonNc-Bkvswgm2aT4OLq90CDlFw9H2dIl7Li18JiNkP-7pUOuc6Xu8RcoS51Ilqi8H-pAIQ3wxAPozVZ-o4Xh8AcIjJdCzDdKjcmheiVAB_gYeBo2P0d AND device_id = 2639B8CA-61CF-4C5F-AF35-FA532A697892 #Mobile-App: Log-id=11767
+22:36:29 nias002 Ninnie Åström UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = nias002 AND company_id = 20
+22:36:29 nias002 Ninnie Åström INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( nias002, 79.136.108.107, Time2View/1 CFNetwork/1126 Darwin/19.5.0 ) => {inserted_id = 11768}
+22:36:29 nias002 Ninnie Åström DELETE data from tables `temp_session` on conditions username LIKE nias002
+22:36:29 nias002 Ninnie Åström UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-06-28 22:36:29) on conditions username = nias002
+22:36:29 nias002 Ninnie Åström UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-06-28 22:36:29) on conditions username = nias002 AND company_id = 20
+23:20:23 emsa005 Emma Särnblom UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = emsa005 AND company_id = 20
+23:20:23 emsa005 Emma Särnblom INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( emsa005, 81.170.178.181, Time2View/1 CFNetwork/1125.2 Darwin/19.4.0 ) => {inserted_id = 11769}
+23:20:23 emsa005 Emma Särnblom DELETE data from tables `temp_session` on conditions username LIKE emsa005
+23:20:23 emsa005 Emma Särnblom UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-06-28 23:20:23) on conditions username = emsa005
+23:20:23 emsa005 Emma Särnblom UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-06-28 23:20:23) on conditions username = emsa005 AND company_id = 20
+23:26:25 anwa006 Andréas Wallin UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = anwa006 AND company_id = 20
+23:26:25 anwa006 Andréas Wallin INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( anwa006, 82.196.108.141, okhttp/3.9.1 ) => {inserted_id = 11770}
+23:26:25 anwa006 Andréas Wallin DELETE data from tables `temp_session` on conditions username LIKE anwa006
+23:26:25 anwa006 Andréas Wallin UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-06-28 23:26:25) on conditions username = anwa006
+23:26:25 anwa006 Andréas Wallin UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-06-28 23:26:25) on conditions username = anwa006 AND company_id = 20
+23:40:27 biwa003 Birgitta Wåhlander UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (biwa003) on conditions session_id = 756e757cb915afcbde05c11c8aaa5f35
+00:59:16 anka020 Annika Karlsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = anka020 AND company_id = 20
+00:59:16 anka020 Annika Karlsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( anka020, 188.151.6.165, okhttp/3.9.1 ) => {inserted_id = 11771}
+00:59:16 anka020 Annika Karlsson DELETE data from tables `temp_session` on conditions username LIKE anka020
+00:59:16 anka020 Annika Karlsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-06-29 00:59:16) on conditions username = anka020
+00:59:16 anka020 Annika Karlsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-06-29 00:59:16) on conditions username = anka020 AND company_id = 20

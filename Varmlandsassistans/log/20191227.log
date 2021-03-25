@@ -1,0 +1,5 @@
+16:19:04 alsc001 Alexander Franz Schulz UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = alsc001 AND company_id = 21
+16:19:04 alsc001 Alexander Franz Schulz INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( alsc001, 90.230.60.169, okhttp/3.9.1 ) => {inserted_id = 7988}
+16:19:04 alsc001 Alexander Franz Schulz DELETE data from tables `temp_session` on conditions username LIKE alsc001
+16:19:04 alsc001 Alexander Franz Schulz UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-12-27 16:19:04) on conditions username = alsc001
+16:19:04 alsc001 Alexander Franz Schulz UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-12-27 16:19:04) on conditions username = alsc001 AND company_id = 21

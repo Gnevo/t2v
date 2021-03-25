@@ -1,0 +1,21 @@
+19:52:59 gine001 Gilad Nevo INSERTING data into tables `log_login`fields username, ip, browser values ( gine001, 85.227.154.64, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31 )
+19:52:59 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = gine001
+19:53:25 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 2, 0, 2013-04-08, 9.00, 12.00, 0, gine001 )
+19:53:25 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 2, 0, 2013-04-08, 10.00, 19.30, 0, gine001 )
+19:53:25 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 2, 0, 2013-04-08, 17.00, 22.00, 0, gine001 )
+19:53:25 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 2, 0, 2013-04-08, 10.00, 12.00, 0, gine001 )
+19:53:39 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1, moen001, gine001 on conditions id = 1474
+19:53:39 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1, moen001, gine001 on conditions id = 1476
+19:53:48 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1, gine001, gine001 on conditions id = 1475
+19:53:54 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1, joef001, gine001 on conditions id = 1477
+19:54:37 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 2 on conditions id = 1475
+19:54:37 gine001 Gilad Nevo INSERTING data into tables `timetable`fields customer, date, time_from, time_to, type, fkkn, status, comment, alloc_emp, relation_id values ( hesv001, 2013-04-08, 10.00, 19.30, 0, 2, 0, , gine001, 1475 )
+19:54:37 gine001 Gilad Nevo INSERTING data into tables `leave`fields group_id, employee, date, time_from, time_to, type, comment, appr_emp, status values ( 8, gine001, 2013-04-08, 10, 19.3, 1, , gine001, 0 )
+19:54:43 gine001 Gilad Nevo UPDATING data to tables `leave`fields Array values 1, gine001, 2013-04-24 on conditions group_id = 8
+19:55:39 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1, wita001, gine001 on conditions id = 1478
+19:56:05 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 2, 0, 2013-03-25, 9.00, 12.00, 0, gine001 )
+19:56:19 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1, wita001, gine001 on conditions id = 1479
+19:56:38 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 2 on conditions id = 1479
+19:56:38 gine001 Gilad Nevo INSERTING data into tables `timetable`fields customer, date, time_from, time_to, type, fkkn, status, comment, alloc_emp, relation_id values ( hesv001, 2013-03-25, 9.00, 12.00, 0, 2, 0, , gine001, 1479 )
+19:56:38 gine001 Gilad Nevo INSERTING data into tables `leave`fields group_id, employee, date, time_from, time_to, type, comment, appr_emp, status values ( 9, wita001, 2013-03-25, 9, 12, 2, , gine001, 0 )
+19:56:43 gine001 Gilad Nevo UPDATING data to tables `leave`fields Array values 1, gine001, 2013-04-24 on conditions group_id = 9

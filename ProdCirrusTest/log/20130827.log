@@ -1,0 +1,16 @@
+17:06:41 gine001 Gilad Nevo INSERTING data into tables `log_login`fields username, ip, browser values ( gine001, 46.194.215.174, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36 )
+17:06:41 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = gine001
+17:07:03 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1, moen001, gine001 on conditions id = 2905
+17:07:09 gine001 Gilad Nevo INSERTING data into tables `atl_warnings`fields employee, date, time_from, time_to, customer, extra_hours values ( joef001, 2013-08-12, 6, 19.3, hesv001, 0.5 )
+17:07:11 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1, joef001, gine001 on conditions id = 2907
+17:07:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 2, 0, 2013-08-13, 8.00, 16.35, 0, gine001 )
+17:07:43 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( wita001, hesv001, 2, 0, 2013-08-20, 8, 16.35, 1, gine001 )
+17:07:43 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1, wita001, gine001 on conditions id = 2912
+17:07:56 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 2 on conditions id = 2912
+17:07:56 gine001 Gilad Nevo INSERTING data into tables `timetable`fields customer, date, time_from, time_to, type, fkkn, status, comment, alloc_emp, relation_id values ( hesv001, 2013-08-13, 8.00, 16.35, 0, 2, 0, , gine001, 2912 )
+17:07:56 gine001 Gilad Nevo INSERTING data into tables `leave`fields group_id, employee, date, time_from, time_to, type, comment, appr_emp, status values ( 20, wita001, 2013-08-13, 8, 16.35, 1, , gine001, 0 )
+17:08:49 gine001 Gilad Nevo INSERTING data into tables `leave_sms`fields slot, employee, status, alloc_employee values ( 2914, gine001, 4, gine001 )
+17:08:49 gine001 Gilad Nevo INSERTING data into tables `log_sms`fields from_user, to_user, to_no, message, status values ( gine001, gine001, 704434964, %0AKund : hesv001%0ADatum : 2013-08-13%0APass : 08.00-16.35(8.35h)%0ASvara Ja om du vill ha passet, 1 )
+17:13:11 gine001 Gilad Nevo UPDATING data to tables `leave_sms`fields Array values 1 on conditions slot = 2914 AND employee = gine001
+17:13:11 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values gine001, 1 on conditions id = 2914
+17:13:11 gine001 Gilad Nevo UPDATING data to tables `leave_sms`fields Array values 2 on conditions slot = 2914 AND employee != gine001

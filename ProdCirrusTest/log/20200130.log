@@ -1,0 +1,7 @@
+07:58:53 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 92.35.253.191, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0 ) => {inserted_id = 10895}
+07:58:53 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+07:58:53 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-01-30 07:58:53) on conditions username = gine001
+07:58:53 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-01-30 07:58:53) on conditions username = gine001 AND company_id = 6
+08:02:27 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 5388c94d8fceac2ae9ef1ddc40e21705
+09:50:03 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirruscommon`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, category_id, priority, ticket_type, status, hidden ) values ( 2645, gine001, <p>Återkommer när revisorn kollat.<br></p>, 11, 2, 2, 3, 0 ) => {inserted_id = 7014}
+17:08:47 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 5388c94d8fceac2ae9ef1ddc40e21705

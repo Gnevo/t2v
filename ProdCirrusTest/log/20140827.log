@@ -1,0 +1,9 @@
+11:44:12 kaek001 Kalle Ekholm INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( kaek001, 223.30.129.234, Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:31.0) Gecko/20100101 Firefox/31.0 ) => {inserted_id = 1721}
+11:44:12 kaek001 Kalle Ekholm UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = kaek001
+11:44:47 kaek001 Kalle Ekholm INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , stal001, 1, 0, 2014-08-23, 13, 19.3, 0, , kaek001,  ) => {inserted_id = 5645}
+11:49:00 kaek001 Kalle Ekholm UPDATING data to tables `timetable` fields ( type ) values (15) on conditions id = 5433
+11:49:10 kaek001 Kalle Ekholm UPDATING data to tables `timetable` fields ( type ) values (0) on conditions id = 5433
+11:49:29 kaek001 Kalle Ekholm UPDATING data to tables `timetable` fields ( type ) values (15) on conditions id = 5645
+11:49:36 kaek001 Kalle Ekholm UPDATING data to tables `timetable` fields ( type ) values (0) on conditions id = 5645
+12:00:45   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = kaek001
+12:00:45   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-08-27:10:00:45) on conditions id = 1721 AND username = kaek001

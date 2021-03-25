@@ -1,0 +1,78 @@
+07:37:25 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.153.67, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 ) => {inserted_id = 6038}
+07:37:26 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+07:37:26 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2017-11-02 07:37:26) on conditions username = gine001
+07:37:27 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-11-02 07:37:26) on conditions username = gine001 AND company_id = 6
+07:37:32 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = ddd1a887467e356e0b5142ae661f831f
+08:10:49 gine001 Gilad Nevo INSERTING data into tables `holiday_block_master` fields ( name, group_id, effect_from, effect_to, date_from, date_to, start_time, end_time, type ) values ( Påsk, 12, 2018, , 03-29, 04-03, 18.00, 7.00, 2 ) => {inserted_id = 48}
+08:10:50 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 48, 1, 2 ) => {inserted_id = 563}
+08:10:51 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 48, 2, 1 ) => {inserted_id = 564}
+08:10:52 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 48, 3, 2 ) => {inserted_id = 565}
+08:10:52 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 48, 4, 2 ) => {inserted_id = 566}
+08:10:53 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 48, 5, 1 ) => {inserted_id = 567}
+08:10:54 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 48, 6, 2 ) => {inserted_id = 568}
+08:10:54 gine001 Gilad Nevo UPDATING data to tables `holiday_block_master` fields ( effect_to ) values (2017) on conditions id = 41
+13:31:25 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+13:31:25 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.71.12, android ) => {inserted_id = 6039}
+13:31:25 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+13:31:26 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2017-11-02 13:31:25) on conditions username = gine001
+13:31:26 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-11-02 13:31:25) on conditions username = gine001 AND company_id = 6
+16:56:15 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+16:56:15 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.153.67, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0 ) => {inserted_id = 6040}
+16:56:15 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+16:56:15 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2017-11-02 16:56:15) on conditions username = gine001
+16:56:15 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-11-02 16:56:15) on conditions username = gine001 AND company_id = 6
+16:58:10 gine001 Gilad Nevo UPDATING data to tables `holiday_block_master` fields ( name, group_id, effect_from, effect_to, date_from, date_to, start_time, end_time, type ) values (Alla helgons dag, 10, 2017, , 11-03, 11-06, 18.00, 7.00, 1) on conditions id = 47
+16:58:10 gine001 Gilad Nevo DELETE data from tables `holiday_block` on conditions block_master_id = 47
+16:58:10 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 47, 1, 2 ) => {inserted_id = 572}
+16:58:10 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 47, 2, 1 ) => {inserted_id = 573}
+16:58:11 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 47, 3, 1 ) => {inserted_id = 574}
+16:58:11 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 47, 4, 2 ) => {inserted_id = 575}
+16:58:55 gine001 Gilad Nevo UPDATING data to tables `holiday_block_master` fields ( name, group_id, effect_from, effect_to, date_from, date_to, start_time, end_time, type ) values (Kristi Himmelsfärdsdag, 8, 2017, , 05-24, 05-26, 18.00, 7.00, 1) on conditions id = 44
+16:58:55 gine001 Gilad Nevo DELETE data from tables `holiday_block` on conditions block_master_id = 44
+16:58:55 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 44, 1, 2 ) => {inserted_id = 576}
+16:58:55 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 44, 2, 1 ) => {inserted_id = 577}
+16:58:55 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 44, 3, 2 ) => {inserted_id = 578}
+17:01:07 gine001 Gilad Nevo UPDATING data to tables `holiday_block_master` fields ( name, group_id, effect_from, effect_to, date_from, date_to, start_time, end_time, type ) values (Midsommardagen, 3, 2017, , 06-23, 06-26, 18.00, 7.00, 2) on conditions id = 46
+17:01:07 gine001 Gilad Nevo DELETE data from tables `holiday_block` on conditions block_master_id = 46
+17:01:07 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 46, 1, 2 ) => {inserted_id = 579}
+17:01:08 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 46, 2, 2 ) => {inserted_id = 580}
+17:01:08 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 46, 3, 2 ) => {inserted_id = 581}
+17:01:09 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 46, 4, 2 ) => {inserted_id = 582}
+17:02:07 gine001 Gilad Nevo UPDATING data to tables `holiday_block_master` fields ( name, group_id, effect_from, effect_to, date_from, date_to, start_time, end_time, type ) values (Pingst, 2, 2017, , 06-02, 06-05, 18.00, 7.00, 2) on conditions id = 45
+17:02:07 gine001 Gilad Nevo DELETE data from tables `holiday_block` on conditions block_master_id = 45
+17:02:07 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 45, 1, 2 ) => {inserted_id = 583}
+17:02:08 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 45, 2, 1 ) => {inserted_id = 584}
+17:02:08 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 45, 3, 1 ) => {inserted_id = 585}
+17:02:09 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 45, 4, 2 ) => {inserted_id = 586}
+17:03:10 gine001 Gilad Nevo UPDATING data to tables `holiday_block_master` fields ( name, group_id, effect_from, effect_to, date_from, date_to, start_time, end_time, type ) values (1:a Maj, 7, 2017, , 04-30, 05-02, 18.00, 7.00, 1) on conditions id = 43
+17:03:10 gine001 Gilad Nevo DELETE data from tables `holiday_block` on conditions block_master_id = 43
+17:03:10 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 43, 1, 2 ) => {inserted_id = 587}
+17:03:10 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 43, 2, 1 ) => {inserted_id = 588}
+17:03:10 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 43, 3, 2 ) => {inserted_id = 589}
+17:06:25 gine001 Gilad Nevo INSERTING data into tables `holiday_block_master` fields ( name, group_id, effect_from, effect_to, date_from, date_to, start_time, end_time, type ) values ( Kristi Himmelsfärdsdag, 8, 2018, , 05-19, 05-21, 18.00, 7.00, 1 ) => {inserted_id = 53}
+17:06:25 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 53, 1, 2 ) => {inserted_id = 590}
+17:06:25 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 53, 2, 1 ) => {inserted_id = 591}
+17:06:25 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 53, 3, 2 ) => {inserted_id = 592}
+17:06:25 gine001 Gilad Nevo UPDATING data to tables `holiday_block_master` fields ( effect_to ) values (2017) on conditions id = 44
+17:10:40 gine001 Gilad Nevo INSERTING data into tables `holiday_block_master` fields ( name, group_id, effect_from, effect_to, date_from, date_to, start_time, end_time, type ) values ( Alla helgons dag, 10, 2018, , 11-02, 11-05, 18.00, 7.00, 1 ) => {inserted_id = 54}
+17:10:40 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 54, 1, 2 ) => {inserted_id = 593}
+17:10:41 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 54, 2, 1 ) => {inserted_id = 594}
+17:10:41 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 54, 3, 2 ) => {inserted_id = 595}
+17:10:41 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 54, 4, 2 ) => {inserted_id = 596}
+17:10:42 gine001 Gilad Nevo UPDATING data to tables `holiday_block_master` fields ( effect_to ) values (2017) on conditions id = 47
+17:13:00 gine001 Gilad Nevo INSERTING data into tables `holiday_block_master` fields ( name, group_id, effect_from, effect_to, date_from, date_to, start_time, end_time, type ) values ( Pingst, 2, 2018, , 05-09, 05-11, 18.00, 7.00, 2 ) => {inserted_id = 55}
+17:13:00 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 55, 1, 2 ) => {inserted_id = 597}
+17:13:00 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 55, 2, 1 ) => {inserted_id = 598}
+17:13:00 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 55, 3, 2 ) => {inserted_id = 599}
+17:13:00 gine001 Gilad Nevo UPDATING data to tables `holiday_block_master` fields ( effect_to ) values (2017) on conditions id = 45
+17:13:37 gine001 Gilad Nevo DELETE data from tables `holiday_block_master` on conditions id = 7
+17:13:37 gine001 Gilad Nevo DELETE data from tables `holiday_block` on conditions block_master_id = 7
+17:14:47 gine001 Gilad Nevo UPDATING data to tables `holiday_block_master` fields ( name, group_id, effect_from, effect_to, date_from, date_to, start_time, end_time, type ) values (1:a Maj, 7, 2009, , 04-30, 05-02, 18.00, 7.00, 1) on conditions id = 43
+17:14:47 gine001 Gilad Nevo DELETE data from tables `holiday_block` on conditions block_master_id = 43
+17:14:47 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 43, 1, 2 ) => {inserted_id = 600}
+17:14:47 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 43, 2, 1 ) => {inserted_id = 601}
+17:14:48 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 43, 3, 2 ) => {inserted_id = 602}
+19:16:26 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+19:16:26 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2017-11-02 19:16:26) on conditions username = gine001
+19:16:26 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-11-02 19:16:26) on conditions username = gine001 AND company_id = 6
+19:16:26   UPDATING data to tables `log_login` fields ( logout_time ) values (2017-11-02:18:16:26) on conditions id = 6040 AND username = gine001

@@ -1,0 +1,22 @@
+05:57:25 kaka003 kalle Kaarlsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( kaka003, 115.248.24.177, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36 ) => {inserted_id = 1488}
+05:57:25 kaka003 kalle Kaarlsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = kaka003
+05:58:02   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = kaka003
+05:58:02   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-02-21:04:58:02) on conditions id = 1488 AND username = kaka003
+07:13:35 kaka003 kalle Kaarlsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( kaka003, 115.248.24.177, Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:22.0) Gecko/20100101 Firefox/22.0 ) => {inserted_id = 1489}
+07:13:35 kaka003 kalle Kaarlsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = kaka003
+07:45:15   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+07:45:15   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-02-21:06:45:15) on conditions id = 263 AND username = gine001
+15:22:09 rokl001 rokl001 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rokl001, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36 ) => {inserted_id = 1490}
+15:22:09 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = rokl001
+15:23:29 rokl001 rokl001 UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 4687
+15:23:29 rokl001 rokl001 INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, employee, status ) values ( hesv001, 2014-02-10, 9.00, 13.00, 0, 1, , rokl001, 4687, jata001, 1 ) => {inserted_id = 4923}
+15:24:03 rokl001 rokl001 UPDATING data to tables `mc_leave` fields ( read_users ) values (than001,kaka003,tato002,gine001,rokl001) on conditions leave_id = 46
+15:24:03 rokl001 rokl001 UPDATING data to tables `mc_leave` fields ( read_users ) values (than001,tato002,gine001,lobr002,wita001,rokl001) on conditions leave_id = 49
+15:24:03 rokl001 rokl001 UPDATING data to tables `mc_leave` fields ( read_users ) values (than001,tato002,gine001,lobr002,wita001,rokl001) on conditions leave_id = 51
+15:24:03 rokl001 rokl001 UPDATING data to tables `mc_leave` fields ( read_users ) values (wita001,than001,gine001,kaka003,tato002,rokl001) on conditions leave_id = 43
+15:24:03 rokl001 rokl001 UPDATING data to tables `mc_leave` fields ( read_users ) values (wita001,than001,gine001,kaka003,tato002,rokl001) on conditions leave_id = 44
+15:24:03 rokl001 rokl001 UPDATING data to tables `mc_leave` fields ( read_users ) values (than001,tato002,gine001,lobr002,wita001,rokl001) on conditions leave_id = 50
+15:24:03 rokl001 rokl001 UPDATING data to tables `mc_leave` fields ( read_users ) values (wita001,kaka003,than001,tato002,gine001,rokl001) on conditions leave_id = 47
+15:24:03 rokl001 rokl001 UPDATING data to tables `mc_leave` fields ( read_users ) values (kaka003,than001,tato002,gine001,wita001,rokl001) on conditions leave_id = 48
+15:24:03 rokl001 rokl001 UPDATING data to tables `mc_leave` fields ( read_users ) values (than001,rokl001) on conditions leave_id = 53
+15:24:03 rokl001 rokl001 UPDATING data to tables `mc_leave` fields ( read_users ) values (wita001,gine001,than001,kaka003,tato002,rokl001) on conditions leave_id = 41

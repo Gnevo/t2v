@@ -1,0 +1,10 @@
+10:41:02 joef001 Joel Efraimsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( joef001, 178.31.105.223, Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0 ) => {inserted_id = 5791}
+10:41:02 joef001 Joel Efraimsson DELETE data from tables `temp_session` on conditions username LIKE joef001
+10:41:02 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2017-05-03 10:41:02) on conditions username = joef001
+10:41:02 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-05-03 10:41:02) on conditions username = joef001 AND company_id = 6
+10:41:03 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (joef001) on conditions session_id = eda782eb936fa20a120f34cc4b466624
+10:41:03 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (joef001) on conditions session_id = eda782eb936fa20a120f34cc4b466624
+10:41:21 joef001 Joel Efraimsson DELETE data from tables `temp_session` on conditions username LIKE joef001
+10:41:21 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2017-05-03 10:41:21) on conditions username = joef001
+10:41:21 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-05-03 10:41:21) on conditions username = joef001 AND company_id = 6
+10:41:21   UPDATING data to tables `log_login` fields ( logout_time ) values (2017-05-03:08:41:21) on conditions id = 5791 AND username = joef001

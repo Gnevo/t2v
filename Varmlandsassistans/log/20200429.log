@@ -1,0 +1,83 @@
+09:47:48 inbe006 Ingeborg Bergren INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( inbe006, 217.76.80.50, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36 ) => {inserted_id = 8411}
+09:47:48 inbe006 Ingeborg Bergren DELETE data from tables `temp_session` on conditions username LIKE inbe006
+09:47:48 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-04-29 09:47:48) on conditions username = inbe006
+09:47:48 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-04-29 09:47:48) on conditions username = inbe006 AND company_id = 21
+09:47:50 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = 69df162e4d31fbbfb2149ecc2cf6631a
+09:51:29 gine001 Gilad Nevo1 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 89.233.236.131, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:75.0) Gecko/20100101 Firefox/75.0 ) => {inserted_id = 8412}
+09:51:29 gine001 Gilad Nevo1 DELETE data from tables `temp_session` on conditions username LIKE gine001
+09:51:29 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-04-29 09:51:29) on conditions username = gine001
+09:51:29 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-04-29 09:51:29) on conditions username = gine001 AND company_id = 21
+09:51:31 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = f02037d40e0b985c6c5e9966d8d62999
+09:55:09 gine001 Gilad Nevo1 UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (algr001, sako004, 2020-05-01, 11, 17, 1, 0, 1, ) on conditions id = 3699
+09:55:37 gine001 Gilad Nevo1 DELETE data from tables `timetable` on conditions id = 3779
+09:55:37 gine001 Gilad Nevo1 DELETE data from tables `timetable` on conditions id = 3780
+09:55:42 gine001 Gilad Nevo1 UPDATING data to tables `timetable` fields ( date ) values (2020-05-02) on conditions id = 3699
+09:56:20 gine001 Gilad Nevo1 DELETE data from tables `timetable` on conditions id = 3781
+09:57:00 gine001 Gilad Nevo1 UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (algr001, sako004, 2020-05-03, 12, 18, 1, 0, 1, ) on conditions id = 3783
+09:58:13 gine001 Gilad Nevo1 UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (algr001, sako004, 2020-05-04, 7, 14, 2, 0, 1, ) on conditions id = 3880
+09:58:38 gine001 Gilad Nevo1 UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (algr001, sako004, 2020-05-05, 18, 24, 2, 0, 1, ) on conditions id = 3881
+09:58:38 gine001 Gilad Nevo1 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( sako004, algr001, 2, 0, 2020-05-06, 0, 2, 1, , gine001,  ) => {inserted_id = 3891}
+09:59:00 gine001 Gilad Nevo1 INSERTING data into tables `temp_session` fields ( username, type, details ) values ( gine001, 1, 3881,3891 ) => {inserted_id = 0}
+09:59:30 gine001 Gilad Nevo1 UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (algr001, sako004, 2020-05-06, 18, 24, 2, 0, 1, ) on conditions id = 3837
+09:59:30 gine001 Gilad Nevo1 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( sako004, algr001, 2, 0, 2020-05-07, 0, 2, 1, , gine001,  ) => {inserted_id = 3892}
+10:00:04 gine001 Gilad Nevo1 DELETE data from tables `timetable` on conditions id = 3837
+10:00:04 gine001 Gilad Nevo1 DELETE data from tables `timetable` on conditions id = 3892
+10:00:46 gine001 Gilad Nevo1 UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (algr001, sako004, 2020-05-12, 18, 24, 1, 0, 1, ) on conditions id = 3842
+10:00:46 gine001 Gilad Nevo1 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( sako004, algr001, 1, 0, 2020-05-13, 0, 2, 1, , gine001,  ) => {inserted_id = 3893}
+10:01:06 gine001 Gilad Nevo1 DELETE data from tables `timetable` on conditions id = 3838
+10:01:06 gine001 Gilad Nevo1 DELETE data from tables `timetable` on conditions id = 3839
+10:01:06 gine001 Gilad Nevo1 DELETE data from tables `timetable` on conditions id = 3882
+10:01:46 gine001 Gilad Nevo1 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( sako004, algr001, 1, 0, 2020-05-14, 12, 16, 1, , gine001,  ) => {inserted_id = 3894}
+10:01:46 gine001 Gilad Nevo1 INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( algr001, 12, 16, 0 ) => {inserted_id = 1735}
+10:02:03 gine001 Gilad Nevo1 DELETE data from tables `timetable` on conditions id = 3846
+10:03:21 gine001 Gilad Nevo1 DELETE data from tables `timetable` on conditions id = 3847
+10:03:21 gine001 Gilad Nevo1 DELETE data from tables `timetable` on conditions id = 3848
+10:03:21 gine001 Gilad Nevo1 DELETE data from tables `timetable` on conditions id = 3849
+10:03:21 gine001 Gilad Nevo1 DELETE data from tables `timetable` on conditions id = 3851
+10:04:23 gine001 Gilad Nevo1 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( sako004, algr001, 1, 0, 2020-05-16, 23, 24, 1, , gine001,  ) => {inserted_id = 3895}
+10:04:23 gine001 Gilad Nevo1 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( sako004, algr001, 1, 0, 2020-05-17, 0, 7, 1, , gine001,  ) => {inserted_id = 3896}
+10:04:45 gine001 Gilad Nevo1 UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (algr001, sako004, 2020-05-18, 12, 21, 1, 0, 1, ) on conditions id = 3852
+10:05:12 gine001 Gilad Nevo1 UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (algr001, sako004, 2020-05-19, 6, 15, 1, 0, 1, ) on conditions id = 3853
+10:05:40 gine001 Gilad Nevo1 DELETE data from tables `timetable` on conditions id = 3857
+10:05:40 gine001 Gilad Nevo1 DELETE data from tables `timetable` on conditions id = 3858
+10:06:07 gine001 Gilad Nevo1 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( sako004, algr001, 1, 0, 2020-05-21, 18, 24, 1, , gine001,  ) => {inserted_id = 3897}
+10:06:07 gine001 Gilad Nevo1 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( sako004, algr001, 1, 0, 2020-05-22, 0, 2, 1, , gine001,  ) => {inserted_id = 3898}
+10:06:30 gine001 Gilad Nevo1 UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (algr001, sako004, 2020-05-26, 12, 19, 1, 0, 1, ) on conditions id = 3860
+10:06:58 gine001 Gilad Nevo1 DELETE data from tables `timetable` on conditions id = 3859
+10:06:58 gine001 Gilad Nevo1 DELETE data from tables `timetable` on conditions id = 3863
+10:06:58 gine001 Gilad Nevo1 DELETE data from tables `timetable` on conditions id = 3867
+10:08:21 gine001 Gilad Nevo1 DELETE data from tables `timetable` on conditions id = 3784
+10:08:21 gine001 Gilad Nevo1 DELETE data from tables `timetable` on conditions id = 3782
+10:08:21 gine001 Gilad Nevo1 DELETE data from tables `timetable` on conditions id = 3841
+10:08:46 gine001 Gilad Nevo1 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( jihe001, algr001, 1, 0, 2020-05-07, 7, 24, 1, , gine001,  ) => {inserted_id = 3899}
+10:08:46 gine001 Gilad Nevo1 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( jihe001, algr001, 1, 0, 2020-05-08, 0, 3, 1, , gine001,  ) => {inserted_id = 3900}
+10:09:07 gine001 Gilad Nevo1 UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (algr001, jihe001, 2020-05-09, 12, 18, 1, 0, 1, ) on conditions id = 3840
+10:09:40 gine001 Gilad Nevo1 DELETE data from tables `timetable` on conditions id = 3844
+10:09:40 gine001 Gilad Nevo1 DELETE data from tables `timetable` on conditions id = 3845
+10:09:40 gine001 Gilad Nevo1 DELETE data from tables `timetable` on conditions id = 3850
+10:09:55 gine001 Gilad Nevo1 UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (algr001, jihe001, 2020-05-13, 12, 24, 1, 0, 1, ) on conditions id = 3843
+10:09:55 gine001 Gilad Nevo1 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( jihe001, algr001, 1, 0, 2020-05-14, 0, 8, 1, , gine001,  ) => {inserted_id = 3901}
+10:10:40 gine001 Gilad Nevo1 DELETE data from tables `timetable` on conditions id = 3854
+10:11:02 gine001 Gilad Nevo1 DELETE data from tables `timetable` on conditions id = 3861
+10:11:02 gine001 Gilad Nevo1 DELETE data from tables `timetable` on conditions id = 3862
+10:11:02 gine001 Gilad Nevo1 DELETE data from tables `timetable` on conditions id = 3864
+10:11:03 gine001 Gilad Nevo1 DELETE data from tables `timetable` on conditions id = 3865
+10:11:03 gine001 Gilad Nevo1 DELETE data from tables `timetable` on conditions id = 3866
+10:11:27 gine001 Gilad Nevo1 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( jihe001, algr001, 1, 0, 2020-05-23, 12, 24, 1, , gine001,  ) => {inserted_id = 3902}
+10:11:27 gine001 Gilad Nevo1 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( jihe001, algr001, 1, 0, 2020-05-24, 0, 8, 1, , gine001,  ) => {inserted_id = 3903}
+10:12:11 gine001 Gilad Nevo1 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( jihe001, algr001, 1, 0, 2020-05-27, 12, 24, 1, , gine001,  ) => {inserted_id = 3904}
+10:12:11 gine001 Gilad Nevo1 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( jihe001, algr001, 1, 0, 2020-05-28, 0, 8, 1, , gine001,  ) => {inserted_id = 3905}
+10:12:11 gine001 Gilad Nevo1 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( jihe001, algr001, 1, 0, 2020-05-28, 12, 24, 1, , gine001,  ) => {inserted_id = 3906}
+10:12:11 gine001 Gilad Nevo1 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( jihe001, algr001, 1, 0, 2020-05-29, 0, 8, 1, , gine001,  ) => {inserted_id = 3907}
+15:15:00 jihe001 Jimmy Hellstrand UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = jihe001 AND company_id = 21
+15:15:00 jihe001 Jimmy Hellstrand INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( jihe001, 217.211.13.33, okhttp/3.9.1 ) => {inserted_id = 8413}
+15:15:00 jihe001 Jimmy Hellstrand DELETE data from tables `temp_session` on conditions username LIKE jihe001
+15:15:00 jihe001 Jimmy Hellstrand UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-04-29 15:15:00) on conditions username = jihe001
+15:15:00 jihe001 Jimmy Hellstrand UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-04-29 15:15:00) on conditions username = jihe001 AND company_id = 21
+17:26:34 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = rute001 AND company_id = 21
+17:26:34 rute001 Ruta Teklehaimanot INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rute001, 78.68.12.244, okhttp/3.9.1 ) => {inserted_id = 8414}
+17:26:34 rute001 Ruta Teklehaimanot DELETE data from tables `temp_session` on conditions username LIKE rute001
+17:26:34 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-04-29 17:26:34) on conditions username = rute001
+17:26:34 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-04-29 17:26:34) on conditions username = rute001 AND company_id = 21
+20:01:09 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = f02037d40e0b985c6c5e9966d8d62999
+20:01:47 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = f02037d40e0b985c6c5e9966d8d62999

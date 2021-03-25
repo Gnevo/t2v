@@ -1,0 +1,19 @@
+07:12:33 gine001 root001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , anst007, 1, 0, 2014-02-24, 1, 5, 0, gine001 ) => {inserted_id = 4185}
+07:12:33 gine001 root001 INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( anst007, 1, 5, 0 ) => {inserted_id = 165}
+07:12:43 gine001 root001 UPDATING data to tables `general_customer_employee_settings` fields ( dont_show_slot_operation_flag ) values () on conditions settings_owner = gine001 AND customer = anst007
+07:13:25 gine001 root001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , anst007, 1, 3, 2014-02-24, 1, 5, 0, gine001 ) => {inserted_id = 4186}
+07:13:25 gine001 root001 INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( anst007, 1, 5, 3 ) => {inserted_id = 166}
+07:13:25 gine001 root001 UPDATING data to tables `general_customer_employee_settings` fields ( dont_show_slot_operation_flag ) values (1) on conditions settings_owner = gine001 AND customer = anst007 AND (employee IS NULL OR employee = )
+07:33:04   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+07:33:04   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-01-14:06:33:04) on conditions id = 155 AND username = gine001
+07:55:14 gine001 root001 DELETE data from tables `memory_slots` on conditions id = 149
+07:55:16 gine001 root001 DELETE data from tables `memory_slots` on conditions id = 122
+07:55:18 gine001 root001 DELETE data from tables `memory_slots` on conditions id = 159
+07:55:20 gine001 root001 DELETE data from tables `memory_slots` on conditions id = 154
+07:55:22 gine001 root001 DELETE data from tables `memory_slots` on conditions id = 155
+07:55:24 gine001 root001 DELETE data from tables `memory_slots` on conditions id = 145
+07:55:26 gine001 root001 DELETE data from tables `memory_slots` on conditions id = 153
+07:55:42 gine001 root001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , hesv001, 1, 0, 2014-04-21, 20.05, 23.30, 0, gine001 ) => {inserted_id = 4187}
+07:55:42 gine001 root001 INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( hesv001, 20.05, 23.30, 0 ) => {inserted_id = 167}
+07:56:08 gine001 root001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , hesv001, 1, 3, 2014-04-21, 20, 20.25, 0, gine001 ) => {inserted_id = 4188}
+07:56:08 gine001 root001 INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( hesv001, 20, 20.25, 3 ) => {inserted_id = 168}

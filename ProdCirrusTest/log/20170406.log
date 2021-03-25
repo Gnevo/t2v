@@ -1,0 +1,18 @@
+12:24:10 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 37.196.125.117, Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0 ) => {inserted_id = 5746}
+12:24:10 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+12:24:10 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2017-04-06 12:24:10) on conditions username = gine001
+12:24:10 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-04-06 12:24:10) on conditions username = gine001 AND company_id = 6
+12:24:11 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 7f52ef859211a2b7dbb0d33fd5140dac
+12:26:24 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirruscommon`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, category_id, priority, ticket_type, status, hidden ) values ( 1139, gine001, <p>Är det bara en assistent?<br>Finns det andra so är sjuka, hur ser det ut där?</p><p>Kolla gärna återkom med svar. Vi kollar denna specifika assistent.<br></p>, 19, 4, 1, 2, 0 ) => {inserted_id = 1956}
+12:27:11 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirruscommon`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, category_id, priority, ticket_type, status, hidden ) values ( 1139, gine001, <p>Problem with conting of sick.</p><p>Talk to me when back in office.<br></p>, 19, 4, 1, 2, 1 ) => {inserted_id = 1957}
+12:28:00 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirruscommon`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, category_id, priority, ticket_type, status, hidden ) values ( 1137, gine001, <p>Vi gjorde en uppdatering på testmiljö. Löst.<br></p>, 1, 2, 1, 4, 0 ) => {inserted_id = 1958}
+14:40:26 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (1) on conditions username = gine001 AND company_id = 6
+14:40:33 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+14:40:33 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 195.67.99.50, Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0 ) => {inserted_id = 5747}
+14:40:33 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+14:40:33 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2017-04-06 14:40:33) on conditions username = gine001
+14:40:33 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-04-06 14:40:33) on conditions username = gine001 AND company_id = 6
+14:40:34 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 7f52ef859211a2b7dbb0d33fd5140dac
+18:18:05 root001 root001 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( root001, 85.227.155.14, Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0 ) => {inserted_id = 5748}
+18:18:05 root001 root001 DELETE data from tables `temp_session` on conditions username LIKE root001
+18:18:05 root001 root001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2017-04-06 18:18:05) on conditions username = root001

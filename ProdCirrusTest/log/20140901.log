@@ -1,0 +1,49 @@
+15:15:18 than001 Thomas Andersson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( than001, 46.194.213.196, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36 ) => {inserted_id = 1737}
+15:16:02 than001 Thomas Andersson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( password, mobile, role, error ) values (2f5d5c7041bed50bd147e002366b5576, 723222222, 3, 0) on conditions username = joef001
+15:16:02 than001 Thomas Andersson UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day, remaining_sem_leave, sem_leave_todate, leave_in_advance, care_of ) values (88, 19, 9507220458, Joel, Efraimsson, 1, Islanda Gläntan 109, Hökerum, 52399, 333409848, 723222222, , 2012-11-15, #FFFFFF, 1, , , 0, 10.00, 0, , , ) on conditions username = joef001
+15:16:08 joef001 Joel Efraimsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( joef001, 85.227.156.14, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36 ) => {inserted_id = 1738}
+15:16:08 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = joef001
+15:18:12 than001 Thomas Andersson UPDATING data to tables `privileges_mc` fields ( leave_notification, leave_approval, leave_rejection, leave_edit, notes, cirrus_mail, external_mail, sms, notes_approval, notes_rejection, notes_attchment, document_archive ) values (, , , , , 1, 1, , , , , ) on conditions employee = joef001
+15:18:36 than001 Thomas Andersson UPDATING data to tables `privileges_mc` fields ( leave_notification, leave_approval, leave_rejection, leave_edit, notes, cirrus_mail, external_mail, sms, notes_approval, notes_rejection, notes_attchment, document_archive ) values (, , , , 1, 1, 1, , , , , ) on conditions employee = joef001
+15:27:30 than001 Thomas Andersson UPDATING data to tables `note` fields ( status ) values (0) on conditions id = 26
+15:28:02 than001 Thomas Andersson UPDATING data to tables `note` fields ( status ) values (1) on conditions id = 26
+15:28:11 than001 Thomas Andersson INSERTING data into tables `mc_note` fields ( note_id, read_users ) values ( 26, than001 ) => {inserted_id = 24}
+15:28:21 than001 Thomas Andersson UPDATING data to tables `note` fields ( title, description, visibility, customer, last_updated_user, last_updated_date ) values (test1, Test1, 2, hesv001, than001, 2014-09-01 13:28:21) on conditions id = 26
+15:28:21 than001 Thomas Andersson UPDATING data to tables `note` fields ( attachment ) values () on conditions id = 26
+15:28:21 than001 Thomas Andersson INSERTING data into tables `note` fields ( created_user, title, description, visibility, status, customer, attachment ) values ( than001, test1, Test1, 2, 2, hesv001,  ) => {inserted_id = 27}
+15:28:21 than001 Thomas Andersson UPDATING data to tables `note` fields ( attachment ) values () on conditions id = 27
+15:28:42 than001 Thomas Andersson INSERTING data into tables `mc_note` fields ( note_id, read_users ) values ( 27, than001 ) => {inserted_id = 25}
+15:29:14 than001 Thomas Andersson UPDATING data to tables `note` fields ( title, description, visibility, customer, last_updated_user, last_updated_date ) values (test1, Test1, 4, hesv001, than001, 2014-09-01 13:29:14) on conditions id = 27
+15:29:14 than001 Thomas Andersson UPDATING data to tables `note` fields ( attachment ) values () on conditions id = 27
+15:29:14 than001 Thomas Andersson INSERTING data into tables `note` fields ( created_user, title, description, visibility, status, customer, attachment ) values ( than001, test1, Test1, 4, 4, hesv001,  ) => {inserted_id = 28}
+15:29:14 than001 Thomas Andersson UPDATING data to tables `note` fields ( attachment ) values () on conditions id = 28
+15:29:55 than001 Thomas Andersson INSERTING data into tables `mc_note` fields ( note_id, read_users ) values ( 28, than001 ) => {inserted_id = 26}
+15:30:40 than001 Thomas Andersson UPDATING data to tables `mc_note` fields ( read_users ) values (than001,than001) on conditions note_id = 28
+15:30:43 than001 Thomas Andersson DELETE data from tables `note` on conditions id = 28
+15:30:59 than001 Thomas Andersson UPDATING data to tables `mc_note` fields ( read_users ) values (than001,than001) on conditions note_id = 27
+15:31:02 than001 Thomas Andersson DELETE data from tables `note` on conditions id = 27
+15:32:14 than001 Thomas Andersson UPDATING data to tables `mc_note` fields ( read_users ) values (than001,joef001,than001) on conditions note_id = 26
+15:32:28 than001 Thomas Andersson UPDATING data to tables `note` fields ( title, description, visibility, customer, last_updated_user, last_updated_date ) values (test1, Test1, 4, hesv001, than001, 2014-09-01 13:32:28) on conditions id = 26
+15:32:28 than001 Thomas Andersson UPDATING data to tables `note` fields ( attachment ) values () on conditions id = 26
+15:32:28 than001 Thomas Andersson INSERTING data into tables `note` fields ( created_user, title, description, visibility, status, customer, attachment ) values ( than001, test1, Test1, 4, 4, hesv001,  ) => {inserted_id = 29}
+15:32:28 than001 Thomas Andersson UPDATING data to tables `note` fields ( attachment ) values () on conditions id = 29
+15:33:42   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = than001
+15:33:42   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-09-01:13:33:42) on conditions id = 1737 AND username = than001
+15:35:32 gine001 root001 UPDATING data to tables `privileges_mc` fields ( leave_notification, leave_approval, leave_rejection, leave_edit, notes, cirrus_mail, external_mail, sms, notes_approval, notes_rejection, notes_attchment, document_archive ) values (, , , , , , , , , , , ) on conditions employee = joef001
+15:39:02 gine001 root001 INSERTING data into tables `note` fields ( created_user, title, description, visibility, status, customer, attachment ) values ( gine001, från webb Admin only, adm bara, 4, 4, hesv001,  ) => {inserted_id = 31}
+15:39:02 gine001 root001 UPDATING data to tables `note` fields ( attachment ) values () on conditions id = 31
+15:39:44 gine001 root001 INSERTING data into tables `note` fields ( created_user, title, description, visibility, status, customer, attachment ) values ( gine001, från webb Kontoret/kund, från webb Kontoret/kund, 2, 2, hesv001,  ) => {inserted_id = 32}
+15:39:44 gine001 root001 UPDATING data to tables `note` fields ( attachment ) values () on conditions id = 32
+15:40:34 gine001 root001 INSERTING data into tables `note` fields ( created_user, title, description, visibility, status, customer, attachment ) values ( gine001, public webb, pubb webb, 1, 1, hesv001,  ) => {inserted_id = 33}
+15:40:34 gine001 root001 UPDATING data to tables `note` fields ( attachment ) values () on conditions id = 33
+15:43:54 gine001 root001 UPDATING data to tables `privileges_mc` fields ( leave_notification, leave_approval, leave_rejection, leave_edit, notes, cirrus_mail, external_mail, sms, notes_approval, notes_rejection, notes_attchment, document_archive ) values (, , , , 1, , , , , , , ) on conditions employee = joef001
+15:44:28   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = joef001
+15:44:28   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-09-01:13:44:28) on conditions id = 1738 AND username = joef001
+15:44:38 gine001 root001 UPDATING data to tables `privileges_mc` fields ( leave_notification, leave_approval, leave_rejection, leave_edit, notes, cirrus_mail, external_mail, sms, notes_approval, notes_rejection, notes_attchment, document_archive ) values (, , , , 1, , , , , , , ) on conditions employee = joef001
+15:44:43 joef001 Joel Efraimsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( joef001, 85.227.156.14, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36 ) => {inserted_id = 1744}
+15:44:43 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = joef001
+15:52:29   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = joef001
+15:52:29   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-09-01:13:52:29) on conditions id = 1744 AND username = joef001
+19:22:53 gine001 root001 UPDATING data to tables `fkkn_form_defaults` fields ( bargaining, other_bargaining_text, agreement_types, agreement_type2_company, agreement_type2_orgNo, health_care_agency ) values (2, , 0||0||0, , , 0) on conditions customer = stal001
+19:30:04   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+19:30:04   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-09-01:17:30:04) on conditions id = 763 AND username = gine001

@@ -1,0 +1,27 @@
+06:56:52 thne001 Theodor Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( thne001, 85.227.155.243, Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36 ) => {inserted_id = 6897}
+06:56:52 thne001 Theodor Nevo DELETE data from tables `temp_session` on conditions username LIKE thne001
+06:56:52 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-08-13 06:56:52) on conditions username = thne001
+06:56:52 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-08-13 06:56:52) on conditions username = thne001 AND company_id = 6
+08:37:27 rawi001 Ramser Williams INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rawi001, 85.227.155.243, Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36 ) => {inserted_id = 6898}
+08:37:27 rawi001 Ramser Williams DELETE data from tables `temp_session` on conditions username LIKE rawi001
+08:37:27 rawi001 Ramser Williams UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-08-13 08:37:27) on conditions username = rawi001
+08:37:27 rawi001 Ramser Williams UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-08-13 08:37:27) on conditions username = rawi001 AND company_id = 6
+08:37:28 rawi001 Ramser Williams UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (rawi001) on conditions session_id = 0be38bb17b174492bfb0c592946a45e4
+08:40:21 thne001 Theodor Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( thne001, 85.227.155.243, Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0 ) => {inserted_id = 6899}
+08:40:21 thne001 Theodor Nevo DELETE data from tables `temp_session` on conditions username LIKE thne001
+08:40:22 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-08-13 08:40:21) on conditions username = thne001
+08:40:22 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-08-13 08:40:21) on conditions username = thne001 AND company_id = 6
+08:40:22 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = dd1f0d03403d0a852af70a26329daaf1
+08:42:09 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = dd1f0d03403d0a852af70a26329daaf1
+08:42:25 rawi001 Ramser Williams UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (rawi001) on conditions session_id = 0be38bb17b174492bfb0c592946a45e4
+08:43:09 thne001 Theodor Nevo INSERTING data into tables `privileges` fields ( employee, customer ) values ( rawi001, stbj001 ) => {inserted_id = 0}
+08:43:09 thne001 Theodor Nevo UPDATING data to tables `privileges` fields ( swap, process, add_slot, fkkn, slot_type, add_customer, add_employee, remove_customer, remove_employee, `leave`, copy_single_slot, copy_single_slot_option, copy_day_slot, copy_day_slot_option, split_slot, delete_slot, delete_day_slot, delete_multiple_slots, contract_override, atl_override, change_time, no_pay_leave, candg_approve, show_percentage_monthly, not_show_employees ) values (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1) on conditions employee = rawi001 AND customer = stbj001
+08:43:16 rawi001 Ramser Williams UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (rawi001) on conditions session_id = 0be38bb17b174492bfb0c592946a45e4
+08:48:54 rawi001 Ramser Williams DELETE data from tables `temp_session` on conditions username LIKE rawi001
+08:48:54 rawi001 Ramser Williams UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2018-08-13 08:48:54) on conditions username = rawi001
+08:48:54 rawi001 Ramser Williams UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-08-13 08:48:54) on conditions username = rawi001 AND company_id = 6
+08:48:54   UPDATING data to tables `log_login` fields ( logout_time ) values (2018-08-13:06:48:54) on conditions id = 6898 AND username = rawi001
+09:47:06 thne001 Theodor Nevo DELETE data from tables `temp_session` on conditions username LIKE thne001
+09:47:06 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2018-08-13 09:47:06) on conditions username = thne001
+09:47:06 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-08-13 09:47:06) on conditions username = thne001 AND company_id = 6
+09:47:06   UPDATING data to tables `log_login` fields ( logout_time ) values (2018-08-13:07:47:06) on conditions id = 6899 AND username = thne001

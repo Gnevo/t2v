@@ -1,0 +1,20 @@
+12:02:21 zefe001 Zeid Feili INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( zefe001, 90.236.233.78, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 ) => {inserted_id = 8996}
+12:02:22 zefe001 Zeid Feili DELETE data from tables `temp_session` on conditions username LIKE zefe001
+12:02:22 zefe001 Zeid Feili UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-06-26 12:02:22) on conditions username = zefe001
+12:02:22 zefe001 Zeid Feili UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-06-26 12:02:22) on conditions username = zefe001 AND company_id = 21
+12:02:22 zefe001 Zeid Feili UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (zefe001) on conditions session_id = b16fb68b6300552a3845086d8ccd49f3
+12:18:28 fasa004 Fatima Saleh Abubaker UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = fasa004 AND company_id = 21
+12:18:28 fasa004 Fatima Saleh Abubaker INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( fasa004, 85.224.30.125, okhttp/3.9.1 ) => {inserted_id = 8997}
+12:18:28 fasa004 Fatima Saleh Abubaker DELETE data from tables `temp_session` on conditions username LIKE fasa004
+12:18:28 fasa004 Fatima Saleh Abubaker UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-06-26 12:18:28) on conditions username = fasa004
+12:18:28 fasa004 Fatima Saleh Abubaker UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-06-26 12:18:28) on conditions username = fasa004 AND company_id = 21
+15:15:09 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = rute001 AND company_id = 21
+15:15:09 rute001 Ruta Teklehaimanot INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rute001, 90.224.18.59, okhttp/3.9.1 ) => {inserted_id = 8998}
+15:15:09 rute001 Ruta Teklehaimanot DELETE data from tables `temp_session` on conditions username LIKE rute001
+15:15:09 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-06-26 15:15:09) on conditions username = rute001
+15:15:09 rute001 Ruta Teklehaimanot UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-06-26 15:15:09) on conditions username = rute001 AND company_id = 21
+15:36:23 fasa004 Fatima Saleh Abubaker UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = fasa004 AND company_id = 21
+15:36:23 fasa004 Fatima Saleh Abubaker INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( fasa004, 85.224.30.125, okhttp/3.9.1 ) => {inserted_id = 8999}
+15:36:23 fasa004 Fatima Saleh Abubaker DELETE data from tables `temp_session` on conditions username LIKE fasa004
+15:36:23 fasa004 Fatima Saleh Abubaker UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-06-26 15:36:23) on conditions username = fasa004
+15:36:23 fasa004 Fatima Saleh Abubaker UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-06-26 15:36:23) on conditions username = fasa004 AND company_id = 21

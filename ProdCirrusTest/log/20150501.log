@@ -1,0 +1,15 @@
+12:57:32 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+12:57:32 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 212.181.151.6, Mozilla/5.0 (Linux; U; Android 4.4.2; sv-se; GT-P5210 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 ) => {inserted_id = 2585}
+12:57:32 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+12:57:32 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+12:57:33 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 998nka9kmfpkahctoc3f75njj4
+12:59:39 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 998nka9kmfpkahctoc3f75njj4
+13:05:24 gine001 Gilad Nevo INSERTING data into tables `leave_sms` fields ( slot, employee, status, alloc_employee ) values ( 5607, gine001, 4, gine001 ) => {inserted_id = 22}
+13:06:41 gine001 Gilad Nevo INSERTING data into tables `leave_sms` fields ( slot, employee, status, alloc_employee ) values ( 5607, gine001, 5, gine001 ) => {inserted_id = 23}
+13:14:48 gine001 Gilad Nevo INSERTING data into tables `leave_sms` fields ( slot, employee, status, alloc_employee ) values ( 5607, gine001, 4, gine001 ) => {inserted_id = 24}
+13:15:07 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+13:15:07 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+13:15:07   UPDATING data to tables `log_login` fields ( logout_time ) values (2015-05-01:11:15:07) on conditions id = 2585 AND username = gine001
+14:13:45 gine001  INSERTING data into tables `leave_sms` fields ( slot, employee, status, alloc_employee ) values ( 6638, gine001, 5, gine001 ) => {inserted_id = 25}
+14:13:54 gine001  INSERTING data into tables `leave_sms` fields ( slot, employee, status, alloc_employee ) values ( 6638, gine001, 4, gine001 ) => {inserted_id = 26}
+14:14:31 gine001  INSERTING data into tables `leave_sms` fields ( slot, employee, status, alloc_employee ) values ( 6638, gine001, 4, gine001 ) => {inserted_id = 27}

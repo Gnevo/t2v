@@ -1,0 +1,26 @@
+21:56:09 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+21:56:09 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.154.135, Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0 ) => {inserted_id = 2179}
+21:56:09 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+21:56:09 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+21:57:36 gine001 Gilad Nevo DELETE data from tables `holiday_block_master` on conditions id = 20
+21:57:36 gine001 Gilad Nevo DELETE data from tables `holiday_block` on conditions block_master_id = 20
+21:58:26 gine001 Gilad Nevo UPDATING data to tables `holiday_block_master` fields ( name, group_id, effect_from, effect_to, date_from, date_to, start_time, end_time, type ) values (Trettondagen, 6, 2012, , 01-05, 01-07, 18.00, 7.00, 2) on conditions id = 6
+21:58:26 gine001 Gilad Nevo DELETE data from tables `holiday_block` on conditions block_master_id = 6
+21:58:26 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 6, 1, 2 ) => {inserted_id = 163}
+21:58:26 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 6, 2, 1 ) => {inserted_id = 164}
+21:58:26 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 6, 3, 2 ) => {inserted_id = 165}
+21:58:52 gine001 Gilad Nevo INSERTING data into tables `holiday_block_master` fields ( name, group_id, effect_from, effect_to, date_from, date_to, start_time, end_time, type ) values ( Trettondagen, 6, 2013, , 01-05, 01-07, 18.00, 7.00, 2 ) => {inserted_id = 24}
+21:58:52 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 24, 1, 2 ) => {inserted_id = 166}
+21:58:52 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 24, 2, 1 ) => {inserted_id = 167}
+21:58:52 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 24, 3, 2 ) => {inserted_id = 168}
+21:58:52 gine001 Gilad Nevo UPDATING data to tables `holiday_block_master` fields ( effect_to ) values (2012) on conditions id = 6
+21:59:17 gine001 Gilad Nevo INSERTING data into tables `holiday_block_master` fields ( name, group_id, effect_from, effect_to, date_from, date_to, start_time, end_time, type ) values ( Trettondagen, 6, 2014, , 01-05, 01-07, 18.00, 7.00, 2 ) => {inserted_id = 25}
+21:59:17 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 25, 1, 2 ) => {inserted_id = 169}
+21:59:18 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 25, 2, 1 ) => {inserted_id = 170}
+21:59:18 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 25, 3, 2 ) => {inserted_id = 171}
+21:59:18 gine001 Gilad Nevo UPDATING data to tables `holiday_block_master` fields ( effect_to ) values (2013) on conditions id = 24
+22:00:12 gine001 Gilad Nevo INSERTING data into tables `holiday_block_master` fields ( name, group_id, effect_from, effect_to, date_from, date_to, start_time, end_time, type ) values ( Trettondagen, 6, 2015, , 01-05, 01-07, 18.00, 7.00, 2 ) => {inserted_id = 26}
+22:00:12 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 26, 1, 2 ) => {inserted_id = 172}
+22:00:12 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 26, 2, 1 ) => {inserted_id = 173}
+22:00:12 gine001 Gilad Nevo INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 26, 3, 2 ) => {inserted_id = 174}
+22:00:12 gine001 Gilad Nevo UPDATING data to tables `holiday_block_master` fields ( effect_to ) values (2014) on conditions id = 25

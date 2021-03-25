@@ -1,0 +1,6 @@
+11:25:14 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 117.222.166.226, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 ) => {inserted_id = 11130}
+11:25:14 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+11:25:14 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-05-13 11:25:14) on conditions username = dodo001
+11:25:14 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-05-13 11:25:14) on conditions username = dodo001 AND company_id = 6
+11:25:16 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = ce4b35cde9e7eb62c98cd97c3e456341
+11:25:44 dodo001 Admin Cirrus INSERTING data into tables `employee_non_preferred_timings` fields ( group_id, employee, date_from, date_to, day, time_from, time_to, mode ) values ( 16, chyi001, 2020-05-01, 2020-05-03, 5, 10, 12, 1 ), ( 16, chyi001, 2020-05-01, 2020-05-03, 6, 12, 14, 1 ) => {inserted_id = 55}

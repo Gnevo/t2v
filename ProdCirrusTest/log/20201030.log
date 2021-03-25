@@ -1,0 +1,12 @@
+10:07:54 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 89.233.236.131, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0 ) => {inserted_id = 15109}
+10:07:54 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+10:07:54 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-10-30 10:07:54) on conditions username = gine001
+10:07:54 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-10-30 10:07:54) on conditions username = gine001 AND company_id = 6
+17:36:29 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 89.233.236.131, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0 ) => {inserted_id = 15110}
+17:36:29 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+17:36:29 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-10-30 17:36:29) on conditions username = gine001
+17:36:29 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-10-30 17:36:29) on conditions username = gine001 AND company_id = 6
+17:36:30 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = coiflrt06giptaj0ba9688e733
+17:37:03 gine001 Gilad Nevo UPDATING data to tables `employee` fields ( language ) values (en) on conditions username = gine001
+17:37:28 gine001 Gilad Nevo INSERTING data into tables `customer_work` fields ( customer, work, history, clinical_picture, devolution, medications, special_diet, writable, created_by ) values ( stal001, <p class="note_block_head mt ml mr">deswork date: 2020-10-30 17:37   Name: Gilad Nevo</p></br/><p class="ml">Test bold</p>, , , ja, , , , gine001 ) => {inserted_id = 7}
+21:21:36 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = coiflrt06giptaj0ba9688e733

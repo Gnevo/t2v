@@ -1,0 +1,30 @@
+04:21:21 gine001  UPDATING data to tables `mc_note` fields ( read_users ) values (dodo001,gine001) on conditions note_id = 65 #Mobile-App: Log-id=3857
+04:21:25 gine001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 81.233.113.24, android ) => {inserted_id = 3858} #Mobile-App: Log-id=3857
+04:21:29 gine001  INSERTING data into tables `mc_leave` fields ( leave_id, leave_status, read_users ) values ( 103, 1, gine001 ) => {inserted_id = 115} #Mobile-App: Log-id=3858
+04:21:29 gine001  INSERTING data into tables `mc_leave` fields ( leave_id, leave_status, read_users ) values ( 104, 0, gine001 ) => {inserted_id = 116} #Mobile-App: Log-id=3858
+04:21:29 gine001  INSERTING data into tables `mc_leave` fields ( leave_id, leave_status, read_users ) values ( 102, 1, gine001 ) => {inserted_id = 117} #Mobile-App: Log-id=3858
+04:21:34 gine001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 81.233.113.24, android ) => {inserted_id = 3859} #Mobile-App: Log-id=3858
+04:24:00 gine001  INSERTING data into tables `user_task` fields ( userid, dag, start_time, customer ) values ( gine001, 2015-10-07, 4:25:00, anst007 ) => {inserted_id = 62} #Mobile-App: Log-id=3860
+04:24:22 gine001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 81.233.113.24, android ) => {inserted_id = 3861} #Mobile-App: Log-id=3860
+04:25:08 gine001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 81.233.113.24, android ) => {inserted_id = 3862} #Mobile-App: Log-id=3861
+04:26:01 gine001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 81.233.113.24, android ) => {inserted_id = 3863} #Mobile-App: Log-id=3862
+04:26:33 gine001  UPDATING data to tables `leave` fields ( status, appr_emp, appr_date ) values (1, gine001, 2015-10-07) on conditions group_id = 104 #Mobile-App: Log-id=3863
+04:26:46 gine001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 81.233.113.24, android ) => {inserted_id = 3864} #Mobile-App: Log-id=3863
+04:27:19 gine001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 81.233.113.24, android ) => {inserted_id = 3865} #Mobile-App: Log-id=3864
+04:28:05 gine001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 81.233.113.24, android ) => {inserted_id = 3866} #Mobile-App: Log-id=3865
+04:28:36 gine001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 81.233.113.24, android ) => {inserted_id = 3867} #Mobile-App: Log-id=3866
+04:28:59 gine001  UPDATING data to tables `timetable` fields ( status, comment ) values (1, ) on conditions id = 8320 #Mobile-App: Log-id=3867
+04:29:15 gine001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 81.233.113.24, android ) => {inserted_id = 3868} #Mobile-App: Log-id=3867
+04:30:46 gine001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 81.233.113.24, android ) => {inserted_id = 3869} #Mobile-App: Log-id=3868
+04:38:20 gine001  INSERTING data into tables `time2vie_cirruscommon`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, category_id, priority, ticket_type, status, hidden ) values ( 451, gine001, Menar du att du signerar varje assistent rapport f?r sig?
+Du har en signering f?r varje grupp., 9, 4, 2, 1, 0 ) => {inserted_id = 1441} #Mobile-App: Log-id=3869
+04:39:44 gine001  INSERTING data into tables `time2vie_cirruscommon`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, category_id, priority, ticket_type, status, hidden ) values ( 454, gine001, Ok.  L?gger detta till programmering., 11, 2, 2, 1, 0 ) => {inserted_id = 1442} #Mobile-App: Log-id=3869
+04:42:55 gine001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 81.233.113.24, android ) => {inserted_id = 47244} #Mobile-App: Log-id=3869
+04:46:22 gine001  INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( gine001, anst007, 1, 3, 2015-10-07, 4.25, 4.45, 4, 1, gine001,  ) => {inserted_id = 8324} #Mobile-App: Log-id=3870
+04:46:22 gine001  UPDATING data to tables `user_task` fields ( slotids=?, end_time=?, dur=TIMEDIFF(`end_time`,`start_time`), status=? ) values (8324,, 2015-10-07 4:46:22, 1) on conditions id = 62 #Mobile-App: Log-id=3870
+04:46:50 gine001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 81.233.113.24, android ) => {inserted_id = 3871} #Mobile-App: Log-id=3870
+10:16:09 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+10:16:09 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.119.25, Mozilla/5.0 (Windows NT 6.1; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0 ) => {inserted_id = 3872}
+10:16:09 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+10:16:09 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-10-07 08:16:09) on conditions username = gine001
+10:16:10 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = fjmtb3k28eqq3putngpkifhu43

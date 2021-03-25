@@ -1,0 +1,9 @@
+06:32:47 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 117.214.24.221, Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36 ) => {inserted_id = 1803}
+06:32:47 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+06:40:46 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 117.214.24.221, Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36 ) => {inserted_id = 1804}
+06:40:46 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+06:54:25   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+06:54:25   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-09-27:04:54:25) on conditions id = 1804 AND username = gine001
+07:12:14 gine001 root001 UPDATING data to tables `timetable` fields ( status, comment ) values (1, ) on conditions id = 5746
+08:14:30 gine001 root001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( role, mobile ) values (1, ) on conditions username = kaek001
+08:14:30 gine001 root001 UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day, remaining_sem_leave, sem_leave_todate, leave_in_advance, care_of, office_personal ) values (20026, 19, 3506026511, Alexander, Silow, 1, Erkisbergsvägen 10, Kumla, 692 32, , , alexander.silow@togetherpersonligassistans.se, 2014-06-23, #A48CE5, 1, , , 0, 10.00, 0, , , , ) on conditions username = kaek001

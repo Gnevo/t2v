@@ -1,0 +1,48 @@
+08:37:38 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.154.135, Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0 ) => {inserted_id = 1991}
+08:37:38 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+09:41:48 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.154.135, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36 ) => {inserted_id = 1992}
+09:41:48 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+10:20:57 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 223.30.129.234, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/37.0.2062.120 Chrome/37.0.2062.120 Safari/537.36 ) => {inserted_id = 1993}
+10:20:57 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+11:18:29 than001 Thomas Andersson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( than001, 85.227.154.135, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36 ) => {inserted_id = 1994}
+11:19:23   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = than001
+11:19:23   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-11-07:10:19:23) on conditions id = 1994 AND username = than001
+11:35:21 gine001 Gilad Nevo INSERTING data into tables `support_tickets` fields ( created_user, admin_user, ticket_type, category_id, priority, title, description, attachment, status ) values ( gine001, gine001, 2, 2, 2, vill ha en extra kapp, vill ha en extra knapp.
+kan jag få det?, , 1 ) => {inserted_id = 4}
+11:35:21 gine001 Gilad Nevo UPDATING data to tables `support_tickets` fields ( attachment ) values () on conditions id = 4
+11:35:21 gine001 Gilad Nevo INSERTING data into tables `note` fields ( created_user, title, description, visibility, status, customer, ticket, attachment ) values ( gine001, vill ha en extra kapp, vill ha en extra knapp.
+kan jag få det?, 4, 1, , 4,  ) => {inserted_id = 42}
+11:35:21 gine001 Gilad Nevo UPDATING data to tables `note` fields ( attachment ) values () on conditions id = 42
+12:51:59 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.154.135, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36 ) => {inserted_id = 1995}
+12:51:59 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+13:13:44 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( anra004, anst007, 1, 0, 2014-11-04, 12, 16, 1, , gine001,  ) => {inserted_id = 5919}
+13:13:44 gine001 Gilad Nevo INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( anst007, 12, 16, 0 ) => {inserted_id = 271}
+13:13:59 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( anra004, anst007, 1, 0, 2014-11-05, 12.00, 16.00, 1, , gine001,  ) => {inserted_id = 5920}
+13:14:08 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( anra004, anst007, 1, 0, 2014-11-07, 12.00, 16.00, 1, , gine001,  ) => {inserted_id = 5921}
+13:14:19 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( anra004, anst007, 1, 0, 2014-11-08, 12.00, 16.00, 1, , gine001,  ) => {inserted_id = 5922}
+13:14:23 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( anra004, anst007, 1, 0, 2014-11-09, 12.00, 16.00, 1, , gine001,  ) => {inserted_id = 5923}
+13:15:08 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( employee, status ) values (, 0) on conditions id = 5919
+13:15:08 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( employee, status ) values (, 0) on conditions id = 5920
+13:15:08 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( employee, status ) values (, 0) on conditions id = 5921
+13:15:08 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( employee, status ) values (, 0) on conditions id = 5922
+13:15:08 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( employee, status ) values (, 0) on conditions id = 5923
+13:15:25 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, stfr001, gine001) on conditions id = 5919
+13:15:25 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, stfr001, gine001) on conditions id = 5920
+13:15:25 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, stfr001, gine001) on conditions id = 5921
+13:15:25 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, stfr001, gine001) on conditions id = 5922
+13:15:25 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, stfr001, gine001) on conditions id = 5923
+13:21:24 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirrus10`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, status ) values ( 1, gine001, Har nu testat på en testkund som jag har.  
+
+Får inga problem med radera assistenter en hel vecka och byta ut mot andra, varken på Månadsvyn eller Veckovyn. kan du testa och upprepa felet?, 3 ) => {inserted_id = 1}
+13:23:00 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( employee, status ) values (, 0) on conditions id = 5919
+13:23:00 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( employee, status ) values (, 0) on conditions id = 5920
+13:23:01 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( employee, status ) values (, 0) on conditions id = 5921
+13:23:01 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( employee, status ) values (, 0) on conditions id = 5922
+13:23:01 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( employee, status ) values (, 0) on conditions id = 5923
+13:23:12 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, last002, gine001) on conditions id = 5919
+13:23:12 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, last002, gine001) on conditions id = 5920
+13:23:12 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, last002, gine001) on conditions id = 5921
+13:23:12 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, last002, gine001) on conditions id = 5922
+13:23:12 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, last002, gine001) on conditions id = 5923
+14:39:03   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+14:39:03   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-11-07:13:39:03) on conditions id = 1995 AND username = gine001

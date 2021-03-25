@@ -1,0 +1,31 @@
+08:37:59 inbe006 Ingeborg Bergren INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( inbe006, 85.229.51.54, Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36 ) => {inserted_id = 8037}
+08:37:59 inbe006 Ingeborg Bergren DELETE data from tables `temp_session` on conditions username LIKE inbe006
+08:37:59 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-01-24 08:37:59) on conditions username = inbe006
+08:37:59 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-01-24 08:37:59) on conditions username = inbe006 AND company_id = 21
+08:37:59 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = 3623a69ca9b0133b411ddaefe59d12ae
+08:39:59 inbe006 Ingeborg Bergren INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( inbe006, 85.229.51.54, Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36 ) => {inserted_id = 8038}
+08:39:59 inbe006 Ingeborg Bergren DELETE data from tables `temp_session` on conditions username LIKE inbe006
+08:39:59 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-01-24 08:39:59) on conditions username = inbe006
+08:39:59 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-01-24 08:39:59) on conditions username = inbe006 AND company_id = 21
+08:39:59 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = 3623a69ca9b0133b411ddaefe59d12ae
+08:40:45 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = 3623a69ca9b0133b411ddaefe59d12ae
+09:59:25 inbe006 Ingeborg Bergren INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( inbe006, 85.229.51.54, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36 ) => {inserted_id = 8039}
+09:59:25 inbe006 Ingeborg Bergren DELETE data from tables `temp_session` on conditions username LIKE inbe006
+09:59:25 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-01-24 09:59:25) on conditions username = inbe006
+09:59:25 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-01-24 09:59:25) on conditions username = inbe006 AND company_id = 21
+09:59:26 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = e3bb1b92ca8da742775d173f75e383fa
+10:28:26 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = inbe006 AND company_id = 21
+10:28:26 inbe006 Ingeborg Bergren INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( inbe006, 176.70.6.214, okhttp/3.9.1 ) => {inserted_id = 8040}
+10:28:26 inbe006 Ingeborg Bergren DELETE data from tables `temp_session` on conditions username LIKE inbe006
+10:28:26 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-01-24 10:28:26) on conditions username = inbe006
+10:28:26 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-01-24 10:28:26) on conditions username = inbe006 AND company_id = 21
+10:28:26 inbe006 Ingeborg Bergren INSERTING data into tables `time2vie_cirruscommon`.`push_notify_tokens` fields ( user_id, fcm_token, device_id, device_details, created_date, error ) values ( inbe006, cTUtY9MWt8Y:APA91bEgp08e5xm4o-yqmXIGlvaIlVMyN-ciq7vAwoOsLT7ARX8WzYS4VlxRaF4Xahbv79-BGT3Pc2b1s3NpsBQx_U8ELZEMDLlaSv73LPLz-Pyf3umKC8rE4gn1tJ4T7pxL7_Xj4Sa2, b07190180a041f47, okhttp/3.9.1, 2020-01-24 10:28:26, 0 ) => {inserted_id = 14181} #Mobile-App: Log-id=8040
+10:46:09 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = e3bb1b92ca8da742775d173f75e383fa
+10:47:28 inbe006 Ingeborg Bergren UPDATING data to tables `emp_salary` fields ( emp_username, date_from, date_to, salary_per_month, salary_per_hour, added_by ) values (inbe006, 2020-01-15, , 34000, 0, inbe006) on conditions salaryId = 382
+10:47:28 inbe006 Ingeborg Bergren UPDATING data to tables `employee` fields ( monthly_salary ) values (1) on conditions username = inbe006
+10:50:49 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = e3bb1b92ca8da742775d173f75e383fa
+17:21:53 inbe006 Ingeborg Bergren INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( inbe006, 95.202.45.134, Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36 ) => {inserted_id = 8041}
+17:21:53 inbe006 Ingeborg Bergren DELETE data from tables `temp_session` on conditions username LIKE inbe006
+17:21:53 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-01-24 17:21:53) on conditions username = inbe006
+17:21:53 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-01-24 17:21:53) on conditions username = inbe006 AND company_id = 21
+17:21:53 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = 3623a69ca9b0133b411ddaefe59d12ae

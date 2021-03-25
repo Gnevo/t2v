@@ -1,0 +1,31 @@
+16:33:35 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+16:33:35 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 217.213.90.243, Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/87.0.4280.141 Mobile DuckDuckGo/5 Safari/537.36 ) => {inserted_id = 15376}
+16:33:35 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+16:33:35 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2021-01-08 16:33:35) on conditions username = gine001
+16:33:35 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2021-01-08 16:33:35) on conditions username = gine001 AND company_id = 6
+16:33:36 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 36pgh4er1dkpbqgd0ga6dr3je4
+16:39:42 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 36pgh4er1dkpbqgd0ga6dr3je4
+16:40:17 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 18440
+16:40:17 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( google_id ) values () on conditions id = 18440
+16:40:17 gine001 Gilad Nevo INSERTING data into tables `delete_google_calender` fields ( google_id ) values ( ncde5vf3uc2gju2hsuqlmjipgo ) => {inserted_id = 14}
+16:40:17 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( anst007, 2020-12-07, 10.00, 19.00, 0, 1, , gine001, 18440, 0 ) => {inserted_id = 18447}
+16:40:17 gine001 Gilad Nevo INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 237, boek001, 2020-12-07, 10, 19, 2, , gine001, 1, 0 ) => {inserted_id = 882}
+16:40:32 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (anst007, boek001, 2020-12-08, 10.00, 19.00, 1, 0, 1, ) on conditions id = 18441
+16:41:27 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 18428
+16:41:27 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( anst007, 2020-12-15, 14.30, 19.30, 0, 1, , gine001, 18428, 0 ) => {inserted_id = 18448}
+16:41:27 gine001 Gilad Nevo INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 238, gine001, 2020-12-15, 14.3, 19.3, 3, , gine001, 1, 0 ) => {inserted_id = 883}
+16:41:55 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 18431
+16:41:55 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( anst007, 2020-12-16, 19.30, 20.00, 3, 1, , gine001, 18431, 0 ) => {inserted_id = 18449}
+16:41:55 gine001 Gilad Nevo INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 239, gine001, 2020-12-16, 19.3, 20, 5, , gine001, 1, 0 ) => {inserted_id = 884}
+16:42:13 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 18432
+16:42:13 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( anst007, 2020-12-17, 14.30, 19.30, 0, 1, , gine001, 18432, 0 ) => {inserted_id = 18450}
+16:42:13 gine001 Gilad Nevo INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 240, gine001, 2020-12-17, 14.3, 19.3, 3, , gine001, 1, 0 ) => {inserted_id = 885}
+16:42:32 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 18434
+16:42:32 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( anst007, 2020-12-18, 14.30, 19.30, 0, 1, , gine001, 18434, 0 ) => {inserted_id = 18451}
+16:42:32 gine001 Gilad Nevo INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 241, gine001, 2020-12-18, 14.3, 19.3, 5, , gine001, 1, 0 ) => {inserted_id = 886}
+16:42:57 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 18437
+16:42:57 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( anst007, 2020-12-19, 19.30, 20.00, 3, 1, , gine001, 18437, 0 ) => {inserted_id = 18452}
+16:42:57 gine001 Gilad Nevo INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 242, gine001, 2020-12-19, 19.3, 20, 7, , gine001, 1, 0 ) => {inserted_id = 887}
+16:43:16 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 18438
+16:43:16 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( anst007, 2020-12-20, 14.30, 19.30, 0, 1, , gine001, 18438, 0 ) => {inserted_id = 18453}
+16:43:16 gine001 Gilad Nevo INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 243, gine001, 2020-12-20, 14.3, 19.3, 9, , gine001, 1, 0 ) => {inserted_id = 888}

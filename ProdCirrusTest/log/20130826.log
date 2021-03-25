@@ -1,0 +1,37 @@
+09:52:01 gine001 Gilad Nevo INSERTING data into tables `log_login`fields username, ip, browser values ( gine001, 115.248.24.177, Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0 )
+09:52:01 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = gine001
+09:53:38   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = gine001
+09:53:38   UPDATING data to tables `log_login`fields Array values 2013-08-26:07:53:38 on conditions id = 1265 AND username = gine001
+18:17:51   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = 
+18:17:51   UPDATING data to tables `log_login`fields Array values 2013-08-26:16:17:51 on conditions id =  AND username = 
+18:18:28 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 2, 0, 2013-08-12, 0.00, 6.00, 0, gine001 )
+18:18:28 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 2, 0, 2013-08-12, 6.00, 19.30, 0, gine001 )
+18:18:46 gine001 Gilad Nevo INSERTING data into tables `atl_warnings`fields employee, date, time_from, time_to, customer, extra_hours values ( jata001, 2013-08-12, 6, 19.3, hesv001, 0.5 )
+18:18:58 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1, jata001, gine001 on conditions id = 2906
+18:19:12 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 2 on conditions id = 2906
+18:19:12 gine001 Gilad Nevo INSERTING data into tables `timetable`fields customer, date, time_from, time_to, type, fkkn, status, comment, alloc_emp, relation_id values ( hesv001, 2013-08-12, 6.00, 19.30, 0, 2, 0, , gine001, 2906 )
+18:19:12 gine001 Gilad Nevo INSERTING data into tables `leave`fields group_id, employee, date, time_from, time_to, type, comment, appr_emp, status values ( 17, jata001, 2013-08-12, 6, 19.3, 1, , gine001, 0 )
+18:19:16 gine001 Gilad Nevo UPDATING data to tables `leave`fields Array values 1, gine001, 2013-08-26 on conditions group_id = 17
+18:19:44 gine001 Gilad Nevo INSERTING data into tables `leave_sms`fields slot, employee, status, alloc_employee values ( 2907, gine001, 4, gine001 )
+18:19:44 gine001 Gilad Nevo INSERTING data into tables `log_sms`fields from_user, to_user, to_no, message, status values ( gine001, gine001, 704434964, %0AKund : hesv001%0ADatum : 2013-08-12%0APass : 06.00-19.30(13.3h)%0ASvara Ja om du vill ha passet, 1 )
+18:22:16 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 2, 0, 2013-08-20, 8.00, 16.35, 0, gine001 )
+18:22:24 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1, jata001, gine001 on conditions id = 2908
+18:22:33 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 2 on conditions id = 2908
+18:22:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields customer, date, time_from, time_to, type, fkkn, status, comment, alloc_emp, relation_id values ( hesv001, 2013-08-20, 8.00, 16.35, 0, 2, 0, , gine001, 2908 )
+18:22:33 gine001 Gilad Nevo INSERTING data into tables `leave`fields group_id, employee, date, time_from, time_to, type, comment, appr_emp, status values ( 18, jata001, 2013-08-20, 8, 16.35, 1, , gine001, 0 )
+18:22:37 gine001 Gilad Nevo UPDATING data to tables `leave`fields Array values 1, gine001, 2013-08-26 on conditions group_id = 18
+18:23:14 gine001 Gilad Nevo INSERTING data into tables `leave_sms`fields slot, employee, status, alloc_employee values ( 2909, gine001, 5, gine001 )
+18:23:14 gine001 Gilad Nevo INSERTING data into tables `log_sms`fields from_user, to_user, to_no, message, status values ( gine001, gine001, 704434964, %0AKund : hesv001%0ADatum : 2013-08-20%0APass : 08.00-16.35(8.35h)%0ASvara Ja om du vill ha passet, 1 )
+18:31:57 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , hesv001, 2, 0, 2013-08-22, 0.00, 6.00, 0, gine001 )
+18:32:05 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1, jata001, gine001 on conditions id = 2910
+18:32:13 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 2 on conditions id = 2910
+18:32:13 gine001 Gilad Nevo INSERTING data into tables `timetable`fields customer, date, time_from, time_to, type, fkkn, status, comment, alloc_emp, relation_id values ( hesv001, 2013-08-22, 0.00, 6.00, 0, 2, 0, , gine001, 2910 )
+18:32:13 gine001 Gilad Nevo INSERTING data into tables `leave`fields group_id, employee, date, time_from, time_to, type, comment, appr_emp, status values ( 19, jata001, 2013-08-22, 0, 6, 1, , gine001, 0 )
+18:32:20 gine001 Gilad Nevo UPDATING data to tables `leave`fields Array values 1, gine001, 2013-08-26 on conditions group_id = 19
+18:33:36 gine001 Gilad Nevo INSERTING data into tables `leave_sms`fields slot, employee, status, alloc_employee values ( 2911, gine001, 4, gine001 )
+18:33:36 gine001 Gilad Nevo INSERTING data into tables `log_sms`fields from_user, to_user, to_no, message, status values ( gine001, gine001, 704434964, %0AKund : hesv001%0ADatum : 2013-08-22%0APass : 00.00-06.00(6h)%0Aadm BK%0ASvara Ja om du vill ha passet, 1 )
+18:35:37 gine001 Gilad Nevo UPDATING data to tables `leave_sms`fields Array values 1 on conditions slot = 2911 AND employee = gine001
+18:35:37 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values gine001, 1 on conditions id = 2911
+18:35:37 gine001 Gilad Nevo UPDATING data to tables `leave_sms`fields Array values 2 on conditions slot = 2911 AND employee != gine001
+19:01:21   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = gine001
+19:01:21   UPDATING data to tables `log_login`fields Array values 2013-08-26:17:01:21 on conditions id = 7057 AND username = gine001

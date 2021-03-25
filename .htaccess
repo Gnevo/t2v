@@ -1,0 +1,1362 @@
+Options +FollowSymLinks -Indexes
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP_HOST} ^time2view\.se$ [OR]
+RewriteCond %{HTTP_HOST} ^.*\.time2view\.se$
+RewriteCond %{REQUEST_URI} !^/sms_callback.php
+RewriteRule ^(.*)$ https://cirrus.time2view.se/$1 [R,L]
+
+DirectoryIndex index.php
+
+# Cookie tweaks
+Header always edit Set-Cookie (.*) "$1; SameSite=None; Secure"
+# .end Cookie tweaks
+
+<IfModule mod_rewrite.c>
+
+	RewriteCond %{query_string} $
+	RewriteRule ^employee/cv/report/$ employee_cv_report.php
+    
+	RewriteCond %{query_string} $
+	RewriteRule ^employee/checklist/$ ajax_employee_checklist.php
+    
+	RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^employee/non-prefered/timing/(.*)/(.*)/(.*)/$ employee_non_prefered_timings.php?$1&$2&$3
+    RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^employee/non-prefered/timing/(.*)/(.*)/$ employee_non_prefered_timings.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^employee/non-prefered/timing/(.*)/$ employee_non_prefered_timings.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^employee/non-prefered/timing/$ employee_non_prefered_timings.php
+	
+    RewriteCond %{query_string} $
+	RewriteRule ^pdf/vab/leave/$ leave_vab_pdf_edited.php
+
+	RewriteCond %{query_string} $
+	RewriteRule ^contract/employee/report/list/$ contract_employee_report_list.php
+	
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^pword/reset/sms/(.*)/$ sms_pword_reset.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^pword/reset/sms/$ sms_pword_reset.php
+        
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^report/work/employee/signed/list/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/$ employee_work_report_listing_signed.php?$1&$2&$3&$4&$5&$6
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^report/work/employee/signed/list/(.*)/(.*)/(.*)/(.*)/(.*)/$ employee_work_report_listing_signed.php?$1&$2&$3&$4&$5
+	RewriteCond %{query_string} $
+	RewriteRule ^report/work/employee/signed/list/$ employee_work_report_listing_signed.php
+	
+
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^employee/termination/(.*)/$ employee_termination.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^employee/termination/$ employee_termination.php
+
+    	RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^report/employee/signing/action/admin/(.*)/(.*)/(.*)/$ employee_report_signing_action_admin.php?$1&$2&$3
+    	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^report/employee/signing/action/admin/(.*)/(.*)/$ employee_report_signing_action_admin.php?$1&$2
+	RewriteCond %{query_string} $
+	RewriteRule ^report/employee/signing/action/admin/$ employee_report_signing_action_admin.php
+
+	RewriteCond %{query_string} $
+	RewriteRule ^emp/to/cust/fkkn/send/$ employee_to_customer_fkkn_send.php
+
+	RewriteCond %{query_string} $
+	RewriteRule ^report/search/on/customer/$ rpt_customer_search.php
+
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^customer/to/employee/3066/(.*)/$ customer_to_employee_3066.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^customer/to/employee/3066/$ customer_to_employee_3066.php
+
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^customer/defaults/sick/(.*)/$ customer_sick_form_defaults.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^customer/defaults/sick/$ customer_sick_form_defaults.php
+        
+        RewriteCond %{query_string} $
+	RewriteRule ^report/log/sms/$ report_sms_log.php
+    	RewriteCond %{query_string} $
+	RewriteRule ^report/available/employees/$ report_avail_employees.php
+        
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^secondary/login/forgotpassword/(.*)/$ forgotpassword_secondary.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^secondary/login/forgotpassword/$ forgotpassword_secondary.php
+
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^secondary/login/(.*)/$ secondary_login.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^secondary/login/$ secondary_login.php
+        
+	RewriteCond %{query_string} $
+	RewriteRule ^report/leave/employee/$ employee_leave_report.php
+
+	RewriteCond %{query_string} !^(.*)&(.*]+)&(.*]+)&(.*]+)&(.*]+)$
+	RewriteRule ^report/getgrid/employee/(.*)/(.*)/(.*)/(.*)/(.*)/$ ajax_addempgrid.php?$1&$2&$3&$4&$5
+	RewriteCond %{query_string} !^(.*)&(.*]+)&(.*]+)&(.*]+)$
+	RewriteRule ^report/getgrid/employee/(.*)/(.*)/(.*)/(.*)/$ ajax_addempgrid.php?$1&$2&$3&$4
+	RewriteCond %{query_string} !^(.*)&(.*]+)&(.*]+)$
+	RewriteRule ^report/getgrid/employee/(.*)/(.*)/(.*)/$ ajax_addempgrid.php?$1&$2&$3
+
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^report/getemployee/(.*)/$ ajax_getemployee.php?$1
+
+	RewriteCond %{query_string} !^(.*)&(.*]+)&(.*]+)$
+	RewriteRule ^leave/pdfdownload/(.*)/(.*)/(.*)/$ ajax_leave_pdf.php?$1&$2&$3
+
+	RewriteCond %{query_string} $
+	RewriteRule ^report/data/employee/$ employee_data_report.php
+
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^report/employeedata/(.*)/(.*)/$ ajax_addempdata.php?$1&$2v
+
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^activeinactive/pdfdownload/(.*)/(.*)/$ ajax_empactiveinactive_pdf.php?$1&$2
+
+	RewriteCond %{query_string} $
+	RewriteRule ^report/employeetocustomer/$ employee_to_customer_report.php
+
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^report/emptocust/(.*)/(.*)/$ ajax_emptocust.php?$1&$2v
+
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^emptocust/pdfdownload/(.*)/(.*)/$ ajax_emptocust_pdf.php?$1&$2
+
+	RewriteCond %{query_string} $
+	RewriteRule ^report/perofemployement/$ percentage_of_employement_report.php
+
+	RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^report/perofemployementgrid/(.*)/(.*)/(.*)/(.*)/$ ajax_percentag_of_employement_data.php?$1&$2&$3&$4
+
+	RewriteCond %{query_string} !^(.*)&(.*]+)&(.*]+)$
+	RewriteRule ^perofemployment/pdfdownload/(.*)/(.*)/(.*)/$ percentage_of_employment_pdf.php?$1&$2&$3
+
+	RewriteCond %{query_string} $
+	RewriteRule ^customer/appoiment/detail/(.*)/$ appoiment_detail.php?$1
+
+	RewriteCond %{query_string} $
+	RewriteRule ^appointments/detail/(.*)/$ appoiment_detail.php?$1
+	
+	RewriteCond %{query_string} $
+	RewriteRule ^appointments/(.*)/$ customer_appoiments.php?$1
+	
+	RewriteCond %{query_string} $
+	RewriteRule ^customer/appoiments/(.*)/$ customer_appoiments.php?$1
+	
+	
+	RewriteCond %{query_string} $
+	RewriteRule ^report/data/customer/$ customer_data_report.php
+
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^report/customerdata/(.*)/(.*)/$ ajax_addcustdata.php?$1&$2v
+
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^customerdata_old/pdfdownload/(.*)/(.*)/$ ajax_custactiveinactive_pdf.php?$1&$2
+
+	RewriteCond %{query_string} $
+	RewriteRule ^report/leave/customer/$ customer_leave_report.php
+
+	RewriteCond %{query_string} $
+	RewriteRule ^billing/$ billing.php
+
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^report/getcustomer/(.*)/$ ajax_getcustomer.php?$1
+	
+	RewriteCond %{query_string} !^(.*)&(.*]+)&(.*]+)&(.*]+)&(.*]+)$
+	RewriteRule ^report/getgrid/customer/(.*)/(.*)/(.*)/(.*)/(.*)/$ ajax_addcustgrid.php?$1&$2&$3&$4&$5
+	RewriteCond %{query_string} !^(.*)&(.*]+)&(.*]+)&(.*]+)$
+	RewriteRule ^report/getgrid/customer/(.*)/(.*)/(.*)/(.*)/$ ajax_addcustgrid.php?$1&$2&$3&$4
+	RewriteCond %{query_string} !^(.*)&(.*]+)&(.*]+)$
+	RewriteRule ^report/getgrid/customer/(.*)/(.*)/(.*)/$ ajax_addcustgrid.php?$1&$2&$3
+
+	RewriteCond %{query_string} !^(.*)&(.*]+)&(.*]+)$
+	RewriteRule ^custleave/pdfdownload/(.*)/(.*)/(.*)/$ ajax_custleave_pdf.php?$1&$2&$3
+
+	RewriteCond %{query_string} !^(.*)&(.*]+)&(.*]+)&(.*]+)&(.*]+)$
+	RewriteRule ^report/absence/employee/(.*)/(.*)/(.*)/(.*)/(.*)/$ employee_absence_report_pdf.php?$1&$2&$3&$4&$5
+	RewriteCond %{query_string} !^(.*)&(.*]+)&(.*]+)&(.*]+)$
+	RewriteRule ^report/absence/employee/(.*)/(.*)/(.*)/(.*)/$ employee_absence_report_pdf.php?$1&$2&$3&$4
+	RewriteCond %{query_string} !^(.*)&(.*]+)&(.*]+)$
+	RewriteRule ^report/absence/employee/(.*)/(.*)/(.*)/$ employee_absence_report_pdf.php?$1&$2&$3
+
+	RewriteCond %{query_string} !^(.*)&(.*]+)&(.*]+)&(.*]+)&(.*]+)$
+	RewriteRule ^report/absence/customer/(.*)/(.*)/(.*)/(.*)/(.*)/$ customer_absence_report_pdf.php?$1&$2&$3&$4&$5
+	RewriteCond %{query_string} !^(.*)&(.*]+)&(.*]+)&(.*]+)$
+	RewriteRule ^report/absence/customer/(.*)/(.*)/(.*)/(.*)/$ customer_absence_report_pdf.php?$1&$2&$3&$4
+	RewriteCond %{query_string} !^(.*)&(.*]+)&(.*]+)$
+	RewriteRule ^report/absence/customer/(.*)/(.*)/(.*)/$ customer_absence_report_pdf.php?$1&$2&$3
+
+	RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^report/percentageofemployee/(.*)/(.*)/(.*)/(.*)/$ mpdf_percentage_of_employment_pdf.php?$1&$2&$3&$4
+
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^customerdata/pdfdownload/(.*)/(.*)/$ customerdata_report_pdf.php?$1&$2
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^customerdata/exceldownload/(.*)/(.*)/$ customerdata_report_excel.php?$1&$2
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^customerdata/csvdownload/(.*)/(.*)/$ customerdata_report_csv.php?$1&$2
+
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^employeedata/pdfdownload/(.*)/(.*)/$ employeedata_report_pdf.php?$1&$2
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^employeedata/exceldownload/(.*)/(.*)/$ employeedata_report_excel.php?$1&$2
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^employeedata/csvdownload/(.*)/(.*)/$ employeedata_report_csv.php?$1&$2
+
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^employeetocustomer/pdfdownload/(.*)/(.*)/$ employee_to_customer_report_pdf.php?$1&$2
+	
+	RewriteCond %{query_string} $
+	RewriteRule ^report/horizontal/customer/$ horizontal_customer_report.php
+
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^getweek/(.*)/(.*)/$ ajax_getweek.php?$1&$2
+
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^horizontal/customerdata/(.*)/(.*)/$ ajax_horizontal_customer_report_data.php?$1&$2	
+
+	RewriteCond %{query_string} !^(.*)&(.*]+)&(.*]+)$
+	RewriteRule ^report/horizontalcust/pdfdownload/(.*)/(.*)/(.*)/$ horizontal_customer_report_pdf.php?$1&$2&$3
+
+	RewriteCond %{query_string} $
+	RewriteRule ^hourly/customer/report/$ hourly_report_customer.php
+
+	RewriteCond %{query_string} !^(.*)&(.*]+)&(.*]+)$
+	RewriteRule ^hourly/customerdata/(.*)/(.*)/(.*)/$ ajax_hourly_report_customer_data.php?$1&$2&$3
+
+	RewriteCond %{query_string} !^(.*)&(.*]+)&(.*]+)$
+	RewriteRule ^hourly/customer/pdfdownload/(.*)/(.*)/(.*)/$ hourly_report_customer_pdf.php?$1&$2&$3
+	
+	RewriteCond %{query_string} $
+	RewriteRule ^sms/sent/report/$ sms_sent_report.php
+	
+	RewriteCond %{query_string} $
+	RewriteRule ^sms/sent/reportdata/(.*)/(.*)/(.*)/(.*)/(.*)/$ ajax_sent_sms_report_data.php?$1&$2&$3
+	
+	RewriteCond %{query_string} $
+	RewriteRule ^sms/sent/reportdatapdf/(.*)/(.*)/(.*)/(.*)/(.*)/$ sent_sms_report_data_pdf.php?$1&$2&$3
+	
+	RewriteCond %{query_string} $
+	RewriteRule ^vacation/planning/report/$ vacation_planning_report.php
+
+	RewriteCond %{query_string} !^(.*)&(.*]+)&(.*]+)$
+	RewriteRule ^vacation/planningdata/(.*)/(.*)/(.*)/$ ajax_vacation_planning_report.php?$1&$2&$3
+
+	RewriteCond %{query_string} !^(.*)&(.*]+)&(.*]+)$
+	RewriteRule ^vacationplanningdata/pdfdownload/(.*)/(.*)/(.*)/$ vacation_planning_report_pdf.php?$1&$2&$3
+	
+	RewriteCond %{query_string} $
+	RewriteRule ^vacation/planning/report/preview/(.*)/(.*)/(.*)/$ vacation_planning_report_preview.php?$1&$2&$3
+
+	RewriteCond %{query_string} !^(.*)&(.*]+)&(.*]+)$
+	RewriteRule ^fpdf/vacationplanningdata/pdfdownload/(.*)/(.*)/(.*)/$ fpdf_vacation_planning_report_pdf.php?$1&$2&$3
+	
+	RewriteCond %{query_string} !^(.*)&(.*]+)&(.*]+)$
+	RewriteRule ^vacationplanningdata/pdfdownloadpreview/(.*)/(.*)/(.*)/$ vacation_planning_report_preview_pdf.php?$1&$2&$3
+	
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^globalsettings/(.*)/(.*)/$ globalsetting.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^globalsettings/(.*)/$ globalsetting.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^globalsettings/$ globalsetting.php
+
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^empchange/order/(.*)/(.*)/$ ajax_emp_change_order.php?$1&$2	
+
+	RewriteCond %{query_string} $
+	RewriteRule ^vitebdbscript/$ viteb_db_script.php
+	
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^employee/administration/emptime/preference/(.*)/$ employee_time_preference.php?$1
+
+	RewriteCond %{query_string} $
+	RewriteRule ^employee/administration/timepreferencedata/$ ajax_employee_time_preference.php
+
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^employee/administration/emptimepreference/pdfdwonload/(.*)/$ employee_time_preference_pdf.php?$1
+
+	RewriteCond %{query_string} $
+	RewriteRule ^employee/administration/emptimepreference/sendemail/$ employee_time_preference_email.php?$1
+	
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^emptime/preference/(.*)/$ employee_time_preference.php?$1
+
+	RewriteCond %{query_string} $
+	RewriteRule ^timepreferencedata/$ ajax_employee_time_preference.php	
+
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^emptimepreference/pdfdwonload/(.*)/$ employee_time_preference_pdf.php?$1
+
+	RewriteCond %{query_string} $
+	RewriteRule ^emptimepreference/sendemail/$ employee_time_preference_email.php?$1
+	
+    RewriteCond %{query_string} $
+	RewriteRule ^export/$ export.php
+	
+	RewriteCond %{query_string} $
+	RewriteRule ^preview/schedule/templates/(.*)/(.*)/(.*)/$ ajax_preview_customer_schedule.php
+	
+    RewriteCond %{query_string} $
+	RewriteRule ^create/schedule/templates/copy/schedule/(.*)/(.*)/(.*)/$ ajax_copy_customer_schedule.php
+	
+	 RewriteCond %{query_string} $
+	RewriteRule ^create/schedule/templates/save/schedule/(.*)/(.*)/(.*)/$ ajax_save_customer_schedule.php
+	
+	RewriteCond %{query_string} $
+	RewriteRule ^create/schedule/templates/$ create_schedule_template.php
+	
+	RewriteCond %{query_string} $
+	RewriteRule ^get/schedule/templates/(.*)/(.*)/(.*)/$ ajax_get_schedule_template.php
+	
+	RewriteCond %{query_string} $
+	RewriteRule ^use/schedule/templates/$ use_template_schedule.php
+	
+	RewriteCond %{query_string} $
+	RewriteRule ^get/template/customer/(.*)/$ ajax_get_template_customer.php
+   
+    RewriteCond %{query_string} $
+	RewriteRule ^autoscheduler/$ auto_scheduler.php
+	
+	RewriteCond %{query_string} $
+	RewriteRule ^autoscheduler/temp/emp/update/$ ajax_emp_temp_slot_update.php
+
+	RewriteCond %{query_string} !^(.*)&(.*]+)&(.*]+)$
+	RewriteRule ^autoschedulerdata/(.*)/(.*)/(.*)/$ ajax_auto_scheduler.php?$1&$2&$3
+
+	RewriteCond %{query_string} !^(.*)&(.*]+)&(.*]+)$
+	RewriteRule autoscheduleprocess(.*)/(.*)/(.*)/$ ajax_auto_scheduler_process.php?$1&$2&$3
+	
+	RewriteCond %{query_string} !^(.*)&(.*]+)&(.*]+)$
+	RewriteRule ^autoscheduler/employee/(.*)/(.*)/(.*)/$  ajax_autoscheduler_get_employee.php?$1&$2$3
+   
+  	RewriteCond %{query_string} $
+	RewriteRule ^forgotpassword/$ forgotpassword.php
+	
+	RewriteCond %{query_string} $
+	RewriteRule ^forgotpassword/$ resetpassword.php
+	
+	RewriteCond %{query_string} $
+	RewriteRule ^reset_pass_action/$ reset_pass_action.php
+	
+	RewriteCond %{query_string} $
+	RewriteRule ^send_password_reset_link/$ send_password_reset_link.php
+	
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^dashboard/(.*)/$ dashboard_company.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^dashboard/$ dashboard_company.php
+
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^company/add/(.*)/$ company_add.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^company/add/$ company_add.php
+        
+
+	RewriteCond %{query_string} $
+	RewriteRule ^startup/$ startup_form.php
+
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^week/gdschema/(.*)/(.*)/(.*)/(.*)/(.*)/$ gdschema_week.php?$1&$2&$3&$4&$5
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^week/gdschema/(.*)/(.*)/(.*)/(.*)/$ gdschema_week.php?$1&$2&$3&$4
+	RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^week/gdschema/(.*)/(.*)/(.*)/$ gdschema_week.php?$1&$2&$3
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^week/gdschema/(.*)/(.*)/$ gdschema_week.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^week/gdschema/(.*)/$ gdschema_week.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^week/gdschema/$ gdschema_week.php
+        
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^employee/gdschema/(.*)/(.*)/(.*)/$ gdschema_employee.php?$1&$2&$3
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^employee/gdschema/(.*)/(.*)/$ gdschema_employee.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^employee/gdschema/(.*)/$ gdschema_employee.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^employee/gdschema/$ gdschema_employee.php
+
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^employeee/gdschema/(.*)/(.*)/(.*)/$ gdschema_employee.php?$1&$2&$3
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^employeee/gdschema/(.*)/(.*)/$ gdschema_employee.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^employeee/gdschema/(.*)/$ gdschema_employee.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^employeee/gdschema/$ gdschema_employee.php
+
+	RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^customer/gdschema/(.*)/(.*)/(.*)/$ gdschema_customer.php?$1&$2&$3
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^customer/gdschema/(.*)/(.*)/$ gdschema_customer.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^customer/gdschema/(.*)/$ gdschema_customer.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^customer/gdschema/$ gdschema_customer.php
+	
+	RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^day/gdschema/(.*)/(.*)/(.*)/(.*)/(.*)/$ gdschema_day.php?$1&$2&$3&$4&$5
+	RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^day/gdschema/(.*)/(.*)/(.*)/(.*)/$ gdschema_day.php?$1&$2&$3&$4	
+	RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^day/gdschema/(.*)/(.*)/(.*)/$ gdschema_day.php?$1&$2&$3
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^day/gdschema/(.*)/(.*)/$ gdschema_day.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^day/gdschema/(.*)/$ gdschema_day.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^day/gdschema/$ gdschema_day.php
+        
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^all/gdschema/(.*)/(.*)/$ gdschema.php?$1&$2
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^all/gdschema/(.*)/$ gdschema.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^all/gdschema/$ gdschema.php
+        RewriteCond %{query_string} $
+	RewriteRule ^gdschema/$ gdschema.php
+
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^all/employee/gdschema/(.*)/(.*)/$ gdschema_start_employee.php?$1&$2
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^all/employee/gdschema/(.*)/$ gdschema_start_employee.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^all/employee/gdschema/$ gdschema_start_employee.php
+	
+	RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^list/customer/(.*)/(.*)/(.*)/(.*)/(.*)/$ customer_list.php?$1&$2&$3&$4&$5
+	RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^list/customer/(.*)/(.*)/(.*)/(.*)/$ customer_list.php?$1&$2&$3&$4
+	RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^list/customer/(.*)/(.*)/(.*)/$ customer_list.php?$1&$2&$3
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^list/customer/(.*)/(.*)/$ customer_list.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^list/customer/(.*)/$ customer_list.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^list/customer/$ customer_list.php
+	
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^customer/add/(.*)/(.*)/$ customer_add.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^customer/add/(.*)/$ customer_add.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^customer/add/$ customer_add.php
+
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^customer/insurance/(.*)/(.*)/(.*)/(.*)/(.*)/$ customer_insurance.php?$1&$2&$3&$4&$5
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^customer/insurance/(.*)/(.*)/(.*)/(.*)/$ customer_insurance.php?$1&$2&$3&$4	
+	RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^customer/insurance/(.*)/(.*)/(.*)/$ customer_insurance.php?$1&$2&$3
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^customer/insurance/(.*)/(.*)/$ customer_insurance.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^customer/insurance/(.*)/$ customer_insurance.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^customer/insurance/$ customer_insurance.php
+	
+    RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^customer/implan/(.*)/(.*)/(.*)/$ customer_implan.php?$1&$2&$3
+    RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^customer/implan/(.*)/(.*)/$ customer_implan.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^customer/implan/(.*)/$ customer_implan.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^customer/implan/$ customer_implan.php
+
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^customer/deswork/(.*)/(.*)/(.*)/$ customer_deswork.php?$1&$2&$3
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^customer/deswork/(.*)/(.*)/$ customer_deswork.php?$1&$2
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^customer/deswork/(.*)/$ customer_deswork.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^customer/deswork/$ customer_deswork.php
+
+	RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^customer/documentation/(.*)/(.*)/(.*)/(.*)/$ customer_documentation.php?$1&$2&$3&$4
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^customer/documentation/(.*)/(.*)/(.*)/$ customer_documentation.php?$1&$2&$3
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^customer/documentation/(.*)/(.*)/$ customer_documentation.php?$1&$2
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^customer/documentation/(.*)/$ customer_documentation.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^customer/documentation/$ customer_documentation.php
+        
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^customer/equipment/(.*)/(.*)/$ customer_equipment.php?$1&$2
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^customer/equipment/(.*)/$ customer_equipment.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^customer/equipment/$ customer_equipment.php
+
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^contract/customer/list/(.*)/(.*)/$ contract_customer_list.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^contract/customer/list/(.*)/$ contract_customer_list.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^contract/customer/list/$ contract_customer_list.php
+
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^contract/customer/add/(.*)/(.*)/$ contract_customer_add.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^contract/customer/add/(.*)/$ contract_customer_add.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^contract/customer/add/$ contract_customer_add.php
+
+	RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^list/employee/(.*)/(.*)/(.*)/$ employee_list.php?$1&$2&$3
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^list/employee/(.*)/(.*)/$ employee_list.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^list/employee/(.*)/$ employee_list.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^list/employee/$ employee_list.php	
+	
+	RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^employee/add/(.*)/(.*)/(.*)/$ employee_add.php?$1&$2&$3
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^employee/add/(.*)/(.*)/$ employee_add.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^employee/add/(.*)/$ employee_add.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^employee/add/$ employee_add.php
+
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^employeee/add/(.*)/(.*)/$ employee_add.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^employeee/add/(.*)/$ employee_add.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^employeee/add/$ employee_add.php
+
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^contract/employee/list/(.*)/(.*)/$ contract_employee_list.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^contract/employee/list/(.*)/$ contract_employee_list.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^contract/employee/list/$ contract_employee_list.php
+
+	
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^contract/employee/add/(.*)/(.*)/$ contract_employee_add.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^contract/employee/add/(.*)/$ contract_employee_add.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^contract/employee/add/$ contract_employee_add.php
+
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^employee/administration/(.*)/(.*)/(.*)/(.*)/(.*)/$ employee_administration.php?$1&$2&$3&$4&$5
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^employee/administration/(.*)/(.*)/(.*)/(.*)/$ employee_administration.php?$1&$2&$3&$4
+	RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^employee/administration/(.*)/(.*)/(.*)/$ employee_administration.php?$1&$2&$3
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^employee/administration/(.*)/(.*)/$ employee_administration.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^employee/administration/(.*)/$ employee_administration.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^employee/administration/$ employee_administration.php	
+        
+        
+
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^employee/notification/(.*)/$ employee_notification.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^employee/notification/$ employee_notification.php
+
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^employee/privileges/(.*)/$ employee_privileges.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^employee/privileges/$ employee_privileges.php
+
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^customer/privilege/(.*)/$ customer_privilege.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^customer/privileges/$ customer_privilege.php
+
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^employment/contract/pdf/(.*)/(.*)/$ employment_contract_pdf_form.php?$1&$2
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^employment/contract/pdf/(.*)/$ employment_contract_pdf_form.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^employment/contract/pdf/$ employment_contract_pdf_form.php
+
+        RewriteCond %{query_string} $
+	RewriteRule ^works/add/$ works_add.php
+
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^team/add/(.*)/$ team_add.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^team/add/$ team_add.php
+
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^downloadfile/(.*)/$ download.php?$1
+        RewriteCond %{query_string} $
+	RewriteRule ^downloadfile/$ download.php
+
+	RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^ajax/calender/(.*)/(.*)/(.*)/(.*)/$ ajax_calender.php?$1&$2&$3&$4
+	RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^ajax/calender/(.*)/(.*)/(.*)/$ ajax_calender.php?$1&$2&$3
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^ajax/calender/(.*)/(.*)/$ ajax_calender.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^ajax/calender/(.*)/$ ajax_calender.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^ajax/calender/$ ajax_calender.php	
+
+	RewriteCond %{query_string} $
+	RewriteRule ^change/password/$ change_password.php
+        
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^select/company/(.*)/$ select_company.php?$1
+        RewriteCond %{query_string} $
+	RewriteRule ^select/company/$ select_company.php
+        
+        RewriteCond %{query_string} $
+	RewriteRule ^reports/$ reports.php
+ 
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^report/work/employee/list/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/$ employee_work_report_listing.php?$1&$2&$3&$4&$5&$6&$7
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^report/work/employee/list/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/$ employee_work_report_listing.php?$1&$2&$3&$4&$5&$6
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^report/work/employee/list/(.*)/(.*)/(.*)/(.*)/(.*)/$ employee_work_report_listing.php?$1&$2&$3&$4&$5
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^report/work/employee/list/(.*)/(.*)/(.*)/(.*)/$ employee_work_report_listing.php?$1&$2&$3&$4
+	RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^report/work/employee/list/(.*)/(.*)/(.*)/$ employee_work_report_listing.php?$1&$2&$3
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^report/work/employee/list/(.*)/(.*)/$ employee_work_report_listing.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^report/work/employee/list/(.*)/$ employee_work_report_listing.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^report/work/employee/list/$ employee_work_report_listing.php
+
+	RewriteCond %{query_string} $
+	RewriteRule ^report/work/employee/detail/new/$ employee_work_report_details_new.php
+        
+    	RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^report/work/employee/detail/new/(.*)/(.*)/(.*)/(.*)/$ employee_work_report_details_new.php?$1&$2&$3&$4
+
+        RewriteCond %{query_string} $
+	RewriteRule ^report/work/employee/detail/$ employee_work_report_details.php
+        
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^report/work/employee/detail/(.*)/(.*)/(.*)/(.*)/$ employee_work_report_details.php?$1&$2&$3&$4
+
+        RewriteCond %{query_string} $
+	RewriteRule ^test/test1/test2/test3/$ test.php
+        
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^test/test1/test2/test3/(.*)/(.*)/(.*)/$ test.php?$1&$2&$3
+
+        RewriteCond %{query_string} $
+	RewriteRule ^forms/$ forms.php
+        
+        
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^pdf/report/work/customer/summary/(.*)/(.*)/(.*)/(.*)/(.*)/$ pdf_customer_work_report_summery_editing.php?$1&$2&$3&$4&$5
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^pdf/report/work/customer/summary/(.*)/(.*)/(.*)/(.*)/$ pdf_customer_work_report_summery_editing.php?$1&$2&$3&$4
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^pdf/report/work/customer/summary/(.*)/(.*)/(.*)/$ pdf_customer_work_report_summery_editing.php?$1&$2&$3
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^pdf/report/work/customer/summary/(.*)/(.*)/$ pdf_customer_work_report_summery_editing.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^pdf/report/work/customer/summary/(.*)/$ pdf_customer_work_report_summery_editing.php?$1
+        RewriteCond %{query_string} $
+	RewriteRule ^pdf/report/work/customer/summary/$ pdf_customer_work_report_summery_editing.php
+        
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^pdf/payment/leave/(.*)/(.*)/(.*)/(.*)/$ leave_payment_pdf_edited.php?$1&$2&$3&$4
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^pdf/payment/leave/(.*)/(.*)/(.*)/$ leave_payment_pdf_edited.php?$1&$2&$3
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^pdf/payment/leave/(.*)/(.*)/$ leave_payment_pdf_edited.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^pdf/payment/leave/(.*)/$ leave_payment_pdf_edited.php?$1
+        RewriteCond %{query_string} $
+	RewriteRule ^pdf/payment/leave/$ leave_payment_pdf_edited.php
+
+
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^pdf/report/work/customer/(.*)/$ pdf_customer_work_report.php?$1
+        RewriteCond %{query_string} $
+	RewriteRule ^pdf/report/work/customer/$ pdf_customer_work_report.php
+
+        RewriteCond %{query_string} $
+	RewriteRule ^pdf/report/work/customer/employee/$ pdf_customer_work_report_for_employees.php
+	
+	 RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^report/monthly/customer/(.*)/(.*)/(.*)/$ customer_monthly_report.php?$1&$2&$3
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^report/monthly/customer/(.*)/(.*)/$ customer_monthly_report.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^report/monthly/customer/(.*)/$ customer_monthly_report.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^report/monthly/customer/$ customer_monthly_report.php
+	
+	RewriteRule ^report/filter/date/customer/$ customer_filter_date_report.php
+
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^report/month/week/customer/(.*)/(.*)/(.*)/(.*)/(.*)/$ customer_week_month_report.php?$1&$2&$3&$4&$5
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^report/month/week/customer/(.*)/(.*)/(.*)/(.*)/$ customer_week_month_report.php?$1&$2&$3&$4
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^report/month/week/customer/(.*)/(.*)/(.*)/$ customer_week_month_report.php?$1&$2&$3
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^report/month/week/customer/(.*)/(.*)/$ customer_week_month_report.php?$1&$2
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^report/month/week/customer/(.*)/$ customer_week_month_report.php?$1
+        RewriteCond %{query_string} $
+	RewriteRule ^report/month/week/customer/$ customer_week_month_report.php
+
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^report/monthly/employee/(.*)/$ employee_monthly_report.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^report/monthly/employee/$ employee_monthly_report.php
+
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^report/month/week/employee/(.*)/(.*)/$ employee_week_month_report.php?$1&$2
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^report/month/week/employee/(.*)/$ employee_week_month_report.php?$1
+        RewriteCond %{query_string} $
+	RewriteRule ^report/month/week/employee/$ employee_week_month_report.php
+
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^report/inconvenient/timing/(.*)/$ inconvinient_timings_report.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^report/inconvenient/timing/$ inconvinient_timings_report.php
+        
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^report/inconvenient/detail/(.*)/$ inconvenient_timing_report_detail.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^report/inconvenient/detail/$ inconvenient_timing_report_detail.php	
+
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^privilege/employee/(.*)/(.*)/$ privilege_employee.php?$1&$2
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^privilege/employee/(.*)/$ privilege_employee.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^privilege/employee/$ privilege_employee.php
+
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^add/privilege/employee/(.*)/(.*)/$ privilege_employee_add.php?$1&$2
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^add/privilege/employee/(.*)/$ privilege_employee_add.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^add/privilege/employee/$ privilege_employee_add.php
+
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^inconvenient/timings/list/(.*)/(.*)/$ inconvenient_timings_list.php?$1&$2
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^inconvenient/timings/list/(.*)/$ inconvenient_timings_list.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^inconvenient/timings/list/$ inconvenient_timings_list.php
+        
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^inconvenient/timing/(.*)/(.*)/$ inconvenient_timing.php?$1&$2
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^inconvenient/timing/(.*)/$ inconvenient_timing.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^inconvenient/timing/$ inconvenient_timing.php
+
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^message/center/leave/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/$ message_center_leave.php?$1&$2&$3&$4&$5&$6
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^message/center/leave/(.*)/(.*)/(.*)/(.*)/(.*)/$ message_center_leave.php?$1&$2&$3&$4&$5
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^message/center/leave/(.*)/(.*)/(.*)/(.*)/$ message_center_leave.php?$1&$2&$3&$4
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^message/center/leave/(.*)/(.*)/(.*)/$ message_center_leave.php?$1&$2&$3
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^message/center/leave/(.*)/(.*)/$ message_center_leave.php?$1&$2
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^message/center/leave/(.*)/$ message_center_leave.php?$1
+        RewriteCond %{query_string} $
+	RewriteRule ^message/center/leave/$ message_center_leave.php
+
+        RewriteCond %{query_string} $
+	RewriteRule ^message/center/$ message_center.php
+    
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^notes/allattachment/download/(.*)/(.*)/$ all_download_zip.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^notes/allattachment/download/(.*)/$ all_download_zip.php?$1
+    
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^notes/attachment/download/(.*)/(.*)/$ note_download.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^notes/attachment/download/(.*)/$ note_download.php?$1
+
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^notes/detail/(.*)/(.*)/$ notes_detail.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^notes/detail/(.*)/$ notes_detail.php?$1
+        RewriteCond %{query_string} $
+	RewriteRule ^notes/detail/$ notes_detail.php
+
+    RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^notes/list/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/$ notes_list.php?$1&$2&$3&$4&$5&$6&$7
+    RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^notes/list/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/$ notes_list.php?$1&$2&$3&$4&$5&$6
+    RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^notes/list/(.*)/(.*)/(.*)/(.*)/(.*)/$ notes_list.php?$1&$2&$3&$4&$5
+    RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^notes/list/(.*)/(.*)/(.*)/(.*)/$ notes_list.php?$1&$2&$3&$4 
+    RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^notes/list/(.*)/(.*)/(.*)/$ notes_list.php?$1&$2&$3 
+    RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^notes/list/(.*)/(.*)/$ notes_list.php?$1&$2
+    RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^notes/list/(.*)/$ notes_list.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^notes/list/$ notes_list.php
+
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^notes/add/(.*)/$ notes_add.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^notes/add/$ notes_add.php
+        
+       
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^mail/list/(.*)/$ mail_list.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^mail/list/$ mail_list.php
+
+        
+	RewriteCond %{query_string} $
+	RewriteRule ^administration/$ administration.php
+
+
+	RewriteCond %{query_string} $
+	RewriteRule ^comengo_stop/$ comengo_stop.php
+        
+	RewriteCond %{query_string} $
+	RewriteRule ^comengo/$ comengo.php
+
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^mail/add/(.*)/(.*)/$ mail_add.php?$1&$2        
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^mail/add/(.*)/$ mail_add.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^mail/add/$ mail_add.php
+
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^mail/view/(.*)/(.*)/$ mail_view.php?$1&$2        
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^mail/view/(.*)/$ mail_view.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^mail/view/$ mail_view.php
+
+        RewriteCond %{query_string} $
+	RewriteRule ^email/$ email_send.php
+
+	RewriteCond %{query_string} $
+	RewriteRule ^sms/$ sms_general.php
+
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^holiday/new/(.*)/(.*)/$ holiday_new.php?$1&$2 
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^holiday/new/(.*)/$ holiday_new.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^holiday/new/$ holiday_new.php
+
+	RewriteCond %{query_string} $
+	RewriteRule ^report/perofemployement/$ percentage_of_employement_report.php
+
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^login/log/report/(.*)/(.*)/(.*)/(.*)/$ rpt_log_login.php?$1&$2&$3&$4
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^login/log/report/(.*)/(.*)/(.*)/$ rpt_log_login.php?$1&$2&$3
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^login/log/report/(.*)/(.*)/$ rpt_log_login.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^login/log/report/(.*)/$ rpt_log_login.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^login/log/report/$ rpt_log_login.php
+
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^employee/salary/(.*)/(.*)/(.*)/(.*)/$ employee_salary.php?$1&$2&$3&$4
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^employee/salary/(.*)/(.*)/(.*)/$ employee_salary.php?$1&$2&$3
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^employee/salary/(.*)/(.*)/$ employee_salary.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^employee/salary/(.*)/$ employee_salary.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^employee/salary/$ employee_salary.php
+        
+
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^lon/export/(.*)/$ export_lon.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^lon/export/$ export_lon.php
+
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^lon/export_unsigned/(.*)/$ export_lon_unsigned.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^lon/export_unsigned/$ export_lon_unsigned.php
+
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^manage/surveys/(.*)/(.*)/$ S_manage_survey.php?$1&$2
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^manage/surveys/(.*)/$ S_manage_survey.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^manage/surveys/$ S_manage_survey.php
+
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^manage/forms/(.*)/(.*)/$ S_manage_forms.php?$1&$2
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^manage/forms/(.*)/$ S_manage_forms.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^manage/forms/$ S_manage_forms.php
+
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^manage/questions/(.*)/(.*)/(.*)/$ S_manage_questions.php?$1&$2&$3
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^manage/questions/(.*)/(.*)/$ S_manage_questions.php?$1&$2
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^manage/questions/(.*)/$ S_manage_questions.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^manage/questions/$ S_manage_questions.php
+
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^manage/groups/(.*)/$ S_manage_groups.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^manage/groups/$ S_manage_groups.php
+
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^manage/invitations/(.*)/$ S_manage_invitations.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^manage/invitations/$ S_manage_invitations.php
+
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^employee/list/salary/(.*)/(.*)/(.*)/(.*)/$ employee_salary_list.php?$1&$2&$3&$4
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^employee/list/salary/(.*)/(.*)/(.*)/$ employee_salary_list.php?$1&$2&$3
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^employee/list/salary/(.*)/(.*)/$ employee_salary_list.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^employee/list/salary/(.*)/$ employee_salary_list.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^employee/list/salary/$ employee_salary_list.php
+
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^atl/warning/(.*)/(.*)/$ atl_warning_report.php?$1&$2
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^atl/warning/(.*)/$ atl_warning_report.php?$1
+        RewriteCond %{query_string} $
+	RewriteRule ^atl/warning/$ atl_warning_report.php
+
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^report/week/atl/warning/(.*)/(.*)/(.*)/(.*)/(.*)/$ atl_warning_report_week.php?$1&$2&$3&$4&$5
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^report/week/atl/warning/(.*)/(.*)/(.*)/(.*)/$ atl_warning_report_week.php?$1&$2&$3&$4
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^report/week/atl/warning/(.*)/(.*)/(.*)/$ atl_warning_report_week.php?$1&$2&$3
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^report/week/atl/warning/(.*)/(.*)/$ atl_warning_report_week.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^report/week/atl/warning/(.*)/$ atl_warning_report_week.php?$1
+        RewriteCond %{query_string} $
+	RewriteRule ^report/week/atl/warning/$ atl_warning_report_week.php
+
+        RewriteCond %{query_string} $
+	RewriteRule ^company/edit/$ company_edit.php
+
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^company/contract/(.*)/(.*)/$ company_contract.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^company/contract/(.*)/$ company_contract.php?$1
+        RewriteCond %{query_string} $
+	RewriteRule ^company/contract/$ company_contract.php
+
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^employee/report/contract/(.*)/(.*)/(.*)/$ employee_contract_report.php?$1&$2&$3
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^employee/report/contract/(.*)/(.*)/$ employee_contract_report.php?$1&$2
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^employee/report/contract/(.*)/$ employee_contract_report.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^employee/report/contract/$ employee_contract_report.php
+
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^employee/report/detail/contract/(.*)/(.*)/$ employee_contract_detail_report.php?$1&$2
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^employee/report/detail/contract/(.*)/$ employee_contract_detail_report.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^employee/report/detail/contract/$ employee_contract_detail_report.php
+
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^user/question/survey/(.*)/(.*)/$ S_user_questions.php?$1&$2
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^user/question/survey/(.*)/$ S_user_questions.php?$1
+        RewriteCond %{query_string} $
+	RewriteRule ^user/question/survey/$ S_user_questions.php
+        
+        RewriteCond %{query_string} $
+	RewriteRule ^surveys/$ S_surveys.php
+
+        RewriteCond %{query_string} $
+	RewriteRule ^user/survey/$ S_user_surveys.php
+
+        RewriteCond %{query_string} $
+	RewriteRule ^report/survey/list/$ S_surveys_list.php
+
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^month/gdschema/employee/(.*)/(.*)/(.*)/(.*)/(.*)/$ gdschema_month_employee.php?$1&$2&$3&$4&$5
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^month/gdschema/employee/(.*)/(.*)/(.*)/(.*)/$ gdschema_month_employee.php?$1&$2&$3&$4
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^month/gdschema/employee/(.*)/(.*)/(.*)/$ gdschema_month_employee.php?$1&$2&$3
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^month/gdschema/employee/(.*)/(.*)/$ gdschema_month_employee.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^month/gdschema/employee/(.*)/$ gdschema_month_employee.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^month/gdschema/employee/$ gdschema_month_employee.php
+
+    RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^month/gdschema/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/$ gdschema_month.php?$1&$2&$3&$4&$5$6
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^month/gdschema/(.*)/(.*)/(.*)/(.*)/(.*)/$ gdschema_month.php?$1&$2&$3&$4&$5
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^month/gdschema/(.*)/(.*)/(.*)/(.*)/$ gdschema_month.php?$1&$2&$3&$4
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^month/gdschema/(.*)/(.*)/(.*)/$ gdschema_month.php?$1&$2&$3
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^month/gdschema/(.*)/(.*)/$ gdschema_month.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^month/gdschema/(.*)/$ gdschema_month.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^month/gdschema/$ gdschema_month.php
+
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^schedule/employee/month/gdschema/(.*)/(.*)/(.*)/$ gdschema_month_apply_schedule_employee.php?$1&$2&$3
+
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^schedule/month/gdschema/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/$ gdschema_month_apply_schedule.php?$1&$2&$3&$4&$5&$6
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^schedule/month/gdschema/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/$ gdschema_month_apply_schedule.php?$1&$2&$3&$4&$5
+
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^custom/survey/report/(.*)/$ S_custom_report.php?$1
+        RewriteCond %{query_string} $
+	RewriteRule ^custom/survey/report/$ S_custom_report.php
+
+RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^recruitment/interview/add/(.*)/$ recruitment_interview_add.php?$1
+        RewriteCond %{query_string} $
+	RewriteRule ^recruitment/interview/add/$ recruitment_interview_add.php
+        
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^recruitment/application/(.*)/(.*)/$ recruitment_application.php?$1&$2
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^recruitment/application/(.*)/$ recruitment_application.php?$1
+        RewriteCond %{query_string} $
+	RewriteRule ^recruitment/application/$ recruitment_application.php
+
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^recruitment/view/application/(.*)/(.*)/$ recruitment_application_view.php?$1&$2
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^recruitment/view/application/(.*)/$ recruitment_application_view.php?$1
+        RewriteCond %{query_string} $
+	RewriteRule ^recruitment/view/application/$ recruitment_application_view.php
+
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^recruitment/login/(.*)/$ recruitment_login.php?$1
+        RewriteCond %{query_string} $
+	RewriteRule ^recruitment/login/$ recruitment_login.php
+
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^recruitment/logout(.*)/$ recruitment_logout.php?$1
+        RewriteCond %{query_string} $
+	RewriteRule ^recruitment/logout/$ recruitment_logout.php
+
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^recruitment/resetpass/(.*)/$ recruitment_resetpass.php?$1
+        RewriteCond %{query_string} $
+	RewriteRule ^recruitment/resetpass/$ recruitment_resetpass.php
+
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^view/recruitment/applicant/(.*)/$ recruitment_applicant_view.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^view/recruitment/applicant/$ recruitment_applicant_view.php
+
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^add/recruitment/applicant/(.*)/$ recruitment_applicant_add.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^add/recruitment/applicant/$ recruitment_applicant_add.php
+        
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^recruitment/profile/(.*)/(.*)/$ recruitment_profile.php?$1&$2
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^recruitment/profile/(.*)/$ recruitment_profile.php?$1
+        RewriteCond %{query_string} $
+	RewriteRule ^recruitment/profile/$ recruitment_profile.php
+
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^employee/skills/(.*)/(.*)/(.*)/$ employee_skills.php?$1&$2&$3
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^employee/skills/(.*)/(.*)/$ employee_skills.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^employee/skills/(.*)/$ employee_skills.php?$1
+        RewriteCond %{query_string} $
+	RewriteRule ^employee/skills/$ employee_skills.php
+
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^employee/documentations/(.*)/(.*)/(.*)/$ employee_documentations.php?$1&$2&$3
+	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^employee/documentations/(.*)/(.*)/$ employee_documentations.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^employee/documentations/(.*)/$ employee_documentations.php?$1
+        RewriteCond %{query_string} $
+	RewriteRule ^employee/documentations/$ employee_documentations.php
+
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^documents/archive/(.*)/(.*)/$ documents_archive.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^documents/archive/(.*)/$ documents_archive.php?$1
+        RewriteCond %{query_string} $
+	RewriteRule ^documents/archive/$ documents_archive.php
+
+	RewriteCond %{query_string} $
+	RewriteRule ^documents/sign/reports/$ documents_sign_report.php
+
+	RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^customer/locations/(.*)/(.*)/(.*)/$ customer_locations.php?$1&$2&$3
+    	RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^customer/locations/(.*)/(.*)/$ customer_locations.php?$1&$2
+    	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^customer/locations/(.*)/$ customer_locations.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^customer/locations/$ customer_locations.php
+
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^customer/inconvenient/timings/list/(.*)/(.*)/$ customer_inconvenient_timing_list.php?$1&$2
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^customer/inconvenient/timings/list/(.*)/$ customer_inconvenient_timing_list.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^customer/inconvenient/timings/list/$ customer_inconvenient_timing_list.php
+
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^customer/inconvenient/timing/(.*)/(.*)/(.*)/$ customer_inconvenient_timing.php?$1&$2&$3
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^customer/inconvenient/timing/(.*)/(.*)/$ customer_inconvenient_timing.php?$1&$2
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^customer/inconvenient/timing/(.*)/$ customer_inconvenient_timing.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^customer/inconvenient/timing/$ customer_inconvenient_timing.php
+
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^customer/overlap/report/(.*)/(.*)/(.*)/$ customer_overlapped_slot_report.php?$1&$2&$3
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^customer/overlap/report/(.*)/(.*)/$ customer_overlapped_slot_report.php?$1&$2
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^customer/overlap/report/(.*)/$ customer_overlapped_slot_report.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^customer/overlap/report/$ customer_overlapped_slot_report.php
+
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^tickets/attachment/download/(.*)/(.*)/$ ticket_download.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^tickets/attachment/download/(.*)/$ ticket_download.php?$1
+
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^tickets/detail/(.*)/(.*)/$ ticket_detail.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^tickets/detail/(.*)/$ ticket_detail.php?$1
+        RewriteCond %{query_string} $
+	RewriteRule ^tickets/detail/$ ticket_detail.php
+        
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^tickets/list/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/$ ticket_list.php?$1&$2&$3&$4&$5&$6&$7&$8
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^tickets/list/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/$ ticket_list.php?$1&$2&$3&$4&$5&$6&$7
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^tickets/list/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/$ ticket_list.php?$1&$2&$3&$4&$5&$6
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^tickets/list/(.*)/(.*)/(.*)/(.*)/(.*)/$ ticket_list.php?$1&$2&$3&$4&$5
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^tickets/list/(.*)/(.*)/(.*)/(.*)/$ ticket_list.php?$1&$2&$3&$4
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^tickets/list/(.*)/(.*)/(.*)/$ ticket_list.php?$1&$2&$3
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^tickets/list/(.*)/(.*)/$ ticket_list.php?$1&$2
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^tickets/list/(.*)/$ ticket_list.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^tickets/list/$ ticket_list.php
+
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^tickets/add/(.*)/$ ticket_add.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^tickets/add/$ ticket_add.php
+        
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^tickets/category/list/(.*)/$ ticket_category_list.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^tickets/category/list/$ ticket_category_list.php
+
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^tickets/category/add/(.*)/$ ticket_category_add.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^tickets/category/add/$ ticket_category_add.php
+
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^tickets/mails/(.*)/$ ticket_mails.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^tickets/mails/$ ticket_mails.php
+
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^supporttickets/attachment/download/(.*)/(.*)/$ support_ticket_download.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^supporttickets/attachment/download/(.*)/$ support_ticket_download.php?$1
+
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^supporttickets/detail/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/$ support_ticket_detail.php?$1&$2&$3&$4&$5&$6&$7&$8&$9
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^supporttickets/detail/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/$ support_ticket_detail.php?$1&$2&$3&$4&$5&$6&$7&$8
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^supporttickets/detail/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/$ support_ticket_detail.php?$1&$2&$3&$4&$5&$6&$7
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^supporttickets/detail/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/$ support_ticket_detail.php?$1&$2&$3&$4&$5&$6
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^supporttickets/detail/(.*)/(.*)/(.*)/(.*)/(.*)/$ support_ticket_detail.php?$1&$2&$3&$4&$5
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^supporttickets/detail/(.*)/(.*)/(.*)/(.*)/$ support_ticket_detail.php?$1&$2&$3&$4
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^supporttickets/detail/(.*)/(.*)/(.*)/$ support_ticket_detail.php?$1&$2&$3
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^supporttickets/detail/(.*)/(.*)/$ support_ticket_detail.php?$1&$2
+	RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^supporttickets/detail/(.*)/$ support_ticket_detail.php?$1
+        RewriteCond %{query_string} $
+	RewriteRule ^supporttickets/detail/$ support_ticket_detail.php
+        
+	RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^supporttickets/list/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/$ support_ticket_list.php?$1&$2&$3&$4&$5&$6&$7&$8&$9
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^supporttickets/list/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/$ support_ticket_list.php?$1&$2&$3&$4&$5&$6&$7&$8
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^supporttickets/list/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/$ support_ticket_list.php?$1&$2&$3&$4&$5&$6&$7
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^supporttickets/list/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/$ support_ticket_list.php?$1&$2&$3&$4&$5&$6
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^supporttickets/list/(.*)/(.*)/(.*)/(.*)/(.*)/$ support_ticket_list.php?$1&$2&$3&$4&$5
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*)&(.*]+)$
+	RewriteRule ^supporttickets/list/(.*)/(.*)/(.*)/(.*)/$ support_ticket_list.php?$1&$2&$3&$4
+        RewriteCond %{query_string} !^(.*)&(.*)&(.*]+)$
+	RewriteRule ^supporttickets/list/(.*)/(.*)/(.*)/$ support_ticket_list.php?$1&$2&$3
+        RewriteCond %{query_string} !^(.*)&(.*]+)$
+	RewriteRule ^supporttickets/list/(.*)/(.*)/$ support_ticket_list.php?$1&$2
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^supporttickets/list/(.*)/$ support_ticket_list.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^supporttickets/list/$ support_ticket_list.php
+
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^supporttickets/add/(.*)/$ support_ticket_add.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^supporttickets/add/$ support_ticket_add.php
+        
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^supporttickets/category/list/(.*)/$ support_ticket_category_list.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^supporttickets/category/list/$ support_ticket_category_list.php
+
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^supporttickets/category/add/(.*)/$ support_ticket_category_add.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^supporttickets/category/add/$ support_ticket_category_add.php
+
+        RewriteCond %{query_string} !^(.*]+)$
+	RewriteRule ^supporttickets/mails/(.*)/$ support_ticket_mails.php?$1
+	RewriteCond %{query_string} $
+	RewriteRule ^supporttickets/mails/$ support_ticket_mails.php
+
+        RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)/ $1.php
+        
+</IfModule>
+
+# Modify Headers
+<IfModule mod_headers.c>
+	# Cache files
+	Header set Connection keep-alive
+        ExpiresActive On
+        ExpiresDefault A60
+        <filesMatch "\.(ico|pdf|flv|woff)$">
+                # 1 YEAR
+                Header set Cache-Control "max-age=29030400, public"
+        </filesMatch>
+	<FilesMatch "\.(jpg|jpeg|png|gif|swf|mp3|mp4)$">
+                # 1 WEEK
+                Header set Cache-Control "max-age=604800, public"
+		Header unset Last-Modified
+	</FilesMatch>
+        <filesMatch ".(xml|txt|css|js)$">
+                # 7 DAYS
+                Header set Cache-Control "max-age=604800, proxy-revalidate"
+		Header unset Last-Modified
+        </filesMatch>
+        
+</IfModule>
+
+AddDefaultCharset UTF-8
+
+#Compress JavaScript & CSS
+<IfModule mod_deflate.c>
+	<FilesMatch "\.(js|css)$">
+		SetOutputFilter DEFLATE
+	</FilesMatch>
+</IfModule>
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php5_module>
+   php_flag asp_tags Off
+   php_flag display_errors Off
+   php_value max_execution_time 7400
+   php_value max_input_time 7400
+   php_value max_input_vars 10000
+   php_value memory_limit 1024M
+   php_value post_max_size 64M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php56"
+   php_value upload_max_filesize 20M
+   php_flag zlib.output_compression On
+</IfModule>
+<IfModule lsapi_module>
+   php_flag asp_tags Off
+   php_flag display_errors Off
+   php_value max_execution_time 7400
+   php_value max_input_time 7400
+   php_value max_input_vars 10000
+   php_value memory_limit 1024M
+   php_value post_max_size 64M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php56"
+   php_value upload_max_filesize 20M
+   php_flag zlib.output_compression On
+</IfModule>
+# END cPanel-generated php ini directives, do not edit
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php71” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php71 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

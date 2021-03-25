@@ -1,0 +1,130 @@
+05:44:20   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+05:44:20   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-02-06:04:44:20) on conditions id = 230 AND username = gine001
+06:14:10 last002 Loni Stark INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( last002, 115.248.24.177, Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0 ) => {inserted_id = 1439}
+06:16:53 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 115.248.24.177, Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:22.0) Gecko/20100101 Firefox/22.0 ) => {inserted_id = 1440}
+06:16:53 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+06:19:28 last002 Loni Stark INSERTING data into tables `sick_form_defaults` fields ( customer, uppdrag, fullmakt, reference_number, check_values ) values ( hesv001, , 0||0, , 0||0||0||0 ) => {inserted_id = 1}
+06:19:29 last002 Loni Stark INSERTING data into tables `history_sick_report` fields ( employee, customer, file ) values ( joef001, hesv001, Sick_1850890261.pdf ) => {inserted_id = 1}
+06:19:47 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirruscommon`.`login` fields ( username, mobile, social_security, password, role, login, date, company_ids ) values ( abni001, , 1441122338, e23ed3da13abc3b3da2b711d207c7208, 3, 0, 2014-02-06, 6, ) => {inserted_id = 0}
+06:19:47 gine001 Gilad Nevo INSERTING data into tables `employee` fields ( username, century, code, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day ) values ( abni001, 19, 20024, 1441122338, Abdul, Niyaz, 1, , , , , , , 2014-02-06, #F4E0EB, 1, , , 0, 10.00 ) => {inserted_id = 0}
+06:19:47 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( company_ids=CONCAT(`company_ids`,?) ) values (6,) on conditions social_security = 1441122338 AND company_ids NOT LIKE %6,%
+06:20:04   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+06:20:04   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-02-06:05:20:04) on conditions id = 1440 AND username = gine001
+06:20:27 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 115.248.24.177, Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:22.0) Gecko/20100101 Firefox/22.0 ) => {inserted_id = 1441}
+06:20:27 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+06:21:11 gine001 Gilad Nevo INSERTING data into tables `privileges_reports` fields ( employee ) values ( abni001 ) => {inserted_id = 0}
+06:21:11 gine001 Gilad Nevo UPDATING data to tables `privileges_reports` fields ( customer_schedule, employee_schedule, employee_workreport, customer_data, customer_leave, customer_granded_vs_used, customer_employee_connection, customer_horizontal, customer_overview, customer_vacation_planning, employee_data, employee_leave, employee_percentage, atl_warning ) values (1, 1, 1, , , , , 1, 1, 1, , , , ) on conditions employee = abni001
+06:21:16   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+06:21:16   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-02-06:05:21:16) on conditions id = 1441 AND username = gine001
+06:21:28 abni001 Abdul Niyaz INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( abni001, 115.248.24.177, Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:22.0) Gecko/20100101 Firefox/22.0 ) => {inserted_id = 1442}
+06:21:42 abni001 Abdul Niyaz UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( password, date, error ) values (3eec29dc8400375fab2ca3a8683e5021, 2014-02-06, 0) on conditions username = abni001
+06:21:42 abni001 Abdul Niyaz INSERTING data into tables `log_password` fields ( username, passwords ) values ( abni001, e23ed3da13abc3b3da2b711d207c7208 ) => {inserted_id = 0}
+06:21:42 abni001 Abdul Niyaz UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = abni001
+06:21:46 last002 Loni Stark UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (, 0||0, , 0||0||0||0) on conditions customer = hesv001
+06:21:46 last002 Loni Stark INSERTING data into tables `history_sick_report` fields ( employee, customer, file ) values ( joef001, hesv001, Sick_1015649624.pdf ) => {inserted_id = 2}
+06:28:38 last002 Loni Stark UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 3388
+06:28:38 last002 Loni Stark INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( hesv001, 2014-01-03, 22.30, 24.00, 3, 1, , last002, 3388, 0 ) => {inserted_id = 4739}
+06:28:38 last002 Loni Stark INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 54, jata001, 2014-01-03, 22.3, 24, 1, , last002, 0, 1 ) => {inserted_id = 81}
+06:28:38 last002 Loni Stark INSERTING data into tables `log_sms` fields ( from_user, to_user, to_no, message, status ) values ( last002, gine001, 704434964, %0ASjuk : Janne%20Tandodal%0ADatum: 2014-01-03%0APass: 22.30-24%0A, 1 ) => {inserted_id = 11}
+06:29:27 last002 Loni Stark UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, anra004, last002) on conditions id = 4739
+06:29:53 last002 Loni Stark UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 3389
+06:29:53 last002 Loni Stark INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( hesv001, 2014-01-04, 0.00, 6.00, 3, 1, , last002, 3389, 0 ) => {inserted_id = 4740}
+06:29:53 last002 Loni Stark INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 55, jata001, 2014-01-04, 0, 6, 1, , last002, 0, 1 ) => {inserted_id = 82}
+06:29:53 last002 Loni Stark INSERTING data into tables `log_sms` fields ( from_user, to_user, to_no, message, status ) values ( last002, gine001, 704434964, %0ASjuk : Janne%20Tandodal%0ADatum: 2014-01-04%0APass: 0.00-6.00%0A, 1 ) => {inserted_id = 12}
+06:30:15 last002 Loni Stark UPDATING data to tables `leave` fields ( status, appr_emp, appr_date ) values (1, last002, 2014-02-06) on conditions group_id = 54
+06:30:45 last002 Loni Stark UPDATING data to tables `leave` fields ( status, appr_emp, appr_date ) values (1, last002, 2014-02-06) on conditions group_id = 55
+06:31:13 last002 Loni Stark UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, moen001, last002) on conditions id = 4740
+06:31:21 last002 Loni Stark UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (, 0||0, , 0||0||0||0) on conditions customer = hesv001
+06:31:21 last002 Loni Stark INSERTING data into tables `history_sick_report` fields ( employee, customer, file ) values ( joef001, hesv001, Sick_1709073785.pdf ) => {inserted_id = 3}
+06:32:20 last002 Loni Stark UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (, 0||0, , 0||0||0||0) on conditions customer = hesv001
+06:32:20 last002 Loni Stark INSERTING data into tables `history_sick_report` fields ( employee, customer, file ) values ( jata001, hesv001, Sick_646065021.pdf ) => {inserted_id = 4}
+06:39:08 last002 Loni Stark INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , hesv001, 1, 0, 2014-01-08, 9.05, 10.55, 0, last002 ) => {inserted_id = 4741}
+06:39:14 last002 Loni Stark UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, jata001, last002) on conditions id = 4741
+06:39:21 last002 Loni Stark UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 4741
+06:39:21 last002 Loni Stark INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( hesv001, 2014-01-08, 9.05, 10.55, 0, 1, , last002, 4741, 0 ) => {inserted_id = 4742}
+06:39:21 last002 Loni Stark INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 56, jata001, 2014-01-08, 9.05, 10.55, 1, , last002, 0, 1 ) => {inserted_id = 83}
+06:39:21 last002 Loni Stark INSERTING data into tables `log_sms` fields ( from_user, to_user, to_no, message, status ) values ( last002, gine001, 704434964, %0ASjuk : Janne%20Tandodal%0ADatum: 2014-01-08%0APass: 9.05-10.55%0A, 1 ) => {inserted_id = 13}
+06:39:39 last002 Loni Stark UPDATING data to tables `leave` fields ( status, appr_emp, appr_date ) values (1, last002, 2014-02-06) on conditions group_id = 56
+06:40:03 last002 Loni Stark UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, joef001, last002) on conditions id = 4742
+06:40:08 last002 Loni Stark UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (, 0||0, , 0||0||0||0) on conditions customer = hesv001
+06:40:08 last002 Loni Stark INSERTING data into tables `history_sick_report` fields ( employee, customer, file ) values ( jata001, hesv001, Sick_2019684668.pdf ) => {inserted_id = 5}
+06:47:14 last002 Loni Stark UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (, 0||0, , 0||0||0||0) on conditions customer = hesv001
+06:47:14 last002 Loni Stark INSERTING data into tables `history_sick_report` fields ( employee, customer, file ) values ( jata001, hesv001, Sick_1900114801.pdf ) => {inserted_id = 6}
+06:58:56 last002 Loni Stark UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (, 0||0, , 0||0||0||0) on conditions customer = hesv001
+06:59:43 last002 Loni Stark UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (, 0||0, , 0||0||0||0) on conditions customer = hesv001
+07:00:33 last002 Loni Stark UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (, 0||0, , 0||0||0||0) on conditions customer = hesv001
+07:01:19 last002 Loni Stark UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (, 0||0, , 0||0||0||0) on conditions customer = hesv001
+07:02:34 abni001 Abdul Niyaz INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( abni001, 115.248.24.177, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.68 Safari/537.36 ) => {inserted_id = 1443}
+07:02:34 abni001 Abdul Niyaz UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = abni001
+07:03:16 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 115.248.24.177, Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:22.0) Gecko/20100101 Firefox/22.0 ) => {inserted_id = 1444}
+07:03:16 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+07:03:16 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( error ) values (0) on conditions username = gine001
+07:03:43 last002 Loni Stark UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (, 0||0, , 0||0||0||0) on conditions customer = hesv001
+07:03:48 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( mobile, social_security ) values (111111111, 4901102121) on conditions username = adan001
+07:03:48 gine001 Gilad Nevo UPDATING data to tables `customer` fields ( code, century, social_security, first_name, last_name, address, city, post, phone, mobile, email, date, status, date_inactive, fkkn, gender ) values (1-10201, 19, 4901102121, Adam, Andersson, Allmogev, GtB, 121221, 31111111, 111111111, adam@a.com, 2014-01-21, 1, , 1, 1) on conditions username = adan001
+07:03:48 gine001 Gilad Nevo INSERTING data into tables `privileges` fields ( employee ) values ( abni001 ) => {inserted_id = 0}
+07:03:48 gine001 Gilad Nevo UPDATING data to tables `privileges` fields ( swap, process, add_slot, fkkn, slot_type, add_customer, add_employee, remove_customer, remove_employee, `leave`, copy_single_slot, copy_single_slot_option, copy_day_slot, copy_day_slot_option, split_slot, delete_slot, delete_day_slot, delete_multiple_slots, contract_override, atl_override, change_time, no_pay_leave ) values (1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, , , , , ) on conditions employee = abni001
+07:03:48 gine001 Gilad Nevo INSERTING data into tables `privileges_forms` fields ( employee ) values ( abni001 ) => {inserted_id = 0}
+07:03:48 gine001 Gilad Nevo UPDATING data to tables `privileges_forms` fields ( fkkn, `leave`, certificate ) values (1, 0, 0) on conditions employee = abni001
+07:03:48 gine001 Gilad Nevo INSERTING data into tables `privileges_general` fields ( employee ) values ( abni001 ) => {inserted_id = 0}
+07:03:48 gine001 Gilad Nevo UPDATING data to tables `privileges_general` fields ( add_employee, add_customer, inconvenient_timing, administration, chat, edit_employee, edit_customer, survey, create_template, use_template ) values (0, 0, 0, 0, 0, , , , , ) on conditions employee = abni001
+07:03:48 gine001 Gilad Nevo INSERTING data into tables `privileges_mc` fields ( employee ) values ( abni001 ) => {inserted_id = 0}
+07:03:48 gine001 Gilad Nevo UPDATING data to tables `privileges_mc` fields ( leave_notification, leave_approval, leave_rejection, leave_edit, notes, cirrus_mail, external_mail, sms, notes_approval, notes_rejection, notes_attchment ) values (1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ) on conditions employee = abni001
+07:03:48 gine001 Gilad Nevo DELETE data from tables `team` on conditions customer = adan001
+07:03:48 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, joso004, 3 ) => {inserted_id = 0}
+07:03:48 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, lobr002, 3 ) => {inserted_id = 0}
+07:03:48 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, wita001, 3 ) => {inserted_id = 0}
+07:03:48 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, than001, 3 ) => {inserted_id = 0}
+07:03:48 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( adan001, abni001, 3 ) => {inserted_id = 0}
+07:03:48 gine001 Gilad Nevo UPDATING data to tables `customer_guardian` fields ( first_name, last_name, mobile, email, address, first_name2, last_name2, mobile2, email2, address2 ) values (T1, E1, , , , T2, E2, , , ) on conditions customer = adan001
+07:04:43 last002 Loni Stark UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (, 0||0, , 0||0||0||0) on conditions customer = hesv001
+07:05:18 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , adan001, 1, 0, 2014-02-07, 8, 12, 0, gine001 ) => {inserted_id = 4743}
+07:05:22 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, abni001, gine001) on conditions id = 4743
+07:05:32 last002 Loni Stark UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (, 0||0, , 0||0||0||0) on conditions customer = hesv001
+07:05:33 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , adan001, 1, 0, 2014-02-08, 8.3, 18, 0, gine001 ) => {inserted_id = 4744}
+07:05:37 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, abni001, gine001) on conditions id = 4744
+07:09:05 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( role, mobile ) values (3, ) on conditions username = abni001
+07:09:05 gine001 Gilad Nevo UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day ) values (20024, 19, 1441122338, Abdul, Niyaz, 1, , , , , , niyaz@arioninfotech.com, 2014-02-06, #F4E0EB, 1, , , 0, 10.00) on conditions username = abni001
+07:09:05 gine001 Gilad Nevo INSERTING data into tables `emp_inconvinient_time` fields ( emp_username, on_call, on_call_holiday, on_call_bigholiday, inconvinient_night, inconvinient_evening, inconvinient_holiday, inconvinient_week_holiday, date_from, added_by ) values ( abni001, , , , , , , , 2014-02-06, gine001 ) => {inserted_id = 35}
+07:09:05 gine001 Gilad Nevo INSERTING data into tables `emp_salary` fields ( emp_username, salary_per_month, salary_per_hour, date_from, added_by ) values ( abni001, , , 2014-02-06, gine001 ) => {inserted_id = 29}
+07:12:43   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = abni001
+07:12:43   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-02-06:06:12:43) on conditions id = 1443 AND username = abni001
+07:13:00 abni001 Abdul Niyaz INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( abni001, 115.248.24.177, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.68 Safari/537.36 ) => {inserted_id = 1445}
+07:13:00 abni001 Abdul Niyaz UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = abni001
+07:17:41 last002 Loni Stark UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (, 0||0, , 0||0||0||0) on conditions customer = hesv001
+07:18:42 last002 Loni Stark UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (, 0||0, , 0||0||0||0) on conditions customer = hesv001
+07:20:19 last002 Loni Stark UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (, 0||0, , 0||0||0||0) on conditions customer = hesv001
+07:21:35 last002 Loni Stark UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (, 0||0, , 0||0||0||0) on conditions customer = hesv001
+07:22:14 last002 Loni Stark UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (, 0||0, , 0||0||0||0) on conditions customer = hesv001
+07:25:23   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+07:25:23   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-02-06:06:25:23) on conditions id = 1444 AND username = gine001
+07:25:59 last002 Loni Stark UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (, 0||0, , 0||0||0||0) on conditions customer = hesv001
+07:26:57 last002 Loni Stark UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (, 0||0, , 0||0||0||0) on conditions customer = hesv001
+07:27:37 last002 Loni Stark UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (, 0||0, , 0||0||0||0) on conditions customer = hesv001
+07:29:10   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = abni001
+07:29:10   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-02-06:06:29:10) on conditions id = 1445 AND username = abni001
+07:29:32 abni001 Abdul Niyaz INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( abni001, 115.248.24.177, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.68 Safari/537.36 ) => {inserted_id = 1446}
+07:29:32 abni001 Abdul Niyaz UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = abni001
+07:36:49 last002 Loni Stark UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (, 0||0, , 0||0||0||0) on conditions customer = hesv001
+07:38:05 last002 Loni Stark UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (, 0||0, , 0||0||0||0) on conditions customer = hesv001
+07:38:09 last002 Loni Stark UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (, 0||0, , 0||0||0||0) on conditions customer = hesv001
+07:38:31 last002 Loni Stark UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (, 0||0, , 0||0||0||0) on conditions customer = hesv001
+07:39:33 last002 Loni Stark UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (, 0||0, , 0||0||0||0) on conditions customer = hesv001
+07:40:36 last002 Loni Stark UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (, 0||0, , 0||0||0||0) on conditions customer = hesv001
+07:50:23 abni001 Abdul Niyaz UPDATING data to tables `timetable` fields ( google_id ) values (f0eenge4v84v5qghfn247l1f68) on conditions id = 4743
+07:50:24 abni001 Abdul Niyaz UPDATING data to tables `timetable` fields ( google_id ) values (0kdvaep9prfi70gpi0tb0rljng) on conditions id = 4744
+07:52:37 gine001 root001 UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (, 0||0, , 0||0||0||0) on conditions customer = hesv001
+08:05:24 last002 Loni Stark UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (, 0||0, , 0||0||0||0) on conditions customer = hesv001
+08:15:03 rokl001 rokl001 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rokl001, 85.89.70.141, Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B554a Safari/9537.53 ) => {inserted_id = 1447}
+08:15:03 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = rokl001
+08:31:32   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+08:31:32   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-02-06:07:31:32) on conditions id = 235 AND username = gine001
+12:00:05 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.127.36, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36 ) => {inserted_id = 1448}
+12:00:05 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+12:21:29 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.127.36, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36 ) => {inserted_id = 1449}
+12:21:29 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+12:25:12 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.127.36, Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0 ) => {inserted_id = 1450}
+12:25:12 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+12:25:12 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( error ) values (0) on conditions username = gine001
+13:22:13   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = 
+13:22:13   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-02-06:12:22:13) on conditions id =  AND username = 

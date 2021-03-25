@@ -1,0 +1,24 @@
+09:21:49 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 223.30.129.234, Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0 ) => {inserted_id = 3593}
+09:21:49 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+09:21:49 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-08-17 07:21:49) on conditions username = dodo001
+09:21:50 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = apb51q22nq8e2pm09qgap2krc1
+09:24:22 dodo001 Admin Cirrus INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( gine001, stal001, 1, 3, 2015-08-13, 1, 5.45, 1, , dodo001,  ) => {inserted_id = 8097}
+09:24:22 dodo001 Admin Cirrus INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( stal001, 1, 10, 3 ) => {inserted_id = 355}
+09:24:22 dodo001 Admin Cirrus INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( gine001, stal001, 1, 0, 2015-08-13, 5.45, 10, 1, , dodo001,  ) => {inserted_id = 8098}
+09:24:22 dodo001 Admin Cirrus INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( stal001, 1, 10, 0 ) => {inserted_id = 356}
+09:27:42 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = apb51q22nq8e2pm09qgap2krc1
+09:29:04 dodo001 Admin Cirrus INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , anst007, 1, 0, 2015-08-05, 1, 15, 0, , dodo001,  ) => {inserted_id = 8099}
+09:29:04 dodo001 Admin Cirrus INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( anst007, 1, 15, 0 ) => {inserted_id = 357}
+09:31:53 dodo001 Admin Cirrus INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( chyi001, anst007, 1, 0, 2015-08-03, 1, 5, 1, , dodo001,  ) => {inserted_id = 8100}
+12:39:40 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+12:39:40 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.99.237, Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0 ) => {inserted_id = 3594}
+12:39:40 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+12:39:40 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-08-17 10:39:40) on conditions username = gine001
+12:42:12 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirruscommon`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, category_id, priority, ticket_type, status, hidden ) values ( 384, gine001, Jag skulle tro att du ska använda Övrigt - vilket ni kan bestämma om det är betald eller ej. Gör kommentar till löneadmin att de ska kolla., 6, 3, 3, 3, 0 ) => {inserted_id = 1254}
+15:55:22 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+15:55:22 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.99.237, Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0 ) => {inserted_id = 3595}
+15:55:22 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+15:55:22 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-08-17 13:55:22) on conditions username = gine001
+15:57:12 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirruscommon`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, category_id, priority, ticket_type, status, hidden ) values ( 384, gine001, Övrigt är betald löneart. 
+För obetald ledighet finns det en speciell löneart., 6, 3, 3, 3, 0 ) => {inserted_id = 1256}
+17:15:40 gine001 Gilad Nevo UPDATING data to tables `fkkn_form_defaults` fields ( bargaining, other_bargaining_text, agreement_types, agreement_type2_company, agreement_type2_orgNo, health_care_agency ) values (6, test spara, 1||1||1, CirrusTest, 5568752325, 1) on conditions customer = anst007

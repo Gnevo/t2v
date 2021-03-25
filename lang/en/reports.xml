@@ -1,0 +1,1536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+    <!--datas for menu-->
+    <label>
+        <key>inconvenient_timings</key>
+        <value>Inconvenient Timings</value>
+    </label>
+    <label>
+        <key>select_customer</key>
+        <value>Select Customer</value>
+    </label>
+    <label>
+        <key>select_employee</key>
+        <value>Select Employee</value>
+    </label>
+    <label>
+        <key>customer_monthly_report</key>
+        <value>Customer Monthly Report</value>
+    </label>
+    <label>
+        <key>employee_monthly_report</key>
+        <value>Employee Monthly Report</value>
+    </label>
+    <label>
+        <key>month</key>
+        <value>Month</value>
+    </label>   
+    <label>
+        <key>year</key>
+        <value>Year</value>
+    </label>
+    <label>
+        <key>customer</key>
+        <value>Customer</value>
+    </label>
+    <label>
+        <key>employee</key>
+        <value>Employee</value>
+    </label>
+    
+<!--table column captions-->
+    <label>
+        <key>date</key>
+        <value>Date</value>
+    </label>
+    <label>
+        <key>normal</key>
+        <value>Normal Hour</value>
+    </label>
+    <label>
+        <key>break</key>
+        <value>Break Hour</value>
+    </label>
+    <label>
+        <key>travel</key>
+        <value>Travel Hour</value>
+    </label>
+    <label>
+        <key>oncall</key>
+        <value>On Call Hour</value>
+    </label>
+    <label>
+        <key>total_hour</key>
+        <value>Total Hour</value>
+    </label> 
+    <label>
+        <key>total</key>
+        <value>Total</value>
+    </label>  
+    <label>
+        <key>normals</key>
+        <value>Normal</value>
+    </label> 
+    <label>
+        <key>type</key>
+        <value>Type</value>
+    </label> 
+     <label>
+        <key>inconvenient_report</key>
+        <value>Inconvenient Report</value>
+    </label> 
+     <label>
+        <key>get_report</key>
+        <value>Get Report</value>
+    </label> 
+    <label>
+        <key>generate</key>
+        <value>Generate</value>
+    </label>
+    
+    <!--start log report -->
+
+    <label>
+        <key>employee_log_report</key>
+        <value>Employee Log Report</value>
+    </label>  
+
+    <label>
+        <key>all</key>
+        <value>All</value>
+    </label>
+    
+    <label>
+        <key>ip</key>
+        <value>IP</value>
+    </label>
+    
+    <label>
+        <key>browser</key>
+        <value>Browser</value>
+    </label>
+    
+    <label>
+        <key>Login_date</key>
+        <value>Login Date</value>
+    </label>
+    
+    <label>
+        <key>Login_time</key>
+        <value>Login Time</value>
+    </label>
+    
+    <label>
+        <key>Logoff_date</key>
+        <value>Logoff Date</value>
+    </label>
+    
+    <label>
+        <key>Logoff_time</key>
+        <value>Logoff Time</value>
+    </label>
+    
+    <label>
+        <key>Log_tot_time</key>
+        <value>Total Time</value>
+    </label>
+    <!--end log report -->
+    
+    <label>
+        <key>employee_work_report_summary</key>
+        <value>Employee Work Report Summary</value>
+    </label>  
+    
+    <label>
+        <key>holiday_big</key>
+        <value>Holiday Big</value>
+    </label>
+    <label>
+        <key>holiday_red</key>
+        <value>Holiday Red</value>
+    </label>
+    <label>
+        <key>inconvenient_big</key>
+        <value>Inconvenient Big</value>
+    </label>
+    <label>
+        <key>inconvenient_red</key>
+        <value>Inconvenient Red</value>
+    </label>
+    <label>
+        <key>employee_detail_report</key>
+        <value>Employee Work Detail Report</value>
+    </label>
+    <label>
+        <key>message_center</key>
+        <value>Message Center</value>
+    </label>
+    <label>
+        <key>time_slot</key>
+        <value>Time Slot</value>
+    </label>
+    <label>
+        <key>employee_work_report_details</key>
+        <value>Employee Work Report Details</value>
+    </label>
+    <label>
+        <key>sum</key>
+        <value>Sum</value>
+    </label>
+    <label>
+        <key>leave</key>
+        <value>Leave Hour</value>
+    </label>
+    <label>
+        <key>ordinary</key>
+        <value>Ordinary</value>
+    </label>
+    <label>
+        <key>jour</key>
+        <value>Jour</value>
+    </label>
+    <label>
+        <key>leave_sum</key>
+        <value>Leave Sum</value>
+    </label>
+    <label>
+        <key>work_sum</key>
+        <value>Work Sum</value>
+    </label>
+    <label>
+        <key>reports</key>
+        <value>Reports</value>
+    </label>
+    <label>
+        <key>work_reports</key>
+        <value>Work Reports</value>
+    </label>
+    <label>
+        <key>to_date</key>
+        <value>To Date</value>
+    </label>
+    <label>
+        <key>no_work</key>
+        <value>  __ __</value>
+    </label>
+    <label>
+        <key>signed</key>
+        <value>Signed</value>
+    </label>
+    <label>
+        <key>unsigned</key>
+        <value>Unsigned</value>
+    </label>
+    <label>
+        <key>time_reporting</key>
+        <value>Time reporting - Assistance</value>
+    </label>
+    <label>
+        <key>signed_by</key>
+        <value>Signed By</value>
+    </label>
+    <label>
+        <key>on</key>
+        <value>On</value>
+    </label>
+    <label>
+        <key>work_sum_ord</key>
+        <value>Sum Ordinarie</value>
+    </label>
+    <label>
+        <key>work_sum_jour</key>
+        <value>Sum Oncall</value>
+    </label>
+    <!--start employee report -->
+    <label>
+        <key>employeenumber</key>
+        <value>Employee Number</value>
+    </label>
+    <label>
+        <key>SSN</key>
+        <value>Personal Number</value>
+    </label>
+    <label>
+        <key>name</key>
+        <value>Name</value>
+    </label>
+    <label>
+        <key>address</key>
+        <value>Adress</value>
+    </label>
+    <label>
+        <key>zipcode</key>
+        <value>Zipcode</value>
+    </label>
+    <label>
+        <key>city</key>
+        <value>City</value>
+    </label>
+    <label>
+        <key>telephone</key>
+        <value>Telephone</value>
+    </label>
+    <label>
+        <key>mobile</key>
+        <value>Mobile</value>
+    </label>
+    <label>
+        <key>email</key>
+        <value>Email</value>
+    </label>
+    <label>
+        <key>no_record_found</key>
+        <value>No Record Found</value>
+    </label>
+    <label>
+        <key>todate_greaterthan_fromdate_error</key>
+        <value>From Date Greater Than To Date</value>
+    </label>
+    <label>
+        <key>from_date</key>
+        <value>From Date</value>
+    </label>
+    <label>
+        <key>to_date</key>
+        <value>To Date</value>
+    </label>
+    <label>
+        <key>active</key>
+        <value>Active</value>
+    </label>	
+    <label>
+        <key>inactive</key>
+        <value>Inactive</value>
+    </label>	
+    <label>
+        <key>show_employees</key>
+        <value>Show Employees</value>
+    </label>
+    <!--end employee report -->
+	
+	
+    <!--start employee leave report -->
+    <label>
+        <key>employee</key>
+        <value>Employee</value>
+    </label>
+    <label>
+        <key>customer</key>
+        <value>Customer</value>
+    </label>
+    <label>
+        <key>total_working_hours</key>
+        <value>Total Working Hours</value>
+    </label>
+    <label>
+        <key>sickness</key>
+        <value>Sick</value>
+    </label>
+    <label>
+        <key>sem</key>
+        <value>Sem</value>
+    </label>
+    <label>
+        <key>vab</key>
+        <value>VAB</value>
+    </label>
+    <label>
+        <key>fp</key>
+        <value>FP</value>
+    </label>
+    <label>
+        <key>pmeeting</key>
+        <value>Personal Meeting</value>
+    </label>
+    <label>
+        <key>education</key>
+        <value>Education</value>
+    </label>
+    <label>
+        <key>other</key>
+        <value>Other</value>
+    </label>
+	
+    <label>
+        <key>bandwidth</key>
+        <value>Swap</value>
+    </label>
+    <label>
+        <key>total_leaves</key>
+        <value>Total Leaves</value>
+    </label>
+    <!--end employee leave report -->
+	
+    <!--Start Employee to Customer report-->
+    <label>
+        <key>employee_to_customer_report</key>
+        <value>Employee To Customer Report</value>
+    </label>
+    <label>
+        <key>number</key>
+        <value>Number</value>
+    </label>
+    <label>
+        <key>username</key>
+        <value>Username</value>
+    </label>
+    <label>
+        <key>employeename</key>
+        <value>employee Name</value>
+    </label>
+    <label>
+        <key>employeephonenumber</key>
+        <value>Telephone</value>
+    </label>	
+    <!--End Employee to Customer report-->
+	
+    <!--Start Percentage of Employment report-->
+    <label>
+        <key>F</key>
+        <value>F</value>
+    </label>
+    <label>
+        <key>P</key>
+        <value>P</value>
+    </label>
+    <label>
+        <key>percentage_of_employment_report</key>
+        <value>Percentage Report</value>
+    </label>	
+    <label>
+        <key>contract_date</key>
+        <value>Contract Date</value>
+    </label>	
+    <label>
+        <key>full_part_time</key>
+        <value>FullTime/Partime</value>
+    </label>
+    <label>
+        <key>contract_percent</key>
+        <value>Contract %</value>
+    </label>
+    <label>
+        <key>expected_working_hours</key>
+        <value>Expected Working Hours</value>
+    </label>
+    <label>
+        <key>actual_working_hours</key>
+        <value>Actual Working Hours</value>
+    </label>
+    <label>
+        <key>percent</key>
+        <value>Percentage</value>
+    </label>
+    <label>
+        <key>no_contract</key>
+        <value>No Contract</value>
+    </label>
+    <!--End Percentage of Employment report-->
+	
+    <!--Start Customer Data report-->
+    <label>
+        <key>cutomer_report</key>
+        <value>Customer</value>
+    </label>
+    <label>
+        <key>show_customer</key>
+        <value>Show Customer</value>
+    </label>
+    <label>
+        <key>customer_no</key>
+        <value>Customer Number</value>
+    </label>
+    <label>
+        <key>number</key>
+        <value>Number</value>
+    </label>	
+    <!--End Customer Data report-->
+	
+    <!--Start Common Data report-->
+    <label>
+        <key>to</key>
+        <value>To</value>
+    </label>
+    <label>
+        <key>outof</key>
+        <value>Out Of</value>
+    </label>	
+    <!--End Common Data report-->
+	
+    <!--Start Customer Absence report-->
+    <label>
+        <key>customer_absence_report</key>
+        <value>Customer Absense Report</value>
+    </label>
+    <label>
+        <key>customer_name</key>
+        <value>Customer Name</value>
+    </label>
+    <!--End Customer Absence report-->
+	
+    <!--Start Report page-->
+    <label>
+        <key>employee_report</key>
+        <value>Employee Report</value>
+    </label>
+    <label>
+        <key>customer_report</key>
+        <value>Customer Report</value>
+    </label>
+    <label>
+        <key>employee_data</key>
+        <value>Profile</value>
+    </label>
+    <label>
+        <key>customer_data</key>
+        <value>Profile</value>
+    </label>
+    <label>
+        <key>employee_abssence_report</key>
+        <value>Employee Absenese Report</value>
+    </label>
+    <label>
+        <key>customer_abssence_report</key>
+        <value>Customer Absenese Report</value>
+    </label>
+    <label>
+        <key>percentage_of_employment</key>
+        <value>Employement %</value>
+    </label>
+    <label>
+        <key>granted_vs_used_hours</key>
+        <value>Granted Vs Used</value>
+    </label>
+    <label>
+        <key>working_hours_month</key>
+        <value>Working Hours / Month</value>
+    </label>
+    <label>
+        <key>employee_to_customer</key>
+        <value>Employee To Customer</value>
+    </label>
+    <label>
+        <key>monthly_signing</key>
+        <value>Monthly Signing</value>
+    </label>
+    <label>
+        <key>working_hoursmonth</key>
+        <value>Working Hours Month</value>
+    </label>	
+    <!--End Report page-->
+	
+    <!-- Start Error message -->
+    <label>
+        <key>no_access_error_message</key>
+        <value>No Access</value>
+    </label>
+    <!-- End Error message -->
+    <!-- Start Horizontal Report -->
+    <label>
+        <key>horizontal_customer_report</key>
+        <value>Horizontal Customer Report</value>
+    </label>
+    <label>
+        <key>h</key>
+        <value>h</value>
+    </label>
+    <label>
+        <key>fk</key>
+        <value>FK</value>
+    </label>
+    <label>
+        <key>kn</key>
+        <value>KN</value>
+    </label>
+    <label>
+        <key>tu</key>
+        <value>TU</value>
+    </label>
+    <!-- End Horizontal Report -->
+	
+    <!-- Start Hourly Customer Report -->
+    <label>
+        <key>hourly_customer_report</key>
+        <value>Hourly Customer Report</value>
+    </label>
+    <label>
+        <key>regular</key>
+        <value>Ordinary</value>
+    </label>
+    <label>
+        <key>on_call</key>
+        <value>Oncall</value>
+    </label>
+    <!-- End Hourly Customer Report -->
+	
+    <!-- Start Vacation Planning Report -->
+    <label>
+        <key>vacation_plannning_report</key>
+        <value>Vacation Planning</value>
+    </label>
+    <label>
+        <key>leave</key>
+        <value>Leave</value>
+    </label>
+    <!-- End Vacation Planning Report -->
+	
+    <label>
+        <key>leave_sum_ord</key>
+        <value>Leave Sum Ord</value>
+   </label>     
+   <label>
+        <key>leave_sum_oncall</key>
+        <value>Leave Oncall</value>
+    </label> 
+   
+    <!-- Start Employee preference time -->
+    <label>
+        <key>employee_max_hours</key>
+        <value>Max Hour</value>
+    </label>
+    <label>
+        <key>employee_preferredtime</key>
+        <value>Preferred Time</value>
+    </label>
+    <label>
+        <key>date_for_preferred_time_is_already_there</key>
+        <value>Date For Preferred Time is Already There</value>
+    </label>
+    <!-- End Employee preference time -->
+	
+    <label>
+        <key>invalid_time_slot</key>
+        <value>Invaid Time Slot</value>
+    </label>
+	
+    <label>
+        <key>schedule_difference_error_message</key>
+        <value>Schedule Difference</value>
+    </label>
+    <label>
+        <key>maximum_time_difference_error_message</key>
+        <value>Maximum Time Error</value>
+    </label>
+    <label>
+        <key>global_setting_success_message</key>
+        <value>Global Settings Saved</value>
+    </label>
+    <!-- Start Global setting page Added By Rahul : 3-10-2012 -->
+    <label>
+        <key>global_setting</key>
+        <value>Global Settings</value>
+    </label>
+    <!-- End Global setting page Added By Rahul : 3-10-2012 -->
+	
+	
+    <label>
+        <key>no_employee_for_customer</key>
+        <value>No Employee For Customer</value>
+    </label>
+    <label>
+        <key>are_you_sure</key>
+        <value>Are You Sure?</value>
+    </label>
+    <!--Start - Global setting labels-->
+    <label>
+        <key>global_setting_label_timediff</key>
+        <value>Time Differnece</value>
+    </label>
+    <label>
+        <key>in_minutes</key>
+        <value>In Minutes</value>
+    </label>
+    <label>
+        <key>global_setting_label_maxhours</key>
+        <value>Maximala Hours</value>
+    </label>
+    <label>
+        <key>in_hours</key>
+        <value>In Hours</value>
+    </label>
+    <label>
+        <key>fromdate_error</key>
+        <value>From Date</value>
+    </label>
+    <label>
+        <key>record_delete_succcessfully</key>
+        <value>Record Deleted</value>
+    </label>
+    <label>
+        <key>record_delete_failed</key>
+        <value>Record Deleting Failed</value>
+    </label>
+    <label>
+        <key>auto_schedule</key>
+        <value>Auto Scheduling</value>
+    </label>
+    <label>
+        <key>No_employee_available</key>
+        <value>No Employee Available</value>
+    </label>
+    <!--End - Global setting labels-->	
+    <label>
+        <key>sms_sent_report</key>	
+        <value>SMS Report</value>
+    </label>
+    <label>
+        <key>sender_employee</key>	
+        <value>Sender</value>
+    </label>
+    <label>
+        <key>sending_date_time</key>	
+        <value>Sending Date Time</value>
+    </label>
+    <label>
+        <key>shift_time_from_to</key>	
+        <value>Shift Time (From - To)</value>
+    </label>
+    <label>
+        <key>receiving_employee</key>	
+        <value>Receiving Employee</value>
+    </label>
+    <label>
+        <key>mobile</key>	
+        <value>Mobile</value>
+    </label>
+    <label>
+        <key>responce_date_time</key>	
+        <value>Response Date Time</value>
+    </label>
+    <label>
+        <key>responce_status</key>	
+        <value>Response Status</value>
+    </label>
+    <label>
+        <key>got_job</key>	
+        <value>Got Job</value>
+    </label>	
+    <label>
+        <key>label_accept</key>	
+        <value>Accepted</value>
+    </label>
+    <label>
+        <key>label_rejected</key>	
+        <value>Rejected</value>
+    </label>
+    <label>                                                                                             
+        <key>label_pending</key>	
+        <value>Pending</value>
+    </label>
+    <label>
+        <key>label_yes</key>	
+        <value>Yes</value>
+    </label>
+    <label>
+        <key>label_no</key>	
+        <value>No</value>
+    </label>
+    <label>
+        <key>outgoing_sms</key>	
+        <value>Outgoing SMS</value>
+    </label>
+    <label>
+        <key>global_setting_label_maxhours_per_week</key>
+        <value>Maximum Hours / Week</value>
+    </label>
+    <label>
+        <key>global_setting_label_max_overtime</key>
+        <value>Maximum Overtime</value>
+    </label>
+    <label>
+        <key>employee_wr</key>
+        <value>Employee</value>
+    </label>
+    <label>
+        <key>tl_wr</key>
+        <value>TL</value>
+    </label>
+    <label>
+        <key>super_tl_wr</key>
+        <value>Group Leader</value>
+    </label>
+    <label>
+        <key>amount_inconv</key>
+        <value>Inconvenient Amount</value>
+    </label>
+    <label>
+        <key>effect_from</key>
+        <value>From</value>
+    </label>
+    <label>
+        <key>effect_to</key>
+        <value>To</value>
+    </label>
+    <label>
+        <key>inconv_time</key>
+        <value>Inconvenient Time</value>
+    </label>
+    <label>
+        <key>portrait</key>
+        <value>Portriat</value>
+    </label>
+    <label>
+        <key>landscape</key>
+        <value>Landscape</value>
+    </label>
+    <label>
+        <key>atl_warning</key>
+        <value>ATL Warning</value>
+    </label>
+    <label>
+        <key>used_hours</key>
+        <value>Used Hours</value>
+    </label>
+    <label>
+        <key>diff</key>
+        <value>Diff</value>
+    </label>
+    <label>
+        <key>diff_in_per</key>
+        <value>Diff in %</value>
+    </label>
+    <label>
+        <key>belopp_kn</key>
+        <value>KN</value>
+    </label>
+    <label>
+        <key>belopp_fk</key>
+        <value>FK</value>
+    </label>
+    <label>
+        <key>belopp_tu</key>
+        <value>TU</value>
+    </label>
+    <label>
+        <key>from</key>
+        <value>From</value>
+    </label>
+    <label>
+        <key>extra</key>
+        <value>Extra</value>
+    </label>
+    <label>
+        <key>less_excess</key>
+        <value>Less</value>
+    </label>
+    <label>
+        <key>total_time</key>
+        <value>Total Time</value>
+    </label>
+    <label>
+        <key>employee_contract_report</key>
+        <value>Employee Contract</value>
+    </label>
+    <label>
+        <key>contract_from</key>
+        <value>Contract From</value>
+    </label>
+    <label>
+        <key>contract_to</key>
+        <value>Contract To</value>
+    </label>
+    <label>
+        <key>contract_hour</key>
+        <value>Contract Hour</value>
+    </label>
+    <label>
+        <key>week</key>
+        <value>Week</value>
+    </label>
+    <label>
+        <key>monthly_hour</key>
+        <value>Hours / Month</value>
+    </label>
+    <label>
+        <key>employee_worked_hour</key>
+        <value>Employee Worked Hours</value>
+    </label>
+    <label>
+        <key>weekly_hour</key>
+        <value>Hours/Week</value>
+    </label>
+    <label>
+        <key>remaining_hour</key>
+        <value>Remaining Hours</value>
+    </label>
+    <label>
+        <key>include_without_contract</key>
+        <value>Include Without Contract</value>
+    </label>
+    <label>
+        <key>contract_hour</key>
+        <value>Contract Hour</value>
+    </label>
+    <label>
+        <key>worked_hour</key>
+        <value>Worked Hour</value>
+    </label>
+    <label>
+        <key>show_all_connected_employees</key>
+        <value>Show All Connected Employees</value>
+    </label>
+    <label>
+        <key>total_records</key>
+        <value>Total Records</value>
+    </label>
+    <label>
+        <key>normal_report_short</key>
+        <value>O</value>
+    </label>
+    <label>
+        <key>oncall_report_short</key>
+        <value>J</value>
+    </label>
+    <label>
+        <key>oncall_contract_hour</key>
+        <value>Oncall Contract Hour</value>
+    </label>
+    <label>
+        <key>oncall_worked_hour</key>
+        <value>Oncall Worked Hour</value>
+    </label>
+    <label>
+        <key>show_all_connected_customers</key>
+        <value>Show All Connected Customers</value>
+    </label>
+    <label>
+        <key>search_with</key>
+        <value>Search</value>
+    </label>
+    <label>
+        <key>work_sum_personal</key>
+        <value>Sum Ordinary</value>
+    </label>
+    <label>
+        <key>select_a_search_type</key>
+        <value>Select Search Type</value>
+    </label>
+    <label>
+        <key>enter_search_values</key>
+        <value>Enter Search Values</value>
+    </label>
+    <label>
+        <key>unsigned_employees</key>
+        <value>Unsigned Employees</value>
+    </label>
+    <label>
+        <key>untreated_leave_exists_contact_TL</key>
+        <value>Untreated Leave Exists</value>
+    </label>
+     <label>
+        <key>upload_to_calender</key>
+        <value>Upload to Calendar</value>
+    </label>
+    <label>
+        <key>employee_not_select</key>
+        <value>Select Employee</value>
+    </label>
+    <label>
+        <key>no_work_data_available</key>
+        <value>No Data Available</value>
+    </label>
+    <label>
+        <key>training</key>
+        <value>Training</value>
+    </label>
+    <label>
+        <key>earned_days</key>
+        <value>Earned Days</value>
+    </label>
+    <label>
+        <key>taken_vacation_days</key>
+        <value>aken Vacation Days</value>
+    </label>
+    <label>
+        <key>former_year_remain_days</key>
+        <value>From Year Remaining Days</value>
+    </label>
+    <label>
+        <key>more_oncall</key>
+        <value>More Oncall</value>
+    </label>
+     <label>
+        <key>select_all_type</key>
+        <value>Select All Type</value>
+    </label>
+     <label>
+        <key>customer_month_report_pdf</key>
+        <value>Customer Monthly Report</value>
+    </label>
+     <label>
+        <key>customer_report_customer_name</key>
+        <value>Customer</value>
+    </label>
+     <label>
+        <key>customer_report_socialsecurity</key>
+        <value>Personal Number</value>
+    </label>
+    <label>
+        <key>employee_month_report_pdf</key>
+        <value>employee Month Report</value>
+    </label>
+     <label>
+        <key>employee_report_employee_name</key>
+        <value>Employee</value>
+    </label>
+     <label>
+        <key>employee_report_socialsecurity</key>
+        <value>Personal Number</value>
+    </label>
+    <label>
+        <key>report_period</key>
+        <value>Period</value>
+    </label>
+    <label>
+        <key>check</key>
+        <value>Check</value>
+    </label>
+    <label>
+        <key>work_hours</key>
+        <value>Work hours</value>
+    </label>
+    <label>
+        <key>untreated_candg_slot_exists</key>
+        <value>Unreated Come and go slot Exists</value>
+    </label>
+    <label>
+        <key>total_working_days</key>
+        <value>Total working days</value>
+    </label>
+    <label>
+        <key>overlapp_report</key>
+        <value>Overlapped Report</value>
+    </label>
+    <label>
+        <key>monthly_overlap_report</key>
+        <value>Monthly Overlapped Report</value>
+    </label>
+    <label>
+        <key>next_year</key>
+        <value>Next Year</value>
+    </label>
+    <label>
+        <key>prev_year</key>
+        <value>Previous Year</value>
+    </label>
+    <label>
+        <key>next_month</key>
+        <value>Next Month</value>
+    </label>
+    <label>
+        <key>prev_month</key>
+        <value>Previous Month</value>
+    </label>
+    <label>
+        <key>overlap_slot_report_detail</key>
+        <value>Overlopp Slot Detail Report</value>
+    </label>
+    <label>
+        <key>total_time_collide</key>
+        <value>Total Time Collide</value>
+    </label>
+    <label>
+        <key>total_colliding_hours_month</key>
+        <value>Total Colliding Hours Month: </value>
+    </label>
+    <label>
+        <key>hrs</key>
+        <value> Hrs</value>
+    </label>
+    <label>
+        <key>other_customer_relation</key>
+        <value>Other</value>
+    </label>    
+    <label>
+        <key>work_phone</key>
+        <value>Work Phone</value>
+    </label>
+    <label>
+        <key>close</key>
+        <value>Close</value>
+    </label>
+    <label>
+        <key>no_relatives</key>
+        <value>No Relatives</value>
+    </label>
+    <label>
+        <key>no_additional_information</key>
+        <value>No Additional Information</value>
+    </label>
+    <label>
+        <key>no_employees_attached</key>
+        <value>No Employees Attached</value>
+    </label>
+    <label>
+        <key>no_guardian_information</key>
+        <value>No Guardian Information</value>
+    </label>
+   <label>
+        <key>bank_id_display_head</key>
+        <value>Time details</value>
+    </label>    
+    <label>
+        <key>bank_id_total_working</key>
+        <value>Total Working</value>
+    </label>    
+    <label>
+        <key>bank_id_total_leave</key>
+        <value>Total Leave</value>
+    </label>
+   <label>
+        <key>bank_id_display_head_employer</key>
+        <value>Here by I confirm, as an employer, that these employees signed there monthly report on Customer: </value>
+    </label> 
+    <label>
+        <key>bank_id_month_year</key>
+        <value>month-year</value>
+    </label>
+    <label>
+        <key>bank_id_employees_employer</key>
+        <value>Employees: </value>
+    </label>
+   <label>
+        <key>signin_bank_id</key>
+        <value>BankId Signing </value>
+    </label>
+    <label>
+        <key>bank_id_text1</key>
+        <value>Write Something Here to understand how the baank id is working</value>
+     </label>    
+    <label>
+        <key>bank_id_text2</key>
+        <value>Write Something Here to understand how the baank id is working</value>
+     </label>    
+    <label>
+        <key>bank_id_text3</key>
+        <value>Write Something Here to understand how the baank id is working</value>
+     </label>    
+    <label>
+        <key>bank_id_text4</key>
+        <value>Write Something Here to understand how the baank id is working</value>
+     </label>    
+    <label>
+        <key>bank_id_text_link</key>
+        <value>Write Something Here to understand how the baank id is working</value>
+     </label> 
+    <label>
+        <key>printed_on</key>
+        <value>Printed on</value>
+     </label>     
+    <label>
+        <key>printed_by</key>
+        <value>Printed by</value>
+     </label>  
+    <label>
+        <key>user_documentation</key>
+        <value>User</value>
+     </label>     
+    <label>
+        <key>date_documentation</key>
+        <value>Date</value>
+     </label>   
+    <label>
+        <key>sms_log_report</key>
+        <value>SMS Log Report</value>
+    </label>
+    <label>
+        <key>sms_type</key>
+        <value>SMS type</value>
+    </label>
+    <label>
+        <key>sms_incoming</key>
+        <value>Incoming</value>
+    </label>
+    <label>
+        <key>sms_outgoing</key>
+        <value>Outgoing</value>
+    </label>
+    <label>
+        <key>total_sms_count</key>
+        <value>Total No. of SMS</value>
+    </label>
+    <label>
+        <key>serial_no</key>
+        <value>Sl no.</value>
+    </label>
+    <label>
+        <key>sms_message</key>
+        <value>Message</value>
+    </label>
+    <label>
+        <key>mc_da_delete_head</key>
+        <value>Delete</value>
+    </label>
+    <label>
+        <key>mc_da_edit_head</key>
+        <value>Edit</value>
+    </label>
+    <label>
+        <key>mc_da_delete_tool_tip</key>
+        <value>Delete</value>
+    </label>
+    <label>
+        <key>mc_da_edit_tool_tip</key>
+        <value>Edit</value>
+    </label>
+    <label>
+        <key>mc_da_doc_owner</key>
+        <value>Owner</value>
+    </label>
+    <label>
+        <key>not_signed_employee_count</key>
+        <value>Not Signed Employees</value>
+    </label>
+    <label>
+        <key>not_signed_gl_count</key>
+        <value>Not Signed GL</value>
+    </label>
+    <label>
+        <key>not_signed_admin_count</key>
+        <value>Not Signed Admin</value>
+    </label>
+    <label>
+        <key>sign_through_bankID</key>
+        <value>through BankID</value>
+    </label>
+    <label>
+        <key>report_employee_should_be_sign_before_others_do</key>
+        <value>Report employee should be sign before others do</value>
+    </label>
+    <label>
+        <key>future_slots_exist_in_this_month</key>
+        <value>Future slots exist in this month</value>
+    </label>
+    <label>
+        <key>sign_type</key>
+        <value>Sign type</value>
+    </label>
+    <label>
+        <key>with_bankid</key>
+        <value>With BankID</value>
+    </label>
+    <label>
+        <key>without_bankid</key>
+        <value>Without BankID</value>
+    </label>
+    <label>
+        <key>sign_user_level</key>
+        <value>Sign user level</value>
+    </label>
+    <label>
+        <key>total_signing_count</key>
+        <value>Total signings</value>
+    </label>
+    <label>
+        <key>signing_with_bankid_count</key>
+        <value>Signing with bankID count</value>
+    </label>
+    <label>
+        <key>signing_without_bankid_count</key>
+        <value>Signing without bankID count</value>
+    </label>
+    <label>
+        <key>signing_report</key>
+        <value>Signing Report</value>
+    </label>
+    <label>
+        <key>fk_3059</key>
+        <value>FK 3059</value>
+    </label>
+    <label>
+        <key>kn_3059</key>
+        <value>KN 3059</value>
+    </label>
+    <label>
+        <key>show_unsend_users_only</key>
+        <value>Show unsend users only</value>
+    </label>
+    <label>
+        <key>export_sent_users_count</key>
+        <value>Sent count</value>
+    </label>
+    <label>
+        <key>export_unsent_users_count</key>
+        <value>Unsent count</value>
+    </label>
+    <label>
+        <key>export_users_count</key>
+        <value>Total count</value>
+    </label>
+    <label>
+        <key>employee_attendance</key>
+        <value>MÄT STATISTIK FÖR SCB</value>
+    </label>
+    <label>
+        <key>employee_attendance_heading_day</key>
+        <value>FRÅNVARO SAMT NÄRVARO FÖR SPECIFIK DAG</value>
+    </label>
+    <label>
+        <key>employee_attendance_heading_month</key>
+        <value>FRÅNVARO SAMT NÄRVARO FÖR SPECIFIK MÅNAD</value>
+    </label>
+    <label>
+        <key>absence_day</key>
+        <value>absence day</value>
+    </label>
+    <label>
+        <key>attendance_day</key>
+        <value>attendance day</value>
+    </label>
+    <label>
+        <key>absence_month</key>
+        <value>FRÅNVARO MÅNAD</value>
+    </label>
+    <label>
+        <key>attendance_month</key>
+        <value>NÄRVARO MÅNAD</value>
+    </label>
+    <label>
+        <key>employee</key>
+        <value>Employees</value>
+    </label>
+    <label>
+        <key>illness_injury</key>
+        <value>SJUKDOM/ARBETSSKADA</value>
+    </label>
+    <label>
+        <key>vecation</key>
+        <value>Vacation</value>
+    </label>
+    <label>
+        <key>others</key>
+        <value>ÖVRIGT</value>
+    </label>
+    <label>
+        <key>total_absence</key>
+        <value>TOTALT FRÅNVARO</value>
+    </label>
+    <label>
+        <key>men</key>
+        <value>MÄN</value>
+    </label>
+    <label>
+        <key>women</key>
+        <value>KVINNOR</value>
+    </label>
+    <label>
+        <key>total</key>
+        <value>TOTALT</value>
+    </label>
+    <label>
+        <key>appointed</key>
+        <value>Appointed</value>
+    </label>
+    <label>
+        <key>quit</key>
+        <value>Quit</value>
+    </label>
+    <label>
+        <key>leave_comments</key>
+        <value>Leave Comments</value>
+    </label>
+    <label>
+        <key>available_employees_report</key>
+        <value>Available Employees Report</value>
+    </label>
+    <label>
+        <key>total_available_users_count</key>
+        <value>Total users</value>
+    </label>
+    <label>
+        <key>search_customer_by_data</key>
+        <value>Search customer by data</value>
+    </label>
+    <label>
+        <key>search_data</key>
+        <value>Search data</value>
+    </label>
+    <label>
+        <key>match_contents</key>
+        <value>Match fields</value>
+    </label>
+    <label>
+        <key>cc</key>
+        <value>Customer</value>
+    </label>
+    <label>
+        <key>cg</key>
+        <value>Guardian</value>
+    </label>
+    <label>
+        <key>cr</key>
+        <value>Relative</value>
+    </label>
+    <label>
+        <key>ch</key>
+        <value>Health</value>
+    </label>
+    <label>
+        <key>first_name2</key>
+        <value>First name</value>
+    </label>
+    <label>
+        <key>first_name3</key>
+        <value>First name</value>
+    </label>
+    <label>
+        <key>last_name2</key>
+        <value>Last name</value>
+    </label>
+    <label>
+        <key>last_name3</key>
+        <value>Last name</value>
+    </label>
+    <label>
+        <key>mobile2</key>
+        <value>Mobile</value>
+    </label>
+    <label>
+        <key>mobile3</key>
+        <value>Mobile</value>
+    </label>
+    <label>
+        <key>address2</key>
+        <value>Address</value>
+    </label>
+    <label>
+        <key>address3</key>
+        <value>Address</value>
+    </label>
+    <label>
+        <key>email3</key>
+        <value>E-mail</value>
+    </label>
+    <label>
+        <key>email3</key>
+        <value>E-mail</value>
+    </label>
+    <label>
+        <key>ssn2</key>
+        <value>Personnummer</value>
+    </label>
+    <label>
+        <key>ssn3</key>
+        <value>Personnummer</value>
+    </label>
+    <label>
+        <key>used_hours_including_unmanned</key>
+        <value>Used hours including unmanned</value>
+    </label>
+    <label>
+        <key>unmanned_hours</key>
+        <value>Unmanned hours</value>
+    </label>
+    <label>
+        <key>Document_Archieves</key>
+        <value>Document Archieves</value>
+    </label>
+      <label>
+        <key>Manage_Category</key>
+        <value>Manage Category</value>
+    </label>
+     <label>
+        <key>Upload_Files</key>
+        <value>UploadFiles</value>
+    </label>
+    <label>
+        <key>Category</key>
+        <value>Category</value>
+    </label>
+    <label>
+        <key>Move_Category</key>
+        <value>Move Category</value>
+    </label>
+    <label>
+        <key>Manage_Category</key>
+        <value>Manage Category</value>
+    </label>
+    <label>
+        <key>Create_Category</key>
+        <value>Create Category</value>
+    </label>
+    <label>
+        <key>do_you_want_to_move_file</key>
+        <value>Do You Want To Move File</value>
+    </label>
+    <label>
+        <key>fk_sum</key>
+        <value>FK SUM</value>
+    </label>
+    <label>
+        <key>kntu_sum</key>
+        <value>KNTU SUM</value>
+    </label>
+    <label>
+        <key>fkkntu_sum</key>
+        <value>Sum</value>
+    </label>
+    <label>
+        <key>old_rpt_button</key>
+        <value>Old Report</value>
+    </label>
+    <label>
+        <key>page_no</key>
+        <value>Page </value>
+    </label>
+    <label>
+        <key>report_contract_employees</key>
+        <value>Employee Contract</value>
+    </label>
+    <label>
+        <key>max_daily_work</key>
+        <value>Mazimum day Work</value>
+    </label>
+    <label>
+        <key>min_day_rest</key>
+        <value>Minimum Continuous Rest</value>
+    </label>
+    <label>
+        <key>min_weekly_rest</key>
+        <value>Minimum Weekly Rest</value>
+    </label>
+    <label>
+        <key>employee_start_day_time</key>
+        <value>Start time</value>
+    </label>
+    <label>
+        <key>employee_skill_report</key>
+        <value>employee skills report</value>
+    </label>
+    <label>
+        <key>unalloc_report_short</key>
+        <value>UnA</value>
+    </label>
+    <label>
+        <key>unallocated</key>
+        <value>Unallocated Slot</value>
+    </label>
+    <label>
+        <key>employee_non_preferred_time</key>
+        <value>Employee Non Preferred Time</value>
+    </label>
+    <label>
+        <key>employee_preferred_time</key>
+        <value>Employee Preferred Time</value>
+    </label>
+    <label>
+        <key>employee_preferrred_time_report</key>
+        <value>Employee Preferred Time</value>
+    </label>
+    <label>
+        <key>date_range_for_employee_preferred_time</key>
+        <value>date range</value>
+    </label>
+    <label>
+        <key>timing_for_employee_preferred_time</key>
+        <value>Timing</value>
+    </label>
+    <label>
+        <key>employee_preferred_time_heading</key>
+        <value>Tillgänglighet</value>
+    </label>
+     <label>
+        <key>employee_non_preferred_time_heading</key>
+        <value>Employee Non Preferred Timings</value>
+    </label>
+</content>

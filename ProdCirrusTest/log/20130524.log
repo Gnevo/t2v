@@ -1,0 +1,526 @@
+09:15:05 jata001 Janne Tandodal INSERTING data into tables `log_login`fields username, ip, browser values ( jata001, 79.136.116.125, Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.4) )
+09:15:05 jata001 Janne Tandodal UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = jata001
+09:25:04 gine001 Gilad Nevo INSERTING data into tables `log_login`fields username, ip, browser values ( gine001, 85.227.154.64, Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; NP06) )
+09:25:04 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = gine001
+09:25:43 gine001 Gilad Nevo INSERTING data into tables `customer_equipment`fields equipment, customer, employee, issue_date, return_date, serial_number values ( säng, hesv001, gine001, 2013-05-01, 1970-01-01, 3456 )
+09:26:57 gine001 Gilad Nevo UPDATING data to tables `customer_equipment`fields Array values s�, hesv001, 2013-05-01, 2070-01-01, 3456 on conditions id = 1
+09:27:25 gine001 Gilad Nevo UPDATING data to tables `customer_equipment`fields Array values s?, hesv001, 2013-05-01, 2014-01-01, 3456 on conditions id = 1
+09:28:45 gine001 Gilad Nevo UPDATING data to tables `customer_equipment`fields Array values bord, hesv001, 2013-05-01, 2014-01-01, 3456 on conditions id = 1
+09:35:22 jata001 Janne Tandodal UPDATING data to tables `privileges`fields Array values 1, , 1, 1, , , 1, , , 1, , , , , 1, ,  on conditions employee = cher005
+09:35:55 jata001 Janne Tandodal INSERTING data into tables `privileges_reports`fields employee values ( cher005 )
+09:35:55 jata001 Janne Tandodal UPDATING data to tables `privileges_reports`fields Array values , , 1, , , , , , , , , ,  on conditions employee = cher005
+09:36:19 jata001 Janne Tandodal INSERTING data into tables `privileges_forms`fields employee values ( cher005 )
+09:36:19 jata001 Janne Tandodal UPDATING data to tables `privileges_forms`fields Array values 1, ,  on conditions employee = cher005
+09:37:12 jata001 Janne Tandodal UPDATING data to tables `privileges_reports`fields Array values 1, , 1, , , , , 1, 1, 1, , ,  on conditions employee = cher005
+09:39:42 jata001 Janne Tandodal UPDATING data to tables `privileges_mc`fields Array values , , , , 1, , , , , ,  on conditions employee = cher005
+09:51:39 jata001 Janne Tandodal INSERTING data into tables `inconvenient_timing`fields root_id, name, type, effect_from, time_from, time_to, days values ( 0, Jour Vard, 3, 2013-01-01, 1, 24, 7, )
+09:51:39 jata001 Janne Tandodal INSERTING data into tables `inconvenient_timing`fields root_id, name, type, effect_from, time_from, time_to, days values ( 13, Jour Vard, 3, 2013-01-01, 0, 24, 1,2,3,4,5, )
+09:51:39 jata001 Janne Tandodal INSERTING data into tables `inconvenient_timing`fields root_id, name, type, effect_from, time_from, time_to, days values ( 13, Jour Vard, 3, 2013-01-01, 0, 5, 6, )
+09:52:43 jata001 Janne Tandodal DELETE data from tables `inconvenient_timing` on conditions root_id = 13
+09:52:43 jata001 Janne Tandodal DELETE data from tables `inconvenient_timing` on conditions id = 13
+09:54:30 jata001 Janne Tandodal INSERTING data into tables `inconvenient_timing`fields root_id, name, type, effect_from, time_from, time_to, days values ( 0, Jour Vard, 3, 2013-01-01, 1.00, 5.00, 1,2,3,4,5,6,7, )
+10:06:50   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = gine001
+10:06:50   UPDATING data to tables `log_login`fields Array values 2013-05-24:08:06:50 on conditions id = 1200 AND username = gine001
+12:26:28 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-01, 1.00, 5.00, 0, jata001 )
+12:26:28 jata001 Janne Tandodal INSERTING data into tables `memory_slots`fields customer, time_from, time_to, type values ( anst007, 1.00, 5.00, 3 )
+12:27:50 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, undefined, 2013-07-01, 19.00, 24, 0, jata001 )
+12:27:50 jata001 Janne Tandodal INSERTING data into tables `memory_slots`fields customer, time_from, time_to, type values ( anst007, 19.00, 24, undefined )
+12:28:23 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, chfr001, jata001 on conditions id = 1598
+12:29:18 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, undefined, 2013-07-02, 0.00, 8.00, 0, jata001 )
+12:29:18 jata001 Janne Tandodal INSERTING data into tables `memory_slots`fields customer, time_from, time_to, type values ( anst007, 0.00, 8.00, undefined )
+12:29:36 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-02, 1.00, 5.00, 0, jata001 )
+12:29:52 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, chfr001, jata001 on conditions id = 1599
+12:30:22 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, undefined, 2013-07-02, 8.00, 19.00, 0, jata001 )
+12:30:22 jata001 Janne Tandodal INSERTING data into tables `memory_slots`fields customer, time_from, time_to, type values ( anst007, 8.00, 19.00, undefined )
+12:30:41 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-02, 19.00, 24.00, 0, jata001 )
+12:30:57 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, anfr005, jata001 on conditions id = 1601
+12:31:05 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, lima003, jata001 on conditions id = 1602
+12:31:48 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( chfr001, anst007, 1, 0, 2013-07-03, 0.00, 8.00, 1, jata001 )
+12:31:48 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-03, 1.00, 5.00, 0, jata001 )
+12:31:48 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( anfr005, anst007, 1, 0, 2013-07-03, 8.00, 19.00, 1, jata001 )
+12:31:48 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( lima003, anst007, 1, 0, 2013-07-03, 19.00, 24.00, 1, jata001 )
+12:31:58 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( chfr001, anst007, 1, 0, 2013-07-04, 0.00, 8.00, 1, jata001 )
+12:31:58 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-04, 1.00, 5.00, 0, jata001 )
+12:31:58 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( anfr005, anst007, 1, 0, 2013-07-04, 8.00, 19.00, 1, jata001 )
+12:31:58 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( lima003, anst007, 1, 0, 2013-07-04, 19.00, 24.00, 1, jata001 )
+12:32:10 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( chfr001, anst007, 1, 0, 2013-07-05, 0.00, 8.00, 1, jata001 )
+12:32:10 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-05, 1.00, 5.00, 0, jata001 )
+12:32:10 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( anfr005, anst007, 1, 0, 2013-07-05, 8.00, 19.00, 1, jata001 )
+12:32:10 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( lima003, anst007, 1, 0, 2013-07-05, 19.00, 24.00, 1, jata001 )
+12:32:37 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values , 0, jata001 on conditions id = 1603
+12:32:48 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values , 0, jata001 on conditions id = 1605
+12:32:53 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values , 0, jata001 on conditions id = 1606
+12:33:27 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, lima003, jata001 on conditions id = 1603
+12:33:44 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, chyi001, jata001 on conditions id = 1605
+12:33:53 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, chfr001, jata001 on conditions id = 1606
+12:34:22 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values , 0, jata001 on conditions id = 1609
+12:34:27 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values , 0, jata001 on conditions id = 1610
+12:34:42 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, chyi001, jata001 on conditions id = 1609
+12:34:50 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, anfr005, jata001 on conditions id = 1610
+12:35:10 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values , 0, jata001 on conditions id = 1611
+12:35:16 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values , 0, jata001 on conditions id = 1613
+12:35:33 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, anfr005, jata001 on conditions id = 1611
+12:35:42 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, chyi001, jata001 on conditions id = 1613
+12:36:10 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, undefined, 2013-07-06, 0.00, 12.00, 0, jata001 )
+12:36:10 jata001 Janne Tandodal INSERTING data into tables `memory_slots`fields customer, time_from, time_to, type values ( anst007, 0.00, 12.00, undefined )
+12:36:32 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, undefined, 2013-07-06, 12.00, 24, 0, jata001 )
+12:36:32 jata001 Janne Tandodal INSERTING data into tables `memory_slots`fields customer, time_from, time_to, type values ( anst007, 12.00, 24, undefined )
+12:36:59 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-06, 1.00, 5.00, 0, jata001 )
+12:37:52 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, lima003, jata001 on conditions id = 1615
+12:38:03 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, mali008, jata001 on conditions id = 1616
+12:38:32 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-07, 0.00, 19.00, 0, jata001 )
+12:38:32 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-07, 19.00, 24.00, 0, jata001 )
+12:38:38 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-07, 1.00, 5.00, 0, jata001 )
+12:38:48 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, mali008, jata001 on conditions id = 1618
+12:39:05 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, anra004, jata001 on conditions id = 1619
+12:39:46 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-08, 0.00, 19.00, 0, jata001 )
+12:39:46 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-08, 19.00, 24.00, 0, jata001 )
+12:39:46 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-08, 1.00, 5.00, 0, jata001 )
+12:39:58 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, anra004, jata001 on conditions id = 1621
+12:40:21 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, cher005, jata001 on conditions id = 1622
+13:32:35 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-09, 1.00, 5.00, 0, jata001 )
+13:32:35 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-09, 0.00, 8.00, 0, jata001 )
+13:32:35 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-09, 8.00, 19.00, 0, jata001 )
+13:32:35 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-09, 19.00, 24.00, 0, jata001 )
+13:33:15 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( lima003, anst007, 1, 0, 2013-07-09, 0.00, 12.00, 1, jata001 )
+13:33:15 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-09, 1.00, 5.00, 0, jata001 )
+13:33:15 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( mali008, anst007, 1, 0, 2013-07-09, 12.00, 24.00, 1, jata001 )
+13:33:34 jata001 Janne Tandodal DELETE data from tables `timetable` on conditions id = 1626
+13:33:34 jata001 Janne Tandodal DELETE data from tables `timetable` on conditions id = 1630
+13:33:34 jata001 Janne Tandodal DELETE data from tables `timetable` on conditions id = 1627
+13:33:34 jata001 Janne Tandodal DELETE data from tables `timetable` on conditions id = 
+13:33:59 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-10, 0.00, 8.00, 0, jata001 )
+13:33:59 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( lima003, anst007, 1, 0, 2013-07-10, 0.00, 12.00, 1, jata001 )
+13:33:59 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-10, 1.00, 5.00, 0, jata001 )
+13:33:59 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-10, 1.00, 5.00, 0, jata001 )
+13:34:13 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-12, 0.00, 8.00, 0, jata001 )
+13:34:13 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( lima003, anst007, 1, 0, 2013-07-12, 0.00, 12.00, 1, jata001 )
+13:34:13 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-12, 1.00, 5.00, 0, jata001 )
+13:34:13 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-12, 1.00, 5.00, 0, jata001 )
+13:34:28 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-14, 0.00, 8.00, 0, jata001 )
+13:34:28 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( lima003, anst007, 1, 0, 2013-07-14, 0.00, 12.00, 1, jata001 )
+13:34:28 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-14, 1.00, 5.00, 0, jata001 )
+13:34:28 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-14, 1.00, 5.00, 0, jata001 )
+13:35:37 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, undefined, 2013-07-11, 8.00, 24, 0, jata001 )
+13:35:37 jata001 Janne Tandodal INSERTING data into tables `memory_slots`fields customer, time_from, time_to, type values ( anst007, 8.00, 24, undefined )
+13:36:04 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-11, 1.00, 5.00, 0, jata001 )
+13:36:04 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-11, 0.00, 8.00, 0, jata001 )
+13:36:27 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-13, 1.00, 5.00, 0, jata001 )
+13:36:27 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-13, 0.00, 12.00, 0, jata001 )
+13:36:27 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-13, 12.00, 24.00, 0, jata001 )
+13:37:39 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, cher005, jata001 on conditions id = 1625
+13:38:10 jata001 Janne Tandodal DELETE data from tables `timetable` on conditions id = 1628
+13:38:19 jata001 Janne Tandodal DELETE data from tables `timetable` on conditions id = 1629
+13:38:34 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-09, 8.00, 19.00, 0, jata001 )
+13:38:34 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-09, 19.00, 24.00, 0, jata001 )
+13:38:50 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, chfr001, jata001 on conditions id = 1649
+13:39:00 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, lima003, jata001 on conditions id = 1650
+13:39:35 jata001 Janne Tandodal DELETE data from tables `timetable` on conditions id = 1632
+13:39:40 jata001 Janne Tandodal DELETE data from tables `timetable` on conditions id = 1634
+13:40:15 jata001 Janne Tandodal DELETE data from tables `timetable` on conditions id = 1636
+13:40:21 jata001 Janne Tandodal DELETE data from tables `timetable` on conditions id = 1638
+13:40:40 jata001 Janne Tandodal DELETE data from tables `timetable` on conditions id = 1642
+13:40:55 jata001 Janne Tandodal DELETE data from tables `timetable` on conditions id = 1640
+13:41:11 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-14, 8.00, 19.00, 0, jata001 )
+13:41:11 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-14, 19.00, 24.00, 0, jata001 )
+13:41:45 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, lima003, jata001 on conditions id = 1631
+13:41:57 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-10, 8.00, 19.00, 0, jata001 )
+13:41:57 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-10, 19.00, 24.00, 0, jata001 )
+13:42:05 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, chyi001, jata001 on conditions id = 1653
+13:42:15 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, cher005, jata001 on conditions id = 1654
+13:42:31 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, cher005, jata001 on conditions id = 1645
+13:42:43 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, anra004, jata001 on conditions id = 1643
+13:42:59 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, anra004, jata001 on conditions id = 1635
+13:43:14 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-12, 8.00, 19.00, 0, jata001 )
+13:43:14 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-12, 19.00, 24.00, 0, jata001 )
+13:43:24 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, chyi001, jata001 on conditions id = 1655
+13:43:37 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, anfr005, jata001 on conditions id = 1656
+13:43:50 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, anfr005, jata001 on conditions id = 1647
+13:44:02 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, lima003, jata001 on conditions id = 1648
+13:44:14 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, lima003, jata001 on conditions id = 1639
+13:44:21 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, anfr005, jata001 on conditions id = 1651
+13:44:29 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, lima003, jata001 on conditions id = 1652
+13:45:20 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-15, 1.00, 5.00, 0, jata001 )
+13:45:20 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-15, 0.00, 8.00, 0, jata001 )
+13:45:20 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-15, 8.00, 24.00, 0, jata001 )
+13:45:29 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, lima003, jata001 on conditions id = 1658
+13:45:40 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, cher005, jata001 on conditions id = 1659
+13:46:02 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-16, 1.00, 5.00, 0, jata001 )
+13:46:02 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-16, 0.00, 8.00, 0, jata001 )
+13:46:02 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-16, 8.00, 24.00, 0, jata001 )
+13:46:08 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, cher005, jata001 on conditions id = 1661
+13:46:18 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, anra004, jata001 on conditions id = 1662
+13:47:33 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-17, 1.00, 5.00, 0, jata001 )
+13:47:33 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-17, 0.00, 8.00, 0, jata001 )
+13:47:33 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-17, 8.00, 19.00, 0, jata001 )
+13:47:33 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-17, 19.00, 24.00, 0, jata001 )
+13:47:48 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, anra004, jata001 on conditions id = 1664
+13:47:57 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, chyi001, jata001 on conditions id = 1665
+13:48:25 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, cher005, jata001 on conditions id = 1666
+13:48:55 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-18, 1.00, 5.00, 0, jata001 )
+13:48:55 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-18, 0.00, 8.00, 0, jata001 )
+13:48:55 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-18, 8.00, 19.00, 0, jata001 )
+13:48:55 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-18, 19.00, 24.00, 0, jata001 )
+13:49:06 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, cher005, jata001 on conditions id = 1668
+13:49:18 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, chyi001, jata001 on conditions id = 1669
+13:49:26 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, lima003, jata001 on conditions id = 1670
+13:49:47 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-19, 1.00, 5.00, 0, jata001 )
+13:49:47 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-19, 0.00, 8.00, 0, jata001 )
+13:49:47 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-19, 8.00, 19.00, 0, jata001 )
+13:49:47 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-19, 19.00, 24.00, 0, jata001 )
+13:49:55 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, lima003, jata001 on conditions id = 1672
+13:50:14 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, chyi001, jata001 on conditions id = 1673
+13:50:25 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, lima003, jata001 on conditions id = 1674
+13:50:46 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-20, 1.00, 5.00, 0, jata001 )
+13:50:46 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-20, 0.00, 12.00, 0, jata001 )
+13:50:46 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-20, 12.00, 24.00, 0, jata001 )
+13:50:54 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, lima003, jata001 on conditions id = 1676
+13:51:04 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, mali008, jata001 on conditions id = 1677
+13:51:22 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-21, 1.00, 5.00, 0, jata001 )
+13:51:22 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-21, 0.00, 19.00, 0, jata001 )
+13:51:22 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-21, 19.00, 24.00, 0, jata001 )
+13:51:30 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, mali008, jata001 on conditions id = 1679
+13:51:48 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, anra004, jata001 on conditions id = 1680
+13:52:12 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-28, 1.00, 5.00, 0, jata001 )
+13:52:12 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-28, 0.00, 19.00, 0, jata001 )
+13:52:12 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-28, 19.00, 24.00, 0, jata001 )
+13:52:23 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, anra004, jata001 on conditions id = 1682
+13:52:32 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, anfr005, jata001 on conditions id = 1683
+13:52:48 jata001 Janne Tandodal DELETE data from tables `timetable` on conditions id = 1682
+13:52:48 jata001 Janne Tandodal DELETE data from tables `timetable` on conditions id = 1681
+13:52:48 jata001 Janne Tandodal DELETE data from tables `timetable` on conditions id = 1683
+13:52:48 jata001 Janne Tandodal DELETE data from tables `timetable` on conditions id = 
+13:53:04 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-22, 1.00, 5.00, 0, jata001 )
+13:53:04 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-22, 0.00, 19.00, 0, jata001 )
+13:53:04 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-22, 19.00, 24.00, 0, jata001 )
+13:53:11 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, anra004, jata001 on conditions id = 1685
+13:53:17 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, anfr005, jata001 on conditions id = 1686
+13:53:37 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-23, 1.00, 5.00, 0, jata001 )
+13:53:37 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-23, 0.00, 8.00, 0, jata001 )
+13:53:37 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-23, 8.00, 24.00, 0, jata001 )
+13:53:43 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, anfr005, jata001 on conditions id = 1688
+13:53:51 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, cher005, jata001 on conditions id = 1689
+13:54:15 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-24, 1.00, 5.00, 0, jata001 )
+13:54:15 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-24, 0.00, 8.00, 0, jata001 )
+13:54:15 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-24, 8.00, 19.00, 0, jata001 )
+13:54:15 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-24, 19.00, 24.00, 0, jata001 )
+13:54:22 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, cher005, jata001 on conditions id = 1691
+13:54:30 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, chyi001, jata001 on conditions id = 1692
+13:54:38 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, chfr001, jata001 on conditions id = 1693
+13:55:05 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-25, 1.00, 5.00, 0, jata001 )
+13:55:05 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-25, 0.00, 8.00, 0, jata001 )
+13:55:05 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-25, 8.00, 24.00, 0, jata001 )
+13:55:13 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, chfr001, jata001 on conditions id = 1695
+13:55:29 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, cher005, jata001 on conditions id = 1696
+13:55:51 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-26, 1.00, 5.00, 0, jata001 )
+13:55:51 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-26, 0.00, 8.00, 0, jata001 )
+13:55:51 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-26, 8.00, 19.00, 0, jata001 )
+13:55:51 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-26, 19.00, 24.00, 0, jata001 )
+13:56:01 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, cher005, jata001 on conditions id = 1698
+13:56:09 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, chyi001, jata001 on conditions id = 1699
+13:56:20 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, anfr005, jata001 on conditions id = 1700
+13:56:39 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-27, 1.00, 5.00, 0, jata001 )
+13:56:39 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-27, 0.00, 12.00, 0, jata001 )
+13:56:39 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-27, 12.00, 24.00, 0, jata001 )
+13:56:49 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, anfr005, jata001 on conditions id = 1702
+13:57:01 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, chfr001, jata001 on conditions id = 1703
+13:57:32 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-28, 1.00, 5.00, 0, jata001 )
+13:57:32 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-28, 0.00, 8.00, 0, jata001 )
+13:57:32 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-28, 8.00, 19.00, 0, jata001 )
+13:57:32 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-28, 19.00, 24.00, 0, jata001 )
+13:57:42 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, chfr001, jata001 on conditions id = 1705
+13:57:50 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, anfr005, jata001 on conditions id = 1706
+13:58:00 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, anra004, jata001 on conditions id = 1707
+13:58:28 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-08-04, 1.00, 5.00, 0, jata001 )
+13:58:28 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-08-04, 0.00, 19.00, 0, jata001 )
+13:58:28 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-08-04, 19.00, 24.00, 0, jata001 )
+13:58:38 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, anra004, jata001 on conditions id = 1709
+13:58:46 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, cher005, jata001 on conditions id = 1710
+13:59:21 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( anra004, anst007, 1, 0, 2013-07-29, 0.00, 19.00, 1, jata001 )
+13:59:21 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-29, 1.00, 5.00, 0, jata001 )
+13:59:21 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( cher005, anst007, 1, 0, 2013-07-29, 19.00, 24.00, 1, jata001 )
+13:59:52 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( anra004, anst007, 1, 0, 2013-07-30, 0.00, 19.00, 1, jata001 )
+13:59:52 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-30, 1.00, 5.00, 0, jata001 )
+13:59:52 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( cher005, anst007, 1, 0, 2013-07-30, 19.00, 24.00, 1, jata001 )
+14:00:05 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values , 0, jata001 on conditions id = 1714
+14:00:13 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values , 0, jata001 on conditions id = 1716
+14:00:24 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, cher005, jata001 on conditions id = 1714
+14:00:34 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, chfr001, jata001 on conditions id = 1716
+14:01:02 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 3, 2013-07-31, 1.00, 5.00, 0, jata001 )
+14:01:02 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-31, 0.00, 8.00, 0, jata001 )
+14:01:02 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-31, 8.00, 19.00, 0, jata001 )
+14:01:02 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, 0, 2013-07-31, 19.00, 24.00, 0, jata001 )
+14:01:14 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, chfr001, jata001 on conditions id = 1718
+14:01:21 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, chyi001, jata001 on conditions id = 1719
+14:01:29 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, anfr005, jata001 on conditions id = 1720
+14:01:49 jata001 Janne Tandodal DELETE data from tables `timetable` on conditions id = 1709
+14:01:49 jata001 Janne Tandodal DELETE data from tables `timetable` on conditions id = 1708
+14:01:49 jata001 Janne Tandodal DELETE data from tables `timetable` on conditions id = 1710
+14:01:49 jata001 Janne Tandodal DELETE data from tables `timetable` on conditions id = 
+14:51:14   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = jata001
+14:51:14   UPDATING data to tables `log_login`fields Array values 2013-05-24:12:51:14 on conditions id = 1199 AND username = jata001
+14:51:40 gine001 Gilad Nevo INSERTING data into tables `log_login`fields username, ip, browser values ( gine001, 85.227.154.64, Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; NP06) )
+14:51:40 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = gine001
+14:55:47 jata001 Janne Tandodal INSERTING data into tables `log_login`fields username, ip, browser values ( jata001, 79.136.116.125, Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; GTB7.4) )
+14:55:47 jata001 Janne Tandodal UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = jata001
+15:01:08 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 2 on conditions id = 1596
+15:01:25 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 2 on conditions id = 1596
+15:01:28 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1 on conditions id = 1596
+15:03:35 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values , 0, jata001 on conditions id = 1598
+15:03:43 jata001 Janne Tandodal DELETE data from tables `timetable` on conditions id = 1598
+15:03:43 jata001 Janne Tandodal DELETE data from tables `timetable` on conditions id = 
+15:08:46 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, type, date, time_from, time_to, status, alloc_emp values ( anra004, anst007, 0, 2013-07-01, 0.00, 1.00, 1, jata001 ), ( anra004, anst007, 0, 2013-07-01, 5.00, 19.00, 1, jata001 )
+15:08:46 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1.00, 5.00, 3, 1 on conditions id = 1596
+15:09:25 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions id = 1597
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_template`fields customer, Added_date, temp_name values ( anst007, 2013-05-24, sommar )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, anra004, anst007, 2013-07-01, 1, 5, 3, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, anra004, anst007, 2013-07-01, 0, 1, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, anra004, anst007, 2013-07-01, 5, 19, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, chfr001, anst007, 2013-07-02, 0, 8, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, , anst007, 2013-07-02, 1, 5, 3, 0, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, anfr005, anst007, 2013-07-02, 8, 19, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, lima003, anst007, 2013-07-02, 19, 24, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, lima003, anst007, 2013-07-03, 0, 8, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, , anst007, 2013-07-03, 1, 5, 3, 0, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, chyi001, anst007, 2013-07-03, 8, 19, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, chfr001, anst007, 2013-07-03, 19, 24, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, chfr001, anst007, 2013-07-04, 0, 8, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, , anst007, 2013-07-04, 1, 5, 3, 0, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, chyi001, anst007, 2013-07-04, 8, 19, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, anfr005, anst007, 2013-07-04, 19, 24, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, anfr005, anst007, 2013-07-05, 0, 8, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, , anst007, 2013-07-05, 1, 5, 3, 0, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, chyi001, anst007, 2013-07-05, 8, 19, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, lima003, anst007, 2013-07-05, 19, 24, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, lima003, anst007, 2013-07-06, 0, 12, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, mali008, anst007, 2013-07-06, 12, 24, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, , anst007, 2013-07-06, 1, 5, 3, 0, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, mali008, anst007, 2013-07-07, 0, 19, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, anra004, anst007, 2013-07-07, 19, 24, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, , anst007, 2013-07-07, 1, 5, 3, 0, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, anra004, anst007, 2013-07-08, 0, 19, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, cher005, anst007, 2013-07-08, 19, 24, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, , anst007, 2013-07-08, 1, 5, 3, 0, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, , anst007, 2013-07-09, 1, 5, 3, 0, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, cher005, anst007, 2013-07-09, 0, 8, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, chfr001, anst007, 2013-07-09, 8, 19, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, lima003, anst007, 2013-07-09, 19, 24, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, lima003, anst007, 2013-07-10, 0, 8, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, , anst007, 2013-07-10, 1, 5, 3, 0, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, chyi001, anst007, 2013-07-10, 8, 19, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, cher005, anst007, 2013-07-10, 19, 24, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, anra004, anst007, 2013-07-11, 8, 24, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, , anst007, 2013-07-11, 1, 5, 3, 0, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, cher005, anst007, 2013-07-11, 0, 8, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, anra004, anst007, 2013-07-12, 0, 8, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, , anst007, 2013-07-12, 1, 5, 3, 0, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, chyi001, anst007, 2013-07-12, 8, 19, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, anfr005, anst007, 2013-07-12, 19, 24, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, , anst007, 2013-07-13, 1, 5, 3, 0, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, anfr005, anst007, 2013-07-13, 0, 12, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, lima003, anst007, 2013-07-13, 12, 24, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, lima003, anst007, 2013-07-14, 0, 8, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, , anst007, 2013-07-14, 1, 5, 3, 0, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, anfr005, anst007, 2013-07-14, 8, 19, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, lima003, anst007, 2013-07-14, 19, 24, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, , anst007, 2013-07-15, 1, 5, 3, 0, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, lima003, anst007, 2013-07-15, 0, 8, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, cher005, anst007, 2013-07-15, 8, 24, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, , anst007, 2013-07-16, 1, 5, 3, 0, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, cher005, anst007, 2013-07-16, 0, 8, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, anra004, anst007, 2013-07-16, 8, 24, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, , anst007, 2013-07-17, 1, 5, 3, 0, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, anra004, anst007, 2013-07-17, 0, 8, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, chyi001, anst007, 2013-07-17, 8, 19, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, cher005, anst007, 2013-07-17, 19, 24, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, , anst007, 2013-07-18, 1, 5, 3, 0, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, cher005, anst007, 2013-07-18, 0, 8, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, chyi001, anst007, 2013-07-18, 8, 19, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, lima003, anst007, 2013-07-18, 19, 24, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, , anst007, 2013-07-19, 1, 5, 3, 0, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, lima003, anst007, 2013-07-19, 0, 8, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, chyi001, anst007, 2013-07-19, 8, 19, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, lima003, anst007, 2013-07-19, 19, 24, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, , anst007, 2013-07-20, 1, 5, 3, 0, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, lima003, anst007, 2013-07-20, 0, 12, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, mali008, anst007, 2013-07-20, 12, 24, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, , anst007, 2013-07-21, 1, 5, 3, 0, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, mali008, anst007, 2013-07-21, 0, 19, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, anra004, anst007, 2013-07-21, 19, 24, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, , anst007, 2013-07-22, 1, 5, 3, 0, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, anra004, anst007, 2013-07-22, 0, 19, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, anfr005, anst007, 2013-07-22, 19, 24, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, , anst007, 2013-07-23, 1, 5, 3, 0, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, anfr005, anst007, 2013-07-23, 0, 8, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, cher005, anst007, 2013-07-23, 8, 24, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, , anst007, 2013-07-24, 1, 5, 3, 0, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, cher005, anst007, 2013-07-24, 0, 8, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, chyi001, anst007, 2013-07-24, 8, 19, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, chfr001, anst007, 2013-07-24, 19, 24, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, , anst007, 2013-07-25, 1, 5, 3, 0, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, chfr001, anst007, 2013-07-25, 0, 8, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, cher005, anst007, 2013-07-25, 8, 24, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, , anst007, 2013-07-26, 1, 5, 3, 0, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, cher005, anst007, 2013-07-26, 0, 8, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, chyi001, anst007, 2013-07-26, 8, 19, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, anfr005, anst007, 2013-07-26, 19, 24, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, , anst007, 2013-07-27, 1, 5, 3, 0, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, anfr005, anst007, 2013-07-27, 0, 12, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, chfr001, anst007, 2013-07-27, 12, 24, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, , anst007, 2013-07-28, 1, 5, 3, 0, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, chfr001, anst007, 2013-07-28, 0, 8, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, anfr005, anst007, 2013-07-28, 8, 19, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, anra004, anst007, 2013-07-28, 19, 24, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, anra004, anst007, 2013-07-29, 0, 19, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, , anst007, 2013-07-29, 1, 5, 3, 0, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, cher005, anst007, 2013-07-29, 19, 24, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, cher005, anst007, 2013-07-30, 0, 19, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, , anst007, 2013-07-30, 1, 5, 3, 0, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, chfr001, anst007, 2013-07-30, 19, 24, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, , anst007, 2013-07-31, 1, 5, 3, 0, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, chfr001, anst007, 2013-07-31, 0, 8, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, chyi001, anst007, 2013-07-31, 8, 19, 0, 1, , jata001, , 1 )
+15:15:05 gine001 Gilad Nevo INSERTING data into tables `schedule_copy`fields tid, employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( 1, anfr005, anst007, 2013-07-31, 19, 24, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions customer = anst007 AND date = 2013-04-01
+15:16:33 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions customer = anst007 AND date = 2013-04-02
+15:16:33 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions customer = anst007 AND date = 2013-04-03
+15:16:33 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions customer = anst007 AND date = 2013-04-04
+15:16:33 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions customer = anst007 AND date = 2013-04-05
+15:16:33 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions customer = anst007 AND date = 2013-04-06
+15:16:33 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions customer = anst007 AND date = 2013-04-07
+15:16:33 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions customer = anst007 AND date = 2013-04-08
+15:16:33 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions customer = anst007 AND date = 2013-04-09
+15:16:33 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions customer = anst007 AND date = 2013-04-10
+15:16:33 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions customer = anst007 AND date = 2013-04-11
+15:16:33 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions customer = anst007 AND date = 2013-04-12
+15:16:33 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions customer = anst007 AND date = 2013-04-13
+15:16:33 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions customer = anst007 AND date = 2013-04-14
+15:16:33 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions customer = anst007 AND date = 2013-04-15
+15:16:33 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions customer = anst007 AND date = 2013-04-16
+15:16:33 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions customer = anst007 AND date = 2013-04-17
+15:16:33 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions customer = anst007 AND date = 2013-04-18
+15:16:33 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions customer = anst007 AND date = 2013-04-19
+15:16:33 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions customer = anst007 AND date = 2013-04-20
+15:16:33 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions customer = anst007 AND date = 2013-04-21
+15:16:33 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions customer = anst007 AND date = 2013-04-22
+15:16:33 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions customer = anst007 AND date = 2013-04-23
+15:16:33 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions customer = anst007 AND date = 2013-04-24
+15:16:33 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions customer = anst007 AND date = 2013-04-25
+15:16:33 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions customer = anst007 AND date = 2013-04-26
+15:16:33 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions customer = anst007 AND date = 2013-04-27
+15:16:33 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions customer = anst007 AND date = 2013-04-28
+15:16:33 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions customer = anst007 AND date = 2013-04-29
+15:16:33 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions customer = anst007 AND date = 2013-04-30
+15:16:33 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions customer = anst007 AND date = 2013-05-01
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( anra004, anst007, 2013-04-01, 0, 1, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( anra004, anst007, 2013-04-01, 1, 5, 3, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( anra004, anst007, 2013-04-01, 5, 19, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( chfr001, anst007, 2013-04-02, 0, 8, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( , anst007, 2013-04-02, 1, 5, 3, 0, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( anfr005, anst007, 2013-04-02, 8, 19, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( lima003, anst007, 2013-04-02, 19, 24, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( lima003, anst007, 2013-04-03, 0, 8, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( , anst007, 2013-04-03, 1, 5, 3, 0, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( chyi001, anst007, 2013-04-03, 8, 19, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( chfr001, anst007, 2013-04-03, 19, 24, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( chfr001, anst007, 2013-04-04, 0, 8, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( , anst007, 2013-04-04, 1, 5, 3, 0, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( chyi001, anst007, 2013-04-04, 8, 19, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( anfr005, anst007, 2013-04-04, 19, 24, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( anfr005, anst007, 2013-04-05, 0, 8, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( , anst007, 2013-04-05, 1, 5, 3, 0, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( chyi001, anst007, 2013-04-05, 8, 19, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( lima003, anst007, 2013-04-05, 19, 24, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( lima003, anst007, 2013-04-06, 0, 12, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( , anst007, 2013-04-06, 1, 5, 3, 0, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( mali008, anst007, 2013-04-06, 12, 24, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( mali008, anst007, 2013-04-07, 0, 19, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( , anst007, 2013-04-07, 1, 5, 3, 0, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( anra004, anst007, 2013-04-07, 19, 24, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( anra004, anst007, 2013-04-08, 0, 19, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( , anst007, 2013-04-08, 1, 5, 3, 0, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( cher005, anst007, 2013-04-08, 19, 24, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( cher005, anst007, 2013-04-09, 0, 8, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( , anst007, 2013-04-09, 1, 5, 3, 0, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( chfr001, anst007, 2013-04-09, 8, 19, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( lima003, anst007, 2013-04-09, 19, 24, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( lima003, anst007, 2013-04-10, 0, 8, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( , anst007, 2013-04-10, 1, 5, 3, 0, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( chyi001, anst007, 2013-04-10, 8, 19, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( cher005, anst007, 2013-04-10, 19, 24, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( cher005, anst007, 2013-04-11, 0, 8, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( , anst007, 2013-04-11, 1, 5, 3, 0, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( anra004, anst007, 2013-04-11, 8, 24, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( anra004, anst007, 2013-04-12, 0, 8, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( , anst007, 2013-04-12, 1, 5, 3, 0, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( chyi001, anst007, 2013-04-12, 8, 19, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( anfr005, anst007, 2013-04-12, 19, 24, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( anfr005, anst007, 2013-04-13, 0, 12, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( , anst007, 2013-04-13, 1, 5, 3, 0, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( lima003, anst007, 2013-04-13, 12, 24, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( lima003, anst007, 2013-04-14, 0, 8, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( , anst007, 2013-04-14, 1, 5, 3, 0, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( anfr005, anst007, 2013-04-14, 8, 19, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( lima003, anst007, 2013-04-14, 19, 24, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( lima003, anst007, 2013-04-15, 0, 8, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( , anst007, 2013-04-15, 1, 5, 3, 0, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( cher005, anst007, 2013-04-15, 8, 24, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( cher005, anst007, 2013-04-16, 0, 8, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( , anst007, 2013-04-16, 1, 5, 3, 0, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( anra004, anst007, 2013-04-16, 8, 24, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( anra004, anst007, 2013-04-17, 0, 8, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( , anst007, 2013-04-17, 1, 5, 3, 0, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( chyi001, anst007, 2013-04-17, 8, 19, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( cher005, anst007, 2013-04-17, 19, 24, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( cher005, anst007, 2013-04-18, 0, 8, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( , anst007, 2013-04-18, 1, 5, 3, 0, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( chyi001, anst007, 2013-04-18, 8, 19, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( lima003, anst007, 2013-04-18, 19, 24, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( lima003, anst007, 2013-04-19, 0, 8, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( , anst007, 2013-04-19, 1, 5, 3, 0, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( chyi001, anst007, 2013-04-19, 8, 19, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( lima003, anst007, 2013-04-19, 19, 24, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( lima003, anst007, 2013-04-20, 0, 12, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( , anst007, 2013-04-20, 1, 5, 3, 0, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( mali008, anst007, 2013-04-20, 12, 24, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( mali008, anst007, 2013-04-21, 0, 19, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( , anst007, 2013-04-21, 1, 5, 3, 0, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( anra004, anst007, 2013-04-21, 19, 24, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( anra004, anst007, 2013-04-22, 0, 19, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( , anst007, 2013-04-22, 1, 5, 3, 0, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( anfr005, anst007, 2013-04-22, 19, 24, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( anfr005, anst007, 2013-04-23, 0, 8, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( , anst007, 2013-04-23, 1, 5, 3, 0, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( cher005, anst007, 2013-04-23, 8, 24, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( cher005, anst007, 2013-04-24, 0, 8, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( , anst007, 2013-04-24, 1, 5, 3, 0, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( chyi001, anst007, 2013-04-24, 8, 19, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( chfr001, anst007, 2013-04-24, 19, 24, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( chfr001, anst007, 2013-04-25, 0, 8, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( , anst007, 2013-04-25, 1, 5, 3, 0, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( cher005, anst007, 2013-04-25, 8, 24, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( cher005, anst007, 2013-04-26, 0, 8, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( , anst007, 2013-04-26, 1, 5, 3, 0, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( chyi001, anst007, 2013-04-26, 8, 19, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( anfr005, anst007, 2013-04-26, 19, 24, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( anfr005, anst007, 2013-04-27, 0, 12, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( , anst007, 2013-04-27, 1, 5, 3, 0, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( chfr001, anst007, 2013-04-27, 12, 24, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( chfr001, anst007, 2013-04-28, 0, 8, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( , anst007, 2013-04-28, 1, 5, 3, 0, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( anfr005, anst007, 2013-04-28, 8, 19, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( anra004, anst007, 2013-04-28, 19, 24, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( anra004, anst007, 2013-04-29, 0, 19, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( , anst007, 2013-04-29, 1, 5, 3, 0, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( cher005, anst007, 2013-04-29, 19, 24, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( cher005, anst007, 2013-04-30, 0, 19, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( , anst007, 2013-04-30, 1, 5, 3, 0, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( chfr001, anst007, 2013-04-30, 19, 24, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( chfr001, anst007, 2013-05-01, 0, 8, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( , anst007, 2013-05-01, 1, 5, 3, 0, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( chyi001, anst007, 2013-05-01, 8, 19, 0, 1, , jata001, , 1 )
+15:16:33 gine001 Gilad Nevo INSERTING data into tables `timetable`fields employee, customer, date, time_from, time_to, type, status, comment, alloc_emp, relation_id, fkkn values ( anfr005, anst007, 2013-05-01, 19, 24, 0, 1, , jata001, , 1 )
+15:19:47   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = gine001
+15:19:47   UPDATING data to tables `log_login`fields Array values 2013-05-24:13:19:47 on conditions id = 1201 AND username = gine001
+15:19:49   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = jata001
+15:19:49   UPDATING data to tables `log_login`fields Array values 2013-05-24:13:19:49 on conditions id = 1202 AND username = jata001

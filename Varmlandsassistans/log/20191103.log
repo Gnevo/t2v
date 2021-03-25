@@ -1,0 +1,23 @@
+17:45:28 gine001 Gilad Nevo1 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 89.233.236.131, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0 ) => {inserted_id = 7949}
+17:45:28 gine001 Gilad Nevo1 DELETE data from tables `temp_session` on conditions username LIKE gine001
+17:45:28 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-11-03 17:45:28) on conditions username = gine001
+17:45:28 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-11-03 17:45:28) on conditions username = gine001 AND company_id = 21
+17:45:43 gine001 Gilad Nevo1 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 89.233.236.131, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0 ) => {inserted_id = 7950}
+17:45:43 gine001 Gilad Nevo1 DELETE data from tables `temp_session` on conditions username LIKE gine001
+17:45:43 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-11-03 17:45:43) on conditions username = gine001
+17:45:43 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-11-03 17:45:43) on conditions username = gine001 AND company_id = 21
+17:45:45 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = d299109a36741512f02d5e4a197eec2e
+17:46:53 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( role, mobile ) values (3, 730290036) on conditions username = svbu001
+17:46:53 gine001 Gilad Nevo1 UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day, remaining_sem_leave, sem_leave_todate, leave_in_advance, care_of, office_personal, substitute, salary_type, sem_leave_days, vab_leave_days, fp_leave_days, nopay_leave_days, other_leave_days, ice, employee_contract_start_month, employee_contract_period_date, employee_contract_period_length, candg_follow, inconvenient_on ) values (103, 19, 8707160753, Svenja, Bunge, 1, Gamla vägen 8, Odskölt, 66895, , 730290036, gn.nevo@gmail.com, 2019-09-09, #932eb4, 0, , , 0, 52.30, 0, , 0, , 0, 0, 1, 1, 1, 1, 1, 1, , , , , 0, 1) on conditions username = svbu001
+17:46:53 gine001 Gilad Nevo1 DELETE data from tables `team` on conditions employee = svbu001
+17:46:53 gine001 Gilad Nevo1 INSERTING data into tables `team` fields ( customer, employee, role ) values ( algr001, svbu001, 3 ) => {inserted_id = 0}
+17:47:05 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = d299109a36741512f02d5e4a197eec2e
+18:43:13 gine001 Gilad Nevo1 INSERTING data into tables `email` fields ( `from`, `to`, subject, message ) values ( gine001, Schulz Evelyn<eust_schulz@yahoo.com>, , Signera assistenternas månadsavslut, Hej Evelyn<br />
+Är du snäll och signera med BankID Assistenternas månadsavslut.<br />
+Då kan jag skicka dessa elektroniskt till FK.<br />
+Därefter, om du inte redan har gjort detta skriva under Kundens timmar och skicka till FK, per post.<br />
+Jag skickar Kommun papper till Zeid. ) => {inserted_id = 1}
+18:45:24 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( role, mobile ) values (3, 730290036) on conditions username = svbu001
+18:45:24 gine001 Gilad Nevo1 UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day, remaining_sem_leave, sem_leave_todate, leave_in_advance, care_of, office_personal, substitute, salary_type, sem_leave_days, vab_leave_days, fp_leave_days, nopay_leave_days, other_leave_days, ice, employee_contract_start_month, employee_contract_period_date, employee_contract_period_length, candg_follow, inconvenient_on ) values (103, 19, 8707160753, Svenja, Bunge, 1, Gamla vägen 8, Odskölt, 66895, , 730290036, gn.nevo@gmail.com, 2019-09-09, #932eb4, 1, , , 0, 52.30, 0, , 0, , 0, 0, 1, 1, 1, 1, 1, 1, , , , , 0, 1) on conditions username = svbu001
+18:45:24 gine001 Gilad Nevo1 DELETE data from tables `team` on conditions employee = svbu001
+18:45:24 gine001 Gilad Nevo1 INSERTING data into tables `team` fields ( customer, employee, role ) values ( algr001, svbu001, 3 ) => {inserted_id = 0}

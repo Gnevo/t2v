@@ -1,0 +1,11 @@
+08:38:27 gine001 Gilad Nevo1 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 171.5.163.9, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0 ) => {inserted_id = 8002}
+08:38:27 gine001 Gilad Nevo1 DELETE data from tables `temp_session` on conditions username LIKE gine001
+08:38:27 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-01-08 08:38:27) on conditions username = gine001
+08:38:27 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-01-08 08:38:27) on conditions username = gine001 AND company_id = 21
+08:38:28 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 0796ac25f307bc3587557563fb427607
+08:39:20 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 0796ac25f307bc3587557563fb427607
+11:12:36 zefe001 Zeid Feili INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( zefe001, 85.229.51.54, Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36 ) => {inserted_id = 8003}
+11:12:36 zefe001 Zeid Feili DELETE data from tables `temp_session` on conditions username LIKE zefe001
+11:12:36 zefe001 Zeid Feili UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-01-08 11:12:36) on conditions username = zefe001
+11:12:36 zefe001 Zeid Feili UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-01-08 11:12:36) on conditions username = zefe001 AND company_id = 21
+11:12:36 zefe001 Zeid Feili UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (zefe001) on conditions session_id = 728fd79b65fe497a8ba2ee8f70260e92

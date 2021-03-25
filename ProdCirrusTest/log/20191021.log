@@ -1,0 +1,11 @@
+08:13:12 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 89.233.236.131, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0 ) => {inserted_id = 10152}
+08:13:12 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+08:13:12 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-10-21 08:13:12) on conditions username = gine001
+08:13:12 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-10-21 08:13:12) on conditions username = gine001 AND company_id = 6
+08:13:25 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 5d2222c52bb23101ad725e8e00389383
+12:44:20 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 112.133.237.52, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36 ) => {inserted_id = 10153}
+12:44:20 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+12:44:20 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-10-21 12:44:20) on conditions username = dodo001
+12:44:20 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-10-21 12:44:20) on conditions username = dodo001 AND company_id = 6
+12:44:38 dodo001 Admin Cirrus UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, check_values, reference_number ) values (test123, 1||1, 1||1||1||1, 1-10201 : 09-09) on conditions customer = adan001
+12:44:38 dodo001 Admin Cirrus INSERTING data into tables `history_sick_report` fields ( employee, customer, file ) values ( boek001, adan001, Sick_adan001_51438705.pdf ) => {inserted_id = 87}

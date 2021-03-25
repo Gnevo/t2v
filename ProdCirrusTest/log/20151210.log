@@ -1,0 +1,24 @@
+06:36:37 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 223.30.129.234, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/41.0.2272.76 Chrome/41.0.2272.76 Safari/537.36 ) => {inserted_id = 4178}
+06:36:37 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+06:36:37 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-12-10 05:36:37) on conditions username = dodo001
+06:36:38 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = 169s3divej5dlec7dc12qmc6q6
+06:37:36 dodo001 Admin Cirrus INSERTING data into tables `time2vie_cirruscommon`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, category_id, priority, ticket_type, status, hidden ) values ( 545, dodo001, <p>+46 added</p>, 6, 2, 2, 3, 1 ) => {inserted_id = 1593}
+06:39:17 dodo001 Admin Cirrus INSERTING data into tables `time2vie_cirruscommon`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, category_id, priority, ticket_type, status, hidden ) values ( 550, dodo001, <p>1. cumulus invoice completed</p><p>2. now possible to go to employee schedule from employee/customer tabs</p>, 6, 2, 2, 3, 1 ) => {inserted_id = 1594}
+08:18:59 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = 169s3divej5dlec7dc12qmc6q6
+08:19:05 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+08:19:05 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2015-12-10 07:19:05) on conditions username = dodo001
+08:19:05   UPDATING data to tables `log_login` fields ( logout_time ) values (2015-12-10:07:19:05) on conditions id = 4178 AND username = dodo001
+12:14:02 thne001 thne001 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = 37vrooj22cf58gdec9v27bgao0
+12:14:13 thne001 thne001 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = 37vrooj22cf58gdec9v27bgao0
+12:21:41 thne001 thne001 DELETE data from tables `temp_session` on conditions username LIKE thne001
+12:21:41 thne001 thne001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2015-12-10 11:21:41) on conditions username = thne001
+12:21:41   UPDATING data to tables `log_login` fields ( logout_time ) values (2015-12-10:11:21:41) on conditions id = 78913 AND username = thne001
+12:22:03 thne001  DELETE data from tables `temp_session` on conditions username LIKE thne001
+12:22:03 thne001 Theodor Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( thne001, 85.227.155.192, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36 ) => {inserted_id = 4179}
+12:22:03 thne001 Theodor Nevo DELETE data from tables `temp_session` on conditions username LIKE thne001
+12:22:03 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-12-10 11:22:03) on conditions username = thne001
+12:22:06 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = 0nrvcbupf63bam1ii0nur9h660
+13:08:18 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = 0nrvcbupf63bam1ii0nur9h660
+13:22:06 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = 0nrvcbupf63bam1ii0nur9h660
+13:31:06 thne001 Theodor Nevo INSERTING data into tables `time2vie_cirruscommon`.`support_ticket_master` fields ( company_id, category_type ) values ( 6, 2 ) => {inserted_id = 563}
+13:31:06 thne001 Theodor Nevo INSERTING data into tables `time2vie_cirruscommon`.`support_tickets` fields ( id, created_user, category_id, ticket_type, priority, title, description, attachment, status ) values ( 563, thne001, 11, 1, 4, Export problem, <p>Company: Optimal Assistans i GTG AB</p><p>Employee: Anneli Roos</p><p>Issue:</p><p>This one employee got karens on the 25 of november.</p><p>But in export the 5th day (29th of November). Is payed out as the second type of sick leave.</p><p>That is 15th day and forward pay.</p><p><br></p><h1>Need you to take a look on why this happend!</h1>, , 1 ) => {inserted_id = 0}

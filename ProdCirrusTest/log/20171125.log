@@ -1,0 +1,72 @@
+12:48:51 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.153.67, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0 ) => {inserted_id = 6116}
+12:48:51 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+12:48:51 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2017-11-25 12:48:51) on conditions username = gine001
+12:48:51 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-11-25 12:48:51) on conditions username = gine001 AND company_id = 6
+16:57:21 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 22a15fcad673235d9093eff2166557af
+16:59:58 gine001 Gilad Nevo INSERTING data into tables `srv_questions` fields ( question, answer_hint, answer_type, parent_question_ID, status, categories, display_style, comment_flag ) values ( Trivs du på jobbet?, Om Nej, varför?, 1, 0, 0, , 2, 0 ) => {inserted_id = 2}
+16:59:58 gine001 Gilad Nevo INSERTING data into tables `srv_question_answer` fields ( question_id, answer_text, point, correct_flag, default_flag ) values ( 2, Ja, 5, 0, 0 ) => {inserted_id = 2}
+16:59:58 gine001 Gilad Nevo INSERTING data into tables `srv_question_answer` fields ( question_id, answer_text, point, correct_flag, default_flag ) values ( 2, Nej, 6, 0, 0 ) => {inserted_id = 3}
+18:03:22 gine001 Gilad Nevo INSERTING data into tables `srv_forms` fields ( title, description, categories, break_numbers , question_limit, status ) values ( Formulär 1, Ja/Nej frågor, , 1, 0, 1 ) => {inserted_id = 1}
+18:03:22 gine001 Gilad Nevo INSERTING data into tables `srv_form_questions` fields ( form_id, question_id, question_order ) values ( 1, 2, 1 ) => {inserted_id = 0}
+19:15:55 gine001 Gilad Nevo DELETE data from tables `srv_form_questions` on conditions form_id = 1
+19:15:56 gine001 Gilad Nevo INSERTING data into tables `srv_form_questions` fields ( form_id, question_id, question_order ) values ( 1, 2, 1 ) => {inserted_id = 0}
+19:15:56 gine001 Gilad Nevo UPDATING data to tables `srv_forms` fields ( title, description, categories, break_numbers , question_limit, status ) values (Formulär 1, Ja/Nej frågor, , 1, 0, 1) on conditions id = 1
+19:46:41 gine001 Gilad Nevo INSERTING data into tables `srv_categories` fields ( category_name, category_type ) values ( Fråga 2,  ) => {inserted_id = 1}
+19:47:06 gine001 Gilad Nevo DELETE data from tables `srv_forms` on conditions id = 1
+20:03:38 gine001 Gilad Nevo INSERTING data into tables `srv_forms` fields ( title, description, categories, break_numbers , question_limit, status ) values ( Formular 1, Massa frågor, , 1,1, 0, 1 ) => {inserted_id = 2}
+20:03:38 gine001 Gilad Nevo INSERTING data into tables `srv_form_questions` fields ( form_id, question_id, question_order ) values ( 2, 2, 1 ) => {inserted_id = 0}
+20:03:39 gine001 Gilad Nevo INSERTING data into tables `srv_form_questions` fields ( form_id, question_id, question_order ) values ( 2, 1, 2 ) => {inserted_id = 0}
+20:12:46 gine001 Gilad Nevo INSERTING data into tables `srv_categories` fields ( category_name, category_type ) values ( Kat2,  ) => {inserted_id = 2}
+20:13:18 gine001 Gilad Nevo DELETE data from tables `srv_form_questions` on conditions form_id = 2
+20:13:18 gine001 Gilad Nevo INSERTING data into tables `srv_form_questions` fields ( form_id, question_id, question_order ) values ( 2, 1, 1 ) => {inserted_id = 0}
+20:13:18 gine001 Gilad Nevo INSERTING data into tables `srv_form_questions` fields ( form_id, question_id, question_order ) values ( 2, 2, 2 ) => {inserted_id = 0}
+20:13:19 gine001 Gilad Nevo UPDATING data to tables `srv_forms` fields ( title, description, categories, break_numbers , question_limit, status ) values (Formular 1, Massa frågor, , 1,1, 0, 1) on conditions id = 2
+20:13:56 gine001 Gilad Nevo DELETE data from tables `srv_form_questions` on conditions form_id = 2
+20:13:56 gine001 Gilad Nevo INSERTING data into tables `srv_form_questions` fields ( form_id, question_id, question_order ) values ( 2, 1, 1 ) => {inserted_id = 0}
+20:13:57 gine001 Gilad Nevo INSERTING data into tables `srv_form_questions` fields ( form_id, question_id, question_order ) values ( 2, 2, 2 ) => {inserted_id = 0}
+20:13:57 gine001 Gilad Nevo UPDATING data to tables `srv_forms` fields ( title, description, categories, break_numbers , question_limit, status ) values (Formular 1, Massa frågor, 1,2, 1,1, 0, 1) on conditions id = 2
+20:18:17 gine001 Gilad Nevo DELETE data from tables `srv_forms` on conditions id = 2
+20:22:01 gine001 Gilad Nevo INSERTING data into tables `srv_forms` fields ( title, description, categories, break_numbers , question_limit, status ) values ( Trivsel, trivsel på jobbet, , 1,1, 0, 1 ) => {inserted_id = 3}
+20:22:01 gine001 Gilad Nevo INSERTING data into tables `srv_form_questions` fields ( form_id, question_id, question_order ) values ( 3, 2, 1 ) => {inserted_id = 0}
+20:22:01 gine001 Gilad Nevo INSERTING data into tables `srv_form_questions` fields ( form_id, question_id, question_order ) values ( 3, 1, 2 ) => {inserted_id = 0}
+20:24:25 gine001 Gilad Nevo INSERTING data into tables `srv_groups` fields ( group_name, group_description, group_leader ) values ( trivsel, Trivselgruppen,  ) => {inserted_id = 1}
+20:24:25 gine001 Gilad Nevo INSERTING data into tables `srv_group_members` fields ( group_id, username ) values ( 1, than001 ) => {inserted_id = 0}
+20:24:25 gine001 Gilad Nevo INSERTING data into tables `srv_group_members` fields ( group_id, username ) values ( 1, teas001 ) => {inserted_id = 0}
+20:24:25 gine001 Gilad Nevo INSERTING data into tables `srv_group_members` fields ( group_id, username ) values ( 1, lobr002 ) => {inserted_id = 0}
+21:38:20 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.153.67, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063 ) => {inserted_id = 6117}
+21:38:20 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+21:38:20 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2017-11-25 21:38:20) on conditions username = gine001
+21:38:20 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-11-25 21:38:20) on conditions username = gine001 AND company_id = 6
+21:38:21 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = cb7e6efa843967e2cb32c9432a25a73c
+22:41:20 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = cb7e6efa843967e2cb32c9432a25a73c
+22:42:25 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.153.67, Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko ) => {inserted_id = 6118}
+22:42:25 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+22:42:25 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2017-11-25 22:42:25) on conditions username = gine001
+22:42:25 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-11-25 22:42:25) on conditions username = gine001 AND company_id = 6
+22:42:26 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 6be25e77f82f67bd941c4e2a162e5903
+22:45:04 gine001 Gilad Nevo DELETE data from tables `srv_form_questions` on conditions form_id = 3
+22:45:04 gine001 Gilad Nevo INSERTING data into tables `srv_form_questions` fields ( form_id, question_id, question_order ) values ( 3, 1, 1 ) => {inserted_id = 0}
+22:45:04 gine001 Gilad Nevo INSERTING data into tables `srv_form_questions` fields ( form_id, question_id, question_order ) values ( 3, 2, 2 ) => {inserted_id = 0}
+22:45:04 gine001 Gilad Nevo UPDATING data to tables `srv_forms` fields ( title, description, categories, break_numbers , question_limit, status ) values (Trivsel, trivsel på jobbet, 1, 1,1, 0, 0) on conditions id = 3
+22:47:02 gine001 Gilad Nevo INSERTING data into tables `srv_surveys` fields ( survey_title, description, created_by, expire_date , status, parent_survey_ID ) values ( 2017_111, Test 2017, gine001, 2017-11-30, 0, 0 ) => {inserted_id = 1}
+22:47:02 gine001 Gilad Nevo INSERTING data into tables `srv_survey_forms` fields ( survey_id, form_id, forms_order ) values ( 1, 3, 0 ) => {inserted_id = 0}
+22:58:05 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.153.67, Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.89 Safari/537.36 ) => {inserted_id = 6119}
+22:58:05 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+22:58:05 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2017-11-25 22:58:05) on conditions username = gine001
+22:58:05 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-11-25 22:58:05) on conditions username = gine001 AND company_id = 6
+22:58:06 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 070a15a9d813f8c6f35c2f93ba8a17de
+23:19:24 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 070a15a9d813f8c6f35c2f93ba8a17de
+23:22:37 gine001 Gilad Nevo INSERTING data into tables `srv_questions` fields ( question, answer_hint, answer_type, parent_question_ID, status, categories, display_style, comment_flag ) values ( Vilken mat gillar du?, , 4, 0, 0, 1,, 0, 0 ) => {inserted_id = 3}
+23:22:37 gine001 Gilad Nevo INSERTING data into tables `srv_question_answer` fields ( question_id, answer_text, point, correct_flag, default_flag ) values ( 3, , 10, 0, 0 ) => {inserted_id = 4}
+23:26:12 gine001 Gilad Nevo INSERTING data into tables `srv_forms` fields ( title, description, categories, break_numbers , question_limit, status ) values ( Trivsel på jobbet, Trivsel på jobbet, , 3, 0, 0 ) => {inserted_id = 4}
+23:26:12 gine001 Gilad Nevo INSERTING data into tables `srv_form_questions` fields ( form_id, question_id, question_order ) values ( 4, 3, 1 ) => {inserted_id = 0}
+23:26:13 gine001 Gilad Nevo INSERTING data into tables `srv_form_questions` fields ( form_id, question_id, question_order ) values ( 4, 2, 2 ) => {inserted_id = 0}
+23:26:13 gine001 Gilad Nevo INSERTING data into tables `srv_form_questions` fields ( form_id, question_id, question_order ) values ( 4, 1, 3 ) => {inserted_id = 0}
+23:28:43 gine001 Gilad Nevo INSERTING data into tables `srv_surveys` fields ( survey_title, description, created_by, expire_date , status, parent_survey_ID ) values ( 2017_11, Trivsel hej o hå, gine001, 2017-11-30, 0, 0 ) => {inserted_id = 2}
+23:28:43 gine001 Gilad Nevo INSERTING data into tables `srv_survey_forms` fields ( survey_id, form_id, forms_order ) values ( 2, 4, 0 ) => {inserted_id = 0}
+23:48:58 gine001 Gilad Nevo INSERTING data into tables `srv_forms` fields ( title, description, categories, break_numbers , question_limit, status ) values ( 2017_1112, 2017_1112, , 2, 0, 0 ) => {inserted_id = 5}
+23:48:58 gine001 Gilad Nevo INSERTING data into tables `srv_form_questions` fields ( form_id, question_id, question_order ) values ( 5, 3, 1 ) => {inserted_id = 0}
+23:48:58 gine001 Gilad Nevo INSERTING data into tables `srv_form_questions` fields ( form_id, question_id, question_order ) values ( 5, 2, 2 ) => {inserted_id = 0}
+23:50:21 gine001 Gilad Nevo INSERTING data into tables `srv_surveys` fields ( survey_title, description, created_by, expire_date , status, parent_survey_ID ) values ( 2017_1112_trivs, 2017_1112_trivs, gine001, 2017-11-30, 0, 0 ) => {inserted_id = 3}
+23:50:21 gine001 Gilad Nevo INSERTING data into tables `srv_survey_forms` fields ( survey_id, form_id, forms_order ) values ( 3, 5, 0 ) => {inserted_id = 0}
+23:50:21 gine001 Gilad Nevo INSERTING data into tables `srv_survey_forms` fields ( survey_id, form_id, forms_order ) values ( 3, 4, 1 ) => {inserted_id = 0}

@@ -1,0 +1,9 @@
+13:38:10 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 112.133.237.48, Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36 ) => {inserted_id = 6546}
+13:38:10 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+13:38:10 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-06-02 13:38:10) on conditions username = dodo001
+13:38:10 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-06-02 13:38:10) on conditions username = dodo001 AND company_id = 6
+13:38:12 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = c5f2827e1f74e9320524bec576ac38ec
+13:39:11 dodo001 Admin Cirrus INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( lobr002, stli001, 1, 0, 2018-05-01, 10, 15, 1, , dodo001,  ) => {inserted_id = 13875}
+13:39:11 dodo001 Admin Cirrus INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( stli001, 10, 15, 0 ) => {inserted_id = 459}
+13:40:10 dodo001 Admin Cirrus INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( inch001, stli001, 1, 0, 2018-05-21, 10, 12, 1, , dodo001,  ) => {inserted_id = 13876}
+13:40:10 dodo001 Admin Cirrus INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( stli001, 10, 12, 0 ) => {inserted_id = 460}

@@ -1,0 +1,15 @@
+15:46:28 dodo001  UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 7041 #Mobile-App: Log-id=3483
+15:46:28 dodo001  INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, employee, status ) values ( adan001, 2015-07-17, 12.00, 15.00, 4, 2, , dodo001, 7041, than001, 1 ) => {inserted_id = 7044} #Mobile-App: Log-id=3483
+15:46:28 dodo001  INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 92, dodo001, 2015-07-17, 12, 15, 4, (null), dodo001, 0, 0 ) => {inserted_id = 294} #Mobile-App: Log-id=3483
+15:46:52 dodo001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 117.223.251.58, CirrusM/1 CFNetwork/711.4.6 Darwin/14.0.0 ) => {inserted_id = 3484} #Mobile-App: Log-id=3483
+15:46:58 dodo001  INSERTING data into tables `mc_leave` fields ( leave_id, leave_status, read_users ) values ( 92, 0, dodo001 ) => {inserted_id = 98} #Mobile-App: Log-id=3484
+15:47:57 dodo001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 117.223.251.58, CirrusM/1 CFNetwork/711.4.6 Darwin/14.0.0 ) => {inserted_id = 3485} #Mobile-App: Log-id=3484
+15:48:18 dodo001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 117.223.251.58, CirrusM/1 CFNetwork/711.4.6 Darwin/14.0.0 ) => {inserted_id = 3486} #Mobile-App: Log-id=3485
+15:48:37 dodo001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 117.223.251.58, CirrusM/1 CFNetwork/711.4.6 Darwin/14.0.0 ) => {inserted_id = 3487} #Mobile-App: Log-id=3486
+15:48:44 dodo001  INSERTING data into tables `user_task` fields ( userid, dag, start_time, customer ) values ( dodo001, 2015-07-18, 15:50:00, adan001 ) => {inserted_id = 60} #Mobile-App: Log-id=3487
+15:48:48 dodo001  UPDATING data to tables `user_task` fields ( slotids=?, end_time=?, dur=TIMEDIFF(`end_time`,`start_time`), status=? ) values (, 2015-07-18 15:48:48, 1) on conditions id = 60 #Mobile-App: Log-id=3487
+15:48:52 dodo001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 117.223.251.58, CirrusM/1 CFNetwork/711.4.6 Darwin/14.0.0 ) => {inserted_id = 3488} #Mobile-App: Log-id=3487
+15:50:00 dodo001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 117.223.251.58, CirrusM/1 CFNetwork/711.4.6 Darwin/14.0.0 ) => {inserted_id = 3489} #Mobile-App: Log-id=3488
+15:50:14 dodo001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 117.223.251.58, CirrusM/1 CFNetwork/711.4.6 Darwin/14.0.0 ) => {inserted_id = 3490} #Mobile-App: Log-id=3489
+15:50:20 dodo001  DELETE data from tables `temp_session` on conditions username LIKE dodo001 #Mobile-App: Log-id=3490
+15:50:20 dodo001  UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2015-07-18 13:50:20) on conditions username = dodo001 #Mobile-App: Log-id=3490

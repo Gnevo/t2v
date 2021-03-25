@@ -1,0 +1,158 @@
+11:00:52   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = gine001
+11:00:52   UPDATING data to tables `log_login`fields Array values 2013-05-23:09:00:52 on conditions id = 1815 AND username = gine001
+21:23:40 jata001 Janne Tandodal INSERTING data into tables `log_login`fields username, ip, browser values ( jata001, 79.136.116.119, Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.4) )
+21:23:40 jata001 Janne Tandodal UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = jata001
+21:26:13 jata001 Janne Tandodal UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values  on conditions username = anst007
+21:26:13 jata001 Janne Tandodal UPDATING data to tables `customer`fields Array values 1, 19, 4609110046, Anne Christine, Stenling, Klingspors väg 5B, Vallentuna, 18642, 0851174546, , , 2013-01-01, 1, , 1 on conditions username = anst007
+21:33:27 jata001 Janne Tandodal UPDATING data to tables `customer_contract`fields Array values 7728.00, 2013-02-01, 2014-01-31, 1 on conditions id = 1
+21:33:27 jata001 Janne Tandodal UPDATING data to tables `customer_contract_billing`fields Array values , , , , , 1, , ,  on conditions contract_id = 1
+21:33:27 jata001 Janne Tandodal UPDATING data to tables `customer_contract_decision`fields Array values Kristina, Åstrand, 010-116 53 23, , Täby, , ,  on conditions contract_id = 1
+21:52:32 jata001 Janne Tandodal UPDATING data to tables `team`fields Array values 3 on conditions customer =  AND role = 7
+21:52:32 jata001 Janne Tandodal UPDATING data to tables `team`fields Array values 7 on conditions customer =  AND employee = 
+21:52:32 jata001 Janne Tandodal INSERTING data into tables `time2vie_cirruscommon`.`login`fields username, mobile, social_security, role, login, date, company_ids values ( cehe001, 760616267, 9008214943, 3, 0, 2013-05-23, 6, )
+21:52:32 jata001 Janne Tandodal INSERTING data into tables `employee`fields username, century, code, social_security, first_name, last_name, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary values ( cehe001, 19, 2, 9008214943, Cecilia, Hedenström, Ponnystigen 3, Bergshamra, 76010, , 760616267, cissihedenstrom@hotmail.com, 2013-05-23, #FF7F7F, 1, 2013-12-31, 15, 0 )
+21:52:32 jata001 Janne Tandodal UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 6, on conditions social_security = 9008214943 AND company_ids NOT LIKE %6,%
+21:53:26 jata001 Janne Tandodal UPDATING data to tables `team`fields Array values 3 on conditions customer =  AND role = 7
+21:53:26 jata001 Janne Tandodal UPDATING data to tables `team`fields Array values 7 on conditions customer =  AND employee = 
+21:53:26 jata001 Janne Tandodal UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 3, 760616267 on conditions username = cehe001
+21:53:26 jata001 Janne Tandodal UPDATING data to tables `employee`fields Array values 2, 19, 9008214943, Cecilia, Hedenström, Ponnystigen 3, Bergshamra, 76010, , 760616267, cissihedenstrom@hotmail.com, 2013-05-23, #FF7F7F, 1, 2013-12-31, 15.00, 0 on conditions username = cehe001
+21:53:26 jata001 Janne Tandodal INSERTING data into tables `emp_inconvinient_time`fields emp_username, on_call, on_call_holiday, on_call_bigholiday, inconvinient_night, inconvinient_evening, inconvinient_holiday, inconvinient_week_holiday, date_from, added_by values ( cehe001, , , , , , , , 2013-05-23, jata001 )
+21:53:26 jata001 Janne Tandodal INSERTING data into tables `emp_salary`fields emp_username, salary_per_month, salary_per_hour, date_from, added_by values ( cehe001, , , 2013-05-23, jata001 )
+21:57:11 jata001 Janne Tandodal UPDATING data to tables `team`fields Array values 3 on conditions customer =  AND role = 7
+21:57:11 jata001 Janne Tandodal UPDATING data to tables `team`fields Array values 7 on conditions customer =  AND employee = 
+21:57:11 jata001 Janne Tandodal INSERTING data into tables `time2vie_cirruscommon`.`login`fields username, mobile, social_security, role, login, date, company_ids values ( cher005, 739855133, 6705141080, 3, 0, 2013-05-23, 6, )
+21:57:11 jata001 Janne Tandodal INSERTING data into tables `employee`fields username, century, code, social_security, first_name, last_name, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary values ( cher005, 19, 3, 6705141080, Chatarina, Eriksson, Marmorvägen 7, Vallentuna, 18635, , 739855133, , 2013-05-23, #BD81F8, 1, 2013-12-31, 15, 0 )
+21:57:11 jata001 Janne Tandodal UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 6, on conditions social_security = 6705141080 AND company_ids NOT LIKE %6,%
+22:00:24 jata001 Janne Tandodal UPDATING data to tables `team`fields Array values 3 on conditions customer =  AND role = 7
+22:00:24 jata001 Janne Tandodal UPDATING data to tables `team`fields Array values 7 on conditions customer =  AND employee = 
+22:00:24 jata001 Janne Tandodal INSERTING data into tables `time2vie_cirruscommon`.`login`fields username, mobile, social_security, role, login, date, company_ids values ( stfr001, 701594707, 6005081101, 3, 0, 2013-05-23, 6, )
+22:00:24 jata001 Janne Tandodal INSERTING data into tables `employee`fields username, century, code, social_security, first_name, last_name, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary values ( stfr001, 19, 4, 6005081101, Stina, Fritz, Marmorvägen 4, Vallentuna, 18635, , 701594707, frizapping@hotmail.com, 2013-05-23, #C8CAD8, 1, 2013-12-31, 15, 0 )
+22:00:24 jata001 Janne Tandodal UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 6, on conditions social_security = 6005081101 AND company_ids NOT LIKE %6,%
+23:00:58 jata001 Janne Tandodal UPDATING data to tables `team`fields Array values 3 on conditions customer =  AND role = 7
+23:00:58 jata001 Janne Tandodal UPDATING data to tables `team`fields Array values 7 on conditions customer =  AND employee = 
+23:00:58 jata001 Janne Tandodal INSERTING data into tables `time2vie_cirruscommon`.`login`fields username, mobile, social_security, role, login, date, company_ids values ( mali008, 708934267, 6306200285, 1, 0, 2013-05-23, 6, )
+23:00:58 jata001 Janne Tandodal INSERTING data into tables `employee`fields username, century, code, social_security, first_name, last_name, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary values ( mali008, 19, 5, 6306200285, Maria, Lindberg, Högbergsvägen 3, Grisslehamn, 76045, , 708934267, milindberg@hotmail.com, 2013-05-23, #B187A3, 1, 2013-12-31, 15, 0 )
+23:00:58 jata001 Janne Tandodal UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 6, on conditions social_security = 6306200285 AND company_ids NOT LIKE %6,%
+23:04:17 jata001 Janne Tandodal UPDATING data to tables `team`fields Array values 3 on conditions customer =  AND role = 7
+23:04:17 jata001 Janne Tandodal UPDATING data to tables `team`fields Array values 7 on conditions customer =  AND employee = 
+23:04:17 jata001 Janne Tandodal INSERTING data into tables `time2vie_cirruscommon`.`login`fields username, mobile, social_security, role, login, date, company_ids values ( lima003, 765847048, 9207083305, 3, 0, 2013-05-23, 6, )
+23:04:17 jata001 Janne Tandodal INSERTING data into tables `employee`fields username, century, code, social_security, first_name, last_name, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary values ( lima003, 19, 5, 9207083305, Lina, Magnusson, Simpbylevägen 10C, Norrtälje, 76160, , 765847048, m-liina-m@hotmail.com, 2013-05-23, #E6F7E4, 1, 2013-12-31, 15, 0 )
+23:04:17 jata001 Janne Tandodal UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 6, on conditions social_security = 9207083305 AND company_ids NOT LIKE %6,%
+23:07:06 jata001 Janne Tandodal UPDATING data to tables `team`fields Array values 3 on conditions customer =  AND role = 7
+23:07:06 jata001 Janne Tandodal UPDATING data to tables `team`fields Array values 7 on conditions customer =  AND employee = 
+23:07:06 jata001 Janne Tandodal INSERTING data into tables `time2vie_cirruscommon`.`login`fields username, mobile, social_security, role, login, date, company_ids values ( chyi001, 700433069, 8012228360, 3, 0, 2013-05-23, 6, )
+23:07:06 jata001 Janne Tandodal INSERTING data into tables `employee`fields username, century, code, social_security, first_name, last_name, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary values ( chyi001, 19, 6, 8012228360, Chadaporn, Yingyeun, Gulsparvsvägen 40, Vallentuna, 18647, , 700433069, nong217@hotmail.com, 2013-05-23, #C6DCDD, 1, 2013-12-31, 15, 0 )
+23:07:06 jata001 Janne Tandodal UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 6, on conditions social_security = 8012228360 AND company_ids NOT LIKE %6,%
+23:09:35 jata001 Janne Tandodal UPDATING data to tables `team`fields Array values 3 on conditions customer =  AND role = 7
+23:09:35 jata001 Janne Tandodal UPDATING data to tables `team`fields Array values 7 on conditions customer =  AND employee = 
+23:09:35 jata001 Janne Tandodal INSERTING data into tables `time2vie_cirruscommon`.`login`fields username, mobile, social_security, role, login, date, company_ids values ( anfr005, 735601697, 6902171989, 3, 0, 2013-05-23, 6, )
+23:09:35 jata001 Janne Tandodal INSERTING data into tables `employee`fields username, century, code, social_security, first_name, last_name, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary values ( anfr005, 19, 7, 6902171989, Annelie, Franconeri, Skogsvägen 6, Väddö, 76040, , 735601697, , 2013-05-23, #85AAE2, 1, 2013-12-31, 15, 0 )
+23:09:35 jata001 Janne Tandodal UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 6, on conditions social_security = 6902171989 AND company_ids NOT LIKE %6,%
+23:13:24 jata001 Janne Tandodal UPDATING data to tables `team`fields Array values 3 on conditions customer =  AND role = 7
+23:13:24 jata001 Janne Tandodal UPDATING data to tables `team`fields Array values 7 on conditions customer =  AND employee = 
+23:13:24 jata001 Janne Tandodal INSERTING data into tables `time2vie_cirruscommon`.`login`fields username, mobile, social_security, role, login, date, company_ids values ( chfr001, 739707768, 8408280405, 3, 0, 2013-05-23, 6, )
+23:13:24 jata001 Janne Tandodal INSERTING data into tables `employee`fields username, century, code, social_security, first_name, last_name, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary values ( chfr001, 19, 8, 8408280405, Christina, Fredin, Värdshusvägen 7B c/o Johansson, Sjöblom, Väddö, 76040, , 739707768, visit christina@hotmail.com, 2013-05-23, #ADF9F1, 1, 2013-12-31, 15, 0 )
+23:13:24 jata001 Janne Tandodal UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 6, on conditions social_security = 8408280405 AND company_ids NOT LIKE %6,%
+23:15:39 jata001 Janne Tandodal UPDATING data to tables `team`fields Array values 3 on conditions customer =  AND role = 7
+23:15:39 jata001 Janne Tandodal UPDATING data to tables `team`fields Array values 7 on conditions customer =  AND employee = 
+23:15:39 jata001 Janne Tandodal INSERTING data into tables `time2vie_cirruscommon`.`login`fields username, mobile, social_security, role, login, date, company_ids values ( last002, 705174546, 4112020211, 1, 0, 2013-05-23, 6, )
+23:15:39 jata001 Janne Tandodal INSERTING data into tables `employee`fields username, century, code, social_security, first_name, last_name, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary values ( last002, 19, 9, 4112020211, Lars, Stenling, Klingspors väg 5B, Vallentuna, 18642, 0851174546, 705174546, lars.swetec@telia.com, 2013-05-23, #D78CFB, 1, 2013-12-31, 15, 0 )
+23:15:39 jata001 Janne Tandodal UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 6, on conditions social_security = 4112020211 AND company_ids NOT LIKE %6,%
+23:36:25 jata001 Janne Tandodal UPDATING data to tables `team`fields Array values 3 on conditions customer =  AND role = 7
+23:36:25 jata001 Janne Tandodal UPDATING data to tables `team`fields Array values 7 on conditions customer =  AND employee = 
+23:36:25 jata001 Janne Tandodal UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 3, 765847048 on conditions username = lima003
+23:36:25 jata001 Janne Tandodal UPDATING data to tables `employee`fields Array values 10, 19, 9207083305, Lina, Magnusson, Simpbylevägen 10C, Norrtälje, 76160, , 765847048, m-liina-m@hotmail.com, 2013-05-23, #E6F7E4, 1, , , 0 on conditions username = lima003
+23:36:25 jata001 Janne Tandodal INSERTING data into tables `emp_inconvinient_time`fields emp_username, on_call, on_call_holiday, on_call_bigholiday, inconvinient_night, inconvinient_evening, inconvinient_holiday, inconvinient_week_holiday, date_from, added_by values ( lima003, , , , , , , , 2013-05-23, jata001 )
+23:36:25 jata001 Janne Tandodal INSERTING data into tables `emp_salary`fields emp_username, salary_per_month, salary_per_hour, date_from, added_by values ( lima003, , , 2013-05-23, jata001 )
+23:39:19 jata001 Janne Tandodal UPDATING data to tables `team`fields Array values 3 on conditions customer =  AND role = 7
+23:39:19 jata001 Janne Tandodal UPDATING data to tables `team`fields Array values 7 on conditions customer =  AND employee = 
+23:39:19 jata001 Janne Tandodal INSERTING data into tables `time2vie_cirruscommon`.`login`fields username, mobile, social_security, role, login, date, company_ids values ( anra004, , 6304101766, 3, 0, 2013-05-23, 6, )
+23:39:19 jata001 Janne Tandodal INSERTING data into tables `employee`fields username, century, code, social_security, first_name, last_name, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary values ( anra004, 19, 11, 6304101766, Anette, Rambring, Rolsta 2, Vallentuna, 18695, 08-51230325, , , 2013-05-23, #A0BDF0, 1, 2013-12-31, 15, 0 )
+23:39:19 jata001 Janne Tandodal UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 6, on conditions social_security = 6304101766 AND company_ids NOT LIKE %6,%
+23:40:48 jata001 Janne Tandodal UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 98653247 on conditions username = hesv001
+23:40:48 jata001 Janne Tandodal UPDATING data to tables `customer`fields Array values 33, 19, 7204090117, Testina, Svan, storgatan 22, Kumla, 692 32, 019-12345678, 98653247, , 2012-08-01, 1, , 2 on conditions username = hesv001
+23:40:48 jata001 Janne Tandodal DELETE data from tables `team` on conditions customer = hesv001
+23:40:48 jata001 Janne Tandodal INSERTING data into tables `team`fields customer, employee, role values ( hesv001, joef001, 3 )
+23:40:48 jata001 Janne Tandodal INSERTING data into tables `team`fields customer, employee, role values ( hesv001, wita001, 3 )
+23:40:48 jata001 Janne Tandodal INSERTING data into tables `team`fields customer, employee, role values ( hesv001, jata001, 3 )
+23:40:48 jata001 Janne Tandodal INSERTING data into tables `team`fields customer, employee, role values ( hesv001, moen001, 3 )
+23:40:48 jata001 Janne Tandodal INSERTING data into tables `team`fields customer, employee, role values ( hesv001, gine001, 3 )
+23:45:12 jata001 Janne Tandodal INSERTING data into tables `customer_relative`fields customer, name, relation, address, city, phone, work_phone, mobile, email, other values ( anst007, Lars Stenling, Make, Klingspors väg 5B, Vallentuna, 08-51174546, , , ,  )
+23:57:43 jata001 Janne Tandodal UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values  on conditions username = anst007
+23:57:43 jata001 Janne Tandodal UPDATING data to tables `customer`fields Array values 1, 19, 4609110046, Anne Christine, Stenling, Klingspors väg 5B, Vallentuna, 18642, 0851174546, , , 2013-01-01, 1, , 1 on conditions username = anst007
+23:57:43 jata001 Janne Tandodal INSERTING data into tables `team`fields customer, employee, role values ( anst007, cher005, 3 )
+23:57:43 jata001 Janne Tandodal INSERTING data into tables `team`fields customer, employee, role values ( anst007, anfr005, 3 )
+23:57:43 jata001 Janne Tandodal INSERTING data into tables `team`fields customer, employee, role values ( anst007, chfr001, 3 )
+23:57:43 jata001 Janne Tandodal INSERTING data into tables `team`fields customer, employee, role values ( anst007, stfr001, 3 )
+23:57:43 jata001 Janne Tandodal INSERTING data into tables `team`fields customer, employee, role values ( anst007, cehe001, 3 )
+23:57:43 jata001 Janne Tandodal INSERTING data into tables `team`fields customer, employee, role values ( anst007, mali008, 3 )
+23:57:43 jata001 Janne Tandodal INSERTING data into tables `team`fields customer, employee, role values ( anst007, lima003, 3 )
+23:57:43 jata001 Janne Tandodal INSERTING data into tables `team`fields customer, employee, role values ( anst007, anra004, 3 )
+23:57:43 jata001 Janne Tandodal INSERTING data into tables `team`fields customer, employee, role values ( anst007, last002, 3 )
+23:57:43 jata001 Janne Tandodal INSERTING data into tables `team`fields customer, employee, role values ( anst007, chyi001, 3 )
+00:00:21 jata001 Janne Tandodal INSERTING data into tables `privileges`fields employee values ( last002 )
+00:00:21 jata001 Janne Tandodal UPDATING data to tables `privileges`fields Array values 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 on conditions employee = last002
+00:00:32 jata001 Janne Tandodal INSERTING data into tables `privileges_reports`fields employee values ( last002 )
+00:00:32 jata001 Janne Tandodal UPDATING data to tables `privileges_reports`fields Array values 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 on conditions employee = last002
+00:00:43 jata001 Janne Tandodal INSERTING data into tables `privileges_forms`fields employee values ( last002 )
+00:00:43 jata001 Janne Tandodal UPDATING data to tables `privileges_forms`fields Array values 1, 1, 1 on conditions employee = last002
+00:00:55 jata001 Janne Tandodal INSERTING data into tables `privileges_general`fields employee values ( last002 )
+00:00:55 jata001 Janne Tandodal UPDATING data to tables `privileges_general`fields Array values 1, 1, 1, 1, 1, 1, 1 on conditions employee = last002
+00:01:08 jata001 Janne Tandodal INSERTING data into tables `privileges_mc`fields employee values ( last002 )
+00:01:08 jata001 Janne Tandodal UPDATING data to tables `privileges_mc`fields Array values 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 on conditions employee = last002
+00:02:34 jata001 Janne Tandodal INSERTING data into tables `privileges`fields employee values ( mali008 )
+00:02:34 jata001 Janne Tandodal UPDATING data to tables `privileges`fields Array values 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 on conditions employee = mali008
+00:02:43 jata001 Janne Tandodal INSERTING data into tables `privileges_reports`fields employee values ( mali008 )
+00:02:43 jata001 Janne Tandodal UPDATING data to tables `privileges_reports`fields Array values 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 on conditions employee = mali008
+00:02:51 jata001 Janne Tandodal INSERTING data into tables `privileges_forms`fields employee values ( mali008 )
+00:02:51 jata001 Janne Tandodal UPDATING data to tables `privileges_forms`fields Array values 1, 1, 1 on conditions employee = mali008
+00:02:59 jata001 Janne Tandodal INSERTING data into tables `privileges_general`fields employee values ( mali008 )
+00:02:59 jata001 Janne Tandodal UPDATING data to tables `privileges_general`fields Array values 1, 1, 1, 1, 1, 1, 1 on conditions employee = mali008
+00:03:04 jata001 Janne Tandodal INSERTING data into tables `privileges_mc`fields employee values ( mali008 )
+00:03:04 jata001 Janne Tandodal UPDATING data to tables `privileges_mc`fields Array values 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 on conditions employee = mali008
+00:05:00 jata001 Janne Tandodal INSERTING data into tables `privileges`fields employee values ( cher005 )
+00:05:00 jata001 Janne Tandodal UPDATING data to tables `privileges`fields Array values 1, 1, 1, , , , , , , 1, , , , , 1, ,  on conditions employee = cher005
+00:05:56 jata001 Janne Tandodal INSERTING data into tables `privileges_mc`fields employee values ( cher005 )
+00:05:56 jata001 Janne Tandodal UPDATING data to tables `privileges_mc`fields Array values , , , , , , , , , ,  on conditions employee = cher005
+00:10:04 jata001 Janne Tandodal INSERTING data into tables `privileges`fields employee values ( stfr001 )
+00:10:04 jata001 Janne Tandodal UPDATING data to tables `privileges`fields Array values 1, 1, 1, , , , , , , 1, , , , , 1, ,  on conditions employee = stfr001
+00:10:49 jata001 Janne Tandodal INSERTING data into tables `privileges`fields employee values ( anra004 )
+00:10:49 jata001 Janne Tandodal UPDATING data to tables `privileges`fields Array values 1, 1, 1, , , , , , , 1, , , , , 1, ,  on conditions employee = anra004
+00:11:25 jata001 Janne Tandodal INSERTING data into tables `privileges`fields employee values ( anfr005 )
+00:11:25 jata001 Janne Tandodal UPDATING data to tables `privileges`fields Array values 1, 1, 1, , , , , , , 1, , , , , 1, ,  on conditions employee = anfr005
+00:12:00 jata001 Janne Tandodal INSERTING data into tables `privileges`fields employee values ( chyi001 )
+00:12:00 jata001 Janne Tandodal UPDATING data to tables `privileges`fields Array values 1, 1, 1, , , , , , , 1, , , , , 1, ,  on conditions employee = chyi001
+00:12:32 jata001 Janne Tandodal INSERTING data into tables `privileges`fields employee values ( chfr001 )
+00:12:32 jata001 Janne Tandodal UPDATING data to tables `privileges`fields Array values 1, 1, 1, , , , , , , 1, , , , , 1, ,  on conditions employee = chfr001
+00:13:09 jata001 Janne Tandodal INSERTING data into tables `privileges`fields employee values ( cehe001 )
+00:13:09 jata001 Janne Tandodal UPDATING data to tables `privileges`fields Array values 1, 1, 1, , , , , , , 1, , , , , 1, ,  on conditions employee = cehe001
+00:13:41 jata001 Janne Tandodal INSERTING data into tables `privileges`fields employee values ( lima003 )
+00:13:41 jata001 Janne Tandodal UPDATING data to tables `privileges`fields Array values 1, 1, 1, , , , , , , 1, , , , , 1, ,  on conditions employee = lima003
+00:17:54 jata001 Janne Tandodal INSERTING data into tables `timetable`fields employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp values ( , anst007, 1, undefined, 2013-07-01, 0.00, 19, 0, jata001 )
+00:17:54 jata001 Janne Tandodal INSERTING data into tables `memory_slots`fields customer, time_from, time_to, type values ( anst007, 0.00, 19, undefined )
+00:18:33 jata001 Janne Tandodal UPDATING data to tables `timetable`fields Array values 1, anra004, jata001 on conditions id = 1596
+00:26:29 jata001 Janne Tandodal DELETE data from tables `inconvenient_timing` on conditions root_id = 9
+00:26:29 jata001 Janne Tandodal DELETE data from tables `inconvenient_timing` on conditions id = 9
+00:39:20 jata001 Janne Tandodal UPDATING data to tables `privileges`fields Array values , , , , , , , , , , , , , , , ,  on conditions employee = cher005
+00:39:20 jata001 Janne Tandodal UPDATING data to tables `privileges`fields Array values , , , , , , , , , , , , , , , ,  on conditions employee = anfr005
+00:39:20 jata001 Janne Tandodal UPDATING data to tables `privileges`fields Array values , , , , , , , , , , , , , , , ,  on conditions employee = chfr001
+00:39:20 jata001 Janne Tandodal UPDATING data to tables `privileges`fields Array values , , , , , , , , , , , , , , , ,  on conditions employee = stfr001
+00:39:20 jata001 Janne Tandodal UPDATING data to tables `privileges`fields Array values , , , , , , , , , , , , , , , ,  on conditions employee = cehe001
+00:39:20 jata001 Janne Tandodal UPDATING data to tables `privileges`fields Array values , , , , , , , , , , , , , , , ,  on conditions employee = mali008
+00:39:20 jata001 Janne Tandodal UPDATING data to tables `privileges`fields Array values , , , , , , , , , , , , , , , ,  on conditions employee = lima003
+00:39:20 jata001 Janne Tandodal UPDATING data to tables `privileges`fields Array values , , , , , , , , , , , , , , , ,  on conditions employee = anra004
+00:39:20 jata001 Janne Tandodal UPDATING data to tables `privileges`fields Array values , , , , , , , , , , , , , , , ,  on conditions employee = last002
+00:39:20 jata001 Janne Tandodal UPDATING data to tables `privileges`fields Array values , , , , , , , , , , , , , , , ,  on conditions employee = chyi001
+00:40:51 jata001 Janne Tandodal UPDATING data to tables `privileges`fields Array values 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 on conditions employee = last002
+00:42:27 jata001 Janne Tandodal UPDATING data to tables `privileges`fields Array values 1, 1, 1, , , , , , , 1, , , , , 1, ,  on conditions employee = cher005
+00:42:58 jata001 Janne Tandodal UPDATING data to tables `privileges`fields Array values 1, 1, 1, , , , , , , 1, , , , , 1, ,  on conditions employee = anfr005
+00:43:48 jata001 Janne Tandodal UPDATING data to tables `privileges`fields Array values 1, 1, 1, , , , , , , 1, , , , , 1, ,  on conditions employee = chfr001
+00:44:16 jata001 Janne Tandodal UPDATING data to tables `privileges`fields Array values 1, 1, 1, , , , , , , 1, , , , , 1, ,  on conditions employee = stfr001
+00:44:40 jata001 Janne Tandodal UPDATING data to tables `privileges`fields Array values 1, 1, 1, , , , , , , 1, , , , , 1, ,  on conditions employee = cehe001
+00:45:56 jata001 Janne Tandodal UPDATING data to tables `privileges`fields Array values 1, 1, 1, , , , , , , 1, , , , , 1, ,  on conditions employee = lima003
+00:46:25 jata001 Janne Tandodal UPDATING data to tables `privileges`fields Array values 1, 1, 1, , , , , , , 1, , , , , 1, ,  on conditions employee = anra004
+00:47:23 jata001 Janne Tandodal UPDATING data to tables `privileges`fields Array values 1, 1, 1, , , , , , , 1, , , , , 1, ,  on conditions employee = chyi001
+00:49:12 jata001 Janne Tandodal UPDATING data to tables `privileges`fields Array values 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 on conditions employee = mali008
+00:49:29 jata001 Janne Tandodal UPDATING data to tables `privileges`fields Array values 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 on conditions employee = mali008
+00:59:13   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = jata001
+00:59:13   UPDATING data to tables `log_login`fields Array values 2013-05-23:22:59:13 on conditions id = 1198 AND username = jata001

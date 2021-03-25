@@ -1,0 +1,4 @@
+14:41:23 gine001 root001 INSERTING data into tables `customer_equipment` fields ( equipment, customer, employee, issue_date, return_date, serial_number ) values ( tes, stal001, gine001, 2014-08-01, , 366436 ) => {inserted_id = 6}
+14:42:20 gine001 root001 UPDATING data to tables `customer_equipment` fields ( equipment, customer, issue_date, return_date, serial_number ) values (NON, stal001, 2014-08-01, , 366436) on conditions id = 6
+14:49:46   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+14:49:46   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-08-08:12:49:46) on conditions id = 679 AND username = gine001

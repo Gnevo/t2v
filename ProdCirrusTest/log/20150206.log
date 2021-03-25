@@ -1,0 +1,26 @@
+10:51:05 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+10:51:05 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 223.30.129.234, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/39.0.2171.65 Chrome/39.0.2171.65 Safari/537.36 ) => {inserted_id = 2249}
+10:51:05 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+10:51:05 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+10:51:06 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 83db3700e67ca81969ee7aa98c3bb053
+11:07:45 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+11:07:45 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.154.135, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36 ) => {inserted_id = 2251}
+11:07:45 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+11:07:45 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+11:07:45 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 2fc3f755629c2f5e1b5e7e04364359e2
+11:09:13 gine001 Gilad Nevo DELETE data from tables `inconvenient_timing_customer` on conditions root_id = 7
+11:09:13 gine001 Gilad Nevo DELETE data from tables `inconvenient_timing_customer` on conditions id = 7
+11:09:13 gine001 Gilad Nevo INSERTING data into tables `inconvenient_timing_customer` fields ( root_id, group_id, name, customer, effect_from, effect_to, time_from, time_to, days, amount, nature, sal_call_training, sal_complementary_oncall, sal_more_oncall ) values ( 0, 4, Jour vardag, stal001, 2014-07-01, , 11.10, 11.20, 1,2,3,4,5,, 0.00, 0, 0.00, 0.00, 0.00 ) => {inserted_id = 25}
+11:10:38 gine001 Gilad Nevo DELETE data from tables `inconvenient_timing_customer` on conditions root_id = 25
+11:10:38 gine001 Gilad Nevo DELETE data from tables `inconvenient_timing_customer` on conditions id = 25
+11:10:38 gine001 Gilad Nevo INSERTING data into tables `inconvenient_timing_customer` fields ( root_id, group_id, name, customer, effect_from, effect_to, time_from, time_to, days, amount, nature, sal_call_training, sal_complementary_oncall, sal_more_oncall ) values ( 0, 4, Jour vardag, stal001, 2014-07-01, , 11.10, 11.15, 1,2,3,4,5,, 0.00, 0, 0.00, 0.00, 0.00 ) => {inserted_id = 26}
+11:15:25 gine001 Gilad Nevo UPDATING data to tables `fkkn_form_defaults` fields ( bargaining, other_bargaining_text, agreement_types, agreement_type2_company, agreement_type2_orgNo, health_care_agency ) values (1, , 1||1||1, CirrusTest, 5568752325, 0) on conditions customer = anst007
+11:15:25 gine001 Gilad Nevo INSERTING data into tables `history_samsida_work_report` fields ( month, year, fkkn, customer, employee, file_name ) values ( 1, 2015, 1, anst007, , Samsida_201786142.pdf ) => {inserted_id = 73}
+11:21:44 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status, comment ) values (1, ) on conditions id = 6077
+11:21:44 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status, comment ) values (1, ) on conditions id = 6078
+11:58:13 gine001 root001 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 02c3332f93db9e6522bd238f9e6823cb
+11:58:45 gine001 root001 UPDATING data to tables `applicant` fields ( century, personal_number, first_name, last_name, gender, address, post_no, city, telephone, mobile, email, qualification, experience, former_company, contact_no, language_known, resume_title, type_resume, ref_social_security_no, ref_name, ref_mobile ) values (19, test, Tomasi, Tomas, 1, Eriksbergsv. 10, 69232, Kumla, 070-43464646464, 082-005 96 23 23, gn.nevo@gmail.com, , 0, , , , , , , test, 234234) on conditions id=5
+11:58:45 gine001 root001 DELETE data from tables `skill`
+11:59:10 gine001 root001 DELETE data from tables `temp_session` on conditions username LIKE gine001
+11:59:10 gine001 root001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+11:59:10   UPDATING data to tables `log_login` fields ( logout_time ) values (2015-02-06:10:59:10) on conditions id = 983 AND username = gine001

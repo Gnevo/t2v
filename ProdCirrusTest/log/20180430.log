@@ -1,0 +1,10 @@
+11:13:16 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 37.197.10.38, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0 ) => {inserted_id = 6494}
+11:13:16 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+11:13:17 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-04-30 11:13:16) on conditions username = gine001
+11:13:17 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-04-30 11:13:16) on conditions username = gine001 AND company_id = 6
+13:23:13 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+13:23:14 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 37.197.10.38, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36 ) => {inserted_id = 6495}
+13:23:14 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+13:23:14 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-04-30 13:23:14) on conditions username = gine001
+13:23:14 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-04-30 13:23:14) on conditions username = gine001 AND company_id = 6
+13:23:14 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 24b5c8a516df9e02ab1584f727e971ae

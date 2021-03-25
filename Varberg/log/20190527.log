@@ -1,0 +1,264 @@
+06:21:53 anka019 Anna Kawalya Westerberg INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( anka019, 78.71.186.230, Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1 ) => {inserted_id = 918}
+06:21:53 anka019 Anna Kawalya Westerberg DELETE data from tables `temp_session` on conditions username LIKE anka019
+06:21:53 anka019 Anna Kawalya Westerberg UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 06:21:53) on conditions username = anka019
+06:21:53 anka019 Anna Kawalya Westerberg UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 06:21:53) on conditions username = anka019 AND company_id = 20
+06:21:54 anka019 Anna Kawalya Westerberg UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (anka019) on conditions session_id = dd0e9d25f55247902586cb09317722a6
+06:23:23 anka019 Anna Kawalya Westerberg INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( anka019, 78.71.186.230, Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1 ) => {inserted_id = 919}
+06:23:23 anka019 Anna Kawalya Westerberg DELETE data from tables `temp_session` on conditions username LIKE anka019
+06:23:23 anka019 Anna Kawalya Westerberg UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 06:23:23) on conditions username = anka019
+06:23:23 anka019 Anna Kawalya Westerberg UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 06:23:23) on conditions username = anka019 AND company_id = 20
+06:23:45 anka019 Anna Kawalya Westerberg UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (anka019) on conditions session_id = e9ecaab5f07af6272a9ef789c8a883be
+06:54:40 mato007 Mattias Torbiörnson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = mato007 AND company_id = 20
+06:54:40 mato007 Mattias Torbiörnson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( mato007, 94.103.194.75, CirrusM/3 CFNetwork/978.0.7 Darwin/18.5.0 ) => {inserted_id = 920}
+06:54:40 mato007 Mattias Torbiörnson DELETE data from tables `temp_session` on conditions username LIKE mato007
+06:54:40 mato007 Mattias Torbiörnson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 06:54:40) on conditions username = mato007
+06:54:40 mato007 Mattias Torbiörnson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 06:54:40) on conditions username = mato007 AND company_id = 20
+06:54:41 mato007 Mattias Torbiörnson UPDATING data to tables `time2vie_cirruscommon`.`push_notify_tokens` fields ( user_id, updated_date, error ) values (mato007, 2019-05-27 06:54:41, 0) on conditions fcm_token = er2Ysp_XVPI:APA91bF7oz4TlPjnv2Ft_y0JVWwwQMprxP9e8Bjdjm-Fdzn4JCdLORhkOAVh_lf4_tX-_A4dqDnPyj5151jp0ZGxIsLFLua_p_bomblhJryTBY_ElwLbSzBNHyuQdZ5dH9-VqFp9tc7a AND device_id = 0E77902D-FC69-4F3F-9F41-A3BD80129544 #Mobile-App: Log-id=920
+08:39:42 cagu001 Carina Gustafsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( cagu001, 193.234.72.157, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36 ) => {inserted_id = 921}
+08:39:42 cagu001 Carina Gustafsson DELETE data from tables `temp_session` on conditions username LIKE cagu001
+08:39:42 cagu001 Carina Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 08:39:42) on conditions username = cagu001
+08:39:42 cagu001 Carina Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 08:39:42) on conditions username = cagu001 AND company_id = 20
+08:39:43 cagu001 Carina Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (cagu001) on conditions session_id = 8929b4b4a9d83a478696a169e80bf8b9
+08:40:47 cagu001 Carina Gustafsson UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (mygu001, cagu001, 2019-05-29, 7.30, 17.30, 1, 0, 1, ) on conditions id = 188
+08:43:29 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = hejo003 AND company_id = 20
+08:43:29 hejo003 Helen Jörnås INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( hejo003, 90.224.82.244, okhttp/3.9.1 ) => {inserted_id = 922}
+08:43:29 hejo003 Helen Jörnås DELETE data from tables `temp_session` on conditions username LIKE hejo003
+08:43:30 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 08:43:29) on conditions username = hejo003
+08:43:30 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 08:43:29) on conditions username = hejo003 AND company_id = 20
+08:50:29 thgu002 Therese Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = thgu002 AND company_id = 20
+08:50:29 thgu002 Therese Gustafsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( thgu002, 94.191.130.142, okhttp/3.9.1 ) => {inserted_id = 923}
+08:50:29 thgu002 Therese Gustafsson DELETE data from tables `temp_session` on conditions username LIKE thgu002
+08:50:29 thgu002 Therese Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 08:50:29) on conditions username = thgu002
+08:50:30 thgu002 Therese Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 08:50:29) on conditions username = thgu002 AND company_id = 20
+08:51:46 biwa003 Birgitta Wåhlander INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( biwa003, 193.234.72.157, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36 ) => {inserted_id = 924}
+08:51:46 biwa003 Birgitta Wåhlander DELETE data from tables `temp_session` on conditions username LIKE biwa003
+08:51:46 biwa003 Birgitta Wåhlander UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 08:51:46) on conditions username = biwa003
+08:51:46 biwa003 Birgitta Wåhlander UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 08:51:46) on conditions username = biwa003 AND company_id = 20
+08:51:47 biwa003 Birgitta Wåhlander UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (biwa003) on conditions session_id = 7e2bf6e3fb6a399a02759006528bcef1
+08:54:36 biwa003 Birgitta Wåhlander INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( biwa003, chwa001, 1, 0, 2019-05-07, 12, 16, 1, , biwa003,  ) => {inserted_id = 2080}
+08:54:36 biwa003 Birgitta Wåhlander INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( chwa001, 12, 16, 0 ) => {inserted_id = 67}
+08:55:12 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = hejo003 AND company_id = 20 #Mobile-App: Log-id=922
+08:55:12 hejo003 Helen Jörnås INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( hejo003, 90.224.82.244, okhttp/3.9.1 ) => {inserted_id = 925} #Mobile-App: Log-id=922
+08:55:12 hejo003 Helen Jörnås DELETE data from tables `temp_session` on conditions username LIKE hejo003 #Mobile-App: Log-id=925
+08:55:13 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 08:55:12) on conditions username = hejo003 #Mobile-App: Log-id=925
+08:55:13 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 08:55:12) on conditions username = hejo003 AND company_id = 20 #Mobile-App: Log-id=925
+08:56:37 biwa003 Birgitta Wåhlander INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( lawa002, chwa001, 1, 0, 2019-05-11, 12, 16, 1, , biwa003,  ) => {inserted_id = 2081}
+08:58:51 biwa003 Birgitta Wåhlander INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( biwa003, chwa001, 1, 0, 2019-05-14, 14, 18, 1, , biwa003,  ) => {inserted_id = 2082}
+08:58:51 biwa003 Birgitta Wåhlander INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( chwa001, 14, 18, 0 ) => {inserted_id = 68}
+08:59:31 biwa003 Birgitta Wåhlander UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (chwa001, biwa003, 2019-05-14, 13.45, 18.00, 1, 0, 1, ) on conditions id = 2082
+11:05:01 elbe006 Elin Berntsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = elbe006 AND company_id = 20
+11:05:01 elbe006 Elin Berntsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( elbe006, 158.174.54.90, okhttp/3.9.1 ) => {inserted_id = 926}
+11:05:01 elbe006 Elin Berntsson DELETE data from tables `temp_session` on conditions username LIKE elbe006
+11:05:01 elbe006 Elin Berntsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 11:05:01) on conditions username = elbe006
+11:05:01 elbe006 Elin Berntsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 11:05:01) on conditions username = elbe006 AND company_id = 20
+11:07:36 anka019 Anna Kawalya Westerberg INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( anka019, 94.103.194.75, Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1 ) => {inserted_id = 927}
+11:07:36 anka019 Anna Kawalya Westerberg DELETE data from tables `temp_session` on conditions username LIKE anka019
+11:07:36 anka019 Anna Kawalya Westerberg UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 11:07:36) on conditions username = anka019
+11:07:36 anka019 Anna Kawalya Westerberg UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 11:07:36) on conditions username = anka019 AND company_id = 20
+11:07:37 anka019 Anna Kawalya Westerberg UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (anka019) on conditions session_id = 3340be350165123a3c7822902bf29d10
+11:08:21 anka019 Anna Kawalya Westerberg INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( anka019, 94.103.194.75, Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1 ) => {inserted_id = 928}
+11:08:21 anka019 Anna Kawalya Westerberg DELETE data from tables `temp_session` on conditions username LIKE anka019
+11:08:21 anka019 Anna Kawalya Westerberg UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 11:08:21) on conditions username = anka019
+11:08:21 anka019 Anna Kawalya Westerberg UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 11:08:21) on conditions username = anka019 AND company_id = 20
+11:08:22 anka019 Anna Kawalya Westerberg UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (anka019) on conditions session_id = 23a748a5e44b24aa2431c61a9e5bf414
+11:08:23 anka019 Anna Kawalya Westerberg INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( anka019, 94.103.194.75, Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1 ) => {inserted_id = 929}
+11:08:23 anka019 Anna Kawalya Westerberg DELETE data from tables `temp_session` on conditions username LIKE anka019
+11:08:23 anka019 Anna Kawalya Westerberg UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 11:08:23) on conditions username = anka019
+11:08:23 anka019 Anna Kawalya Westerberg UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 11:08:23) on conditions username = anka019 AND company_id = 20
+11:08:23 anka019 Anna Kawalya Westerberg UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (anka019) on conditions session_id = 23a748a5e44b24aa2431c61a9e5bf414
+12:00:09 cagu001 Carina Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (cagu001) on conditions session_id = 8929b4b4a9d83a478696a169e80bf8b9
+12:14:55 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = hejo003 AND company_id = 20
+12:14:55 hejo003 Helen Jörnås INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( hejo003, 90.224.82.244, okhttp/3.9.1 ) => {inserted_id = 930}
+12:14:55 hejo003 Helen Jörnås DELETE data from tables `temp_session` on conditions username LIKE hejo003
+12:14:55 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 12:14:55) on conditions username = hejo003
+12:14:55 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 12:14:55) on conditions username = hejo003 AND company_id = 20
+13:10:19 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = hejo003 AND company_id = 20
+13:10:19 hejo003 Helen Jörnås INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( hejo003, 90.224.82.244, okhttp/3.9.1 ) => {inserted_id = 931}
+13:10:19 hejo003 Helen Jörnås DELETE data from tables `temp_session` on conditions username LIKE hejo003
+13:10:19 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 13:10:19) on conditions username = hejo003
+13:10:19 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 13:10:19) on conditions username = hejo003 AND company_id = 20
+13:58:31 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = hejo003 AND company_id = 20
+13:58:31 hejo003 Helen Jörnås INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( hejo003, 90.224.82.244, okhttp/3.9.1 ) => {inserted_id = 932}
+13:58:31 hejo003 Helen Jörnås DELETE data from tables `temp_session` on conditions username LIKE hejo003
+13:58:31 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 13:58:31) on conditions username = hejo003
+13:58:31 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 13:58:31) on conditions username = hejo003 AND company_id = 20
+14:22:36 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = hejo003 AND company_id = 20 #Mobile-App: Log-id=932
+14:22:36 hejo003 Helen Jörnås INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( hejo003, 90.224.82.244, okhttp/3.9.1 ) => {inserted_id = 933} #Mobile-App: Log-id=932
+14:22:36 hejo003 Helen Jörnås DELETE data from tables `temp_session` on conditions username LIKE hejo003 #Mobile-App: Log-id=933
+14:22:36 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 14:22:36) on conditions username = hejo003 #Mobile-App: Log-id=933
+14:22:36 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 14:22:36) on conditions username = hejo003 AND company_id = 20 #Mobile-App: Log-id=933
+14:26:45 cagu001 Carina Gustafsson UPDATING data to tables `note` fields ( status ) values (1) on conditions id = 4
+14:26:51 cagu001 Carina Gustafsson UPDATING data to tables `mc_leave` fields ( read_users ) values (hebe001,biwa003,cagu001) on conditions leave_id = 133
+14:26:51 cagu001 Carina Gustafsson UPDATING data to tables `mc_leave` fields ( read_users ) values (hebe001,biwa003,cagu001) on conditions leave_id = 131
+14:26:51 cagu001 Carina Gustafsson UPDATING data to tables `mc_leave` fields ( read_users ) values (hebe001,biwa003,cagu001) on conditions leave_id = 132
+14:26:51 cagu001 Carina Gustafsson UPDATING data to tables `mc_leave` fields ( read_users ) values (hebe001,biwa003,cagu001) on conditions leave_id = 130
+14:26:51 cagu001 Carina Gustafsson UPDATING data to tables `mc_leave` fields ( read_users ) values (biwa003,hebe001,cagu001) on conditions leave_id = 126
+14:26:51 cagu001 Carina Gustafsson UPDATING data to tables `mc_leave` fields ( read_users ) values (biwa003,hebe001,cagu001) on conditions leave_id = 124
+14:26:51 cagu001 Carina Gustafsson UPDATING data to tables `mc_leave` fields ( read_users ) values (biwa003,hebe001,cagu001) on conditions leave_id = 122
+14:26:51 cagu001 Carina Gustafsson UPDATING data to tables `mc_leave` fields ( read_users ) values (biwa003,hebe001,cagu001) on conditions leave_id = 123
+14:26:51 cagu001 Carina Gustafsson UPDATING data to tables `mc_leave` fields ( read_users ) values (biwa003,hebe001,cagu001) on conditions leave_id = 121
+14:26:51 cagu001 Carina Gustafsson UPDATING data to tables `mc_leave` fields ( read_users ) values (hebe001,biwa003,cagu001) on conditions leave_id = 119
+14:27:23 cagu001 Carina Gustafsson DELETE data from tables `temp_session` on conditions username LIKE cagu001
+14:27:23 cagu001 Carina Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2019-05-27 14:27:23) on conditions username = cagu001
+14:27:23 cagu001 Carina Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 14:27:23) on conditions username = cagu001 AND company_id = 20
+14:27:23   UPDATING data to tables `log_login` fields ( logout_time ) values (2019-05-27:12:27:23) on conditions id = 921 AND username = cagu001
+14:28:26 biwa003 Birgitta Wåhlander UPDATING data to tables `fkkn_form_defaults` fields ( bargaining_new, company_cp_name, company_cp_phone, provider_of_pa_flag, agreement_types_new, agreement_type2_company, agreement_type2_orgNo ) values (2, Carina Gustafsson och Birgitta Wåhlander, 034037009, 2, 1, , ) on conditions customer = chwa001
+14:28:26 biwa003 Birgitta Wåhlander INSERTING data into tables `history_samsida_work_report` fields ( month, year, fkkn, customer, employee, file_name ) values ( 5, 2019, 1, chwa001, , Samsida_167418793.pdf ) => {inserted_id = 13}
+14:34:18 biwa003 Birgitta Wåhlander UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (biwa003) on conditions session_id = 7e2bf6e3fb6a399a02759006528bcef1
+14:36:50 biwa003 Birgitta Wåhlander UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (chwa001, mato007, 2019-06-01, 0.00, 6.00, 1, 0, 1, ) on conditions id = 482
+14:37:20 biwa003 Birgitta Wåhlander UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (chwa001, lawa002, 2019-06-01, 6.00, 18.15, 1, 0, 1, ) on conditions id = 483
+14:54:50 biwa003 Birgitta Wåhlander UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( role, mobile ) values (3, 730601451) on conditions username = lawa002
+14:54:50 biwa003 Birgitta Wåhlander UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day, remaining_sem_leave, sem_leave_todate, leave_in_advance, care_of, office_personal, substitute, salary_type, sem_leave_days, vab_leave_days, fp_leave_days, nopay_leave_days, other_leave_days, ice, employee_contract_start_month, employee_contract_period_date, employee_contract_period_length, candg_follow, inconvenient_on ) values (2-1, 19, 5805184610, Lars, Wåhlander, 1, Lilla Drottnigg 5, VARBERG, 432 45, , 730601451, ploggatan18@gmail.com, 2019-04-01, #ff0000, 1, , 12.00, 0, 10.00, 0, , 0, , 0, 0, 2, 1, 0, 0, 1, 1, , 04, 1, 04, 0, 0) on conditions username = lawa002
+14:54:50 biwa003 Birgitta Wåhlander DELETE data from tables `team` on conditions employee = lawa002
+14:54:50 biwa003 Birgitta Wåhlander INSERTING data into tables `team` fields ( customer, employee, role ) values ( chwa001, lawa002, 3 ) => {inserted_id = 0}
+14:54:55 biwa003 Birgitta Wåhlander UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (biwa003) on conditions session_id = 7e2bf6e3fb6a399a02759006528bcef1
+14:55:54 biwa003 Birgitta Wåhlander UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( role, mobile ) values (1, 709397997) on conditions username = biwa003
+14:55:54 biwa003 Birgitta Wåhlander UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day, remaining_sem_leave, sem_leave_todate, leave_in_advance, care_of, office_personal, substitute, salary_type, sem_leave_days, vab_leave_days, fp_leave_days, nopay_leave_days, other_leave_days, ice, employee_contract_start_month, employee_contract_period_date, employee_contract_period_length, candg_follow, inconvenient_on ) values (2, 19, 6010074620, Birgitta, Wåhlander, 2, Lilla Drottninggatan 5, VARBERG, 432 45, , 709397997, varbergsfamiljeassistans@gmail.com, 2019-03-28, #ff00ff, 1, , 12.00, 0, 10.00, 0, , 0, , 0, 0, 2, 0, 0, 0, 0, 0, , 04, 1, 04, 0, 0) on conditions username = biwa003
+14:55:54 biwa003 Birgitta Wåhlander DELETE data from tables `team` on conditions employee = biwa003
+14:55:54 biwa003 Birgitta Wåhlander INSERTING data into tables `team` fields ( customer, employee, role ) values ( chwa001, biwa003, 3 ), ( vafa001, biwa003, 3 ) => {inserted_id = 0}
+14:55:57 biwa003 Birgitta Wåhlander UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (biwa003) on conditions session_id = 7e2bf6e3fb6a399a02759006528bcef1
+14:57:04 biwa003 Birgitta Wåhlander UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( role, mobile ) values (3, 725229272) on conditions username = gaan001
+14:57:04 biwa003 Birgitta Wåhlander UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day, remaining_sem_leave, sem_leave_todate, leave_in_advance, care_of, office_personal, substitute, salary_type, sem_leave_days, vab_leave_days, fp_leave_days, nopay_leave_days, other_leave_days, ice, employee_contract_start_month, employee_contract_period_date, employee_contract_period_length, candg_follow, inconvenient_on ) values (2-6, 19, 9701097736, Gabriel, Andersson, 1, Kung Ranes väg 29, VARBERG, 432 53, , 725229272, gabbe.Ander97@live.com, 2019-04-01, #3bf4b0, 1, , 12.00, 0, 10.00, 0, , 0, , 0, 1, 1, 1, 0, 0, 1, 1, Agneta Carlsson 072-5360888, 04, 1, 04, 0, 1) on conditions username = gaan001
+14:57:04 biwa003 Birgitta Wåhlander DELETE data from tables `team` on conditions employee = gaan001
+14:57:05 biwa003 Birgitta Wåhlander INSERTING data into tables `team` fields ( customer, employee, role ) values ( chwa001, gaan001, 3 ) => {inserted_id = 0}
+14:57:11 biwa003 Birgitta Wåhlander UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (biwa003) on conditions session_id = 7e2bf6e3fb6a399a02759006528bcef1
+14:57:50 biwa003 Birgitta Wåhlander UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( role, mobile ) values (3, 725229272) on conditions username = gaan001
+14:57:50 biwa003 Birgitta Wåhlander UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day, remaining_sem_leave, sem_leave_todate, leave_in_advance, care_of, office_personal, substitute, salary_type, sem_leave_days, vab_leave_days, fp_leave_days, nopay_leave_days, other_leave_days, ice, employee_contract_start_month, employee_contract_period_date, employee_contract_period_length, candg_follow, inconvenient_on ) values (2-6, 19, 9701097736, Gabriel, Andersson, 1, Kung Ranes väg 29, VARBERG, 432 53, , 725229272, gabbe.Ander97@live.com, 2019-04-01, #00ffff, 1, , 12.00, 0, 10.00, 0, , 0, , 0, 1, 1, 1, 0, 0, 1, 1, Agneta Carlsson 072-5360888, 04, 1, 04, 0, 1) on conditions username = gaan001
+14:57:51 biwa003 Birgitta Wåhlander DELETE data from tables `team` on conditions employee = gaan001
+14:57:51 biwa003 Birgitta Wåhlander INSERTING data into tables `team` fields ( customer, employee, role ) values ( chwa001, gaan001, 3 ) => {inserted_id = 0}
+14:57:56 biwa003 Birgitta Wåhlander UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (biwa003) on conditions session_id = 7e2bf6e3fb6a399a02759006528bcef1
+14:58:11 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = hejo003 AND company_id = 20 #Mobile-App: Log-id=933
+14:58:11 hejo003 Helen Jörnås INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( hejo003, 90.224.82.244, okhttp/3.9.1 ) => {inserted_id = 934} #Mobile-App: Log-id=933
+14:58:11 hejo003 Helen Jörnås DELETE data from tables `temp_session` on conditions username LIKE hejo003 #Mobile-App: Log-id=934
+14:58:11 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 14:58:11) on conditions username = hejo003 #Mobile-App: Log-id=934
+14:58:11 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 14:58:11) on conditions username = hejo003 AND company_id = 20 #Mobile-App: Log-id=934
+15:20:59 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = hejo003 AND company_id = 20 #Mobile-App: Log-id=934
+15:20:59 hejo003 Helen Jörnås INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( hejo003, 90.224.82.244, okhttp/3.9.1 ) => {inserted_id = 935} #Mobile-App: Log-id=934
+15:20:59 hejo003 Helen Jörnås DELETE data from tables `temp_session` on conditions username LIKE hejo003 #Mobile-App: Log-id=935
+15:20:59 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 15:20:59) on conditions username = hejo003 #Mobile-App: Log-id=935
+15:20:59 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 15:20:59) on conditions username = hejo003 AND company_id = 20 #Mobile-App: Log-id=935
+15:32:41 emja001 Emilia Jacobsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( emja001, 90.230.216.234, Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Mobile/15E148 Safari/604.1 ) => {inserted_id = 936}
+15:32:41 emja001 Emilia Jacobsson DELETE data from tables `temp_session` on conditions username LIKE emja001
+15:32:41 emja001 Emilia Jacobsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 15:32:41) on conditions username = emja001
+15:32:41 emja001 Emilia Jacobsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 15:32:41) on conditions username = emja001 AND company_id = 20
+15:32:42 emja001 Emilia Jacobsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (emja001) on conditions session_id = e715cf802a4651e3582dafc18a1bc157
+15:41:04 elbe006 Elin Berntsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = elbe006 AND company_id = 20
+15:41:04 elbe006 Elin Berntsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( elbe006, 158.174.54.90, okhttp/3.9.1 ) => {inserted_id = 937}
+15:41:04 elbe006 Elin Berntsson DELETE data from tables `temp_session` on conditions username LIKE elbe006
+15:41:04 elbe006 Elin Berntsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 15:41:04) on conditions username = elbe006
+15:41:04 elbe006 Elin Berntsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 15:41:04) on conditions username = elbe006 AND company_id = 20
+15:41:16 elbe006 Elin Berntsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = elbe006 AND company_id = 20
+15:41:16 elbe006 Elin Berntsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( elbe006, 158.174.54.90, okhttp/3.9.1 ) => {inserted_id = 938}
+15:41:16 elbe006 Elin Berntsson DELETE data from tables `temp_session` on conditions username LIKE elbe006
+15:41:16 elbe006 Elin Berntsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 15:41:16) on conditions username = elbe006
+15:41:16 elbe006 Elin Berntsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 15:41:16) on conditions username = elbe006 AND company_id = 20
+15:41:25 elbe006 Elin Berntsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = elbe006 AND company_id = 20 #Mobile-App: Log-id=938
+15:41:25 elbe006 Elin Berntsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( elbe006, 158.174.54.90, okhttp/3.9.1 ) => {inserted_id = 939} #Mobile-App: Log-id=938
+15:41:25 elbe006 Elin Berntsson DELETE data from tables `temp_session` on conditions username LIKE elbe006 #Mobile-App: Log-id=939
+15:41:25 elbe006 Elin Berntsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 15:41:25) on conditions username = elbe006 #Mobile-App: Log-id=939
+15:41:26 elbe006 Elin Berntsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 15:41:25) on conditions username = elbe006 AND company_id = 20 #Mobile-App: Log-id=939
+15:56:50 biwa003 Birgitta Wåhlander UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (biwa003) on conditions session_id = 7e2bf6e3fb6a399a02759006528bcef1
+16:00:26 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = hejo003 AND company_id = 20
+16:00:26 hejo003 Helen Jörnås INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( hejo003, 90.224.82.244, okhttp/3.9.1 ) => {inserted_id = 940}
+16:00:26 hejo003 Helen Jörnås DELETE data from tables `temp_session` on conditions username LIKE hejo003
+16:00:26 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 16:00:26) on conditions username = hejo003
+16:00:26 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 16:00:26) on conditions username = hejo003 AND company_id = 20
+16:00:38 biwa003 Birgitta Wåhlander UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (biwa003) on conditions session_id = 7e2bf6e3fb6a399a02759006528bcef1
+16:28:37 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = hejo003 AND company_id = 20 #Mobile-App: Log-id=940
+16:28:37 hejo003 Helen Jörnås INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( hejo003, 90.224.82.244, okhttp/3.9.1 ) => {inserted_id = 941} #Mobile-App: Log-id=940
+16:28:37 hejo003 Helen Jörnås DELETE data from tables `temp_session` on conditions username LIKE hejo003 #Mobile-App: Log-id=941
+16:28:37 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 16:28:37) on conditions username = hejo003 #Mobile-App: Log-id=941
+16:28:38 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 16:28:37) on conditions username = hejo003 AND company_id = 20 #Mobile-App: Log-id=941
+17:42:33 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = hejo003 AND company_id = 20
+17:42:33 hejo003 Helen Jörnås INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( hejo003, 90.224.82.244, okhttp/3.9.1 ) => {inserted_id = 942}
+17:42:33 hejo003 Helen Jörnås DELETE data from tables `temp_session` on conditions username LIKE hejo003
+17:42:33 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 17:42:33) on conditions username = hejo003
+17:42:33 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 17:42:33) on conditions username = hejo003 AND company_id = 20
+18:31:09 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = hejo003 AND company_id = 20
+18:31:09 hejo003 Helen Jörnås INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( hejo003, 90.224.82.244, okhttp/3.9.1 ) => {inserted_id = 943}
+18:31:09 hejo003 Helen Jörnås DELETE data from tables `temp_session` on conditions username LIKE hejo003
+18:31:09 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 18:31:09) on conditions username = hejo003
+18:31:09 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 18:31:09) on conditions username = hejo003 AND company_id = 20
+18:49:30 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = hejo003 AND company_id = 20 #Mobile-App: Log-id=943
+18:49:30 hejo003 Helen Jörnås INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( hejo003, 90.224.82.244, okhttp/3.9.1 ) => {inserted_id = 944} #Mobile-App: Log-id=943
+18:49:30 hejo003 Helen Jörnås DELETE data from tables `temp_session` on conditions username LIKE hejo003 #Mobile-App: Log-id=944
+18:49:30 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 18:49:30) on conditions username = hejo003 #Mobile-App: Log-id=944
+18:49:30 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 18:49:30) on conditions username = hejo003 AND company_id = 20 #Mobile-App: Log-id=944
+19:16:17 emja001 Emilia Jacobsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( emja001, 83.209.27.1, Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Mobile/15E148 Safari/604.1 ) => {inserted_id = 945}
+19:16:17 emja001 Emilia Jacobsson DELETE data from tables `temp_session` on conditions username LIKE emja001
+19:16:17 emja001 Emilia Jacobsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 19:16:17) on conditions username = emja001
+19:16:17 emja001 Emilia Jacobsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 19:16:17) on conditions username = emja001 AND company_id = 20
+19:16:18 emja001 Emilia Jacobsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (emja001) on conditions session_id = 2e4d617afde86a3dc14f3fe48abfd214
+19:47:44 saan012 Sara Andersson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = saan012 AND company_id = 20
+19:47:44 saan012 Sara Andersson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( saan012, 91.237.95.187, CirrusM/3 CFNetwork/978.0.7 Darwin/18.5.0 ) => {inserted_id = 946}
+19:47:44 saan012 Sara Andersson DELETE data from tables `temp_session` on conditions username LIKE saan012
+19:47:45 saan012 Sara Andersson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 19:47:44) on conditions username = saan012
+19:47:45 saan012 Sara Andersson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 19:47:44) on conditions username = saan012 AND company_id = 20
+19:47:45 saan012 Sara Andersson UPDATING data to tables `time2vie_cirruscommon`.`push_notify_tokens` fields ( user_id, updated_date, error ) values (saan012, 2019-05-27 19:47:45, 0) on conditions fcm_token = c638hw8bP0A:APA91bGXtc0eT7hRySjuWW3sBCyyZeDmEs3-vkMQTeleXb3TqJdkAZTuxNR9gW9So_P79godq1DH9zUWQgsipBixf6IxsNajjCHOLGFjfqvU5VEPxLNtu7aeTZHPoupIpAmNfhYhbXVt AND device_id = 126AA663-FD1E-4DF5-99CB-ECB189CAD3C5 #Mobile-App: Log-id=946
+20:10:31 mygu002 My Gustafsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( mygu002, 83.209.27.1, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36 ) => {inserted_id = 947}
+20:10:31 mygu002 My Gustafsson DELETE data from tables `temp_session` on conditions username LIKE mygu002
+20:10:31 mygu002 My Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 20:10:31) on conditions username = mygu002
+20:10:31 mygu002 My Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 20:10:31) on conditions username = mygu002 AND company_id = 20
+20:10:32 mygu002 My Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (mygu002) on conditions session_id = 649148de73b83f4a796f8ae4d9d7fec2
+20:16:28 mygu002 My Gustafsson UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (mygu001, tiha001, 2019-07-19, 7.30, 24, 1, 0, 1, ) on conditions id = 1893
+20:53:44 emja001 Emilia Jacobsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( emja001, 83.185.84.200, Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Mobile/15E148 Safari/604.1 ) => {inserted_id = 948}
+20:53:44 emja001 Emilia Jacobsson DELETE data from tables `temp_session` on conditions username LIKE emja001
+20:53:44 emja001 Emilia Jacobsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 20:53:44) on conditions username = emja001
+20:53:44 emja001 Emilia Jacobsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 20:53:44) on conditions username = emja001 AND company_id = 20
+20:53:44 emja001 Emilia Jacobsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (emja001) on conditions session_id = a2724cd0827e86810fc8bfb4fe2d1f3e
+21:02:55 mygu002 My Gustafsson UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (mygu001, tiha001, 2019-07-20, 0.00, 6.00, 1, 3, 1, ) on conditions id = 1894
+21:07:15 cagu001 Carina Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = cagu001 AND company_id = 20
+21:07:15 cagu001 Carina Gustafsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( cagu001, 176.10.245.4, okhttp/3.9.1 ) => {inserted_id = 949}
+21:07:15 cagu001 Carina Gustafsson DELETE data from tables `temp_session` on conditions username LIKE cagu001
+21:07:15 cagu001 Carina Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 21:07:15) on conditions username = cagu001
+21:07:15 cagu001 Carina Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 21:07:15) on conditions username = cagu001 AND company_id = 20
+21:07:38 cagu001 Carina Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = cagu001 AND company_id = 20 #Mobile-App: Log-id=949
+21:07:38 cagu001 Carina Gustafsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( cagu001, 176.10.245.4, okhttp/3.9.1 ) => {inserted_id = 950} #Mobile-App: Log-id=949
+21:07:38 cagu001 Carina Gustafsson DELETE data from tables `temp_session` on conditions username LIKE cagu001 #Mobile-App: Log-id=950
+21:07:38 cagu001 Carina Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 21:07:38) on conditions username = cagu001 #Mobile-App: Log-id=950
+21:07:38 cagu001 Carina Gustafsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 21:07:38) on conditions username = cagu001 AND company_id = 20 #Mobile-App: Log-id=950
+21:08:19 mygu002 My Gustafsson UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (mygu001, tiha001, 2019-07-20, 6.00, 9.00, 1, 0, 1, ) on conditions id = 1895
+21:33:41 gaan001 Gabriel Andersson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gaan001 AND company_id = 20
+21:33:41 gaan001 Gabriel Andersson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gaan001, 217.73.108.115, CirrusM/3 CFNetwork/978.0.7 Darwin/18.6.0 ) => {inserted_id = 951}
+21:33:41 gaan001 Gabriel Andersson DELETE data from tables `temp_session` on conditions username LIKE gaan001
+21:33:41 gaan001 Gabriel Andersson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 21:33:41) on conditions username = gaan001
+21:33:41 gaan001 Gabriel Andersson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 21:33:41) on conditions username = gaan001 AND company_id = 20
+21:33:42 gaan001 Gabriel Andersson UPDATING data to tables `time2vie_cirruscommon`.`push_notify_tokens` fields ( user_id, updated_date, error ) values (gaan001, 2019-05-27 21:33:42, 0) on conditions fcm_token = dOzW0JPxlDQ:APA91bE1hQGEcunVCf8zufNPSKH-caUG07HkDufrn401pdtQwjnw2XOOXeYa4Gs7E3LI3Mp3T2dCRAWNclU5hS1zukRn-fwfGZsPEPUlHumIqyS6yVMXc_kHKWXWrRo0rFJU7oMCqGUS AND device_id = 6C07AAD5-34B3-43CB-BC33-221D3E989EA9 #Mobile-App: Log-id=951
+21:34:15 hebe001 Helen Bengtsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( hebe001, 193.234.72.96, Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36 ) => {inserted_id = 952}
+21:34:15 hebe001 Helen Bengtsson DELETE data from tables `temp_session` on conditions username LIKE hebe001
+21:34:15 hebe001 Helen Bengtsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 21:34:15) on conditions username = hebe001
+21:34:15 hebe001 Helen Bengtsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 21:34:15) on conditions username = hebe001 AND company_id = 20
+21:34:16 hebe001 Helen Bengtsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (hebe001) on conditions session_id = e3097c3c69a908409ae30d802a3c839b
+21:35:39 hebe001 Helen Bengtsson UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (tibe002, vigu002, 2019-05-27, 0.00, 6.30, 1, 0, 1, ) on conditions id = 1049
+21:36:41 hebe001 Helen Bengtsson DELETE data from tables `temp_session` on conditions username LIKE hebe001
+21:36:41 hebe001 Helen Bengtsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2019-05-27 21:36:41) on conditions username = hebe001
+21:36:41 hebe001 Helen Bengtsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 21:36:41) on conditions username = hebe001 AND company_id = 20
+21:36:41   UPDATING data to tables `log_login` fields ( logout_time ) values (2019-05-27:19:36:41) on conditions id = 952 AND username = hebe001
+22:02:18 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = hejo003 AND company_id = 20
+22:02:18 hejo003 Helen Jörnås INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( hejo003, 90.224.82.244, okhttp/3.9.1 ) => {inserted_id = 953}
+22:02:18 hejo003 Helen Jörnås DELETE data from tables `temp_session` on conditions username LIKE hejo003
+22:02:18 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 22:02:18) on conditions username = hejo003
+22:02:18 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 22:02:18) on conditions username = hejo003 AND company_id = 20
+22:23:18 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = hejo003 AND company_id = 20 #Mobile-App: Log-id=953
+22:23:18 hejo003 Helen Jörnås INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( hejo003, 90.224.82.244, okhttp/3.9.1 ) => {inserted_id = 954} #Mobile-App: Log-id=953
+22:23:18 hejo003 Helen Jörnås DELETE data from tables `temp_session` on conditions username LIKE hejo003 #Mobile-App: Log-id=954
+22:23:19 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 22:23:18) on conditions username = hejo003 #Mobile-App: Log-id=954
+22:23:19 hejo003 Helen Jörnås UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 22:23:18) on conditions username = hejo003 AND company_id = 20 #Mobile-App: Log-id=954
+22:27:05 loli005 Lovisa Lian INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( loli005, 83.248.214.152, Mozilla/5.0 (iPhone; CPU iPhone OS 12_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Mobile/15E148 Safari/604.1 ) => {inserted_id = 955}
+22:27:05 loli005 Lovisa Lian DELETE data from tables `temp_session` on conditions username LIKE loli005
+22:27:05 loli005 Lovisa Lian UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 22:27:05) on conditions username = loli005
+22:27:05 loli005 Lovisa Lian UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 22:27:05) on conditions username = loli005 AND company_id = 20
+22:27:05 loli005 Lovisa Lian UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (loli005) on conditions session_id = 2ad1dadba55697ae0bca61773cc6cebd
+22:27:39 loli005 Lovisa Lian UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (loli005) on conditions session_id = 2ad1dadba55697ae0bca61773cc6cebd
+22:27:45 loli005 Lovisa Lian UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (loli005) on conditions session_id = 2ad1dadba55697ae0bca61773cc6cebd
+22:27:55 loli005 Lovisa Lian UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (loli005) on conditions session_id = 2ad1dadba55697ae0bca61773cc6cebd
+22:28:01 loli005 Lovisa Lian UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (loli005) on conditions session_id = 2ad1dadba55697ae0bca61773cc6cebd
+22:28:13 loli005 Lovisa Lian UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (loli005) on conditions session_id = 2ad1dadba55697ae0bca61773cc6cebd
+22:28:16 loli005 Lovisa Lian UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (loli005) on conditions session_id = 2ad1dadba55697ae0bca61773cc6cebd
+22:28:21 loli005 Lovisa Lian INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( loli005, 83.248.214.152, Mozilla/5.0 (iPhone; CPU iPhone OS 12_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Mobile/15E148 Safari/604.1 ) => {inserted_id = 956}
+22:28:21 loli005 Lovisa Lian DELETE data from tables `temp_session` on conditions username LIKE loli005
+22:28:21 loli005 Lovisa Lian UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-05-27 22:28:21) on conditions username = loli005
+22:28:21 loli005 Lovisa Lian UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-05-27 22:28:21) on conditions username = loli005 AND company_id = 20
+22:28:22 loli005 Lovisa Lian UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (loli005) on conditions session_id = 2ad1dadba55697ae0bca61773cc6cebd
+22:28:25 loli005 Lovisa Lian UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (loli005) on conditions session_id = 2ad1dadba55697ae0bca61773cc6cebd
+22:28:30 loli005 Lovisa Lian UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (loli005) on conditions session_id = 2ad1dadba55697ae0bca61773cc6cebd

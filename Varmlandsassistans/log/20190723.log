@@ -1,0 +1,5 @@
+14:05:35 dodo001 dodo001 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 112.133.237.12, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36 ) => {inserted_id = 7876}
+14:05:35 dodo001 dodo001 DELETE data from tables `temp_session` on conditions username LIKE dodo001
+14:05:35 dodo001 dodo001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-07-23 14:05:35) on conditions username = dodo001
+14:05:35 dodo001 dodo001 UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-07-23 14:05:35) on conditions username = dodo001 AND company_id = 21
+14:05:37 dodo001 dodo001 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = d6253a31e3fc1ea32c8749f0be9c94e8

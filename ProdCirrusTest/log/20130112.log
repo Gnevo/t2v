@@ -1,0 +1,11 @@
+09:12:21 gine001 Gilad Nevo INSERTING data into tables `log_login`fields username, ip, browser values ( gine001, 85.227.159.196, Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; NP06) )
+09:12:21 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = gine001
+09:16:25 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 2 on conditions id = 1381
+09:16:25 gine001 Gilad Nevo INSERTING data into tables `timetable`fields customer, date, time_from, time_to, type, fkkn, status, comment, alloc_emp, relation_id values ( hesv001, 2013-01-07, 7.15, 8.45, 0, 1, 0, , gine001, 1381 )
+09:16:25 gine001 Gilad Nevo INSERTING data into tables `leave`fields group_id, employee, date, time_from, time_to, type, comment, appr_emp, status values ( 1, jata001, 2013-01-07, 7.15, 8.45, 1, , gine001, 0 )
+09:16:49 gine001 Gilad Nevo INSERTING data into tables `mc_leave`fields leave_id, leave_status, read_users values ( 1, 0, gine001 )
+09:16:55 gine001 Gilad Nevo UPDATING data to tables `leave`fields Array values 1, gine001, 2013-01-12 on conditions group_id = 1
+09:17:27 gine001 Gilad Nevo DELETE data from tables `leave` on conditions id = 1
+09:17:27 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 1 on conditions (id IN ( '1381' )) AND customer is NOT NULL AND customer != 
+09:17:27 gine001 Gilad Nevo UPDATING data to tables `timetable`fields Array values 0 on conditions (id IN ( '1381' )) AND (customer is NULL OR customer = )
+09:17:27 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions relation_id = 1381

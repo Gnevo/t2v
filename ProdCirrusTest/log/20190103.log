@@ -1,0 +1,14 @@
+06:09:10 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 112.133.248.113, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36 ) => {inserted_id = 7569}
+06:09:10 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+06:09:11 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-01-03 06:09:10) on conditions username = dodo001
+06:09:11 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-01-03 06:09:10) on conditions username = dodo001 AND company_id = 6
+06:09:12 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = 577520d247428594ff9ae9b9db495d31
+08:14:34 thne001 Theodor Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( thne001, 92.35.252.137, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36 ) => {inserted_id = 7570}
+08:14:34 thne001 Theodor Nevo DELETE data from tables `temp_session` on conditions username LIKE thne001
+08:14:34 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-01-03 08:14:34) on conditions username = thne001
+08:14:34 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-01-03 08:14:34) on conditions username = thne001 AND company_id = 6
+08:14:36 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = 1416eb1ffb77811bae73b121f83671fa
+08:17:09 thne001 Theodor Nevo DELETE data from tables `temp_session` on conditions username LIKE thne001
+08:17:09 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2019-01-03 08:17:09) on conditions username = thne001
+08:17:09 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-01-03 08:17:09) on conditions username = thne001 AND company_id = 6
+08:17:09   UPDATING data to tables `log_login` fields ( logout_time ) values (2019-01-03:07:17:09) on conditions id = 7570 AND username = thne001

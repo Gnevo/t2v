@@ -1,0 +1,38 @@
+13:08:46 rokl001 rokl001 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rokl001, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36 ) => {inserted_id = 1842}
+13:08:46 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = rokl001
+13:08:46 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( error ) values (0) on conditions username = rokl001
+13:09:06 rokl001 rokl001 UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 5580
+13:09:06 rokl001 rokl001 INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( anst007, 2014-09-26, 15.00, 20.00, 0, 1, , rokl001, 5580, 0 ) => {inserted_id = 5768}
+13:09:17 rokl001 rokl001 UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 5581
+13:09:17 rokl001 rokl001 INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( anst007, 2014-09-27, 15.00, 20.00, 0, 1, , rokl001, 5581, 0 ) => {inserted_id = 5769}
+13:09:31 rokl001 rokl001 UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 5564
+13:09:31 rokl001 rokl001 INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( anst007, 2014-08-21, 8.00, 17.00, 3, 1, , rokl001, 5564, 0 ) => {inserted_id = 5770}
+13:09:50 rokl001 rokl001 UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 5576
+13:09:50 rokl001 rokl001 INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( anst007, 2014-09-16, 8.00, 20.00, 0, 1, , rokl001, 5576, 0 ) => {inserted_id = 5771}
+13:10:14 rokl001 rokl001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , stal001, 1, 0, 2014-10-08, 18.00, 24, 0, , rokl001,  ) => {inserted_id = 5772}
+13:10:14 rokl001 rokl001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , stal001, 1, 0, 2014-10-09, 0, 5.00, 0, , rokl001,  ) => {inserted_id = 5773}
+13:10:17 rokl001 rokl001 UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, jata001, rokl001) on conditions id = 5772
+13:10:32 rokl001 rokl001 UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 5772
+13:10:32 rokl001 rokl001 INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( stal001, 2014-10-08, 18.00, 24.00, 0, 1, , rokl001, 5772, 0 ) => {inserted_id = 5774}
+13:11:21 rokl001 rokl001 UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, jata001, rokl001) on conditions id = 5773
+14:20:28 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 223.30.129.234, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/37.0.2062.120 Chrome/37.0.2062.120 Safari/537.36 ) => {inserted_id = 1843}
+14:20:28 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+14:21:52 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , hesv001, 2, 3, 2014-09-18, 0, 6, 0, , gine001,  ) => {inserted_id = 5775}
+14:21:58 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( type ) values (9) on conditions id = 5775
+14:22:05 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, lima003, gine001) on conditions id = 5775
+14:22:18 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , hesv001, 2, 3, 2014-09-19, 20, 20.25, 0, , gine001,  ) => {inserted_id = 5776}
+14:22:31 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( type ) values (8) on conditions id = 5776
+14:22:45 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, lima003, gine001) on conditions id = 5776
+14:23:03 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , hesv001, 2, 0, 2014-09-16, 17, 18, 0, , gine001,  ) => {inserted_id = 5777}
+14:23:08 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, lima003, gine001) on conditions id = 5777
+14:23:18 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( type ) values (8) on conditions id = 5777
+14:26:51   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+14:26:51   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-10-01:12:26:51) on conditions id = 1843 AND username = gine001
+14:45:16 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 223.30.129.234, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/37.0.2062.120 Chrome/37.0.2062.120 Safari/537.36 ) => {inserted_id = 1844}
+14:45:16 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+15:45:27 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 223.30.129.234, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/37.0.2062.120 Chrome/37.0.2062.120 Safari/537.36 ) => {inserted_id = 1845}
+15:45:27 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+16:43:22 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 46.194.92.101, Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0 ) => {inserted_id = 1846}
+16:43:22 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+16:44:19 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 46.194.92.101, Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0 ) => {inserted_id = 1847}
+16:44:19 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001

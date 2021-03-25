@@ -1,0 +1,21 @@
+10:52:02 boek001 Bo Ek INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( boek001, 90.227.122.3, Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko ) => {inserted_id = 7528}
+10:52:02 boek001 Bo Ek DELETE data from tables `temp_session` on conditions username LIKE boek001
+10:52:02 boek001 Bo Ek UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-12-11 10:52:02) on conditions username = boek001
+10:52:02 boek001 Bo Ek UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-12-11 10:52:02) on conditions username = boek001 AND company_id = 6
+10:52:03 boek001 Bo Ek UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (boek001) on conditions session_id = 72c5c909063ff9fe489cb16053c52542
+11:15:19 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+11:15:19 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 90.227.122.3, Mozilla/5.0 (Android 6.0.1; Mobile; rv:63.0) Gecko/63.0 Firefox/63.0 ) => {inserted_id = 7529}
+11:15:19 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+11:15:19 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-12-11 11:15:19) on conditions username = gine001
+11:15:19 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-12-11 11:15:19) on conditions username = gine001 AND company_id = 6
+11:18:33 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirruscommon`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, category_id, priority, ticket_type, status, hidden ) values ( 1918, gine001, <p>Se bifogad bild av en MacBook inloggad på denna kund. </p><p>Vi har inga problem eller kan inte heller återskapa det du upplever. </p><p>Testa starta om datorn eller rensa Safari cache minnen. <br></p>, 1, 2, 1, 3, 0 ) => {inserted_id = 3460}
+11:18:33 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`support_ticket_answers` fields ( attachment ) values (1544523513_IMG_20181211_111108.jpg) on conditions id = 3460
+16:29:05 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 90.227.122.3, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0 ) => {inserted_id = 7530}
+16:29:05 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+16:29:05 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-12-11 16:29:05) on conditions username = gine001
+16:29:05 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-12-11 16:29:05) on conditions username = gine001 AND company_id = 6
+16:29:06 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = d5c497eb4baa934248ba15f86e328cad
+16:29:22 boek001 Bo Ek UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (boek001) on conditions session_id = 72c5c909063ff9fe489cb16053c52542
+16:30:40 boek001 Bo Ek UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (boek001) on conditions session_id = 72c5c909063ff9fe489cb16053c52542
+16:30:53 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = d5c497eb4baa934248ba15f86e328cad
+16:32:23 boek001 Bo Ek UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (boek001) on conditions session_id = 72c5c909063ff9fe489cb16053c52542

@@ -1,0 +1,33 @@
+07:55:43 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 223.30.129.234, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/41.0.2272.76 Chrome/41.0.2272.76 Safari/537.36 ) => {inserted_id = 4546}
+07:55:43 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+07:55:43 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-02-04 06:55:43) on conditions username = dodo001
+07:55:43 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = j5p5l1pbnfim9vnag9t4jij8p3
+07:56:07 dodo001 Admin Cirrus INSERTING data into tables `email` fields ( `from`, `to`, subject, message ) values ( dodo001, Gilad Nevo<gilad.nevo@time2view.se>, , Test shaju, test ) => {inserted_id = 7}
+08:20:28 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+08:20:28 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2016-02-04 07:20:28) on conditions username = dodo001
+08:20:28   UPDATING data to tables `log_login` fields ( logout_time ) values (2016-02-04:07:20:28) on conditions id = 4546 AND username = dodo001
+08:20:33 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 223.30.129.234, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/41.0.2272.76 Chrome/41.0.2272.76 Safari/537.36 ) => {inserted_id = 4547}
+08:20:33 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+08:20:33 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-02-04 07:20:33) on conditions username = dodo001
+08:20:33 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = ug12pkr176es11o9g4glci6qj3
+08:20:37 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+08:20:37 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2016-02-04 07:20:37) on conditions username = dodo001
+08:20:37   UPDATING data to tables `log_login` fields ( logout_time ) values (2016-02-04:07:20:37) on conditions id = 4547 AND username = dodo001
+08:20:47 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+08:20:47 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 223.30.129.234, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/41.0.2272.76 Chrome/41.0.2272.76 Safari/537.36 ) => {inserted_id = 4548}
+08:20:47 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+08:20:47 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-02-04 07:20:47) on conditions username = gine001
+08:20:48 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = jvdevc69ib9kt0g8q93g75m815
+09:26:13 rokl001  DELETE data from tables `temp_session` on conditions username LIKE rokl001
+09:26:13 rokl001 rokl001 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rokl001, 95.195.141.92, Mozilla/5.0 (iPhone; CPU iPhone OS 9_2_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13D15 Safari/601.1 ) => {inserted_id = 4549}
+09:26:13 rokl001 rokl001 DELETE data from tables `temp_session` on conditions username LIKE rokl001
+09:26:13 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-02-04 08:26:13) on conditions username = rokl001
+09:26:13 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (rokl001) on conditions session_id = 537sfqsseeio99qs96qodjihr6
+13:24:50 dodo001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 115.252.86.10, CirrusM/1 CFNetwork/758.2.8 Darwin/15.0.0 ) => {inserted_id = 4551} #Mobile-App: Log-id=4550
+13:25:04 dodo001  UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,dodo001) on conditions leave_id = 110 #Mobile-App: Log-id=4551
+13:25:04 dodo001  UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,dodo001) on conditions leave_id = 109 #Mobile-App: Log-id=4551
+13:25:04 dodo001  UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,jata001,saan004,dodo001) on conditions leave_id = 108 #Mobile-App: Log-id=4551
+13:25:49 dodo001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 115.252.86.10, CirrusM/1 CFNetwork/758.2.8 Darwin/15.0.0 ) => {inserted_id = 4552} #Mobile-App: Log-id=4551
+13:25:56 dodo001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 115.252.86.10, CirrusM/1 CFNetwork/758.2.8 Darwin/15.0.0 ) => {inserted_id = 4553} #Mobile-App: Log-id=4552
+13:26:22 dodo001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 115.252.86.10, CirrusM/1 CFNetwork/758.2.8 Darwin/15.0.0 ) => {inserted_id = 4554} #Mobile-App: Log-id=4553
+13:27:50 dodo001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 115.252.86.10, CirrusM/1 CFNetwork/758.2.8 Darwin/15.0.0 ) => {inserted_id = 4555} #Mobile-App: Log-id=4554

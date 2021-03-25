@@ -1,0 +1,14 @@
+10:28:09 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (1) on conditions username = gine001 AND company_id = 6
+10:28:19 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+10:28:19 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 217.214.151.20, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:75.0) Gecko/20100101 Firefox/75.0 ) => {inserted_id = 11086}
+10:28:19 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+10:28:19 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-04-22 10:28:19) on conditions username = gine001
+10:28:19 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-04-22 10:28:19) on conditions username = gine001 AND company_id = 6
+10:28:21 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 36f9c9b1aeb9f6474692b8848a61f468
+10:30:42 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 36f9c9b1aeb9f6474692b8848a61f468
+10:36:28 gine001 Gilad Nevo UPDATING data to tables `employee` fields ( language ) values (en) on conditions username = gine001
+10:39:45 gine001 Gilad Nevo INSERTING data into tables `employee_non_preferred_timings` fields ( group_id, employee, date_from, date_to, day, time_from, time_to ) values ( 7, adal001, 2020-03-01, 2020-03-31, 1, 0, 7 ) => {inserted_id = 27}
+10:40:20 gine001 Gilad Nevo DELETE data from tables `employee_non_preferred_timings` on conditions group_id = 7
+10:40:20 gine001 Gilad Nevo INSERTING data into tables `employee_non_preferred_timings` fields ( group_id, employee, date_from, date_to, day, time_from, time_to ) values ( 7, adal001, 2020-03-01, 2020-03-31, 1, 0, 7 ), ( 7, adal001, 2020-03-01, 2020-03-31, 2, 0, 7 ) => {inserted_id = 28}
+10:41:01 gine001 Gilad Nevo DELETE data from tables `employee_non_preferred_timings` on conditions group_id = 3
+10:41:01 gine001 Gilad Nevo INSERTING data into tables `employee_non_preferred_timings` fields ( group_id, employee, date_from, date_to, day, time_from, time_to ) values ( 8, boek001, 2020-03-01, 2020-04-30, 3, 19, 22.3 ), ( 8, boek001, 2020-03-01, 2020-04-30, 4, 19, 22.3 ) => {inserted_id = 30}

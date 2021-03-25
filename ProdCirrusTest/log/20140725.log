@@ -1,0 +1,58 @@
+10:10:08 than001 Thomas Andersson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( than001, 223.30.129.234, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/34.0.1847.116 Chrome/34.0.1847.116 Safari/537.36 ) => {inserted_id = 1681}
+10:12:13 than001 Thomas Andersson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( role, mobile ) values (1, ) on conditions username = than001
+10:12:13 than001 Thomas Andersson UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day, remaining_sem_leave, sem_leave_todate, leave_in_advance ) values (206, 19, 6605062238, Thomas, Andersson, 1, Kryptonit, zion, 565656, 33956585, , , 2013-05-01, #ADC09A, 1, , 10.00, 0, 10.00, , , ) on conditions username = than001
+10:13:41 than001 Thomas Andersson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( mobile, social_security ) values (46704434964, 4112020211) on conditions username = stal001
+10:13:41 than001 Thomas Andersson UPDATING data to tables `customer` fields ( code, century, social_security, first_name, last_name, address, city, post, phone, mobile, email, date, status, date_inactive, fkkn, gender ) values (10202, 19, 4112020211, Stan, Alone, Manhatan, London, 221 23, , 46704434964, gilad.nevo@time2view.se, 2014-01-23, 1, , 1, 1) on conditions username = stal001
+10:13:41 than001 Thomas Andersson DELETE data from tables `team` on conditions customer = stal001
+10:13:41 than001 Thomas Andersson INSERTING data into tables `team` fields ( customer, employee, role ) values ( stal001, gine001, 3 ) => {inserted_id = 0}
+10:13:41 than001 Thomas Andersson INSERTING data into tables `team` fields ( customer, employee, role ) values ( stal001, jata001, 3 ) => {inserted_id = 0}
+10:13:41 than001 Thomas Andersson UPDATING data to tables `customer_guardian` fields ( first_name, last_name, mobile, email, address, first_name2, last_name2, mobile2, email2, address2 ) values (Gilad, Nevo, 046-704 43 49 64, , , , , , , ) on conditions customer = stal001
+11:12:37 kaek001 Kalle Ekholm INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( kaek001, 223.30.129.234, Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:22.0) Gecko/20100101 Firefox/22.0 ) => {inserted_id = 1682}
+11:12:37 kaek001 Kalle Ekholm UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = kaek001
+11:13:47 kaek001 Kalle Ekholm INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp, comment ) values ( jata001, stal001, 1, 0, 2014-07-24, 0, 2.35, 1, kaek001,  ) => {inserted_id = 5426}
+11:13:55 kaek001 Kalle Ekholm INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp, comment ) values ( , stal001, 1, 0, 2014-07-24, 14.5, 15, 0, kaek001,  ) => {inserted_id = 5427}
+11:14:15 kaek001 Kalle Ekholm INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp, comment ) values ( , stal001, 1, 0, 2014-07-25, 0, 2.35, 0, kaek001,  ) => {inserted_id = 5428}
+11:14:15 kaek001 Kalle Ekholm INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp, comment ) values ( , stal001, 1, 0, 2014-07-26, 0, 2.35, 0, kaek001,  ) => {inserted_id = 5429}
+11:14:15 kaek001 Kalle Ekholm INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp, comment ) values ( , stal001, 1, 0, 2014-08-08, 0, 2.35, 0, kaek001,  ) => {inserted_id = 5430}
+11:14:15 kaek001 Kalle Ekholm INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp, comment ) values ( , stal001, 1, 0, 2014-08-09, 0, 2.35, 0, kaek001,  ) => {inserted_id = 5431}
+11:14:15 kaek001 Kalle Ekholm INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp, comment ) values ( , stal001, 1, 0, 2014-08-22, 0, 2.35, 0, kaek001,  ) => {inserted_id = 5432}
+11:14:15 kaek001 Kalle Ekholm INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp, comment ) values ( , stal001, 1, 0, 2014-08-23, 0, 2.35, 0, kaek001,  ) => {inserted_id = 5433}
+11:14:15 kaek001 Kalle Ekholm INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp, comment ) values ( , stal001, 1, 0, 2014-09-05, 0, 2.35, 0, kaek001,  ) => {inserted_id = 5434}
+11:14:15 kaek001 Kalle Ekholm INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp, comment ) values ( , stal001, 1, 0, 2014-09-06, 0, 2.35, 0, kaek001,  ) => {inserted_id = 5435}
+11:14:15 kaek001 Kalle Ekholm INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp, comment ) values ( , stal001, 1, 0, 2014-09-19, 0, 2.35, 0, kaek001,  ) => {inserted_id = 5436}
+11:14:15 kaek001 Kalle Ekholm INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp, comment ) values ( , stal001, 1, 0, 2014-09-20, 0, 2.35, 0, kaek001,  ) => {inserted_id = 5437}
+11:32:13 kaek001 Kalle Ekholm UPDATING data to tables `privileges_mc` fields ( leave_notification, leave_approval, leave_rejection, leave_edit, notes, cirrus_mail, external_mail, sms, notes_approval, notes_rejection, notes_attchment, document_archive ) values (, , , , 1, , , , , , , 1) on conditions employee = anfr005
+11:32:22 kaek001 Kalle Ekholm UPDATING data to tables `privileges_mc` fields ( leave_notification, leave_approval, leave_rejection, leave_edit, notes, cirrus_mail, external_mail, sms, notes_approval, notes_rejection, notes_attchment, document_archive ) values (, , , , 1, , , , , , , ) on conditions employee = anfr005
+11:57:10 kaek001 Kalle Ekholm INSERTING data into tables `employee_attachment` fields ( employee, documents ) values ( joef001, asd.doc ) => {inserted_id = 1}
+11:57:18 kaek001 Kalle Ekholm DELETE data from tables `employee_attachment` on conditions id = 1
+12:57:19 kaek001 Kalle Ekholm INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( kaek001, 223.30.129.234, Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0 ) => {inserted_id = 1683}
+12:57:19 kaek001 Kalle Ekholm UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = kaek001
+12:57:45 kaek001 Kalle Ekholm DELETE data from tables `timetable` on conditions id = 5426
+12:57:45 kaek001 Kalle Ekholm DELETE data from tables `timetable` on conditions id = 5427
+12:57:45 kaek001 Kalle Ekholm DELETE data from tables `timetable` on conditions id = 5428
+12:57:45 kaek001 Kalle Ekholm DELETE data from tables `timetable` on conditions id = 5429
+12:58:46 kaek001 Kalle Ekholm INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( kaek001, 223.30.129.234, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36 ) => {inserted_id = 1684}
+12:58:46 kaek001 Kalle Ekholm UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = kaek001
+12:59:13 kaek001 Kalle Ekholm DELETE data from tables `timetable` on conditions id = 4559
+12:59:13 kaek001 Kalle Ekholm DELETE data from tables `timetable` on conditions id = 4512
+12:59:13 kaek001 Kalle Ekholm DELETE data from tables `timetable` on conditions id = 4659
+12:59:13 kaek001 Kalle Ekholm DELETE data from tables `timetable` on conditions id = 5419
+12:59:13 kaek001 Kalle Ekholm DELETE data from tables `timetable` on conditions id = 4660
+12:59:13 kaek001 Kalle Ekholm DELETE data from tables `timetable` on conditions id = 4514
+12:59:13 kaek001 Kalle Ekholm DELETE data from tables `timetable` on conditions id = 5420
+12:59:13 kaek001 Kalle Ekholm DELETE data from tables `timetable` on conditions id = 4515
+12:59:13 kaek001 Kalle Ekholm DELETE data from tables `timetable` on conditions id = 4662
+12:59:13 kaek001 Kalle Ekholm DELETE data from tables `timetable` on conditions id = 4516
+12:59:13 kaek001 Kalle Ekholm DELETE data from tables `timetable` on conditions id = 4663
+12:59:13 kaek001 Kalle Ekholm DELETE data from tables `timetable` on conditions id = 4560
+12:59:13 kaek001 Kalle Ekholm DELETE data from tables `timetable` on conditions id = 4561
+12:59:13 kaek001 Kalle Ekholm DELETE data from tables `timetable` on conditions id = 4517
+12:59:13 kaek001 Kalle Ekholm DELETE data from tables `timetable` on conditions id = 4664
+12:59:13 kaek001 Kalle Ekholm DELETE data from tables `timetable` on conditions id = 4518
+12:59:13 kaek001 Kalle Ekholm DELETE data from tables `timetable` on conditions id = 4665
+12:59:13 kaek001 Kalle Ekholm DELETE data from tables `timetable` on conditions id = 4519
+12:59:13 kaek001 Kalle Ekholm DELETE data from tables `timetable` on conditions id = 5421
+12:59:13 kaek001 Kalle Ekholm DELETE data from tables `timetable` on conditions id = 4520
+12:59:13 kaek001 Kalle Ekholm DELETE data from tables `timetable` on conditions id = 4667
+12:59:13 kaek001 Kalle Ekholm DELETE data from tables `timetable` on conditions id = 4521
+12:59:13 kaek001 Kalle Ekholm DELETE data from tables `timetable` on conditions id = 4563

@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+    <label>
+        <key>assigned_slots</key>
+        <value>Belagda arbetspass</value>
+    </label>
+    <label>
+        <key>memory_slots</key>
+        <value>Minnespass</value>
+    </label>
+    <label>
+        <key>click_to_add_new_time_slot</key>
+        <value>Klicka för att lägg till nytt pass</value>
+    </label>
+    <label>
+        <key>customer_list</key>
+        <value>Kundlista - Ej åtgärdade pass t.o.m</value>
+    </label>
+    <label>
+        <key>companies_to_be_assigned</key>
+        <value>Ej åtgärdade pass, Kund</value>
+    </label>
+    <label>
+        <key>workers_to_be_assigned</key>
+        <value>Belagd tid, Anställd</value>
+    </label>
+    <label>
+        <key>workers_on_leave</key>
+        <value>Frånvaro, anställda</value>
+    </label>
+    <label>
+        <key>date</key>
+        <value>Datum </value>
+    </label>
+    <label>
+        <key>select_skill</key>
+        <value>Välj Meriter</value>
+    </label>
+    <label>
+        <key>select_employee</key>
+        <value>Lägg till anställd</value>
+    </label>
+    <label>
+        <key>select_customer</key>
+        <value>Lägg till kund</value>
+    </label>
+    <label>
+        <key>customer</key>
+        <value>Kund</value>
+    </label>
+    <label>
+        <key>employee</key>
+        <value>Assistent</value>
+    </label>
+    <label>
+        <key>slots_allocation</key>
+        <value>Boka pass</value>
+    </label>
+    <label>
+        <key>slots_management</key>
+        <value>Ändra</value>
+    </label>
+    <label>
+        <key>slots_process</key>
+        <value>Hantera</value>
+    </label>
+    <label>
+        <key>vacum _cleaner</key>
+        <value>Dammsugare</value>
+    </label>
+    <label>
+        <key>company_name</key>
+        <value>Företags namn</value>
+    </label>
+    <label>
+        <key>worker_name</key>
+        <value>Anställd namn</value>
+    </label>
+    <label>
+        <key>time_range</key>
+        <value>Tidsintervall</value>
+    </label>
+    <label>
+        <key>to</key>
+        <value>Kopierat till datum:</value>
+    </label>
+    <label>
+        <key>leave_type</key>
+        <value>Frånvaro</value>
+    </label>
+    <label>
+        <key>comments</key>
+        <value>Kommentarer</value>
+    </label>
+    <label>
+        <key>time</key>
+        <value>Tid</value>
+    </label>
+    <label>
+        <key>basic_schedule_week</key>
+        <value>Grundschema vecka</value>
+    </label>
+    <label>
+        <key>basic_schedule_day</key>
+        <value>Grundschema dag</value>
+    </label>
+    <label>
+        <key>copy_slots</key>
+        <value>Kopiera tid</value>
+    </label>
+    <label>
+        <key>delete_slots</key>
+        <value>Radera tid</value>
+    </label>
+    <label>
+        <key>replace_user</key>
+        <value>Ersätt Assistent</value>
+    </label>
+    <label>
+        <key>make_leave</key>
+        <value>Frånvaro</value>
+    </label>
+    <label>
+        <key>with_user</key>
+        <value>Med Ass.</value>
+    </label>
+    <label>
+        <key>without_user</key>
+        <value>Utan Ass.</value>
+    </label>
+    <label>
+        <key>copy_from</key>
+        <value>Kopiera från vecka</value>
+    </label>
+     <label>
+        <key>from_week</key>
+        <value>Från vecka</value>
+    </label>
+    <label>
+        <key>no_of_weeks</key>
+        <value>Ant. veckor</value>
+    </label>
+    <label>
+        <key>copy_to</key>
+        <value>Till vecka</value>
+    </label>
+    <label>
+        <key>no_of_times</key>
+        <value>Ant. ggr</value>
+    </label>
+    <label>
+        <key>copy_options</key>
+        <value>Kopierad period</value>
+    </label>
+    <label>
+        <key>copy_upto</key>
+        <value>Fram till vecka</value>
+    </label>
+    <label>
+        <key>every_week</key>
+        <value>varje vecka</value>
+    </label>
+    <label>
+        <key>every_2</key>
+        <value>Varannan</value>
+    </label>
+    <label>
+        <key>every_3</key>
+        <value>Vart 3e</value>
+    </label>
+    <label>
+        <key>every_4</key>
+        <value>Vart 4e</value>
+    </label>
+    <label>
+        <key>confirm_delete</key>
+        <value>Bekräfta radering</value>
+    </label>
+    <label>
+        <key>travel</key>
+        <value>Restid</value>
+    </label>
+    <label>
+        <key>normal</key>
+        <value>Ord. tid</value>
+    </label>
+    <label>
+        <key>break</key>
+        <value>Betald rast</value>
+    </label>
+    <label>
+        <key>oncall</key>
+        <value>Väntetid</value>
+    </label>
+    <label>
+        <key>overtime</key>
+        <value>Övertid</value>
+    </label>
+    <label>
+        <key>qual_overtime</key>
+        <value>Kval. Övertid</value>
+    </label>
+    <label>
+        <key>more_time</key>
+        <value>Mertid/Timtid</value>
+    </label>
+     <label>
+        <key>some_other_time</key>
+        <value>Utbildning/Övrig tid</value>
+    </label>      
+    <label>
+        <key>training_time</key>
+        <value>Intro</value>
+    </label>
+    <label>
+        <key>call_training</key>
+        <value>Intro väntetid</value>
+    </label>
+    <label>
+        <key>personal_meeting</key>
+        <value>P-möte</value>
+    </label>
+    <label>
+        <key>select_one_slot</key>
+        <value>Välj minst en tid</value>
+    </label>
+    <label>
+        <key>in_focus</key>
+        <value>Vald</value>
+    </label>
+    <label>
+        <key>out_focus</key>
+        <value>Alla</value>
+    </label>
+    <label>
+        <key>unmanned</key>
+        <value>Ingen assistent vald</value>
+    </label>
+	<!-- Start Global setting page Added By Rahul : 3-10-2012 -->
+	<label>
+        <key>global_setting</key>
+        <value>ATL inställningar</value>
+    </label>
+	<!-- End Global setting page Added By Rahul : 3-10-2012 -->
+     <label>
+        <key>no_elements_selected</key>
+        <value>Inga tider valda</value>
+     </label>
+     <label>
+        <key>add_selected</key>
+        <value> Lägg till valda tider</value>
+    </label> 
+    <label>
+        <key>overlapped</key>
+        <value>Överlappandde tider</value>
+    </label>
+    <label>
+        <key>unsick_from</key>
+        <value>Åter från kl.</value>
+    </label>
+    <label>
+        <key>schedule</key>
+        <value>Schema</value>
+    </label>
+    <label>
+        <key>manage</key>
+        <value>Ändra</value>
+    </label>
+    <label>
+        <key>delete_options</key>
+        <value>Radera möjligheter</value>
+    </label>
+    <label>
+        <key>assign_multiple_slots</key>
+        <value>Tilldela och kopiera framåt</value>
+    </label>
+    <label>
+        <key>do_you_want_schema_assignment</key>
+        <value>Ska pass och assistent kopieras flera dagar/veckor framåt..?</value>
+    </label>
+    
+    <label>
+        <key>employee_label_for_gdschema_slot_manage</key>
+        <value>Assistent:</value>
+    </label>
+    <label>
+        <key>customer_label_for_gdschema_slot_manage</key>
+        <value>Kund:</value>
+    </label>
+    <label>
+        <key>do_you_want_to_change_as_oncall_slot</key>
+        <value>I passet du har matat in ingår i ett vänte/jourtid. Ska passet delas mellan Ordinarie och Väntetid?</value>
+    </label>
+    <label>
+        <key>employee_worked_hour</key>
+        <value>Arbetade timmar</value>
+    </label>
+    <label>
+        <key>none</key>
+        <value>Ingen ersättare</value>
+    </label>
+    <label>
+        <key>replacement_employee</key>
+        <value>Ersättningsassistent </value>
+    </label>
+    <label>
+        <key>dont_show_again</key>
+        <value>Visa inte detta meddelande igen.</value>
+    </label>
+    <label>
+        <key>remove_dont_show_again_button</key>
+        <value>Åter visa kopiera allt.</value>
+    </label>
+     <label>
+        <key>copy</key>
+        <value>Kopiera</value>
+    </label>
+     <label>
+        <key>paste</key>
+        <value>Klistra in</value>
+    </label>
+    <label>
+        <key>cannot_add</key>
+        <value>Kan inte lägga till</value>
+    </label>
+    <label>
+        <key>select_atleast_one_slot</key>
+        <value>Välj minst ett pass</value>
+    </label>
+    <label>
+        <key>add_employee</key>
+        <value>Koppla anställd</value>
+    </label>
+    <label>
+        <key>change_action</key>
+        <value>Ändra</value>
+    </label>
+    <label>
+        <key>delete_action</key>
+        <value>Radera</value>
+    </label>
+    <label>
+        <key>confirm_changes</key>
+        <value>Bekräfta ändringarna</value>
+    </label>
+    <label>
+        <key>change_slot</key>
+        <value>Ändra arbetspass</value>
+    </label>
+    <label>
+        <key>change_employee</key>
+        <value>Ändra anställd</value>
+    </label>
+    <label>
+        <key>change_customer</key>
+        <value>Ändra kund</value>
+    </label>
+    <label>
+        <key>go_to_week</key>
+        <value>Välj annan vecka/Uppdatera</value>
+    </label>
+    <label>
+        <key>go_to_employee</key>
+        <value>Växla till anställd</value>
+    </label>
+    <label>
+        <key>go_to_customer</key>
+        <value>Växla till kund</value>
+    </label>
+    <label>
+        <key>change_slot_type</key>
+        <value>Ändra typ av arbetspass</value>
+    </label>
+    <label>
+        <key>select_customer</key>
+        <value>Välj kund</value>
+    </label>
+    <label>
+        <key>slots_are_already_existed_on_week</key>
+        <value>Arbetspass finns redan på v:</value>
+    </label>
+    <label>
+        <key>several</key>
+        <value>Fler...</value>
+    </label>
+    <label>
+        <key>select_employee</key>
+        <value>Välj assistent</value>
+    </label> 
+      <label>
+        <key>cannot_paste</key>
+        <value>Kan inte klistra in här</value>
+    </label> 
+    <label>
+        <key>overlapped</key>
+        <value>Överlappning </value>
+    </label>
+    <label>
+        <key>slot_type</key>
+        <value>Pass typ </value>
+    </label>
+    <label>
+        <key>and_more_slots_found</key>
+        <value>Flera tider markerade..</value>
+    </label>
+    <label>
+        <key>no_employee</key>
+        <value>Ingen assistent vald</value>
+    </label>
+    <label>
+        <key>no_customer</key>
+        <value>Ingen kund vald</value>
+    </label>
+    <label>
+        <key>go_to</key>
+        <value>Växla till</value>
+    </label>
+    <label>
+        <key>slot</key>
+        <value>Arbetspass</value>
+    </label>
+    <label>
+        <key>atl</key>
+        <value>ATL</value>
+    </label>
+    <label>
+        <key>atl_check</key>
+        <value>ATL månadskoll</value>
+    </label>
+    <label>
+        <key>select_month</key>
+        <value>Välj en månad</value>
+    </label>
+    <label>
+        <key>big_process</key>
+        <value>Multifunktioner</value>
+    </label>
+    <label>
+        <key>employee_processmain_delete</key>
+        <value>Assistent </value>
+    </label>
+    <label>
+        <key>unmanned_process_delete</key>
+        <value>Obemannade pass  </value>
+    </label>
+    <label>
+        <key>voluntary</key>
+        <value>Voluntärt arbete</value>
+    </label>
+    <label>
+        <key>complementary</key>
+        <value>Komp.tid</value>
+    </label>
+    <label>
+        <key>complementary_oncall</key>
+        <value>Komp. Väntetid</value>
+    </label>
+    <label>
+        <key>confirm_delete_customer</key>
+        <value>Ska Kund raderas?</value>
+    </label>
+    <label>
+        <key>confirm_delete_slot</key>
+        <value>Ska pass raderas?</value>
+    </label>
+    <label>
+        <key>karense</key>
+        <value>Ej Karensavdrag</value>
+    </label>
+    <label>
+        <key>no_karense</key>
+        <value>Ingen Karens</value>
+    </label>
+    <label>
+        <key>save_timeslot</key>
+        <value>Spara som minnespass</value>
+    </label>
+    <label>
+        <key>unavailable_employees</key>
+        <value>Ej tillgängliga assistenter</value>
+    </label>
+    <label>
+        <key>monthly_view</key>
+        <value>Månadsvy</value>
+    </label>
+    <label>
+        <key>right_click_menu_contract</key>
+        <value>Avtal, FK,Kn</value>
+    </label>
+    <label>
+        <key>more_oncall</key>
+        <value>Mertid/Timtid väntetid</value>
+    </label>
+    <label>
+        <key>employees_work_summery</key>
+        <value>Översikt - Anställdas arbetstid denna månad</value>
+    </label>
+    <label>
+        <key>normal_work_percent</key>
+        <value>Ord.tid i %</value>
+    </label>
+    <label>
+        <key>oncall_work_percent</key>
+        <value>Väntetid i %</value>
+    </label>
+    <label>
+        <key>week_end_travel</key>
+        <value>Restid helg</value>
+    </label>
+    <label>
+        <key>replacing_employee</key>
+        <value>Assistent att ersätta</value>
+    </label>
+    <label>
+        <key>replacer_employees</key>
+        <value>Ersättnings assistent</value>
+    </label>
+    <label>
+        <key>is_this_karense</key>
+        <value>Ska denna period inneha karens?</value>
+    </label>
+    <label>
+        <key>enter_date_and_time</key>
+        <value>Mata in datum och tid</value>
+    </label>
+    <label>
+        <key>incomplete_slot_times</key>
+        <value>Saknar passtid Från och Till</value>
+    </label>
+    <label>
+        <key>please_add_slots</key>
+        <value>Please add slots</value>
+    </label>
+    <label>
+        <key>karense_included</key>
+        <value>Kanrensdag är satt</value>
+    </label>
+    <label>
+        <key>karense_not_included</key>
+        <value>Kanrensdag är inte satt</value>
+    </label>
+    <label>
+        <key>select_template</key>
+        <value>Välj mall</value>
+    </label>
+    <label>
+        <key>template_view</key>
+        <value>Sparade mallar</value>
+    </label>
+    <label>
+        <key>template_slots_are_empty_in_this_month</key>
+        <value>Arbetspass i denna mall är obemannade</value>
+    </label>
+    <label>
+        <key>sms</key>
+        <value>SMS</value>
+    </label>
+    <label>
+        <key>upto_no_of_months</key>
+        <value>Antal månader</value>
+    </label>
+    <label>
+        <key>template_not_exist</key>
+        <value>Mallen finns ej</value>
+    </label>
+    <label>
+        <key>confirm_delete_template</key>
+        <value>Ska mallen raderas?</value>
+    </label>
+    <label>
+        <key>new_template</key>
+        <value>Ny mall</value>
+    </label>
+    <label>
+        <key>create_template</key>
+        <value>Skapa schemamall</value>
+    </label>
+    <label>
+        <key>oncall_standby</key>
+        <value>J. Beredskap</value>
+    </label>
+    <label>
+        <key>standby</key>
+        <value>Beredskap</value>
+    </label>
+    <label>
+        <key>password_expiry_message_left</key>
+        <value>Ditt lösenord upphör att gälla om</value>
+    </label>
+    <label>
+        <key>password_expiry_message_right</key>
+        <value>Dagar. Vänligen bytt lösenord!</value>
+    </label>
+    <label>
+        <key>total_work_hours</key>
+        <value>S:a arbetstid</value>
+    </label>
+    <label>
+        <key>total_work_hours_in_customer</key>
+        <value>S:a arbetstid hos kund</value>
+    </label>
+    <label>
+        <key>weekly_view</key>
+        <value>Veckovyn</value>
+    </label>
+    <label>
+        <key>month_view_tooltip_short</key>
+        <value>Mån</value>
+    </label>
+    <label>
+        <key>do_you_want_to_reset_substitute_slots</key>
+        <value>Vill du återställa arbetspasset?</value>
+    </label>
+	 <label>
+        <key>note_shortcode</key>
+        <value> </value>
+    </label>
+    <label>
+        <key>date_passed_substitute_slots_cant_remove</key>
+        <value> </value>
+    </label>
+    <label>
+        <key>date_passed_substitute_slots_cant_remove_2</key>
+        <value>Ja, Frånvarande assistenten kommer återfå sitt pass!</value>
+    </label>
+    <label>
+        <key>date_passed_substitute_slots_cant_remove_3</key>
+        <value>Nej, Frånvaron kommer tas bort. Passet med ersättningsassistent är kvar!</value>
+    </label>
+       <label>
+        <key>confirm_cancel_leave</key>
+        <value>Klicka på Ja för att hantera frånvaron.</value>
+    </label>
+    <label>
+        <key>confirm_back_to_work</key>
+        <value>Ska assistenten tillbaka till jobbet?</value>
+    </label>
+    <label>
+        <key>karense_not_possible</key>
+        <value>Det finns redan karens satt, datum:</value>
+    </label>
+    <label>
+        <key>send_sms</key>
+        <value>Skicka sms</value>
+    </label>
+    <label>
+        <key>karense_days</key>
+        <value>Karensdag</value>
+    </label>
+    <label>
+        <key>print_schedule</key>
+        <value>Skriv ut Schema</value>
+    </label>
+    <label>
+        <key>pm_available_employees</key>
+        <value>Tillgängliga till p-möte</value>
+    </label>
+    <label>
+        <key>confirm_clone_leave_relation</key>
+        <value>Klona arbetspasset?</value>
+    </label>
+    <label>
+        <key>options</key>
+        <value>Olika alternativ</value>
+    </label>
+    <label>
+        <key>candg_start</key>
+        <value>Starttid</value>
+    </label>
+    <label>
+        <key>candg_stop</key>
+        <value>Sluttid</value>
+    </label>
+    <label>
+        <key>candg_start_button</key>
+        <value>Start</value>
+    </label>
+    <label>
+        <key>candg_stop_button</key>
+        <value>Avsluta arbetspass</value>
+    </label>
+    <label>
+        <key>candg_duration</key>
+        <value>Varaktighet</value>
+    </label>
+   <label>
+        <key>back_to_comengo</key>
+        <value>Tillbaka</value>
+    </label>
+    <label>
+        <key>back_export</key>
+        <value>Tillbaka till export</value>
+    </label>
+    <label>
+        <key>comengo_head</key>
+        <value>Come &#038; Go</value>
+    </label>
+    <label>
+        <key>show_unmanned_slots_only</key>
+        <value>Visa endast obemannade pass</value>
+    </label>
+    <label>
+        <key>customer_summary_view</key>
+        <value>Växla till Kundvy</value>
+    </label>
+    <label>
+        <key>employee_summary_view</key>
+        <value>Växla till Assistentvy</value>
+    </label>
+    <label>
+        <key>work_for_dismissal</key>
+        <value>Uppsägningslön</value>
+    </label>
+    <label>
+        <key>actual_slot_working_hours</key>
+        <value>Arbetade timmar</value>
+    </label>
+    <label>
+        <key>template_hours</key>
+        <value>Grundschemamall timmar</value>
+    </label>
+    <label>
+        <key>hour_difference</key>
+        <value>Diff</value>
+    </label>
+    <label>
+        <key>work_for_dismissal_oncall</key>
+        <value>Uppsägningslön(J)</value>
+    </label>
+    <label>
+        <key>do_you_want_to_cancel_candg</key>
+        <value>Vill du avsluta CnG?</value>
+    </label>
+    <label>
+        <key>yes</key>
+        <value>Ja</value>
+    </label>
+    <label>
+        <key>no</key>
+        <value>Nej</value>
+    </label>
+    <label>
+        <key>cancel_candg</key>
+        <value>Avsluta CnG</value>
+    </label>
+    <label>
+        <key>sort_by</key>
+        <value>Sortering</value>
+    </label>
+    <label>
+        <key>timeline</key>
+        <value>Horisontell Vy</value>
+    </label>
+    <label>
+        <key>day_view</key>
+        <value>Dagvy</value>
+    </label>
+    <label>
+        <key>timeline_view</key>
+        <value>Horisontell Vy</value>
+    </label>
+    <label>
+        <key>select_slot</key>
+        <value>Välj arbetspass</value>
+    </label>
+    <label>
+        <key>tooltip_close</key>
+        <value>Stäng</value>
+    </label>
+    <label>
+        <key>tooltip_edit_slot</key>
+        <value>Ändra</value>
+    </label>
+    <label>
+        <key>find_similar</key>
+        <value>Markera liknande*</value>
+    </label>
+    <label>
+        <key>normal_main_head_signing_report</key>
+        <value>Arbetad tid</value>
+    </label>
+    <label>
+        <key>new_rpt_button</key>
+        <value>Ny version</value>
+    </label>
+    <label>
+        <key>contract_period_gd_schema</key>
+        <value>Periodens datum</value>
+    </label>
+    <label>
+        <key>unmanned_hour</key>
+        <value>Obemannade timmar</value>
+    </label>
+    <label>
+        <key>change_time</key>
+        <value>Ändra tid</value>
+    </label>
+    <label>
+        <key>fromtime_should_be_lessthan_totime</key>
+        <value>Från tid ska vara mindre än till tid</value>
+    </label>
+    <label>
+        <key>karense_deduction</key>
+        <value>Karensavdraget är</value>
+    </label>
+    <label>
+        <key>no_karense_deduction</key>
+        <value>Det finns inget karensavdrag</value>
+    </label>
+    <label>
+        <key>hour_short</key>
+        <value>h</value>
+    </label>
+    <label>
+        <key>total_karense_deduction</key>
+        <value>Beräknat karensavdrag</value>
+    </label>
+    <label>
+        <key>deduction_sick_day</key>
+        <value>Karensavdrag sjukdagen</value>
+    </label>
+    <label>
+        <key>no_time_to_show</key>
+        <value>Inga tider att visa</value>
+    </label>
+    <label>
+        <key>salary_time</key>
+        <value>Lönetid</value>
+    </label>
+    <label>
+        <key>salary_total_time</key>
+        <value>Total tid</value>
+    </label>
+    <label>
+        <key>karense_turned_off</key>
+        <value>Karensdag avstängd</value>
+    </label>
+    <label>
+        <key>unmanned_slot_header</key>
+        <value>Ingen ersättare</value>
+    </label>
+    <label>
+        <key>unmanned_slot</key>
+        <value>Ingen ersättare</value>
+    </label>
+    <label>
+        <key>unmanned_slot_Karensdag</key>
+        <value>Karensdag: </value>
+    </label>
+	<label>
+        <key>replaced_hours_header</key>
+        <value>Ersatta timmar</value>
+    </label>
+	<label>
+        <key>replacement_empl_name</key>
+        <value>Namn på vikarie</value>
+    </label>
+	<label>
+        <key>soc_coasts</key>
+        <value>Soc.avgiter</value>
+    </label>
+		<label>
+        <key>gdschema_unmanned_slot</key>
+        <value>Ingen ersättare</value>
+    </label>
+</content>

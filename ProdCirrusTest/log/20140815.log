@@ -1,0 +1,10 @@
+08:47:19 gine001 root001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp, comment ) values ( abni001, adan001, 1, 0, 2014-06-10, 8.00, 9.35, 1, gine001,  ) => {inserted_id = 5605}
+08:48:12 gine001 root001 UPDATING data to tables `timetable` fields ( employee, alloc_emp ) values (than001, gine001)
+12:55:36 gine001 root001 UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 5472
+12:55:36 gine001 root001 INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( anst007, 2014-08-13, 8.00, 17.00, 0, 1, , gine001, 5472, 0 ) => {inserted_id = 5606}
+12:55:36 gine001 root001 INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 61, stfr001, 2014-08-13, 8, 17, 1, , gine001, 0, 1 ) => {inserted_id = 133}
+12:55:36 gine001 root001 INSERTING data into tables `log_sms` fields ( from_user, to_user, to_no, message, status ) values ( gine001, gine001, 704434964, %0ASjuk : Stina%20Fritz%0ADatum: 2014-08-13%0APass: 8.00-17.00%0A, 1 ) => {inserted_id = 17}
+12:55:52 gine001 root001 UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, last002, gine001) on conditions id = 5606
+12:56:18 gine001 root001 UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 5606
+12:56:18 gine001 root001 INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( anst007, 2014-08-13, 8.00, 17.00, 0, 1, , gine001, 5606, 0 ) => {inserted_id = 5607}
+12:56:18 gine001 root001 INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 62, last002, 2014-08-13, 8, 17, 5, Anette, gine001, 0, 1 ) => {inserted_id = 134}

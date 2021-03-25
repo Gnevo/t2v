@@ -1,0 +1,8 @@
+10:36:11   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = 
+10:36:11   UPDATING data to tables `log_login`fields Array values 2013-05-02:08:36:11 on conditions id =  AND username = 
+10:40:47 dodo001 dodo001 INSERTING data into tables `log_login`fields username, ip, browser values ( dodo001, 115.248.24.177, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.22 (KHTML, like Gecko) Ubuntu Chromium/25.0.1364.160 Chrome/25.0.1364.160 Safari/537.22 )
+10:41:54 dodo001 dodo001 UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values eb224978996690df7a490e4d29cf9932, 2013-05-02, 0 on conditions username = dodo001
+10:41:54 dodo001 dodo001 INSERTING data into tables `log_password`fields username, passwords values ( dodo001, e23ed3da13abc3b3da2b711d207c7208 )
+10:41:54 dodo001 dodo001 UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = dodo001
+10:42:39 dodo001 dodo001 INSERTING data into tables `report_signing`fields employee, date, signin_employee, signin_date, signin_tl, signin_tl_date, signin_sutl, signin_sutl_date values ( gine001, 2013-4-1, dodo001, 2013-05-02 08:42:39, dodo001, 2013-05-02 08:42:39, dodo001, 2013-05-02 08:42:39 )
+10:42:42 dodo001 dodo001 DELETE data from tables `report_signing` on conditions employee = gine001 AND date = 2013-4-1

@@ -1,0 +1,14 @@
+16:50:01 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+16:50:01 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.19.196.182, Mozilla/5.0 (Android 5.1.1; Mobile; rv:44.0) Gecko/44.0 Firefox/44.0 ) => {inserted_id = 4579}
+16:50:01 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+16:50:01 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-02-12 15:50:01) on conditions username = gine001
+16:50:02 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 30p424s21f1p69go2j308kpok7
+17:17:09 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = iqt503bk4t6ndadjtugvutq620
+20:01:57 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+20:01:57 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.19.196.182, Mozilla/5.0 (Android 5.1.1; Mobile; rv:44.0) Gecko/44.0 Firefox/44.0 ) => {inserted_id = 4580}
+20:01:57 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+20:01:57 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-02-12 19:01:57) on conditions username = gine001
+20:01:58 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 30p424s21f1p69go2j308kpok7
+20:02:39 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+20:02:39 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2016-02-12 19:02:39) on conditions username = gine001
+20:02:39   UPDATING data to tables `log_login` fields ( logout_time ) values (2016-02-12:19:02:39) on conditions id = 4580 AND username = gine001

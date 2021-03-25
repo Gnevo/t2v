@@ -1,0 +1,11 @@
+12:25:26 boek001 Bo Ek UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = boek001 AND company_id = 6
+12:25:27 boek001 Bo Ek INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( boek001, 94.234.39.157, CirrusM/3 CFNetwork/976 Darwin/18.2.0 ) => {inserted_id = 7554}
+12:25:27 boek001 Bo Ek DELETE data from tables `temp_session` on conditions username LIKE boek001
+12:25:27 boek001 Bo Ek UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-12-18 12:25:27) on conditions username = boek001
+12:25:27 boek001 Bo Ek UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-12-18 12:25:27) on conditions username = boek001 AND company_id = 6
+12:25:27 boek001 Bo Ek UPDATING data to tables `time2vie_cirruscommon`.`push_notify_tokens` fields ( user_id, updated_date, error ) values (boek001, 2018-12-18 12:25:27, 0) on conditions fcm_token = dgD2hTKiXq0:APA91bHlR7Lhk7kXxrVZMAL0hhSNjg7Io713R_a5hB_RgEeQYcREgSee3Oae0BoyHxlXc98gP2bt430KhS1A29RzegoKBKDnmL3-Foqg4yrAIudrqOkx_OwgRxAAWkqerkMA3BxRnDSw AND device_id = CFA57FE2-F3E5-4F30-B1E7-0BCBB8FC77D6 #Mobile-App: Log-id=7554
+13:28:12 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 112.133.248.114, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36 ) => {inserted_id = 7555}
+13:28:12 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+13:28:12 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-12-18 13:28:12) on conditions username = dodo001
+13:28:12 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-12-18 13:28:12) on conditions username = dodo001 AND company_id = 6
+13:28:13 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = 87664bb1f4b493f43eec81a59d513005

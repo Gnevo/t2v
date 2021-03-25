@@ -1,0 +1,8 @@
+05:42:43 gine001  UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (7) on conditions username = gine001 AND company_id = 6
+05:43:17 gine001  UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (8) on conditions username = gine001 AND company_id = 6
+05:43:29 gine001  UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (9) on conditions username = gine001 AND company_id = 6
+05:43:37 gine001  UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (10) on conditions username = gine001 AND company_id = 6
+05:43:54 root001 root001 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( root001, 123.254.114.146, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0 ) => {inserted_id = 4935}
+05:43:54 root001 root001 DELETE data from tables `temp_session` on conditions username LIKE root001
+05:43:54 root001 root001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-06-23 05:43:54) on conditions username = root001
+05:44:52 gine001  UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 43j498jju8vfiebr4erbg6bjn6

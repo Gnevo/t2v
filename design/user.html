@@ -1,0 +1,253 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="css/cleaning.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/scroll.js"></script>
+<script>
+
+$(document).ready(function(){
+	$("input[name=btn2]").click(function(){
+		switch($(this).attr("value")){
+			case 'Company':
+				$('.house_hold_dv').show();
+			 break;
+			 case 'House Hold':
+				$('.house_hold_dv').hide();
+			 break;
+			
+		}
+	});
+});
+
+</script>
+</head>
+
+
+<body>
+<div id="wrapper_container" class="clearfix">
+  <div id="header" class="clearfix">
+  <div class="menu clearfix">
+  	<div class="logo"><img src="images/logo.jpg" width="304" height="23" /></div>
+    <div class="user_id"><div class="user">Shaju K T</div><a href="#" class="logout">Logout</a></div>
+    </div>
+    <ul class="main_menu">
+    <div style="float:left;">
+  	<li><a href="#" class="active"><span>Admin</span></a></li>
+  	<li><a href="#">Asistenter</a></li>
+  	<li><a href="#">Kunder</a></li>
+  	<li><a href="#">Blanketter</a></li>
+  	<li><a href="#">Rapporter</a></li>
+    </div>
+     <div class="date">12-01-2012</div>
+  </ul>
+    
+    
+  </div>
+  <div id="content_wrapper" class="clearfix">
+  	<div id="side_menu">
+    	<ul class="side_links">
+        	<li class="active"><img src="images/gundsc_icon.png" width="19" height="20" align="middle" /><a href="#">Grundschema</a></li>
+       	  <li><img src="images/assis_icon.png" width="21" height="17" align="middle" /><a href="#">Assistenter</a></li>
+        	<li><img src="images/kunder_icon.png" width="24" height="21" align="middle"/><a href="#">Kunder</a></li>
+        	<li><img src="images/lon_icon.png" width="19" height="19" /><a href="#">Lon export</a></li>
+        	<li><img src="images/medd_icon.png" width="22" height="14" /><a href="#">Medd. center</a></li>
+        </ul>
+    </div>
+    <div id="main_content">
+    <div class="tbl_hd"><span class="titles_tab">Kunduppgifter</span>
+                            <a onclick="saveForm()" href="javascript:void(0)"><img width="77" height="25" src="images/btn_save.gif"></a>
+                            <a onclick="resetForm()" href="javascript:void(0)"><img width="77" height="25" src="images/btn_reset.gif"></a>
+                            <a onclick="printForm()" href="javascript:void(0)"><img width="77" height="25" src="images/btn_print.gif"></a>
+                        </div>
+       <div class="worker_left">                 
+      <div id="kund">
+        <div class="sub_hd"><span class="titles">Account Information</span></div>
+<div class="td_raw">
+                                      <label for="Kundnummer">Username</label>
+                                        <input type="text" value="" id="kundnummer" name="kundnummer">
+        </div>
+<div class="td_raw">
+                                      <label for="adress">Password</label>
+                                      <input type="button" onclick="generatePassword()" value="Generate Password" id="password" name="password" class="bttn">
+        </div>
+        <div class="td_raw">
+                                        <label for="postnr">Status</label>
+                                    <div class="radio_dv_main"><div class="radio_dv_a">  <INPUT TYPE="RADIO" NAME="btn1" VALUE="Active">Active</div>
+<div class="radio_dv_b"><INPUT TYPE="RADIO" NAME="btn1" VALUE="Inactive"><span class="dv_cntnt">Inactive</span></div> 
+                                    </div>
+                                    </div>
+      </div>
+      
+<div id="kund">
+        <div class="sub_hd">
+        
+        <div class="radio_dv_main"><div class="cmpny">  <INPUT TYPE="RADIO" NAME="btn2" VALUE="Company">Company</div>
+<div class="radio_dv_b"><INPUT TYPE="RADIO" NAME="btn2" VALUE="House Hold"   /><span class="dv_cntnt">House Hold</span>
+</div> 
+
+            </div>
+        </div>
+<div class="house_hold_dv">
+<div class="td_raw">
+                                      <label for="Kundnummer">Company Name</label>
+                                        <input type="text" value="" id="kundnummer" name="kundnummer">
+        </div>
+<div class="td_raw">
+<label for="postnr">Adress*</label>
+                                        <input type="text" value="" id="postnr" name="postnr">
+          </div>
+                                    
+<div class="td_raw">
+<label for="postnr">City</label>
+                                        <input type="text" value="" id="postnr" name="postnr">
+          </div>
+<div class="td_raw">
+<label for="postnr">Post</label>
+                                        <input type="text" value="" id="postnr" name="postnr">
+          </div>
+<div class="td_raw">
+<label for="postnr">Telefon</label>
+                                        <input type="text" value="" id="postnr" name="postnr">
+          </div>
+ <div class="td_raw">
+<label for="postnr">Mobil</label>
+                                        <input type="text" value="" id="postnr" name="postnr">
+                                    </div>
+<div class="td_raw">
+<label for="postnr">E-post</label>
+                                        <input type="text" value="" id="postnr" name="postnr">
+                                    </div>
+<div class="td_raw">
+<label for="postnr">Mobil</label>
+                                        <input type="text" value="" id="postnr" name="postnr">
+                                    </div>
+
+
+
+
+</div>
+
+</div>      
+      
+      
+         <div id="kund">
+        <div class="sub_hd"><span class="titles">Personal Information</span></div>
+<div class="td_raw">
+                                      <label for="Kundnummer">Förnamn*</label>
+                                        <input type="text" value="" id="kundnummer" name="kundnummer">
+        </div>
+<div class="td_raw">
+<label for="postnr">Efternamn*</label>
+                                        <input type="text" value="" id="postnr" name="postnr">
+                                    </div>
+                                    
+<div class="td_raw">
+<label for="postnr">Personnummer </label>
+                                        <input type="text" value="" id="postnr" name="postnr">
+                                    </div>
+<div class="td_raw">
+<label for="postnr">Adress* </label>
+                                        <input type="text" value="" id="postnr" name="postnr">
+                                    </div>
+<div class="td_raw">
+<label for="postnr">City</label>
+                                        <input type="text" value="" id="postnr" name="postnr">
+                                    </div><div class="td_raw">
+<label for="postnr">Post</label>
+                                        <input type="text" value="" id="postnr" name="postnr">
+                                    </div><div class="td_raw">
+<label for="postnr">Telefon</label>
+                                        <input type="text" value="" id="postnr" name="postnr">
+                                    </div><div class="td_raw">
+<label for="postnr">Mobil</label>
+                                        <input type="text" value="" id="postnr" name="postnr">
+                                    </div><div class="td_raw">
+<label for="postnr">E-post</label>
+                                        <input type="text" value="" id="postnr" name="postnr">
+                                    </div><div class="td_raw">
+<label for="postnr">Date</label>
+                                        <input type="text" value="" id="postnr" name="postnr">
+                                    </div><div class="td_raw">
+<label for="postnr">Status</label>
+                                        <input type="text" value="" id="postnr" name="postnr">
+                                    </div>
+                                    </div>                                                                                                            
+      </div>
+      
+<div class="wrkr_mddl">
+
+<div id="kund_mddl">
+        <div class="sub_hd"><span class="titles">Account Information</span></div>
+<div class="td_raw_accnts"><span class="titles">&nbsp; Assigned Works</span></div>
+
+<div id="chatlist" class="mousescroll">
+    <ul>
+        <li>item  <a href="#"><img src="images/remove_pink.png" border="0" alt="" align="right"/></a></li>
+        <li>item  <a href="#"><img src="images/remove_pink.png" border="0" alt="" align="right"/></a></li>
+        <li>item  <a href="#"><img src="images/remove_pink.png" border="0" alt="" align="right"/></a></li>
+
+
+
+    </ul>
+</div>
+
+
+</div>
+
+<div id="kund_mddl">
+        
+<div class="td_raw_accnts"><span class="titles">&nbsp; Available Works</span></div>
+<div class="crt_team">
+        <input type="button" class="add_wrk" value="Add work" name="">
+        </div>
+
+<div id="chatlist_bttm" class="mousescroll">
+    <ul>
+        <li>item  <a href="#"><img src="images/add_green.png" border="0" alt="" align="right"/></a></li>
+        <li>item  <a href="#"><img src="images/add_green.png" border="0" alt="" align="right"/></a></li>
+        <li>item  <a href="#"><img src="images/add_green.png" border="0" alt="" align="right"/></a></li>
+		<li>item  <a href="#"><img src="images/add_green.png" border="0" alt="" align="right"/></a></li>
+        <li>item  <a href="#"><img src="images/add_green.png" border="0" alt="" align="right"/></a></li>
+        <li>item  <a href="#"><img src="images/add_green.png" border="0" alt="" align="right"/></a></li>
+		<li>item  <a href="#"><img src="images/add_green.png" border="0" alt="" align="right"/></a></li>
+        <li>item  <a href="#"><img src="images/add_green.png" border="0" alt="" align="right"/></a></li>
+        <li>item  <a href="#"><img src="images/add_green.png" border="0" alt="" align="right"/></a></li>
+
+    </ul>
+</div>
+</div>
+</div> 
+
+<div class="wrkr_right">
+<div id="kund_right">
+        <div class="sub_hd"><span class="titles">Team Selection</span></div>
+        <div class="crt_team">
+        <input name="" type="button" value="Create Team" class="crt_bttn" />
+        </div>
+        <div class="team_name">Team name (Dona Doni Manual)</div>
+        <div class="mousescroll" id="chatlist_right">
+    <ul>
+        <li>Team name (Dona Doni Manual)</li>
+        <li>Team name (Dona Doni Manual)</li>
+        <li>Team name (Dona Doni Manual)</li>
+       	<li>Team name (Dona Doni Manual)</li>
+        <li>Team name (Dona Doni Manual)</li>
+        <li>Team name (Dona Doni Manual)</li>
+               
+    </ul>
+</div>
+        
+        
+</div>
+</div>     
+      
+                    </div>    
+                        
+    </div>
+  </div>
+
+</body>
+</html>

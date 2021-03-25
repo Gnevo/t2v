@@ -1,0 +1,16 @@
+10:48:57 rokl001 rokl001 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rokl001, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.102 Safari/537.36 ) => {inserted_id = 1435}
+10:48:57 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = rokl001
+10:49:00   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = rokl001
+10:49:00   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-02-05:09:49:00) on conditions id = 1435 AND username = rokl001
+10:49:24 joef001 Joel Efraimsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( joef001, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.102 Safari/537.36 ) => {inserted_id = 1436}
+10:49:24 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = joef001
+10:49:24 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( error ) values (0) on conditions username = joef001
+10:54:05   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = joef001
+10:54:05   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-02-05:09:54:05) on conditions id = 1436 AND username = joef001
+10:54:10 rokl001 rokl001 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rokl001, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.102 Safari/537.36 ) => {inserted_id = 1437}
+10:54:10 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = rokl001
+10:56:36   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = rokl001
+10:56:36   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-02-05:09:56:36) on conditions id = 1968 AND username = rokl001
+10:56:54 joef001 Joel Efraimsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( joef001, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.102 Safari/537.36 ) => {inserted_id = 1438}
+10:56:54 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = joef001
+11:02:43 joef001 Joel Efraimsson UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, joef001, joef001) on conditions id = 4098

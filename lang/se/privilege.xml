@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+    <label>
+        <key>time_allocation</key>
+        <value>Lägga in tid</value>
+    </label>
+    <label>
+        <key>different_privileges</key>
+        <value>De Kundspecifika befogenheterna för Assistenterna är olika.</value>
+    </label>
+    <label>
+        <key>set_privilege</key>
+        <value>Välj-Spara befogenhet</value>
+    </label>
+    <label>
+        <key>no_employee</key>
+        <value>Inga anställda</value>
+    </label>
+    <label>
+        <key>basic_privilege</key>
+        <value>Standard befogenheter</value>
+    </label>
+    <label>
+        <key>full_privilege</key>
+        <value>Fullständiga befogenheter</value>
+    </label>
+    <label>
+        <key>add_slot</key>
+        <value>Lägg in nytt pass</value>
+    </label>
+    <label>
+        <key>fkkn</key>
+        <value>Välj FK/KN</value>
+    </label>
+    <label>
+        <key>slot_type</key>
+        <value>Val av tidstyper</value>
+    </label>
+    <label>
+        <key>add_customer</key>
+        <value>Knyt kund till pass</value>
+    </label>
+    <label>
+        <key>add_employee</key>
+        <value>Knyt assistent till pass</value>
+    </label>
+    <label>
+        <key>copy_single_slot</key>
+        <value>Kopiera enskilt pass</value>
+    </label>
+    <label>
+        <key>copy_single_slot_option</key>
+        <value>Kopiera enskilt pass/flera dagar samtidigt</value>
+    </label>
+    <label>
+        <key>delete_slot</key>
+        <value>Radera enskilt pass</value>
+    </label>
+    <label>
+        <key>delete_day_slot</key>
+        <value>Radera heldag/schema</value>
+    </label>
+    <label>
+        <key>remove_employee</key>
+        <value>Ta bort assistent från pass</value>
+    </label>
+    <label>
+        <key>remove_customer</key>
+        <value>Ta bort kund från pass</value>
+    </label>
+    <label>
+        <key>split_slot</key>
+        <value>Dela pass/flera tider</value>
+    </label>
+    <label>
+        <key>copy_day_slot</key>
+        <value>Kopiera markerat pass/Boka pass</value>
+    </label>
+    <label>
+        <key>copy_day_slot_option</key>
+        <value>Kopiera dagens schema/flera val</value>
+    </label>
+    <label>
+        <key>reports</key>
+        <value>Rapporter</value>
+    </label>
+    <label>
+        <key>forms</key>
+        <value>Blanketter</value>
+    </label>
+    <label>
+        <key>general</key>
+        <value>Administration Kund/Assitent</value>
+    </label>
+    <label>
+        <key>message_centre</key>
+        <value>Meddelandecenter</value>
+    </label>
+    <label>
+        <key>certificate</key>
+        <value>Arbetsgivarintyg</value>
+    </label>
+    <label>
+        <key>inconvenient_timing</key>
+        <value>OB tid</value>
+    </label>
+    <label>
+        <key>export</key>
+        <value>Löneexport signerade</value>
+    </label>
+    <label>
+        <key>leave_notification</key>
+        <value>Frånvaro-Lägga in</value>
+    </label>
+    <label>
+        <key>leave_approval</key>
+        <value>Frånvaro-Godkännadet</value>
+    </label>
+    <label>
+        <key>leave_rejection</key>
+        <value>Frånvaro-Avslag</value>
+    </label>
+    <label>
+        <key>leave_edit</key>
+        <value>Frånvaro-Åter/tillbaka</value>
+    </label>
+    <label>
+        <key>notes</key>
+        <value>Anteckningar</value>
+    </label>
+    <label>
+        <key>support</key>
+        <value>Ärendesystem</value>
+    </label>
+    <label>
+        <key>sms</key>
+        <value>Frånvaro SMS</value>
+    </label>
+     <label>
+        <key>cirrus_mail</key>
+        <value>Cirrus Push-Mail</value>
+    </label>
+     <label>
+        <key>external_mail</key>
+        <value>E-mail</value>
+    </label>
+    <label>
+        <key>customer_schedule</key>
+        <value>Kundschema</value>
+    </label>
+    <label>
+        <key>employee_schedule</key>
+        <value>Anställd schema</value>
+    </label>
+    <label>
+        <key>administration</key>
+        <value>Administration</value>
+    </label>
+     <label>
+        <key>monthly_work</key>
+        <value>Anställd månadsavslut</value>
+    </label>
+     <label>
+        <key>chat</key>
+        <value>Chat</value>
+    </label>
+    <label>
+        <key>notes_approval</key>
+        <value>Anteckningar Godkänd</value>
+    </label>
+    <label>
+        <key>notes_rejection</key>
+        <value>Anteckningar avslag</value>
+    </label>
+     <label>
+        <key>select_employee_atleast_one</key>
+        <value>Välj en anställd</value>
+    </label>
+    <label>
+        <key>search_employee</key>
+        <value>Sök anställd</value>
+    </label>
+    <label>
+        <key>customer_data</key>
+        <value>Kunddata</value>
+    </label>
+    <label>
+        <key>customer_leave</key>
+        <value>Kund frånvaro</value>
+    </label>
+    <label>
+        <key>customer_granded_vs_used</key>
+        <value>Kund, beviljad vs nyttjad tid</value>
+    </label>
+    <label>
+        <key>customer_employee_connection</key>
+        <value>Kund - anställd relation</value>
+    </label>
+    <label>
+        <key>customer_horizontal</key>
+        <value>Kundshema - horizontell</value>
+    </label>
+    <label>
+        <key>customer_overview</key>
+        <value>Kund schema översikt</value>
+    </label>
+    <label>
+        <key>customer_vacation_planning</key>
+        <value>Kund semesterplanering</value>
+    </label>
+    <label>
+        <key>employee_data</key>
+        <value>Anställd personuppgifter</value>
+    </label>
+    <label>
+        <key>employee_leave</key>
+        <value>Anställd frånvaro</value>
+    </label>
+    <label>
+        <key>employee_percentage</key>
+        <value>Anställd anställningsgrad</value>
+    </label>
+    <label>
+        <key>leave_form</key>
+        <value>Ansökan om utbetalning LSS</value>
+    </label>
+    <label>
+        <key>clear_all</key>
+        <value>Avmarkera</value>
+    </label>
+    <label>
+        <key>edit_customer</key>
+        <value>Ändra kunduppgifter</value>
+    </label>
+    <label>
+        <key>edit_employee</key>
+        <value>Ändra anställduppgifter</value>
+    </label>
+	<label>
+        <key>auto_scheduling</key>
+        <value>Automatisk schemaläggning</value>
+    </label>
+    <label>
+        <key>save_privilege</key>
+        <value>Spara</value>
+    </label>
+    <label>
+         <key>swap</key>
+         <value>Byt pass med annan assistent</value>
+  </label>
+  <label>
+        <key>process</key>
+        <value>Multifunktion(AL/KA)</value>
+  </label>
+  <label>
+  <key>leave</key>
+  <value>Godkänna Övrig tid/frånvaro</value>
+  </label>
+  <label>
+  <key>gen_add_customer</key>
+  <value>Lägg till ny kund</value>
+  </label>
+  <label>
+  <key>gen_add_employee</key>
+  <value>Lägg till ny anställd</value>
+  </label>
+  <label>
+  <key>notes_attchments</key>
+  <value>Anteckningar, bifoga fil</value>
+  </label>
+  <label>
+    <key>delete_multiple_slots</key>
+    <value>Radera flera pass</value>
+  </label> 
+   <label>
+    <key>contract_override</key>
+    <value>Anst. avtal överskridit</value>
+  </label> 
+  <label>
+    <key>atl_override</key>
+    <value>ATL-åsidosättningen</value>
+  </label>
+  <label>
+    <key>survey</key>
+    <value>Enkät</value>
+  </label> 
+   <label>
+    <key>change_time</key>
+    <value>Ändra passtid</value>
+  </label> 	
+  <label>
+    <key>select_all</key>
+    <value>Samtliga anställda (*Påverkar samtliga på företaget)</value>
+  </label> 
+  <label>
+    <key>no_pay_leave</key>
+    <value>Karens j/n</value>
+  </label> 
+   <label>
+    <key>all_customers</key>
+    <value>Mina Kunder - Välj kund</value>
+  </label>
+   <label>
+    <key>come_n_go_with</key>
+    <value>Come &#038; Go med pass</value>
+  </label> 
+  <label>
+    <key>come_n_go_without</key>
+    <value>Come &#038; Go utan pass</value>
+  </label>
+   <label>
+    <key>candg_approve</key>
+    <value>Godkänn Come &#038; Go pass</value>
+  </label>
+<label>
+    <key>show_percentage_monthly</key>
+    <value>Visa Proc. assistenter</value>
+  </label>
+  <label>
+    <key>document_archive</key>
+    <value>Dokumentarkiv - ladda upp dokument</value>
+  </label>
+  <label>
+    <key>mobile_search</key>
+    <value>Sök</value>
+  </label>
+  <label>
+    <key>show_percentage_monthly</key>
+    <value>Visa månatlig procentsats</value>
+  </label>
+  <label>
+        <key>not_show_other_employees</key>
+        <value>Dölj assist från varandra</value>
+  </label>
+    <label>
+        <key>employer_signing</key>
+        <value>Signering av FK/KN blanketter</value>
+    </label>
+    <label>
+        <key>candg_stop_for_other_employees</key>
+        <value>Stoppa C&#038;G, från MC</value>
+    </label>
+    <label>
+        <key>form_1</key>
+        <value>Arbetsmiljöbedömning</value>
+    </label>
+    <label>
+        <key>form_2</key>
+        <value>Kundenkät</value>
+    </label>
+    <label>
+        <key>form_3</key>
+        <value>Trivselenkät Assistenter</value>
+    </label>
+    <label>
+        <key>form_1_report</key>
+        <value>Arbetsmiljöbedömning Rapport</value>
+    </label>
+    <label>
+        <key>form_2_report</key>
+        <value>Kundenkät Rapport</value>
+    </label>
+    <label>
+        <key>form_3_report</key>
+        <value>Trivselenkät Rapport</value>
+    </label>
+    <label>
+        <key>all_employees</key>
+        <value>Samtliga anställda</value>
+    </label>
+    <label>
+        <key>all_teamleaders</key>
+        <value>Samtliga Arbetsledare</value>
+    </label>
+    <label>
+        <key>all_super_tl</key>
+        <value>Samtliga Kundansvariga</value>
+    </label>
+    <label>
+        <key>form_4</key>
+        <value>Genomförandeplan</value>
+    </label>
+    <label>
+        <key>form_5</key>
+        <value>Avvikelserapport</value>
+    </label>
+    <label>
+        <key>form_6</key>
+        <value>Lex Sarah</value>
+    </label>
+    <label>
+        <key>form_7</key>
+        <value>Personakt UG</value>
+    </label>
+    <label>
+        <key>customer_settings_insurance_fk</key>
+        <value>Kund FK beslut</value>
+    </label>
+    <label>
+        <key>customer_settings_insurance_kn</key>
+        <value>Kund Kn beslut</value>
+    </label>
+    <label>
+        <key>customer_settings_insurance_tu</key>
+        <value>Kund TUT beslut</value>
+    </label>
+    <label>
+        <key>customer_settings_implan</key>
+        <value>Kund Genomförandeplan</value>
+    </label>
+    <label>
+        <key>customer_settings_deswork</key>
+        <value>Kund Arbetsbeskrivning</value>
+    </label>
+    <label>
+        <key>customer_settings_documentation</key>
+        <value>Kund Dokumentation</value>
+    </label>
+    <label>
+        <key>customer_settings_equipment</key>
+        <value>Kund Utrustning</value>
+    </label>
+    <label>
+        <key>customer_settings_privileges</key>
+        <value>Kund Befogenheter</value>
+    </label>
+    <label>
+        <key>customer_settings_appointment</key>
+        <value>Kund Möten</value>
+    </label>
+    <label>
+        <key>customer_settings_oncall</key>
+        <value>Kund Inst.väntetid</value>
+    </label>
+    <label>
+        <key>customer_settings_3066</key>
+        <value>Kund 3066</value>
+    </label>
+    <label>
+        <key>customer_settings_sick_form_defaults</key>
+        <value>Kund Standard.Sjuk</value>
+    </label>
+    <label>
+        <key>employee_settings_contract</key>
+        <value>Anställd Anst.avtal</value>
+    </label>
+    <label>
+        <key>employee_settings_salary</key>
+        <value>Anställd Löneadministration</value>
+    </label>
+    <label>
+        <key>employee_settings_notification</key>
+        <value>Anställd aviseringar</value>
+    </label>
+    <label>
+        <key>employee_settings_privileges</key>
+        <value>Anställd befogenheter </value>
+    </label>
+    <label>
+        <key>employee_settings_cv</key>
+        <value>Anställd Kompetenser</value>
+    </label>
+    <label>
+        <key>employee_settings_documentation</key>
+        <value>Anställd dokumention</value>
+    </label>
+    <label>
+        <key>employee_settings_preference</key>
+        <value>Anställd Inställningar</value>
+    </label>
+    <label>
+        <key>administration_fk_export</key>
+        <value>Administration FK export</value>
+    </label>
+    <label>
+        <key>export_unsigned</key>
+        <value>Osignerade assistanter</value>
+    </label>
+    <label>
+        <key>come_and_go_on</key>
+        <value>C&#038;G På</value>
+    </label>
+    <label>
+        <key>recruitment</key>
+        <value>Rekryteringar</value>
+    </label>
+    <label>
+        <key>customer_settings_map_locations</key>
+        <value>Kundposition</value>
+    </label>
+    <label>
+        <key>sms_general</key>
+        <value>Generell SMS</value>
+    </label>
+    <label>
+        <key>leave_approve_all</key>
+        <value>Frånvaro-Godkänn samtliga</value>
+    </label>
+    <label>
+        <key>general_customer_doc_field</key>
+        <value>Kunddokumentation fält</value>
+    </label>
+    <label>
+        <key>employee_checklist_preference</key>
+        <value>Att göra listan</value>
+    </label>
+    <label>
+        <key>employee_skill_report_privilege</key>
+        <value>Meriter anställd</value>
+    </label>
+    <label>
+        <key>privilege_employee_termination</key>
+        <value>Uppsägningsblankett</value>
+    </label>
+</content>

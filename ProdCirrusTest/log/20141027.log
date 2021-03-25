@@ -1,0 +1,6 @@
+08:01:36 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 46.194.95.63, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36 ) => {inserted_id = 1951}
+08:02:00 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( password, date, error ) values (5d279852506c2043797e2a0142037f61, 2014-10-27, 0) on conditions username = gine001
+08:02:00 gine001 Gilad Nevo UPDATING data to tables `log_password` fields ( passwords ) values (ebebaf333265167fc85255223c4e4972,ebebaf333265167fc85255223c4e4972) on conditions username = gine001
+08:02:00 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+08:21:47   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+08:21:47   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-10-27:07:21:47) on conditions id = 1951 AND username = gine001

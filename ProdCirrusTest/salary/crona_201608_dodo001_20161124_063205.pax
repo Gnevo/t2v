@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<paxml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.paxml.se/2.0/paxml.xsd">
+  <header>
+    <format>LÖNIN</format>
+    <version>2.0</version>
+    <foretagnamn>CirrusTest</foretagnamn>
+  </header>
+  <dimensioner>
+    <dimension dim="1" namn="Brukare"/>
+  </dimensioner>
+  <resultatenheter>
+    <resultatenhet dim="1" id="001" namn="Anne Stål"/>
+  </resultatenheter>
+  <lonetransaktioner>
+    <lonetrans persnr="191441122338">
+      <lonart>9</lonart>
+      <antal>3</antal>
+      <resenheter>
+        <resenhet dim="1" id="001"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="191441122338">
+      <lonart>87</lonart>
+      <antal>4</antal>
+      <resenheter>
+        <resenhet dim="1" id="001"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="191441122338">
+      <lonart>57</lonart>
+      <antal>2</antal>
+      <resenheter>
+        <resenhet dim="1" id=""/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="191441122338">
+      <lonart>58</lonart>
+      <antal>197.26</antal>
+      <resenheter>
+        <resenhet dim="1" id=""/>
+      </resenheter>
+    </lonetrans>
+  </lonetransaktioner>
+</paxml>

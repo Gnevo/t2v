@@ -1,0 +1,15 @@
+08:53:29 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 112.133.237.37, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36 ) => {inserted_id = 6821}
+08:53:29 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+08:53:30 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-07-25 08:53:29) on conditions username = dodo001
+08:53:30 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-07-25 08:53:29) on conditions username = dodo001 AND company_id = 6
+08:53:31 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = 2cd5532b3f06a81def3d452bc17fa2cd
+13:20:45 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+13:20:46 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 178.31.135.140, android ) => {inserted_id = 6822}
+13:20:46 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+13:20:46 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-07-25 13:20:46) on conditions username = gine001
+13:20:46 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-07-25 13:20:46) on conditions username = gine001 AND company_id = 6
+13:20:52 gine001 Gilad Nevo UPDATING data to tables `mc_leave` fields ( read_users ) values (dodo001,gine001) on conditions leave_id = 166 #Mobile-App: Log-id=6822
+13:21:07 gine001 Gilad Nevo UPDATING data to tables `leave` fields ( status, appr_emp, appr_date ) values (1, gine001, 2018-07-25) on conditions group_id = 166 #Mobile-App: Log-id=6822
+13:45:38 gine001 Gilad Nevo UPDATING data to tables `mc_note` fields ( read_users ) values (dodo001,adad001,gine001) on conditions note_id = 152 #Mobile-App: Log-id=6822
+13:45:39 gine001 Gilad Nevo UPDATING data to tables `mc_note` fields ( read_users ) values (dodo001,gine001) on conditions note_id = 151 #Mobile-App: Log-id=6822
+13:45:39 gine001 Gilad Nevo UPDATING data to tables `mc_note` fields ( read_users ) values (anra004,gine001) on conditions note_id = 150 #Mobile-App: Log-id=6822

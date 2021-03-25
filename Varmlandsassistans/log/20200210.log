@@ -1,0 +1,44 @@
+08:43:05 inbe006 Ingeborg Bergren INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( inbe006, 85.229.51.54, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 ) => {inserted_id = 8077}
+08:43:05 inbe006 Ingeborg Bergren DELETE data from tables `temp_session` on conditions username LIKE inbe006
+08:43:05 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-02-10 08:43:05) on conditions username = inbe006
+08:43:05 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-02-10 08:43:05) on conditions username = inbe006 AND company_id = 21
+08:43:05 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = 6a760d8961e7089f12f27b72403564e3
+08:45:07 inbe006 Ingeborg Bergren INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , amom001, 2, 0, 2020-02-07, 19.30, 24, 0, , inbe006,  ) => {inserted_id = 2970}
+08:45:07 inbe006 Ingeborg Bergren INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( amom001, 19.30, 24, 0 ) => {inserted_id = 1719}
+08:48:28 inbe006 Ingeborg Bergren INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( fasa004, amom001, 2, 0, 2020-02-08, 0.00, 10.40, 1, , inbe006,  ) => {inserted_id = 2971}
+08:48:28 inbe006 Ingeborg Bergren INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( amom001, 0.00, 10.40, 0 ) => {inserted_id = 1720}
+08:48:41 inbe006 Ingeborg Bergren UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, fasa004, inbe006) on conditions id = 2970
+09:20:24 inbe006 Ingeborg Bergren INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( fasa004, naom001, 1, 0, 2020-02-10, 9, 13, 1, , inbe006,  ) => {inserted_id = 2972}
+09:20:24 inbe006 Ingeborg Bergren INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( naom001, 9, 13, 0 ) => {inserted_id = 1721}
+09:52:24 inbe006 Ingeborg Bergren INSERTING data into tables `customer_relative` fields ( customer, name, relation, address, city, phone, work_phone, mobile, email, other ) values ( amom001, Zahra Idris Mohamed, Mamma, Järpegatan 1 A, Grums, 0, , +46765 89 03 60 , ,  ) => {inserted_id = 1}
+09:58:07 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( mobile, social_security ) values (, 0201014800) on conditions username = amom001
+09:58:08 inbe006 Ingeborg Bergren UPDATING data to tables `customer` fields ( code, century, social_security, first_name, last_name, address, city, post, phone, mobile, email, date, status, date_inactive, fkkn, gender, employee_contract_start_month, employee_contract_period_date, employee_contract_period_length, kn_name, kn_address, kn_postno, kn_reference_no, kn_box, kn_city ) values (1-11, 20, 0201014800, Amna, Omar Adam, Järpegatan 1A, Grums, 664 31, , , , 2019-12-28, 1, , 1, 2, , , , , , 0, , , ) on conditions username = amom001
+09:58:08 inbe006 Ingeborg Bergren DELETE data from tables `team` on conditions customer = amom001
+09:58:08 inbe006 Ingeborg Bergren INSERTING data into tables `team` fields ( customer, employee, role ) values ( amom001, inbe006, 7 ) => {inserted_id = 0}
+09:58:08 inbe006 Ingeborg Bergren INSERTING data into tables `team` fields ( customer, employee, role ) values ( amom001, zaid001, 3 ) => {inserted_id = 0}
+09:58:08 inbe006 Ingeborg Bergren INSERTING data into tables `team` fields ( customer, employee, role ) values ( amom001, absa003, 3 ) => {inserted_id = 0}
+09:58:08 inbe006 Ingeborg Bergren INSERTING data into tables `team` fields ( customer, employee, role ) values ( amom001, fasa004, 3 ) => {inserted_id = 0}
+09:58:08 inbe006 Ingeborg Bergren INSERTING data into tables `team` fields ( customer, employee, role ) values ( amom001, rute001, 3 ) => {inserted_id = 0}
+09:58:08 inbe006 Ingeborg Bergren UPDATING data to tables `customer_health` fields ( health_care, occupational_therapists, physiotherapists, other ) values (Amna Omer Adam 20020101-4800
+Järpegatan 1A 664 31 Grums
+beviljade timmar APRIL-sep 1018 timmar. OKTOBER-mars 864 timmar, Arbetsterapeut Frida Henriksson 054-618559
+SKK  Eva Wiklund 054-618513
+, Ann Keerever 054-617589, Gode Man Ali   070-3020488
+Sundstad gymnasiet Mentor Ann-Kristin Andersson 054-5400000) on conditions customer = amom001
+10:02:15 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( mobile, social_security ) values (, 0201014800) on conditions username = amom001
+10:02:15 inbe006 Ingeborg Bergren UPDATING data to tables `customer` fields ( code, century, social_security, first_name, last_name, address, city, post, phone, mobile, email, date, status, date_inactive, fkkn, gender, employee_contract_start_month, employee_contract_period_date, employee_contract_period_length, kn_name, kn_address, kn_postno, kn_reference_no, kn_box, kn_city ) values (1-11, 20, 0201014800, Amna, Omar Adam, Järpegatan 1A, Grums, 664 31, , , , 2019-12-28, 1, , 1, 2, , , , , , 0, , , ) on conditions username = amom001
+10:02:15 inbe006 Ingeborg Bergren DELETE data from tables `team` on conditions customer = amom001
+10:02:15 inbe006 Ingeborg Bergren INSERTING data into tables `team` fields ( customer, employee, role ) values ( amom001, inbe006, 7 ) => {inserted_id = 0}
+10:02:15 inbe006 Ingeborg Bergren INSERTING data into tables `team` fields ( customer, employee, role ) values ( amom001, zaid001, 3 ) => {inserted_id = 0}
+10:02:15 inbe006 Ingeborg Bergren INSERTING data into tables `team` fields ( customer, employee, role ) values ( amom001, absa003, 3 ) => {inserted_id = 0}
+10:02:15 inbe006 Ingeborg Bergren INSERTING data into tables `team` fields ( customer, employee, role ) values ( amom001, fasa004, 3 ) => {inserted_id = 0}
+10:02:15 inbe006 Ingeborg Bergren INSERTING data into tables `team` fields ( customer, employee, role ) values ( amom001, rute001, 3 ) => {inserted_id = 0}
+10:02:15 inbe006 Ingeborg Bergren UPDATING data to tables `customer_health` fields ( health_care, occupational_therapists, physiotherapists, other ) values (Amna Omer Adam 20020101-4800
+Järpegatan 1A 664 31 Grums
+beviljade timmar APRIL-sep 1018 timmar. OKTOBER-mars 864 timmar, Arbetsterapeut Frida Henriksson 054-618559
+SKK  Eva Wiklund 054-618513
+, Ann Keerever 054-617589, Gode Man Ali   070-3020488
+Sundstad gymnasiet Mentor Ann-Kristin Andersson 054-5400000) on conditions customer = amom001
+10:02:15 inbe006 Ingeborg Bergren INSERTING data into tables `customer_guardian` fields ( customer, first_name, last_name, ssn, mobile, email, address, first_name2, last_name2, ssn2, mobile2, email2, address2, first_name3, last_name3, ssn3, mobile3, email3, address3 ) values ( amom001, Ali, , , +46703 02 04 88 , , , , , , , , , , , , , ,  ) => {inserted_id = 0}
+10:34:38 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = 6a760d8961e7089f12f27b72403564e3
+10:34:47 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = 6a760d8961e7089f12f27b72403564e3

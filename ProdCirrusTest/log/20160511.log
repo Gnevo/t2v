@@ -1,0 +1,24 @@
+10:22:37 thne001 Theodor Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( thne001, 85.227.154.202, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36 ) => {inserted_id = 4881}
+10:22:37 thne001 Theodor Nevo DELETE data from tables `temp_session` on conditions username LIKE thne001
+10:22:37 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-05-11 10:22:37) on conditions username = thne001
+10:22:37 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-05-11 10:22:37) on conditions username = thne001 AND company_id = 6
+10:22:38 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = u62l9evi2dg6nqpm30b1fidao4
+10:48:49 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = u62l9evi2dg6nqpm30b1fidao4
+11:21:58 thne001 Theodor Nevo UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 9048
+11:21:58 thne001 Theodor Nevo INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( stal001, 2016-05-06, 22.30, 23.35, 3, 1, , thne001, 9048, 0 ) => {inserted_id = 9095}
+11:21:58 thne001 Theodor Nevo INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 117, thne001, 2016-05-06, 22.3, 23.35, 1, , thne001, 0, 1 ) => {inserted_id = 365}
+11:21:59 thne001 Theodor Nevo INSERTING data into tables `log_sms` fields ( from_user, to_user, to_no, message, status ) values ( thne001, thne001, 737839527, %0ASjuk : Theodor%20Nevo%0ADatum: 2016-05-06%0APass: 22.30-23.35%0A, 1 ) => {inserted_id = 100}
+11:22:05 thne001 Theodor Nevo UPDATING data to tables `leave` fields ( status, appr_emp, appr_date ) values (1, thne001, 2016-05-11) on conditions group_id = 117
+11:41:56 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = u62l9evi2dg6nqpm30b1fidao4
+14:23:15 thne001 Theodor Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( thne001, 85.227.154.202, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36 ) => {inserted_id = 4882}
+14:23:15 thne001 Theodor Nevo DELETE data from tables `temp_session` on conditions username LIKE thne001
+14:23:15 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-05-11 14:23:15) on conditions username = thne001
+14:23:15 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-05-11 14:23:15) on conditions username = thne001 AND company_id = 6
+14:23:15 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = svrbonfmcmm345860mifm1jal6
+14:25:00 thne001 Theodor Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (test, test2, errrr, sparas, , , tttety, , , , 0) on conditions id = 3
+14:26:01 thne001 Theodor Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (test, test2, errrr, sparas, , , tttety, , , , 0) on conditions id = 3
+14:27:01 thne001 Theodor Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (test, test2, errrr, sparas, , , tttety, , , , 0) on conditions id = 3
+14:28:01 thne001 Theodor Nevo UPDATING data to tables `customer_implimentation` fields ( history, diagnosis, mission, intervention, travel, work, email, phone, work_comment, travel_comment, writable ) values (test, test2, errrr, sparas, , , tttety, , , , 0) on conditions id = 3
+14:28:31 thne001 Theodor Nevo UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,thne001) on conditions leave_id = 116
+14:28:31 thne001 Theodor Nevo INSERTING data into tables `mc_leave` fields ( leave_id, leave_status, read_users ) values ( 117, 1, thne001 ) => {inserted_id = 131}
+14:30:47 thne001 Theodor Nevo UPDATING data to tables `employee` fields ( language ) values (en) on conditions username = thne001

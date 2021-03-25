@@ -1,0 +1,13 @@
+09:37:53 kaka003 kalle Kaarlsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( kaka003, 78.68.120.44, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393 ) => {inserted_id = 5687}
+09:37:53 kaka003 kalle Kaarlsson DELETE data from tables `temp_session` on conditions username LIKE kaka003
+09:37:53 kaka003 kalle Kaarlsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2017-03-04 09:37:53) on conditions username = kaka003
+09:37:53 kaka003 kalle Kaarlsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-03-04 09:37:53) on conditions username = kaka003 AND company_id = 6
+09:37:54 kaka003 kalle Kaarlsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (kaka003) on conditions session_id = 2c4bba50491d739b9ba09685aae8a577
+12:56:20 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+12:56:20 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 178.31.156.44, android ) => {inserted_id = 5688}
+12:56:20 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+12:56:20 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2017-03-04 12:56:20) on conditions username = gine001
+12:56:20 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-03-04 12:56:20) on conditions username = gine001 AND company_id = 6
+12:56:44 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001 #Mobile-App: Log-id=5688
+12:56:44 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2017-03-04 12:56:44) on conditions username = gine001 #Mobile-App: Log-id=5688
+12:56:44 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-03-04 12:56:44) on conditions username = gine001 AND company_id = 6 #Mobile-App: Log-id=5688

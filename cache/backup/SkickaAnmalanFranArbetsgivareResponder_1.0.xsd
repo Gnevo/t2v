@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema version="1.0"
+           targetNamespace="urn:shs:emottagning:SkickaAnmalanFranArbetsgivare:1"
+           xmlns:tns="urn:shs:emottagning:SkickaAnmalanFranArbetsgivare:1"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:xmime="http://www.w3.org/2005/05/xmlmime"
+           elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+  <xs:import namespace="http://www.w3.org/2005/05/xmlmime"
+             schemaLocation="xmlmime.xsd"/>
+
+  <xs:element name="SkickaAnmalanFranArbetsgivare"
+              type="tns:SkickaAnmalanFranArbetsgivareType"/>
+
+  <xs:element name="SkickaAnmalanFranArbetsgivareResponse"
+              type="tns:SkickaAnmalanFranArbetsgivareResponseType"/>
+
+  <xs:element name="XmlValidationError"
+              type="tns:XmlValidationErrorType"/>
+
+  <xs:element name="SignatureValidationError"
+              type="tns:SignatureValidationErrorType"/>
+
+  <xs:complexType name="SkickaAnmalanFranArbetsgivareType">
+    <xs:annotation>
+      <xs:documentation>Skicka anmälan från arbetsgivare, FK3066</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="anmalanfranarbetsgivare" type="xmime:base64Binary">
+        <xs:annotation>
+          <xs:documentation>XML-fil med anmälan från arbetsgivare enligt schemat
+          anmalan_fran_arbetsgivare_extern_v1.xsd. XML-filen måste vara exakt
+          likadan som den var när den signerades.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="underskrift" type="tns:underskriftTyp" minOccurs="1" maxOccurs="unbounded"/>
+      <xs:any processContents="lax" minOccurs="0" maxOccurs="unbounded"
+              namespace="##other"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="SkickaAnmalanFranArbetsgivareResponseType">
+    <xs:annotation>
+      <xs:documentation>Kvitto på inlämnad anmälan från arbetsgivare</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="tx-id" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>Transaktions-ID på UUID-format. Exempel:
+          4a8db4b8-bc29-4406-901c-3f69298cabe3</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:any processContents="lax" minOccurs="0" maxOccurs="unbounded"
+              namespace="##other"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:simpleType name="signaturEnumeration">
+    <xs:annotation>
+      <xs:documentation>Typ av signatur. Viktigt vid flera signeringar. Enumerera signaturtyper.</xs:documentation>
+    </xs:annotation>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="ANORDNARE"/>
+        <xs:enumeration value="ASSISTENT"/>
+      </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="underskriftTyp">
+    <xs:sequence>
+      <xs:element name="signaturtyp" type="tns:signaturEnumeration" minOccurs="1" maxOccurs="1">
+      </xs:element>
+      <xs:element name="signatur" type="xmime:base64Binary" minOccurs="1" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation>Signatur fran BankID</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ocspresponse" type="xmime:base64Binary" minOccurs="1" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation>OCSP-svar fran BankID</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="signaturdatum" type="xs:date" minOccurs="1" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation>Tidpunkt signeringen gjordes</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:any processContents="lax" minOccurs="0" maxOccurs="unbounded"
+              namespace="##other"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="XmlValidationErrorType">
+    <xs:sequence>
+      <xs:element name="message" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="SignatureValidationErrorType">
+    <xs:sequence>
+      <xs:element name="message" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

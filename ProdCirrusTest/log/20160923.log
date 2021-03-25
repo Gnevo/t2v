@@ -1,0 +1,58 @@
+10:18:36 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+10:18:36 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.83.195, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 ) => {inserted_id = 5238}
+10:18:36 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+10:18:36 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-09-23 10:18:36) on conditions username = gine001
+10:18:36 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-09-23 10:18:36) on conditions username = gine001 AND company_id = 6
+10:18:37 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 51e9k5cop3oqfu5csgv6fgbr55
+10:20:49 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( password, mobile, role, error, date ) values (d8c402d0ab0824efe1a4be803c2367a1, 737777777, 1, 0, 2016-09-23) on conditions username = tato002
+10:20:49 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( password, error, last_pw_update_date ) values (d8c402d0ab0824efe1a4be803c2367a1, 0, 2016-09-23 08:20:49) on conditions username = tato002 AND company_id = 6
+10:20:49 gine001 Gilad Nevo UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day, remaining_sem_leave, sem_leave_todate, leave_in_advance, care_of, office_personal, substitute, salary_type, sem_leave_days, vab_leave_days, fp_leave_days, nopay_leave_days, other_leave_days, ice, inconvenient_on ) values (20004, 19, 7001234587, Tami, Tam, 2, Stora Västorp, Falkenberg, 64025, , 737777777, jonssmac54@gmail.com, 2014-01-25, #D8FC85, 1, , , 0, 10.00, 0, , 0, , 0, 0, 1, 1, 0, 1, 0, 0, , 1) on conditions username = tato002
+10:20:49 gine001 Gilad Nevo DELETE data from tables `team` on conditions employee = tato002
+10:22:23 tato002 Tami Tam UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = tato002 AND company_id = 6
+10:22:23 tato002 Tami Tam INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( tato002, 194.103.185.17, CirrusM/1 CFNetwork/758.5.3 Darwin/15.6.0 ) => {inserted_id = 5239}
+10:22:23 tato002 Tami Tam DELETE data from tables `temp_session` on conditions username LIKE tato002
+10:22:24 tato002 Tami Tam UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-09-23 10:22:23) on conditions username = tato002
+10:22:24 tato002 Tami Tam UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-09-23 10:22:23) on conditions username = tato002 AND company_id = 6
+10:29:51 tato002 Tami Tam INSERTING data into tables `mail` fields ( root_id, `from`, `to`, subject, message, attachments, status ) values ( 0, tato002, gine001), Test, Tato002
+Haha, , 0 ) => {inserted_id = 24} #Mobile-App: Log-id=5239
+10:30:36 tato002 Tami Tam UPDATING data to tables `mc_leave` fields ( read_users ) values (thne001,gine001,dodo001,abni001,tato002) on conditions leave_id = 123 #Mobile-App: Log-id=5239
+10:30:36 tato002 Tami Tam UPDATING data to tables `mc_leave` fields ( read_users ) values (thne001,gine001,dodo001,abni001,tato002) on conditions leave_id = 122 #Mobile-App: Log-id=5239
+10:30:36 tato002 Tami Tam UPDATING data to tables `mc_leave` fields ( read_users ) values (thne001,gine001,dodo001,abni001,tato002) on conditions leave_id = 121 #Mobile-App: Log-id=5239
+10:30:36 tato002 Tami Tam UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,dodo001,abni001,tato002) on conditions leave_id = 125 #Mobile-App: Log-id=5239
+10:30:36 tato002 Tami Tam UPDATING data to tables `mc_leave` fields ( read_users ) values (thne001,jata001,dodo001,gine001,abni001,tato002) on conditions leave_id = 117 #Mobile-App: Log-id=5239
+10:30:36 tato002 Tami Tam UPDATING data to tables `mc_leave` fields ( read_users ) values (jata001,dodo001,thne001,gine001,abni001,tato002) on conditions leave_id = 118 #Mobile-App: Log-id=5239
+10:30:36 tato002 Tami Tam UPDATING data to tables `mc_leave` fields ( read_users ) values (jata001,dodo001,thne001,gine001,abni001,tato002) on conditions leave_id = 119 #Mobile-App: Log-id=5239
+10:30:36 tato002 Tami Tam UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,thne001,jata001,dodo001,tato002) on conditions leave_id = 116 #Mobile-App: Log-id=5239
+10:30:36 tato002 Tami Tam UPDATING data to tables `mc_leave` fields ( read_users ) values (thne001,gine001,jata001,dodo001,tato002) on conditions leave_id = 115 #Mobile-App: Log-id=5239
+10:30:36 tato002 Tami Tam UPDATING data to tables `mc_leave` fields ( read_users ) values (thne001,gine001,jata001,dodo001,tato002) on conditions leave_id = 113 #Mobile-App: Log-id=5239
+10:32:18 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 51e9k5cop3oqfu5csgv6fgbr55
+10:32:38 gine001 Gilad Nevo UPDATING data to tables `mail` fields ( status ) values (1) on conditions id = 24
+10:32:44 gine001 Gilad Nevo UPDATING data to tables `mail` fields ( status ) values (1) on conditions id = 24
+10:33:00 tato002 Tami Tam UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (1) on conditions username = tato002 AND company_id = 6 #Mobile-App: Log-id=5239
+10:33:04 tato002 Tami Tam UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (2) on conditions username = tato002 AND company_id = 6 #Mobile-App: Log-id=5239
+10:33:11 gine001 Gilad Nevo INSERTING data into tables `mail` fields ( root_id, `from`, `to`, subject, message, attachments, status ) values ( 24, gine001, tato002, RE: Test, Tato002
+Haha
+
+Okej jag ser!!!, , 0 ) => {inserted_id = 25}
+10:33:11 tato002 Tami Tam UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (3) on conditions username = tato002 AND company_id = 6 #Mobile-App: Log-id=5239
+10:33:38 tato002 Tami Tam UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = tato002 AND company_id = 6 #Mobile-App: Log-id=5239
+10:33:38 tato002 Tami Tam INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( tato002, 194.103.185.17, CirrusM/1 CFNetwork/758.5.3 Darwin/15.6.0 ) => {inserted_id = 5240} #Mobile-App: Log-id=5239
+10:33:38 tato002 Tami Tam DELETE data from tables `temp_session` on conditions username LIKE tato002 #Mobile-App: Log-id=5240
+10:33:38 tato002 Tami Tam UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-09-23 10:33:38) on conditions username = tato002 #Mobile-App: Log-id=5240
+10:33:38 tato002 Tami Tam UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-09-23 10:33:38) on conditions username = tato002 AND company_id = 6 #Mobile-App: Log-id=5240
+10:33:53 tato002 Tami Tam UPDATING data to tables `mail` fields ( status ) values (1) on conditions id = 25 #Mobile-App: Log-id=5240
+10:47:57 root001 root001 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( root001, 79.102.83.195, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 ) => {inserted_id = 5241}
+10:47:57 root001 root001 DELETE data from tables `temp_session` on conditions username LIKE root001
+10:47:57 root001 root001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-09-23 10:47:57) on conditions username = root001
+15:24:23 rokl001 rokl001 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rokl001, 85.89.74.226, Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 ) => {inserted_id = 5242}
+15:25:04 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( password, last_pw_update_date, error ) values (379a4553409bea66e567016d5262894e, 2016-09-23 13:25:04, 0) on conditions username = rokl001 AND company_id = 6
+15:25:04 rokl001 rokl001 INSERTING data into tables `log_password` fields ( username, passwords ) values ( rokl001, ab667e64ffe7cd92c0ee5841bd458ed9 ) => {inserted_id = 0}
+15:25:04 rokl001 rokl001 DELETE data from tables `temp_session` on conditions username LIKE rokl001
+15:25:04 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-09-23 15:25:04) on conditions username = rokl001
+15:25:04 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-09-23 15:25:04) on conditions username = rokl001 AND company_id = 6
+15:25:04 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (rokl001) on conditions session_id = 55ghbscqhv80bqdu0tjfv04ro7
+15:26:24 rokl001 rokl001 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rokl001, 85.89.74.226, Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 ) => {inserted_id = 5243}
+15:26:24 rokl001 rokl001 DELETE data from tables `temp_session` on conditions username LIKE rokl001
+15:26:24 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-09-23 15:26:24) on conditions username = rokl001
+15:26:24 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-09-23 15:26:24) on conditions username = rokl001 AND company_id = 6
+15:26:25 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (rokl001) on conditions session_id = 55ghbscqhv80bqdu0tjfv04ro7

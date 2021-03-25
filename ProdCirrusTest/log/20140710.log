@@ -1,0 +1,6 @@
+07:50:29 gine001 root001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( password, mobile, role, error ) values (2f5d5c7041bed50bd147e002366b5576, , 3, 0) on conditions username = abni001
+07:50:29 gine001 root001 UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day, remaining_sem_leave, sem_leave_todate, leave_in_advance ) values (20024, 19, 1441122338, Abc, Nielsen, 1, , , , , , , 2012-11-01, #F4AC7F, 1, , , 0, 10.00, 0, , ) on conditions username = abni001
+07:50:34   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+07:50:34   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-07-10:05:50:34) on conditions id = 567 AND username = gine001
+07:50:51 abni001 Abc Nielsen INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( abni001, 212.179.80.234, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36 ) => {inserted_id = 1676}
+07:50:51 abni001 Abc Nielsen UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = abni001

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<paxml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.paxml.se/2.0/paxml.xsd">
+  <header>
+    <format>LÖNIN</format>
+    <version>2.0</version>
+    <foretagnamn>Libra - Test</foretagnamn>
+  </header>
+  <dimensioner>
+    <dimension dim="1" namn="Brukare"/>
+  </dimensioner>
+  <resultatenheter>
+    <resultatenhet dim="1" id="Lib06" namn="Libra Assistans"/>
+  </resultatenheter>
+  <lonetransaktioner>
+    <lonetrans persnr="199408074491">
+      <lonart>3358</lonart>
+      <antal>36</antal>
+      <datumfrom>2021-02-02T00:00:00</datumfrom>
+      <datumtom>2021-02-06T00:00:00</datumtom>
+      <resenheter>
+        <resenhet dim="1" id="Lib06"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="199408074491">
+      <lonart>3358</lonart>
+      <antal>32.25</antal>
+      <datumfrom>2021-02-08T00:00:00</datumfrom>
+      <datumtom>2021-02-12T00:00:00</datumtom>
+      <resenheter>
+        <resenhet dim="1" id="Lib06"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="199408074491">
+      <lonart>3358</lonart>
+      <antal>30.25</antal>
+      <datumfrom>2021-02-15T00:00:00</datumfrom>
+      <datumtom>2021-02-18T00:00:00</datumtom>
+      <resenheter>
+        <resenhet dim="1" id="Lib06"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="199408074491">
+      <lonart>3358</lonart>
+      <antal>27.75</antal>
+      <datumfrom>2021-02-23T00:00:00</datumfrom>
+      <datumtom>2021-02-26T00:00:00</datumtom>
+      <resenheter>
+        <resenhet dim="1" id="Lib06"/>
+      </resenheter>
+    </lonetrans>
+  </lonetransaktioner>
+</paxml>

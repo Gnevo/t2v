@@ -1,0 +1,60 @@
+08:15:00 thne001 thne001 DELETE data from tables `temp_session` on conditions username LIKE thne001
+08:15:00 thne001 Theodor Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( thne001, 85.227.159.29, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36 ) => {inserted_id = 3451}
+08:15:00 thne001 Theodor Nevo DELETE data from tables `temp_session` on conditions username LIKE thne001
+08:15:00 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-07-09 06:15:00) on conditions username = thne001
+08:15:00 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = iq3hqriij43k7075jq85s5pce7
+08:15:31 thne001 Theodor Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( thne001, adan001, 1, 0, 2015-01-01, 8, 16, 1, , thne001,  ) => {inserted_id = 7010}
+08:15:42 thne001 Theodor Nevo DELETE data from tables `temp_session` on conditions username LIKE thne001
+08:15:42 thne001 Theodor Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( thne001, 85.227.159.29, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36 ) => {inserted_id = 3452}
+08:15:42 thne001 Theodor Nevo DELETE data from tables `temp_session` on conditions username LIKE thne001
+08:15:42 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-07-09 06:15:42) on conditions username = thne001
+08:15:42 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = iq3hqriij43k7075jq85s5pce7
+08:16:55 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = iq3hqriij43k7075jq85s5pce7
+08:18:10 thne001 Theodor Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( thne001, adan001, 1, 0, 2015-12-28, 8, 16, 1, , thne001,  ) => {inserted_id = 7011}
+08:18:20 thne001 Theodor Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( thne001, adan001, 1, 0, 2015-12-31, 8, 16, 1, , thne001,  ) => {inserted_id = 7012}
+08:19:02 thne001 Theodor Nevo DELETE data from tables `timetable` on conditions id = 7011
+08:19:02 thne001 Theodor Nevo DELETE data from tables `timetable` on conditions id = 7012
+08:19:27 thne001 Theodor Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( thne001, adan001, 1, 0, 2016-01-05, 8, 16, 1, , thne001,  ) => {inserted_id = 7013}
+08:19:41 thne001 Theodor Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( thne001, adan001, 1, 0, 2016-01-07, 8, 16, 1, , thne001,  ) => {inserted_id = 7014}
+08:20:38 thne001 Theodor Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , adan001, 1, 0, 2014-12-31, 8, 16, 0, , thne001,  ) => {inserted_id = 7015}
+08:20:47 thne001 Theodor Nevo UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (adan001, thne001, 2014-12-31, 8.00, 16.00, 1, 0, 1, ) on conditions id = 7015
+08:22:19 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = iq3hqriij43k7075jq85s5pce7
+08:26:52 thne001 Theodor Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( thne001, adan001, 1, 0, 2015-12-30, 8, 16, 1, , thne001,  ) => {inserted_id = 7016}
+08:27:08 thne001 Theodor Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( thne001, adan001, 1, 0, 2016-01-01, 8, 16, 1, , thne001,  ) => {inserted_id = 7017}
+08:27:44 thne001 Theodor Nevo DELETE data from tables `timetable` on conditions id = 7013
+08:27:44 thne001 Theodor Nevo DELETE data from tables `timetable` on conditions id = 7014
+08:28:33 thne001 Theodor Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , adan001, 1, 0, 2014-01-01, 8, 16, 0, , thne001,  ) => {inserted_id = 7018}
+08:28:41 thne001 Theodor Nevo UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (adan001, thne001, 2014-01-01, 8.00, 16.00, 1, 0, 1, ) on conditions id = 7018
+08:30:44 thne001 Theodor Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( abni001, adan001, 1, 0, 2015-01-04, 8, 16, 1, , thne001,  ) => {inserted_id = 7019}
+08:31:14 thne001 Theodor Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( thne001, adan001, 1, 0, 2014-01-02, 8, 16, 1, , thne001,  ) => {inserted_id = 7020}
+08:31:39 thne001 Theodor Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , adan001, 1, 0, 2015-12-31, 8, 16, 0, , thne001,  ) => {inserted_id = 7021}
+08:31:52 thne001 Theodor Nevo DELETE data from tables `timetable` on conditions id = 7021
+08:32:06 thne001 Theodor Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( thne001, adan001, 1, 0, 2015-12-31, 8, 16, 1, , thne001,  ) => {inserted_id = 7022}
+08:35:27 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = iq3hqriij43k7075jq85s5pce7
+08:37:15 thne001 Theodor Nevo DELETE data from tables `timetable` on conditions id = 7016
+08:37:15 thne001 Theodor Nevo DELETE data from tables `timetable` on conditions id = 7022
+08:37:15 thne001 Theodor Nevo DELETE data from tables `timetable` on conditions id = 7017
+08:38:25 thne001 Theodor Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( abni001, adan001, 1, 0, 2015-12-24, 8, 16, 1, , thne001,  ) => {inserted_id = 7023}
+08:38:35 thne001 Theodor Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( abni001, adan001, 1, 0, 2015-12-23, 8, 16, 1, , thne001,  ) => {inserted_id = 7024}
+08:38:48 thne001 Theodor Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment, relation_id ) values ( abni001, adan001, 1, 0, 2016-01-06, 8.00, 16.00, 1, , thne001, ,  ), ( abni001, adan001, 1, 0, 2016-01-07, 8.00, 16.00, 1, , thne001, ,  ) => {inserted_id = 7025}
+08:39:29 thne001 Theodor Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( cehe001, adan001, 1, 0, 2015-12-30, 8, 16, 1, , thne001,  ) => {inserted_id = 7027}
+08:39:40 thne001 Theodor Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( cehe001, adan001, 1, 0, 2015-12-31, 8, 16, 1, , thne001,  ) => {inserted_id = 7028}
+08:39:52 thne001 Theodor Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment, relation_id ) values ( thne001, adan001, 1, 0, 2015-01-07, 8.00, 16.00, 1, , thne001, ,  ), ( thne001, adan001, 1, 0, 2015-01-08, 8.00, 16.00, 1, , thne001, ,  ), ( abni001, adan001, 1, 0, 2015-01-11, 8.00, 16.00, 1, , thne001, ,  ) => {inserted_id = 7029}
+08:47:27 thne001 Theodor Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( thne001, adan001, 1, 0, 2015-12-30, 8, 16, 1, , thne001,  ) => {inserted_id = 7032}
+08:47:49 thne001 Theodor Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( thne001, adan001, 1, 0, 2015-12-31, 8, 16, 1, , thne001,  ) => {inserted_id = 7033}
+08:48:08 thne001 Theodor Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( thne001, adan001, 1, 0, 2016-01-01, 8, 16, 1, , thne001,  ) => {inserted_id = 7034}
+08:48:39 thne001 Theodor Nevo DELETE data from tables `timetable` on conditions id = 7032
+08:48:39 thne001 Theodor Nevo DELETE data from tables `timetable` on conditions id = 7033
+08:48:39 thne001 Theodor Nevo DELETE data from tables `timetable` on conditions id = 7034
+08:52:02 thne001 Theodor Nevo DELETE data from tables `temp_session` on conditions username LIKE thne001
+08:52:03 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2015-07-09 06:52:02) on conditions username = thne001
+08:52:03   UPDATING data to tables `log_login` fields ( logout_time ) values (2015-07-09:06:52:03) on conditions id = 3452 AND username = thne001
+13:43:45 thne001  DELETE data from tables `temp_session` on conditions username LIKE thne001
+13:43:46 thne001 Theodor Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( thne001, 85.227.159.29, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36 ) => {inserted_id = 3453}
+13:43:46 thne001 Theodor Nevo DELETE data from tables `temp_session` on conditions username LIKE thne001
+13:43:46 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-07-09 11:43:46) on conditions username = thne001
+13:43:46 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = 6cnd8jp8jfba9hpqo4shhs1cn3
+13:46:32 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = 6cnd8jp8jfba9hpqo4shhs1cn3
+13:49:47 thne001 Theodor Nevo DELETE data from tables `temp_session` on conditions username LIKE thne001
+13:49:47 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2015-07-09 11:49:47) on conditions username = thne001
+13:49:47   UPDATING data to tables `log_login` fields ( logout_time ) values (2015-07-09:11:49:47) on conditions id = 3453 AND username = thne001

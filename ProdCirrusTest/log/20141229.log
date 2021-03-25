@@ -1,0 +1,28 @@
+11:14:03 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+11:14:03 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.203.22, Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0 ) => {inserted_id = 2175}
+11:14:03 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+11:14:03 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+11:16:00 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( role, mobile ) values (1, 7898652) on conditions username = jata001
+11:16:00 gine001 Gilad Nevo UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day, remaining_sem_leave, sem_leave_todate, leave_in_advance, care_of, office_personal ) values (510, 19, 4008209415, Janne, Tandodall, 1, Hantverkargatan 24, Boliden, 859 65, 706471248, 7898652, kurt_sjoblom@hotmail.com, 2005-08-21, #FFFF9F, 1, , , 0, 10.00, 0, , , , ) on conditions username = jata001
+11:43:49 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( role, mobile ) values (1, 7898652) on conditions username = jata001
+11:43:49 gine001 Gilad Nevo UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day, remaining_sem_leave, sem_leave_todate, leave_in_advance, care_of, office_personal ) values (510, 19, 4008209415, Janne, Tandodall, 1, Hantverkargatan 24, Boliden, 859 65, 706471248, 7898652, kurt_sjoblom@hotmail.com, 2005-08-21, #FFFF9F, 1, , , 0, 10.00, 0, , , , ) on conditions username = jata001
+12:18:58 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( password, mobile, role, error ) values (436d9702e955ad461fade9851c2e7289, 7898652, 1, 0) on conditions username = jata001
+12:18:58 gine001 Gilad Nevo UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day, remaining_sem_leave, sem_leave_todate, leave_in_advance, care_of, office_personal ) values (510, 19, 4008209415, Janne, Tandodall, 1, Hantverkargatan 24, Boliden, 859 65, 706471248, 7898652, kurt_sjoblom@hotmail.com, 2005-08-21, #FFFF9F, 1, , , 0, 10.00, 0, , , , 1) on conditions username = jata001
+12:20:11 jata001 Janne Tandodall INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( jata001, 79.102.203.22, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 ) => {inserted_id = 2176}
+12:20:44 jata001 Janne Tandodall UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( password, date, error ) values (a29137d43fba7fc95044d59746684b6f, 2014-12-29, 0) on conditions username = jata001
+12:20:44 jata001 Janne Tandodall UPDATING data to tables `log_password` fields ( passwords ) values (30981427d883c2cd96c5b194c82d393f,fcdc6eef89d59b792ef0dc68a735f564,06089b141e635d8517faf08816f04519,436d9702e955ad461fade9851c2e7289) on conditions username = jata001
+12:20:44 jata001 Janne Tandodall DELETE data from tables `temp_session` on conditions username LIKE jata001
+12:20:44 jata001 Janne Tandodall UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = jata001
+12:22:17 jata001 Janne Tandodall DELETE data from tables `temp_session` on conditions username LIKE jata001
+12:22:17 jata001 Janne Tandodall UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = jata001
+12:22:17   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-12-29:11:22:17) on conditions id = 2176 AND username = jata001
+12:22:27 jata001 Janne Tandodall INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( jata001, 79.102.203.22, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 ) => {inserted_id = 2177}
+12:22:27 jata001 Janne Tandodall DELETE data from tables `temp_session` on conditions username LIKE jata001
+12:22:27 jata001 Janne Tandodall UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = jata001
+12:26:54 jata001 Janne Tandodall DELETE data from tables `temp_session` on conditions username LIKE jata001
+12:26:54 jata001 Janne Tandodall UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = jata001
+12:26:54   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-12-29:11:26:54) on conditions id = 2177 AND username = jata001
+16:13:26 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+16:13:26 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.203.22, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 ) => {inserted_id = 2178}
+16:13:26 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+16:13:26 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001

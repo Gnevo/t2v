@@ -1,0 +1,61 @@
+11:24:22 rokl001 Tove Rönnings DELETE data from tables `temp_session` on conditions username LIKE rokl001
+11:24:22 rokl001 rokl001 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rokl001, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36 ) => {inserted_id = 4141}
+11:24:22 rokl001 rokl001 DELETE data from tables `temp_session` on conditions username LIKE rokl001
+11:24:22 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-12-01 10:24:22) on conditions username = rokl001
+11:24:23 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (rokl001) on conditions session_id = 1elbbrqpjbloc8mkf70t5o86u0
+11:24:54 rokl001 rokl001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( chfr001, anst007, 1, 0, 2015-12-04, 8, 17, 1, , rokl001,  ) => {inserted_id = 8357}
+11:25:14 rokl001 rokl001 UPDATING data to tables `timetable` fields ( time_to, status ) values (12, 2) on conditions id = 8357
+11:25:14 rokl001 rokl001 INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, employee, status ) values ( anst007, 2015-12-04, 8.00, 12, 0, 1, , rokl001, 8357, anra004, 1 ) => {inserted_id = 8358}
+11:25:14 rokl001 rokl001 INSERTING data into tables `timetable` fields ( employee, customer, date, time_from, time_to, type, fkkn, status, comment, alloc_emp ) values ( chfr001, anst007, 2015-12-04, 12, 17.00, 0, 1, 1, , rokl001 ) => {inserted_id = 8359}
+11:26:38 rokl001 rokl001 UPDATING data to tables `timetable` fields ( time_from, status ) values (12, 2) on conditions id = 8357
+11:26:38 rokl001 rokl001 INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, employee, status ) values ( anst007, 2015-12-04, 12, 17.00, 0, 1, , rokl001, 8357, last002, 1 ) => {inserted_id = 8360}
+11:26:38 rokl001 rokl001 INSERTING data into tables `timetable` fields ( employee, customer, date, time_from, time_to, type, fkkn, status, comment, alloc_emp ) values ( chfr001, anst007, 2015-12-04, 8.00, 12, 0, 1, 1, , rokl001 ) => {inserted_id = 8361}
+11:26:56 rokl001 rokl001 DELETE data from tables `temp_session` on conditions username LIKE rokl001
+11:26:56 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2015-12-01 10:26:56) on conditions username = rokl001
+11:26:56   UPDATING data to tables `log_login` fields ( logout_time ) values (2015-12-01:10:26:56) on conditions id = 4141 AND username = rokl001
+11:33:22 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+11:33:22 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.203.97, Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0 ) => {inserted_id = 4142}
+11:33:22 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+11:33:22 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-12-01 10:33:22) on conditions username = gine001
+13:28:37 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+13:28:37 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 223.30.129.234, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/41.0.2272.76 Chrome/41.0.2272.76 Safari/537.36 ) => {inserted_id = 4143}
+13:28:37 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+13:28:37 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-12-01 12:28:37) on conditions username = gine001
+13:28:37 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( error ) values (0) on conditions username = gine001
+13:28:38 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = sgup5lp3qp5b65if100l9dgqa0
+13:29:03 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( chyi001, anst007, 1, 0, 2015-11-25, 1, 2, 1, , gine001,  ) => {inserted_id = 8362}
+13:31:43 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+13:31:43 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2015-12-01 12:31:43) on conditions username = gine001
+13:31:43   UPDATING data to tables `log_login` fields ( logout_time ) values (2015-12-01:12:31:43) on conditions id = 4143 AND username = gine001
+13:51:27 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+13:51:27 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 223.30.129.234, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/41.0.2272.76 Chrome/41.0.2272.76 Safari/537.36 ) => {inserted_id = 4144}
+13:51:27 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+13:51:27 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-12-01 12:51:27) on conditions username = gine001
+13:51:28 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = l3nusjiiia8kkuiumfgso16mh7
+13:51:42 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 8357
+13:51:42 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( anst007, 2015-12-04, 8.00, 17.00, 0, 1, , gine001, 8357, 0 ) => {inserted_id = 8363}
+13:51:42 gine001 Gilad Nevo INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 107, chfr001, 2015-12-04, 8, 17, 1, , gine001, 0, 1 ) => {inserted_id = 354}
+13:51:47 gine001 Gilad Nevo UPDATING data to tables `leave` fields ( status, appr_emp, appr_date ) values (1, gine001, 2015-12-01) on conditions group_id = 107
+13:52:00 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status ) values (1) on conditions (id IN ( '8357' )) AND customer is NOT NULL AND customer != 
+13:52:00 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status ) values (0) on conditions (id IN ( '8357' )) AND (customer is NULL OR customer = )
+13:52:00 gine001 Gilad Nevo DELETE data from tables `timetable` on conditions relation_id = 8357
+13:52:00 gine001 Gilad Nevo DELETE data from tables `leave` on conditions id = 354
+13:55:20 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+13:55:20 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2015-12-01 12:55:20) on conditions username = gine001
+13:55:20   UPDATING data to tables `log_login` fields ( logout_time ) values (2015-12-01:12:55:20) on conditions id = 4144 AND username = gine001
+14:13:05 thne001 thne001 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = rcqh2uju7oolet74p5n1fu3mq3
+14:13:51 thne001 thne001 UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (anst007, chfr001, 2015-12-04, 8.00, 17, 1, 0, 1, ) on conditions id = 8357
+14:16:18 thne001 thne001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( mali008, anst007, 1, 0, 2015-12-05, 8, 19, 1, , thne001,  ) => {inserted_id = 8364}
+14:16:22 thne001 thne001 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = rcqh2uju7oolet74p5n1fu3mq3
+14:16:28 thne001 thne001 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = rcqh2uju7oolet74p5n1fu3mq3
+14:16:32 thne001 thne001 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = rcqh2uju7oolet74p5n1fu3mq3
+14:16:54 thne001 thne001 UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (anst007, chfr001, 2015-12-04, 8.00, 10, 1, 0, 1, ) on conditions id = 8357
+14:20:27 thne001 thne001 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = rcqh2uju7oolet74p5n1fu3mq3
+14:22:59 thne001 thne001 INSERTING data into tables `time2vie_cirruscommon`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, category_id, priority, ticket_type, status, hidden ) values ( 532, thne001, <p>Bifogat bild med själva problemet.&nbsp;</p>, 1, 4, 1, 3, 1 ) => {inserted_id = 1580}
+14:22:59 thne001 thne001 UPDATING data to tables `time2vie_cirruscommon`.`support_ticket_answers` fields ( attachment ) values (1448976179_532_1.png) on conditions id = 1580
+20:35:28 rokl001  DELETE data from tables `temp_session` on conditions username LIKE rokl001
+20:35:28 rokl001 rokl001 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rokl001, 85.89.81.244, Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 ) => {inserted_id = 4145}
+20:35:28 rokl001 rokl001 DELETE data from tables `temp_session` on conditions username LIKE rokl001
+20:35:28 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-12-01 19:35:28) on conditions username = rokl001
+20:35:29 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (rokl001) on conditions session_id = 19ld220s16s9k6c61is4dabus3
+20:36:06 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (rokl001) on conditions session_id = 19ld220s16s9k6c61is4dabus3

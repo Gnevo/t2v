@@ -1,0 +1,17 @@
+18:13:56 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.119.97, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393 ) => {inserted_id = 5342}
+18:13:56 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+18:13:56 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-11-22 18:13:56) on conditions username = gine001
+18:13:56 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-11-22 18:13:56) on conditions username = gine001 AND company_id = 6
+18:13:56 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = c095e127daecf3a73d9c763a122a3804
+18:14:14 gine001 Gilad Nevo DELETE data from tables `signing_employer_data` on conditions master_id = 75 AND employee = gine001
+18:14:14 gine001 Gilad Nevo INSERTING data into tables `report_signing_delete` fields ( employee, customer, report_date, deleted_by, type ) values ( gine001, anst007, 2016-10-01, gine001, 1 ) => {inserted_id = 0}
+18:14:14 gine001 Gilad Nevo DELETE data from tables `report_signing` on conditions employee = gine001 AND customer = anst007 AND YEAR(date) = 2016 AND MONTH(date) = 10
+18:14:14 gine001 Gilad Nevo INSERTING data into tables `report_signing_delete` fields ( employee, customer, report_date, deleted_by ) values ( gine001, anst007, 2016-10-01, gine001 ) => {inserted_id = 0}
+18:14:14 gine001 Gilad Nevo DELETE data from tables `signing_employer` on conditions id = 75
+18:14:50 gine001 Gilad Nevo DELETE data from tables `report_signing` on conditions employee = gine001 AND customer = stal001 AND date = 2016-9-1
+18:14:50 gine001 Gilad Nevo INSERTING data into tables `report_signing_delete` fields ( employee, customer, report_date, deleted_by ) values ( gine001, stal001, 2016-9-1, gine001 ) => {inserted_id = 0}
+18:14:58 gine001 Gilad Nevo DELETE data from tables `report_signing` on conditions employee = gine001 AND customer = anst007 AND date = 2016-8-1
+18:14:58 gine001 Gilad Nevo INSERTING data into tables `report_signing_delete` fields ( employee, customer, report_date, deleted_by ) values ( gine001, anst007, 2016-8-1, gine001 ) => {inserted_id = 0}
+18:15:08 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = c095e127daecf3a73d9c763a122a3804
+18:15:12 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = c095e127daecf3a73d9c763a122a3804
+18:15:15 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = c095e127daecf3a73d9c763a122a3804

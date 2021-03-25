@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+    <label>
+        <key>assigned_slots</key>
+        <value>تغطية وقت العمل</value>
+    </label>
+    <label>
+        <key>memory_slots</key>
+        <value>وقت التذكر</value>
+    </label>
+    <label>
+        <key>click_to_add_new_time_slot</key>
+        <value>اضغط لاضافة وقت جديد</value>
+    </label>
+    <label>
+        <key>customer_list</key>
+        <value>قائمة العملاء. اجراءات العمل غير جاهزة</value>
+    </label>
+    <label>
+        <key>companies_to_be_assigned</key>
+        <value>زبون. قائمة العمل غير جاهزة</value>
+    </label>
+    <label>
+        <key>workers_to_be_assigned</key>
+        <value>زيادة الوقت.عامل</value>
+    </label>
+    <label>
+        <key>workers_on_leave</key>
+        <value>غياب. موظفين</value>
+    </label>
+    <label>
+        <key>date</key>
+        <value>تاريخ</value>
+    </label>
+    <label>
+        <key>select_skill</key>
+        <value>اضافة الخبرة</value>
+    </label>
+    <label>
+        <key>select_employee</key>
+        <value>اضافة موظف</value>
+    </label>
+    <label>
+        <key>select_customer</key>
+        <value>اضافة زبون</value>
+    </label>
+    <label>
+        <key>customer</key>
+        <value>زبون</value>
+    </label>
+    <label>
+        <key>employee</key>
+        <value>معلومات المساعد</value>
+    </label>
+    <label>
+        <key>slots_allocation</key>
+        <value>احجز وقت</value>
+    </label>
+    <label>
+        <key>slots_management</key>
+        <value>تعديل</value>
+    </label>
+    <label>
+        <key>slots_process</key>
+        <value>تعامل</value>
+    </label>
+    <label>
+        <key>vacum _cleaner</key>
+        <value>مكنسة كهربائية</value>
+    </label>
+    <label>
+        <key>company_name</key>
+        <value>اسم الشركة</value>
+    </label>
+    <label>
+        <key>worker_name</key>
+        <value>اسم الموظف</value>
+    </label>
+    <label>
+        <key>time_range</key>
+        <value>وقت اللعب</value>
+    </label>
+    <label>
+        <key>to</key>
+        <value>منسوخ الى تاريخ</value>
+    </label>
+    <label>
+        <key>leave_type</key>
+        <value>التراحع عن الاختيار</value>
+    </label>
+    <label>
+        <key>comments</key>
+        <value>تعاليق</value>
+    </label>
+    <label>
+        <key>time</key>
+        <value>وقت</value>
+    </label>
+    <label>
+        <key>basic_schedule_week</key>
+        <value>الجدول الاساسي للاسبوع</value>
+    </label>
+    <label>
+        <key>basic_schedule_day</key>
+        <value>الجدول الاساسي لليوم</value>
+    </label>
+    <label>
+        <key>copy_slots</key>
+        <value>نسخ الوقت</value>
+    </label>
+    <label>
+        <key>delete_slots</key>
+        <value>امحي الوقت</value>
+    </label>
+    <label>
+        <key>replace_user</key>
+        <value>تعويض مساعد</value>
+    </label>
+    <label>
+        <key>make_leave</key>
+        <value>غياب</value>
+    </label>
+    <label>
+        <key>with_user</key>
+        <value>مع مساعد</value>
+    </label>
+    <label>
+        <key>without_user</key>
+        <value>دون مساعد</value>
+    </label>
+    <label>
+        <key>copy_from</key>
+        <value>انسخ من</value>
+    </label>
+     <label>
+        <key>from_week</key>
+        <value>من اسبوع</value>
+    </label>
+    <label>
+        <key>no_of_weeks</key>
+        <value>مقالات. اسابيع</value>
+    </label>
+    <label>
+        <key>copy_to</key>
+        <value>الى اسبوع</value>
+    </label>
+    <label>
+        <key>no_of_times</key>
+        <value>مقالات. مرات</value>
+    </label>
+    <label>
+        <key>copy_options</key>
+        <value>مرحلة منسوخة</value>
+    </label>
+    <label>
+        <key>copy_upto</key>
+        <value>الى اسبوع</value>
+    </label>
+    <label>
+        <key>every_week</key>
+        <value>كل اسبوع</value>
+    </label>
+    <label>
+        <key>every_2</key>
+        <value>بالتناوب</value>
+    </label>
+    <label>
+        <key>every_3</key>
+        <value>كل ثلاثة</value>
+    </label>
+    <label>
+        <key>every_4</key>
+        <value>كل اربعة</value>
+    </label>
+    <label>
+        <key>confirm_delete</key>
+        <value>تثبيت الحذف</value>
+    </label>
+    <label>
+        <key>travel</key>
+        <value>الوقت المتبقي</value>
+    </label>
+    <label>
+        <key>normal</key>
+        <value>الوقت الطبيعي</value>
+    </label>
+    <label>
+        <key>break</key>
+        <value>فرصة مدفوعة</value>
+    </label>
+    <label>
+        <key>oncall</key>
+        <value>وقت الانتظار</value>
+    </label>
+    <label>
+        <key>overtime</key>
+        <value>وقت اضافي</value>
+    </label>
+    <label>
+        <key>qual_overtime</key>
+        <value>نوعية. وقت اضافي</value>
+    </label>
+    <label>
+        <key>more_time</key>
+        <value>وقت الساعة</value>
+    </label>
+     <label>
+        <key>some_other_time</key>
+        <value>تعليم</value>
+    </label>      
+    <label>
+        <key>training_time</key>
+        <value>مقدمة</value>
+    </label>
+    <label>
+        <key>call_training</key>
+        <value>وقت انتظار المقدمة</value>
+    </label>
+    <label>
+        <key>personal_meeting</key>
+        <value>اجتماع الاعضاء</value>
+    </label>
+    <label>
+        <key>select_one_slot</key>
+        <value>اختيار على الاقل وقت</value>
+    </label>
+    <label>
+        <key>in_focus</key>
+        <value>مختار</value>
+    </label>
+    <label>
+        <key>out_focus</key>
+        <value>الجميع</value>
+    </label>
+    <label>
+        <key>unmanned</key>
+        <value>بالاضافي. غير مزود بشخص</value>
+    </label>
+	<!-- Start Global setting page Added By Rahul : 3-10-2012 -->
+	<label>
+        <key>global_setting</key>
+        <value>اعدادات قانون وقت العمل</value>
+    </label>
+	<!-- End Global setting page Added By Rahul : 3-10-2012 -->
+     <label>
+        <key>no_elements_selected</key>
+        <value>اوقات غير مختارة</value>
+     </label>
+     <label>
+        <key>add_selected</key>
+        <value> اضافة الاوقات المختارة</value>
+    </label> 
+    <label>
+        <key>overlapped</key>
+        <value>اوقات متداخلة</value>
+    </label>
+    <label>
+        <key>unsick_from</key>
+        <value>يرجع من الساعة</value>
+    </label>
+    <label>
+        <key>schedule</key>
+        <value>برنامج</value>
+    </label>
+    <label>
+        <key>manage</key>
+        <value>تعديل</value>
+    </label>
+    <label>
+        <key>delete_options</key>
+        <value>حذف الفرصr</value>
+    </label>
+    <label>
+        <key>assign_multiple_slots</key>
+        <value>تخصيص الامام وحذف</value>
+    </label>
+    <label>
+        <key>do_you_want_schema_assignment</key>
+        <value>سوف ينسخ المساعد والوقت بعدة ايام\شهور؟</value>
+    </label>
+    <label>
+        <key>do_you_want_to_reset_substitute_slots</key>
+        <value>اتريد اعادة وقت العمل؟</value>
+    </label>
+    <label>
+        <key>employee_label_for_gdschema_slot_manage</key>
+        <value>مساعد</value>
+    </label>
+    <label>
+        <key>customer_label_for_gdschema_slot_manage</key>
+        <value>زبون:</value>
+    </label>
+    <label>
+        <key>do_you_want_to_change_as_oncall_slot</key>
+        <value>الوقت الذي ساهمت به موجود في وقت الانتظار\فترة الطوائ. هل وقت العمل سيسجل كوقت للانتظار؟</value>
+    </label>
+    <label>
+        <key>employee_worked_hour</key>
+        <value>ساعات المشغولة</value>
+    </label>
+    <label>
+        <key>none</key>
+        <value>لا يوجد بديل</value>
+    </label>
+    <label>
+        <key>replacement_employee</key>
+        <value>مساعد البديل </value>
+    </label>
+    <label>
+        <key>dont_show_again</key>
+        <value>لا تظهر كل هذا مرة ثانية</value>
+    </label>
+    <label>
+        <key>remove_dont_show_again_button</key>
+        <value>اعادة عرض نسخ كل شئ</value>
+    </label>
+     <label>
+        <key>copy</key>
+        <value>نسخ</value>                    ا
+    </label>
+     <label>
+        <key>paste</key>
+        <value>لزق</value>
+    </label>
+    <label>
+        <key>cannot_add</key>
+        <value>لا يمكن الاضافة</value>
+    </label>
+    <label>
+        <key>select_atleast_one_slot</key>
+        <value>اختار على الاقل وقت</value>
+    </label>
+    <label>
+        <key>add_employee</key>
+        <value>ايصال الوظف</value>
+    </label>
+    <label>
+        <key>change_action</key>
+        <value>تغيير</value>
+    </label>
+    <label>
+        <key>delete_action</key>
+        <value>مسح</value>
+    </label>
+    <label>
+        <key>confirm_changes</key>
+        <value>تثبيت التغييرات</value>
+    </label>
+    <label>
+        <key>change_slot</key>
+        <value>تغيير وقت العمل</value>
+    </label>
+    <label>
+        <key>change_employee</key>
+        <value>تغيير الموظف</value>
+    </label>
+    <label>
+        <key>change_customer</key>
+        <value>تغيير الزبون</value>
+    </label>
+    <label>
+        <key>go_to_week</key>
+        <value>انتقال الى اسبوع</value>
+    </label>
+    <label>
+        <key>go_to_employee</key>
+        <value>انتقال الى الموظف</value>
+    </label>
+    <label>
+        <key>go_to_customer</key>
+        <value>انتقال الى الزبون</value>
+    </label>
+    <label>
+        <key>change_slot_type</key>
+        <value>تغيير نوعية وقت العمل</value>
+    </label>
+    <label>
+        <key>select_customer</key>
+        <value>اختار الزبون</value>
+    </label>
+    <label>
+        <key>slots_are_already_existed_on_week</key>
+        <value>وقت العمل موجد سابقا بالاسبوع</value>
+    </label>
+    <label>
+        <key>several</key>
+        <value>زيادة....</value>
+    </label>
+    <label>
+        <key>select_employee</key>
+        <value>اخار المساعد</value>
+    </label> 
+      <label>
+        <key>cannot_paste</key>
+        <value>ليس بإمكان اللزق هنا</value>
+    </label> 
+    <label>
+        <key>overlapped</key>
+        <value>تداخل</value>
+    </label>
+    <label>
+        <key>slot_type</key>
+        <value>مثل الوقت </value>
+    </label>
+    <label>
+        <key>and_more_slots_found</key>
+        <value>عدة اوقات مختارين</value>
+    </label>
+    <label>
+        <key>no_employee</key>
+        <value>لم يختار بعد مساعد</value>
+    </label>
+    <label>
+        <key>no_customer</key>
+        <value>لم يختار بعد زبون</value>
+    </label>
+    <label>
+        <key>go_to</key>
+        <value>الانتقال الى</value>
+    </label>
+    <label>
+        <key>slot</key>
+        <value>وقت العمل</value>
+    </label>
+    <label>
+        <key>atl</key>
+        <value>قانون وقت العمل</value>
+    </label>
+    <label>
+        <key>atl_check</key>
+        <value>قانون وقت العمل. نص الدخل الشهري</value>
+    </label>
+    <label>
+        <key>select_month</key>
+        <value>اختار شهر</value>
+    </label>
+    <label>
+        <key>big_process</key>
+        <value>متعدد الوظائف</value>
+    </label>
+    <label>
+        <key>employee_processmain_delete</key>
+        <value>مساعد </value>
+    </label>
+    <label>
+        <key>unmanned_process_delete</key>
+        <value>وقت غير مزود بالحضور
+    <label>
+        <key>voluntary</key>
+        <value>عمل فولنتاري</value>
+    </label>
+    <label>
+        <key>complementary</key>
+        <value>وقت مكمل</value>
+    </label>
+    <label>
+        <key>complementary_oncall</key>
+        <value>وقت مكمل. وقت انتظار</value>
+    </label>
+    <label>
+        <key>confirm_delete_customer</key>
+        <value>سوف يمحى الزبون؟</value>
+    </label>
+    <label>
+        <key>confirm_delete_slot</key>
+        <value>سوف يمحى الوقت؟</value>
+    </label>
+    <label>
+        <key>karense</key>
+        <value>اول يوم مرضية</value>
+    </label>
+    <label>
+        <key>no_karense</key>
+        <value>لا امكانية لاول يوم مرض</value>
+    </label>
+    <label>
+        <key>save_timeslot</key>
+        <value>تخزين كوقت التذكير</value>
+    </label>
+    <label>
+        <key>unavailable_employees</key>
+        <value>مساعدين غير متوفرين</value>
+    </label>
+    <label>
+        <key>monthly_view</key>
+        <value>راي الشهري</value>
+    </label>
+    <label>
+        <key>right_click_menu_contract</key>
+        <value>عقد الوظيفة</value>
+    </label>
+    <label>
+        <key>more_oncall</key>
+        <value>وقت الانتظار. وقت الساعة</value>
+    </label>
+    <label>
+        <key>employees_work_summery</key>
+        <value>لمحة عامة-وقت عمل الموظفين خلال هذا الشهر</value>
+    </label>
+    <label>
+        <key>normal_work_percent</key>
+        <value>الوقت العادي بالمئة</value>
+    </label>
+    <label>
+        <key>oncall_work_percent</key>
+        <value>وقت النتظار بالمئة</value>
+    </label>
+    <label>
+        <key>week_end_travel</key>
+        <value>باقي الوقت عطلة</value>
+    </label>
+    <label>
+        <key>replacing_employee</key>
+        <value>تعويض للمساعد</value>
+    </label>
+    <label>
+        <key>replacer_employees</key>
+        <value>بديل للمساعد</value>
+    </label>
+    <label>
+        <key>is_this_karense</key>
+        <value>هل هذه المرحلة ستحتوي على اول يوم للمرض كارنس؟</value>
+    </label>
+    <label>
+        <key>enter_date_and_time</key>
+        <value>ادخال التاريخ والوقت</value>
+    </label>
+    <label>
+        <key>incomplete_slot_times</key>
+        <value>افتقاد وقت العمل من والى</value>
+    </label>
+    <label>
+        <key>please_add_slots</key>
+        <value>ارجوك اضافة فتحات</value>
+    </label>
+    <label>
+        <key>karense_included</key>
+        <value>اضافة وقت الكرنس</value>
+    </label>
+    <label>
+        <key>karense_not_included</key>
+        <value>يوم الكرنس غير مضاف</value>
+    </label>
+    <label>
+        <key>select_template</key>
+        <value>اختار القالب</value>
+    </label>
+    <label>
+        <key>template_view</key>
+        <value>قوالب محفوظة</value>
+    </label>
+    <label>
+        <key>template_slots_are_empty_in_this_month</key>
+        <value>وقت العمل في هذا القالب غير مزود بشخص</value>
+    </label>
+    <label>
+        <key>sms</key>
+        <value>برقية</value>
+    </label>
+    <label>
+        <key>upto_no_of_months</key>
+        <value>اعداد اشهر</value>
+    </label>
+    <label>
+        <key>template_not_exist</key>
+        <value>Maالقالب غير موجودllen finns ej</value>
+    </label>
+    <label>
+        <key>confirm_delete_template</key>
+        <value>هل سيمحى القالب</value>
+    </label>
+    <label>
+        <key>new_template</key>
+        <value>قالب جديد</value>
+    </label>
+    <label>
+        <key>create_template</key>
+        <value>تشكيل قالب برنامجي</value>
+    </label>
+    <label>
+        <key>oncall_standby</key>
+        <value>تأهب</value>
+    </label>
+    <label>
+        <key>standby</key>
+        <value>تأهب</value>
+    </label>
+    <label>
+        <key>password_expiry_message_left</key>
+        <value>رقمك السري ينقضي خلال</value>
+    </label>
+    <label>
+        <key>password_expiry_message_right</key>
+        <value>ايام. من فضلك غير كلمة السر</value>
+    </label>
+    <label>
+        <key>total_work_hours</key>
+        <value>مجموع وقت العمل</value>
+    </label>
+    <label>
+        <key>total_work_hours_in_customer</key>
+        <value>مجموع وقت العمل عند الزبون</value>
+    </label>
+    <label>
+        <key>weekly_view</key>
+        <value>عرض الاسبوع</value>
+    </label>
+    <label>
+        <key>month_view_tooltip_short</key>
+        <value>شهر</value>
+    </label>
+    <label>
+        <key>date_passed_substitute_slots_cant_remove</key>
+        <value>التاريخ قد مضى. لا يمكن استعادة وقت العمل</value>
+    </label>
+    <label>
+        <key>note_shortcode</key>
+        <value>انتباهه</value>
+    </label>
+    <label>
+        <key>confirm_cancel_leave</key>
+        <value>هل الغياب سيمحى؟</value>
+    </label>
+    <label>
+        <key>confirm_back_to_work</key>
+        <value>هل سيعود المساعد الى العمل</value>
+    </label>
+    <label>
+        <key>karense_not_possible</key>
+        <value>موجود وموضوع حاليا كارنس</value>
+    </label>
+    <label>
+        <key>send_sms</key>
+        <value>ارسال برقية</value>
+    </label>
+    <label>
+        <key>karense_days</key>
+        <value>اول يوم مرضية كرنس</value>
+    </label>
+     <label>
+        <key>unmanned_slot_header</key>
+        <value>Unmanned slot</value>
+    </label>
+    <label>
+        <key>unmanned_slot</key>
+        <value>Unmanned slot</value>
+    </label>
+    <label>
+        <key>unmanned_slot_Karensdag</key>
+        <value>Karensdag :</value>
+    </label>
+</content>

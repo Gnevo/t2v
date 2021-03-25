@@ -1,0 +1,18 @@
+19:06:27 gine001 gine001 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 90.227.122.3, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0 ) => {inserted_id = 8}
+19:06:27 gine001 gine001 DELETE data from tables `temp_session` on conditions username LIKE gine001
+19:06:27 gine001 gine001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-03-24 19:06:27) on conditions username = gine001
+19:06:27 gine001 gine001 UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-03-24 19:06:27) on conditions username = gine001 AND company_id = 20
+19:06:42 gine001 gine001 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 90.227.122.3, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0 ) => {inserted_id = 9}
+19:06:42 gine001 gine001 DELETE data from tables `temp_session` on conditions username LIKE gine001
+19:06:42 gine001 gine001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-03-24 19:06:42) on conditions username = gine001
+19:06:42 gine001 gine001 UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-03-24 19:06:42) on conditions username = gine001 AND company_id = 20
+19:06:43 gine001 gine001 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 3040f95fbe0244227208fe95c35f777b
+19:06:54 gine001 gine001 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 3040f95fbe0244227208fe95c35f777b
+21:23:29 gine001 gine001 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 3040f95fbe0244227208fe95c35f777b
+22:02:16 gine001 gine001 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 3040f95fbe0244227208fe95c35f777b
+22:14:30 gine001 gine001 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 90.227.122.3, Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.3 Safari/605.1.15 ) => {inserted_id = 10}
+22:14:30 gine001 gine001 DELETE data from tables `temp_session` on conditions username LIKE gine001
+22:14:30 gine001 gine001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-03-24 22:14:30) on conditions username = gine001
+22:14:30 gine001 gine001 UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-03-24 22:14:30) on conditions username = gine001 AND company_id = 20
+22:14:32 gine001 gine001 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 4b6fe14ac5c5af84b4ceffd629c61127
+22:14:45 gine001 gine001 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 4b6fe14ac5c5af84b4ceffd629c61127

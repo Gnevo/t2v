@@ -1,0 +1,19 @@
+07:24:22 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+07:24:22 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.153.241, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0 ) => {inserted_id = 6641}
+07:24:22 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+07:24:22 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-06-21 07:24:22) on conditions username = gine001
+07:24:22 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-06-21 07:24:22) on conditions username = gine001 AND company_id = 6
+07:24:23 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 34ca082c7d941cc9a6b62a4ba99bd97f
+13:38:39 thne001 Theodor Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( thne001, 85.227.153.241, Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36 ) => {inserted_id = 6642}
+13:38:39 thne001 Theodor Nevo DELETE data from tables `temp_session` on conditions username LIKE thne001
+13:38:39 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-06-21 13:38:39) on conditions username = thne001
+13:38:39 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-06-21 13:38:39) on conditions username = thne001 AND company_id = 6
+13:38:40 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = 709a9610d729ebe6d54ca2e320203b02
+15:19:18 thne001 Theodor Nevo DELETE data from tables `temp_session` on conditions username LIKE thne001
+15:19:19 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2018-06-21 15:19:18) on conditions username = thne001
+15:19:19 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-06-21 15:19:18) on conditions username = thne001 AND company_id = 6
+15:19:19   UPDATING data to tables `log_login` fields ( logout_time ) values (2018-06-21:13:19:19) on conditions id = 6642 AND username = thne001
+15:26:41 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+15:26:41 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2018-06-21 15:26:41) on conditions username = gine001
+15:26:41 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-06-21 15:26:41) on conditions username = gine001 AND company_id = 6
+15:26:41   UPDATING data to tables `log_login` fields ( logout_time ) values (2018-06-21:13:26:41) on conditions id = 6641 AND username = gine001

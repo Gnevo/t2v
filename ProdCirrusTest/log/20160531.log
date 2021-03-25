@@ -1,0 +1,46 @@
+06:48:33 dodo001  UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (1) on conditions username = dodo001 AND company_id = 6
+06:48:41 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = dodo001 AND company_id = 6
+06:48:41 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 223.30.129.234, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.82 Chrome/48.0.2564.82 Safari/537.36 ) => {inserted_id = 4916}
+06:48:41 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+06:48:41 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-05-31 06:48:41) on conditions username = dodo001
+06:48:41 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-05-31 06:48:41) on conditions username = dodo001 AND company_id = 6
+06:48:42 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = utj87kgothko8q5oc58siqq5o4
+14:01:37 jata001 Janne Tandodall INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( jata001, 212.85.74.16, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586 ) => {inserted_id = 4917}
+14:01:37 jata001 Janne Tandodall DELETE data from tables `temp_session` on conditions username LIKE jata001
+14:01:37 jata001 Janne Tandodall UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-05-31 14:01:37) on conditions username = jata001
+14:01:37 jata001 Janne Tandodall UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-05-31 14:01:37) on conditions username = jata001 AND company_id = 6
+14:01:38 jata001 Janne Tandodall UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (jata001) on conditions session_id = 6ptgl00l2i6g3gheheecjabta0
+14:11:18 jata001 Janne Tandodall UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (jata001) on conditions session_id = 6ptgl00l2i6g3gheheecjabta0
+14:13:31 jata001 Janne Tandodall UPDATING data to tables `mc_leave` fields ( read_users ) values (thne001,jata001) on conditions leave_id = 117
+14:13:31 jata001 Janne Tandodall UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,thne001,jata001) on conditions leave_id = 116
+14:13:31 jata001 Janne Tandodall UPDATING data to tables `mc_leave` fields ( read_users ) values (thne001,gine001,jata001) on conditions leave_id = 115
+14:13:31 jata001 Janne Tandodall UPDATING data to tables `mc_leave` fields ( read_users ) values (thne001,gine001,jata001) on conditions leave_id = 113
+14:13:31 jata001 Janne Tandodall UPDATING data to tables `mc_leave` fields ( read_users ) values (thne001,gine001,jata001) on conditions leave_id = 114
+14:13:31 jata001 Janne Tandodall UPDATING data to tables `mc_leave` fields ( read_users ) values (thne001,gine001,jata001) on conditions leave_id = 112
+14:13:31 jata001 Janne Tandodall UPDATING data to tables `mc_leave` fields ( read_users ) values (thne001,gine001,jata001) on conditions leave_id = 111
+14:13:31 jata001 Janne Tandodall UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,dodo001,thne001,jata001) on conditions leave_id = 110
+14:13:31 jata001 Janne Tandodall INSERTING data into tables `mc_leave` fields ( leave_id, leave_status, read_users ) values ( 118, 0, jata001 ), ( 119, 1, jata001 ) => {inserted_id = 132}
+14:16:29 jata001 Janne Tandodall UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (jata001) on conditions session_id = 6ptgl00l2i6g3gheheecjabta0
+14:16:45 jata001 Janne Tandodall UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (jata001) on conditions session_id = 6ptgl00l2i6g3gheheecjabta0
+14:19:43 jata001 Janne Tandodall UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (jata001) on conditions session_id = 6ptgl00l2i6g3gheheecjabta0
+14:21:03 jata001 Janne Tandodall UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (jata001) on conditions session_id = 6ptgl00l2i6g3gheheecjabta0
+14:21:22 jata001 Janne Tandodall UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (jata001) on conditions session_id = 6ptgl00l2i6g3gheheecjabta0
+14:22:43 jata001 Janne Tandodall UPDATING data to tables `mc_leave` fields ( read_users ) values (gine001,dodo001,thne001,jata001) on conditions leave_id = 109
+14:22:43 jata001 Janne Tandodall INSERTING data into tables `mc_leave` fields ( leave_id, leave_status, read_users ) values ( 120, 0, jata001 ) => {inserted_id = 134}
+14:23:17 jata001 Janne Tandodall UPDATING data to tables `mc_note` fields ( read_users ) values (gine001,dodo001,dodo001,thne001,jata001) on conditions note_id = 116
+14:23:48 jata001 Janne Tandodall UPDATING data to tables `mc_note` fields ( read_users ) values (gine001,dodo001,thne001,jata001) on conditions note_id = 114
+14:25:17 jata001 Janne Tandodall UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (jata001) on conditions session_id = 6ptgl00l2i6g3gheheecjabta0
+14:27:19 jata001 Janne Tandodall UPDATING data to tables `fkkn_form_defaults` fields ( bargaining, other_bargaining_text, agreement_types, agreement_type2_company, agreement_type2_orgNo, health_care_agency ) values (7, , 1||0||1, , , 0) on conditions customer = adan001
+14:31:08 jata001 Janne Tandodall UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (jata001) on conditions session_id = 6ptgl00l2i6g3gheheecjabta0
+14:31:21 jata001 Janne Tandodall UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (jata001) on conditions session_id = 6ptgl00l2i6g3gheheecjabta0
+14:41:10 jata001 Janne Tandodall UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (jata001) on conditions session_id = 6ptgl00l2i6g3gheheecjabta0
+19:37:52 mali008 Maria Lindberg INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( mali008, 79.102.77.41, Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:46.0) Gecko/20100101 Firefox/46.0 ) => {inserted_id = 4918}
+19:37:52 mali008 Maria Lindberg DELETE data from tables `temp_session` on conditions username LIKE mali008
+19:37:52 mali008 Maria Lindberg UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-05-31 19:37:52) on conditions username = mali008
+19:37:52 mali008 Maria Lindberg UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-05-31 19:37:52) on conditions username = mali008 AND company_id = 6
+19:37:53 mali008 Maria Lindberg UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (mali008) on conditions session_id = 16258m8e5u58pi52rcupgo9ec0
+19:37:54 mali008 Maria Lindberg UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (mali008) on conditions session_id = 16258m8e5u58pi52rcupgo9ec0
+19:41:31 mali008 Maria Lindberg DELETE data from tables `temp_session` on conditions username LIKE mali008
+19:41:31 mali008 Maria Lindberg UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2016-05-31 19:41:31) on conditions username = mali008
+19:41:31 mali008 Maria Lindberg UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-05-31 19:41:31) on conditions username = mali008 AND company_id = 6
+19:41:31   UPDATING data to tables `log_login` fields ( logout_time ) values (2016-05-31:17:41:31) on conditions id = 4918 AND username = mali008

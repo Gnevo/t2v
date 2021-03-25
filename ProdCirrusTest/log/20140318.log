@@ -1,0 +1,20 @@
+15:42:22 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 115.248.24.177, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/32.0.1700.107 Chrome/32.0.1700.107 Safari/537.36 ) => {inserted_id = 1530}
+15:42:22 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+15:42:28   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+15:42:28   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-03-18:14:42:28) on conditions id = 1530 AND username = gine001
+17:00:48 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 46.194.77.190, Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; NP06; Tablet PC 2.0) ) => {inserted_id = 1533}
+17:00:48 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+17:09:08 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 115.248.24.177, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/32.0.1700.107 Chrome/32.0.1700.107 Safari/537.36 ) => {inserted_id = 1535}
+17:09:08 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+17:09:08 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( error ) values (0) on conditions username = gine001
+17:09:29 gine001 Gilad Nevo INSERTING data into tables `customer_documentation` fields ( customer, employee, completed_date, subject, note_type, notes, priority, description, status, writable ) values ( stal001, gine001, , , , Inga anhöriga, , , paborjad,  ) => {inserted_id = 7}
+17:10:28 gine001 Gilad Nevo INSERTING data into tables `note` fields ( created_user, title, description, visibility, status, customer, attachment ) values ( gine001, Inga anhöriga, Inga anhöriga, 1, 1, stal001,  ) => {inserted_id = 14}
+17:10:28 gine001 Gilad Nevo UPDATING data to tables `note` fields ( attachment ) values () on conditions id = 14
+17:11:00   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+17:11:00   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-03-18:16:11:00) on conditions id = 1535 AND username = gine001
+17:19:46 gine001 Gilad Nevo INSERTING data into tables `note` fields ( created_user, title, description, visibility, status, customer, attachment ) values ( gine001, klöver, Fänkål, 4, 4, stal001,  ) => {inserted_id = 15}
+17:19:47 gine001 Gilad Nevo UPDATING data to tables `note` fields ( attachment ) values () on conditions id = 15
+17:50:35 gine001 Gilad Nevo INSERTING data into tables `mc_note` fields ( note_id, read_users ) values ( 12, gine001 ) => {inserted_id = 8}
+17:50:55 gine001 Gilad Nevo INSERTING data into tables `mc_note` fields ( note_id, read_users ) values ( 15, gine001 ) => {inserted_id = 9}
+18:45:48   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+18:45:48   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-03-18:17:45:48) on conditions id = 1533 AND username = gine001

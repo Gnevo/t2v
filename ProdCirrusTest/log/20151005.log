@@ -1,0 +1,9 @@
+13:18:02 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+13:18:02 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.85.88, Mozilla/5.0 (Windows NT 6.1; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0 ) => {inserted_id = 3854}
+13:18:02 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+13:18:02 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-10-05 11:18:02) on conditions username = gine001
+14:06:16 chfr001  DELETE data from tables `temp_session` on conditions username LIKE chfr001 #Mobile-App: Log-id=3855
+14:06:16 chfr001  UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2015-10-05 12:06:16) on conditions username = chfr001 #Mobile-App: Log-id=3855
+14:07:16 gine001  INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( gine001, anst007, 1, 0, 2015-10-05, 5, 13, 1, , gine001,  ) => {inserted_id = 8323} #Mobile-App: Log-id=3856
+14:07:28 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001 #Mobile-App: Log-id=3856
+14:07:28 gine001  UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2015-10-05 12:07:28) on conditions username = gine001 #Mobile-App: Log-id=3856

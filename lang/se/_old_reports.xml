@@ -1,0 +1,1236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+    <!--datas for menu-->
+    <label>
+        <key>inconvenient_timings</key>
+        <value>OB-tid/helger</value>
+    </label>
+    <label>
+        <key>select_customer</key>
+        <value>Välj kund</value>
+    </label>
+    <label>
+        <key>select_employee</key>
+        <value>Välj Anställd</value>
+    </label>
+    <label>
+        <key>customer_monthly_report</key>
+        <value>Kund - rapport, assistenttid</value>
+    </label>
+    <label>
+        <key>employee_monthly_report</key>
+        <value>Anställd - rapport, kundtid </value>
+    </label>
+    <label>
+        <key>month</key>
+        <value>Månad</value>
+    </label>   
+    <label>
+        <key>year</key>
+        <value>År</value>
+    </label>
+    <label>
+        <key>customer</key>
+        <value>Kund</value>
+    </label>
+    <label>
+        <key>employee</key>
+        <value>Assistent</value>
+    </label>
+    
+    <!--table column captions-->
+    <label>
+        <key>date</key>
+        <value>Datum</value>
+    </label>
+    <label>
+        <key>normal</key>
+        <value>Ord. tid</value>
+    </label>
+    <label>
+        <key>travel</key>
+        <value>Restid</value>
+    </label>
+    <label>
+        <key>break</key>
+        <value>Paus</value>
+    </label>
+    <label>
+        <key>oncall</key>
+        <value>Väntetid</value>
+    </label>
+    <label>
+        <key>total_hour</key>
+        <value>S:a tid</value>
+    </label> 
+    <label>
+        <key>total</key>
+        <value>S:a</value>
+    </label>  
+    <label>
+        <key>normals</key>
+        <value>Normal</value>
+    </label> 
+    <label>
+        <key>type</key>
+        <value>Typ</value>
+    </label> 
+    <label>
+        <key>inconvenient_report</key>
+        <value>OB-tid/helg rapport</value>
+    </label> 
+    <label>
+        <key>get_report</key>
+        <value>Hämta rapport</value>
+    </label> 
+    <label>
+        <key>generate</key>
+        <value>Generera</value>
+    </label>
+    
+    <!--start log report -->
+
+    <label>
+        <key>employee_log_report</key>
+        <value>Anställd log</value>
+    </label>  
+
+    <label>
+        <key>all</key>
+        <value>Alla</value>
+    </label>
+    
+    <label>
+        <key>ip</key>
+        <value>IP</value>
+    </label>
+    
+    <label>
+        <key>browser</key>
+        <value>Browser</value>
+    </label>
+    
+    <label>
+        <key>Login_date</key>
+        <value>Login datum</value>
+    </label>
+    
+    <label>
+        <key>Login_time</key>
+        <value>Login tid</value>
+    </label>
+    
+    <label>
+        <key>Logoff_date</key>
+        <value>Logaut datum</value>
+    </label>
+    
+    <label>
+        <key>Logoff_time</key>
+        <value>Logut tid</value>
+    </label>
+    
+    <label>
+        <key>Log_tot_time</key>
+        <value>Total Tid</value>
+    </label>
+    <!--end log report -->
+    
+    <label>
+        <key>employee_work_report_summary</key>
+        <value>Anställd Arbete tim/mån</value>
+    </label>  
+    
+    <label>
+        <key>holiday_big</key>
+        <value>Storhelg</value>
+    </label>
+    <label>
+        <key>holiday_red</key>
+        <value>Röddag</value>
+    </label>
+    <label>
+        <key>inconvenient_big</key>
+        <value>OB storhelg</value>
+    </label>
+    <label>
+        <key>inconvenient_red</key>
+        <value>OB röddag</value>
+    </label>
+    <label>
+        <key>employee_detail_report</key>
+        <value>Detalj rapport anställd</value>
+    </label>
+    <label>
+        <key>message_center</key>
+        <value>Medd. Center</value>
+    </label>
+    <label>
+        <key>time_slot</key>
+        <value>Pass</value>
+    </label>
+    <label>
+        <key>employee_work_report_details</key>
+        <value>Anställd - Månadsavslut</value>
+    </label>
+    <label>
+        <key>sum</key>
+        <value>S:a</value>
+    </label>
+    <label>
+        <key>leave</key>
+        <value>Frånvaro tid</value>
+    </label>
+    <label>
+        <key>ordinary</key>
+        <value>Ordinarie</value>
+    </label>
+    <label>
+        <key>jour</key>
+        <value>Väntetid</value>
+    </label>
+    <label>
+        <key>leave_sum</key>
+        <value>Frånvaro</value>
+    </label>
+    <label>
+        <key>work_sum</key>
+        <value>S:a arbetstid</value>
+    </label>
+    <label>
+        <key>reports</key>
+        <value>Rapporter</value>
+    </label>
+    <label>
+        <key>work_reports</key>
+        <value>Kund/Assistent rapporter</value>
+    </label>
+    <label>
+        <key>to_date</key>
+        <value>Till Datum</value>
+    </label>
+    <label>
+        <key>no_work</key>
+        <value>- --- --- -</value>
+    </label>
+    <label>
+        <key>signed</key>
+        <value>Signerat</value>
+    </label>
+    <label>
+        <key>unsigned</key>
+        <value>Ej sign.</value>
+    </label>
+    <label>
+        <key>time_reporting</key>
+        <value>Månadsavslut</value>
+    </label>
+    <label>
+        <key>signed_by</key>
+        <value>Signerat av</value>
+    </label>
+    <label>
+        <key>on</key>
+        <value>den</value>
+    </label>
+    <label>
+        <key>work_sum_ord</key>
+        <value>Ord. tid</value>
+    </label>
+    <label>
+        <key>work_sum_jour</key>
+        <value>S:a väntetid</value>
+    </label>
+    <!--start employee report -->
+    <label>
+        <key>employeenumber</key>
+        <value>Anställningsnr</value>
+    </label>
+    <label>
+        <key>SSN</key>
+        <value>Personnummer</value>
+    </label>
+    <label>
+        <key>name</key>
+        <value>Namn</value>
+    </label>
+    <label>
+        <key>address</key>
+        <value>Adress</value>
+    </label>
+    <label>
+        <key>zipcode</key>
+        <value>Postnr</value>
+    </label>
+    <label>
+        <key>city</key>
+        <value>Stad</value>
+    </label>
+    <label>
+        <key>telephone</key>
+        <value>Telefon</value>
+    </label>
+    <label>
+        <key>mobile</key>
+        <value>Mobil</value>
+    </label>
+    <label>
+        <key>email</key>
+        <value>E-postadress</value>
+    </label>
+    <label>
+        <key>no_record_found</key>
+        <value>Inget data funnet</value>
+    </label>
+    <label>
+        <key>todate_greaterthan_fromdate_error</key>
+        <value>Till datum ska vara större än från datum</value>
+    </label>
+    <label>
+        <key>from_date</key>
+        <value>Från datum</value>
+    </label>
+    <label>
+        <key>to_date</key>
+        <value>Till Datum</value>
+    </label>
+    <label>
+        <key>active</key>
+        <value>Aktiv</value>
+    </label>	
+    <label>
+        <key>inactive</key>
+        <value>Inaktiv</value>
+    </label>	
+    <label>
+        <key>show_employees</key>
+        <value>Visa anställda</value>
+    </label>
+    <!--end employee report -->
+	
+	
+    <!--start employee leave report -->
+    <label>
+        <key>employee</key>
+        <value>Assistent</value>
+    </label>
+    <label>
+        <key>customer</key>
+        <value>Kund</value>
+    </label>
+    <label>
+        <key>total_working_hours</key>
+        <value>Totala arbetstiden / period</value>
+    </label>
+    <label>
+        <key>sickness</key>
+        <value>Sjuk</value>
+    </label>
+    <label>
+        <key>sem</key>
+        <value>Sem</value>
+    </label>
+    <label>
+        <key>vab</key>
+        <value>VAB</value>
+    </label>
+    <label>
+        <key>fp</key>
+        <value>FP</value>
+    </label>
+    <label>
+        <key>pmeeting</key>
+        <value>P-möte</value>
+    </label>
+    <label>
+        <key>education</key>
+        <value>Utb</value>
+    </label>
+    <label>
+        <key>other</key>
+        <value>Övrigt</value>
+    </label>
+	
+    <label>
+        <key>bandwidth</key>
+        <value>Byte</value>
+    </label>
+    <label>
+        <key>total_leaves</key>
+        <value>Totalt</value>
+    </label>
+    <!--end employee leave report -->
+	
+    <!--Start Employee to Customer report-->
+    <label>
+        <key>employee_to_customer_report</key>
+        <value>Anställd till kund rapport</value>
+    </label>
+    <label>
+        <key>number</key>
+        <value>Nummer</value>
+    </label>
+    <label>
+        <key>username</key>
+        <value>Användarnamn&#032;&#032;</value>
+    </label>
+    <label>
+        <key>employeename</key>
+        <value>Namn</value>
+    </label>
+    <label>
+        <key>employeephonenumber</key>
+        <value>Telefonnummer</value>
+    </label>	
+    <!--End Employee to Customer report-->
+	
+    <!--Start Percentage of Employment report-->
+    <label>
+        <key>F</key>
+        <value>H</value>
+    </label>
+    <label>
+        <key>P</key>
+        <value>D</value>
+    </label>
+    <label>
+        <key>percentage_of_employment_report</key>
+        <value>Sysselsättningsgrad - anställda</value>
+    </label>	
+    <label>
+        <key>contract_date</key>
+        <value>Anst. avtal datum</value>
+    </label>	
+    <label>
+        <key>full_part_time</key>
+        <value>Heltid / Deltid</value>
+    </label>
+    <label>
+        <key>contract_percent</key>
+        <value>Procent anst. avtal</value>
+    </label>
+    <label>
+        <key>expected_working_hours</key>
+        <value>Förväntad arbetade timmar</value>
+    </label>
+    <label>
+        <key>actual_working_hours</key>
+        <value>Faktiska arbetade timmar</value>
+    </label>
+    <label>
+        <key>percent</key>
+        <value>Procent</value>
+    </label>
+    <label>
+        <key>no_contract</key>
+        <value>Inget anst. avtal</value>
+    </label>
+    <!--End Percentage of Employment report-->
+	
+    <!--Start Customer Data report-->
+    <label>
+        <key>cutomer_report</key>
+        <value>Kunder</value>
+    </label>
+    <label>
+        <key>show_customer</key>
+        <value>Visa Kunderna</value>
+    </label>
+    <label>
+        <key>customer_no</key>
+        <value>Kund Nummer</value>
+    </label>
+    <label>
+        <key>number</key>
+        <value>Nummer</value>
+    </label>	
+    <!--End Customer Data report-->
+	
+    <!--Start Common Data report-->
+    <label>
+        <key>to</key>
+        <value>Till</value>
+    </label>
+    <label>
+        <key>outof</key>
+        <value>Av</value>
+    </label>	
+    <!--End Common Data report-->
+	
+    <!--Start Customer Absence report-->
+    <label>
+        <key>customer_absence_report</key>
+        <value>Kund frånvaro Rapport</value>
+    </label>
+    <label>
+        <key>customer_name</key>
+        <value>Kund Namn</value>
+    </label>
+    <!--End Customer Absence report-->
+	
+    <!--Start Report page-->
+    <label>
+        <key>employee_report</key>
+        <value>Anställdas Rapporter</value>
+    </label>
+    <label>
+        <key>customer_report</key>
+        <value>Kund Rapporter</value>
+    </label>
+    <label>
+        <key>employee_data</key>
+        <value>Personuppgifter</value>
+    </label>
+    <label>
+        <key>customer_data</key>
+        <value>Kunduppgifter</value>
+    </label>
+    <label>
+        <key>employee_abssence_report</key>
+        <value>Frånvaro, anställd/kund</value>
+    </label>
+    <label>
+        <key>customer_abssence_report</key>
+        <value>Frånvaro, kund/anställd</value>
+    </label>
+    <label>
+        <key>percentage_of_employment</key>
+        <value>Anställningsgrad, utfall</value>
+    </label>
+    <label>
+        <key>granted_vs_used_hours</key>
+        <value>Beviljade timmar, utfall</value>
+    </label>
+    <label>
+        <key>working_hours_month</key>
+        <value>Månadsschema</value>
+    </label>
+    <label>
+        <key>employee_to_customer</key>
+        <value>Alla assistenter till kund</value>
+    </label>
+    <label>
+        <key>monthly_signing</key>
+        <value>Månadsavslut</value>
+    </label>
+    <label>
+        <key>working_hoursmonth</key>
+        <value>Månadsschema</value>
+    </label>	
+    <!--End Report page-->
+	
+    <!-- Start Error message -->
+    <label>
+        <key>no_access_error_message</key>
+        <value>Saknar behörighet att komma åt denna rapport</value>
+    </label>
+    <!-- End Error message -->
+    <!-- Start Horizontal Report -->
+    <label>
+        <key>horizontal_customer_report</key>
+        <value>Tidsplanering - horisontell</value>
+    </label>
+    <label>
+        <key>h</key>
+        <value>h</value>
+    </label>
+    <label>
+        <key>fk</key>
+        <value>FK</value>
+    </label>
+    <label>
+        <key>kn</key>
+        <value>KN</value>
+    </label>
+    <label>
+        <key>tu</key>
+        <value>TU</value>
+    </label>
+    <!-- End Horizontal Report -->
+	
+    <!-- Start Hourly Customer Report -->
+    <label>
+        <key>hourly_customer_report</key>
+        <value>Översikt - Faktiska timmar/dygn</value>
+    </label>
+    <label>
+        <key>regular</key>
+        <value>Ord.</value>
+    </label>
+    <label>
+        <key>on_call</key>
+        <value>Väntetid</value>
+    </label>
+    <!-- End Hourly Customer Report -->
+	
+    <!-- Start Vacation Planning Report -->
+    <label>
+        <key>vacation_plannning_report</key>
+        <value>Semester, planering/frånvaro</value>
+    </label>
+    <label>
+        <key>leave</key>
+        <value>Frånvaro</value>
+    </label>
+    <!-- End Vacation Planning Report -->
+	
+    <label>
+        <key>leave_sum_ord</key>
+        <value>Frånvaro Ord. tid</value>
+    </label>     
+    <label>
+        <key>leave_sum_oncall</key>
+        <value>Frånvaro Väntetid</value>
+    </label> 
+   
+    <!-- Start Employee preference time -->
+    <label>
+        <key>employee_max_hours</key>
+        <value>Max Arbetstid</value>
+    </label>
+    <label>
+        <key>employee_preferredtime</key>
+        <value>Mina arbetstider</value>
+    </label>
+    <label>
+        <key>date_for_preferred_time_is_already_there</key>
+        <value>Datum att föredras när tid redan finns</value>
+    </label>
+    <!-- End Employee preference time -->
+	
+    <label>
+        <key>invalid_time_slot</key>
+        <value>Ogiltig tid</value>
+    </label>
+	
+    <label>
+        <key>schedule_difference_error_message</key>
+        <value>Ange minuter, inte större än 60</value>
+    </label>
+    <label>
+        <key>maximum_time_difference_error_message</key>
+        <value>Skriv in timmar, inte större än 15</value>
+    </label>
+    <label>
+        <key>global_setting_success_message</key>
+        <value>Global inställning uppdaterats</value>
+    </label>
+    <!-- Start Global setting page Added By Rahul : 3-10-2012 -->
+    <label>
+        <key>global_setting</key>
+        <value>Global inställning</value>
+    </label>
+    <!-- End Global setting page Added By Rahul : 3-10-2012 -->
+	
+	
+    <label>
+        <key>no_employee_for_customer</key>
+        <value>Ingen anställd kopplad till denna kund</value>
+    </label>
+    <label>
+        <key>are_you_sure</key>
+        <value>Är du säker?</value>
+    </label>
+    <!--Start - Global setting labels-->
+    <label>
+        <key>global_setting_label_timediff</key>
+        <value>Tidsskillnaden mellan scheman</value>
+    </label>
+    <label>
+        <key>in_minutes</key>
+        <value>Max 900 minuter</value>
+    </label>
+    <label>
+        <key>global_setting_label_maxhours</key>
+        <value>Maximala arbetstiden 24 timmar</value>
+    </label>
+    <label>
+        <key>in_hours</key>
+        <value>Max arb tid 24h</value>
+    </label>
+    <label>
+        <key>fromdate_error</key>
+        <value>Från datum Måste vara större än i dag</value>
+    </label>
+    <label>
+        <key>record_delete_succcessfully</key>
+        <value>Fält borttaget</value>
+    </label>
+    <label>
+        <key>record_delete_failed</key>
+        <value>Kunde inte radera fält</value>
+    </label>
+    <label>
+        <key>auto_schedule</key>
+        <value>Auto Schemaläggning</value>
+    </label>
+    <label>
+        <key>No_employee_available</key>
+        <value>Ingen anställd tillgänglig</value>
+    </label>
+    <!--End - Global setting labels-->	
+    <label>
+        <key>sms_sent_report</key>	
+        <value>SMS rapport</value>
+    </label>
+    <label>
+        <key>sender_employee</key>	
+        <value>Avsändare</value>
+    </label>
+    <label>
+        <key>sending_date_time</key>	
+        <value>Skickar datum/tid</value>
+    </label>
+    <label>
+        <key>shift_time_from_to</key>	
+        <value>Passtid (från - till)</value>
+    </label>
+    <label>
+        <key>receiving_employee</key>	
+        <value>Mottar anställd</value>
+    </label>
+    <label>
+        <key>mobile</key>	
+        <value>Mobil</value>
+    </label>
+    <label>
+        <key>responce_date_time</key>	
+        <value>Svarsdatum o tid</value>
+    </label>
+    <label>
+        <key>responce_status</key>	
+        <value>Svarsstatus</value>
+    </label>
+    <label>
+        <key>got_job</key>	
+        <value>Fick jobb</value>
+    </label>	
+    <label>
+        <key>label_accept</key>	
+        <value>Godkänt</value>
+    </label>
+    <label>
+        <key>label_rejected</key>	
+        <value>Avvisade</value>
+    </label>
+    <label>                                                                                             
+        <key>label_pending</key>	
+        <value>Inväntar åtgärd</value>
+    </label>
+    <label>
+        <key>label_yes</key>	
+        <value>Ja</value>
+    </label>
+    <label>
+        <key>label_no</key>	
+        <value>Nej</value>
+    </label>
+    <label>
+        <key>outgoing_sms</key>	
+        <value>Utgående SMS</value>
+    </label>
+    <label>
+        <key>global_setting_label_maxhours_per_week</key>
+        <value>Maximalt arbetstid/vecka</value>
+    </label>
+    <label>
+        <key>global_setting_label_max_overtime</key>
+        <value>Maximal övertid</value>
+    </label>
+    <label>
+        <key>employee_wr</key>
+        <value>Assistent</value>
+    </label>
+    <label>
+        <key>tl_wr</key>
+        <value>Arbetsledare</value>
+    </label>
+    <label>
+        <key>super_tl_wr</key>
+        <value>GL/Admin</value>
+    </label>
+    <label>
+        <key>amount_inconv</key>
+        <value>Ob kostnad</value>
+    </label>
+    <label>
+        <key>effect_from</key>
+        <value>fr.o.m</value>
+    </label>
+    <label>
+        <key>effect_to</key>
+        <value>t.o.m</value>
+    </label>
+    <label>
+        <key>inconv_time</key>
+        <value>Ob tid</value>
+    </label>
+    <label>
+        <key>portrait</key>
+        <value>Utskrift1</value>
+    </label>
+    <label>
+        <key>landscape</key>
+        <value>Utskrift2</value>
+    </label>
+    <label>
+        <key>atl_warning</key>
+        <value>ATL avvikelser</value>
+    </label>
+    <label>
+        <key>used_hours</key>
+        <value>Använda timmar</value>
+    </label>
+    <label>
+        <key>diff</key>
+        <value>Diff</value>
+    </label>
+    <label>
+        <key>diff_in_per</key>
+        <value>Diff i %</value>
+    </label>
+    <label>
+        <key>belopp_kn</key>
+        <value>KN belopp</value>
+    </label>
+    <label>
+        <key>belopp_fk</key>
+        <value>FK belopp</value>
+    </label>
+    <label>
+        <key>from</key>
+        <value>Från</value>
+    </label>
+    <label>
+        <key>extra</key>
+        <value>Avvikelse</value>
+    </label>
+    <label>
+        <key>less_excess</key>
+        <value>Veckoarbetstimmar Underskott/ Överskott</value>
+    </label>
+    <label>
+        <key>total_time</key>
+        <value>Total tid</value>
+    </label>
+    <label>
+        <key>employee_contract_report</key>
+        <value>Veckoarbetstid</value>
+    </label>
+    <label>
+        <key>contract_from</key>
+        <value>Anst. avtal från</value>
+    </label>
+    <label>
+        <key>contract_to</key>
+        <value>Anst. avtal till</value>
+    </label>
+    <label>
+        <key>contract_hour</key>
+        <value>Timmar enl. avtal</value>
+    </label>
+    <label>
+        <key>week</key>
+        <value>Vecka</value>
+    </label>
+    <label>
+        <key>monthly_hour</key>
+        <value>Arbestimmar/månad</value>
+    </label>
+    <label>
+        <key>employee_worked_hour</key>
+        <value>Arbetade timmar</value>
+    </label>
+    <label>
+        <key>weekly_hour</key>
+        <value>Timmar/vecka</value>
+    </label>
+    <label>
+        <key>remaining_hour</key>
+        <value>Återstående timmar</value>
+    </label>
+    <label>
+        <key>include_without_contract</key>
+        <value>Utan anst. avtal</value>
+    </label>
+    <label>
+        <key>contract_hour</key>
+        <value>Timmar enligt avtal</value>
+    </label>
+    <label>
+        <key>worked_hour</key>
+        <value>Arbetade timmar</value>
+    </label>
+    <label>
+        <key>show_all_connected_employees</key>
+        <value>Visa assistenter som har schema denna månad</value>
+    </label>
+    <label>
+        <key>total_records</key>
+        <value>Antal anställda</value>
+    </label>
+    <label>
+        <key>normal_report_short</key>
+        <value>O</value>
+    </label>
+    <label>
+        <key>oncall_report_short</key>
+        <value>J</value>
+    </label>
+    <label>
+        <key>oncall_contract_hour</key>
+        <value>Vätetid enligt anst. avt.</value>
+    </label>
+    <label>
+        <key>oncall_worked_hour</key>
+        <value>Väntetid</value>
+    </label>
+    <label>
+        <key>show_all_connected_customers</key>
+        <value>Visa samtliga kopplade kunder</value>
+    </label>
+    <label>
+        <key>search_with</key>
+        <value>Sök</value>
+    </label>
+    <label>
+        <key>work_sum_personal</key>
+        <value>S:a Ord. tid</value>
+    </label>
+    <label>
+        <key>select_a_search_type</key>
+        <value>Välj söktyp</value>
+    </label>
+    <label>
+        <key>enter_search_values</key>
+        <value>Fältet saknar värde</value>
+    </label>
+    <label>
+        <key>unsigned_employees</key>
+        <value>Osignerade</value>
+    </label>
+    <label>
+        <key>untreated_leave_exists_contact_TL</key>
+        <value>Det finns en obehandlad frånvaro, går inte att signera. Kontakta din arbetsledare.</value>
+    </label>
+     <label>
+        <key>upload_to_calender</key>
+        <value>Importera till Google kalender</value>
+    </label>
+    <label>
+        <key>employee_not_select</key>
+        <value>Välj anställd</value>
+    </label>
+    <label>
+        <key>no_work_data_available</key>
+        <value>Det finns inget data att hämta</value>
+    </label>
+    <label>
+        <key>training</key>
+        <value>Intro</value>
+    </label>
+    <label>
+        <key>earned_days</key>
+        <value>Sparad sem. kommande år, timmar</value>
+    </label>
+    <label>
+        <key>taken_vacation_days</key>
+        <value>Uttagen sem. timmar</value>
+    </label>
+    <label>
+        <key>former_year_remain_days</key>
+        <value>Återstående sem. timmar</value>
+    </label>
+    <label>
+        <key>more_oncall</key>
+        <value>Timtid väntetid</value>
+    </label>
+     <label>
+        <key>select_all_type</key>
+        <value>Markera/avmarkera alla</value>
+    </label>
+     <label>
+        <key>customer_month_report_pdf</key>
+        <value>Månadsrapport Kund, pdf</value>
+    </label>
+     <label>
+        <key>customer_report_customer_name</key>
+        <value>Kund</value>
+    </label>
+     <label>
+        <key>customer_report_socialsecurity</key>
+        <value>Personnummer</value>
+    </label>
+    <label>
+        <key>employee_month_report_pdf</key>
+        <value>Assistent månadsrapport</value>
+    </label>
+     <label>
+        <key>employee_report_employee_name</key>
+        <value>Assistent</value>
+    </label>
+     <label>
+        <key>employee_report_socialsecurity</key>
+        <value>Personnummer</value>
+    </label>
+    <label>
+        <key>report_period</key>
+        <value>Period</value>
+    </label>
+    <label>
+        <key>check</key>
+        <value>Markera/Av</value>
+    </label>
+    <label>
+        <key>work_hours</key>
+        <value>Arbetade timmar</value>
+    </label>
+    <label>
+        <key>untreated_candg_slot_exists</key>
+        <value>Obehandlade C&#038;G</value>
+    </label>
+    <label>
+        <key>total_working_days</key>
+        <value>Antal arbetsdagar</value>
+    </label>
+    <label>
+        <key>overlapp_report</key>
+        <value>Dubbelassistans</value>
+    </label>
+    <label>
+        <key>monthly_overlap_report</key>
+        <value>Månadens dubbelassistans</value>
+    </label>
+    <label>
+        <key>next_year</key>
+        <value>Nästa år</value>
+    </label>
+    <label>
+        <key>prev_year</key>
+        <value>Föregående år</value>
+    </label>
+    <label>
+        <key>next_month</key>
+        <value>Nästa månad</value>
+    </label>
+    <label>
+        <key>prev_month</key>
+        <value>Föregående månad</value>
+    </label>
+    <label>
+        <key>overlap_slot_report_detail</key>
+        <value>Dubbelassistans detaljrapport</value>
+    </label>
+    <label>
+        <key>total_time_collide</key>
+        <value>Dagens totala dubbelassistans: </value>
+    </label>
+    <label>
+        <key>total_colliding_hours_month</key>
+        <value>Månadens totala dubbelassistans: </value>
+    </label>
+    <label>
+        <key>hrs</key>
+        <value>Timmar</value>
+    </label>
+    <label>
+        <key>normal_worked_hour</key>
+        <value>Ord. tid</value>
+    </label>
+    <label>
+        <key>other_customer_relation</key>
+        <value>Övrigt</value>
+    </label>    
+    <label>
+        <key>work_phone</key>
+        <value>Telefon arbete</value>
+    </label>
+    <label>
+        <key>close</key>
+        <value>Stäng</value>
+    </label>
+    <label>
+        <key>no_relatives</key>
+        <value>Inga anhöriga inlagda</value>
+    </label>
+    <label>
+        <key>no_additional_information</key>
+        <value>Ingen informatio</value>
+    </label>
+    <label>
+        <key>no_employees_attached</key>
+        <value>Ingen assistent kopplad</value>
+    </label>
+    <label>
+        <key>no_guardianinforation</key>
+        <value>Ingen Godman information</value>
+    </label>
+    <label>
+        <key>bank_id_display_head</key>
+        <value>Information om signering från Cirrus tidsrapporteting gällade total arbetstid samt frånvaro, (månad-år) </value>
+    </label>    
+    <label>
+        <key>bank_id_total_working</key>
+        <value>Total timmar arbetstid:  </value>
+    </label>    
+    <label>
+        <key>bank_id_total_leave</key>
+        <value>Total timmar frånvaro:  </value>
+    </label>
+    <label>
+        <key>bank_id_display_head_employer</key>
+        <value>Här vid, bekräftar jag som arbetsgivare, att dessa anställda undertecknade sin månadsrapport hos kunden: </value>
+    </label> 
+    <label>
+        <key>bank_id_month_year</key>
+        <value>(månad-år)&#032;</value>
+    </label>
+    <label>
+        <key>bank_id_employees_employer</key>
+        <value>Anställda: </value>
+    </label>
+   <label>
+        <key>signin_bank_id</key>
+        <value>BankId Signering </value>
+    </label>
+    <label>
+        <key>bank_id_text1</key>
+        <value>1. Skriv ditt lösenord - som vanligt</value>
+     </label>    
+    <label>
+        <key>bank_id_text2</key>
+        <value>2. Välj signeringsmetod:</value>
+     </label>    
+    <label>
+        <key>bank_id_text3</key>
+        <value>-&#032;&#032;2.1 BankID eller Signera knappen</value>
+     </label>    
+    <label>
+        <key>bank_id_text4</key>
+        <value>3. Här kan du få hjälp med att installera BankID</value>
+     </label>    
+    <label>
+        <key>bank_id_text_link</key>
+        <value>https://support.bankid.com/sv/bankid/vad-aer-bankid</value>
+     </label> 
+    <label>
+        <key>printed_on</key>
+        <value>Utskriftsdatum och tid</value>
+     </label>     
+    <label>
+        <key>printed_by</key>
+        <value>Utskrivet av</value>
+     </label>  
+    <label>
+        <key>user_documentation</key>
+        <value>Dokumenterat av</value>
+     </label>     
+    <label>
+        <key>date_documentation</key>
+        <value>Datum</value>
+     </label> 
+     <label>
+        <key>sms_log_report</key>
+        <value>SMS-rapport</value>
+    </label>
+    <label>
+        <key>sms_type</key>
+        <value>SMS typ</value>
+    </label>
+    <label>
+        <key>sms_incoming</key>
+        <value>Inkommande</value>
+    </label>
+    <label>
+        <key>sms_outgoing</key>
+        <value>Utgående</value>
+    </label>
+    <label>
+        <key>total_sms_count</key>
+        <value>Total antal SMS</value>
+    </label>
+    <label>
+        <key>serial_no</key>
+        <value>Löpnummer</value>
+    </label>
+    <label>
+        <key>sms_message</key>
+        <value>Meddelande text</value>
+    </label>
+    <label>
+        <key>mc_da_delete_head</key>
+        <value>Radera</value>
+    </label>
+    <label>
+        <key>mc_da_edit_head</key>
+        <value>Behörigheter</value>
+    </label>
+    <label>
+        <key>mc_da_delete_tool_tip</key>
+        <value>Radera</value>
+    </label>
+    <label>
+        <key>mc_da_edit_tool_tip</key>
+        <value>Ändra behörigheter</value>
+    </label>
+    <label>
+        <key>mc_da_doc_owner</key>
+        <value>Ägare</value>
+    </label>
+    <label>
+        <key>not_signed_employee_count</key>
+        <value>Osignerade assistent</value>
+    </label>
+    <label>
+        <key>not_signed_gl_count</key>
+        <value>Osignerade AL</value>
+    </label>
+    <label>
+        <key>not_signed_admin_count</key>
+        <value>Osignerade Admin</value>
+    </label>
+    <label>
+        <key>sign_through_bankID</key>
+        <value>med</value>
+    </label>
+    <label>
+        <key>report_employee_should_be_sign_before_others_do</key>
+        <value>Assistenten måste signera tidrapporten.</value>
+    </label>
+    <label>
+        <key>future_slots_exist_in_this_month</key>
+        <value>Går ej att signera månadsavslut då du har planerad arbetstid kvar denna månad.</value>
+    </label>
+    <label>
+        <key>sign_type</key>
+        <value>Signeringstyp</value>
+    </label>
+    <label>
+        <key>with_bankid</key>
+        <value>Med BankID</value>
+    </label>
+    <label>
+        <key>without_bankid</key>
+        <value>Utan BankID</value>
+    </label>
+    <label>
+        <key>sign_user_level</key>
+        <value>Välj</value>
+    </label>
+    <label>
+        <key>total_signing_count</key>
+        <value>Tot. antal signerade</value>
+    </label>
+    <label>
+        <key>signing_with_bankid_count</key>
+        <value>Signerade med BankID</value>
+    </label>
+    <label>
+        <key>signing_without_bankid_count</key>
+        <value>Signerade utan BankID</value>
+    </label>
+    <label>
+        <key>signing_report</key>
+        <value>Signeringsrapport</value>
+    </label>
+</content>

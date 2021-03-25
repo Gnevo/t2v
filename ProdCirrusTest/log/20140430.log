@@ -1,0 +1,22 @@
+07:51:58 chfr001 Christa Frelin INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( chfr001, 46.194.123.147, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36 ) => {inserted_id = 1622}
+07:54:33   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = chfr001
+07:54:33   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-04-30:05:54:33) on conditions id = 1622 AND username = chfr001
+07:55:00 abni001 Abc Nielsen INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( abni001, 46.194.123.147, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36 ) => {inserted_id = 1623}
+07:55:00 abni001 Abc Nielsen UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = abni001
+07:57:35 abni001 Abc Nielsen INSERTING data into tables `customer_contract` fields ( hour, date_from, date_to, fkkn, customer ) values ( 500, 2014-01-01, 2014-05-31, 2, stal001 ) => {inserted_id = 9}
+07:57:36 abni001 Abc Nielsen INSERTING data into tables `customer_contract_billing` fields ( contract_id, kn_name, kn_address, kn_postno, mobile, city, oncall, oncall2, awake, something, iss, sol, kn_reference_no, kn_box ) values ( 9, Kumla kommun, Sillgatan 23, 69232, , Kumla, , , , , 1, , 984PP96, 659 ) => {inserted_id = 0}
+07:57:36 abni001 Abc Nielsen INSERTING data into tables `customer_contract_decision` fields ( contract_id, first_name, last_name, mobile, email, city, comments_time, comments_other, documents ) values ( 9, Tina, Balerina, , , , , ,  ) => {inserted_id = 0}
+08:00:45   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = abni001
+08:00:45   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-04-30:06:00:45) on conditions id = 1623 AND username = abni001
+10:24:50 rokl001 rokl001 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rokl001, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36 ) => {inserted_id = 1624}
+10:24:50 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = rokl001
+10:24:53   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = rokl001
+10:24:53   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-04-30:08:24:53) on conditions id = 1624 AND username = rokl001
+13:04:51 rokl001 rokl001 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rokl001, 90.224.88.195, Mozilla/5.0 (Linux; U; Android 4.2.2; sv-se; GT-P5210 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 ) => {inserted_id = 1625}
+13:04:51 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = rokl001
+13:07:06 rokl001 rokl001 UPDATING data to tables `timetable` fields ( comment ) values (Rthhio) on conditions id = 4636
+13:09:54 rokl001 rokl001 UPDATING data to tables `timetable` fields ( comment ) values () on conditions id = 5110
+13:11:03 rokl001 rokl001 UPDATING data to tables `timetable` fields ( employee, status, alloc_emp ) values (, 0, rokl001) on conditions id = 4637
+13:11:59 rokl001 rokl001 UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, joso004, rokl001) on conditions id = 4637
+13:12:19   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = rokl001
+13:12:19   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-04-30:11:12:19) on conditions id = 1625 AND username = rokl001

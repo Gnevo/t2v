@@ -1,0 +1,37 @@
+09:12:44 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 223.30.129.234, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36 ) => {inserted_id = 4591}
+09:12:44 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+09:12:44 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-02-23 08:12:44) on conditions username = dodo001
+09:12:44 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = uhrje5njpghp1vmo8m3tjtduq1
+09:51:22 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+09:51:22 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2016-02-23 08:51:22) on conditions username = dodo001
+09:51:22   UPDATING data to tables `log_login` fields ( logout_time ) values (2016-02-23:08:51:22) on conditions id = 4591 AND username = dodo001
+13:23:25 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 223.30.129.234, Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0 ) => {inserted_id = 4592}
+13:23:25 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+13:23:25 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-02-23 12:23:25) on conditions username = dodo001
+13:23:25 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( error ) values (0) on conditions username = dodo001
+13:23:26 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = 6q7mub2ufie5jo60h4hk7sskv7
+13:56:48 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+13:56:48 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 223.30.129.234, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.82 Chrome/48.0.2564.82 Safari/537.36 ) => {inserted_id = 4593}
+13:56:48 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+13:56:48 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-02-23 12:56:48) on conditions username = gine001
+13:56:48 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = t4v8tiorafqnf93v03hd5lhgs2
+13:57:22 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+13:57:22 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2016-02-23 12:57:22) on conditions username = gine001
+13:57:22   UPDATING data to tables `log_login` fields ( logout_time ) values (2016-02-23:12:57:22) on conditions id = 4593 AND username = gine001
+16:30:55 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+16:30:55 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.114.180, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586 ) => {inserted_id = 4594}
+16:30:55 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+16:30:55 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-02-23 15:30:55) on conditions username = gine001
+16:30:56 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = n5ejt0ffhtfrbp5d89unes6f40
+16:36:19 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = n5ejt0ffhtfrbp5d89unes6f40
+16:37:00 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = n5ejt0ffhtfrbp5d89unes6f40
+16:38:14 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( dodo001, adan001, 1, 0, 2016-02-08, 12, 13, 1, , gine001, 123 ) => {inserted_id = 8874}
+16:38:14 gine001 Gilad Nevo INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( adan001, 12, 13, 0 ) => {inserted_id = 381}
+16:58:45 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+16:58:45 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2016-02-23 15:58:45) on conditions username = gine001
+16:58:45   UPDATING data to tables `log_login` fields ( logout_time ) values (2016-02-23:15:58:45) on conditions id = 4594 AND username = gine001
+19:48:31 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+19:48:31 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.114.180, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586 ) => {inserted_id = 4595}
+19:48:31 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+19:48:31 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-02-23 18:48:31) on conditions username = gine001
+19:48:31 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = kcl77kd4fb5cko37ktvfk9gcf1

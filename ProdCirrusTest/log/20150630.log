@@ -1,0 +1,13 @@
+10:55:09 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+10:55:09 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.195.198, Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0 ) => {inserted_id = 3439}
+10:55:09 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+10:55:09 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-06-30 08:55:09) on conditions username = gine001
+10:55:09 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( error ) values (0) on conditions username = gine001
+11:25:53 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 1csipouh15rve8vmus36lsa8a0
+11:51:33 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 223.30.129.234, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.99 Safari/537.36 ) => {inserted_id = 3440}
+11:51:33 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+11:51:33 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-06-30 09:51:33) on conditions username = dodo001
+11:51:34 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = lpe5j61rc8u9fr59cidakhs630
+11:53:31 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+11:53:31 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2015-06-30 09:53:31) on conditions username = dodo001
+11:53:31   UPDATING data to tables `log_login` fields ( logout_time ) values (2015-06-30:09:53:31) on conditions id = 3440 AND username = dodo001

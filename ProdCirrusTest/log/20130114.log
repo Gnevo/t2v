@@ -1,0 +1,15 @@
+07:19:00 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 98653247 on conditions username = hesv001
+07:19:00 gine001 Gilad Nevo UPDATING data to tables `customer`fields Array values 3, 19, 7204090117, Testina, Svan, storgatan 22, Kumla, 692 32, 019-12345678, 98653247, , 2012-08-01, 1,  on conditions username = hesv001
+07:19:00 gine001 Gilad Nevo DELETE data from tables `privileges` on conditions employee = masa001
+07:19:00 gine001 Gilad Nevo DELETE data from tables `privileges_forms` on conditions employee = masa001
+07:19:00 gine001 Gilad Nevo DELETE data from tables `privileges_general` on conditions employee = masa001
+07:19:00 gine001 Gilad Nevo DELETE data from tables `privileges_mc` on conditions employee = masa001
+07:19:00 gine001 Gilad Nevo DELETE data from tables `privileges_reports` on conditions employee = masa001
+07:19:00 gine001 Gilad Nevo DELETE data from tables `team` on conditions customer = hesv001
+07:19:00 gine001 Gilad Nevo INSERTING data into tables `team`fields customer, employee, role values ( hesv001, joef001, 3 ), ( hesv001, wita001, 3 ), ( hesv001, jata001, 3 ), ( hesv001, moen001, 3 )
+07:20:38 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 98653247 on conditions username = hesv001
+07:20:38 gine001 Gilad Nevo UPDATING data to tables `customer`fields Array values 3, 19, 7204090117, Testina, Svan, storgatan 22, Kumla, 692 32, 019-12345678, 98653247, , 2012-08-01, 1,  on conditions username = hesv001
+07:20:38 gine001 Gilad Nevo DELETE data from tables `team` on conditions customer = hesv001
+07:20:38 gine001 Gilad Nevo INSERTING data into tables `team`fields customer, employee, role values ( hesv001, joef001, 3 ), ( hesv001, wita001, 3 ), ( hesv001, jata001, 3 ), ( hesv001, moen001, 3 ), ( hesv001, gine001, 3 )
+07:25:33   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = gine001
+07:25:33   UPDATING data to tables `log_login`fields Array values 2013-01-14:07:25:33 on conditions id = 2418 AND username = gine001

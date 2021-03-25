@@ -1,0 +1,13 @@
+08:00:55 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+08:00:55 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.192.228, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36 ) => {inserted_id = 3909}
+08:00:55 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+08:00:55 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-10-19 06:00:55) on conditions username = gine001
+08:00:56 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 6tlcl6bb3ouccqone3j2307j17
+12:53:49 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+12:53:49 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2015-10-19 10:53:49) on conditions username = gine001
+12:53:49   UPDATING data to tables `log_login` fields ( logout_time ) values (2015-10-19:10:53:49) on conditions id = 3909 AND username = gine001
+17:07:45 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+17:07:45 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.192.228, Mozilla/5.0 (Windows NT 6.1; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0 ) => {inserted_id = 3910}
+17:07:45 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+17:07:45 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-10-19 15:07:45) on conditions username = gine001
+17:07:46 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 76kjgjsb5l5meiu0k2ud84cs03

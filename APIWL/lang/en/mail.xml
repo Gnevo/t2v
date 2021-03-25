@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+    <label>
+        <key>mail</key>
+        <value>Cirrus Push-Mail</value>
+    </label>
+    <label>
+        <key>compose_mail</key>
+        <value>Skapa E-post</value>
+    </label>
+    <label>
+        <key>inbox</key>
+        <value>Inkorgen</value>
+    </label>
+    <label>
+        <key>send_items</key>
+        <value>Skickade</value>
+    </label>
+    <label>
+        <key>draft</key>
+        <value>Utkast</value>
+    </label>
+    <label>
+        <key>category</key>
+        <value>Kategori</value>
+    </label>
+    <label>
+        <key>date</key>
+        <value>Datum</value>
+    </label>
+    <label>
+        <key>to</key>
+        <value>Till</value>
+    </label>
+    <label>
+        <key>from</key>
+        <value>Från</value>
+    </label>
+    <label>
+        <key>subject</key>
+        <value>Ämne</value>
+    </label>
+    <label>
+        <key>message</key>
+        <value>Skriv meddelandet här</value>
+    </label>
+    <label>
+        <key>attachments</key>
+        <value>Bifogade filer</value>
+    </label>
+    <label>
+        <key>attach_another</key>
+        <value>Bifoga fler filer</value>
+    </label>
+    <label>
+        <key>attach_a_file</key>
+        <value>Bifoga fil</value>
+    </label>
+    <label>
+        <key>reply</key>
+        <value>Svara</value>
+    </label>
+    <label>
+        <key>forward</key>
+        <value>Vidarebefordra</value>
+    </label>
+     <label>
+        <key>unread_mails</key>
+        <value>Olästa Mail</value>
+    </label>
+    <label>
+        <key>email</key>
+        <value>Extern mail</value>
+    </label>
+    <label>
+        <key>unassigned_employees</key>
+        <value>Ej sign. användare</value>
+    </label>
+    <label>
+        <key>select_all</key>
+        <value>Markera alla</value>
+    </label>
+    <label>
+        <key>insert_mailing_ids</key>
+        <value>E-postlista, samtliga anställda</value>
+    </label>
+    <label>
+        <key>sms</key>
+        <value>sms</value>
+    </label>
+    <label>
+        <key>footer_mail</key>
+        <value>Time2view AB support@time2view.se</value>
+    </label>
+    <label>
+        <key>slots_of_leave</key>
+        <value>Att behandla</value>
+    </label>
+    <label>
+        <key>no_slots_found</key>
+        <value>Det finns inga arbetspass</value>
+    </label>
+    <label>
+        <key>no_users_available</key>
+        <value>Inga användare tillgängliga</value>
+    </label>
+    <label>
+        <key>confirmatoin</key>
+        <value>Admin ska GK</value>
+    </label>
+    <label>
+        <key>send_rejection</key>
+        <value>Skicka avslag</value>
+    </label>
+    <label>
+        <key>confirmation_to_sender</key>
+        <value>Bekräftelse till avsändare</value>
+    </label>
+    <label>
+        <key>outgoing_message</key>
+        <value>Utgående SMS</value>
+    </label>
+    <label>
+        <key>answer_yes</key>
+        <value>Svara Ja om du vill ha passet</value>
+    </label>
+    <label>
+        <key>shift</key>
+        <value>Pass</value>
+    </label>
+    <label>
+        <key>manual_message</key>
+        <value>Meddelande, extra info</value>
+    </label>
+    <label>
+        <key>char_max</key>
+        <value>Max tecken</value>
+    </label>
+    <label>
+        <key>total_160</key>
+        <value>Max 60 tecken</value>
+    </label>
+    <label>
+        <key>message_sent</key>
+        <value>Meddelande skickat</value>
+    </label>
+    <label>
+        <key>shift_accepted</key>
+        <value>Pass accepterat</value>
+    </label>
+    <label>
+        <key>shift_rejected</key>
+        <value>Pass avvisat</value>
+    </label>
+    <label>
+        <key>status_updated</key>
+        <value>Uppdat. status</value>
+    </label>
+    <label>
+        <key>needs_confirmation</key>
+        <value> Bekräftelse krävs!</value>
+    </label>
+    <label>
+        <key>all</key>
+        <value>Alla</value>
+    </label>
+    
+    
+    <!--for account activation/inactivation cron job mails-->
+    <label>
+        <key>today</key>
+        <value>Idag</value>
+    </label>
+    <label>
+        <key>contact_person</key>
+        <value>Kontaktperson</value>
+    </label>
+    <label>
+        <key>e_mail</key>
+        <value>E-post</value>
+    </label>
+    
+    <label>
+        <key>before_subject_user_account_inactive_today</key>
+        <value>Kontot inaktivt</value>
+    </label>
+    <label>
+        <key>after_subject_user_account_inactive_today</key>
+        <value>Ditt konto kommer att avaktiveras</value>
+    </label>
+    <label>
+        <key>before_subject_user_account_inactive_future</key>
+        <value>Kontot kommer att inaktiveras @</value>
+    </label>
+    <label>
+        <key>after_subject_user_account_inactive_future</key>
+        <value>Kontot kommer att inaktiveras @</value>
+    </label>
+    <label>
+        <key>mail_body_user_account_inactive_today</key>
+        <value>Kontot inaktiverat</value>
+    </label>
+    <label>
+        <key>mail_body_user_account_inactive_future</key>
+        <value>Kontot kommer att inaktiveras om 10 dagar</value>
+    </label>
+    
+    
+    <label>
+        <key>before_subject_user_account_active_today</key>
+        <value>Ditt konto kommer att aktiveras idag</value>
+    </label>
+    <label>
+        <key>after_subject_user_account_active_today</key>
+        <value>Kontot är aktiverat</value>
+    </label>
+    <label>
+        <key>before_subject_user_account_active_future</key>
+        <value>Ditt konto kommer att aktiveras @</value>
+    </label>
+    <label>
+        <key>after_subject_user_account_active_future</key>
+        <value>Kontot är tillvidare aktiverat</value>
+    </label>
+    <label>
+        <key>mail_body_user_account_active_today</key>
+        <value>Kontot aktiv idag</value>
+    </label>
+    <label>
+        <key>mail_body_user_account_active_future</key>
+        <value>Kontot aktivt</value>
+    </label>
+    
+    <!--for bill cron job mails-->
+    
+    <label>
+        <key>before_subject_bill_cron</key>
+        <value>Avgift för månad</value>
+    </label>
+    <label>
+        <key>after_subject_bill_cron</key>
+        <value>.</value>
+    </label>
+    <label>
+        <key>mail_body_bill_cron</key>
+        <value>Innehåller faktura från Time2view AB - Cirrus Tids- och planeringssystem</value>
+    </label>
+    
+    <!--for atl warning mails-->
+    
+    <label>
+        <key>atl_mail_subject1</key>
+        <value>ATL varning för:</value>
+    </label>
+    <label>
+        <key>atl_mail_body1</key>
+        <value>ATL varning</value>
+    </label>
+    <label>
+        <key>atl_mail_body2</key>
+        <value>ArbetsTidsLagen har överskridit</value>
+    </label>
+    
+  <!-- mail till glömt lösen -->  
+
+       <label>
+        <key>subject_forgot_password</key>
+        <value>Glömt lösenord</value>
+    </label>
+	<label>
+        <key>label_hi</key>
+        <value>Hej</value>
+    </label>
+	<label>
+        <key>to_reset_your_password</key>
+        <value>Återställ lösenord</value>
+    </label>
+	<label>
+        <key>click_here</key>
+        <value>Klicka här</value>
+    </label>
+	<label>
+        <key>link_not_work_copy_url</key>
+        <value>Om länken inte fungerar, kopiera och klistra in i webbläsare.</value>
+    </label>
+	<label>
+        <key>label_thanks</key>
+        <value>----------------</value>
+    </label> 	
+	<label>
+        <key>power_by</key>
+        <value>Drivs av</value>
+    </label>
+	<label>
+        <key>label_january</key>
+        <value>Januari</value>
+    </label>
+	<label>
+        <key>label_february</key>
+        <value>Februari</value>
+    </label>
+	<label>
+        <key>label_march</key>
+        <value>Mars</value>
+    </label>
+	<label>
+        <key>label_april</key>
+        <value>April</value>
+    </label>
+	<label>
+        <key>label_may</key>
+        <value>Maj</value>
+    </label>
+	<label>
+        <key>label_june</key>
+        <value>Juni</value>
+    </label>
+	<label>
+        <key>label_july</key>
+        <value>Juli</value>
+    </label>
+	<label>
+        <key>label_august</key>
+        <value>Augusti</value>
+    </label>
+	<label>
+        <key>label_september</key>
+        <value>September</value>
+    </label>
+	<label>
+        <key>label_october</key>
+        <value>Oktober</value>
+    </label>
+	<label>
+        <key>label_november</key>
+        <value>November</value>
+    </label>
+	<label>
+        <key>label_december</key>
+        <value>December</value>
+    </label>
+	<label>
+        <key>label_sunday</key>
+        <value>Söndag</value>
+    </label>
+	<label>
+        <key>label_monday</key>
+        <value>Måndag</value>
+    </label>
+	<label>
+        <key>label_tuesday</key>
+        <value>Tisdag</value>
+    </label>
+	<label>
+        <key>label_wednesday</key>
+        <value>Onsdag</value>
+    </label>
+	<label>
+        <key>label_thursday</key>
+        <value>Torsdag</value>
+    </label>
+	<label>
+        <key>label_friday</key>
+        <value>Fredag</value>
+    </label>
+	<label>
+        <key>label_saturday</key>
+        <value>Lördag</value>
+    </label>
+    <label>
+        <key>mail_subject_notification_signing</key>
+        <value>Påminnelse om månadsavslut för månad </value>
+    </label>
+    <label>
+        <key>mail_body_notification_signing_start</key>
+        <value>Du har inte signerat månadsavslut för månad </value>
+    </label>
+    <label>
+        <key>mail_body_notification_signing_end</key>
+        <value>. Var vänlig och logga in i Cirrus https://time2view.se/cirrus och signera.</value>
+    </label>
+    <label>
+        <key>is_changed_from</key>
+        <value>har bytt pass från</value>
+    </label>
+    <label>
+        <key>to</key>
+        <value>Till&#032;</value>
+    </label>
+    <label>
+        <key>with</key>
+        <value>med</value>
+    </label>
+    <label>
+        <key>slot_change</key>
+        <value>Passbyte bekräftelse</value>
+    </label>
+    <label>
+        <key>made_the_swap</key>
+        <value>har gjort ett byte mellan: </value>
+    </label>
+    <label>
+        <key>mail_subject_notification_contract_exceed</key>
+        <value>Kundkontrakt överskrids de inmatade timmar</value>
+    </label>
+    <label>
+        <key>mail_body_notification_contract_exceed</key>
+        <value><b>Kund {{CUSTOMER_NAME}} har överskridit sina bevilljade timmar</b>
+        
+            Se detaljernaa nedan <br/>
+        </value>
+    </label>
+     <label>
+        <key>sms</key>
+        <value>Generell SMS</value>
+    </label>
+     <label>
+        <key>mail_employee_has_not_signed</key>
+        <value>Assistent har inte signerat månadsavslut</value>
+    </label>
+    <label>
+        <key>mail_sem_leave_actual</key>
+        <value>Intjänade semesterdagar</value>
+    </label>
+    <label>
+        <key>mail_sem_leave_trimmed</key>
+        <value>Max semesterdagar</value>
+    </label>
+    <label>
+        <key>mail_sem_leave_subject</key>
+        <value>Semesterdagar</value>
+    </label>
+    <label>
+        <key>mail_sem_leave_message</key>
+        <value>Översikt av semesterdagar intjänade och sparade</value>
+    </label>
+    <label>
+        <key>select_mail_recipients</key>
+        <value>Välj mottagare</value>
+    </label>
+   
+    <label>
+        <key>enter_mail_subject</key>
+        <value>Ämne</value>
+    </label>
+    <label>
+        <key>enter_mail_message</key>
+        <value>Meddelande</value>
+    </label>
+    <label>
+        <key>subject_forgot_secondary_password</key>
+        <value>Glömt det ändra lösenordet?</value>
+    </label>
+    <label>
+        <key>signing_mails_sent_to</key>
+        <value>E-post skickades till</value>
+    </label>
+    <label>
+        <key>signing_period</key>
+        <value>Signeringsperiod</value>
+    </label>  
+    <label>
+        <key>appoiment_reminder</key>
+        <value>Påmminelse om schemalagt möte</value>
+    </label>
+    <label>
+        <key>mail_subject_contract_auto_renewal</key>
+        <value>Automatisk förnyelse av bevilljade timmar </value>
+    </label>
+    <label>
+        <key>mail_contract_auto_renewal_footer</key>
+        <value>Bevilljade timmar automatisk förnyelse</value>
+    </label>
+    <label>
+        <key>contract_rolled_from</key>
+        <value>Bev.tim. rullas från datum</value>
+    </label>
+    <label>
+        <key>document_archive_mail_subject</key>
+        <value>Ämne</value>
+    </label>
+    <label>
+        <key>document_archive_mail_body</key>
+        <value>Hej -user first last name-, 
+        Du har ett nytt eller uppdaterat dokumet att läsa i arkivet</value>
+    </label>
+    <label>
+        <key>company_contract_will_expire_soon_subject</key>
+        <value>Company contract will expire soon</value>
+    </label>
+    <label>
+        <key>company_contract_will_expire_soon</key>
+        <value>{{COMPANY-NAME}} company contract will expire in {{EXPIRE-DATE}}</value>
+    </label>
+    <label>
+        <key>sms_leave</key>
+        <value>Frånvaro SMS</value>
+    </label>
+    <label>
+        <key>compose_sms</key>
+        <value>Skriv meddelandet nedan, välj Kund och dess assistenter eller assistenter som inte signerade månadsavslut, klicka på Skicka.</value>
+    </label>
+    <label>
+        <key>mail_subject_contract_edit</key>
+        <value>Anställningsavtalet har ändrats</value>
+    </label>
+    <label>
+        <key>mail_subject_contract_add</key>
+        <value>Nytt anställningsavtal har skapats</value>
+    </label>
+    <label>
+        <key>mail_body_contract_edit</key>
+        <value>Ditt anställningsavtal har ändrats.</value>
+    </label>
+    <label>
+        <key>mail_body_contract_add</key>
+        <value>Nytt anställningsavtal har skapats</value>
+    </label>
+    <label>
+        <key>contract_period</key>
+        <value>Anställningsavtal period</value>
+    </label>
+    <label>
+        <key>click_here_to_see_more_details</key>
+        <value>Klicka på länken för att se avtalet.</value>
+    </label>
+    <label>
+        <key>mail_subject_notification_candg_time_exceed</key>
+        <value>C&#038;G tiden överstiger det tillåtna</value>
+    </label>
+    <label>
+        <key>mail_body_begin_notification_candg_time_exceed</key>
+        <value>Följade ansällda har arbetat för lång tid</value>
+    </label>
+    <label>
+        <key>employee</key>
+        <value>Assistent</value>
+    </label>
+    <label>
+        <key>customer</key>
+        <value>Kund</value>
+    </label>
+    <label>
+        <key>duration</key>
+        <value>Varaktighet</value>
+    </label>
+    <label>
+        <key>click_here_to_read_attached_file</key>
+        <value>Det finns dokument med viktig information som ni måste läsa i dokumentarkivet.</value>
+    </label>
+    <label>
+        <key>cron_form1_reminder_mail_subject</key>
+        <value>Påminnelse för:</value>
+    </label>
+    <label>
+        <key>cron_form1_reminder_mail_body_begin</key>
+        <value>Meddelande</value>
+    </label>
+    <label>
+        <key>cron_form1_reminder_mail_body_end</key>
+        <value>Mail Body End</value>
+    </label>
+    <label>
+        <key>cron_form1_reminder_mail_body_customer</key>
+        <value>Kund</value>
+    </label>
+    <label>
+        <key>cron_form1_reminder_mail_body_review_date</key>
+        <value>Nästa besök</value>
+    </label>
+    <label>
+        <key>contract_acknowledgement_mail_message</key>
+        <value>Anställningsavtalet signerat</value>
+    </label>
+    <label>
+        <key>contract_acknowledgement_mail_subject</key>
+        <value>Anställningsavtal meddelande</value>
+    </label>
+    <label>
+        <key>contract_employee_name</key>
+        <value>Den anställdes namn  </value>
+    </label>
+    <label>
+        <key>contract_employee_signed_date</key>
+        <value>Signeringsdatum: </value>
+    </label>
+    <label>
+        <key>employee_address_update</key>
+        <value>Address: </value>
+    </label>
+    <label>
+        <key>employee_post_update</key>
+        <value>Postnr: </value>
+    </label>
+    <label>
+        <key>employee_city_update</key>
+        <value>Stad: </value>
+    </label>
+    <label>
+        <key>employee_email_update</key>
+        <value>E-post: </value>
+    </label>
+    <label>
+        <key>employee_date_update</key>
+        <value>Inskrivningsdatum: </value>
+    </label>
+    <label>
+        <key>employee_phone_update</key>
+        <value>Telefon: </value>
+    </label>
+    <label>
+        <key>employee_mobile_update</key>
+        <value>Mobil: </value>
+    </label>
+    <label>
+        <key>employee_ice_update</key>
+        <value>ICE: </value>
+    </label>
+    <label>
+        <key>employee_password_update</key>
+        <value>Lösenord: </value>
+    </label>
+    <label>
+        <key>employee_update_mail_subject</key>
+        <value>Uppdatering av anställddata</value>
+    </label>
+     <label>
+        <key>employee_upadte_mail_message</key>
+        <value>Uppdaterad assistentuppgifter:</value>
+    </label>
+    <label>
+        <key>employee_documentation_upload</key>
+        <value>Uppdatering av dokumentation hos anställd</value>
+    </label>
+    <label>
+        <key>employee_documentation_upload_message</key>
+        <value>Dokument uppdatert hos anställd</value>
+    </label>
+    <label>
+        <key>employee_upload_filename</key>
+        <value>Fill uppladdad</value>
+    </label>
+    <label>
+        <key>employee_add_skill_subject</key>
+        <value>Kvalifikationer</value>
+    </label>
+    <label>
+        <key>employee_add_skill_message</key>
+        <value>Lagt till kvalifikationer </value>
+    </label>
+    <label>
+        <key>employee_add_skill_name</key>
+        <value> Kvalifikationer beskrivning </value>
+    </label>
+    <label>
+        <key>employee_add_skill_description</key>
+        <value>Beskrivning av kvalifikationer </value>
+    </label>
+    <label>
+        <key>employee_upload_document_deletion_subject</key>
+        <value>Radera fil</value>
+    </label>
+    <label>
+        <key>employee_upload_document_deletion_message</key>
+        <value>Dokumentet raderat</value>
+    </label>
+    <label>
+        <key>employee_delete_filename</key>
+        <value>Radera fil</value>
+    </label>
+    <label>
+        <key>employee_skill_deletion_subject</key>
+        <value>Fil raderad</value>
+    </label>
+     <label>
+        <key>employee_skill_deletion_message</key>
+        <value>Kvalifikationer raderat</value>
+    </label>
+     <label>
+        <key>employee_delete_skillname</key>
+        <value>Radera kvalifikationer</value>
+    </label>
+    <label>
+        <key>signed_report_delete_mail_subject</key>
+        <value>Avsigneringsrapport</value>
+    </label>
+    <label>
+        <key>signed_report_delete_details</key>
+        <value>Månadsavslut avsidnering:</value>
+    </label>
+    <label>
+        <key>deleted_by</key>
+        <value>Avsignerad av:</value>
+    </label>
+    <label>
+        <key>employee_termination_subject</key>
+        <value>Den anställdas uppsägningsuppgifter</value>
+    </label>
+    <label>
+        <key>employee_termination_date</key>
+        <value>Uppsägningsdatum: </value>
+    </label>
+    <label>
+        <key>employee_sign_date</key>
+        <value>Signeringsdatum</value>
+    </label>
+    <label>
+        <key>mail_subject_notification_my_cand_slot_not_started</key>
+        <value>Du startade inte C&#038;G pass</value>
+    </label>
+    <label>
+        <key>mail_body_notification_my_cand_slot_not_started</key>
+        <value>Du startade inte några av C&#038;G pass än i företaget: <b>{{COMPANY_NAME}}</b></value>
+    </label>
+    <label>
+        <key>mail_subject_notification_user_cand_slot_not_started</key>
+        <value>Assistenten startade inte C&#038;G passet hos</value>
+    </label>
+    <label>
+        <key>mail_body_notification_user_cand_slot_not_started</key>
+        <value>Assistenetn <b>{{EMPLOYEE_NAME}}</b> har inte startat Come&#038;Go på företaget: <b>{{COMPANY_NAME}}</b></value>
+    </label>
+    <label>
+        <key>app_cand_push_notification_title</key>
+        <value>C&#038;G Meddelande</value>
+    </label>
+    <label>
+        <key>app_cand_push_notification_body</key>
+        <value>Du har ett Come-and-Go-pass att starta hos: {{CUSTOMER_NAME}} vid tiden: {{TIME}}</value>
+    </label>
+    <label>
+        <key>employee_password_changed</key>
+        <value>Lösenord : xxxxxxxxx</value>
+    </label>
+    <label>
+        <key>slot_time</key>
+        <value>Pass tid</value>
+    </label>
+    <label>
+        <key>mail_subject_company_information_deatails</key>
+        <value>Företagets kontaktinformation</value>
+    </label> 
+    <label>
+        <key>mail_body_company_information_deatails_start</key>
+        <value>Företagets kontaktinformation start: </value>
+    </label>
+    <label>
+        <key>mail_body_company_information_deatailsend</key>
+        <value>Företagets kontaktinformation slut.</value>
+    </label>
+    <label>
+        <key>app_cirrus_mail_push_notification_title</key>
+        <value>Cirrus PushMail meddelande</value>
+    </label>
+    <label>
+        <key>app_cirrus_mail_push_notification_body</key>
+        <value>Nytt cirrus meddelande från {{SENDER_NAME}} hos {{COMPANY_NAME}}</value>
+    </label>
+    <label>
+        <key>employee_rejection_subject</key>
+        <value>Anställd Avslag, detaljer</value>
+    </label>
+    <label>
+        <key>employee_rejection_date</key>
+        <value>Avslag datum</value>
+    </label>
+    <label>
+        <key>get_employee</key>
+        <value>Hämta osignerade</value>
+    </label>
+    <label>
+        <key>unsigned_employees</key>
+        <value>Assistenter som inte signerade månadsavslut.</value>
+    </label>
+    <label>
+        <key>employee_all</key>
+        <value>Samtliga anställda</value>
+    </label>
+    <label>
+        <key>add_new_mail</key>
+        <value>Ny e-post</value>
+    </label>
+    <label>
+        <key>add_new_recipient</key>
+        <value>Lägg till ny mottagare</value>
+    </label>
+    <label>
+        <key>switch_sms</key>
+        <value>Växla till SMS funktionen</value>
+    </label>
+    <label>
+        <key>no_data_available</key>
+        <value>Det finns inget data</value>
+    </label>
+    <label>
+        <key>switch_mail</key>
+        <value>Växla till PushMail</value>
+    </label>
+    <label>
+        <key>cg_mail_subject</key>
+        <value>C&#038;G meddelnde om kommande arbetspass</value>
+    </label>
+    <label>
+        <key>cg_mail_body_start</key>
+        <value>Du har ett C&#038;G kommande arbetspass</value>
+    </label>
+    <label>
+        <key>cg_mail_body_end</key>
+        <value>******************************************</value>
+    </label>
+    <label>
+        <key>cg_late_mail_subject</key>
+        <value>C&#038;G sen ankomst</value>
+    </label>
+    <label>
+        <key>cg_late_mail_body_start</key>
+        <value>Du har tyvärr startat C&#038;G senare än det passet du var kopplad till.</value>
+    </label>
+    <label>
+        <key>cg_late_mail_body_end</key>
+        <value>******************************************</value>
+    </label>
+    <label>
+        <key>cg_early_going_mail_subject</key>
+        <value>C&#038;G stoppades tidigare än schemat</value>
+    </label>
+    <label>
+        <key>cg_early_going_mail_body_start</key>
+        <value>C&#038;G stoppades tidigare än det planerade schema</value>
+    </label>
+    <label>
+        <key>cg_early_going_mail_body_end</key>
+        <value>Passtiden kommer att justeras automatiskt. Om det är några oklarheter, vänligen kontakta din ansvarige på kontoret.</value>
+    </label>
+    <label>
+        <key>non_prefered_mail_add_subject</key>
+        <value>Assistent tillgänglighet</value>
+    </label>
+    <label>
+        <key>non_prefered_mail_add_heading</key>
+        <value>Assistenten la till tider den inte kan arbeta, se detaljerna nedan</value>
+    </label>
+    <label>
+        <key>non_prefered_mail_edit_subject</key>
+        <value>Assistent tillgänglighet - Ej tillgänglig</value>
+    </label>
+    <label>
+        <key>non_prefered_mail_edit_heading</key>
+        <value>Assistenten ändrade tider den inte kan arbeta, se detaljerna nedan</value>
+    </label>
+    <label>
+        <key>emp_take_non_preferd_time_range</key>
+        <value>Tillgängligheten påverkas under: </value>
+    </label>
+    <label>
+        <key>cg_minute_short</key>
+        <value> min</value>
+    </label>
+    <label>
+        <key>mail_subject_error_backup_process</key>
+        <value>Some errors has been found while processed Cirrus </value>
+    </label>
+    <label>
+        <key>mail_body_error_backup_process</key>
+        <value>Some errors has been found while processing Cirrus Backup for the company {{COMPANY-NAME}} ({{COMPANY-DB}}). Please try manually.</value>
+    </label>
+    <label>
+        <key>mail_subject_support_ticket_remainder</key>
+        <value>support ticket remainder mail</value>
+    </label>
+    <label>
+        <key>remainder_subject</key>
+        <value>Subject</value>
+    </label>
+    <label>
+        <key>remainder_date</key>
+        <value>Date</value>
+    </label>
+    <label>
+        <key>body_start_support_ticket_remainder</key>
+        <value></value>
+    </label>
+    <label>
+        <key>body_end_support_ticket_remainder</key>
+        <value></value>
+    </label>
+    <label>
+        <key>support_ticket_id</key>
+        <value>Ticket Id</value>
+    </label>
+    <label>
+        <key>support_ticket_category</key>
+        <value>Category</value>
+    </label>
+    <label>
+        <key>support_ticket_category_external</key>
+        <value>External</value>
+    </label>
+    <label>
+        <key>support_ticket_category_internal</key>
+        <value>Internal</value>
+    </label>
+    <label>
+        <key>company_name</key>
+        <value>Company</value>
+    </label>
+    <label>
+        <key>slot_interest_in_subject</key>
+        <value>Slot Interest In Subject</value>
+    </label>
+    <label>
+        <key>slot_interest_in_message</key>
+        <value>Slot Interest In Message</value>
+    </label>
+    <label>
+        <key>requested_by</key>
+        <value>Requested By</value>
+    </label>
+    <label>
+        <key>mail_body_notification_signing_untreated_leaves_start</key>
+        <value>mail_body_notification_signing_untreated_leaves_start</value>
+    </label>
+    <label>
+        <key>mail_body_notification_signing_untreated_leaves_end</key>
+        <value>mail_body_notification_signing_untreated_leaves_end</value>
+    </label>
+    <label>
+        <key>mail_body_notification_signing_untreated_cng_start</key>
+        <value>mail_body_notification_signing_untreated_cng_start</value>
+    </label>
+    <label>
+        <key>mail_body_notification_signing_untreated_cng_end</key>
+        <value>mail_body_notification_signing_untreated_cng_end</value>
+    </label>
+</content>

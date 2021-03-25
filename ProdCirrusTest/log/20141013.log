@@ -1,0 +1,15 @@
+13:29:14 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 223.30.129.234, Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:31.0) Gecko/20100101 Firefox/31.0 ) => {inserted_id = 1900}
+13:29:14 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+14:27:58 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 46.194.126.108, Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0 ) => {inserted_id = 1901}
+14:27:58 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+14:27:58 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( error ) values (0) on conditions username = gine001
+15:10:16 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 223.30.129.234, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/37.0.2062.120 Chrome/37.0.2062.120 Safari/537.36 ) => {inserted_id = 1902}
+15:10:16 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+15:31:45 gine001 Gilad Nevo DELETE data from tables `inconvenient_timing` on conditions root_id = 5
+15:31:45 gine001 Gilad Nevo DELETE data from tables `inconvenient_timing` on conditions id = 5
+15:31:45 gine001 Gilad Nevo INSERTING data into tables `inconvenient_timing` fields ( root_id, group_id, name, type, effect_from, effect_to, time_from, time_to, days, amount, nature, sal_call_training, sal_complementary_oncall, sal_more_oncall ) values ( 0, 3, OB natt, 0, 2012-01-01, , 22.00, 24, 1,2,3,4,, 0.00, 0, 0, 0, 0 ) => {inserted_id = 35}
+15:31:45 gine001 Gilad Nevo INSERTING data into tables `inconvenient_timing` fields ( root_id, group_id, name, type, effect_from, effect_to, time_from, time_to, days, amount, nature, sal_call_training, sal_complementary_oncall, sal_more_oncall ) values ( 35, 3, OB natt, 0, 2012-01-01, , 0, 7.00, 2,3,4,5,, 0.00, 0, 0, 0, 0 ) => {inserted_id = 36}
+15:31:52 gine001 Gilad Nevo DELETE data from tables `inconvenient_timing` on conditions root_id = 35
+15:31:52 gine001 Gilad Nevo DELETE data from tables `inconvenient_timing` on conditions id = 35
+15:31:52 gine001 Gilad Nevo INSERTING data into tables `inconvenient_timing` fields ( root_id, group_id, name, type, effect_from, effect_to, time_from, time_to, days, amount, nature, sal_call_training, sal_complementary_oncall, sal_more_oncall ) values ( 0, 3, OB natt, 0, 2012-01-01, , 22.00, 24, 1,2,3,4,, 0.00, 0, 0, 0, 0 ) => {inserted_id = 37}
+15:31:52 gine001 Gilad Nevo INSERTING data into tables `inconvenient_timing` fields ( root_id, group_id, name, type, effect_from, effect_to, time_from, time_to, days, amount, nature, sal_call_training, sal_complementary_oncall, sal_more_oncall ) values ( 37, 3, OB natt, 0, 2012-01-01, , 0, 6.00, 2,3,4,5,, 0.00, 0, 0, 0, 0 ) => {inserted_id = 38}

@@ -1,0 +1,17 @@
+06:44:00 gine001  UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 8408 #Mobile-App: Log-id=4220
+06:44:00 gine001  INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, employee, status ) values ( stal001, 2016-01-04, 11.15, 16.30, 0, 1, , gine001, 8408, majo022, 1 ) => {inserted_id = 8425} #Mobile-App: Log-id=4220
+06:44:00 gine001  INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 108, gine001, 2016-01-04, 11.15, 16.3, 1, funkar, gine001, 0, 1 ) => {inserted_id = 356} #Mobile-App: Log-id=4220
+06:44:09 gine001  UPDATING data to tables `leave` fields ( status, appr_emp, appr_date ) values (1, gine001, 2015-12-18) on conditions group_id = 108 #Mobile-App: Log-id=4220
+06:54:09 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 106.208.197.228, Mozilla/5.0 (iPhone; CPU iPhone OS 9_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13C75 Safari/601.1 ) => {inserted_id = 4221}
+06:54:09 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+06:54:09 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-12-18 05:54:09) on conditions username = dodo001
+06:54:09 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( error ) values (0) on conditions username = dodo001
+06:54:10 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = dtqk8sgppg88q5gslcc78rpa71
+07:51:00 gine001  INSERTING data into tables `customer_documentation` fields ( customer, employee, completed_date, subject, note_type, notes, priority, description, status, writable ) values ( adan001, gine001, , test ???, minnesanteckning, public ???, , , , 0 ) => {inserted_id = 65} #Mobile-App: Log-id=4222
+07:51:00 gine001  INSERTING data into tables `note` fields ( created_user, title, description, visibility, status, customer, ticket, attachment ) values ( gine001, test ???, public ???, 1, 0, adan001, ,  ) => {inserted_id = 72} #Mobile-App: Log-id=4222
+07:51:00 gine001  UPDATING data to tables `note` fields ( attachment ) values () on conditions id = 72 #Mobile-App: Log-id=4222
+10:10:00 thne001  DELETE data from tables `temp_session` on conditions username LIKE thne001
+10:10:00 thne001 Theodor Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( thne001, 85.227.155.192, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36 ) => {inserted_id = 4223}
+10:10:00 thne001 Theodor Nevo DELETE data from tables `temp_session` on conditions username LIKE thne001
+10:10:00 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-12-18 09:10:00) on conditions username = thne001
+10:10:41 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = ipahft23eu6thm3der5864r8n2

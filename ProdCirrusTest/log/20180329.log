@@ -1,0 +1,951 @@
+08:05:36 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+08:05:36 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 213.101.127.108, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0 ) => {inserted_id = 6426}
+08:05:36 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+08:05:36 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-03-29 08:05:36) on conditions username = gine001
+08:05:36 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-03-29 08:05:36) on conditions username = gine001 AND company_id = 6
+09:02:41 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 223.30.129.234, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36 ) => {inserted_id = 6427}
+09:02:41 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+09:02:41 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-03-29 09:02:41) on conditions username = dodo001
+09:02:41 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-03-29 09:02:41) on conditions username = dodo001 AND company_id = 6
+09:02:42 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = 9c705d2afcc3591f1d5925e01eca2217
+09:08:57 dodo001 Admin Cirrus INSERTING data into tables `time2vie_cirruscommon`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, category_id, priority, ticket_type, status, hidden ) values ( 1410, dodo001, write something that is understandable... that is a single text given in form.. if u want to change the text, give the new form, 10, 2, 2, 2, 1 ) => {inserted_id = 2461}
+09:15:40 dodo001 Admin Cirrus INSERTING data into tables `time2vie_cirruscommon`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, category_id, priority, ticket_type, status, hidden ) values ( 1421, dodo001, <p>what we finalized&nbsp; is to give&nbsp; give option to hide document on employee documentation from employee,&nbsp; and add option to upload file in skills(in that there is no hiding option)</p>, 40, 3, 2, 2, 1 ) => {inserted_id = 2462}
+10:02:26 dodo001 Admin Cirrus UPDATING data to tables `employee` fields ( language ) values (en) on conditions username = dodo001
+10:02:38 dodo001 Admin Cirrus UPDATING data to tables `employee` fields ( language ) values (se) on conditions username = dodo001
+10:09:09 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values (, , Nytt internt ärendenr  #{id}, Hej {admin_name},
+
+Ärendenr #{id}
+
+Skapat av: {created_name}, {created_user},  Mobilnr: {created_mobile}
+
+ Datum/tid: {date}, Prioritet: {priority}
+
+Pågående status: {status}
+Problemområdet: {category}
+
+Ämne: {title}
+
+Beskrivning av problemet: {description}
+
+Länk till ärendet: {url}.) on conditions id = 1
+10:09:09 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values (, , Nytt Cirrus ärende skickat till Support. Ärendenr #{id}, Ärende skapat av: {created_name}, Datum/tid: {date}
+
+Prioritet: {priority}
+Ärende typ: {type}, Pågående status: {status}, Problemområdet: {category}
+
+Ämne: {title}
+Beskrivning av problemet: {description}
+
+Länk till ärendet: {url}.) on conditions id = 2
+10:09:10 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values ({company_email}, {company_name}, Nytt internt ärendenr #{id}, Hej {created_name},
+
+Status: {status}, Prio: {priority}
+Datum/tid:  {date}
+Problemområdet: {category}, Prioritet: {priority}, Pågående status: {status}
+
+Ämne: {title}
+Beskrivning av problemet: {description}
+
+Länk till ärendet: {url}.) on conditions id = 3
+10:09:10 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values (support@time2view.se, IT support, Nytt Cirrus ärende #{id}, Hej {created_name},
+
+Status: {status}, Prio: {priority}
+Datum/tid:  {date}
+Problemområdet: {category}, Prioritet: {priority}, Pågående status: {status}
+
+Ämne: {title}
+Beskrivning av problemet: {description}
+
+Länk till ärendet: {url}.) on conditions id = 4
+10:09:10 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values (, , Svar i internt ärendenr #{id}, Hej {admin_name},
+
+Svar - ärendenr: #{id}, Datum/tid: {date}
+
+Skapat av: {created_name}, Användarnamn: {created_user}
+Mobilnr: {created_mobile}
+
+Status: {answer_status}, Prio: {priority}
+Problemområdet: {category}
+
+Ämne: {title}
+Problembeskrivning: {description}
+
+Länk till ärendet: {url}) on conditions id = 5
+10:09:10 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values (, , Svar från administratören i ärendenr #{id}, Hej {admin_name},
+
+Svar - ärendenr:  #{id}, Datum/tid: {date}
+
+Skapat av: {created_name},  Användarnamn: {created_user}
+{answer_status} 
+Problemområdet: {category}, Prioritet: {priority}
+
+Ämne: {title}
+Problembeskrivning: {description}
+
+Länk till ärendet: {url}) on conditions id = 6
+10:09:11 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values (, , Svar angånde Cirrus ärendenr #{id}, Hej {admin_name},
+
+Datum/tid: {date}
+Skapat av: {created_name}, Användarnamn: {created_user}, Mobilnr: {created_mobile}
+
+Ärendetyp: {type},  
+{answer_status}, Prioritet: {priority}
+
+Problemområdet: {category}
+
+
+
+Ämne: {title}
+Problembeskrivning: {description}
+
+{answer}
+
+Länk till ärendet: {url}) on conditions id = 7
+10:09:11 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values (, , Svar från Cirrus Support angående ärendenr #{id}, Hej {admin_name},
+
+Ärendenr: #{id}, Datum/tid: {date}
+
+
+Skapat av: {created_name}
+Ärendetyp: {type},   {answer_status}
+Prioritet: {priority}, Problemområdet: {category}
+
+Ämne: {title}
+Problembeskrivning: {description}
+
+Länk till ärendet: {url}) on conditions id = 8
+10:09:11 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values (, , Svar från administratör till samtliga berörda i ärendenr #{id}, Hej {admin_name},
+
+Nytt svar skickat i ärendenr: #{id}, Datum/tid: {date}
+
+Skapat av: {created_name}, Användarnamn: {created_user}, Mobilnr: {created_mobile}
+
+Ärendetyp: {type}, Pågående status: {status}
+Problemområdet: {category}, Prioritet: {priority}
+
+Ämne: {title}
+Problembeskrivning: {description}
+
+Länk till ärendet: {url}) on conditions id = 9
+10:09:11 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values ({company_email}, {company_name}, Automatiskt meddelande om internt ärendestängning #{id}, Status: {status}
+Ärendestänr: #{id}, Datum/tid: {date}
+
+Skapat av: {created_name}, Användarnamn: {created_user}
+
+Problemområdet: {category}, Prioritet: {priority}
+
+Ämne: {title}
+Problembeskrivning: {description}
+
+Länk till ärendet: {url}) on conditions id = 10
+10:09:11 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values ({admin_email}, {admin_name}, Automatiskt meddelande om Cirrus ärendestängning #{id}, Status: {status}
+Ärendenr: #{id}, Datum/tid: {date}
+
+Skapat av: {created_name}, Användarnamn: {created_user}
+
+Problemområdet: {category}, Prioritet: {priority}
+
+Ämne: {title}
+Problembeskrivning: {description}
+
+Länk till ärendet: {url}) on conditions id = 11
+10:15:45 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values (, , Nytt internt ärendenr  #{id}, Hej {admin_name},
+
+Ärendenr #{id}
+
+Skapat av: {created_name}, {created_user},  Mobilnr: {created_mobile}
+
+ Datum/tid: {date}, Prioritet: {priority}
+
+Pågående status: {status}
+Problemområdet: {category}
+
+Ämne: {title}
+
+Beskrivning av problemet: {description}
+
+Länk till ärendet: {url}.) on conditions id = 1
+10:15:45 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values (, , Nytt Cirrus ärende skickat till Support. Ärendenr #{id}, Ärende skapat av: {created_name}, Datum/tid: {date}
+
+Prioritet: {priority}
+Ärende typ: {type}, Pågående status: {status}, Problemområdet: {category}
+
+Ämne: {title}
+Beskrivning av problemet: {description}
+
+Länk till ärendet: {url}.) on conditions id = 2
+10:15:46 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values ({company_email}, {company_name}, Nytt internt ärendenr #{id}, Hej {created_name},
+
+Status: {status}, Prio: {priority}
+Datum/tid:  {date}
+Problemområdet: {category}, Prioritet: {priority}, Pågående status: {status}
+
+Ämne: {title}
+Beskrivning av problemet: {description}
+
+Länk till ärendet: {url}.) on conditions id = 3
+10:15:46 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values (support@time2view.se, IT support, Nytt Cirrus ärende #{id}, Hej {created_name},
+
+Status: {status}, Prio: {priority}
+Datum/tid:  {date}
+Problemområdet: {category}, Prioritet: {priority}, Pågående status: {status}
+
+Ämne: {title}
+Beskrivning av problemet: {description}
+
+Länk till ärendet: {url}.) on conditions id = 4
+10:15:46 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values (, , Svar i internt ärendenr #{id}, Hej {admin_name},
+
+Svar - ärendenr: #{id}, Datum/tid: {date}
+
+Skapat av: {created_name}, Användarnamn: {created_user}
+Mobilnr: {created_mobile}
+
+Status: {answer_status}, Prio: {priority}
+Problemområdet: {category}
+
+Ämne: {title}
+Problembeskrivning: {description}
+
+Länk till ärendet: {url}) on conditions id = 5
+10:15:46 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values (, , Svar från administratören i ärendenr #{id}, Hej {admin_name},
+
+Svar - ärendenr:  #{id}, Datum/tid: {date}
+
+Skapat av: {created_name},  Användarnamn: {created_user}
+{answer_status} 
+Problemområdet: {category}, Prioritet: {priority}
+
+Ämne: {title}
+Problembeskrivning: {description}
+
+Länk till ärendet: {url}) on conditions id = 6
+10:15:46 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values (, , Svar angånde Cirrus ärendenr #{id}, Hej {admin_name},
+
+Datum/tid: {date}
+Skapat av: {created_name}, Användarnamn: {created_user}, Mobilnr: {created_mobile}
+
+Ärendetyp: {type},  
+{answer_status}, Prioritet: {priority}
+
+Problemområdet: {category}
+
+
+
+Ämne: {title}
+Problembeskrivning: {description}
+{answer_user}
+{answer}
+
+Länk till ärendet: {url}) on conditions id = 7
+10:15:46 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values (, , Svar från Cirrus Support angående ärendenr #{id}, Hej {admin_name},
+
+Ärendenr: #{id}, Datum/tid: {date}
+
+
+Skapat av: {created_name}
+Ärendetyp: {type},   {answer_status}
+Prioritet: {priority}, Problemområdet: {category}
+
+Ämne: {title}
+Problembeskrivning: {description}
+
+Länk till ärendet: {url}) on conditions id = 8
+10:15:46 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values (, , Svar från administratör till samtliga berörda i ärendenr #{id}, Hej {admin_name},
+
+Nytt svar skickat i ärendenr: #{id}, Datum/tid: {date}
+
+Skapat av: {created_name}, Användarnamn: {created_user}, Mobilnr: {created_mobile}
+
+Ärendetyp: {type}, Pågående status: {status}
+Problemområdet: {category}, Prioritet: {priority}
+
+Ämne: {title}
+Problembeskrivning: {description}
+
+Länk till ärendet: {url}) on conditions id = 9
+10:15:46 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values ({company_email}, {company_name}, Automatiskt meddelande om internt ärendestängning #{id}, Status: {status}
+Ärendestänr: #{id}, Datum/tid: {date}
+
+Skapat av: {created_name}, Användarnamn: {created_user}
+
+Problemområdet: {category}, Prioritet: {priority}
+
+Ämne: {title}
+Problembeskrivning: {description}
+
+Länk till ärendet: {url}) on conditions id = 10
+10:15:46 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`support_emails` fields ( sender, sender_name, subject, body ) values ({admin_email}, {admin_name}, Automatiskt meddelande om Cirrus ärendestängning #{id}, Status: {status}
+Ärendenr: #{id}, Datum/tid: {date}
+
+Skapat av: {created_name}, Användarnamn: {created_user}
+
+Problemområdet: {category}, Prioritet: {priority}
+
+Ämne: {title}
+Problembeskrivning: {description}
+
+Länk till ärendet: {url}) on conditions id = 11
+15:10:39 majo022 Mats Jonsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( majo022, 213.101.127.108, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36 ) => {inserted_id = 6428}
+15:10:39 majo022 Mats Jonsson DELETE data from tables `temp_session` on conditions username LIKE majo022
+15:10:39 majo022 Mats Jonsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-03-29 15:10:39) on conditions username = majo022
+15:10:39 majo022 Mats Jonsson UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-03-29 15:10:39) on conditions username = majo022 AND company_id = 6
+15:10:40 majo022 Mats Jonsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (majo022) on conditions session_id = 36b59ac868b8425d44c71d7074727ae3
+15:10:41 majo022 Mats Jonsson UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (majo022) on conditions session_id = 36b59ac868b8425d44c71d7074727ae3
+15:11:48 majo022 Mats Jonsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( role, mobile ) values (3, 70455269667) on conditions username = majo022
+15:11:48 majo022 Mats Jonsson UPDATING data to tables `employee` fields ( code, social_security, address, city, post, phone, mobile, email, date, ice ) values (20032, 5408186657, , , , 193321127, 70455269667, gn.nevo@gmail.com, 2015-12-02, ) on conditions username = majo022
+15:12:08 gine001 gine001 UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (1) on conditions username = gine001 AND company_id = 6
+15:12:24 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+15:12:24 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 213.101.127.108, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0 ) => {inserted_id = 6429}
+15:12:24 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+15:12:24 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-03-29 15:12:24) on conditions username = gine001
+15:12:24 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-03-29 15:12:24) on conditions username = gine001 AND company_id = 6
+15:12:25 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = c81a1b6daa60bb2dd2ff4a5f9f8df4d8
+15:16:28 majo022 Mats Jonsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( role, mobile ) values (3, 70455269667) on conditions username = majo022
+15:16:28 majo022 Mats Jonsson UPDATING data to tables `employee` fields ( code, social_security, address, city, post, phone, mobile, email, date, ice ) values (20032, 5408186657, , , 968522, 193321127, 70455269667, gn.nevo@gmail.com, 2015-12-02, ) on conditions username = majo022
+15:24:01 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirruscommon`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, category_id, priority, ticket_type, status, hidden ) values ( 1410, gine001, <p><!--[if gte mso 9]><xml>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG></o:AllowPNG>
+ </o:OfficeDocumentSettings>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Normal</w:View>
+  <w:Zoom>0</w:Zoom>
+  <w:TrackMoves></w:TrackMoves>
+  <w:TrackFormatting></w:TrackFormatting>
+  <w:HyphenationZone>21</w:HyphenationZone>
+  <w:PunctuationKerning></w:PunctuationKerning>
+  <w:ValidateAgainstSchemas></w:ValidateAgainstSchemas>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF></w:DoNotPromoteQF>
+  <w:LidThemeOther>SV</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables></w:BreakWrappedTables>
+   <w:SnapToGridInCell></w:SnapToGridInCell>
+   <w:WrapTextWithPunct></w:WrapTextWithPunct>
+   <w:UseAsianBreakRules></w:UseAsianBreakRules>
+   <w:DontGrowAutofit></w:DontGrowAutofit>
+   <w:SplitPgBreakAndParaMark></w:SplitPgBreakAndParaMark>
+   <w:EnableOpenTypeKerning></w:EnableOpenTypeKerning>
+   <w:DontFlipMirrorIndents></w:DontFlipMirrorIndents>
+   <w:OverrideTableStyleHps></w:OverrideTableStyleHps>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"></m:mathFont>
+   <m:brkBin m:val="before"></m:brkBin>
+   <m:brkBinSub m:val="&#45;-"></m:brkBinSub>
+   <m:smallFrac m:val="off"></m:smallFrac>
+   <m:dispDef></m:dispDef>
+   <m:lMargin m:val="0"></m:lMargin>
+   <m:rMargin m:val="0"></m:rMargin>
+   <m:defJc m:val="centerGroup"></m:defJc>
+   <m:wrapIndent m:val="1440"></m:wrapIndent>
+   <m:intLim m:val="subSup"></m:intLim>
+   <m:naryLim m:val="undOvr"></m:naryLim>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="371">
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"></w:LsdException>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 7"></w:LsdException>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 8"></w:LsdException>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 9"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 1"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 2"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 3"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 4"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 5"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 6"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 7"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 8"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 9"></w:LsdException>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 7"></w:LsdException>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 8"></w:LsdException>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 9"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Indent"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote text"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation text"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="header"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footer"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index heading"></w:LsdException>
+  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="caption"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of figures"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope address"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope return"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote reference"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation reference"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="line number"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="page number"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote reference"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote text"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of authorities"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="macro"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="toa heading"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 2"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 3"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 4"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 5"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 2"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 3"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 4"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 5"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 2"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 3"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 4"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Closing"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Signature"></w:LsdException>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Default Paragraph Font"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 2"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 3"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 4"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 5"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Message Header"></w:LsdException>
+  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Salutation"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Date"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent 2"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Note Heading"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 2"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 3"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 2"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 3"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Block Text"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hyperlink"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="FollowedHyperlink"></w:LsdException>
+  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"></w:LsdException>
+  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Document Map"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Plain Text"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="E-mail Signature"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Top of Form"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Bottom of Form"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal (Web)"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Acronym"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Address"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Cite"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Code"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Definition"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Keyboard"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Preformatted"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Sample"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Typewriter"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Variable"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation subject"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="No List"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 1"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 2"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 3"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 1"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 2"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 3"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 1"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 2"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 3"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 4"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 1"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 2"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 3"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 1"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 2"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 3"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 4"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 5"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 1"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 2"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 3"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 4"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 5"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 6"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 7"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 8"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 1"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 2"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 3"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 4"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 5"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 6"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 7"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 8"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 1"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 2"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 3"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Contemporary"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Elegant"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Professional"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 1"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 2"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Balloon Text"></w:LsdException>
+  <w:LsdException Locked="false" Priority="39" Name="Table Grid"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"></w:LsdException>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"></w:LsdException>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"></w:LsdException>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"></w:LsdException>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"></w:LsdException>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"></w:LsdException>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"></w:LsdException>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"></w:LsdException>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"></w:LsdException>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"></w:LsdException>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"></w:LsdException>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"></w:LsdException>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"></w:LsdException>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"></w:LsdException>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"></w:LsdException>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"></w:LsdException>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"></w:LsdException>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"></w:LsdException>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"></w:LsdException>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"></w:LsdException>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"></w:LsdException>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"></w:LsdException>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"></w:LsdException>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"></w:LsdException>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"></w:LsdException>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"></w:LsdException>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"></w:LsdException>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"></w:LsdException>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"></w:LsdException>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"></w:LsdException>
+ </w:LatentStyles>
+</xml><![endif]--><!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Normal tabell";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin-top:0cm;
+	mso-para-margin-right:0cm;
+	mso-para-margin-bottom:10.0pt;
+	mso-para-margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+</style>
+<![endif]-->
+
+För viss tid så länge assistansuppdraget varar</p><p>
+
+</p>, 10, 2, 2, 2, 1 ) => {inserted_id = 2465}
+15:25:08 gine001 Gilad Nevo INSERTING data into tables `history_certification_report` fields ( employee, file ) values ( cehe001, Certificate_809736475.pdf ) => {inserted_id = 14}

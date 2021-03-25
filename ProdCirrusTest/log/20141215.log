@@ -1,0 +1,21 @@
+16:01:23 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+16:01:23 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.112.58, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 ) => {inserted_id = 2157}
+16:01:23 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+16:01:23 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+18:08:26 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+18:08:26 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.112.58, Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0 ) => {inserted_id = 2158}
+18:08:26 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+18:08:26 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+18:09:40 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( role, mobile ) values (1, ) on conditions username = emte001
+18:09:40 gine001 Gilad Nevo UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day, remaining_sem_leave, sem_leave_todate, leave_in_advance, care_of, office_personal ) values (20025, 19, 7124555637, Bat7, Lis, 1, , , , , , bat7.asiv@gmail.com, 2014-01-01, #F7EFBC, 1, , , 0, 10.00, , , , , ) on conditions username = emte001
+18:09:54 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( stal001, emte001, 3 ) => {inserted_id = 0}
+18:10:09 gine001 Gilad Nevo DELETE data from tables `team` on conditions employee = emte001 AND customer = stal001
+18:10:28 gine001 Gilad Nevo UPDATING data to tables `employee` fields ( language ) values (en) on conditions username = gine001
+18:10:48 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( role, mobile ) values (1, ) on conditions username = emte001
+18:10:48 gine001 Gilad Nevo UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day, remaining_sem_leave, sem_leave_todate, leave_in_advance, care_of, office_personal ) values (20025, 19, 7124555637, Bat7, Lis, 1, , , , , , bat7.asiv@gmail.com, 2014-01-01, #F7EFBC, 1, , , 0, 10.00, 0, , , , 1) on conditions username = emte001
+18:14:19 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( password, mobile, role, error ) values (6a51a459697c6382220882e92b34b41b, , 1, 0) on conditions username = emte001
+18:14:19 gine001 Gilad Nevo UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day, remaining_sem_leave, sem_leave_todate, leave_in_advance, care_of, office_personal ) values (20025, 19, 7124555637, Bat7, Lis, 1, , , , , , bat7.asiv@gmail.com, 2014-01-01, #F7EFBC, 1, , , 0, 10.00, 0, , , , 1) on conditions username = emte001
+18:21:16 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+18:21:16 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+18:21:16   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-12-15:17:21:16) on conditions id = 2158 AND username = gine001
+22:37:28 emte001 Bat7 Lis INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( emte001, 31.154.12.98, Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 ) => {inserted_id = 2159}

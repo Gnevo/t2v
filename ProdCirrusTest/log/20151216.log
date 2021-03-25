@@ -1,0 +1,39 @@
+09:57:16 thne001 thne001 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = kp2lkb5k00fq9bp2kglj78ubs1
+09:59:58 thne001 thne001 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = kp2lkb5k00fq9bp2kglj78ubs1
+10:00:03 thne001 thne001 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = kp2lkb5k00fq9bp2kglj78ubs1
+10:00:04 thne001 thne001 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = kp2lkb5k00fq9bp2kglj78ubs1
+10:35:23 thne001 thne001 DELETE data from tables `temp_session` on conditions username LIKE thne001
+10:35:23 thne001 thne001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2015-12-16 09:35:23) on conditions username = thne001
+10:35:23   UPDATING data to tables `log_login` fields ( logout_time ) values (2015-12-16:09:35:23) on conditions id = 79895 AND username = thne001
+12:14:22 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+12:14:22 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.252.30, Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0 ) => {inserted_id = 4213}
+12:14:22 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+12:14:22 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-12-16 11:14:22) on conditions username = gine001
+12:14:22 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = sjlmsh9aquqh582g1b2q4mmkh6
+12:53:48 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+12:53:48 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 223.30.129.234, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/41.0.2272.76 Chrome/41.0.2272.76 Safari/537.36 ) => {inserted_id = 4214}
+12:53:48 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+12:53:48 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-12-16 11:53:48) on conditions username = gine001
+12:53:49 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = jd8n9ovn3tddiglo0vq1rbn8s7
+13:34:48 thne001  DELETE data from tables `temp_session` on conditions username LIKE thne001
+13:34:48 thne001 Theodor Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( thne001, 85.227.155.192, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36 ) => {inserted_id = 4215}
+13:34:48 thne001 Theodor Nevo DELETE data from tables `temp_session` on conditions username LIKE thne001
+13:34:48 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-12-16 12:34:48) on conditions username = thne001
+13:36:49 thne001 Theodor Nevo INSERTING data into tables `email` fields ( `from`, `to`, subject, message ) values ( thne001, Theodor Nevo<theodor.nevo@time2view.se>, test formatering, Hej
+
+block1block1block1block1block1block1block1block1block1block1block1block1block1block1block1
+block1block1block1block1block1block1block1block1block1block1block1block1block1block1block1
+
+block2block2block2block2block2block2block2block2block2block2block2block2block2block2block2
+block2block2block2block2block2block2block2block2block2block2block2block2block2block2block2
+block2block2block2block2block2block2block2block2block2block2block2block2block2block2block2
+
+
+block3block3block3block3block3block3block3block3block3block3block3block3block3block3block3
+block3block3block3block3block3block3block3block3block3block3block3block3block3block3block3
+block3block3block3block3block3block3block3block3block3block3block3block3block3block3block3 ) => {inserted_id = 5}
+13:43:52 thne001 Theodor Nevo INSERTING data into tables `time2vie_cirruscommon`.`support_ticket_master` fields ( company_id, category_type ) values ( 6, 2 ) => {inserted_id = 571}
+13:43:52 thne001 Theodor Nevo INSERTING data into tables `time2vie_cirruscommon`.`support_tickets` fields ( id, created_user, category_id, ticket_type, priority, title, description, attachment, status ) values ( 571, thne001, 8, 2, 2, Cirrus mail formating, <p><span style="font-weight: bold;">Cirrus mail</span> text box got no kind of formatting or editing.<br>It needs to be more like this one with the standard features. </p><p>Further more when sending a mail today through the mail system nothing is retain in forms of even the minimum of structure. See example bellow&nbsp;</p><p>sending:</p><p>"<span style="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 12.8px;">block1</span></p><p><span style="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 12.8px;">block2</span></p><p><span style="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 12.8px;"><br></span></p><p><span style="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 12.8px;">block3"</span></p><p><span style="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 12.8px;"><br></span></p><p><span style="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 12.8px;">revived:</span></p><p><span style="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 12.8px;">"block1block2block3"&nbsp;</span></p>, , 1 ) => {inserted_id = 0}
+13:43:56 thne001 Theodor Nevo DELETE data from tables `temp_session` on conditions username LIKE thne001
+13:43:56 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2015-12-16 12:43:56) on conditions username = thne001
+13:43:56   UPDATING data to tables `log_login` fields ( logout_time ) values (2015-12-16:12:43:56) on conditions id = 4215 AND username = thne001

@@ -1,0 +1,23 @@
+09:40:11 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+09:40:11 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.157.177, CirrusM/1 CFNetwork/758.5.3 Darwin/15.6.0 ) => {inserted_id = 5066}
+09:40:11 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+09:40:11 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-08-19 09:40:11) on conditions username = gine001
+09:40:11 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-08-19 09:40:11) on conditions username = gine001 AND company_id = 6
+09:42:06 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( gine001, , 1, 0, 2016-06-14, 9, 22, 0, , gine001,  ) => {inserted_id = 9598} #Mobile-App: Log-id=5066
+09:43:41 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001 #Mobile-App: Log-id=5066
+09:43:41 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2016-08-19 09:43:41) on conditions username = gine001 #Mobile-App: Log-id=5066
+09:43:41 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-08-19 09:43:41) on conditions username = gine001 AND company_id = 6 #Mobile-App: Log-id=5066
+18:57:37 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+18:57:37 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.157.177, android ) => {inserted_id = 5067}
+18:57:37 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+18:57:37 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-08-19 18:57:37) on conditions username = gine001
+18:57:37 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2016-08-19 18:57:37) on conditions username = gine001 AND company_id = 6
+18:58:15 gine001 Gilad Nevo UPDATING data to tables `mail` fields ( status ) values (1) on conditions id = 23 #Mobile-App: Log-id=5067
+18:59:38 gine001 Gilad Nevo UPDATING data to tables `mc_leave` fields ( read_users ) values (thne001,gine001) on conditions leave_id = 123 #Mobile-App: Log-id=5067
+18:59:38 gine001 Gilad Nevo UPDATING data to tables `mc_leave` fields ( read_users ) values (thne001,gine001) on conditions leave_id = 122 #Mobile-App: Log-id=5067
+18:59:38 gine001 Gilad Nevo UPDATING data to tables `mc_leave` fields ( read_users ) values (thne001,gine001) on conditions leave_id = 121 #Mobile-App: Log-id=5067
+18:59:38 gine001 Gilad Nevo UPDATING data to tables `mc_leave` fields ( read_users ) values (thne001,jata001,dodo001,gine001) on conditions leave_id = 117 #Mobile-App: Log-id=5067
+18:59:38 gine001 Gilad Nevo UPDATING data to tables `mc_leave` fields ( read_users ) values (jata001,dodo001,thne001,gine001) on conditions leave_id = 118 #Mobile-App: Log-id=5067
+18:59:38 gine001 Gilad Nevo UPDATING data to tables `mc_leave` fields ( read_users ) values (jata001,dodo001,thne001,gine001) on conditions leave_id = 119 #Mobile-App: Log-id=5067
+18:59:38 gine001 Gilad Nevo UPDATING data to tables `mc_leave` fields ( read_users ) values (jata001,dodo001,thne001,gine001) on conditions leave_id = 120 #Mobile-App: Log-id=5067
+18:59:38 gine001 Gilad Nevo INSERTING data into tables `mc_leave` fields ( leave_id, leave_status, read_users ) values ( 125, 1, gine001 ) => {inserted_id = 144} #Mobile-App: Log-id=5067

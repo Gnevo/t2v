@@ -1,0 +1,21 @@
+05:33:48 gine001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.155.192, android ) => {inserted_id = 4485} #Mobile-App: Log-id=4484
+05:35:32 gine001  DELETE data from tables `report_signing` on conditions employee = lima003 AND customer = anst007 AND date = 2015-9-01 #Mobile-App: Log-id=4485
+05:35:32 gine001  INSERTING data into tables `report_signing_delete` fields ( employee, customer, report_date, deleted_by ) values ( lima003, anst007, 2015-9-01, gine001 ) => {inserted_id = 0} #Mobile-App: Log-id=4485
+05:36:19 gine001  INSERTING data into tables `report_signing` fields ( employee, customer, date, signin_employee, signin_date, employee_sign, signin_tl, signin_tl_date, tl_sign, signin_sutl, signin_sutl_date, sutl_sign ) values ( lima003, anst007, 2015-9-01, gine001, 2016-01-21 05:36:19, , gine001, 2016-01-21 05:36:19, , gine001, 2016-01-21 05:36:19,  ) => {inserted_id = 156} #Mobile-App: Log-id=4485
+05:58:39 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+05:58:39 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 223.30.129.234, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/41.0.2272.76 Chrome/41.0.2272.76 Safari/537.36 ) => {inserted_id = 4487}
+05:58:39 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+05:58:39 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-01-21 04:58:39) on conditions username = gine001
+05:58:40 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = ft50dlqr41ioctdvu4i2l4hia0
+05:59:09 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001
+05:59:09 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 115.252.86.10, Mozilla/5.0 (iPhone; CPU iPhone OS 9_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13C75 Safari/601.1 ) => {inserted_id = 4488}
+05:59:09 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+05:59:09 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2016-01-21 04:59:09) on conditions username = gine001
+05:59:10 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 2mrsl1004qum1g4jokkdg3udo6
+05:59:56 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+05:59:56 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2016-01-21 04:59:56) on conditions username = gine001
+05:59:56   UPDATING data to tables `log_login` fields ( logout_time ) values (2016-01-21:04:59:56) on conditions id = 4488 AND username = gine001
+06:01:35 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+06:01:35 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2016-01-21 05:01:35) on conditions username = gine001
+06:01:35   UPDATING data to tables `log_login` fields ( logout_time ) values (2016-01-21:05:01:35) on conditions id = 4487 AND username = gine001
+20:03:12 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = vgs93sje65kqff8dml2f4js2d0

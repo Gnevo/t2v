@@ -1,0 +1,24 @@
+08:51:14 anfr005 Annelie Franconeri INSERTING data into tables `log_login`fields username, ip, browser values ( anfr005, 115.248.24.177, Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0 )
+08:51:14 anfr005 Annelie Franconeri UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = anfr005
+08:52:51 gine001 Gilad Nevo INSERTING data into tables `log_login`fields username, ip, browser values ( gine001, 115.248.24.177, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.43 Safari/537.31 )
+08:52:51 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = gine001
+08:53:29 gine001 Gilad Nevo INSERTING data into tables `privileges_general`fields employee values ( anfr005 )
+08:53:29 gine001 Gilad Nevo UPDATING data to tables `privileges_general`fields Array values 1, , , , , ,  on conditions employee = anfr005
+08:54:57 gine001 Gilad Nevo UPDATING data to tables `privileges_general`fields Array values , , , , , ,  on conditions employee = anfr005
+09:18:44   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = gine001
+09:18:44   UPDATING data to tables `log_login`fields Array values 2013-06-01:07:18:44 on conditions id = 1226 AND username = gine001
+09:23:11 gine001 Gilad Nevo INSERTING data into tables `log_login`fields username, ip, browser values ( gine001, 85.227.154.64, Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; NP06) )
+09:23:11 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = gine001
+09:23:22   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = gine001
+09:23:22   UPDATING data to tables `log_login`fields Array values 2013-06-01:07:23:22 on conditions id = 1227 AND username = gine001
+09:25:39   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = anfr005
+09:25:39   UPDATING data to tables `log_login`fields Array values 2013-06-01:07:25:39 on conditions id = 1225 AND username = anfr005
+14:37:52 lima003 Lina Magnusson INSERTING data into tables `log_login`fields username, ip, browser values ( lima003, 83.187.85.193, Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0) )
+14:37:52 lima003 Lina Magnusson UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = lima003
+14:43:27 lima003 Lina Magnusson INSERTING data into tables `report_signing`fields employee, date, signin_employee, signin_date, signin_tl, signin_tl_date, signin_sutl, signin_sutl_date values ( lima003, 2013-5-1, lima003, 2013-06-01 12:43:27, , , ,  )
+14:53:14 lima003 Lina Magnusson UPDATING data to tables `team`fields Array values 3 on conditions customer =  AND role = 7
+14:53:14 lima003 Lina Magnusson UPDATING data to tables `team`fields Array values 7 on conditions customer =  AND employee = 
+14:53:14 lima003 Lina Magnusson UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 3, 765847048 on conditions username = lima003
+14:53:15 lima003 Lina Magnusson UPDATING data to tables `employee`fields Array values 10, 19, 9207083305, Lina, Magnusson, Simpbylevägen 10C, Norrtälje, 76160, , 765847048, m-liina-m@hotmail.com, 2013-05-23, #FF7F7F, 1, , , 0 on conditions username = lima003
+14:55:15   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = lima003
+14:55:15   UPDATING data to tables `log_login`fields Array values 2013-06-01:12:55:15 on conditions id = 1228 AND username = lima003

@@ -1,0 +1,7 @@
+15:26:51 rokl001 rokl001 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rokl001, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36 ) => {inserted_id = 1546}
+15:26:51 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = rokl001
+17:25:48 rokl001 rokl001 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rokl001, 95.199.14.40, Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B554a Safari/9537.53 ) => {inserted_id = 1547}
+17:25:48 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = rokl001
+17:26:49 rokl001 rokl001 UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, lobr002, rokl001) on conditions id = 4596
+17:27:15 rokl001 rokl001 UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 4449
+17:27:15 rokl001 rokl001 INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, employee, status ) values ( adan001, 2014-03-05, 6.00, 8.30, 0, 1, , rokl001, 4449, wita001, 1 ) => {inserted_id = 5037}

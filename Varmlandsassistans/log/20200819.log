@@ -1,0 +1,22 @@
+14:16:57 gine001 Gilad Nevo1 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 89.233.236.131, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0 ) => {inserted_id = 9138}
+14:16:57 gine001 Gilad Nevo1 DELETE data from tables `temp_session` on conditions username LIKE gine001
+14:16:57 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-08-19 14:16:57) on conditions username = gine001
+14:16:57 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-08-19 14:16:57) on conditions username = gine001 AND company_id = 21
+14:16:58 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 6ten1ud4uoj5eb96s0jp2h2ge6
+14:17:57 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( role, mobile ) values (1, 739426626) on conditions username = zefe001
+14:17:57 gine001 Gilad Nevo1 UPDATING data to tables `employee` fields ( code, century, social_security, first_name, last_name, gender, address, city, post, phone, mobile, email, date, color, status, date_inactive, max_hours, monthly_salary, start_day, remaining_sem_leave, sem_leave_todate, leave_in_advance, care_of, office_personal, substitute, salary_type, sem_leave_days, vab_leave_days, fp_leave_days, nopay_leave_days, other_leave_days, ice, employee_contract_start_month, employee_contract_period_date, employee_contract_period_length, candg_follow, inconvenient_on ) values (1000, 19, 8008160494, Zeid, Feili, 1, Kungsgatan 4, Karlstad, 652 24, , 739426626, zeid@varmlandassistans.se, 2019-07-26, #5d431b, 0, 2020-08-19, , 0, 10.00, 0, , 0, , 0, 0, 1, 0, 0, 0, 0, 0, , , , , 0, 1) on conditions username = zefe001
+14:17:57 gine001 Gilad Nevo1 DELETE data from tables `timetable` on conditions date >= 2020-08-19 AND employee = zefe001
+14:17:57 gine001 Gilad Nevo1 DELETE data from tables `leave` on conditions date >= 2020-08-19 AND employee = zefe001
+14:17:57 gine001 Gilad Nevo1 DELETE data from tables `team` on conditions employee = zefe001
+15:33:37 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( mobile, social_security ) values (, 8609235661) on conditions username = mali019
+15:33:37 gine001 Gilad Nevo1 UPDATING data to tables `customer` fields ( code, century, social_security, first_name, last_name, address, city, post, phone, mobile, email, date, status, date_inactive, fkkn, gender, employee_contract_start_month, employee_contract_period_date, employee_contract_period_length, kn_name, kn_address, kn_postno, kn_reference_no, kn_box, kn_city ) values (13, 19, 8609235661, Maria Alvarez, Lindström, , , , , , , 2020-05-28, 1, , 1, 2, , , , , , 0, , , ) on conditions username = mali019
+15:33:37 gine001 Gilad Nevo1 DELETE data from tables `team` on conditions customer = mali019
+15:33:37 gine001 Gilad Nevo1 INSERTING data into tables `team` fields ( customer, employee, role ) values ( mali019, ayki001, 3 ) => {inserted_id = 0}
+15:33:37 gine001 Gilad Nevo1 INSERTING data into tables `team` fields ( customer, employee, role ) values ( mali019, caal003, 2 ) => {inserted_id = 0}
+15:33:37 gine001 Gilad Nevo1 INSERTING data into tables `team` fields ( customer, employee, role ) values ( mali019, civa001, 3 ) => {inserted_id = 0}
+15:33:37 gine001 Gilad Nevo1 INSERTING data into tables `team` fields ( customer, employee, role ) values ( mali019, erto001, 3 ) => {inserted_id = 0}
+15:33:37 gine001 Gilad Nevo1 INSERTING data into tables `team` fields ( customer, employee, role ) values ( mali019, jove001, 3 ) => {inserted_id = 0}
+15:33:37 gine001 Gilad Nevo1 INSERTING data into tables `team` fields ( customer, employee, role ) values ( mali019, lecu001, 3 ) => {inserted_id = 0}
+15:33:37 gine001 Gilad Nevo1 INSERTING data into tables `team` fields ( customer, employee, role ) values ( mali019, naca001, 3 ) => {inserted_id = 0}
+15:33:37 gine001 Gilad Nevo1 INSERTING data into tables `team` fields ( customer, employee, role ) values ( mali019, paca001, 3 ) => {inserted_id = 0}
+16:21:42 gine001 Gilad Nevo1 UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 6ten1ud4uoj5eb96s0jp2h2ge6

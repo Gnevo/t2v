@@ -1,0 +1,30 @@
+17:13:08 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 213.101.55.94, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0 ) => {inserted_id = 6336}
+17:13:08 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+17:13:08 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-02-01 17:13:08) on conditions username = gine001
+17:13:08 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-02-01 17:13:08) on conditions username = gine001 AND company_id = 6
+17:13:16 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 213.101.55.94, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0 ) => {inserted_id = 6337}
+17:13:16 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+17:13:16 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-02-01 17:13:16) on conditions username = gine001
+17:13:16 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-02-01 17:13:16) on conditions username = gine001 AND company_id = 6
+17:13:17 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 494eaa071097d7b0fc06c7b63c0cbb21
+17:14:21 gine001 Gilad Nevo DELETE data from tables `report_signing` on conditions employee = gine001 AND customer = stal001 AND date = 2018-1-1
+17:14:21 gine001 Gilad Nevo INSERTING data into tables `report_signing_delete` fields ( employee, customer, report_date, deleted_by ) values ( gine001, stal001, 2018-1-1, gine001 ) => {inserted_id = 0}
+17:14:33 gine001 Gilad Nevo UPDATING data to tables `fkkn_form_defaults` fields ( bargaining_new, company_cp_name, company_cp_phone, provider_of_pa_flag, agreement_types_new, agreement_type2_company, agreement_type2_orgNo ) values (1, Gilad, 0704434964, 2, 1, , ) on conditions customer = stal001
+17:14:34 gine001 Gilad Nevo INSERTING data into tables `history_samsida_work_report` fields ( month, year, fkkn, customer, employee, file_name ) values ( 1, 2018, 1, stal001, gine001, Samsida_340863333.pdf ) => {inserted_id = 169}
+17:15:16 gine001 Gilad Nevo UPDATING data to tables `fkkn_form_defaults` fields ( bargaining_new, company_cp_name, company_cp_phone, provider_of_pa_flag, agreement_types_new, agreement_type2_company, agreement_type2_orgNo ) values (1, Gilad, 0704434964, 2, 1, , ) on conditions customer = stal001
+17:15:17 gine001 Gilad Nevo INSERTING data into tables `history_samsida_work_report` fields ( month, year, fkkn, customer, employee, file_name ) values ( 1, 2018, 1, stal001, chyi001, Samsida_542050620.pdf ) => {inserted_id = 170}
+17:17:07 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( mobile, social_security ) values (46704434964, 1212121212) on conditions username = stal001
+17:17:07 gine001 Gilad Nevo UPDATING data to tables `customer` fields ( code, century, social_security, first_name, last_name, address, city, post, phone, mobile, email, date, status, date_inactive, fkkn, gender, employee_contract_start_month, employee_contract_period_date, employee_contract_period_length ) values (10202, 19, 1212121212, Stan, Alone, Manhatan, London, 221 23, , 46704434964, gilad.nevo@time2view.se, 2014-01-23, 1, , 1, 1, , , ) on conditions username = stal001
+17:17:07 gine001 Gilad Nevo DELETE data from tables `team` on conditions customer = stal001
+17:17:07 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( stal001, chyi001, 3 ) => {inserted_id = 0}
+17:17:07 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( stal001, gine001, 3 ) => {inserted_id = 0}
+17:17:07 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( stal001, jata001, 3 ) => {inserted_id = 0}
+17:17:07 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( stal001, majo022, 3 ) => {inserted_id = 0}
+17:17:07 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( stal001, moen001, 3 ) => {inserted_id = 0}
+17:17:07 gine001 Gilad Nevo INSERTING data into tables `team` fields ( customer, employee, role ) values ( stal001, thne001, 3 ) => {inserted_id = 0}
+17:17:07 gine001 Gilad Nevo UPDATING data to tables `customer_guardian` fields ( first_name, last_name, ssn, mobile, email, address, first_name2, last_name2, ssn2, mobile2, email2, address2, first_name3, last_name3, ssn3, mobile3, email3, address3 ) values (Gilad, Nevo, 326598-2365, +46467 04 43 49 64, , , , , , , , , , , , , , ) on conditions customer = stal001
+17:17:07 gine001 Gilad Nevo UPDATING data to tables `customer_attachment` fields ( documents ) values (file_2017-04-01.txt) on conditions customer = stal001
+17:17:24 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 494eaa071097d7b0fc06c7b63c0cbb21
+17:17:29 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 494eaa071097d7b0fc06c7b63c0cbb21
+17:18:28 gine001 Gilad Nevo UPDATING data to tables `fkkn_form_defaults` fields ( bargaining_new, company_cp_name, company_cp_phone, provider_of_pa_flag, agreement_types_new, agreement_type2_company, agreement_type2_orgNo ) values (1, Gilad, 0704434964, 2, 1, , ) on conditions customer = stal001
+17:18:28 gine001 Gilad Nevo INSERTING data into tables `history_samsida_work_report` fields ( month, year, fkkn, customer, employee, file_name ) values ( 1, 2018, 1, stal001, gine001, Samsida_917139395.pdf ) => {inserted_id = 171}

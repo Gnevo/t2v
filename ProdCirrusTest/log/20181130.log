@@ -1,0 +1,15 @@
+07:43:26 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+07:43:26 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 79.102.220.19, android ) => {inserted_id = 7514}
+07:43:26 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+07:43:26 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-11-30 07:43:26) on conditions username = gine001
+07:43:26 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-11-30 07:43:26) on conditions username = gine001 AND company_id = 6
+08:46:03 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+08:46:03 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 90.227.122.3, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0 ) => {inserted_id = 7515}
+08:46:03 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+08:46:03 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2018-11-30 08:46:03) on conditions username = gine001
+08:46:03 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2018-11-30 08:46:03) on conditions username = gine001 AND company_id = 6
+08:46:04 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = 003f9de8699fae9e48bf0fdf0a78658c
+08:46:51 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( customer, employee, date, time_from, time_to, fkkn, type, status, comment ) values (adan001, boek001, 2018-11-13, 2.00, 3.00, 2, 14, 1, ) on conditions id = 14697
+08:48:02 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( chfr001, adan001, 2, 3, 2018-11-14, 8, 9, 1, , gine001,  ) => {inserted_id = 14729}
+08:48:02 gine001 Gilad Nevo INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( adan001, 8, 9, 3 ) => {inserted_id = 536}
+08:51:25 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( employee, alloc_emp ) values (chfr001, gine001)

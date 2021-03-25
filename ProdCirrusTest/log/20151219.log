@@ -1,0 +1,84 @@
+09:51:19 dodo001  INSERTING data into tables `mc_note` fields ( note_id, read_users ) values ( 72, dodo001 ) => {inserted_id = 67} #Mobile-App: Log-id=4224
+09:52:43 dodo001  INSERTING data into tables `customer_documentation` fields ( customer, employee, completed_date, subject, note_type, notes, priority, description, status, writable ) values ( adan001, dodo001, , Tåst, minnesanteckning, Test å, , , , 0 ) => {inserted_id = 66} #Mobile-App: Log-id=4224
+09:52:43 dodo001  INSERTING data into tables `note` fields ( created_user, title, description, visibility, status, customer, ticket, attachment ) values ( dodo001, Tåst, Test å, 2, 0, adan001, ,  ) => {inserted_id = 73} #Mobile-App: Log-id=4224
+09:52:43 dodo001  UPDATING data to tables `note` fields ( attachment ) values () on conditions id = 73 #Mobile-App: Log-id=4224
+09:52:44 dodo001  INSERTING data into tables `mc_note` fields ( note_id, read_users ) values ( 73, dodo001 ) => {inserted_id = 68} #Mobile-App: Log-id=4224
+09:52:54 dodo001  DELETE data from tables `temp_session` on conditions username LIKE dodo001 #Mobile-App: Log-id=4224
+09:52:54 dodo001  UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2015-12-19 08:52:54) on conditions username = dodo001 #Mobile-App: Log-id=4224
+10:15:17 dodo001  DELETE data from tables `temp_session` on conditions username LIKE dodo001 #Mobile-App: Log-id=4227
+10:15:17 dodo001  UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-12-19 09:15:17) on conditions username = dodo001 #Mobile-App: Log-id=4227
+10:15:20 dodo001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 115.252.86.10, CirrusM/1 CFNetwork/758.2.8 Darwin/15.0.0 ) => {inserted_id = 4228} #Mobile-App: Log-id=4227
+10:15:49 dodo001  INSERTING data into tables `mail` fields ( root_id, `from`, `to`, subject, message, attachments, status ) values ( 0, dodo001, dodo001), Test mail å, Test mail å, , 0 ) => {inserted_id = 19} #Mobile-App: Log-id=4228
+10:16:31 dodo001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 115.252.86.10, android ) => {inserted_id = 4229} #Mobile-App: Log-id=4226
+10:17:17 dodo001  UPDATING data to tables `mail` fields ( status ) values (1) on conditions id = 19 #Mobile-App: Log-id=4229
+10:20:15 dodo001  DELETE data from tables `temp_session` on conditions username LIKE dodo001 #Mobile-App: Log-id=4228
+10:20:15 dodo001  UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2015-12-19 09:20:15) on conditions username = dodo001 #Mobile-App: Log-id=4228
+10:20:20 dodo001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 115.252.86.10, CirrusM/1 CFNetwork/758.2.8 Darwin/15.0.0 ) => {inserted_id = 4230} #Mobile-App: Log-id=4228
+10:20:39 dodo001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 115.252.86.10, CirrusM/1 CFNetwork/758.2.8 Darwin/15.0.0 ) => {inserted_id = 4231} #Mobile-App: Log-id=4230
+10:55:21 gine001  UPDATING data to tables `mc_note` fields ( read_users ) values (dodo001,gine001) on conditions note_id = 73 #Mobile-App: Log-id=4232
+10:55:21 gine001  UPDATING data to tables `mc_note` fields ( read_users ) values (dodo001,gine001) on conditions note_id = 72 #Mobile-App: Log-id=4232
+10:56:38 gine001  INSERTING data into tables `customer_documentation` fields ( customer, employee, completed_date, subject, note_type, notes, priority, description, status, writable ) values ( adan001, gine001, , test s? ?r ??r, minnesanteckning, test Swedish char ? ? ?, , , , 0 ) => {inserted_id = 67} #Mobile-App: Log-id=4232
+10:56:38 gine001  INSERTING data into tables `note` fields ( created_user, title, description, visibility, status, customer, ticket, attachment ) values ( gine001, test s? ?r ??r, test Swedish char ? ? ?, 1, 0, adan001, ,  ) => {inserted_id = 74} #Mobile-App: Log-id=4232
+10:56:38 gine001  UPDATING data to tables `note` fields ( attachment ) values () on conditions id = 74 #Mobile-App: Log-id=4232
+11:01:28 gine001  INSERTING data into tables `note` fields ( created_user, title, description, visibility, status, customer, ticket, attachment ) values ( gine001, test ?r ?r ???r, testning ?r ?r ?ra, 1, 0, , ,  ) => {inserted_id = 75} #Mobile-App: Log-id=4232
+11:01:28 gine001  UPDATING data to tables `note` fields ( attachment ) values () on conditions id = 75 #Mobile-App: Log-id=4232
+11:06:39 gine001  INSERTING data into tables `customer_documentation` fields ( customer, employee, completed_date, subject, note_type, notes, priority, description, status, writable ) values ( adan001, gine001, , new keyboard, minnesanteckning, ??? ?r ?r ?ar, , , , 0 ) => {inserted_id = 68} #Mobile-App: Log-id=4232
+11:06:39 gine001  INSERTING data into tables `note` fields ( created_user, title, description, visibility, status, customer, ticket, attachment ) values ( gine001, new keyboard, ??? ?r ?r ?ar, 1, 0, adan001, ,  ) => {inserted_id = 76} #Mobile-App: Log-id=4232
+11:06:39 gine001  UPDATING data to tables `note` fields ( attachment ) values () on conditions id = 76 #Mobile-App: Log-id=4232
+11:10:06 gine001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.155.192, android ) => {inserted_id = 4233} #Mobile-App: Log-id=4232
+11:10:09 gine001  INSERTING data into tables `mc_leave` fields ( leave_id, leave_status, read_users ) values ( 108, 1, gine001 ) => {inserted_id = 122} #Mobile-App: Log-id=4233
+11:10:23 gine001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.155.192, android ) => {inserted_id = 4234} #Mobile-App: Log-id=4233
+11:10:37 gine001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.155.192, android ) => {inserted_id = 4235} #Mobile-App: Log-id=4234
+11:11:01 gine001  DELETE data from tables `temp_session` on conditions username LIKE gine001 #Mobile-App: Log-id=4235
+11:11:01 gine001  UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2015-12-19 10:11:01) on conditions username = gine001 #Mobile-App: Log-id=4235
+11:47:49 gine001  INSERTING data into tables `mc_note` fields ( note_id, read_users ) values ( 76, gine001 ) => {inserted_id = 69} #Mobile-App: Log-id=4236
+11:47:49 gine001  INSERTING data into tables `mc_note` fields ( note_id, read_users ) values ( 75, gine001 ) => {inserted_id = 70} #Mobile-App: Log-id=4236
+11:47:49 gine001  INSERTING data into tables `mc_note` fields ( note_id, read_users ) values ( 74, gine001 ) => {inserted_id = 71} #Mobile-App: Log-id=4236
+11:51:40 dodo001  UPDATING data to tables `mail` fields ( status ) values (1) on conditions id = 19 #Mobile-App: Log-id=4237
+11:56:44 dodo001  INSERTING data into tables `mail` fields ( root_id, `from`, `to`, subject, message, attachments, status ) values ( , dodo001, dodo001, , ????, , 0 ) => {inserted_id = 20} #Mobile-App: Log-id=4237
+11:56:50 dodo001  UPDATING data to tables `mail` fields ( status ) values (1) on conditions id = 20 #Mobile-App: Log-id=4237
+11:57:36 dodo001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 115.252.86.10, android ) => {inserted_id = 4238} #Mobile-App: Log-id=4237
+11:57:53 dodo001  UPDATING data to tables `mc_note` fields ( read_users ) values (gine001,dodo001) on conditions note_id = 76 #Mobile-App: Log-id=4238
+11:57:53 dodo001  UPDATING data to tables `mc_note` fields ( read_users ) values (gine001,dodo001) on conditions note_id = 75 #Mobile-App: Log-id=4238
+11:57:53 dodo001  UPDATING data to tables `mc_note` fields ( read_users ) values (gine001,dodo001) on conditions note_id = 74 #Mobile-App: Log-id=4238
+11:59:35 dodo001  INSERTING data into tables `customer_documentation` fields ( customer, employee, completed_date, subject, note_type, notes, priority, description, status, writable ) values ( adan001, dodo001, , ????, minnesanteckning, ????, , , , 0 ) => {inserted_id = 69} #Mobile-App: Log-id=4238
+11:59:35 dodo001  INSERTING data into tables `note` fields ( created_user, title, description, visibility, status, customer, ticket, attachment ) values ( dodo001, ????, ????, 2, 0, adan001, ,  ) => {inserted_id = 77} #Mobile-App: Log-id=4238
+11:59:35 dodo001  UPDATING data to tables `note` fields ( attachment ) values () on conditions id = 77 #Mobile-App: Log-id=4238
+12:02:17 gine001  INSERTING data into tables `mc_note` fields ( note_id, read_users ) values ( 77, gine001 ) => {inserted_id = 72} #Mobile-App: Log-id=4239
+12:04:04 gine001  INSERTING data into tables `customer_documentation` fields ( customer, employee, completed_date, subject, note_type, notes, priority, description, status, writable ) values ( anst007, gine001, , Test öäå, minnesanteckning, Swedish char iphone
+Är är åka
+Ön, , , , 0 ) => {inserted_id = 70} #Mobile-App: Log-id=4239
+12:04:04 gine001  INSERTING data into tables `note` fields ( created_user, title, description, visibility, status, customer, ticket, attachment ) values ( gine001, Test öäå, Swedish char iphone
+Är är åka
+Ön, 2, 0, anst007, ,  ) => {inserted_id = 78} #Mobile-App: Log-id=4239
+12:04:04 gine001  UPDATING data to tables `note` fields ( attachment ) values () on conditions id = 78 #Mobile-App: Log-id=4239
+12:04:05 gine001  INSERTING data into tables `mc_note` fields ( note_id, read_users ) values ( 78, gine001 ) => {inserted_id = 73} #Mobile-App: Log-id=4239
+12:05:05 dodo001  INSERTING data into tables `customer_documentation` fields ( customer, employee, completed_date, subject, note_type, notes, priority, description, status, writable ) values ( adan001, dodo001, , ????, minnesanteckning, ????, , , , 0 ) => {inserted_id = 71} #Mobile-App: Log-id=4238
+12:05:05 dodo001  INSERTING data into tables `note` fields ( created_user, title, description, visibility, status, customer, ticket, attachment ) values ( dodo001, ????, ????, 2, 0, adan001, ,  ) => {inserted_id = 79} #Mobile-App: Log-id=4238
+12:05:05 dodo001  UPDATING data to tables `note` fields ( attachment ) values () on conditions id = 79 #Mobile-App: Log-id=4238
+12:06:09 dodo001  INSERTING data into tables `customer_documentation` fields ( customer, employee, completed_date, subject, note_type, notes, priority, description, status, writable ) values ( adan001, dodo001, , ????, minnesanteckning, ????, , , , 0 ) => {inserted_id = 72} #Mobile-App: Log-id=4238
+12:06:09 dodo001  INSERTING data into tables `note` fields ( created_user, title, description, visibility, status, customer, ticket, attachment ) values ( dodo001, ????, ????, 2, 0, adan001, ,  ) => {inserted_id = 80} #Mobile-App: Log-id=4238
+12:06:09 dodo001  UPDATING data to tables `note` fields ( attachment ) values () on conditions id = 80 #Mobile-App: Log-id=4238
+12:08:03 gine001  INSERTING data into tables `customer_documentation` fields ( customer, employee, completed_date, subject, note_type, notes, priority, description, status, writable ) values ( anst007, gine001, , Iphone ok öäå, minnesanteckning, Ö
+Ä
+Å, , , , 0 ) => {inserted_id = 73} #Mobile-App: Log-id=4239
+12:08:03 gine001  INSERTING data into tables `note` fields ( created_user, title, description, visibility, status, customer, ticket, attachment ) values ( gine001, Iphone ok öäå, Ö
+Ä
+Å, 2, 0, anst007, ,  ) => {inserted_id = 81} #Mobile-App: Log-id=4239
+12:08:03 gine001  UPDATING data to tables `note` fields ( attachment ) values () on conditions id = 81 #Mobile-App: Log-id=4239
+12:08:03 gine001  INSERTING data into tables `mc_note` fields ( note_id, read_users ) values ( 81, gine001 ) => {inserted_id = 74} #Mobile-App: Log-id=4239
+12:08:04 gine001  INSERTING data into tables `mc_note` fields ( note_id, read_users ) values ( 80, gine001 ) => {inserted_id = 75} #Mobile-App: Log-id=4239
+12:08:04 gine001  INSERTING data into tables `mc_note` fields ( note_id, read_users ) values ( 79, gine001 ) => {inserted_id = 76} #Mobile-App: Log-id=4239
+12:08:54 gine001  INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 85.227.155.192, CirrusM/1 CFNetwork/758.1.6 Darwin/15.0.0 ) => {inserted_id = 4240} #Mobile-App: Log-id=4239
+12:09:22 dodo001  INSERTING data into tables `customer_documentation` fields ( customer, employee, completed_date, subject, note_type, notes, priority, description, status, writable ) values ( adan001, dodo001, , ????, minnesanteckning, ????, , , , 0 ) => {inserted_id = 74} #Mobile-App: Log-id=4238
+12:09:22 dodo001  INSERTING data into tables `note` fields ( created_user, title, description, visibility, status, customer, ticket, attachment ) values ( dodo001, ????, ????, 2, 0, adan001, ,  ) => {inserted_id = 82} #Mobile-App: Log-id=4238
+12:09:22 dodo001  UPDATING data to tables `note` fields ( attachment ) values () on conditions id = 82 #Mobile-App: Log-id=4238
+12:10:50 dodo001  INSERTING data into tables `customer_documentation` fields ( customer, employee, completed_date, subject, note_type, notes, priority, description, status, writable ) values ( adan001, dodo001, , ????, minnesanteckning, ????, , , , 0 ) => {inserted_id = 75} #Mobile-App: Log-id=4238
+12:10:50 dodo001  INSERTING data into tables `note` fields ( created_user, title, description, visibility, status, customer, ticket, attachment ) values ( dodo001, ????, ????, 2, 0, adan001, ,  ) => {inserted_id = 83} #Mobile-App: Log-id=4238
+12:10:50 dodo001  UPDATING data to tables `note` fields ( attachment ) values () on conditions id = 83 #Mobile-App: Log-id=4238
+12:13:53 dodo001  INSERTING data into tables `customer_documentation` fields ( customer, employee, completed_date, subject, note_type, notes, priority, description, status, writable ) values ( adan001, dodo001, , ????, minnesanteckning, ????, , , , 0 ) => {inserted_id = 76} #Mobile-App: Log-id=4238
+12:13:53 dodo001  INSERTING data into tables `note` fields ( created_user, title, description, visibility, status, customer, ticket, attachment ) values ( dodo001, ????, ????, 2, 0, adan001, ,  ) => {inserted_id = 84} #Mobile-App: Log-id=4238
+12:13:53 dodo001  UPDATING data to tables `note` fields ( attachment ) values () on conditions id = 84 #Mobile-App: Log-id=4238
+12:15:16 dodo001  INSERTING data into tables `customer_documentation` fields ( customer, employee, completed_date, subject, note_type, notes, priority, description, status, writable ) values ( anst007, dodo001, , ????, minnesanteckning, ????, , , , 0 ) => {inserted_id = 77} #Mobile-App: Log-id=4238
+12:15:16 dodo001  INSERTING data into tables `note` fields ( created_user, title, description, visibility, status, customer, ticket, attachment ) values ( dodo001, ????, ????, 2, 0, anst007, ,  ) => {inserted_id = 85} #Mobile-App: Log-id=4238
+12:15:16 dodo001  UPDATING data to tables `note` fields ( attachment ) values () on conditions id = 85 #Mobile-App: Log-id=4238

@@ -1,0 +1,26 @@
+13:45:48 gine001 root001 UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 4083
+13:45:48 gine001 root001 INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( hesv001, 2013-12-27, 9.00, 10.00, 10, 1, , gine001, 4083, 0 ) => {inserted_id = 4168}
+13:45:48 gine001 root001 INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 39, anra004, 2013-12-27, 9, 10, 1, Problem med magen, gine001, 0, 1 ) => {inserted_id = 66}
+13:49:08 gine001 root001 UPDATING data to tables `leave` fields ( status, appr_emp, appr_date ) values (1, gine001, 2014-01-05) on conditions group_id = 34
+13:50:16 gine001 root001 UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 4084
+13:50:16 gine001 root001 INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, employee, status ) values ( hesv001, 2013-12-27, 9.00, 10.00, 10, 1, , gine001, 4084, moen001, 1 ) => {inserted_id = 4169}
+13:50:16 gine001 root001 INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status, no_pay ) values ( 40, wita001, 2013-12-27, 9, 10, 1, Feber 38, gine001, 0, 1 ) => {inserted_id = 67}
+13:50:57 gine001 root001 UPDATING data to tables `mc_note` fields ( read_users ) values (joef001,gine001) on conditions note_id = 9
+13:51:21 gine001 root001 UPDATING data to tables `mc_note` fields ( read_users ) values (joef001,wita001,joef001,joef001,joef001,gine001) on conditions note_id = 8
+13:51:34 gine001 root001 UPDATING data to tables `mc_note` fields ( read_users ) values (joef001,gine001) on conditions note_id = 6
+13:51:50 gine001 root001 UPDATING data to tables `mc_note` fields ( read_users ) values (joef001,gine001) on conditions note_id = 4
+13:52:26 gine001 root001 INSERTING data into tables `mc_leave` fields ( leave_id, leave_status, read_users ) values ( 39, 0, gine001 ) => {inserted_id = 45}
+13:52:26 gine001 root001 INSERTING data into tables `mc_leave` fields ( leave_id, leave_status, read_users ) values ( 40, 0, gine001 ) => {inserted_id = 46}
+13:52:26 gine001 root001 UPDATING data to tables `mc_leave` fields ( read_users ) values (wita001,gine001) on conditions leave_id = 34
+13:52:26 gine001 root001 UPDATING data to tables `mc_leave` fields ( read_users ) values (rokl001,wita001,gine001) on conditions leave_id = 30
+13:52:26 gine001 root001 UPDATING data to tables `mc_leave` fields ( read_users ) values (wita001,gine001) on conditions leave_id = 33
+13:52:26 gine001 root001 UPDATING data to tables `mc_leave` fields ( read_users ) values (wita001,rokl001,gine001) on conditions leave_id = 24
+13:52:26 gine001 root001 UPDATING data to tables `mc_leave` fields ( read_users ) values (rokl001,wita001,gine001) on conditions leave_id = 29
+13:52:26 gine001 root001 UPDATING data to tables `mc_leave` fields ( read_users ) values (wita001,rokl001,gine001) on conditions leave_id = 23
+13:52:52 gine001 root001 UPDATING data to tables `leave` fields ( status, appr_emp, appr_date ) values (1, gine001, 2014-01-05) on conditions group_id = 39
+13:54:13   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+13:54:13   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-01-05:12:54:13) on conditions id = 126 AND username = gine001
+18:39:02 rokl001 rokl001 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rokl001, 95.199.16.43, Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B554a Safari/9537.53 ) => {inserted_id = 1353}
+18:39:02 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = rokl001
+18:39:17   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = rokl001
+18:39:17   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-01-05:17:39:17) on conditions id = 1353 AND username = rokl001

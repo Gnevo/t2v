@@ -1,0 +1,6 @@
+15:12:42 rokl001 rokl001 INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( rokl001, 90.224.88.195, Mozilla/5.0 (iPad; CPU OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B554a Safari/9537.53 ) => {inserted_id = 1632}
+15:12:42 rokl001 rokl001 UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = rokl001
+15:13:46 rokl001 rokl001 UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, anra004, rokl001) on conditions id = 4039
+15:14:10 rokl001 rokl001 UPDATING data to tables `timetable` fields ( time_from, time_to ) values (5.00, 8.00) on conditions id = 4032
+15:17:17   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = rokl001
+15:17:17   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-05-08:13:17:17) on conditions id = 1632 AND username = rokl001

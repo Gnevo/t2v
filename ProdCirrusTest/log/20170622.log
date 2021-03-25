@@ -1,0 +1,12 @@
+13:09:24 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = thne001 AND company_id = 6
+13:09:24 thne001 Theodor Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( thne001, 78.71.203.62, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36 ) => {inserted_id = 5907}
+13:09:24 thne001 Theodor Nevo DELETE data from tables `temp_session` on conditions username LIKE thne001
+13:09:24 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2017-06-22 13:09:24) on conditions username = thne001
+13:09:25 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-06-22 13:09:24) on conditions username = thne001 AND company_id = 6
+13:09:25 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = 03363b1a83d842f95f112c1f5136b759
+13:10:18 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = 03363b1a83d842f95f112c1f5136b759
+13:12:55 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = 03363b1a83d842f95f112c1f5136b759
+13:13:57 thne001 Theodor Nevo DELETE data from tables `temp_session` on conditions username LIKE thne001
+13:13:57 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2017-06-22 13:13:57) on conditions username = thne001
+13:13:57 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-06-22 13:13:57) on conditions username = thne001 AND company_id = 6
+13:13:57   UPDATING data to tables `log_login` fields ( logout_time ) values (2017-06-22:11:13:57) on conditions id = 5907 AND username = thne001

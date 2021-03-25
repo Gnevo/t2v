@@ -1,0 +1,260 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Time Table Allocation</title>
+
+<link href="css/jquery-ui-1.8.18.custom.css" type="text/css" rel="stylesheet" />
+<link href="css/jquery.ui.dialog.css" type="text/css" rel="stylesheet" />
+<link href="css/cleaning.css" type="text/css" rel="stylesheet" />
+
+<script src="js/jquery.min.js" language="javascript" type="text/javascript"></script>
+<script src="js/jquery.ui.core.js" language="javascript" type="text/javascript"></script>
+<script src="js/jquery.ui.position.min.js" language="javascript" type="text/javascript"></script>
+<script src="js/jquery.ui.widget.js" language="javascript" type="text/javascript"></script>
+<script src="js/jquery.ui.mouse.min.js" language="javascript" type="text/javascript"></script>
+<script src="js/jquery.ui.draggable.min.js" language="javascript" type="text/javascript"></script>
+<script src="js/jquery.ui.droppable.min.js" language="javascript" type="text/javascript"></script>
+<script src="js/jquery.ui.dialog.min.js" language="javascript" type="text/javascript"></script>
+
+<script>
+
+
+$(document).ready(function(){
+	// --- Add New Slot Using button --- //
+	
+	$('#add_new_slot').click(function(){
+		add_timeslot();
+		type_selector_init();
+		edit_slot();
+		options_remove();
+	});
+	
+	// --- End Add New Slot Using Button --- //
+		$('.activate_popup').click(function popup(){
+			
+			$( "#timetable_assign" ).dialog({
+				title: 'Allocation Tables', 
+				modal: true,
+				minWidth: 460	
+			});
+		});
+	
+	// --- skill, company, worker --- //
+	
+		function options_remove(){
+			$('.custom_time_slots .skill a.remove').click(function(){
+				$('.custom_time_slots .skill .add_skill').show();
+				$('.custom_time_slots .skill .skill_name').hide();
+			});
+			$('.custom_time_slots .company a.remove').click(function(){
+				$('.custom_time_slots .company .add_company').show();
+				$('.custom_time_slots .company .company_name').hide();
+			});
+			$('.custom_time_slots .worker a.remove').click(function(){
+				$('.custom_time_slots .worker .add_worker').show();
+				$('.custom_time_slots .worker .worker_name').hide();
+			});
+		};
+		options_remove();
+		
+	// --- End skill, company, worker --- //
+	
+	
+	// --- edit slot --- //
+		
+		function edit_slot(){
+			$('.custom_time_slots .time a.btn_edit').click(function(){
+				$(this).parent().parent().children('.cust_slot_frm').show();
+				$(this).parent().hide();
+			})
+			$('.custom_time_slots .time a.btn_save').click(function(){
+				$(this).parent().hide();
+				$(this).parent().parent().children('.duration').show();
+			})
+		}
+		
+		edit_slot();
+	
+	// --- end edit slot --- //
+	
+	
+	// --- time slot remove --- //
+	
+	function remove_timeslot(){
+		$('#assigned_slots .custom_time_slots .close').click(function(){
+			$(this).parent().parent().fadeOut(200,function(){
+				$(this).remove();
+				})
+		});
+	}
+	remove_timeslot();
+	
+	// --- end time slot remove --- //
+	
+	function add_timeslot(){
+		$('.custom_time_slots_org').clone().appendTo('#assigned_inner');
+		$("#assigned_slots .custom_time_slots_org").attr("class","custom_time_slots clearfix");
+		remove_timeslot();			
+	};
+	
+		$( ".memory_time" ).draggable({ revert: true });
+		$( "#add_new_slot" ).droppable({
+			hoverClass: "dropover",
+			drop: function( event, ui ) {
+						$( this ).removeClass( "dropover" );
+						add_timeslot();
+						type_selector_init();
+						edit_slot();
+						options_remove();
+			}
+		}); 
+		
+		function type_selector_init(){
+	
+			$(".type_selector ul").mouseenter(function(){
+				
+				$(this).children().css("display","block");
+					$(this).animate({
+						width: "105px"
+					},200);
+				});
+				
+				$(".type_selector ul").mouseleave(function(){
+				
+					lenth = $(this).children().length;
+					for(i=0;i < lenth;i++){
+						if($(this).children().eq(i).attr("class") == "selected"){
+							$(this).children().eq(i).css("display","block");
+						}else{
+							$(this).children().eq(i).css("display","none");
+						}
+					}
+					
+					$(this).animate({
+						width: "35px"
+					},200);
+				});
+			
+				$(".type_selector ul li").click(function(){
+					$(this).parent().children().removeClass("selected");
+					$(this).addClass("selected");
+				});
+                                
+                                lenth = $(".type_selector ul").children().length;
+					for(i=0;i < lenth;i++){
+						if($(".type_selector ul").children().eq(i).attr("class") == "selected"){
+							$(".type_selector ul").children().eq(i).css("display","block");
+						}else{
+							$(".type_selector ul").children().eq(i).css("display","none");
+						}
+					}
+		}
+		type_selector_init();
+                
+                
+		
+});
+
+function popup(){
+			//alert("sdfs");
+			$( "#timetable_assign" ).dialog({
+			
+				height: 140,
+				modal: true
+			});
+		}
+</script>
+</head>
+
+<body>
+<div><a href="#" class="activate_popup" onclick="popup()">Popup Initiator</a></div>
+<div class="clearfix" id="timetable_assign" style="display:none;">
+  <div class="custom_time_slots_org">
+    <div class="left_col">
+      <div class="time"><span class="duration">0900 - 1400 <a href="#" class="btn_edit"></a></span>
+        <form id="slot_edit2" name="slot_edit" method="post" action="" class="cust_slot_frm clearfix">
+          <input type="text" name="time_cust2" id="time_cust2"  class="custom_slot"/>
+          <a href="#" class="btn_save"></a>
+        </form>
+        <span class="custom_slot"></span></div>
+      <div class="skill clearfix"> <span class="skill_name">Vacum Cleaner<a href="#" class="remove"></a></span> <span class="add_skill"><a href="#" class="btn_add_skill">Add Skill</a></span> </div>
+      <div class="company clearfix"> <span class="company_name">Company name<a href="#" class="remove"></a></span> <span class="add_company"><a href="#" class="btn_add_company">Add Company</a></span> </div>
+      <div class="worker clearfix"> <span class="worker_name">Worker name<a href="#" class="remove"></a></span> <span class="add_worker"><a href="#" class="btn_add_worker">Add Worker</a></span></div>
+    </div>
+    <div class="time_option"><a href="#" class="close"></a>
+      <div class="type_selector clearfix">
+        <ul class="clearfix">
+          <li><a href="#" class="travel"></a></li>
+          <li class="selected"><a href="#" class="work"></a></li>
+          <li><a href="#" class="lunch"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="clearfix" id="day_selector">
+    <div class="clearfix" id="week">
+      <div id="week_number">V32</div>
+      <ul class="clearfix">
+        <li><a href="#">Sun</a></li>
+        <li><a href="#" class="selected">Sat</a></li>
+        <li><a href="#">Fri</a></li>
+        <li><a href="#">Thu</a></li>
+        <li><a href="#">Wed</a></li>
+        <li><a href="#">Tue</a></li>
+        <li><a href="#">Mon</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="worker_company_name"><a href="#" id="worker_name">Worker Name (60%)</a><a href="#" id="company_name">Company name (40%)</a></div>
+  <div class="clearfix" id="options">
+    <div id="assigned_slots">
+      <div class="option_head">Assigned Slots</div>
+      <div id="assigned_inner">
+        <div class="custom_time_slots clearfix">
+          <div class="left_col">
+            <div class="time">
+              <span class="duration">0900 - 1400 <a href="#" class="btn_edit"></a></span>
+              <form id="slot_edit" name="slot_edit" method="post" action="" class="cust_slot_frm clearfix">
+                <input type="text" name="time_cust" id="time_cust"  class="custom_slot"/><a href="#" class="btn_save"></a>
+              </form>
+            <span class="custom_slot"></span></div>
+            <div class="skill clearfix">
+       		  <span class="skill_name">Vacum Cleaner<a href="#" class="remove"></a></span>
+                <span class="add_skill"><a href="#" class="btn_add_skill">Add Skill</a></span>
+                
+            </div>
+            <div class="company clearfix">
+           	  <span class="company_name">Company name<a href="#" class="remove"></a></span>
+                <span class="add_company"><a href="#" class="btn_add_company">Add Company</a></span>
+                
+            </div>
+            <div class="worker clearfix">
+           	  <span class="worker_name">Worker name<a href="#" class="remove"></a></span>
+            <span class="add_worker"><a href="#" class="btn_add_worker">Add Worker</a></span></div>
+                
+       	  </div>
+          <div class="time_option"><a href="#" class="close"></a>
+            <div class="type_selector clearfix">
+              <ul class="clearfix">
+                <li><a href="#" class="travel"></a></li>
+                <li><a href="#" class="work"></a></li>
+                <li  class="selected"><a href="#" class="lunch"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="add_new_slot"><a href="#">Click to add new time slot</a></div>
+    </div>
+    <div id="memory_slots">
+      <div class="option_head">Memory Slots</div>
+      <div id="memory_inner">
+        <div class="memory_time">0900 - 1400</div>
+        <div class="memory_time">0200 - 0800</div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

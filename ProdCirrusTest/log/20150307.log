@@ -1,0 +1,16 @@
+09:13:49 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (gine001) on conditions session_id = c36597b920998e8123d6a671e425a30b
+09:14:47 gine001 Gilad Nevo UPDATING data to tables `fkkn_form_defaults` fields ( bargaining, other_bargaining_text, agreement_types, agreement_type2_company, agreement_type2_orgNo, health_care_agency ) values (6, test spara, 1||1||1, CirrusTest, 5568752325, 1) on conditions customer = anst007
+09:15:31 gine001 Gilad Nevo UPDATING data to tables `samsida` fields ( how_is_asst_provided, how_is_asst_provided_orgno, did_u_hostpilized_this_month, hostpilized_date_from, hostpilized_date_to, hospital, did_u_included_hospitalized_hours, hostpitalized_hours, other_info, did_u_provide_info_annex, signed_customer_phno, signature_options, signed_employer_name, signed_employer_telephone, do_u_hire_asst_provider, asst_provider_orgno, have_money_left_not_to_purchase1, money_left1, is_u_r_ur_asst_provider, do_u_get_himself_money, asst_provider1, asst_provider_orgno1, asst_provider_ftax1, asst_provider2, asst_provider_orgno2, asst_provider_ftax2, asst_provider3, asst_provider_orgno3, asst_provider_ftax3, do_u_attach_receipt, money_left_not_to_purchase2, money_left2, do_u_live_outside_EEA_country, accounting_date_from, accounting_date_to, salary_excl_OB_cost, salary_excl_OB_period, salary_OB_cost, salary_OB_period, assist_expenses_cost, assist_expenses_period, training_cost, training_period, staff_expense_cost, staff_expense_period, administration_cost, administration_period, working_hours_4_customer ) values (1||1||1||1, 5568752325, 0, , , , 1, 25, test kollar spara, 1, 011-11, 1, Anne Stål, 011-11, 1, 5568752325, 0, , 0, 1, , , 0, , , 0, , , 0, 1, 0, , 1, , , , , , , , , , , , , , , ) on conditions customer = anst007 AND month = 8 AND year = 2014
+09:16:51 gine001 Gilad Nevo UPDATING data to tables `fkkn_form_defaults` fields ( bargaining, other_bargaining_text, agreement_types, agreement_type2_company, agreement_type2_orgNo, health_care_agency ) values (6, test spara, 1||1||1, CirrusTest, 5568752325, 1) on conditions customer = anst007
+09:23:09 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirruscommon`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, category_id, priority, ticket_type, status, hidden ) values ( 296, gine001, Har testat och ser inga problem.
+1. Lagt uppgifter i 3057, 
+2. klickat sedan på 3057 knappen
+3. matat in flera uppgifter
+4. Klickat på Spara knappen
+5. Gått ur och blanketten, och kund
+6. Gått in på nytt - Samtliga uppgifter kvar.
+7. Skriver ut ok.
+
+Är det någon speciell del som försvann?, 10, 2, 1, 3, 0 ) => {inserted_id = 1078}
+09:23:29 gine001 Gilad Nevo UPDATING data to tables `fkkn_form_defaults` fields ( bargaining, other_bargaining_text, agreement_types, agreement_type2_company, agreement_type2_orgNo, health_care_agency ) values (6, test spara, 1||1||1, CirrusTest, 5568752325, 1) on conditions customer = anst007
+09:23:29 gine001 Gilad Nevo INSERTING data into tables `history_samsida_work_report` fields ( month, year, fkkn, customer, employee, file_name ) values ( 8, 2014, 1, anst007, , Samsida_1865129942.pdf ) => {inserted_id = 74}

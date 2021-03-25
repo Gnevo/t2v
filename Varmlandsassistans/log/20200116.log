@@ -1,0 +1,39 @@
+09:15:55 inbe006 Ingeborg Bergren INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( inbe006, 217.214.152.101, Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36 ) => {inserted_id = 8015}
+09:15:55 inbe006 Ingeborg Bergren DELETE data from tables `temp_session` on conditions username LIKE inbe006
+09:15:55 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-01-16 09:15:55) on conditions username = inbe006
+09:15:55 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-01-16 09:15:55) on conditions username = inbe006 AND company_id = 21
+09:15:55 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = 04161ff29c3e6daa72f6cf14b52f6e02
+09:52:22 inbe006 Ingeborg Bergren INSERTING data into tables `email` fields ( `from`, `to`, subject, message ) values ( inbe006, support@time2view, Frågor, Hej,<br />
+<br />
+Jag har några frågor kring programmet.<br />
+1, Jag har arbetat i Medvind, där man kan se funktioner som grundbehov av assistans per kund. Det var då enkelt att följa om man inte hade bemannat någon dag/timmar<br />
+andra frågor kring detta med schema , sysselsättningsdag o.s.v kanske jag får svar på när jag tittar på filmerna.<br />
+2, Finns det någon manual i pappersform?<br />
+Detta med behörigheter, finns det en funktion för mig att dokumentera som ingen annan kan se? även de som har samma behörighet som jag?<br />
+3, Kan PA föra social dokumentation i detta program?<br />
+4, kan jag skapa en signatur med logga och telefonnummer i epostprogrammet?<br />
+<br />
+Mycket tacksam för svar!<br />
+Mvh Ingeborg Berggren<br />
+Värmland Assistans <br />
+ ) => {inserted_id = 2}
+09:56:24 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = 04161ff29c3e6daa72f6cf14b52f6e02
+10:56:44 inbe006 Ingeborg Bergren UPDATING data to tables `customer_contract` fields ( hour, date_from, date_to, fkkn ) values (864.00, 2019-10-01, 2020-03-31, 1) on conditions id = 8
+10:56:44 inbe006 Ingeborg Bergren UPDATING data to tables `customer_contract_decision` fields ( first_name, last_name, mobile, email, city, comments_time, comments_other, documents ) values (FK, fk, , , Grums, , , ) on conditions contract_id = 8
+10:58:51 inbe006 Ingeborg Bergren INSERTING data into tables `customer_documentation` fields ( created_date, customer, employee, completed_date, subject, note_type, notes, priority, description, status, writable, created_by, date ) values ( 2020-01-16  10:57:14, amom001, inbe006, , Besök, , <p class="note_block_head">Datum: 2020-01-16 10:58   Dokumenterat av: Ingeborg Bergren</p></br/><p>2020-01-16, torsdag, Zaid kontaktar familjen för ett besök kommande vecka.</p>, , <p><br></p>, paborjad, , inbe006, 2020-01-16 ) => {inserted_id = 1}
+11:01:15 inbe006 Ingeborg Bergren INSERTING data into tables `customer_documentation` fields ( created_date, customer, employee, completed_date, subject, note_type, notes, priority, description, status, writable, created_by, date ) values ( 2020-01-16  10:59:29, naom001, inbe006, , Besök, dokumentation, <p class="note_block_head">Datum: 2020-01-16 11:01   Dokumenterat av: Ingeborg Bergren</p></br/><p>2020-01-16, torsdag. Zaid kontaktar familjen för ett besök kommande vecka.</p>, , <p><br></p>, paborjad, , inbe006, 2020-01-16 ) => {inserted_id = 2}
+11:01:20 inbe006 Ingeborg Bergren UPDATING data to tables `customer_documentation` fields ( created_date, customer, employee, completed_date, subject, note_type, notes, priority, description, status, writable ) values (2020-01-16 10:59:29, naom001, inbe006, 1970-01-01 01:00:00, Besök, dokumentation, <p class="note_block_head">Datum: 2020-01-16 11:01   Dokumenterat av: Ingeborg Bergren</p></br/><p>2020-01-16, torsdag. Zaid kontaktar familjen för ett besök kommande vecka.</p>, , <p><br></p>, paborjad, 1) on conditions id = 2
+11:01:20 inbe006 Ingeborg Bergren UPDATING data to tables `customer_documentation` fields ( document ) values () on conditions id = 2
+11:29:04 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = 04161ff29c3e6daa72f6cf14b52f6e02
+11:57:50 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = 04161ff29c3e6daa72f6cf14b52f6e02
+11:58:07 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = 04161ff29c3e6daa72f6cf14b52f6e02
+12:09:25 inbe006 Ingeborg Bergren UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (inbe006) on conditions session_id = 04161ff29c3e6daa72f6cf14b52f6e02
+13:00:09 zefe001 Zeid Feili INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( zefe001, 85.229.51.54, Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36 ) => {inserted_id = 8016}
+13:00:09 zefe001 Zeid Feili DELETE data from tables `temp_session` on conditions username LIKE zefe001
+13:00:09 zefe001 Zeid Feili UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2020-01-16 13:00:09) on conditions username = zefe001
+13:00:09 zefe001 Zeid Feili UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-01-16 13:00:09) on conditions username = zefe001 AND company_id = 21
+13:00:10 zefe001 Zeid Feili UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (zefe001) on conditions session_id = 8351a9faccbace03b2fe46be1562b09b
+13:40:49 zefe001 Zeid Feili DELETE data from tables `temp_session` on conditions username LIKE zefe001
+13:40:49 zefe001 Zeid Feili UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2020-01-16 13:40:49) on conditions username = zefe001
+13:40:49 zefe001 Zeid Feili UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2020-01-16 13:40:49) on conditions username = zefe001 AND company_id = 21
+13:40:49   UPDATING data to tables `log_login` fields ( logout_time ) values (2020-01-16:12:40:49) on conditions id = 8016 AND username = zefe001

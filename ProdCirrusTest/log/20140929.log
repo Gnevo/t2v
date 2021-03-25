@@ -1,0 +1,86 @@
+11:24:45 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 223.30.129.234, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/37.0.2062.120 Chrome/37.0.2062.120 Safari/537.36 ) => {inserted_id = 1806}
+11:24:45 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+11:24:45 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( error ) values (0) on conditions username = gine001
+11:24:55   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+11:24:55   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-09-29:09:24:55) on conditions id = 1806 AND username = gine001
+11:27:18 kaka003 kalle Kaarlsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( kaka003, 85.227.156.14, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36 ) => {inserted_id = 1807}
+11:27:42   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+11:27:42   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-09-29:09:27:42) on conditions id = 854 AND username = gine001
+11:28:42 kaka003 kalle Kaarlsson UPDATING data to tables `mc_note` fields ( read_users ) values (gine001,kaek001,kaka003) on conditions note_id = 33
+11:29:31 kaka003 kalle Kaarlsson UPDATING data to tables `note` fields ( status ) values (0) on conditions id = 26
+11:29:33 kaka003 kalle Kaarlsson UPDATING data to tables `note` fields ( status ) values (1) on conditions id = 26
+11:29:38 kaka003 kalle Kaarlsson UPDATING data to tables `mc_note` fields ( read_users ) values (gine001,kaek001,kaka003) on conditions note_id = 34
+11:31:06   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = kaka003
+11:31:06   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-09-29:09:31:06) on conditions id = 1807 AND username = kaka003
+11:37:55 gine001 root001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( jata001, stbj001, 2, 0, 2014-09-10, 5, 10, 1, , gine001,  ) => {inserted_id = 5747}
+11:37:55 gine001 root001 INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( stbj001, 5, 10, 0 ) => {inserted_id = 246}
+11:38:07   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+11:38:07   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-09-29:09:38:07) on conditions id = 857 AND username = gine001
+12:05:01 kaka003 kalle Kaarlsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( kaka003, 85.227.156.14, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36 ) => {inserted_id = 1809}
+12:06:55   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = kaka003
+12:06:55   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-09-29:10:06:55) on conditions id = 1809 AND username = kaka003
+12:08:07 kaka003 kalle Kaarlsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( kaka003, 85.227.156.14, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36 ) => {inserted_id = 1810}
+12:09:26   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = kaka003
+12:09:26   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-09-29:10:09:26) on conditions id = 1810 AND username = kaka003
+12:11:04 kaka003 kalle Kaarlsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( kaka003, 85.227.156.14, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36 ) => {inserted_id = 1811}
+12:14:29   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = kaka003
+12:14:29   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-09-29:10:14:29) on conditions id = 1811 AND username = kaka003
+12:48:56 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 223.30.129.234, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/37.0.2062.120 Chrome/37.0.2062.120 Safari/537.36 ) => {inserted_id = 1812}
+12:48:56 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+12:49:37 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( gine001, stal001, 1, 0, 2014-09-01, 11, 16, 1, , gine001,  ) => {inserted_id = 5748}
+12:49:37 gine001 Gilad Nevo INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( stal001, 11, 16, 0 ) => {inserted_id = 247}
+12:50:28 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , stal001, 1, 3, 2014-09-02, 0.00, 4, 0, , gine001,  ) => {inserted_id = 5749}
+12:50:28 gine001 Gilad Nevo INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( stal001, 0.00, 4, 3 ) => {inserted_id = 248}
+12:52:59 gine001 root001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( jata001, stal001, 1, 0, 2014-09-09, 5, 10, 1, , gine001,  ) => {inserted_id = 5750}
+12:52:59 gine001 root001 INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( stal001, 5, 10, 0 ) => {inserted_id = 249}
+12:53:29 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( jata001, stal001, 1, 3, 2014-09-04, 23, 24, 1, , gine001,  ) => {inserted_id = 5751}
+12:53:29 gine001 Gilad Nevo INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( jata001, stal001, 1, 3, 2014-09-05, 0, 5, 1, , gine001,  ) => {inserted_id = 5752}
+12:53:30 gine001 root001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( jata001, stal001, 1, 0, 2014-09-09, 16, 18.30, 1, , gine001,  ) => {inserted_id = 5753}
+12:53:30 gine001 root001 INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( stal001, 16, 22.30, 0 ) => {inserted_id = 250}
+12:53:30 gine001 root001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( jata001, stal001, 1, 3, 2014-09-09, 18.30, 22.30, 1, , gine001,  ) => {inserted_id = 5754}
+12:53:30 gine001 root001 INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( stal001, 16, 22.30, 3 ) => {inserted_id = 251}
+12:53:52 gine001 root001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( jata001, stal001, 1, 0, 2014-09-11, 5, 10, 1, , gine001,  ) => {inserted_id = 5755}
+12:55:35 gine001 root001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( gine001, stal001, 1, 3, 2014-09-03, 5, 7.00, 1, , gine001,  ) => {inserted_id = 5756}
+12:55:35 gine001 root001 INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( stal001, 5, 10, 3 ) => {inserted_id = 252}
+12:55:35 gine001 root001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( gine001, stal001, 1, 0, 2014-09-03, 7.00, 10, 1, , gine001,  ) => {inserted_id = 5757}
+12:56:44 gine001 root001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( jata001, stal001, 1, 3, 2014-09-06, 23.00, 24.00, 1, , gine001,  ) => {inserted_id = 5758}
+12:57:51 gine001 root001 UPDATING data to tables `timetable` fields ( type ) values (4) on conditions id = 5666
+12:58:37 gine001 root001 UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, gine001, gine001) on conditions id = 5434
+13:27:26 gine001 root001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( gine001, stal001, 1, 0, 2014-09-10, 4, 16, 1, , gine001,  ) => {inserted_id = 5759}
+13:27:26 gine001 root001 INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( stal001, 4, 16, 0 ) => {inserted_id = 253}
+13:28:31 gine001 root001 UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, jata001, gine001) on conditions id = 5693
+13:29:10 gine001 root001 UPDATING data to tables `timetable` fields ( time_from, time_to ) values (2.00, 7.00) on conditions id = 5666
+13:31:20   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+13:31:20   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-09-29:11:31:20) on conditions id = 863 AND username = gine001
+13:39:05 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, gine001, gine001) on conditions id = 5749
+13:39:21 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( employee, status ) values (, 0) on conditions id = 5749
+13:39:33 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, gine001, gine001) on conditions id = 5749
+13:41:00 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, gine001, gine001) on conditions id = 5702
+13:41:00 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, gine001, gine001) on conditions id = 5700
+13:41:37 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( employee, status ) values (, 0) on conditions id = 5702
+13:41:37 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( employee, status ) values (, 0) on conditions id = 5700
+13:41:41 gine001 root001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( gine001, stal001, 1, 0, 2014-09-17, 7.00, 16, 1, , gine001,  ) => {inserted_id = 5760}
+13:41:41 gine001 root001 INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( stal001, 7, 16, 0 ) => {inserted_id = 254}
+13:44:31 igro001 root001 UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, kaka003, igro001) on conditions id = 5687
+13:49:04 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, jata001, gine001) on conditions id = 5702
+13:49:59 igro001 root001 UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, kaka003, igro001) on conditions id = 5688
+13:50:15 igro001 root001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( rawi001, stbj001, 2, 0, 2014-09-11, 4, 10, 1, , igro001,  ) => {inserted_id = 5761}
+13:50:15 igro001 root001 INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( stbj001, 4, 10, 0 ) => {inserted_id = 255}
+13:54:11   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = gine001
+13:54:11   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-09-29:11:54:11) on conditions id = 868 AND username = gine001
+15:46:56 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 223.30.129.234, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/37.0.2062.120 Chrome/37.0.2062.120 Safari/537.36 ) => {inserted_id = 1814}
+15:46:56 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = gine001
+15:47:09 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, gine001, gine001) on conditions id = 5701
+15:47:27 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( employee, status, alloc_emp ) values (, 0, gine001) on conditions id = 5701
+16:33:17 gine001 root001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( abni001, adan001, 1, 3, 2014-09-04, 3, 18, 1, , gine001,  ) => {inserted_id = 5762}
+16:33:17 gine001 root001 INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( adan001, 3, 18, 3 ) => {inserted_id = 256}
+16:33:28 gine001 root001 UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, abni001, gine001) on conditions id = 5692
+16:35:50 gine001 root001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( , stbj001, 2, 0, 2014-09-16, 9.00, 17.00, 0, , gine001,  ) => {inserted_id = 5763}
+16:35:52 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, gine001, gine001) on conditions id = 5435
+16:35:55 gine001 root001 UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, jata001, gine001) on conditions id = 5763
+16:36:12 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( employee, status ) values (, 0) on conditions id = 5434
+16:36:36 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, gine001, gine001) on conditions id = 5434
+16:36:40 gine001 Gilad Nevo UPDATING data to tables `timetable` fields ( employee, status, alloc_emp ) values (, 0, gine001) on conditions id = 5434
+16:36:52 gine001 root001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( kaka003, stbj001, 2, 3, 2014-09-16, 16, 24, 1, , gine001,  ) => {inserted_id = 5764}
+16:36:52 gine001 root001 INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, created_status, alloc_emp, comment ) values ( kaka003, stbj001, 2, 3, 2014-09-17, 0, 10, 1, , gine001,  ) => {inserted_id = 5765}
+16:36:52 gine001 root001 INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( stbj001, 16, 10, 3 ) => {inserted_id = 257}

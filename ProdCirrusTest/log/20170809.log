@@ -1,0 +1,17 @@
+14:32:33 thne001 Theodor Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( thne001, 85.227.155.41, Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36 ) => {inserted_id = 5962}
+14:32:33 thne001 Theodor Nevo DELETE data from tables `temp_session` on conditions username LIKE thne001
+14:32:33 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2017-08-09 14:32:33) on conditions username = thne001
+14:32:33 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-08-09 14:32:33) on conditions username = thne001 AND company_id = 6
+14:32:33 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (thne001) on conditions session_id = ef4bc38921fdcb5f0c0bd6601563a111
+14:34:20 thne001 Theodor Nevo UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (, 0||0, 1-10203 : 04-07, 0||0||0||0) on conditions customer = stli001
+14:34:20 thne001 Theodor Nevo INSERTING data into tables `history_sick_report` fields ( employee, customer, file ) values ( inch001, stli001, Sick_stli001_1899414831.pdf ) => {inserted_id = 61}
+14:35:17 thne001 Theodor Nevo UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (, 0||0, 1-10203 : 05-09, 0||0||0||0) on conditions customer = stli001
+14:35:17 thne001 Theodor Nevo INSERTING data into tables `history_sick_report` fields ( employee, customer, file ) values ( boek001, stli001, Sick_stli001_794879837.pdf ) => {inserted_id = 62}
+14:37:12 thne001 Theodor Nevo UPDATING data to tables `sick_form_defaults` fields ( uppdrag, fullmakt, reference_number, check_values ) values (, 0||0, 1-10203 : 05-09, 0||0||0||0) on conditions customer = stli001
+14:37:12 thne001 Theodor Nevo INSERTING data into tables `history_sick_report` fields ( employee, customer, file ) values ( boek001, stli001, Sick_stli001_1272919114.pdf ) => {inserted_id = 63}
+14:40:13 thne001 Theodor Nevo UPDATING data to tables `employee` fields ( language ) values (en) on conditions username = thne001
+14:40:18 thne001 Theodor Nevo UPDATING data to tables `employee` fields ( language ) values (se) on conditions username = thne001
+14:44:14 thne001 Theodor Nevo DELETE data from tables `temp_session` on conditions username LIKE thne001
+14:44:14 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (0, 2017-08-09 14:44:14) on conditions username = thne001
+14:44:14 thne001 Theodor Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2017-08-09 14:44:14) on conditions username = thne001 AND company_id = 6
+14:44:14   UPDATING data to tables `log_login` fields ( logout_time ) values (2017-08-09:12:44:14) on conditions id = 5962 AND username = thne001

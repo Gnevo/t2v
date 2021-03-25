@@ -1,0 +1,28 @@
+07:04:05 than001 Thomas Andersson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( than001, 223.30.129.234, Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:22.0) Gecko/20100101 Firefox/22.0 ) => {inserted_id = 1661}
+07:05:14 than001 Thomas Andersson UPDATING data to tables `holiday_block_master` fields ( name, group_id, effect_from, effect_to, date_from, date_to, start_time, end_time, type ) values (Nationaldagen, 9, 2012, , 06-05, 06-06, 18.00, 18.00, 2) on conditions id = 9
+07:05:14 than001 Thomas Andersson DELETE data from tables `holiday_block` on conditions block_master_id = 9
+07:05:14 than001 Thomas Andersson INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 9, 1, 2 ) => {inserted_id = 147}
+07:05:14 than001 Thomas Andersson INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 9, 2, 1 ) => {inserted_id = 148}
+07:06:58 than001 Thomas Andersson INSERTING data into tables `holiday_block_master` fields ( name, group_id, effect_from, effect_to, date_from, date_to, start_time, end_time, type ) values ( testing new, 13, 2014, , 05-06, 05-11, 18.00, 18.00, 2 ) => {inserted_id = 24}
+07:06:58 than001 Thomas Andersson INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 24, 1, 2 ) => {inserted_id = 149}
+07:06:58 than001 Thomas Andersson INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 24, 2, 1 ) => {inserted_id = 150}
+07:06:58 than001 Thomas Andersson INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 24, 3, 2 ) => {inserted_id = 151}
+07:06:58 than001 Thomas Andersson INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 24, 4, 2 ) => {inserted_id = 152}
+07:06:58 than001 Thomas Andersson INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 24, 5, 2 ) => {inserted_id = 153}
+07:06:58 than001 Thomas Andersson INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 24, 6, 2 ) => {inserted_id = 154}
+07:08:32   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = than001
+07:08:32   UPDATING data to tables `log_login` fields ( logout_time ) values (2014-05-20:05:08:32) on conditions id = 1661 AND username = than001
+18:30:06 gine001 root001 DELETE data from tables `holiday_block_master` on conditions id = 24
+18:30:06 gine001 root001 DELETE data from tables `holiday_block` on conditions block_master_id = 24
+18:30:20 gine001 root001 UPDATING data to tables `holiday_block_master` fields ( name, group_id, effect_from, effect_to, date_from, date_to, start_time, end_time, type ) values (Pingst, 2, 2013, , 05-17, 05-20, 18.00, 7.00, 2) on conditions id = 16
+18:30:20 gine001 root001 DELETE data from tables `holiday_block` on conditions block_master_id = 16
+18:30:20 gine001 root001 INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 16, 1, 2 ) => {inserted_id = 155}
+18:30:20 gine001 root001 INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 16, 2, 2 ) => {inserted_id = 156}
+18:30:20 gine001 root001 INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 16, 3, 1 ) => {inserted_id = 157}
+18:30:20 gine001 root001 INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 16, 4, 2 ) => {inserted_id = 158}
+18:30:51 gine001 root001 UPDATING data to tables `holiday_block_master` fields ( name, group_id, effect_from, effect_to, date_from, date_to, start_time, end_time, type ) values (Pingst, 2, 2014, , 06-06, 06-09, 18.00, 7.00, 2) on conditions id = 16
+18:30:51 gine001 root001 DELETE data from tables `holiday_block` on conditions block_master_id = 16
+18:30:51 gine001 root001 INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 16, 1, 2 ) => {inserted_id = 159}
+18:30:51 gine001 root001 INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 16, 2, 2 ) => {inserted_id = 160}
+18:30:51 gine001 root001 INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 16, 3, 1 ) => {inserted_id = 161}
+18:30:51 gine001 root001 INSERTING data into tables `holiday_block` fields ( block_master_id, day, type ) values ( 16, 4, 2 ) => {inserted_id = 162}

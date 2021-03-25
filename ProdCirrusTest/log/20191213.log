@@ -1,0 +1,18 @@
+06:33:03 dodo001 Admin Cirrus INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( dodo001, 112.133.237.1, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 ) => {inserted_id = 10815}
+06:33:03 dodo001 Admin Cirrus DELETE data from tables `temp_session` on conditions username LIKE dodo001
+06:33:03 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-12-13 06:33:03) on conditions username = dodo001
+06:33:03 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-12-13 06:33:03) on conditions username = dodo001 AND company_id = 6
+06:39:02 dodo001 Admin Cirrus UPDATING data to tables `time2vie_cirruscommon`.`ws_sessions` fields ( user_id ) values (dodo001) on conditions session_id = 4d03134f868a14567b830443b169a04b
+15:23:33 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+15:23:33 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 183.88.108.121, okhttp/3.9.1 ) => {inserted_id = 10816}
+15:23:33 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+15:23:33 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-12-13 15:23:33) on conditions username = gine001
+15:23:33 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-12-13 15:23:33) on conditions username = gine001 AND company_id = 6
+15:29:57 gine001 Gilad Nevo INSERTING data into tables `time2vie_cirruscommon`.`support_ticket_answers` fields ( ticket_id, submited_user, answer, category_id, priority, ticket_type, status, hidden ) values ( 2620, gine001, Hej Mukhlis
+I ärendet 2616 har vi beskrivning att Kunden var ALDRIG menat att kunna signera dessa dokument.
+Vi ska titta på detta har vi också skrivit., 20, 2, 1, 4, 0 ) => {inserted_id = 6928} #Mobile-App: Log-id=10816
+20:05:46 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( error ) values (0) on conditions username = gine001 AND company_id = 6
+20:05:46 gine001 Gilad Nevo INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( gine001, 183.88.108.121, okhttp/3.9.1 ) => {inserted_id = 10817}
+20:05:46 gine001 Gilad Nevo DELETE data from tables `temp_session` on conditions username LIKE gine001
+20:05:46 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login, last_time ) values (1, 2019-12-13 20:05:46) on conditions username = gine001
+20:05:46 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`secondary_login` fields ( last_login_time ) values (2019-12-13 20:05:46) on conditions username = gine001 AND company_id = 6

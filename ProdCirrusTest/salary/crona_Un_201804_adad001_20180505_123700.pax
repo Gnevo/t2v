@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<paxml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.paxml.se/2.0/paxml.xsd">
+  <header>
+    <format>LÖNIN</format>
+    <version>2.0</version>
+    <foretagnamn>CirrusTest</foretagnamn>
+  </header>
+  <dimensioner>
+    <dimension dim="1" namn="Brukare"/>
+  </dimensioner>
+  <resultatenheter>
+    <resultatenhet dim="1" id="10202" namn="Stan Alone"/>
+    <resultatenhet dim="1" id="1-10201" namn="Adam Andersson"/>
+    <resultatenhet dim="1" id="1-1-10207" namn="Henke Larsson"/>
+  </resultatenheter>
+  <lonetransaktioner>
+    <lonetrans persnr="192105051300">
+      <lonart>509</lonart>
+      <antal>3</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-10201"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="192105051300">
+      <lonart>57</lonart>
+      <antal>0</antal>
+      <resenheter>
+        <resenhet dim="1" id=""/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="192105051300">
+      <lonart>58</lonart>
+      <antal>273.41</antal>
+      <resenheter>
+        <resenhet dim="1" id=""/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="194503032221">
+      <lonart>8866</lonart>
+      <antal>7</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="194503032221">
+      <lonart>509</lonart>
+      <antal>7</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="194503032221">
+      <lonart>509</lonart>
+      <antal>7</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="194503032221">
+      <lonart>509</lonart>
+      <antal>13.25</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="194503032221">
+      <lonart>509</lonart>
+      <antal>7</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="194503032221">
+      <lonart>509</lonart>
+      <antal>7</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="194503032221">
+      <lonart>509</lonart>
+      <antal>7</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="194503032221">
+      <lonart>509</lonart>
+      <antal>13.25</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="194503032221">
+      <lonart>509</lonart>
+      <antal>13.25</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="194503032221">
+      <lonart>509</lonart>
+      <antal>7</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="194503032221">
+      <lonart>509</lonart>
+      <antal>8</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="194503032221">
+      <lonart>509</lonart>
+      <antal>2.25</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="194503032221">
+      <lonart>34</lonart>
+      <antal>2</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="194503032221">
+      <lonart>34</lonart>
+      <antal>2</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="194503032221">
+      <lonart>34</lonart>
+      <antal>3</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="194503032221">
+      <lonart>35</lonart>
+      <antal>13.25</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="194503032221">
+      <lonart>35</lonart>
+      <antal>2</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="194503032221">
+      <lonart>35</lonart>
+      <antal>7</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="194503032221">
+      <lonart>35</lonart>
+      <antal>13.25</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="194503032221">
+      <lonart>36</lonart>
+      <antal>0.25</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="194503032221">
+      <lonart>6</lonart>
+      <antal>3</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="194503032221">
+      <lonart>99</lonart>
+      <antal>1.75</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="194503032221">
+      <lonart>87</lonart>
+      <antal>1.75</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="194503032221">
+      <lonart>87</lonart>
+      <antal>7.75</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="194503032221">
+      <lonart>57</lonart>
+      <antal>0</antal>
+      <resenheter>
+        <resenhet dim="1" id=""/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="194503032221">
+      <lonart>58</lonart>
+      <antal>51.45</antal>
+      <resenheter>
+        <resenhet dim="1" id=""/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>34</lonart>
+      <antal>2</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>34</lonart>
+      <antal>2</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>34</lonart>
+      <antal>2</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>34</lonart>
+      <antal>2</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>34</lonart>
+      <antal>2</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>34</lonart>
+      <antal>2</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>34</lonart>
+      <antal>3</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>34</lonart>
+      <antal>2</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>509</lonart>
+      <antal>7</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>509</lonart>
+      <antal>7</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>509</lonart>
+      <antal>7</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>509</lonart>
+      <antal>7</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>509</lonart>
+      <antal>7</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>509</lonart>
+      <antal>7</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>509</lonart>
+      <antal>5.25</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>509</lonart>
+      <antal>2.25</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>509</lonart>
+      <antal>7</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>509</lonart>
+      <antal>13.25</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>509</lonart>
+      <antal>13.25</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>509</lonart>
+      <antal>9.25</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>509</lonart>
+      <antal>7</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>509</lonart>
+      <antal>8</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>509</lonart>
+      <antal>2.25</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>509</lonart>
+      <antal>8</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>35</lonart>
+      <antal>7</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>35</lonart>
+      <antal>3.25</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>35</lonart>
+      <antal>2.25</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>35</lonart>
+      <antal>13.25</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>35</lonart>
+      <antal>9.25</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>36</lonart>
+      <antal>0.25</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>99</lonart>
+      <antal>1.75</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>99</lonart>
+      <antal>7.75</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>99</lonart>
+      <antal>1.75</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>99</lonart>
+      <antal>7.75</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>87</lonart>
+      <antal>1.75</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>87</lonart>
+      <antal>7.75</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>57</lonart>
+      <antal>0</antal>
+      <resenheter>
+        <resenhet dim="1" id=""/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198312019626">
+      <lonart>58</lonart>
+      <antal>166.59</antal>
+      <resenheter>
+        <resenhet dim="1" id=""/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="199507220458">
+      <lonart>34</lonart>
+      <antal>3</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="199507220458">
+      <lonart>34</lonart>
+      <antal>3</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="199507220458">
+      <lonart>36</lonart>
+      <antal>0.25</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="199507220458">
+      <lonart>36</lonart>
+      <antal>0.25</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="199507220458">
+      <lonart>509</lonart>
+      <antal>13.25</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="199507220458">
+      <lonart>509</lonart>
+      <antal>13.25</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="199507220458">
+      <lonart>509</lonart>
+      <antal>2.25</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="199507220458">
+      <lonart>509</lonart>
+      <antal>2.25</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="199507220458">
+      <lonart>509</lonart>
+      <antal>2.25</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="199507220458">
+      <lonart>99</lonart>
+      <antal>7.75</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="199507220458">
+      <lonart>87</lonart>
+      <antal>1.75</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="199507220458">
+      <lonart>87</lonart>
+      <antal>7.75</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="199507220458">
+      <lonart>87</lonart>
+      <antal>1.75</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="199507220458">
+      <lonart>87</lonart>
+      <antal>7.75</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-1-10207"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="199507220458">
+      <lonart>57</lonart>
+      <antal>0</antal>
+      <resenheter>
+        <resenhet dim="1" id=""/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="199507220458">
+      <lonart>58</lonart>
+      <antal>61.89</antal>
+      <resenheter>
+        <resenhet dim="1" id=""/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="199008214943">
+      <lonart>509</lonart>
+      <antal>1</antal>
+      <resenheter>
+        <resenhet dim="1" id="1-10201"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="199008214943">
+      <lonart>57</lonart>
+      <antal>0</antal>
+      <resenheter>
+        <resenhet dim="1" id=""/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="199008214943">
+      <lonart>58</lonart>
+      <antal>121.39</antal>
+      <resenheter>
+        <resenhet dim="1" id=""/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="195807012058">
+      <lonart>35</lonart>
+      <antal>2.58</antal>
+      <resenheter>
+        <resenhet dim="1" id="10202"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="195807012058">
+      <lonart>35</lonart>
+      <antal>6</antal>
+      <resenheter>
+        <resenhet dim="1" id="10202"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="195807012058">
+      <lonart>509</lonart>
+      <antal>2.58</antal>
+      <resenheter>
+        <resenhet dim="1" id="10202"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="195807012058">
+      <lonart>509</lonart>
+      <antal>6</antal>
+      <resenheter>
+        <resenhet dim="1" id="10202"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="195807012058">
+      <lonart>57</lonart>
+      <antal>0</antal>
+      <resenheter>
+        <resenhet dim="1" id=""/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="195807012058">
+      <lonart>58</lonart>
+      <antal>138.65</antal>
+      <resenheter>
+        <resenhet dim="1" id=""/>
+      </resenheter>
+    </lonetrans>
+  </lonetransaktioner>
+</paxml>

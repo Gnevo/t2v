@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<paxml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.paxml.se/2.0/paxml.xsd">
+  <header>
+    <format>LÖNIN</format>
+    <version>2.0</version>
+    <foretagnamn>Libra - Test</foretagnamn>
+  </header>
+  <dimensioner>
+    <dimension dim="1" namn="Brukare"/>
+  </dimensioner>
+  <resultatenheter>
+    <resultatenhet dim="1" id="Lib06" namn="Libra Assistans"/>
+  </resultatenheter>
+  <lonetransaktioner>
+    <lonetrans persnr="198501067121">
+      <lonart>3358</lonart>
+      <antal>7</antal>
+      <datum>2021-02-01</datum>
+      <resenheter>
+        <resenhet dim="1" id="Lib06"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198501067121">
+      <lonart>3358</lonart>
+      <antal>24</antal>
+      <datumfrom>2021-02-03T00:00:00</datumfrom>
+      <datumtom>2021-02-04T00:00:00</datumtom>
+      <resenheter>
+        <resenhet dim="1" id="Lib06"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198501067121">
+      <lonart>3358</lonart>
+      <antal>24</antal>
+      <datumfrom>2021-02-08T00:00:00</datumfrom>
+      <datumtom>2021-02-09T00:00:00</datumtom>
+      <resenheter>
+        <resenhet dim="1" id="Lib06"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198501067121">
+      <lonart>3358</lonart>
+      <antal>24</antal>
+      <datumfrom>2021-02-13T00:00:00</datumfrom>
+      <datumtom>2021-02-14T00:00:00</datumtom>
+      <resenheter>
+        <resenhet dim="1" id="Lib06"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198501067121">
+      <lonart>3358</lonart>
+      <antal>48</antal>
+      <datumfrom>2021-02-16T00:00:00</datumfrom>
+      <datumtom>2021-02-19T00:00:00</datumtom>
+      <resenheter>
+        <resenhet dim="1" id="Lib06"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198501067121">
+      <lonart>3358</lonart>
+      <antal>17</antal>
+      <datum>2021-02-26</datum>
+      <resenheter>
+        <resenhet dim="1" id="Lib06"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="198501067121">
+      <lonart>3358</lonart>
+      <antal>17</antal>
+      <datum>2021-02-28</datum>
+      <resenheter>
+        <resenhet dim="1" id="Lib06"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="199208302886">
+      <lonart>3146</lonart>
+      <antal>14</antal>
+      <datum>2021-02-04</datum>
+      <resenheter>
+        <resenhet dim="1" id="Lib06"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="199208302886">
+      <lonart>3146</lonart>
+      <antal>10</antal>
+      <datum>2021-02-05</datum>
+      <resenheter>
+        <resenhet dim="1" id="Lib06"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="199208302886">
+      <lonart>3146</lonart>
+      <antal>14</antal>
+      <datum>2021-02-12</datum>
+      <resenheter>
+        <resenhet dim="1" id="Lib06"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="199208302886">
+      <lonart>3146</lonart>
+      <antal>10</antal>
+      <datum>2021-02-13</datum>
+      <resenheter>
+        <resenhet dim="1" id="Lib06"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="199208302886">
+      <lonart>3146</lonart>
+      <antal>14</antal>
+      <datum>2021-02-14</datum>
+      <resenheter>
+        <resenhet dim="1" id="Lib06"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="199208302886">
+      <lonart>3146</lonart>
+      <antal>10</antal>
+      <datum>2021-02-15</datum>
+      <resenheter>
+        <resenhet dim="1" id="Lib06"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="199208302886">
+      <lonart>3146</lonart>
+      <antal>14</antal>
+      <datum>2021-02-18</datum>
+      <resenheter>
+        <resenhet dim="1" id="Lib06"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="199208302886">
+      <lonart>3146</lonart>
+      <antal>10</antal>
+      <datum>2021-02-19</datum>
+      <resenheter>
+        <resenhet dim="1" id="Lib06"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="199208302886">
+      <lonart>3146</lonart>
+      <antal>14</antal>
+      <datum>2021-02-27</datum>
+      <resenheter>
+        <resenhet dim="1" id="Lib06"/>
+      </resenheter>
+    </lonetrans>
+    <lonetrans persnr="199208302886">
+      <lonart>3146</lonart>
+      <antal>10</antal>
+      <datum>2021-02-28</datum>
+      <resenheter>
+        <resenhet dim="1" id="Lib06"/>
+      </resenheter>
+    </lonetrans>
+  </lonetransaktioner>
+</paxml>

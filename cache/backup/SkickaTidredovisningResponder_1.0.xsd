@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema version="1.0"
+           targetNamespace="urn:shs:emottagning:SkickaTidredovisning:1"
+           xmlns:tns="urn:shs:emottagning:SkickaTidredovisning:1"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:xmime="http://www.w3.org/2005/05/xmlmime"
+           elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+  <xs:import namespace="http://www.w3.org/2005/05/xmlmime"
+             schemaLocation="xmlmime.xsd"/>
+
+  <xs:element name="SkickaTidredovisning"
+              type="tns:SkickaTidredovisningType"/>
+
+  <xs:element name="SkickaTidredovisningResponse"
+              type="tns:SkickaTidredovisningResponseType"/>
+
+  <xs:element name="XmlValidationError"
+              type="tns:XmlValidationErrorType"/>
+
+  <xs:element name="SignatureValidationError"
+              type="tns:SignatureValidationErrorType"/>
+
+  <xs:complexType name="SkickaTidredovisningType">
+    <xs:annotation>
+      <xs:documentation>Skicka tidredovisning</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="tidredovisning" type="xmime:base64Binary">
+        <xs:annotation>
+          <xs:documentation>XML-fil med tidredovisning enligt schemat
+          tidredovisning_extern_v1.xsd. XML-filen måste vara exakt
+          likadan som den var när den signerades.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="assistent-signatur" type="tns:SignatureType"/>
+      <xs:element name="anordnare-signatur" type="tns:SignatureType"/>
+      <xs:any processContents="lax" minOccurs="0" maxOccurs="unbounded"
+              namespace="##other"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="SkickaTidredovisningResponseType">
+    <xs:annotation>
+      <xs:documentation>Kvitto på inlämnad tidredovisning</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="tx-id" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>Transaktions-ID på UUID-format. Exempel:
+          4a8db4b8-bc29-4406-901c-3f69298cabe3</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:any processContents="lax" minOccurs="0" maxOccurs="unbounded"
+              namespace="##other"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="SignatureType">
+    <xs:sequence>
+      <xs:element name="signature" type="xmime:base64Binary">
+        <xs:annotation>
+          <xs:documentation>Signatur från BankID</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ocspResponse" type="xmime:base64Binary">
+        <xs:annotation>
+          <xs:documentation>OCSP-svar från BankID</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="datumForSignatur" type="xs:date">
+        <xs:annotation>
+          <xs:documentation>Tidpunkt då signeringen gjordes</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:any processContents="lax" minOccurs="0" maxOccurs="unbounded"
+              namespace="##other"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="XmlValidationErrorType">
+    <xs:sequence>
+      <xs:element name="message" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="SignatureValidationErrorType">
+    <xs:sequence>
+      <xs:element name="message" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

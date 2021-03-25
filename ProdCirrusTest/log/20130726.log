@@ -1,0 +1,44 @@
+10:19:16 gine001 Gilad Nevo INSERTING data into tables `log_login`fields username, ip, browser values ( gine001, 115.248.24.177, Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0 )
+10:19:16 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = gine001
+10:20:21 gine001 Gilad Nevo INSERTING data into tables `signing_employer`fields customer, year, month, fkkn values ( anst007, 2013, 7, 1 )
+10:20:21 gine001 Gilad Nevo INSERTING data into tables `signing_employer_data`fields master_id, employee, employer, employer_role values ( 50, anfr005, gine001, TL )
+10:20:21 gine001 Gilad Nevo INSERTING data into tables `signing_employer_data`fields master_id, employee, employer, employer_role values ( 50, anra004, gine001, TL )
+10:20:21 gine001 Gilad Nevo INSERTING data into tables `signing_employer_data`fields master_id, employee, employer, employer_role values ( 50, cher005, gine001, TL )
+10:20:21 gine001 Gilad Nevo INSERTING data into tables `signing_employer_data`fields master_id, employee, employer, employer_role values ( 50, chfr001, gine001, TL )
+10:20:21 gine001 Gilad Nevo INSERTING data into tables `signing_employer_data`fields master_id, employee, employer, employer_role values ( 50, chyi001, gine001, TL )
+10:20:21 gine001 Gilad Nevo INSERTING data into tables `signing_employer_data`fields master_id, employee, employer, employer_role values ( 50, lima003, gine001, TL )
+10:20:21 gine001 Gilad Nevo INSERTING data into tables `signing_employer_data`fields master_id, employee, employer, employer_role values ( 50, mali008, gine001, TL )
+10:21:06 gine001 Gilad Nevo DELETE data from tables `signing_employer_data` on conditions master_id = 50 AND employee = anfr005
+10:22:13 gine001 Gilad Nevo DELETE data from tables `signing_employer_data` on conditions master_id = 50 AND employee = chyi001
+10:24:25 gine001 Gilad Nevo INSERTING data into tables `samsida`fields month, year, customer, how_is_asst_provided, how_is_asst_provided_orgno, did_u_hostpilized_this_month, hostpilized_date_from, hostpilized_date_to, hospital, did_u_included_hospitalized_hours, hostpitalized_hours, other_info, did_u_provide_info_annex, signature_options, signed_employer_name, signed_employer_telephone, do_u_hire_asst_provider, asst_provider_orgno, have_money_left_not_to_purchase1, money_left1, is_u_r_ur_asst_provider, do_u_get_himself_money, asst_provider1, asst_provider_orgno1, asst_provider2, asst_provider_orgno2, asst_provider3, asst_provider_orgno3, do_u_attach_receipt, money_left_not_to_purchase2, money_left2, do_u_live_outside_EEA_country, accounting_date_from, accounting_date_to, salary_excl_OB_cost, salary_excl_OB_period, salary_OB_cost, salary_OB_period, assist_expenses_cost, assist_expenses_period, training_cost, training_period, staff_expense_cost, staff_expense_period, administration_cost, administration_period values ( 7, 2013, anst007, 1||1||0||0, 12121212, 1, 2013-07-10, 2013-07-12, MIMS, 0, , Test, 1, , Zak, 9892323, 0, , 1, 222, 1, 1, aaaaaaaaaa, 111111111, bbbbbbbb, 222222222, cddd, 34, 0, 1, 66, 1, 2013-07-11, 2013-07-19, 1, 11, 2, 22, 3, 33, 4, 44, 5, 55, 6, 66 )
+10:25:01 gine001 Gilad Nevo INSERTING data into tables `history_samsida_work_report`fields month, year, fkkn, customer, employee, file_name values ( 7, 2013, 1, anst007, , Samsida_360056247.pdf )
+10:31:57 gine001 Gilad Nevo DELETE data from tables `signing_employer` on conditions customer = anst007 AND year = 2013 AND month = 7 AND fkkn = 1
+10:32:04 gine001 Gilad Nevo INSERTING data into tables `signing_employer`fields customer, year, month, fkkn values ( anst007, 2013, 7, 1 )
+10:32:04 gine001 Gilad Nevo INSERTING data into tables `signing_employer_data`fields master_id, employee, employer, employer_role values ( 51, anfr005, gine001, TL )
+10:32:04 gine001 Gilad Nevo INSERTING data into tables `signing_employer_data`fields master_id, employee, employer, employer_role values ( 51, anra004, gine001, TL )
+10:32:04 gine001 Gilad Nevo INSERTING data into tables `signing_employer_data`fields master_id, employee, employer, employer_role values ( 51, cher005, gine001, TL )
+10:32:04 gine001 Gilad Nevo INSERTING data into tables `signing_employer_data`fields master_id, employee, employer, employer_role values ( 51, chfr001, gine001, TL )
+10:32:04 gine001 Gilad Nevo INSERTING data into tables `signing_employer_data`fields master_id, employee, employer, employer_role values ( 51, chyi001, gine001, TL )
+10:32:04 gine001 Gilad Nevo INSERTING data into tables `signing_employer_data`fields master_id, employee, employer, employer_role values ( 51, lima003, gine001, TL )
+10:32:04 gine001 Gilad Nevo INSERTING data into tables `signing_employer_data`fields master_id, employee, employer, employer_role values ( 51, mali008, gine001, TL )
+10:40:43 gine001 Gilad Nevo INSERTING data into tables `log_login`fields username, ip, browser values ( gine001, 85.227.154.64, Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; NP06) )
+10:40:43 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = gine001
+10:52:05 gine001 Gilad Nevo DELETE data from tables `signing_employer_data` on conditions master_id = 51 AND employee = anfr005
+10:52:07 gine001 Gilad Nevo DELETE data from tables `signing_employer_data` on conditions master_id = 51 AND employee = anra004
+12:24:30   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = gine001
+12:24:30   UPDATING data to tables `log_login`fields Array values 2013-07-26:10:24:30 on conditions id = 1247 AND username = gine001
+12:29:15   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = gine001
+12:29:15   UPDATING data to tables `log_login`fields Array values 2013-07-26:10:29:15 on conditions id = 1246 AND username = gine001
+12:33:04 gine001 Gilad Nevo INSERTING data into tables `log_login`fields username, ip, browser values ( gine001, 115.248.24.177, Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0 )
+12:33:04 gine001 Gilad Nevo UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 1 on conditions username = gine001
+12:33:32 gine001 Gilad Nevo DELETE data from tables `signing_employer_data` on conditions master_id = 51
+12:33:32 gine001 Gilad Nevo INSERTING data into tables `signing_employer_data`fields master_id, employee, employer, employer_role values ( 51, anfr005, gine001, Admin )
+12:33:32 gine001 Gilad Nevo INSERTING data into tables `signing_employer_data`fields master_id, employee, employer, employer_role values ( 51, anra004, gine001, Admin )
+12:33:32 gine001 Gilad Nevo INSERTING data into tables `signing_employer_data`fields master_id, employee, employer, employer_role values ( 51, cher005, gine001, Admin )
+12:33:32 gine001 Gilad Nevo INSERTING data into tables `signing_employer_data`fields master_id, employee, employer, employer_role values ( 51, chfr001, gine001, Admin )
+12:33:32 gine001 Gilad Nevo INSERTING data into tables `signing_employer_data`fields master_id, employee, employer, employer_role values ( 51, chyi001, gine001, Admin )
+12:33:32 gine001 Gilad Nevo INSERTING data into tables `signing_employer_data`fields master_id, employee, employer, employer_role values ( 51, lima003, gine001, Admin )
+12:33:32 gine001 Gilad Nevo INSERTING data into tables `signing_employer_data`fields master_id, employee, employer, employer_role values ( 51, mali008, gine001, Admin )
+12:33:36 gine001 Gilad Nevo DELETE data from tables `signing_employer_data` on conditions master_id = 51 AND employee = cher005
+12:36:07   UPDATING data to tables `time2vie_cirruscommon`.`login`fields Array values 0 on conditions username = gine001
+12:36:07   UPDATING data to tables `log_login`fields Array values 2013-07-26:10:36:07 on conditions id = 1248 AND username = gine001

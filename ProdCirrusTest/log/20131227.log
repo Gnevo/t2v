@@ -1,0 +1,47 @@
+10:01:00   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = rokl001
+10:01:00   UPDATING data to tables `log_login` fields ( logout_time ) values (2013-12-27:09:01:00) on conditions id = 265 AND username = rokl001
+10:01:11 joef001 Joel Efraimsson INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( joef001, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36 ) => {inserted_id = 1351}
+10:01:11 joef001 Joel Efraimsson UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = joef001
+10:05:54 joef001 Joel Efraimsson INSERTING data into tables `timetable` fields ( employee, customer, type, date, time_from, time_to, status, relation_id, alloc_emp ) values ( joef001, hesv001, 0, 2014-01-02, 10.10, 12.00, 1, 3520, joef001 ) => {inserted_id = 4154}
+10:05:54 joef001 Joel Efraimsson UPDATING data to tables `timetable` fields ( time_to ) values (10.10) on conditions id = 3522
+10:06:09 joef001 Joel Efraimsson UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 4154
+10:06:09 joef001 Joel Efraimsson INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( hesv001, 2014-01-02, 10.10, 12.00, 0, 1, , joef001, 4154, 0 ) => {inserted_id = 4155}
+10:06:09 joef001 Joel Efraimsson INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status ) values ( 36, joef001, 2014-01-02, 10.1, 12, 3, , joef001, 0 ) => {inserted_id = 63}
+10:06:33 joef001 Joel Efraimsson UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, joef001, joef001) on conditions id = 3452
+10:10:54 joef001 Joel Efraimsson UPDATING data to tables `mc_note` fields ( read_users ) values (joef001,wita001,joef001,joef001,joef001) on conditions note_id = 8
+10:12:29   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = joef001
+10:12:29   UPDATING data to tables `log_login` fields ( logout_time ) values (2013-12-27:09:12:29) on conditions id = 1351 AND username = joef001
+10:12:40 wita001 Wilander Sture INSERTING data into tables `log_login` fields ( username, ip, browser ) values ( wita001, 85.89.70.141, Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36 ) => {inserted_id = 1352}
+10:12:40 wita001 Wilander Sture UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (1) on conditions username = wita001
+10:14:36 wita001 Wilander Sture UPDATING data to tables `timetable` fields ( time_from, time_to ) values (9.00, 13.15) on conditions id = 3452
+10:15:14 wita001 Wilander Sture UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 3452
+10:15:14 wita001 Wilander Sture INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, employee, status ) values ( hesv001, 2014-01-03, 9.00, 13.15, 0, 1, , wita001, 3452, jata001, 1 ) => {inserted_id = 4156}
+10:15:14 wita001 Wilander Sture INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status ) values ( 37, joef001, 2014-01-03, 9, 13.15, 3, , wita001, 0 ) => {inserted_id = 64}
+10:15:49 wita001 Wilander Sture UPDATING data to tables `timetable` fields ( status ) values (2) on conditions id = 4101
+10:15:49 wita001 Wilander Sture INSERTING data into tables `timetable` fields ( customer, date, time_from, time_to, type, fkkn, comment, alloc_emp, relation_id, status ) values ( hesv001, 2014-01-16, 8.00, 17.00, 0, 1, , wita001, 4101, 0 ) => {inserted_id = 4157}
+10:15:49 wita001 Wilander Sture INSERTING data into tables `leave` fields ( group_id, employee, date, time_from, time_to, type, comment, appr_emp, status ) values ( 38, lima003, 2014-01-16, 8, 17, 2, , wita001, 0 ) => {inserted_id = 65}
+10:16:09 wita001 Wilander Sture INSERTING data into tables `mc_leave` fields ( leave_id, leave_status, read_users ) values ( 38, 0, wita001 ) => {inserted_id = 41}
+10:16:09 wita001 Wilander Sture INSERTING data into tables `mc_leave` fields ( leave_id, leave_status, read_users ) values ( 37, 0, wita001 ) => {inserted_id = 42}
+10:16:09 wita001 Wilander Sture INSERTING data into tables `mc_leave` fields ( leave_id, leave_status, read_users ) values ( 36, 0, wita001 ) => {inserted_id = 43}
+10:16:09 wita001 Wilander Sture INSERTING data into tables `mc_leave` fields ( leave_id, leave_status, read_users ) values ( 35, 1, wita001 ) => {inserted_id = 44}
+10:21:31 wita001 Wilander Sture INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , hesv001, 1, 0, 2014-01-31, 7.15, 17.45, 0, wita001 ) => {inserted_id = 4158}
+10:21:31 wita001 Wilander Sture INSERTING data into tables `memory_slots` fields ( customer, time_from, time_to, type ) values ( hesv001, 7.15, 17.45, 0 ) => {inserted_id = 159}
+10:21:35 wita001 Wilander Sture UPDATING data to tables `timetable` fields ( fkkn ) values (2) on conditions id = 4158
+10:21:36 wita001 Wilander Sture UPDATING data to tables `timetable` fields ( fkkn ) values (1) on conditions id = 4158
+10:22:09 wita001 Wilander Sture INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , hesv001, 1, 3, 2014-01-31, 0.00, 6.00, 0, wita001 ) => {inserted_id = 4159}
+10:22:09 wita001 Wilander Sture INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , hesv001, 1, 0, 2014-01-31, 7.30, 18.00, 0, wita001 ) => {inserted_id = 4160}
+10:22:09 wita001 Wilander Sture INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , hesv001, 1, 0, 2014-01-31, 19.30, 22.30, 0, wita001 ) => {inserted_id = 4161}
+10:22:09 wita001 Wilander Sture INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( , hesv001, 1, 3, 2014-01-31, 22.30, 24.00, 0, wita001 ) => {inserted_id = 4162}
+10:22:35 wita001 Wilander Sture UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, joef001, wita001) on conditions id = 4159
+10:22:35 wita001 Wilander Sture UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, joef001, wita001) on conditions id = 4161
+10:22:35 wita001 Wilander Sture UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, joef001, wita001) on conditions id = 4162
+10:22:44 wita001 Wilander Sture UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, moen001, wita001) on conditions id = 4158
+10:22:44 wita001 Wilander Sture INSERTING data into tables `general_customer_employee_settings` fields ( settings_owner, customer, employee, dont_show_slot_operation_flag ) values ( wita001, hesv001, moen001, 1 ) => {inserted_id = 7}
+10:22:51 wita001 Wilander Sture UPDATING data to tables `timetable` fields ( status, employee, alloc_emp ) values (1, wita001, wita001) on conditions id = 4160
+10:23:21 wita001 Wilander Sture INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( joef001, hesv001, 1, 3, 2014-02-01, 0.00, 6.00, 1, wita001 ) => {inserted_id = 4163}
+10:23:21 wita001 Wilander Sture INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( moen001, hesv001, 1, 0, 2014-02-01, 7.15, 17.45, 1, wita001 ) => {inserted_id = 4164}
+10:23:21 wita001 Wilander Sture INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( wita001, hesv001, 1, 0, 2014-02-01, 7.30, 18.00, 1, wita001 ) => {inserted_id = 4165}
+10:23:21 wita001 Wilander Sture INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( joef001, hesv001, 1, 0, 2014-02-01, 19.30, 22.30, 1, wita001 ) => {inserted_id = 4166}
+10:23:21 wita001 Wilander Sture INSERTING data into tables `timetable` fields ( employee, customer, fkkn, type, date, time_from, time_to, status, alloc_emp ) values ( joef001, hesv001, 1, 3, 2014-02-01, 22.30, 24.00, 1, wita001 ) => {inserted_id = 4167}
+10:42:10   UPDATING data to tables `time2vie_cirruscommon`.`login` fields ( login ) values (0) on conditions username = wita001
+10:42:10   UPDATING data to tables `log_login` fields ( logout_time ) values (2013-12-27:09:42:10) on conditions id = 1352 AND username = wita001
